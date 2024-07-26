@@ -9,7 +9,6 @@ public class PlayerMove : MonoBehaviour
     public float walkSpeed = 3.5f;  // 걷기 속도
     public float rotSpeed = 200.0f;
     public float yVelocity = 2.0f;
-    public float jumpPower = 4.0f;
     public float stamina = 100.0f;  // 스태미나 변수를 public으로 선언
 
     private bool isCoolingDown = false;
