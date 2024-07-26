@@ -12,6 +12,7 @@ public class PlayerMove : MonoBehaviour
     public float jumpPower = 4.0f;
     public float stamina = 100.0f;  // 스태미나 변수를 public으로 선언
 
+    private bool isCoolingDown = false;
     private float originalMoveSpeed;
     private bool isSprinting = false;  // 질주 상태 여부를 나타내는 변수
 
@@ -37,7 +38,18 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        Move();
+        if(stamina > 0)
+        {
+            Move();
+        }
+        else
+        {
+            if (!isCoolingDown)
+            {
+                StartCoroutine(CooldownCoroutine());
+            }
+        }
+        
         Rotate();
     }
 
@@ -109,6 +121,20 @@ public class PlayerMove : MonoBehaviour
 
         transform.eulerAngles = new Vector3(-rotX, rotY, 0);
         Camera.main.transform.GetComponent<FollowCamera>().rotX = rotX;
+    }
+
+    IEnumerator CooldownCoroutine()
+    {
+        isCoolingDown = true;
+        isSprinting = false;
+
+        // 3초 동안 대기합니다.
+        yield return new WaitForSeconds(7f);
+
+        // 3초 후, 스태미나를 재충전하거나 다른 작업을 수행합니다.
+        isCoolingDown = false;
+        stamina = 100.0f;
+        
     }
 }
 
