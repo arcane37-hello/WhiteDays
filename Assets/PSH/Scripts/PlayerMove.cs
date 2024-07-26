@@ -22,7 +22,6 @@ public class PlayerMove : MonoBehaviour
     CharacterController cc;
     Vector3 gravityPower;
 
-    bool isStaminaCooldown = false;  // 스태미나 쿨다운 상태를 나타내는 변수
 
     void Start()
     {
@@ -76,12 +75,6 @@ public class PlayerMove : MonoBehaviour
 
         stamina = Mathf.Clamp(stamina, 0.0f, 100.0f);  // 스태미나를 0에서 100 사이로 제한
 
-        // 스태미나가 0 이하이고 질주 중이 아니면 움직임 멈춤
-        if (stamina <= 0 && !isSprinting)
-        {
-            moveSpeed = 0;  // 스태미나가 0이 되면 moveSpeed를 0으로 설정하여 움직임을 멈춤
-        }
-
         Vector3 dir = new Vector3(h, 0, v);
         dir = transform.TransformDirection(dir);
         dir.Normalize();
@@ -130,7 +123,7 @@ public class PlayerMove : MonoBehaviour
 
 
 
-
+// 스태미나 구현 전 코드
 //public class PlayerMove : MonoBehaviour
 //{
 //    public float moveSpeed = 7.0f;
