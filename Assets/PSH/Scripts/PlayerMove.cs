@@ -25,9 +25,12 @@ public class PlayerMove : MonoBehaviour
 
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
+
+
         rotX = transform.eulerAngles.x;
         rotY = transform.eulerAngles.y;
-
+    
         cc = GetComponent<CharacterController>();
         gravityPower = Physics.gravity;
         yPos = transform.position.y;
