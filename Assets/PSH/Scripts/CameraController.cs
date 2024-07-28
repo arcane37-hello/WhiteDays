@@ -18,7 +18,7 @@ public class CameraController : MonoBehaviour
         // FollowCamera ÄÄÆ÷³ÍÆ®¸¦ Ä³½ÌÇÑ´Ù.
         followCam = Camera.main.gameObject.GetComponent<FollowCamera>();
 
-        camList.Add(transform.GetChild(0));
+        camList.Add(transform.GetChild(4));
 
         ChangeCamTarget(0);
 
