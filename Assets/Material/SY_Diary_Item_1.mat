@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SY_Diary_Item
+  m_Shader: {fileID: 4800000, guid: ed12de6afd1de074fb42e61396cef1cc, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 9586ddd1fc64a69409bc37285be06051, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Ramp
+      second:
+        m_Texture: {fileID: 2800000, guid: a786bb42ce4dd944db8b1bf2a8283bfc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecMap
+      second:
+        m_Texture: {fileID: 2800000, guid: e5da5af5fc72656469c924522a5dd38c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Cutoff
+      second: 0.424
+    - first:
+        name: _RimPower
+      second: 7.17
+    - first:
+        name: _Sensitivity
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.072
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.7794118, g: 0.7794118, b: 0.7794118, a: 1}
+    - first:
+        name: _LColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 0.6672794, g: 0.6952333, b: 0.75, a: 0.08235294}
+    - first:
+        name: _SColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.9338235, g: 0.9338235, b: 0.9338235, a: 1}

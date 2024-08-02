@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Prop_Hauntedpot
+  m_Shader: {fileID: 4800000, guid: 7cd66b6f83119b74eac81b0b43164c30, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 7ca55a3e76b60db44b65dc73429ffa8b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _CubeMap
+      second:
+        m_Texture: {fileID: 8900000, guid: 08d8361720eaa2649837e86ef867b47d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 16bb86d8b47eafd42b3992814423190b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecMap
+      second:
+        m_Texture: {fileID: 2800000, guid: e4d1e8264610b4d4db8d7d0a688eed2d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Cutoff
+      second: 0.80357146
+    - first:
+        name: _RimPower
+      second: 7.85
+    - first:
+        name: _Shininess
+      second: 0.403
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.8088235, g: 0.8088235, b: 0.8088235, a: 1}
+    - first:
+        name: _LColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 0.21783088, g: 0.26443964, b: 0.375, a: 0.08235294}
+    - first:
+        name: _SColor
+      second: {r: 0.52205884, g: 0.52205884, b: 0.52205884, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 1, b: 1, a: 1}

@@ -1,0 +1,1650 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da84e45da3418d9e996de0c0cd6962b9, type: 3}
+  m_Name: StringsDE
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Strings.xlsx
+  worksheetName: StringsDE
+  dataArray:
+  - id: COMFIRM
+    text: OK
+  - id: CANCEL
+    text: Abbrechen
+  - id: YES
+    text: Ja
+  - id: NO
+    text: Nein
+  - id: CLOSE
+    text: Schließen
+  - id: EXIT
+    text: Verlassen
+  - id: MAX
+    text: Max.
+  - id: MIN
+    text: Min.
+  - id: EMPTY
+    text: Leer
+  - id: QUANTITY
+    text: Anzahl
+  - id: DOCUMENT
+    text: Dokumente
+  - id: LADDER
+    text: Leiter
+  - id: SPEAKER
+    text: Lautsprecher
+  - id: SAVE_GAME
+    text: Möchtest du das Spiel speichern?
+  - id: ITEM_OBTAINED
+    text: '{0} erhalten.'
+  - id: ITEM_REMOVED
+    text: '{0} entfernt.'
+  - id: MOVETO_MAINBUILDING1
+    text: Zum Hauptgebäude 1
+  - id: MOVETO_MAINBUILDING2
+    text: Zum Hauptgebäude 2
+  - id: MOVETO_NEWBUILDING
+    text: Zum Neubau
+  - id: MOVETO_HALL
+    text: Zum Hörsaal
+  - id: LOBBY_NEW_GAME0
+    text: Schule betreten
+  - id: LOBBY_NEW_GAME1
+    text: Spiel neu starten
+  - id: SETTING
+    text: Einstellungen
+  - id: CONTENTS
+    text: Herunterladbare Inhalte
+  - id: LOBBY_ESCAPE
+    text: Spiel beenden
+  - id: LOBBY_NEW_GAME2
+    text: Schwierigkeitsgrad auswählen
+  - id: LEVEL_VERY_EASY
+    text: Sehr leicht
+  - id: LEVEL_EASY
+    text: Leicht
+  - id: LEVEL_NORMAL
+    text: Normal
+  - id: LEVEL_HARD
+    text: Schwer
+  - id: LEVEL_VERY_HARD
+    text: Hölle
+  - id: LEVEL_NORMAL_DESC
+    text: Ein sehr ausgewogener Schwierigkeitsgrad.
+  - id: LEVEL_HARD_DESC
+    text: Mehr Spannung, dafür schwieriger zu spielen.
+  - id: LEVEL_VERY_HARD_DESC
+    text: Dieser Modus bietet die größte Herausforderung bei maximalem Horror.
+  - id: LEVEL_VERY_HARD_DESC_EXCEPTION
+    text: Bisher hat sich noch niemand an den Höllenmodus gewagt.
+  - id: LEVEL_VERY_EASY_COMMENT
+    text: '<Du kannst Hausmeistern leichter entkommen.>'
+  - id: LEVEL_EASY_COMMENT
+    text: '<Erhalte im Spiel SMS, die dir weiterhelfen.>'
+  - id: LEVEL_NORMAL_COMMENT
+    text: '<Löse versteckte Rätsel in der Schule und sammle Geistergeschichten.>'
+  - id: LEVEL_HARD_COMMENT
+    text: '<Triff auf Geister, die in der Schule ihr Unwesen treiben.>'
+  - id: LEVEL_VERY_HARD_COMMENT
+    text: '<Höllenmodus aktiviert. Du hast nur ein Leben.>'
+  - id: LEVEL_VERY_HARD_COMMENT_EXCEPTION
+    text: ※ Wird bald aktualisiert. Wir bitten um Geduld!
+  - id: CONTINUE
+    text: Fortsetzen
+  - id: LOAD
+    text: Laden
+  - id: COLLECTION
+    text: Sammelliste
+  - id: LOAD_DESC
+    text: Spielstand laden
+  - id: SETTING_DESC
+    text: Spieleinstellungen ändern
+  - id: ACCOUNT_SETTING
+    text: Konto-Einstellungen
+  - id: ACCOUNT_SETTING_DESC
+    text: Benutzerinfos anzeigen/bearbeiten
+  - id: SNS_CONNECT
+    text: Mit SNS verbinden
+  - id: ACCOUNT_AND_MOBILE_INFO
+    text: Konto- und Geräteinformationen
+  - id: GOOGLE_CONNECT
+    text: Google+-Konto registrieren
+  - id: FACEBOOK_CONNECT
+    text: Facebook-Konto registrieren
+  - id: SNS_CONNECT_DESC
+    text: Verwende ein anderes SNS-Konto zum Registrieren und Anmelden.
+  - id: ACCOUNT_INFO_DESC
+    text: Konto- und Geräteinformationen anzeigen
+  - id: ACCOUNT_INFO
+    text: Kontoinformationen
+  - id: MOBILE_INFO
+    text: Geräteinformationen
+  - id: ADD_CONTENTS_DESC
+    text: Infos zu herunterladbaren Inhalten
+  - id: CHANGE_CLOTH
+    text: Outfit ändern
+  - id: REGIST_CODE
+    text: Spezialcode registrieren
+  - id: QUIT_DESC
+    text: Spiel beenden?
+  - id: DELETE_DESC
+    text: Löschen?
+  - id: COLLECTION_DESC
+    text: Zeigt eine Liste der Gegenstände an, die du im Spiel gesammelt hast.
+  - id: COLLECTION_GHOST
+    text: Geistersammlung
+  - id: COLLECTION_ENDING
+    text: Endensammlung
+  - id: COLLECTION_GHOST_DESC
+    text: Die Geister aus der Schule und ihre Geschichten.
+  - id: COLLECTION_DETAIL
+    text: Details anzeigen
+  - id: COLLECTION_GHOST_DETAIL_DESC
+    text: Detaillierte Informationen über die gesammelten Geister.
+  - id: COLLECTION_ENDING_DESC
+    text: Verschiedene Enden des Spiels.
+  - id: COLLECTION_ENDING_PERCENT
+    text: Fortschritt der Endensammlung
+  - id: COLLECTION_ENDING_LEVEL
+    text: 'Schwierigkeitsgrad der gesammelten Enden:'
+  - id: COLLECTION_ENDING_NAME_01
+    text: Weiße Chrysantheme<br><size=28><color=#606060FF>(Wahrheit)</color></size>
+  - id: COLLECTION_ENDING_NAME_02
+    text: Hyazinthe<br><size=28><color=#606060FF>(Vergib mir)</color></size>
+  - id: COLLECTION_ENDING_NAME_03
+    text: Efeu<br><size=28><color=#606060FF>(Freundschaft)</color></size>
+  - id: COLLECTION_ENDING_NAME_04
+    text: uberose<br><size=28><color=#606060FF>(Gefährliche Lust)</color></size>
+  - id: COLLECTION_ENDING_NAME_05
+    text: Ebenholz<br><size=28><color=#606060FF>(Heuchelei)</color></size>
+  - id: COLLECTION_ENDING_NAME_06
+    text: Löwenzahn<br><size=28><color=#606060FF>(Treue)</color></size>
+  - id: COLLECTION_ENDING_NAME_07
+    text: Eibisch<br><size=28><color=#606060FF>(Liebesmüde)</color></size>
+  - id: COLLECTION_ENDING_NAME_08
+    text: Eibe<br>(Tod)
+  - id: COLLECTION_ENDING_NAME_09
+    text: Jasmine<br><size=28><color=#606060FF>(Du gehörst mir)</color></size>
+  - id: COLLECTION_ENDING_NAME_10
+    text: Marguerite<br><size=28><color=#606060FF>(Heimliche Liebe)</color></size>
+  - id: VERY_EASY
+    text: Sehr leicht
+  - id: EASY
+    text: Leicht
+  - id: NORMAL
+    text: Normal
+  - id: HARD
+    text: Schwer
+  - id: VERY_HARD
+    text: Hölle
+  - id: COLLECTION_ACHIEVEMENT
+    text: 'Erfolgsfortschritt:'
+  - id: CHANGE_CLOTH_DESC
+    text: Ändert das Outfit der Charaktere.
+  - id: EMPTY_INFO
+    text: Keine Informationen
+  - id: DELETE
+    text: Löschen
+  - id: CONTINUE_PLAY
+    text: Spiel fortsetzen
+  - id: NOTICE_ENDING_NAME_01
+    text: White chrysanthemum
+  - id: NOTICE_ENDING_NAME_02
+    text: Hyacinth
+  - id: NOTICE_ENDING_NAME_03
+    text: Ivy
+  - id: NOTICE_ENDING_NAME_04
+    text: Tuberose
+  - id: NOTICE_ENDING_NAME_05
+    text: Ebony
+  - id: NOTICE_ENDING_NAME_06
+    text: Dandelion
+  - id: NOTICE_ENDING_NAME_07
+    text: Althaea
+  - id: NOTICE_ENDING_NAME_08
+    text: Yew
+  - id: NOTICE_ENDING_NAME_09
+    text: Jasmine
+  - id: NOTICE_ENDING_NAME_10
+    text: Marguerite
+  - id: NOTICE_ENDING_TIME_01
+    text: 14. März, 06:37 Uhr
+  - id: NOTICE_ENDING_TIME_02
+    text: 14. März, 06:25 Uhr
+  - id: NOTICE_ENDING_TIME_03
+    text: 14. März, 06:37 Uhr
+  - id: NOTICE_ENDING_TIME_04
+    text: 14. März, 05:58 Uhr
+  - id: NOTICE_ENDING_TIME_05
+    text: 14. März, 05:58 Uhr
+  - id: NOTICE_ENDING_TIME_06
+    text: 14. März, 05:42 Uhr
+  - id: NOTICE_ENDING_TIME_07
+    text: 14. März, 05:44 Uhr
+  - id: NOTICE_ENDING_TIME_SceneMainBuilding1
+    text: 13. März, 22:51 Uhr
+  - id: NOTICE_ENDING_TIME_SceneMainBuilding2
+    text: 13. März, 23:19 Uhr
+  - id: NOTICE_ENDING_TIME_SceneNewBuilding
+    text: 14. März, 00:23 Uhr
+  - id: NOTICE_ENDING_TIME_SceneHall
+    text: 14. März, 04:44 Uhr
+  - id: NOTICE_ENDING_TIME_SceneMaze
+    text: 14. März, 06:15 Uhr
+  - id: NOTICE_ENDING_LOCATION_01
+    text: Der Schulhof
+  - id: NOTICE_ENDING_LOCATION_02
+    text: Der Schulhof
+  - id: NOTICE_ENDING_LOCATION_03
+    text: Der Schulhof
+  - id: NOTICE_ENDING_LOCATION_04
+    text: Hörsaal im 1. OG (2F)
+  - id: NOTICE_ENDING_LOCATION_05
+    text: Hörsaal im 1. OG (2F)
+  - id: NOTICE_ENDING_LOCATION_06
+    text: Hörsaal (Haupthalle)
+  - id: NOTICE_ENDING_LOCATION_07
+    text: Hörsaal (Haupthalle)
+  - id: NOTICE_ENDING_LOCATION_SceneMainBuilding1
+    text: Hauptgebäude, Abschnitt 1
+  - id: NOTICE_ENDING_LOCATION_SceneMainBuilding2
+    text: Hauptgebäude, Abschnitt 2
+  - id: NOTICE_ENDING_LOCATION_SceneNewBuilding
+    text: Neubau
+  - id: NOTICE_ENDING_LOCATION_SceneHall
+    text: Hörsaal
+  - id: NOTICE_ENDING_LOCATION_SceneMaze
+    text: Labyrinth
+  - id: NOTICE_LOCATION_SceneMainBuilding1
+    text: Hauptgebäude, Abschnitt 1<br>13. März, 22:00 Uhr
+  - id: NOTICE_LOCATION_SceneMainBuilding2
+    text: Hauptgebäude, Abschnitt 2<br>13. März, 23:01 Uhr
+  - id: NOTICE_LOCATION_SceneNewBuilding
+    text: Neubau<br>14. März, 12:04 Uhr
+  - id: NOTICE_LOCATION_SceneHall
+    text: Hörsaal<br>14. März, 04:26 Uhr
+  - id: NOTICE_LOCATION_SceneMaze
+    text: Labyrinth<br>14. März, ??:?? Uhr
+  - id: GAMEOVER_TEXT_DIE_GUARD
+    text: Du wurdest vom Hausmeister totgeprügelt.
+  - id: GAMEOVER_TEXT_DIE_GHOST
+    text: Du bist vor lauter Angst an einem Herzinfarkt gestorben.
+  - id: GAMEOVER_TEXT_DIE_EUNMI
+    text: Du wurdest auf brutale Weise von einer Wahnsinnigen erstochen.
+  - id: GAMEOVER_TEXT_DIE_FIRE
+    text: Die Schmerzen durch das Verbrennen am lebendigen Leib haben dich in Ohnmacht fallen lassen.
+  - id: GAMEOVER_TEXT_QTE_CN_0310
+    text: Du kannst spüren, wie dein Körper durchlöchert wird und Blut herausströmt.
+  - id: GAMEOVER_TEXT_QTE_CN_0600
+    text: Du vernimmst das Schreien eines Babys, während deine Knochen pulverisiert werden.
+  - id: GAMEOVER_TEXT_QTE_CN_0830
+    text: Ein schreckliches Wesen zieht dich unter Wasser. Es gibt kein Entkommen.
+  - id: GAMEOVER_TEXT_QTE_CN_0922
+    text: Du bist einen grässlichen Tod gestorben. Eine Lampe hat dich zerquetscht.
+  - id: GAMEOVER_TEXT_QTE_CN_0932
+    text: Die Schmerzen durch das Verbrennen am lebendigen Leib haben dich in Ohnmacht fallen lassen. Du bist von Flammen umgeben.
+  - id: GAMEOVER_TEXT_QTE_CN_0952
+    text: Du bist gestorben, nachdem du von einem schweren Eisentor niedergeschlagen wurdest.
+  - id: GAMEOVER_TEXT_QTE_CN_0972
+    text: Die Schmerzen durch das Verbrennen am lebendigen Leib haben dich in Ohnmacht fallen lassen. Du bist von Flammen umgeben.
+  - id: GAMEOVER_TEXT_TIMEOVER_TM
+    text: Eine finstere Blume erblüht, während die Schreie So-youngs widerhallen.
+  - id: GAMEOVER_TEXT_TIMEOVER_BB
+    text: Die Schule stürzt unter dem Schreien eines Babys ein.
+  - id: GAMEOVER_TEXT_TIMEOVER_MM
+    text: Du bekommst keine Luft mehr und verlierst das Bewusstsein.
+  - id: GAMEOVER_TEXT_TIMEOVER_HALL
+    text: Das Feuer der Explosion verschlingt alles.
+  - id: GAMEOVER_TEXT_TIMEOVER_MAZE
+    text: Du bist für alle Ewigkeit im Labyrinth gefangen.
+  - id: GAMEOVER_TEXT_DIE_LBG
+    text: Als du ihr Gesicht erblicktest, ereilte dich ein schneller Tod.
+  - id: GAMEOVER_TEXT_DIE_FALL
+    text: Das Labyrinth ist kollabiert und du bist in den Abgrund gestürzt.
+  - id: CODE_SUCCESS
+    text: Erfolgreich registriert!
+  - id: CODE_SUCCESS_DESC
+    text: Dein Code wurde registriert.<br>Um dir neue Outfits anzusehen, tippe auf<br>[Hauptlobby -> Herunterladbare Inhalte -> Outfit ändern]
+  - id: SHORT_CUT
+    text: Jetzt gehen
+  - id: DOWNLOAD_NOW
+    text: Jetzt herunterladen
+  - id: COSTUME_CHANGE
+    text: Outfit ändern
+  - id: COSTUME_CHANGE_DESC
+    text: Ändert das Outfit der Charaktere.
+  - id: POPUP_ALERT_BUY_DESC
+    text: Der Outfit-Kauf ist abgeschlossen.<br>Um neue Outfits auszurüsten, tippe auf<br>[Hauptlobby->Herunterladbare Inhalte->Outfit ändern]
+  - id: POPUP_ALERT_BUY_TITLE
+    text: Vielen Dank für den Einkauf!
+  - id: POPUP_DOWNLOAD_TITLE
+    text: Inhalt herunterladen
+  - id: POPUP_DOWNLOAD_DESC
+    text: Gekaufte Inhalte werden heruntergeladen.
+  - id: UI_SAVE_MARKER_CNT
+    text: 'Verbleibende Filzstifte: <color=#ffff00ff>{0}</color>'
+  - id: QTE_NOTIFICATION_DRAG
+    text: Ziehe den Gegenstand, den du verwenden möchtest.
+  - id: QTE_NOTIFICATION_TOUCH
+    text: Tippe wiederholt auf die Tasten für links und rechts!
+  - id: QTE_NOTIFICATION_SLIDE
+    text: In die Zielrichtung ziehen!
+  - id: ENDING_COLLECTION_REWARD_DISC
+    text: Du erhältst ein Outfit<br>für das Abschließen der Endensammlung.
+  - id: GHOST_COLLECTION_REWARD_DISC
+    text: Du erhältst ein Outfit<br>für das Abschließen der Geistersammlung.
+  - id: FIGURE_COLLECTION_REWARD_DISC
+    text: Du erhältst ein Outfit<br>für das Abschließen Sammlung alter Figuren.
+  - id: LEVEL_VERY_HARD_COMMENT_UNLOCK
+    text: '<Der Höllenmodus wird freigeschaltet, sobald das Spiel auf "Schwer" abgeschlossen wurde.>'
+  - id: CHARACTER_1
+    text: So-young Han
+  - id: CHARACTER_2
+    text: Sung-A Kim
+  - id: CHARACTER_3
+    text: Ji-Hyeon Seol
+  - id: CHARACTER_4
+    text: Hee-Min Lee
+  - id: CHARACTER_5
+    text: Bong-Goo Lee
+  - id: CHARACTER_6
+    text: Dal-Su Son
+  - id: SHOP_MOVE
+    text: Zum Kauf
+  - id: LIMITED_EDITION_TITLE
+    text: Limitierten Spezialcode registrieren
+  - id: LIMITED_EDITION_TITLE_DESC
+    text: 'Limited-Edition-Outfit: Erhalte eine stylische Schuluniform.'
+  - id: BUY_CLOTH
+    text: Outfits kaufen
+  - id: SHOP_BUY_BUTTON_DESC
+    text: '{0} kaufen'
+  - id: SHOP_ALREADY_PURCHASED
+    text: Du hast diesen Gegenstand bereits erworben.
+  - id: SHOP_TITLE
+    text: Outfits kaufen
+  - id: SHOP_TITLE_DESC
+    text: Du kannst besondere Gegenstände günstig erwerben.
+  - id: COSTUME_COLLECTION_CONFIRM
+    text: Belohnungsbedingungen überprüfen
+  - id: COSTUME_COLLECTION_GET
+    text: 'Du hast folgende Kleidung verdient: [{0}]'
+  - id: CHECK_SERVER_COSTUME
+    text: Liste deiner Outfits wird überprüft.
+  - id: CHECK_SERVER_MARKET
+    text: Die Gegenstandsliste wird vom Server heruntergeladen.
+  - id: MARKET_NOTICE_LOADING
+    text: Deine Outfits werden geändert.
+  - id: MARKET_NOTICE_SERVER
+    text: Verfügbarkeit wird überprüft.
+  - id: IABHELPER_OK
+    text: Der Kauf dieses Gegenstands wurde abgeschlossen.
+  - id: IABHELPER_-100
+    text: Dieser Gegenstand kann zurzeit nicht gekauft werden.
+  - id: IABHELPER_-101
+    text: Beim Kauf des Gegenstands ist ein Fehler ist aufgetreten.
+  - id: IABHELPER_-102
+    text: Dieser Gegenstand ist zurzeit nicht verfügbar.
+  - id: IABHELPER_-103
+    text: Beim Kauf des gewählten Gegenstands ist ein Fehler ist aufgetreten.
+  - id: IABHELPER_-1000
+    text: Beim Kauf des Gegenstands ist ein Fehler ist aufgetreten.
+  - id: IABHELPER_-1001
+    text: Die Verbindung zum Server für die Durchführung des Kaufes ist zurzeit nicht möglich.
+  - id: IABHELPER_-1002
+    text: Der Server antwortet nicht.
+  - id: IABHELPER_-1005
+    text: Der Kauf des Gegenstands wurde durch den Benutzer abgebrochen.
+  - id: IABHELPER_-1006
+    text: Der Kauf wurde aufgrund einer unbekannten Severantwort abgebrochen.
+  - id: IABHELPER_-1007
+    text: Der Kauf wurde aufgrund ungültiger Markenwerte abgebrochen.
+  - id: IABHELPER_-1008
+    text: Der Kauf wurde aufgrund eines unbekannten Fehlers abgebrochen.
+  - id: IABHELPER_-1009
+    text: Dieser Gegenstand kann nicht gekauft werden. Es handelt sich um einen Abo-Gegenstand.
+  - id: IABHELPER_-1010
+    text: Dieser Gegenstand kann nicht gekauft werden. Es handelt sich um einen Verbrauchsgegenstand.
+  - id: MARKET_NOTICE_COMPLETE
+    text: Deine Bestellung wird abgeschlossen.
+  - id: PURCHASE_RESTORE
+    text: Kaufhistorie wiederherstellen
+  - id: UI_CONTENT_RESET_ALERT
+    text: ※ Achtung! Bei Deinstallation des Spiels werden alle Outfits<br>aus Belohnungen und Sammlungen zurückgesetzt.<br>(Dein Kaufhistorie wird beibehalten.)
+  - id: UI_PURCHASE_RESTORE_PROGRESS
+    text: Bitte warten. Wiederherstellung im Gange.
+  - id: UI_PURCHASE_RESTORE_BUTTON
+    text: Wird wiederhergestellt …
+  - id: UI_PURCHASE_RESTORE_COMPLETE
+    text: Deine Käufe wurden wiederhergestellt.
+  - id: UI_SHOP_LIMITED_SELL_PERIOD
+    text: 'Angebotszeitraum: Bis dd/MM/yy'
+  - id: UI_SHOP_SELL_PERIOD
+    text: Ständiges Angebot
+  - id: UI_WAIT_POPUP_MESSAGE
+    text: Bitte warten.
+  - id: UI_PURCHASE_RESTORE_DESC
+    text: Die Kaufhistorie für Ingame-Gegenstände wird<br>anhand des Benutzerbelegs wiederhergestellt.<br>※ Dieser Vorgang kann einige Minuten dauern.
+  - id: UI_START
+    text: Start
+  - id: UI_BUTTON_RESTORATION
+    text: Wiederherstellung anfordern
+  - id: UI_COSTUME_WEAR
+    text: Outfits ausrüsten
+  - id: UI_COSTUME_CLOTHED
+    text: Ausgerüstet
+  - id: UI_COSTUME_CODE_REGIST
+    text: Code registrieren
+  - id: UI_COSTUME_REWARD
+    text: Belohnung erhalten
+  - id: UI_LOAD_GAME_DESC
+    text: Möchtest du einen Spielstand laden?
+  - id: UI_COLLECTION_RANK
+    text: Spielrang sammeln
+  - id: UI_COLLECTION_FIGURE
+    text: Alte Figuren sammeln
+  - id: UI_COSTUME_CODE_INPUT
+    text: Bitte gib deinen Gutscheincode ein.
+  - id: UI_INPUT_COMPLETE
+    text: Eingabe erfolgt
+  - id: UI_COLLECTION_RANK_TITLE
+    text: Spielrang sammeln
+  - id: UI_COLLECTION_RANK_DESC
+    text: Der höchste Rang und die höchste Punktezahl für jeden Schwierigkeitsgrad
+  - id: UI_COLLECTION_FIGURE_TITLE
+    text: Alte Figuren sammeln
+  - id: UI_COLLECTION_FIGURE_DESC
+    text: Menschenähnliche Figuren, die in der Schule zu finden sind
+  - id: UI_COLLECTION_FIGURE_COUNT
+    text: 'Gesammelte Figuren:'
+  - id: UI_SHOP_CLOTH_LIST
+    text: Enthaltene Outfits
+  - id: UI_BACKPACK
+    text: Rucksack
+  - id: UI_MAP
+    text: Karte
+  - id: UI_MAIL
+    text: SMS
+  - id: UI_DOCUMENT
+    text: Dokumente
+  - id: UI_SYSTEM
+    text: System
+  - id: UI_BACKPACK_MENU
+    text: Rucksack
+  - id: UI_BACKPACK_MENUDESC
+    text: Sieh dir deine gesammelten Gegenstände an.
+  - id: UI_BACKPACK_ITEM_GENERALS
+    text: Wichtige Gegenstände
+  - id: UI_BACKPACK_ITEM_KEYS
+    text: Schlüssel
+  - id: UI_BACKPACK_ITEM_HEALING
+    text: Heilung
+  - id: UI_BACKPACK_ITEM_USABLE
+    text: Verbrauchbar
+  - id: UI_BACKPACK_ITEM_ETC
+    text: Gegenstände
+  - id: UI_BACKPACK_USEITEM
+    text: Gegenstand benutzen
+  - id: UI_MAP_MENU
+    text: Karte
+  - id: UI_MAP_MENUDESC
+    text: Zeigt die Karte an.
+  - id: UI_MAP_MAINBUILDING1
+    text: Hauptgebäude 1
+  - id: UI_MAP_MAINBUILDING2
+    text: Hauptgebäude 2
+  - id: UI_MAP_NEWBUILDING
+    text: Neubau
+  - id: UI_MAP_HALL
+    text: Hörsaal
+  - id: UI_MAP_1F
+    text: 1F
+  - id: UI_MAP_2F
+    text: 2F
+  - id: UI_MAP_3F
+    text: 3F
+  - id: UI_MAP_4F
+    text: 4F
+  - id: UI_MAP_5F
+    text: 5F
+  - id: UI_MAIL_MENU
+    text: SMS
+  - id: UI_MAIL_MENUDESC
+    text: Zeigt empfangene SMS an.
+  - id: UI_MAIL_RECEIVED
+    text: Erhaltene SMS
+  - id: UI_DOCUMENT_MENU
+    text: Dokumente
+  - id: UI_DOCUMENT_MENUDESC
+    text: Zeigt die gesammelten Dokumente an.
+  - id: UI_DOCUMENT_SCHOOL
+    text: Schulunterlagen
+  - id: UI_DOCUMENT_MEMO
+    text: Notiz
+  - id: UI_DOCUMENT_RUMOR
+    text: Gerüchte
+  - id: UI_DOCUMENT_GHOSTSTORY
+    text: Geistergeschichten
+  - id: UI_SYSTEM_MENU
+    text: System
+  - id: UI_SYSTEM_MENUDESC
+    text: Systemmenü
+  - id: UI_SYSTEM_GAMEOPTION
+    text: Spieloptionen
+  - id: UI_SYSTEM_EXITTOLOBBY
+    text: Beenden
+  - id: UI_SYSTEM_GAMEOPTION_CONTROL
+    text: Steuerung
+  - id: UI_SYSTEM_GAMEOPTION_LANGUAGE
+    text: Sprache
+  - id: UI_SYSTEM_GAMEOPTION_GRAPHIC
+    text: Grafik
+  - id: UI_SYSTEM_GAMEOPTION_SOUND
+    text: Sound
+  - id: UI_SYSTEM_GAMEOPTION_SUPPORT
+    text: Kundensupport
+  - id: UI_SYSTEM_CONTROL
+    text: '[Steuerungsoptionen]'
+  - id: UI_SYSTEM_CONTROL_TYPE1
+    text: Original-Modus <color=#666666ff><size=16>Die Steuerung stimmt größtenteils mit der Originalversion von White Day überein.</size></color>
+  - id: UI_SYSTEM_CONTROL_TYPE2
+    text: Gamepad-Modus <color=#666666ff><size=16>Diese Steuerung eignet sich vor allem für Konsolen-Benutzer.</size></color>
+  - id: UI_SYSTEM_CONTROL_TYPE3
+    text: Einhändiger Modus <color=#666666ff><size=16>Diese Steuerung ist für Spieler gedacht, die nur mit einer Hand spielen möchten.</size></color>
+  - id: UI_SYSTEM_CONTROL_TYPE4
+    text: Gamepad-Modus (Beta) <color=#666666ff><size=16>Diese Steuerung eignet sich vor allem für Gamepad-Benutzer.</size></color>
+  - id: UI_SYSTEM_CONTROL_NUM1
+    text: Bewegungsreichweite
+  - id: UI_SYSTEM_CONTROL_NUM2
+    text: Blickreichweite
+  - id: UI_SYSTEM_CONTROL_NUM3
+    text: Rennen/Ducken-Taste
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN1
+    text: Ansicht horizontal bewegen
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN2
+    text: Ansicht vertikal bewegen
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN3
+    text: Rennen
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN4
+    text: Ducken/Aufstehen
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN5
+    text: Feuerzeug an/aus
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN6
+    text: Auswählen
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN7
+    text: Optionen
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN8
+    text: Abbrechen
+  - id: UI_SYSTEM_SENSITIVITY
+    text: '[Blickempfindlichkeit]'
+  - id: UI_SYSTEM_TUTORIAL
+    text: '[Tutorial]'
+  - id: UI_SYSTEM_TUTORIAL_TOGGLE
+    text: Tutorial nicht mehr anzeigen.
+  - id: UI_SYSTEM_PROLOGUE
+    text: '[Prologsequenzen]'
+  - id: UI_SYSTEM_PROLOGUE_TOGGLE
+    text: Die Prologsequenzen werden beim Start des Spiels übersprungen.
+  - id: UI_SYSTEM_LANGUAGE
+    text: '[Sprache]'
+  - id: UI_SYSTEM_LANGUAGE_KOREAN
+    text: 한국어
+  - id: UI_SYSTEM_LANGUAGE_ENGLISH
+    text: English
+  - id: UI_SYSTEM_LANGUAGE_FRENCH
+    text: Français
+  - id: UI_SYSTEM_LANGUAGE_GERMAN
+    text: Deutsch
+  - id: UI_SYSTEM_LANGUAGE_JAPANESE
+    text: 日本語
+  - id: UI_SYSTEM_LANGUAGE_SPANISH
+    text: Español
+  - id: UI_SYSTEM_LANGUAGE_ITALIAN
+    text: Italiano
+  - id: UI_SYSTEM_LANGUAGE_CHINESESIMPLIFIED
+    text: 中国 (简体)
+  - id: UI_SYSTEM_LANGUAGE_CHINESETRADITIONAL
+    text: 中國 (繁體)
+  - id: UI_SYSTEM_LANGUAGE_RESET
+    text: ※ Du musst das Spiel neu starten, um die Sprache zu ändern.
+  - id: UI_SYSTEM_LANGUAGE_RESET_CONFIRM
+    text: Neu starten
+  - id: UI_SYSTEM_LANGUAGE_RESET_POPUP
+    text: Du musst das Spiel neu starten, um die Sprache zu ändern.<br>Möchten Sie jetzt das Spiel neu zu starten, um die Sprache zu ändern?
+  - id: UI_SYSTEM_GRAPHICS
+    text: '[Grafikeinstellungen]'
+  - id: UI_SYSTEM_GRAPHICS_TOGGLE
+    text: Aktiviere einen Farbfilter, um einen Kino-Effekt zu erreichen.
+  - id: UI_SYSTEM_BRIGHTNESS
+    text: '[Bildschirmhelligkeit]'
+  - id: UI_SYSTEM_BRIGHTNESS_DESC
+    text: Ist die Bildschirmhelligkeit zu hoch, wird der Spielspaß womöglich gemindert. (※Trifft nur bei aktiviertem Farbfilter zu.)
+  - id: UI_SYSTEM_SOUNDS_EFFECT
+    text: '[Soundeffekte abspielen]'
+  - id: UI_SYSTEM_SOUNDS_EFFECT_TOGGLE
+    text: Verwalte verschiedene Soundeffekte im Spiel.
+  - id: UI_SYSTEM_SOUNDS_BGM
+    text: '[Hintergrundmusik abspielen]'
+  - id: UI_SYSTEM_SOUNDS_BGM_TOGGLE
+    text: Spielt Hintergrundmusik ab, um die Stimmung zu vertiefen.
+  - id: UI_SYSTEM_SOUNDS_VOLUME
+    text: '[Lautstärke]'
+  - id: UI_SYSTEM_USERID
+    text: '[Benutzer-ID]'
+  - id: UI_SYSTEM_USERID_DESC
+    text: Die <color=yellow>Benutzer-ID</color> wird für die Kommunikation mit dem Kunden überprüft.
+  - id: UI_SYSTEM_VERSION
+    text: '[Versionsinfo]'
+  - id: UI_SYSTEM_VERSION_DESC
+    text: Zeigt die <color=yellow>Versionsinfo</color> des derzeit installierten Spiels an.
+  - id: UI_SYSTEM_QA
+    text: '[Feedback]'
+  - id: UI_SYSTEM_QA_DESC
+    text: Wende dich bei schwerwiegenden Problemen mit dem Spiel bitte an uns.
+  - id: UI_SYSTEM_QA_SEND
+    text: Kontaktieren
+  - id: UI_SYSTEM_RESOURCE_VALIDATE
+    text: '[Ressourcenintegritäts-Überprüfung]'
+  - id: UI_SYSTEM_RESOURCE_VALIDATE_TOGGLE
+    text: Beim nächsten Spielstart werden die Spielressourcen auf Fehler überprüft (du musst die App dazu vollständig schließen und neu starten).
+  - id: UI_SYSTEM_EXITTOLOBBY_DESC
+    text: Wenn du das Spiel beendest, geht jeglicher nicht gespeicherter Fortschritt verloren.<br>Möchtest du zum Hauptbildschirm zurückkehren?
+  - id: UI_SYSTEM_EXITTOLOBBY_BUTTON
+    text: Verlassen
+  - id: UI_GAMEOVER
+    text: GAME OVER
+  - id: UI_GAMEOVER_DESC
+    text: Letzter Speicherpunkt wird geladen … Bitte warten.
+  - id: UI_GAMEOVER_VERYHARD_DESC1
+    text: Starte mit dem Filzstift vom letzten Speicherpunkt.
+  - id: UI_GAMEOVER_VERYHARD_DESC2
+    text: 'Verbleibende Filzstifte: {0}'
+  - id: UI_GAMEOVER_VERYHARD_DESC3
+    text: Du bist gestorben.
+  - id: UI_SAVEGAME
+    text: Spiel speichern
+  - id: UI_SAVEGAME_DESC
+    text: Den aktuellen Fortschritt speichern.
+  - id: UI_POINTCAMERA_EXIT
+    text: Verlassen
+  - id: UI_POINTCAMERA_EXIT_DESC
+    text: Zurück zum Titelbildschirm
+  - id: UI_POINTCAMERA_PREV
+    text: Zurück
+  - id: UI_POINTCAMERA_PREV_DESC
+    text: Zum vorherigen Bildschirm
+  - id: MAP_MAINBUILDING1
+    text: Hauptgebäude 1
+  - id: MAP_MAINBUILDING2
+    text: Hauptgebäude 2
+  - id: MAP_NEWBUILDING
+    text: Neubau
+  - id: MAP_HALL
+    text: Hörsaal
+  - id: MAP_MAZE
+    text: Labyrinth
+  - id: MAP_CERAMIC
+    text: '???'
+  - id: MAP_CLASSROOM2_1
+    text: 2-1
+  - id: MAP_CLASSROOM2_2
+    text: 2-2
+  - id: MAP_CLASSROOM2_3
+    text: 2-3
+  - id: MAP_CLASSROOM2_4
+    text: 2-4
+  - id: MAP_CLASSROOM2_5
+    text: 2-5
+  - id: MAP_CLASSROOM2_6
+    text: 2-6
+  - id: MAP_CLASSROOM2_7
+    text: 2-7
+  - id: MAP_CLASSROOM2_8
+    text: 2-8
+  - id: MAP_CLASSROOM2_9
+    text: 2-9
+  - id: MAP_CLASSROOM2_10
+    text: 2-10
+  - id: MAP_CLASSROOM2_11
+    text: 2-11
+  - id: MAP_CLASSROOM2_12
+    text: 2-12
+  - id: MAP_HOUSEKEEPINGROOM
+    text: Klassenzimmer<br>für<br>Hauswirtschaftslehre
+  - id: MAP_MACHINEROOM
+    text: Werkstatt
+  - id: MAP_REGISTERROOM1
+    text: Büro für <br>Schülerakten
+  - id: MAP_REGISTERROOM2
+    text: Hauptbüro
+  - id: MAP_MOUNTAINROOM
+    text: Wander-AG
+  - id: MAP_PHOTOROOM
+    text: Fotografie-AG
+  - id: MAP_PHYSICALROOM
+    text: Turngeräteraum
+  - id: MAP_STUDIO1
+    text: Senderaum
+  - id: MAP_STUDIO2
+    text: Aufnahmeraum
+  - id: MAP_COUNSELINGROOM1
+    text: Büro des<br>Vertrauenslehrers,<br>EG
+  - id: MAP_COUNSELINGROOM2
+    text: Büro des <br>Vertrauenslehrers, <br>1. OG
+  - id: MAP_PRINCIPALROOM
+    text: Büro des<br>Direktors
+  - id: MAP_TEACHERSROOMA
+    text: Fakultätsbüro 1
+  - id: MAP_TEACHERSROOMC1
+    text: Fakultätsbüro 2
+  - id: MAP_TEACHERSROOMC2
+    text: Aufenthaltsraum<br> der Fakultät
+  - id: MAP_NIGHTDUTYROOM
+    text: Raum der<br>Nachtschicht
+  - id: MAP_DISPENSARY
+    text: Büro der<br>Krankenschwester
+  - id: MAP_WAREHOUSE
+    text: Fundbüro
+  - id: MAP_STUDENTROOM
+    text: Büro der<br>Schulverwaltung
+  - id: MAP_MUSICROOM1
+    text: Musikraum
+  - id: MAP_MUSICROOM2
+    text: Musik-<br>Materialraum
+  - id: MAP_SCIENCEROOM1
+    text: Labor
+  - id: MAP_SCIENCEROOM2
+    text: Materialraum der<br>Naturwissenschaften
+  - id: MAP_ARTROOM1
+    text: Kunstraum
+  - id: MAP_ARTROOM2
+    text: Kunst-<br>Materialraum
+  - id: MAP_BIOLOGYROOM1
+    text: Biologielabor
+  - id: MAP_BIOLOGYROOM2
+    text: Biologie-<br>Materialraum
+  - id: MAP_MUSEUM
+    text: Geschichtsraum
+  - id: MAP_CHAIRMANROOM
+    text: Büro des<br>Vorsitzenden
+  - id: MAP_MUSICHALL
+    text: Musikzimmer
+  - id: MAP_DANCINGROOM
+    text: Tanzstudio
+  - id: MAP_OCCULTROOM
+    text: Okkultismus-AG
+  - id: MAP_CAFETERIA
+    text: Schulkiosk
+  - id: MAP_ELECTRICROOM
+    text: Schalter-<br>Raum
+  - id: MAP_DRAWINGROOM
+    text: Kunstwerkstatt
+  - id: MAP_LANGUAGEROOM
+    text: Sprachlabor
+  - id: MAP_STAFFLAUNGE
+    text: Aufenthaltsraum<br> der Fakultät
+  - id: MAP_EARTHSCIENCEROOM
+    text: Erdkunderaum
+  - id: MAP_COMPUTERROOM
+    text: Computerraum
+  - id: MAP_CLASSROOM3_1
+    text: 3-1
+  - id: MAP_CLASSROOM3_2
+    text: 3-2
+  - id: MAP_CLASSROOM3_3
+    text: 3-3
+  - id: MAP_CLASSROOM3_4
+    text: 3-4
+  - id: MAP_CLASSROOM3_5
+    text: 3-5
+  - id: MAP_CLASSROOM3_6
+    text: 3-6
+  - id: MAP_CLASSROOM3_7
+    text: 3-7
+  - id: MAP_CLASSROOM3_8
+    text: 3-8
+  - id: MAP_CLASSROOM3_9
+    text: 3-9
+  - id: MAP_CLASSROOM3_10
+    text: 3-10
+  - id: MAP_CLASSROOM3_11
+    text: 3-11
+  - id: MAP_CLASSROOM3_12
+    text: 3-12
+  - id: MAP_POOL
+    text: Dach<br>(Schwimmbecken)
+  - id: MAP_READINGROOM
+    text: Lesezimmer
+  - id: MAP_SEARCHROOM
+    text: Lehrmittel-<br>zentrum
+  - id: MAP_LIBRARY1
+    text: Bibliothek 1
+  - id: MAP_LIBRARY2
+    text: Bibliothek 2
+  - id: MAP_STOREHOUSE
+    text: Lagerraum
+  - id: MAP_CONTROLROOM
+    text: Bedienraum<br>des<br>Hörsaals
+  - id: MAP_FITTINGROOMMAN
+    text: Umkleide<br>der<br>Jungen
+  - id: MAP_FITTINGROOMWOMAN
+    text: Umkleide<br>der<br>Mädchen
+  - id: MAP_SHOWERROOMMAN
+    text: Duschraum<br>der<br>Jungen
+  - id: MAP_SHOWERROOMWOMAN
+    text: Duschraum<br>der<br>Mädchen
+  - id: MAP_WAITINGROOM
+    text: Aufenthalts-<br>Raum
+  - id: MAP_ENTRANCE
+    text: Haupteingang
+  - id: MAP_STAGE
+    text: Bühne
+  - id: MAP_PROJECTIONROOM
+    text: Vorführraum
+  - id: MAP_STAND
+    text: Tribüne
+  - id: MONOLOGUE_001
+    text: Ich glaube, da ist jemand in der Schule.
+  - id: MONOLOGUE_002
+    text: Ich habe gehört, wie eine Tür geöffnet wurde.
+  - id: MONOLOGUE_003
+    text: Ich brauche etwas, um Draht zu zerschneiden …
+  - id: MONOLOGUE_004
+    text: Da ist zu viel heißer Dampf. Ich komme nicht daran vorbei.
+  - id: MONOLOGUE_005
+    text: Aus irgendeinem Grund lässt sich die Tür nicht öffnen.
+  - id: MONOLOGUE_006
+    text: Verschlossen. Ich denke nicht, dass ich hineinkomme.
+  - id: MONOLOGUE_007
+    text: Was für ein seltsamer Baum.
+  - id: MONOLOGUE_008
+    text: Giftige Chemikalien haben diesen Baum getötet.
+  - id: MONOLOGUE_009
+    text: So-young ist verschwunden. Wo ist sie nur hin?
+  - id: MONOLOGUE_100
+    text: Sie erwähnte, dass die Gebäude verbunden sind.
+  - id: MONOLOGUE_110
+    text: Ich brauche ein Passwort dafür.
+  - id: MONOLOGUE_120
+    text: Ich glaube, das Bild möchte uns etwas sagen.
+  - id: MONOLOGUE_130
+    text: Ein Paar Linsen für Sehtests.
+  - id: MONOLOGUE_140
+    text: Dort ist der Zugang zum Hörsaal.
+  - id: MONOLOGUE_150
+    text: Schritte klingen hier drinnen seltsam.
+  - id: MONOLOGUE_160
+    text: Das chinesische Zeichen in der Mitte eines jeden Satzes steht für einen Widerspruch.
+  - id: MONOLOGUE_170
+    text: Hier gibt es einen starken Luftzug.
+  - id: MONOLOGUE_180
+    text: 'Ein mit traditionellen Mustern verzierter Tisch. '
+  - id: MONOLOGUE_190
+    text: Diese Dinge will keiner mehr haben. Das ist auf seltsame Weise deprimierend.
+  - id: MONOLOGUE_200
+    text: Eine Tonfigur, die eine Mutter darstellt.
+  - id: MONOLOGUE_210
+    text: Da ist etwas in der Stereoanlage. Ich brauche eine Fernbedienung, um sie einzuschalten.
+  - id: MONOLOGUE_220
+    text: Blut tropft auf das Klavier.
+  - id: MONOLOGUE_230
+    text: Irgendetwas ist auf den Boden gefallen.
+  - id: MONOLOGUE_240
+    text: Das Bild wurde zerrissen. Es ist nur noch ein Teil davon übrig.
+  - id: MONOLOGUE_250
+    text: 'Wir müssen offenbar das Tongefäß aus dem Gemälde aufspüren. '
+  - id: MONOLOGUE_260
+    text: Sie haben offenbar panisch nach etwas gesucht.
+  - id: MONOLOGUE_270
+    text: Eine Tonfigur. Sie sieht zerbrechlich aus.
+  - id: MONOLOGUE_280
+    text: Hoffentlich findet diese Seele ihren Frieden.
+  - id: MONOLOGUE_290
+    text: Mit einem Mädchen zu sprechen, ist nie leicht.
+  - id: MONOLOGUE_300
+    text: Hm … Klingt, als ob sie sich um mich sorgt.
+  - id: MONOLOGUE_310
+    text: Hält sie mich für einen Idioten? Ach, ich weiß nicht …
+  - id: MONOLOGUE_320
+    text: Ich möchte jetzt raus aus dieser Schule …
+  - id: MONOLOGUE_330
+    text: Die Kassette kann nicht abgespielt werden, da der Treibriemen kaputt ist.
+  - id: MONOLOGUE_340
+    text: Ich hoffe, dass diese Kassette bei jemandem landet, der ihrem Inhalt Glauben schenkt.
+  - id: MONOLOGUE_350
+    text: So ähnlich roch es in der Kunstwerkstatt meiner letzten Schule auch.
+  - id: MONOLOGUE_360
+    text: Hm … Eine Yin-Yang-Marke? Genau das, was ich jetzt brauche.
+  - id: MONOLOGUE_370
+    text: Die Tür wurde von innen zugesperrt. Vielleicht kann ich sie mit einem laminierten Gegenstand öffnen.
+  - id: MONOLOGUE_380
+    text: Eine große Klimaanlage, die glatt einen Tornado erzeugen könnte. Sie lässt sich aber nicht anschalten.
+  - id: MONOLOGUE_390
+    text: 'Ich mache mir Sorgen um Ji-Hyeon. Sie ist ganz allein. '
+  - id: MONOLOGUE_400
+    text: Die Yin-Yang-Marke hat einen Sprung! Sie strahlt kein schützendes Licht mehr aus.
+  - id: MONOLOGUE_410
+    text: 'Hm. Ich dachte, der Sportlehrer hat die Nachtschicht. Dieser Lehrer kommt mir bekannt vor … '
+  - id: MONOLOGUE_420
+    text: Ein einfacher AG-Raum.
+  - id: MONOLOGUE_430
+    text: Mein einziger Freund auf meiner letzten Schule war der Sohn eines Ladenbesitzers. Er fehlt mir.
+  - id: MONOLOGUE_440
+    text: Das muss ein alter Schlüssel sein … Er sieht nicht wie die anderen aus.
+  - id: MONOLOGUE_450
+    text: Ich spüre eine eisige und tiefe Verbitterung. Hoffentlich findet diese Seele ihren Frieden.
+  - id: MONOLOGUE_460
+    text: Das führt noch zu einer Katastrophe. Ich muss schnell raus aus der Schule und Hilfe holen.
+  - id: MONOLOGUE_470
+    text: Was ist das?
+  - id: MONOLOGUE_480
+    text: Das ist eine Zeichnung eines Vogelkäfigs. Es ist kein Vogel drinnen.
+  - id: MONOLOGUE_490
+    text: Ein Lutscher? Was hat das zu bedeuten?
+  - id: MONOLOGUE_500
+    text: Da ist eine Zeichnung eines weinenden Engels.
+  - id: MONOLOGUE_510
+    text: Die Fliege sieht aus wie Sung-A.
+  - id: MONOLOGUE_520
+    text: Diese Fliege sieht aus wie Ji-Hyeon…
+  - id: MONOLOGUE_530
+    text: Die Katze sucht nach ihrem Kätzchen.
+  - id: MONOLOGUE_540
+    text: Die Flügel des Schmetterlings haben die Form eines menschlichen Körpers.
+  - id: MONOLOGUE_550
+    text: Das ist die Zeichnung eines Stabkäfers, der irgendetwas sagt.
+  - id: MONOLOGUE_560
+    text: Die Taube in der Zeichnung sieht traurig aus.
+  - id: MONOLOGUE_570
+    text: Das ist die Zeichnung einer Ratte, die riesige Krücken hält.
+  - id: MONOLOGUE_580
+    text: Die Fliege erinnert mich an jemanden.
+  - id: MONOLOGUE_590
+    text: SY…steht das für So-young?
+  - id: MONOLOGUE_600
+    text: Wenn ich den Feuerlöscher benutze, könnte das die Flamme nähren. Ich brauche eine nasse Decke oder etwas ähnliches.
+  - id: MONOLOGUE_610
+    text: Das ist eine kleine nasse Decke, die kaum eine Person bedecken kann.
+  - id: MONOLOGUE_2010
+    text: Ich muss irgendwie in den Neubau gelangen.
+  - id: MONOLOGUE_2020
+    text: Das ist die gleiche Barriere, die ich bereits in Hauptgebäude 1 gesehen habe.
+  - id: MONOLOGUE_2030
+    text: Im Büro des Direktors muss irgendetwas sein.
+  - id: MONOLOGUE_2040
+    text: Im Fakultätsbüro ist etwas versteckt.
+  - id: MONOLOGUE_2050
+    text: Ein verstaubter Haufen nicht abgeholter Gegenstände.
+  - id: MONOLOGUE_2060
+    text: In dieser Vitrine ist eine Tonfigur, die eine Frau darstellt.
+  - id: MONOLOGUE_2070
+    text: Da ist eine CD in der CD-Lade.
+  - id: MONOLOGUE_2080
+    text: Jemand hat den Rest des Bildes abgerissen.
+  - id: MONOLOGUE_2090
+    text: Das Bild eines Mannes, der eine Vase hält.
+  - id: MONOLOGUE_2100
+    text: Wenn das so weitergeht, stürzt noch das Gebäude ein!
+  - id: MONOLOGUE_1010
+    text: Ich sollte zunächst ins Klassenzimmer 8 der Elftklässler.
+  - id: MONOLOGUE_1020
+    text: Ich denke nicht, dass ich noch einmal diesen Weg nach draußen nehmen werde.
+  - id: MONOLOGUE_1030
+    text: Ich glaube, da ist noch jemand in der Schule.
+  - id: MONOLOGUE_1040
+    text: Sie enthält eine Auswahl an Werkzeugen.
+  - id: MONOLOGUE_1050
+    text: Ein Drahtgitter blockiert das Lüftungsfenster.
+  - id: MONOLOGUE_1060
+    text: Das ist ihr Klassenzimmer.
+  - id: MONOLOGUE_1070
+    text: Verschlossen. Ich komme nicht rein. Ob ich einfach gehen sollte?
+  - id: MONOLOGUE_1080
+    text: So-young hat etwas verloren.
+  - id: MONOLOGUE_1090
+    text: Die Ranken aus dem Boden blockieren die Tür vollständig.
+  - id: MONOLOGUE_1100
+    text: Ich habe gerade ein schreckliches Geräusch gehört.
+  - id: MONOLOGUE_1110
+    text: Alles ist spurlos verschwunden.
+  - id: MONOLOGUE_1120
+    text: Hier ist nichts. So-young kann ich auch nicht entdecken.
+  - id: MONOLOGUE_1130
+    text: Da ist zu viel heißer Dampf. Ich komme nicht daran vorbei.
+  - id: MONOLOGUE_1140
+    text: Die Tür geht nicht auf!
+  - id: MONOLOGUE_1150
+    text: Was für ein seltsamer Baum.
+  - id: MONOLOGUE_1160
+    text: Die Tür zum Hörsaal ist zugesperrt.
+  - id: MONOLOGUE_1170
+    text: Da ist eine Leiter für Bauarbeiten.
+  - id: MONOLOGUE_1180
+    text: Von dieser Seite kann die Tür nicht geöffnet werden.
+  - id: MONOLOGUE_3010
+    text: Die Wasserbarriere blockiert den Weg zum Hörsaal.
+  - id: MONOLOGUE_3020
+    text: Ich brauche eine Schlüsselkarte der passenden Farbe, um diese Tür zu öffnen.
+  - id: MONOLOGUE_3030
+    text: Ich denke, ich kann die Kassette mit der Rückwärtsbotschaft aus dem Fakultätsbüro abspielen, wenn ich den Kassettenrecorder repariert habe.
+  - id: MONOLOGUE_3040
+    text: Dieser Kassettenrecorder funktioniert nicht. Der Treibriemen wurde durchtrennt.
+  - id: MONOLOGUE_3050
+    text: Ich kann die rote Schlüsselkarte im Spiegel sehen.
+  - id: MONOLOGUE_3060
+    text: Die Türkette wurde von innen eingehängt. Vielleicht kann ich sie mit einem laminierten Gegenstand öffnen.
+  - id: MONOLOGUE_3070
+    text: Die Klimaanlage reagiert nicht. Vermutlich ist der Strom abgedreht.
+  - id: MONOLOGUE_3080
+    text: Auf dem Bücherregal ist ein laminiertes Schild. Es ist leider zu weit oben, ich komme nicht ran.
+  - id: MONOLOGUE_3090
+    text: Ji-Hyeon ist verschwunden!
+  - id: MONOLOGUE_3100
+    text: Ich habe gehört, wie etwas in der Haupthalle zu Bruch gegangen ist.
+  - id: MONOLOGUE_3110
+    text: Auf der anderen Seite des Schwimmbeckens ist ein Abflussventil.
+  - id: MONOLOGUE_3120
+    text: Ich hoffe, dass diese Kassette bei jemandem landet, der ihrem Inhalt Glauben schenkt.
+  - id: MONOLOGUE_4010
+    text: Im Hörsaal herrscht eine unheilvolle Stille.
+  - id: MONOLOGUE_4020
+    text: Der Ausgang lässt sich nicht öffnen.
+  - id: MONOLOGUE_4030
+    text: Da ist jemand auf der Bühne.
+  - id: MONOLOGUE_4040
+    text: Die Maschine gerät außer Kontrolle. Das sieht gefährlich aus.
+  - id: MONOLOGUE_4050
+    text: Ich glaube, dass eben eine verschlossene Tür geöffnet wurde.
+  - id: MONOLOGUE_4060
+    text: Da ist ein Feuerlöscher.
+  - id: MONOLOGUE_5000
+    text: Ich kann die Marke erst nehmen, wenn die Energie der Barriere wiederhergestellt wurde.
+  - id: MONOLOGUE_5010
+    text: Ich habe die Marke.
+  - id: MONOLOGUE_6000
+    text: Vielleicht kann ich mit diesem Lösungsmittel herausfinden, was für ein Fleck das ist.
+  - id: MONOLOGUE_6010
+    text: Was für eine Art von Schule ist das?!
+  - id: MONOLOGUE_6020
+    text: Buch? Da war ein Buch…Ist das das Buch, nachdem So-Young gesucht hat?
+  - id: MONOLOGUE_6030
+    text: Ich habe dieses Lied schon einmal gehört…Kommt es aus dem Büro des Beraters?
+  - id: MONOLOGUE_6040
+    text: Die Musiklehrerin, die sich umgebracht hat? Was sehe ich hier?
+  - id: MONOLOGUE_6050
+    text: Die Schüler spielten ein Spiel, bei dem Sie nach den Gegenständen der toten Musiklehrerin gesucht haben.<br>Ich könnte vielleicht etwas finden, wenn ich einen Gegenstand der Musiklehrerin hätte!
+  - id: MONOLOGUE_6060
+    text: Mir kommt dieses Gesicht bekannt vor…
+  - id: MONOLOGUE_6070
+    text: Das müssen die verlorenen Gegenstände sein…Hinter jedem Gegenstand verbirgt sich eine Geschichte.
+  - id: MONOLOGUE_6080
+    text: Vase? Vielleicht enthält sie etwas Wichtiges? Ich muss es finden.
+  - id: MONOLOGUE_6090
+    text: Ich habe noch nie so ein Schloss gesehen. Wie öffnet man es?
+  - id: MONOLOGUE_6100
+    text: Der Fleck war im Hauptgebäude 1.
+  - id: MONOLOGUE_6110
+    text: Ich denke, ich sollte erstmal dem Fleck folgen.
+  - id: MONOLOGUE_6120
+    text: Ich muss zuerst die Gegenstände der Musiklehrerin finden.
+  - id: MONOLOGUE_6130
+    text: Da ist etwas in der Vase.
+  - id: MONOLOGUE_6140
+    text: Ich muss nur für den Fall den Asthmainhalator finden.
+  - id: MONOLOGUE_6150
+    text: Ein Asthmainhalator? Sie ist Sung-As Mutter!!
+  - id: MONOLOGUE_6160
+    text: Ich muss vor ihnen etwas machen.
+  - id: MONOLOGUE_6170
+    text: Irgendwie scheint dieser Ort anders zu sein.
+  - id: MONOLOGUE_6180
+    text: Lebwohl… Ich hoffe dein nächstes Leben wird ein glückliches werden…
+  - id: MONOLOGUE_6190
+    text: Wir werden uns bald wieder treffen, oder?
+  - id: MONOLOGUE_6200
+    text: Ich mach mir echt Sorgen… Richtige Sorgen!
+  - id: MONOLOGUE_UNSAFE
+    text: Ich glaube, es ist gerade nicht sicher …
+  - id: MONOLOGUE_SAVED
+    text: Ich habe Fotos an der Pinnwand hinterlassen.
+  - id: MONOLOGUE_DARKNESS
+    text: Ich sehe nichts. Es ist zu dunkel.
+  - id: MONOLOGUE_CLOSE_GAS_VALVE
+    text: Das Ventil wurde geschlossen.
+  - id: MONOLOGUE_SIREN
+    text: Der Alarm wurde aktiviert. Ich muss ihn schnell abschalten!
+  - id: MONOLOGUE_LOCKED
+    text: Abgeschlossen.
+  - id: MONOLOGUE_UNLOCKED
+    text: Ich habe sie aufgeschlossen.
+  - id: MONOLOGUE_NO_COIN
+    text: Ich habe keine Münzen.
+  - id: MONOLOGUE_NOTHING_HAPPENS
+    text: Es ist nichts passiert.
+  - id: MONOLOGUE_SAVE_CANT
+    text: Dafür habe ich jetzt keine Zeit.
+  - id: MONOLOGUE_SCENECHANGE_CANT
+    text: Ich muss noch etwas erledigen.
+  - id: MONOLOGUE_TOOLBOX
+    text: Der Inhalt der Werkzeugkiste wird ausgebreitet. Es sind viele verschiedene Werkzeuge darunter.
+  - id: MONOLOGUE_POTTERYBOX
+    text: Eine Kiste mit den Habseligkeiten einer Person.
+  - id: MONOLOGUE_PICTURE_COMPLETE
+    text: Ich glaube, ich habe diese Vase schon einmal gesehen …
+  - id: MONOLOGUE_CLOCK_CHECK
+    text: Die Uhr zeigt nicht die korrekte Zeit an.
+  - id: MONOLOGUE_CLOCK_BASE
+    text: Die Uhr zeigt anscheinend dieselbe Zeit an wie im Bild.
+  - id: MONOLOGUE_PICTURE_GREENWICH
+    text: Ein Bild des Royal Observatory in Greenwich.
+  - id: MONOLOGUE_PICTURE_TIANANMEN
+    text: Ein Bild des Tian'anmen-Platzes in Peking.
+  - id: MONOLOGUE_PICTURE_CREMLIN
+    text: Ein Bild des Moskauer Kremls.
+  - id: MONOLOGUE_PICTURE_PENTAGON
+    text: Ein Bild des Pentagons in Washington, D.C.
+  - id: MONOLOGUE_FLOWER
+    text: Hier wurde eine Chrysantheme für jemanden zurückgelassen.
+  - id: MONOLOGUE_FIND_HOLE
+    text: Da ist ein Loch. Ich weiß nicht, wozu es dient.
+  - id: MONOLOGUE_SOMETHING_DROPPED
+    text: Irgendetwas ist heruntergefallen.
+  - id: MONOLOGUE_LOCKED_BY_SOMETHING
+    text: Sie wurde mit einem Gerät versperrt.
+  - id: MONOLOGUE_FLOOR_BROKEN
+    text: Der Boden hat einen Sprung.
+  - id: MONOLOGUE_DOCUMENT_PRINTED
+    text: Das Dokument wurde gedruckt.
+  - id: MONOLOGUE_NOT_WORK
+    text: Das funktioniert nicht …
+  - id: MONOLOGUE_VALVE_NOT_ROTATE
+    text: Das Ventil dreht sich nicht mehr.
+  - id: MONOLOGUE_TAEGUEK_SHINED
+    text: Von der Yin-Yang-Marke geht ein Licht aus.
+  - id: MONOLOGUE_DONOT_MOVE
+    text: Ich kann meine Füße nicht bewegen.
+  - id: MONOLOGUE_ELECTRIC_DANGER
+    text: Das steht unter Hochspannung. Ich darf es nicht berühren.
+  - id: COLLECTION_GHOST_NAME_01
+    text: Rachsüchtiger Geist einer Hausmutter
+  - id: COLLECTION_GHOST_NAME_02
+    text: Die unsichtbare Stimme
+  - id: COLLECTION_GHOST_NAME_03
+    text: Die liegende Schülerin
+  - id: COLLECTION_GHOST_NAME_04
+    text: Frau im Schrank
+  - id: COLLECTION_GHOST_NAME_05
+    text: Blutdurstiger Baum
+  - id: COLLECTION_GHOST_NAME_06
+    text: Seele des Babys
+  - id: COLLECTION_GHOST_NAME_07
+    text: Des Mädchen vor dem Fenster
+  - id: COLLECTION_GHOST_NAME_08
+    text: Der Geist einer Verhungerten
+  - id: COLLECTION_GHOST_NAME_09
+    text: Das Mädchen mit dem verborgenen Gesicht
+  - id: COLLECTION_GHOST_NAME_10
+    text: Der Geist aus der Bibliothek
+  - id: COLLECTION_GHOST_NAME_11
+    text: Das Kind, das eine Gleichung löst
+  - id: COLLECTION_GHOST_NAME_12
+    text: Spukender Kopf
+  - id: COLLECTION_GHOST_NAME_13
+    text: Der Geist des Anwesenheitsbuches
+  - id: COLLECTION_GHOST_NAME_14
+    text: Der Spiegelgeist
+  - id: COLLECTION_GHOST_NAME_15
+    text: Das Spinnenmädchen
+  - id: COLLECTION_GHOST_NAME_16
+    text: Hasserfülltes Gesicht
+  - id: COLLECTION_GHOST_NAME_17
+    text: Die erhängte Frau
+  - id: COLLECTION_GHOST_NAME_18
+    text: Lebendiges Modell
+  - id: COLLECTION_GHOST_NAME_19
+    text: Der Schatten im Wasser
+  - id: COLLECTION_GHOST_NAME_20
+    text: Großmuttergeist
+  - id: UI_POPUP_FACEBOOK_COMFIRM_ALERT
+    text: Facebook ist nicht installiert. Bitte installiere Facebook und versuche es erneut.
+  - id: UI_POPUP_TWITTER_COMFIRM_ALERT
+    text: Twitter ist nicht installiert. Bitte installiere Twitter und versuche es erneut.
+  - id: UI_POPUP_DOWNLOAD_START
+    text: Gekaufte Inhalte werden heruntergeladen.
+  - id: UI_POPUP_DOWNLOAD_COMPLETE
+    text: Download abgeschlossen.
+  - id: UI_POPUP_SAVE_ALERT1
+    text: Möchtest du auf diesem Speicherplatz speichern?
+  - id: UI_POPUP_SAVE_ALERT2
+    text: '[{0} {1:D02}:{2:D02}:{3:D02}] bereits vorhanden.<br>Möchtest du den Speicherstand überschreiben?'
+  - id: UI_INTRO_TOUCH
+    text: Drücke eine beliebige Taste
+  - id: GOOGLE_CS_CONTENT
+    text: 'Hallo von Roi Games!<br><br>E-Mail-Adresse des Kundenservices: {0}<br><br>Bitte gib bei deiner Anfrage folgende Informationen an:<br><br>1. Deine Benutzer-ID<br>2. Informationen zu deinem mobilen Gerät<br>3. Die Firmware-Version deines Betriebssystems<br>4. Die aktuell genutzte Spielversion<br>5. Der zum Kauf verwendete Store<br>6. E-Mail-Adresse für die Antwort<br>7. Beschreibung deines Anliegens<br><br>Bitte setze dich bei Fragen oder Problemen mit uns in Verbindung. Wir werden eine Anfrage sorgfältig prüfen und dir so bald wie möglich antworten.<br>Vielen Dank.'
+  - id: SEND_MAIL
+    text: E-Mail senden
+  - id: MAIL_TITLE_GOOGLE
+    text: '[Google]_The School : White Day Inquiry'
+  - id: MAIL_TITLE_APPLE
+    text: '[Apple]_The School : White Day Inquiry'
+  - id: CS_CONTENT
+    text: '1. Deine Benutzer-ID: {0}<br>2. Informationen zu deinem mobilen Gerät: {1}<br>3. Die Firmware-Version deines Betriebssystems: {2}<br>4. Die aktuell genutzte Spielversion: {3}<br>5. Der zum Kauf verwendete Store: <br>6. E-Mail-Adresse für die Antwort: <br>7. Beschreibung deines Anliegens:'
+  - id: UI_CINEMA_BUTTON_SKIP
+    text: Überspringen
+  - id: UI_RESULT_TITLE_TEXT
+    text: Spielergebnisse
+  - id: UI_RESULT_FACTOR_TEXT_01
+    text: Gesamtspielzeit
+  - id: UI_RESULT_FACTOR_TEXT_02
+    text: Neigungswertung
+  - id: UI_RESULT_FACTOR_TEXT_03
+    text: Trefferanzahl
+  - id: UI_RESULT_FACTOR_TEXT_04
+    text: Gegenstand erhalten
+  - id: UI_RESULT_FACTOR_TEXT_05
+    text: Dokument erhalten
+  - id: UI_RESULT_FACTOR_TEXT_06
+    text: Geisterbegegnung
+  - id: UI_RESULT_FACTOR_TEXT_07
+    text: Filzstift
+  - id: UI_RESULT_BUTTON_TEXT_01
+    text: Zum Hauptbildschirm
+  - id: UI_RESULT_BUTTON_TEXT_02
+    text: OK
+  - id: UI_RESULT_BUTTON_TEXT_03
+    text: Teilen
+  - id: UI_CINEMA_PROLOGUE_TEXT_01
+    text: Man kann die Zeit ganz einfach so verstreichen lassen,
+  - id: UI_CINEMA_PROLOGUE_TEXT_02
+    text: ohne darüber nachzudenken.
+  - id: UI_CINEMA_PROLOGUE_TEXT_03
+    text: Das grüne Gras, die Sonne …
+  - id: UI_CINEMA_PROLOGUE_TEXT_04
+    text: Und sie …
+  - id: UI_CINEMA_PROLOGUE_TEXT_05
+    text: So-young Han, 11. Klasse, Klassenzimmer 8.
+  - id: UI_CINEMA_PROLOGUE_TEXT_06
+    text: Sie war dort.
+  - id: UI_CINEMA_INTRO_TEXT_01
+    text: Ich wollte ihr nur ein kleines Geschenk geben.
+  - id: UI_CINEMA_INTRO_TEXT_02
+    text: Zusammen mit ihrem verlorenen Tagebuch.
+  - id: UI_CINEMA_INTRO_TEXT_03
+    text: Aber
+  - id: UI_CINEMA_INTRO_TEXT_04
+    text: Die Schule hatte mich gefangen.
+  - id: UI_LOADSCENE_TIP
+    text: Für ein spannendes Spielerlebnis empfehlen wir die Verwendung von Kopf- bzw. Ohrhörern.
+  - id: UI_LOADSCENE_DESC
+    text: Spiel wird geladen …
+  - id: NOTICE_LOCATION_MAINBUILDING1_TEXT1
+    text: Hauptgebäude, Abschnitt 1
+  - id: NOTICE_LOCATION_MAINBUILDING1_TEXT2
+    text: 13. März, 22:00 Uhr
+  - id: NOTICE_LOCATION_MAINBUILDING2_TEXT1
+    text: Hauptgebäude, Abschnitt 2
+  - id: NOTICE_LOCATION_MAINBUILDING2_TEXT2
+    text: 13. März, 23:01 Uhr
+  - id: NOTICE_LOCATION_NEWBUILDING2_TEXT1
+    text: Neubau
+  - id: NOTICE_LOCATION_NEWBUILDING2_TEXT2
+    text: 14. März, 12:04 Uhr
+  - id: NOTICE_LOCATION_HALL_TEXT1
+    text: Hörsaal
+  - id: NOTICE_LOCATION_HALL_TEXT2
+    text: 14. März, 04:26 Uhr
+  - id: NOTICE_LOCATION_MAZE_TEXT1
+    text: Labyrinth
+  - id: NOTICE_LOCATION_MAZE_TEXT2
+    text: 14. März, ??:?? Uhr
+  - id: NOTICE_LOCATION_CERAMIC_TEXT1
+    text: '???'
+  - id: NOTICE_LOCATION_CERAMIC_TEXT2
+    text: 14. März, ??:?? Uhr
+  - id: UI_LOBBY_CODE_EMPTY
+    text: Bitte gib den Code ein und versuche es erneut.
+  - id: UI_TUTORIAL_CONTROL_BUTTON
+    text: Steuerung auswählen
+  - id: UI_TUTORIAL
+    text: '[<color=#7c973a>Tutorial</color>]'
+  - id: MAP_TOILETMAN
+    text: Herrentoilette
+  - id: MAP_TOILETWOMAN
+    text: Damentoilette
+  - id: UI_POPUP_CLOUD_SAVE_CONFIRM
+    text: '{0}.{1}.{2}. {3}:{4}:{5}<br><br>Den aktuellen Spielstand in der Cloud speichern?<br>Daten in der Cloud werden überschrieben.<br>※ Bitte warte, bis das Spiel gespeichert wurde, bevor du die App schließt oder die Netzwerkverbindung beendest.'
+  - id: UI_POPUP_CLOUD_SAVE_COMPLETE
+    text: Spiel gespeichert.<br>Du kannst jetzt die Cloud-Funktion verwenden, um das Spiel auf anderen Geräten fortzusetzen.<br>※ Die Synchronisierung kann einen Moment dauern.
+  - id: UI_POPUP_CLOUD_SAVE_FAIL
+    text: Speichern fehlgeschlagen.<br>Bitte sorge für eine stabile Netzwerkverbindung und versuche es erneut.
+  - id: UI_POPUP_CLOUD_LOAD_CONFIRM
+    text: '{0}.{1}.{2}. {3}:{4}:{5}<br><br>Spielstand laden?<br>※ Achtung: Die Spielstände auf dem aktuellen Gerät werden gelöscht.'
+  - id: UI_POPUP_CLOUD_LOAD_COMPLETE
+    text: Spielstand geladen.
+  - id: UI_POPUP_CLOUD_LOAD_FAIL
+    text: Laden fehlgeschlagen.<br>Bitte sorge für eine stabile Netzwerkverbindung und versuche es erneut.
+  - id: UI_POPUP_CLOUD_LOAD_NODATA
+    text: Es sind keine Spielstände in der Cloud vorhanden.
+  - id: UI_SAVE
+    text: Speichern
+  - id: UI_REPLAY_ENDING
+    text: Ende erneut abspielen
+  - id: UI_RANK_CARD_DESC
+    text: Erreiche den Rang der Karte,<br>um dieses Outfit verwenden zu können.
+  - id: UI_MAX_PLAY_SCORE
+    text: Highscore
+  - id: UI_SETTING_RESTORE_BUTTON
+    text: Wiederherstellung anfordern
+  - id: UI_POPUP_CLOUD_LOAD_WRONGDATA
+    text: Der Spielstand wurde nicht ordnungsgemäß gespeichert.<br>Bitte speichere erneut und versuche es noch einmal.
+  - id: UI_POPUP_CLOUD_IOS_NOTLOGIN
+    text: Zugriff auf iCloud-Dienst fehlgeschlagen.<br>Bitte überprüfe, ob iCloud in deinen Einstellungen aktiviert ist.
+  - id: UI_SYSTEM_LANGUAGE_SUBTITLE
+    text: Sprache der Untertitel
+  - id: UI_SYSTEM_LANGUAGE_VOICE
+    text: Sprache der Sprachausgabe
+  - id: UI_SYSTEM_LANGUAGE_VOICE_KOREAN
+    text: Koreanisch
+  - id: UI_SYSTEM_LANGUAGE_VOICE_ENGLISH
+    text: Englisch
+  - id: UI_SYSTEM_LANGUAGE_VOICE_CHINESE
+    text: Chinesisch
+  - id: UI_SYSTEM_LANGUAGE_BUTTON_DELETE
+    text: Ressourcen löschen
+  - id: UI_SYSTEM_LANGUAGE_DELETE_POPUP
+    text: Löscht ungenutzte Sprachressourcen.<br><br>※ Gelöschte Sprachen müssen erneut heruntergeladen werden, um sie im Spiel nutzen zu können.
+  - id: UI_SYSTEM_LANGUAGE_DELETE_CONFIRM
+    text: Löschen
+  - id: UI_SYSTEM_LANGUAGE_DELETE_CANCLE
+    text: Abbrechen
+  - id: UI_FIGURE_DETAIL_TITLE
+    text: Untersuchen
+  - id: UI_FIGURE_DETAIL_DESC
+    text: Untersuche die Sammlung alter Figuren.
+  - id: IABHELPER_-500
+    text: abgebrochen, weil Kaufhistorie nicht gefunden werden konnte
+  - id: UI_CHECKPOINT_ENDING
+    text: Ende
+  - id: BEACON_OBJ_SWITCHBOX_LIGHT
+    text: Licht
+  - id: BEACON_OBJ_SWITCHBOX_POWER
+    text: Strom
+  - id: BEACON_OBJ_SWITCHBOX_ALARM
+    text: Alarmanlage
+  - id: UI_SYSTEM_GRAPHICS_LOWSPEC_TOGGLE
+    text: Das Spiel läuft im Leistungsmodus.
+  - id: UI_SYSTEM_GRAPHICS_RESET_POPUP
+    text: Änderungen werden erst nach einem Neustart wirksam.<br>Möchtest du das Spiel jetzt neu starten?
+  - id: UI_SYSTEM_RESOLUTION
+    text: '[Grafikeinstellungen]'
+  - id: UI_SYSTEM_RESOLUTION_NATIVE
+    text: Native Auflösung
+  - id: UI_SYSTEM_FRAMERATE
+    text: '[Bildfrequenz-Einstellungen]'
+  - id: UI_SYSTEM_LANGUAGE_RUSSIAN
+    text: Pусский
+  - id: UI_BACK
+    text: Zurück
+  - id: UI_ENDGAME
+    text: '[<color=#7c973a>Beenden</color>]'
+  - id: UI_SYSTEM_GAMEOPTION_KEYBOARD
+    text: Tastatur
+  - id: UI_SYSTEM_GAMEOPTION_JOYPAD
+    text: Steuerung
+  - id: UI_SYSTEM_SCREENRESOLUTION
+    text: Bildschirmauflösung
+  - id: UI_SYSTEM_FILTER
+    text: Bildschirmfilter benutzen
+  - id: UI_SYSTEM_ANTIALIASING
+    text: Kantenglättung benutzen
+  - id: UI_SYSTEM_SHADOW
+    text: Schatten anzeigen
+  - id: UI_SYSTEM_DYNAMICLIGHTING
+    text: Dynamische Beleuchtung benutzen
+  - id: UI_SYSTEM_DEPTHOFFIELD
+    text: Schärfentiefe benutzen
+  - id: UI_SYSTEM_BLOOM
+    text: Bloom-Effekt benutzen
+  - id: UI_SYSTEM_SSAO
+    text: SSAO benutzen
+  - id: UI_SYSTEM_GAMMA
+    text: Bildschirmhelligkeit anpassen
+  - id: UI_SYSTEM_MASTERSOUND
+    text: Master Sound abspielen
+  - id: UI_SYSTEM_SFXSOUND
+    text: Effekt Soundwiedergabe
+  - id: UI_SYSTEM_SFXSOUNDVOLUME
+    text: Effekt lautstärke
+  - id: UI_SYSTEM_MASTERSOUNDVOLUME
+    text: Master Sound Lautstärke
+  - id: UI_SYSTEM_MUSICSOUND
+    text: Hintergrundgeräusch abspielen
+  - id: UI_SYSTEM_MUSICSOUNDVOLUME
+    text: Lautstärke Hintergrundgeräusch
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_FORWARD
+    text: Vorwärts bewegen
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_BACKWARD
+    text: Rückwärts bewegen
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_LEFT
+    text: Nach links bewegen
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_RIGHT
+    text: Nach rechts bewegen
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_RUN
+    text: Sprinten
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_HIDE
+    text: Ducken/Stehen
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_LIGHTER
+    text: Feuerzeug ein/aus
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_CANCEL
+    text: Abbrechen
+  - id: UI_ON
+    text: Ein
+  - id: UI_OFF
+    text: Aus
+  - id: UI_CONTROLMENU_MOVETAB
+    text: Tab wechseln
+  - id: UI_CONTROLMENU_SELECT
+    text: Auswählen
+  - id: UI_CONTROLMENU_CANCEL
+    text: Löschen
+  - id: UI_CONTROLMENU_SETTINGS
+    text: Einstellungen
+  - id: UI_CONTROLMENU_OPENMENU
+    text: Menü
+  - id: UI_CONTROLMENU_MOVEMENT
+    text: Gehen
+  - id: UI_CONTROLMENU_ROTATION
+    text: Drehen
+  - id: UI_CONTROLMENU_OPENBACKPACK
+    text: Tasche öffnen
+  - id: UI_CONTROLMENU_USE
+    text: Verwenden
+  - id: UI_CONTROLMENU_LIGHTER
+    text: Feuerzeug
+  - id: UI_SHOWALL
+    text: Alles anzeigen
+  - id: CHARACTER_7
+    text: Ji-Min Yoo
+  - id: MONOLOGUE_NOMAGICPEN
+    text: 'Ich brauche einen Filzstift, um eine Aufzeichnung zu hinterlassen. '
+  - id: UI_SYSTEM_GRAPHICS_PROLOGUE
+    text: Prolog abspielen
+  - id: UI_SYSTEM_GRAPHICS_FULLSCREEN
+    text: Vollbild
+  - id: UI_BONUS_COSTUMES_COLLECTION
+    text: Bonus Kleidung sammeln
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT1
+    text: Alle Enden von So-Young abspielen
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT2
+    text: Alle Enden von Sung-A abspielen
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT3
+    text: Alle Enden von Ji-Hyeon abspielen
+  - id: 'UI_BONUS_COSTUMES_TERMS '
+    text: Aufnahmebedingungen
+  - id: UI_RESULT_FACTOR_TEXT_08
+    text: Rekorde
+  - id: UI_DOCUMENT_DIARY
+    text: Tagebuch
+  - id: UI_DOCUMENT_SPELL
+    text: 'Zaubersprüche '
+  - id: UI_DOCUMENT_NOTE
+    text: Memo
+  - id: UI_SYSTEM_CHARACTERSHADOW
+    text: 'Charakter-Umrisse einblenden. '
+  - id: UI_BONUS_COSTUMES_COLLECTION_DESC
+    text: Beschreibung der Bonus-Kleider einfügen.
+  - id: UI_CONTROLMENU_CAMERA
+    text: Rotieren
+  - id: UI_SYSTEM_VIRTUALCURSORSPEED
+    text: Cursor-Geschwindigkeit anpassen.
+  - id: UI_SYSTEM_JOYPADHORIZONTAL
+    text: Horizontale Geschwindigkeit
+  - id: UI_SYSTEM_JOYPADVERTICAL
+    text: 'Vertikale Geschwindigkeit '
+  - id: UI_SYSTEM_HORIZONTALREVERSAL
+    text: Links-Rechts Umkehrung
+  - id: UI_SYSTEM_VERTIVALREVERSAL
+    text: Unten-Oben Umkehrung
+  - id: UI_GAMEOVER_DESC1
+    text: 'Du hast dich zu weit von Eun mi entfernt. Das Spiel wird an deinem letzten Speicherpunkt fortgesetzt. '
+  - id: UI_GAMEOVER_DESC2
+    text: 'Du warst langsamer als der Schatten. Das Spiel wird an deinem letzten Speicherpunkt fortgesetzt. '
+  - id: UI_GOTOMAINMENU
+    text: Hauptmenü
+  - id: TITLE_NAME
+    text: White Day:a labyrinth named school
+  - id: SYSTEM_SAVE_DATA
+    text: 'System Sicherungsdateien '
+  - id: AUTO_SAVE_DATA
+    text: 'Automatische Sicherungsdateien '
+  - id: AVAILABLE_SPACE_OVER_ERROR_TITLE
+    text: 'Speichern '
+  - id: AVAILABLE_SPACE_OVER_ERROR_MESSAGE
+    text: 'Nicht ausreichend Speicherplatz. Um das Spiel ausführen zu können, müssen mindestens 30 MB freier Speicher zur Verfügung sein. '
+  - id: UI_COSTUME_CONFIRM_WEAR
+    text: 'Anziehen '
+  - id: UI_COSTUME_CONFIRM_GET
+    text: Erhalten
+  - id: UI_COSTUME_CONFIRM_BUY
+    text: 'Kaufen '
+  - id: UI_COSTUME_LOCKED_GUIDE_GET
+    text: "Ein Kleidungsstück das Du \ndurch sammelbare Gegenstände \nerhalten kannst. Drücke {0}, \num zu deiner Sammlung zu gelangen. "
+  - id: UI_COSTUME_LOCKED_GUIDE_BUY
+    text: "Ein Kleidungsstück das Du \ndurch den Kauf eines Kleider-Packages \nerhalten kannst. Drücke {0}, \num zum Store zu gelangen. "
+  - id: UI_CONFIG_GRAPHIC_GAMMA_FEW
+    text: Gammawert niedrig
+  - id: UI_CONFIG_GRAPHIC_GAMMA_AFEW
+    text: Gammawert hoch
+  - id: UI_CONFIG_GRAPHIC_GAMMA_GUIDE
+    text: "Die Helligkeit deines Monitors beeinflusst die Spielatmosphäre.\nDie Oben angezeigte Darstellung repräsentiert die hellsten und dunkelsten Stellen des Hintergrunds im Spiel.\nStelle bitte die Helligkeit so ein, dass auf der linken Seite völlige Dunkelheit herrscht und auf der rechten ein leichter Schimmer zu erkennen ist."
+  - id: UI_COLLECTION_GHOST_DOC_READ
+    text: Lesen
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT4
+    text: Schaue dir alle Spielenden für Ji-Min an
+  - id: UI_CONFIG_SAVE
+    text: Einstellungen werden übernommen.
+  - id: UI_CONFIG_KEYSETTING_DEFAULT
+    text: Grundwert
+  - id: UI_LOADING_COMMENT_1
+    text: Sitzend verringert sich die Wahrscheinlichkeit von den Wächtern entdeckt zu werden.
+  - id: UI_LOADING_COMMENT_2
+    text: Wenn du dich hinter den Tischen versteckst, kannst du den Blicken der Wächter entgehen.
+  - id: UI_LOADING_COMMENT_3
+    text: Langes Laufen lässt dich schwindelig werden. Bitte lege Pausen ein.
+  - id: UI_LOADING_COMMENT_4
+    text: Mit einem Heilgegenstand kannst du deinen Gesundheitszustand und deine normale Herzfrequenz wiederherstellen.
+  - id: UI_LOADING_COMMENT_5
+    text: In zahlreichen Dokumenten, die du im Schulgebäude finden kannst, befinden sich viele nützliche Hinweise und Hintergrundgeschichten.
+  - id: UI_LOADING_COMMENT_6
+    text: Mit dem Feuerzeug kannst du für etwas Licht sorgen, ohne dass die Wächter auf dich aufmerksam werden. Allerdings ist der Radius des Lichtscheins sehr begrenzt.
+  - id: UI_LOADING_COMMENT_7
+    text: Beim Laufen erlischt das Feuerzeug.
+  - id: UI_LOADING_COMMENT_8
+    text: Wenn du das Licht in den Klassenzimmern einschaltest oder herumläufst, kannst du die Aufmerksamkeit der Wächter auf dich ziehen.
+  - id: UI_LOADING_COMMENT_9
+    text: In Spielsituationen mit Zeitdruck kann das Spiel nicht gespeichert werden.
+  - id: UI_LOADING_COMMENT_10
+    text: Geschlossene Türen halten die Wächter für einen Augenblick auf. Augenblicke die über Leben oder Tod entscheiden.
+  - id: UI_LOADING_COMMENT_11
+    text: Auf dem leichtesten Schwierigkeitsgrad kannst du dir Tips per SMS zuschicken lassen.
+  - id: UI_LOADING_COMMENT_12
+    text: Erst ab dem Schwierigkeitsgrad Schwer kannst du die Geister der Schule treffen.
+  - id: UI_LOADING_COMMENT_13
+    text: Durch Laufen kann man die Geister mit den grossen Köpfen umherwirbeln.
+  - id: UI_LOADING_COMMENT_14
+    text: Deine Entscheidungen und Dialoge entscheiden darüber wie beliebt du bei den Mitschülerinnen bist.
+  - id: UI_LOADING_COMMENT_15
+    text: Entsprechend deiner Entscheidungen und deiner Beliebtheit bei den Mitschülerinnen wird das Spiel anders enden.
+  - id: UI_LOADING_COMMENT_16
+    text: Zwischen dem jetzigen Unterrichtsgebäude und dem Hauptgebäude gab es einmal einen verwunschenen Weiher.
+  - id: UI_LOADING_COMMENT_17
+    text: Die Schule wurde nach geomantischen Regeln in einer energetisch günstigen Stelle erbaut.
+  - id: UI_LOADING_COMMENT_18
+    text: Noch bis vor einigen Jahren gab es in der Schule ein Schülerheim.
+  - id: UI_LOADING_COMMENT_19
+    text: Man hatte früher versucht die Schule in eine auf Kunst spezialisierte Sonderschule umzugestalten, allerdings mit wenig Erfolg.
+  - id: UI_LOADING_COMMENT_20
+    text: Der Gang, der das Nebengebäude mit dem Hauptgebäude verbindet, hat bei den Schülern einen sehr schlechten Ruf.
+  - id: UI_LOADING_COMMENT_21
+    text: Ein Wächter verletzte sich vor einigen Jahren bei einem Unfall in der Schule am Bein.
+  - id: UI_LOADING_COMMENT_22
+    text: Dreizehn Mal schlug der Blitz in den Blitzableiter auf dem Dach des Hauptgebäudes ein.
+  - id: UI_LOADING_COMMENT_23
+    text: Die Klassenzimmer des ersten Jahrganges befinden sich im dreizehnten und vierten Stock.
+  - id: UI_LOADING_COMMENT_24
+    text: Man sagt, dass das Hauptgebäude früher angeblich für andere Zwecke verwendet wurde.
+  - id: UI_LOADING_COMMENT_25
+    text: Es gibt viele Geschichten über merkwürdige Vorfälle und Geschehnisse in der an Anfangszeit der Schule.
+  - id: UI_LOADING_COMMENT_26
+    text: Im Club der Okkultisten erzält man sich 20 verschiede, geheime Geistergeschichten.
+  - id: UI_LOADING_COMMENT_27
+    text: Es gibt Gerüchte über ein Labyrinth, dass sich angeblich im Untergrund der Schule verbergen soll.
+  - id: UI_LOADING_COMMENT_28
+    text: Das Geheimnis, dass der Sportlehrer unglücklich in die Schulärztin verliebt ist, ist nun als Gerücht in aller Munde.
+  - id: UI_LOADING_COMMENT_29
+    text: In den letzten Jahren wechselten die Musiklehrer häufig und im Moment ist die Stelle unbesetzt.
+  - id: UI_LOADING_COMMENT_30
+    text: Der Lehrer für chinesische Schriftzeichen interessiert sich sehr für östliche Mystik.
+  - id: UI_CONFIG_CONTROLS_TUTORIAL
+    text: Zum Tutorial
+  - id: UI_INGAME_CATEGORY_MENU_POUSE
+    text: Unterbrechung
+  - id: BUY_CLOTH_PS4
+    text: '"PlayStation Store"'
+  - id: UI_CONFIG_CONTROLS_VIBRATION
+    text: Vibration
+  - id: UI_CONTROLMENU_SKIP
+    text: Überspringen
+  - id: UI_CONTROLMENU_CHOICE
+    text: Auswahl
+  - id: UI_CONFIG_CONTROLS_SUBTITLE
+    text: Untertitel einblenden
+  - id: UI_LOBBY_CONTINUE_DELETE_DESC
+    text: (Daten der Autospeicherung werden gelöscht.)
+  - id: MONOLOGUE_CINEMA_2210
+    text: '[Na-young Han]'
+  - id: UI_POPUP_AGE
+    text: Aufgrund einer Altersbeschränkung können Sie diese Funktion nicht verwenden.
+  - id: LEVEL_VERY_EASY_DESC
+    text: Niedriger Schwierigkeitsgrad. Geeignet für Spieler, die die Story erleben möchten.<br>(Es steht Dir ein Guide zur Verfügung, der Dich durch das Szenario führt.)
+  - id: LEVEL_EASY_DESC
+    text: Weniger Spannung, aber leichter zu spielen.<br>(Es steht Dir ein Guide zur Verfügung, der Dich durch das Szenario führt.)
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_MOVETAB_L
+    text: Tab bewegen (nach links)
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_MOVETAB_R
+    text: Tab bewegen (nach rechts)
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_OPENMAP
+    text: Karte aufrufen
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_OPENMENU
+    text: Menü öffnen
+  - id: UI_SAVE_SAVETIME
+    text: '{2:D02}/{1:D02}/{0:D02} {3:D02}:{4:D02}:{5:D02}'
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_QUICKTURN
+    text: 'Schnelle Drehung '

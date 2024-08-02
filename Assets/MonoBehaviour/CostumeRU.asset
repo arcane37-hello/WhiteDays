@@ -1,0 +1,574 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a122d20ef5c6f8cbb78fa44bfb9db6e, type: 3}
+  m_Name: CostumeRU
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Costume.xlsx
+  worksheetName: CostumeRU
+  dataArray:
+  - id: 100
+    character: 1
+    bundle: 0
+    prefabname: HanSoYoung
+    name: Высокая школьная форма Ёнту
+    desc: Это школьная форма для учащихся.
+    icon: CostumeIcon_HanSoYoung
+    collection: Standard
+    animation: 0
+  - id: 200
+    character: 2
+    bundle: 0
+    prefabname: KimSungA
+    name: Высокая школьная форма Ёнту
+    desc: Это школьная форма для учащихся.
+    icon: CostumeIcon_KimSungA
+    collection: Standard
+    animation: 0
+  - id: 300
+    character: 3
+    bundle: 0
+    prefabname: SeolJiHyeon
+    name: Высокая школьная форма Ёнту
+    desc: Это школьная форма для учащихся.
+    icon: CostumeIcon_SeolJiHyeon
+    collection: Standard
+    animation: 0
+  - id: 400
+    character: 4
+    bundle: 0
+    prefabname: LeeHeeMin
+    name: Высокая школьная форма Ёнту
+    desc: Это школьная форма для мальчиков.
+    icon: CostumeIcon_LeeHeeMin
+    collection: Standard
+    animation: 0
+  - id: 500
+    character: 5
+    bundle: 0
+    prefabname: LeeBongGoo
+    name: Униформа Уборщика школы Ёнту
+    desc: Это форма для дворников школы.
+    icon: CostumeIcon_LeeBongGoo
+    collection: Standard
+    animation: 0
+  - id: 600
+    character: 6
+    bundle: 0
+    prefabname: SonDalSu
+    name: Униформа Уборщика школы Ёнту
+    desc: Это форма для дворников школы.
+    icon: CostumeIcon_SonDalSu
+    collection: Standard
+    animation: 0
+  - id: 700
+    character: 7
+    bundle: 0
+    prefabname: YooMinJi
+    name: Высокая школьная форма Ёнту
+    desc: Это школьная форма для учащихся.
+    icon: CostumeIcon_YooMinJi
+    collection: Standard
+    animation: 0
+  - id: 101
+    character: 1
+    bundle: 1
+    prefabname: HanSoYoung_Idol
+    name: Стильная униформа
+    desc: 'Эту форму могут носить только избранные студенты. Он достаточно красочный! '
+    icon: CostumeIcon_HanSoYoung_Idol
+    collection:
+    animation: 0
+  - id: 201
+    character: 2
+    bundle: 1
+    prefabname: KimSungA_Idol
+    name: Стильная униформа
+    desc: 'Эту форму могут носить только избранные студенты. Он достаточно красочный! '
+    icon: CostumeIcon_KimSungA_Idol
+    collection:
+    animation: 0
+  - id: 301
+    character: 3
+    bundle: 1
+    prefabname: SeolJiHyeon_Idol
+    name: Стильная униформа
+    desc: 'Эту форму могут носить только избранные студенты. Он достаточно красочный! '
+    icon: CostumeIcon_SeolJiHyeon_Idol
+    collection:
+    animation: 0
+  - id: 701
+    character: 7
+    bundle: 1
+    prefabname: YooMinJi_Idol
+    name: Стильная униформа
+    desc: 'Эту форму могут носить только избранные студенты. Он достаточно красочный! '
+    icon: CostumeIcon_YooMinJi_Idol
+    collection:
+    animation: 0
+  - id: 102
+    character: 1
+    bundle: 2
+    prefabname: HanSoYoung_Casual
+    name: Элегантное платье
+    desc: Это пестрое платье. Выглядит женственно и элегантно.
+    icon: CostumeIcon_HanSoYoung_Casual
+    collection: CollectionRank_3
+    animation: 0
+  - id: 202
+    character: 2
+    bundle: 2
+    prefabname: KimSungA_Casual
+    name: Горячая девушка
+    desc: Полосатая футболка с короткими штанами. Модный наряд.
+    icon: CostumeIcon_KimSungA_Casual
+    collection: CollectionRank_2
+    animation: 0
+  - id: 302
+    character: 3
+    bundle: 2
+    prefabname: SeolJiHyeon_Casual
+    name: Просто Леди
+    desc: Небесно-голубая блузка в сочетании с яркой цветной юбкой, чтобы создать зрелый вид.
+    icon: CostumeIcon_SeolJiHyeon_Casual
+    collection: CollectionRank_1
+    animation: 0
+  - id: 402
+    character: 4
+    bundle: 2
+    prefabname: LeeHeeMin_Casual
+    name: Парень Денди
+    desc: Стильный кардиган, придает стильный штрих в клетчатой рубашке.
+    icon: CostumeIcon_LeeHeeMin_Casual
+    collection: CollectionGhost
+    animation: 0
+  - id: 502
+    character: 5
+    bundle: 2
+    prefabname: LeeBongGoo_Casual
+    name: Торжественное
+    desc: Пушистые наушники завершит зимний образ. Если вы думаете, вульгарно, Вы не правы.
+    icon: CostumeIcon_LeeBongGoo_Casual
+    collection: CollectionFigure
+    animation: 0
+  - id: 602
+    character: 6
+    bundle: 2
+    prefabname: SonDalSu_Casual
+    name: Байкер
+    desc: Эта одежда напомнит вам о крутой езде по ветру с чувством гордости.
+    icon: CostumeIcon_SonDalSu_Casual
+    collection: CollectionEnding
+    animation: 0
+  - id: 702
+    character: 7
+    bundle: 2
+    prefabname: YooMinJi_Casual
+    name: Маленькая принцесса
+    desc: Как бы ни было трудно, я все преодолею.
+    icon: CostumeIcon_YooMinJi_Casual
+    collection: CollectionRank_4
+    animation: 0
+  - id: 106
+    character: 1
+    bundle: 6
+    prefabname: HanSoYoung_Apple
+    name: Униформа чисто Белое яблоко
+    desc: Белая школьная форма с характерным, яблоко-образным аксессуаром.
+    icon: CostumeIcon_HanSoYoung_Apple
+    collection:
+    animation: 0
+  - id: 206
+    character: 2
+    bundle: 6
+    prefabname: KimSungA_Apple
+    name: Униформа чисто Белое яблоко
+    desc: Белая школьная форма с характерным, яблоко-образным аксессуаром.
+    icon: CostumeIcon_KimSungA_Apple
+    collection:
+    animation: 0
+  - id: 306
+    character: 3
+    bundle: 6
+    prefabname: SeolJiHyeon_Apple
+    name: Униформа чисто Белое яблоко
+    desc: Белая школьная форма с характерным, яблоко-образным аксессуаром.
+    icon: CostumeIcon_SeolJiHyeon_Apple
+    collection:
+    animation: 0
+  - id: 406
+    character: 4
+    bundle: 6
+    prefabname: LeeHeeMin_Apple
+    name: Униформа чисто Белое яблоко
+    desc: Белая школьная форма с характерным, яблоко-образным аксессуаром.
+    icon: CostumeIcon_LeeHeeMin_Apple
+    collection:
+    animation: 0
+  - id: 706
+    character: 7
+    bundle: 6
+    prefabname: YooMinJi_Apple
+    name: Униформа чисто Белое яблоко
+    desc: Белая школьная форма с характерным, яблоко-образным аксессуаром.
+    icon: CostumeIcon_YooMinJi_Apple
+    collection:
+    animation: 0
+  - id: 107
+    character: 1
+    bundle: 7
+    prefabname: HanSoYoung_Horror
+    name: Королева приключений
+    desc: Одежда старого авантюриста, прошедшая вместе с ним огонь, воду и медные трубы.
+    icon: CostumeIcon_HanSoYoung_Horror
+    collection:
+    animation: 0
+  - id: 207
+    character: 2
+    bundle: 7
+    prefabname: KimSungA_Horror
+    name: Безумная Сон-А
+    desc: Излучает энергию дикой амазонки, живущей в постапокалиптическом мире.
+    icon: CostumeIcon_KimSungA_Horror
+    collection:
+    animation: 0
+  - id: 307
+    character: 3
+    bundle: 7
+    prefabname: SeolJiHyeon_Horror
+    name: Чжи-Хен Валентайн
+    desc: Форма спецназа, которая поможет голыми руками рвать зомби на клочки.
+    icon: CostumeIcon_SeolJiHyeon_Horror
+    collection:
+    animation: 0
+  - id: 407
+    character: 4
+    bundle: 7
+    prefabname: LeeHeeMin_Horror
+    name: Специалист по выживанию
+    desc: Сумка на пояс и крепкие берцы помогут выжить, даже когда зомби прут со всех сторон.
+    icon: CostumeIcon_LeeHeeMin_Horror
+    collection:
+    animation: 0
+  - id: 507
+    character: 5
+    bundle: 7
+    prefabname: LeeBongGoo_Horror
+    name: Кошмар школьных коридоров
+    desc: Лицо, обезображенное ожогами — настолько ужасное, что только в кошмаре и увидишь.
+    icon: CostumeIcon_LeeBongGoo_Horror
+    collection:
+    animation: 0
+  - id: 607
+    character: 6
+    bundle: 7
+    prefabname: SonDalSu_Horror
+    name: Джейсон
+    desc: Хоккейная маска и монтировка вытащат из любой передряги.
+    icon: CostumeIcon_SonDalSu_Horror
+    collection:
+    animation: 0
+  - id: 707
+    character: 7
+    bundle: 7
+    prefabname: YooMinJi_Horror
+    name: Школьный шериф
+    desc: Нарушили школьные правила? Вы арестованы, именем закона!
+    icon: CostumeIcon_YooMinJi_Horror
+    collection:
+    animation: 0
+  - id: 103
+    character: 1
+    bundle: 3
+    prefabname: HanSoYoung_Beach
+    name: Пляжная Богиня
+    desc: Стильный купальник цвета слоновой кости, что делает владельца богиней.
+    icon: CostumeIcon_HanSoYoung_Beach
+    collection:
+    animation: 1
+  - id: 203
+    character: 2
+    bundle: 3
+    prefabname: KimSungA_Beach
+    name: Гламурный Загар
+    desc: Черно-полосатое бикини, который подчеркнет все изгибы тела.
+    icon: CostumeIcon_KimSungA_Beach
+    collection:
+    animation: 1
+  - id: 303
+    character: 3
+    bundle: 3
+    prefabname: SeolJiHyeon_Beach
+    name: Тропические Красоты
+    desc: Бледно-желтый купальник, который напоминает тропический Франжипани.
+    icon: CostumeIcon_SeolJiHyeon_Beach
+    collection:
+    animation: 1
+  - id: 403
+    character: 4
+    bundle: 3
+    prefabname: LeeHeeMin_Beach
+    name: Спасатель
+    desc: Шорты синие для купания, которые показывает фигуру владельца. Демонстрируя свою сексуальность - все, что нужно, чтобы завоевать сердца женщин.
+    icon: CostumeIcon_LeeHeeMin_Beach
+    collection:
+    animation: 0
+  - id: 503
+    character: 5
+    bundle: 3
+    prefabname: LeeBongGoo_Beach
+    name: Танцовщица Хулы
+    desc: Эксклюзивный наряд для выполнения традиционного танца легендарного Северного острова. Но это не значит, что вы должны исполнить танец.
+    icon: CostumeIcon_LeeBongGoo_Beach
+    collection:
+    animation: 0
+  - id: 603
+    character: 6
+    bundle: 3
+    prefabname: SonDalSu_Beach
+    name: Чудесно Розовый
+    desc: Сочетание розового сердцеобразного передника и бронзового рельефа достаточно, чтобы загипнотизировать любую даму. Не обращай внимания на... замороженного тунца.
+    icon: CostumeIcon_SonDalSu_Beach
+    collection:
+    animation: 0
+  - id: 703
+    character: 7
+    bundle: 3
+    prefabname: YooMinJi_Beach
+    name: Каникулярша
+    desc: Школьный купальник с матросским воротником и ярко-красной лентой.
+    icon: CostumeIcon_YooMinJi_Beach
+    collection:
+    animation: 0
+  - id: 108
+    character: 1
+    bundle: 8
+    prefabname: HanSoYoung_BlazBlue
+    name: "Соён Хан \n«Noel Vermillion»"
+    desc: Соён, одетая в костюм «Noel Vermillion» от BlazBlue Collaboration.
+    icon: CostumeIcon_HanSoYoung_BlazBlue
+    collection:
+    animation: 0
+  - id: 208
+    character: 2
+    bundle: 8
+    prefabname: KimSungA_BlazBlue
+    name: "Сона Ким \n«Noel Vermillion»"
+    desc: Сона, одетая в костюм «Noel Vermillion» от BlazBlue Collaboration.
+    icon: CostumeIcon_KimSungA_BlazBlue
+    collection:
+    animation: 0
+  - id: 308
+    character: 3
+    bundle: 8
+    prefabname: SeolJiHyeon_BlazBlue
+    name: "Чжихен Соль \n«Noel Vermillion»"
+    desc: Чжихен, одетая в костюм «Noel Vermillion» от BlazBlue Collaboration.
+    icon: CostumeIcon_SeolJiHyeon_BlazBlue
+    collection:
+    animation: 0
+  - id: 408
+    character: 4
+    bundle: 8
+    prefabname: LeeHeeMin_BlazBlue
+    name: "Химин Ли \n«Ragna the Bloodedge»"
+    desc: Химин, одетая в костюм «Ragna the Bloodedge» от BlazBlue Collaboration.
+    icon: CostumeIcon_LeeHeeMin_BlazBlue
+    collection:
+    animation: 0
+  - id: 508
+    character: 5
+    bundle: 8
+    prefabname: LeeBongGoo_BlazBlue
+    name: "Бонгу Ли \n«Iron Tager»"
+    desc: Бонгу, одетый в костюм «Iron Tager» от BlazBlue Collaboration.
+    icon: CostumeIcon_LeeBongGoo_BlazBlue
+    collection:
+    animation: 0
+  - id: 608
+    character: 6
+    bundle: 8
+    prefabname: SonDalSu_BlazBlue
+    name: "Дальсу Сон \n«Valkenhayn R. Hellsing»"
+    desc: Дальсу, одетый в костюм «Valkenhayn R. Hellsing» от BlazBlue Collaboration.
+    icon: CostumeIcon_SonDalSu_BlazBlue
+    collection:
+    animation: 0
+  - id: 708
+    character: 7
+    bundle: 8
+    prefabname: YooMinJi_BlazBlue
+    name: "Чжимин Ю \n«Noel Vermillion»"
+    desc: Чжимин, одетая в костюм «Noel Vermillion» от BlazBlue Collaboration.
+    icon: CostumeIcon_YooMinJi_BlazBlue
+    collection:
+    animation: 0
+  - id: 109
+    character: 1
+    bundle: 9
+    prefabname: HanSoYoung_Retro
+    name: Старомодная униформа
+    desc: Подобную форму носили когда-то девочки Ёнту. Надев ее, вы перенесетесь в прошлое.
+    icon: CostumeIcon_HanSoYoung_Retro
+    collection: Standard
+    animation: 0
+  - id: 209
+    character: 2
+    bundle: 9
+    prefabname: KimSungA_Retro
+    name: Старомодная униформа
+    desc: Подобную форму носили когда-то девочки Ёнту. Надев ее, вы перенесетесь в прошлое.
+    icon: CostumeIcon_KimSungA_Retro
+    collection: Standard
+    animation: 0
+  - id: 309
+    character: 3
+    bundle: 9
+    prefabname: SeolJiHyeon_Retro
+    name: Старомодная униформа
+    desc: Подобную форму носили когда-то девочки Ёнту. Надев ее, вы перенесетесь в прошлое.
+    icon: CostumeIcon_SeolJiHyeon_Retro
+    collection: Standard
+    animation: 0
+  - id: 409
+    character: 4
+    bundle: 9
+    prefabname: LeeHeeMin_Retro
+    name: Старомодная униформа
+    desc: Подобную форму носили когда-то девочки Ёнту. Надев ее, вы перенесетесь в прошлое.
+    icon: CostumeIcon_LeeHeeMin_Retro
+    collection: Standard
+    animation: 0
+  - id: 509
+    character: 5
+    bundle: 9
+    prefabname: LeeBongGoo_Retro
+    name: Старая спецовка
+    desc: Униформа, которую носили уборщики еще с незапамятных времен. Надев ее, вы перенесетесь в прошлое.
+    icon: CostumeIcon_LeeBongGoo_Retro
+    collection: Standard
+    animation: 0
+  - id: 609
+    character: 6
+    bundle: 9
+    prefabname: SonDalSu_Retro
+    name: Старая спецовка
+    desc: Униформа, которую носили уборщики еще с незапамятных времен. Надев ее, вы перенесетесь в прошлое.
+    icon: CostumeIcon_SonDalSu_Retro
+    collection: Standard
+    animation: 0
+  - id: 709
+    character: 7
+    bundle: 9
+    prefabname: YooMinJi_Retro
+    name: Старомодная униформа
+    desc: Подобную форму носили когда-то девочки Ёнту. Придает лицу некую угловатость.
+    icon: CostumeIcon_YooMinJi_Retro
+    collection: Standard
+    animation: 0
+  - id: 110
+    character: 1
+    bundle: 10
+    prefabname: HanSoYoung_Sailor
+    name: Матросская форма
+    desc: Школьная форма, похожая на матросский костюм. Довольно популярна среди учеников.
+    icon: CostumeIcon_HanSoYoung_Sailor
+    collection:
+    animation: 0
+  - id: 210
+    character: 2
+    bundle: 10
+    prefabname: KimSungA_Sailor
+    name: Матросская форма
+    desc: Школьная форма, похожая на матросский костюм. Довольно популярна среди учеников.
+    icon: CostumeIcon_KimSungA_Sailor
+    collection:
+    animation: 0
+  - id: 310
+    character: 3
+    bundle: 10
+    prefabname: SeolJiHyeon_Sailor
+    name: Матросская форма
+    desc: Школьная форма, похожая на матросский костюм. Довольно популярна среди учеников.
+    icon: CostumeIcon_SeolJiHyeon_Sailor
+    collection:
+    animation: 0
+  - id: 710
+    character: 7
+    bundle: 10
+    prefabname: YooMinJi_Sailor
+    name: Матросская форма
+    desc: Школьная форма, похожая на матросский костюм. Довольно популярна среди учеников.
+    icon: CostumeIcon_YooMinJi_Sailor
+    collection:
+    animation: 0
+  - id: 111
+    character: 1
+    bundle: 11
+    prefabname: HanSoYoung_Xmas
+    name: Снежная Королева
+    desc: Это платье напоминает белый снег и холод, гололед.
+    icon: CostumeIcon_HanSoYoung_Xmas
+    collection:
+    animation: 0
+  - id: 211
+    character: 2
+    bundle: 11
+    prefabname: KimSungA_Xmas
+    name: Сексуальный Санта
+    desc: Это сексуальное платье Санты. Даже холод не сможет остановить вас!
+    icon: CostumeIcon_KimSungA_Xmas
+    collection:
+    animation: 0
+  - id: 311
+    character: 3
+    bundle: 11
+    prefabname: SeolJiHyeon_Xmas
+    name: Платье Рудольф
+    desc: Это - платье, которое напоминает Рудольфа. Милая лента для волос формы оленьего рога заканчивает образ.
+    icon: CostumeIcon_SeolJiHyeon_Xmas
+    collection:
+    animation: 0
+  - id: 411
+    character: 4
+    bundle: 11
+    prefabname: LeeHeeMin_Xmas
+    name: Костюм Санты
+    desc: Это костюм, напоминает Санту. Черная бабочка галстук дополняет образ.
+    icon: CostumeIcon_LeeHeeMin_Xmas
+    collection:
+    animation: 0
+  - id: 511
+    character: 5
+    bundle: 11
+    prefabname: LeeBongGoo_Xmas
+    name: Костюм Снеговика
+    desc: Это милый костюм Снеговика, украшенный цветастым платком.
+    icon: CostumeIcon_LeeBongGoo_Xmas
+    collection:
+    animation: 0
+  - id: 611
+    character: 6
+    bundle: 11
+    prefabname: SonDalSu_Xmas
+    name: Костюм Оленя
+    desc: Это костюм оленя с милыми глазами, похожи они на грани плача.
+    icon: CostumeIcon_SonDalSu_Xmas
+    collection:
+    animation: 0
+  - id: 711
+    character: 7
+    bundle: 11
+    prefabname: YooMinJi_Xmas
+    name: Санта Клава
+    desc: Шапочка с меховым кантом и премиленький топ, от которых так и веет духом Рождества.
+    icon: CostumeIcon_YooMinJi_Xmas
+    collection:
+    animation: 0

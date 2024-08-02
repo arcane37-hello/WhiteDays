@@ -1,0 +1,574 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a122d20ef5c6f8cbb78fa44bfb9db6e, type: 3}
+  m_Name: CostumeKR
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Costume.xlsx
+  worksheetName: CostumeKR
+  dataArray:
+  - id: 100
+    character: 1
+    bundle: 0
+    prefabname: HanSoYoung
+    name: 연두고  교복
+    desc: 연두 고등학교의 여학생 교복이다.
+    icon: CostumeIcon_HanSoYoung
+    collection: Standard
+    animation: 0
+  - id: 200
+    character: 2
+    bundle: 0
+    prefabname: KimSungA
+    name: 연두고  교복
+    desc: 연두 고등학교의 여학생 교복이다.
+    icon: CostumeIcon_KimSungA
+    collection: Standard
+    animation: 0
+  - id: 300
+    character: 3
+    bundle: 0
+    prefabname: SeolJiHyeon
+    name: 연두고  교복
+    desc: 연두 고등학교의 여학생 교복이다.
+    icon: CostumeIcon_SeolJiHyeon
+    collection: Standard
+    animation: 0
+  - id: 400
+    character: 4
+    bundle: 0
+    prefabname: LeeHeeMin
+    name: 연두고  교복
+    desc: 연두 고등학교의 남학생 교복이다.
+    icon: CostumeIcon_LeeHeeMin
+    collection: Standard
+    animation: 0
+  - id: 500
+    character: 5
+    bundle: 0
+    prefabname: LeeBongGoo
+    name: 연두고 경비복
+    desc: 연두 고등학교에서 수위들에게 제공하는 복장이다.
+    icon: CostumeIcon_LeeBongGoo
+    collection: Standard
+    animation: 0
+  - id: 600
+    character: 6
+    bundle: 0
+    prefabname: SonDalSu
+    name: 연두고 경비복
+    desc: 연두 고등학교에서 수위들에게 제공하는 복장이다.
+    icon: CostumeIcon_SonDalSu
+    collection: Standard
+    animation: 0
+  - id: 700
+    character: 7
+    bundle: 0
+    prefabname: YooMinJi
+    name: 연두고  교복
+    desc: 연두 고등학교의 여학생 교복이다.
+    icon: CostumeIcon_YooMinJi
+    collection: Standard
+    animation: 0
+  - id: 101
+    character: 1
+    bundle: 1
+    prefabname: HanSoYoung_Idol
+    name: 패션 교복
+    desc: 선택받은 학생들만 입을 수 있는, 화사한 색상의 교복이다.
+    icon: CostumeIcon_HanSoYoung_Idol
+    collection:
+    animation: 0
+  - id: 201
+    character: 2
+    bundle: 1
+    prefabname: KimSungA_Idol
+    name: 패션 교복
+    desc: 선택받은 학생들만 입을 수 있는, 화사한 색상의 교복이다.
+    icon: CostumeIcon_KimSungA_Idol
+    collection:
+    animation: 0
+  - id: 301
+    character: 3
+    bundle: 1
+    prefabname: SeolJiHyeon_Idol
+    name: 패션 교복
+    desc: 선택받은 학생들만 입을 수 있는, 화사한 색상의 교복이다.
+    icon: CostumeIcon_SeolJiHyeon_Idol
+    collection:
+    animation: 0
+  - id: 701
+    character: 7
+    bundle: 1
+    prefabname: YooMinJi_Idol
+    name: 패션 교복
+    desc: 선택받은 학생들만 입을 수 있는, 화사한 색상의 교복이다.
+    icon: CostumeIcon_YooMinJi_Idol
+    collection:
+    animation: 0
+  - id: 102
+    character: 1
+    bundle: 2
+    prefabname: HanSoYoung_Casual
+    name: 우아한 원피스
+    desc: 체크 무늬의 여성스럽고 우아한 원피스다.
+    icon: CostumeIcon_HanSoYoung_Casual
+    collection: CollectionRank_3
+    animation: 0
+  - id: 202
+    character: 2
+    bundle: 2
+    prefabname: KimSungA_Casual
+    name: 핫걸
+    desc: 줄무늬 티셔츠와 핫팬츠를 매치해 화끈해 보이는 의상이다.
+    icon: CostumeIcon_KimSungA_Casual
+    collection: CollectionRank_2
+    animation: 0
+  - id: 302
+    character: 3
+    bundle: 2
+    prefabname: SeolJiHyeon_Casual
+    name: 차분한 숙녀
+    desc: 하늘색의 블라우스와 밝은 색의 스커트로 성숙한 느낌을 준다.
+    icon: CostumeIcon_SeolJiHyeon_Casual
+    collection: CollectionRank_1
+    animation: 0
+  - id: 402
+    character: 4
+    bundle: 2
+    prefabname: LeeHeeMin_Casual
+    name: 댄디가이
+    desc: 체크 셔츠 위에 세련된 배색의 가디건을 걸쳐 은근한 멋을 부렸다.
+    icon: CostumeIcon_LeeHeeMin_Casual
+    collection: CollectionGhost
+    animation: 0
+  - id: 502
+    character: 5
+    bundle: 2
+    prefabname: LeeBongGoo_Casual
+    name: 수건의 추억
+    desc: 겨울철 패션의 완성은 털귀마개. 향숙이가 생각난다면 그건 착각이다.
+    icon: CostumeIcon_LeeBongGoo_Casual
+    collection: CollectionFigure
+    animation: 0
+  - id: 602
+    character: 6
+    bundle: 2
+    prefabname: SonDalSu_Casual
+    name: 폭주족
+    desc: 바람을 가르며 질주하는 거친 남자의 의리!가 느껴지는 의상이다.
+    icon: CostumeIcon_SonDalSu_Casual
+    collection: CollectionEnding
+    animation: 0
+  - id: 702
+    character: 7
+    bundle: 2
+    prefabname: YooMinJi_Casual
+    name: 소공녀
+    desc: 힘들어도 슬퍼도 이겨 낼꺼야.
+    icon: CostumeIcon_YooMinJi_Casual
+    collection: CollectionRank_4
+    animation: 0
+  - id: 106
+    character: 1
+    bundle: 6
+    prefabname: HanSoYoung_Apple
+    name: 순백의 사과 교복
+    desc: 사과 모양의 액세서리가 눈길을 끄는 하얀색 교복이다.
+    icon: CostumeIcon_HanSoYoung_Apple
+    collection:
+    animation: 0
+  - id: 206
+    character: 2
+    bundle: 6
+    prefabname: KimSungA_Apple
+    name: 순백의 사과 교복
+    desc: 사과 모양의 액세서리가 눈길을 끄는 하얀색 교복이다.
+    icon: CostumeIcon_KimSungA_Apple
+    collection:
+    animation: 0
+  - id: 306
+    character: 3
+    bundle: 6
+    prefabname: SeolJiHyeon_Apple
+    name: 순백의 사과 교복
+    desc: 사과 모양의 액세서리가 눈길을 끄는 하얀색 교복이다.
+    icon: CostumeIcon_SeolJiHyeon_Apple
+    collection:
+    animation: 0
+  - id: 406
+    character: 4
+    bundle: 6
+    prefabname: LeeHeeMin_Apple
+    name: 순백의 사과 교복
+    desc: 사과 모양의 액세서리가 눈길을 끄는 하얀색 교복이다.
+    icon: CostumeIcon_LeeHeeMin_Apple
+    collection:
+    animation: 0
+  - id: 706
+    character: 7
+    bundle: 6
+    prefabname: YooMinJi_Apple
+    name: 순백의 사과 교복
+    desc: 사과 모양의 액세서리가 눈길을 끄는 하얀색 교복이다.
+    icon: CostumeIcon_YooMinJi_Apple
+    collection:
+    animation: 0
+  - id: 107
+    character: 1
+    bundle: 7
+    prefabname: HanSoYoung_Horror
+    name: 모험의 여왕
+    desc: 온갖 아수라장에서도 살아남은 베테랑 모험가의 복장이다.
+    icon: CostumeIcon_HanSoYoung_Horror
+    collection:
+    animation: 0
+  - id: 207
+    character: 2
+    bundle: 7
+    prefabname: KimSungA_Horror
+    name: 매드성아
+    desc: 황폐한 세상에서 살아가는 여전사의 강인함이 느껴진다.
+    icon: CostumeIcon_KimSungA_Horror
+    collection:
+    animation: 0
+  - id: 307
+    character: 3
+    bundle: 7
+    prefabname: SeolJiHyeon_Horror
+    name: 지현 발렌타인
+    desc: 좀비도 맨손으로 때려잡을 듯한 특수부대원의 복장이다.
+    icon: CostumeIcon_SeolJiHyeon_Horror
+    collection:
+    animation: 0
+  - id: 407
+    character: 4
+    bundle: 7
+    prefabname: LeeHeeMin_Horror
+    name: 생존전문가
+    desc: 포켓 벨트와 튼튼한 워커라면 좀비에 둘러쌓여도 살아남을 수 있다.
+    icon: CostumeIcon_LeeHeeMin_Horror
+    collection:
+    animation: 0
+  - id: 507
+    character: 5
+    bundle: 7
+    prefabname: LeeBongGoo_Horror
+    name: 악몽의 봉구
+    desc: 화상으로 일그러진 끔찍한 얼굴이 악몽에 나타날 것만 같다.
+    icon: CostumeIcon_LeeBongGoo_Horror
+    collection:
+    animation: 0
+  - id: 607
+    character: 6
+    bundle: 7
+    prefabname: SonDalSu_Horror
+    name: 손달슨
+    desc: 하키 마스크와 빠루의 조합이면 더 이상 버틸 수가 없다.
+    icon: CostumeIcon_SonDalSu_Horror
+    collection:
+    animation: 0
+  - id: 707
+    character: 7
+    bundle: 7
+    prefabname: YooMinJi_Horror
+    name: 연두보안관
+    desc: 교칙을 어기면 정의의 이름으로 체포 당할 수 있으니 조심하자.
+    icon: CostumeIcon_YooMinJi_Horror
+    collection:
+    animation: 0
+  - id: 103
+    character: 1
+    bundle: 3
+    prefabname: HanSoYoung_Beach
+    name: 해변의 비너스
+    desc: 상아색의 고급스러운 수영복으로 여신 같은 느낌을 준다.
+    icon: CostumeIcon_HanSoYoung_Beach
+    collection:
+    animation: 1
+  - id: 203
+    character: 2
+    bundle: 3
+    prefabname: KimSungA_Beach
+    name: 태닝걸
+    desc: '몸매를 더욱 돋보이게 하는 검은 색 줄무늬의 비키니 수영복이다. '
+    icon: CostumeIcon_KimSungA_Beach
+    collection:
+    animation: 1
+  - id: 303
+    character: 3
+    bundle: 3
+    prefabname: SeolJiHyeon_Beach
+    name: 알로하 걸
+    desc: 열대 지방의 꽃 플루메리아가 연상되는 연노랑 색의 수영복이다.
+    icon: CostumeIcon_SeolJiHyeon_Beach
+    collection:
+    animation: 1
+  - id: 403
+    character: 4
+    bundle: 3
+    prefabname: LeeHeeMin_Beach
+    name: 해상구조요원
+    desc: 푸른 색 반바지에 몸매를 드러낸 복장이다. 섹시한 복근은 여심을 구조하기에도 충분해 보인다.
+    icon: CostumeIcon_LeeHeeMin_Beach
+    collection:
+    animation: 0
+  - id: 503
+    character: 5
+    bundle: 3
+    prefabname: LeeBongGoo_Beach
+    name: 훌라훌라 의상
+    desc: 전설적인 북북섬의 전통춤을 추기 위한 전용 의상. 하지만 춤까지 보고 싶진 않다.
+    icon: CostumeIcon_LeeBongGoo_Beach
+    collection:
+    animation: 0
+  - id: 603
+    character: 6
+    bundle: 3
+    prefabname: SonDalSu_Beach
+    name: 스바라시 핑쿠
+    desc: 분홍색 하트 앞치마와 구릿빛 근육의, 정신이 아득해지는 조합! 손에 들린 냉동참치는.. 신경쓰지 말자.
+    icon: CostumeIcon_SonDalSu_Beach
+    collection:
+    animation: 0
+  - id: 703
+    character: 7
+    bundle: 3
+    prefabname: YooMinJi_Beach
+    name: 방학 소녀
+    desc: 세일러 카라에 붉은 리본으로 포인트를 준 학교 수영복이다.
+    icon: CostumeIcon_YooMinJi_Beach
+    collection:
+    animation: 0
+  - id: 108
+    character: 1
+    bundle: 8
+    prefabname: HanSoYoung_BlazBlue
+    name: 한소영 '노엘 버밀리온'
+    desc: 블레이블루 콜라보레이션 특전 의상 '노엘 버밀리온'의 의상을 입은 한소영이다.
+    icon: CostumeIcon_HanSoYoung_BlazBlue
+    collection:
+    animation: 0
+  - id: 208
+    character: 2
+    bundle: 8
+    prefabname: KimSungA_BlazBlue
+    name: 김성아 '노엘 버밀리온'
+    desc: 블레이블루 콜라보레이션 특전 의상 '노엘 버밀리온'의 의상을 입은 김성아다.
+    icon: CostumeIcon_KimSungA_BlazBlue
+    collection:
+    animation: 0
+  - id: 308
+    character: 3
+    bundle: 8
+    prefabname: SeolJiHyeon_BlazBlue
+    name: 설지현 '노엘 버밀리온'
+    desc: 블레이블루 콜라보레이션 특전 의상 '노엘 버밀리온'의 의상을 입은 설지현이다.
+    icon: CostumeIcon_SeolJiHyeon_BlazBlue
+    collection:
+    animation: 0
+  - id: 408
+    character: 4
+    bundle: 8
+    prefabname: LeeHeeMin_BlazBlue
+    name: "이희민 \n'라그나 더 블러드엣지'"
+    desc: 블레이블루 콜라보레이션 특전 의상 '라그나 더 블러드엣지'의 의상을 입은 이희민이다.
+    icon: CostumeIcon_LeeHeeMin_BlazBlue
+    collection:
+    animation: 0
+  - id: 508
+    character: 5
+    bundle: 8
+    prefabname: LeeBongGoo_BlazBlue
+    name: "이봉구 \n'아이언 테이거'"
+    desc: 블레이블루 콜라보레이션 특전 의상 '아이언 테이거'의 의상을 입은 이봉구다.
+    icon: CostumeIcon_LeeBongGoo_BlazBlue
+    collection:
+    animation: 0
+  - id: 608
+    character: 6
+    bundle: 8
+    prefabname: SonDalSu_BlazBlue
+    name: "손달수 \n'발켄하인 R. 헬싱'"
+    desc: 블레이블루 콜라보레이션 특전 의상 '발켄하인 R. 헬싱'의 의상을 입은 손달수다.
+    icon: CostumeIcon_SonDalSu_BlazBlue
+    collection:
+    animation: 0
+  - id: 708
+    character: 7
+    bundle: 8
+    prefabname: YooMinJi_BlazBlue
+    name: 유지민 '노엘 버밀리온'
+    desc: 블레이블루 콜라보레이션 특전 의상 '노엘 버밀리온'의 의상을 입은 유지민이다.
+    icon: CostumeIcon_YooMinJi_BlazBlue
+    collection:
+    animation: 0
+  - id: 109
+    character: 1
+    bundle: 9
+    prefabname: HanSoYoung_Retro
+    name: 옛날 교복
+    desc: 옛날 연두고 여학생들이 입던 교복. 착용하면 추억 속의 모습으로 돌아간다.
+    icon: CostumeIcon_HanSoYoung_Retro
+    collection: Standard
+    animation: 0
+  - id: 209
+    character: 2
+    bundle: 9
+    prefabname: KimSungA_Retro
+    name: 옛날 교복
+    desc: 옛날 연두고 여학생들이 입던 교복. 착용하면 추억 속의 모습으로 돌아간다.
+    icon: CostumeIcon_KimSungA_Retro
+    collection: Standard
+    animation: 0
+  - id: 309
+    character: 3
+    bundle: 9
+    prefabname: SeolJiHyeon_Retro
+    name: 옛날 교복
+    desc: 옛날 연두고 여학생들이 입던 교복. 착용하면 추억 속의 모습으로 돌아간다.
+    icon: CostumeIcon_SeolJiHyeon_Retro
+    collection: Standard
+    animation: 0
+  - id: 409
+    character: 4
+    bundle: 9
+    prefabname: LeeHeeMin_Retro
+    name: 옛날 교복
+    desc: 옛날 연두고 남학생들이 입던 교복. 착용하면 추억 속의 모습으로 돌아간다.
+    icon: CostumeIcon_LeeHeeMin_Retro
+    collection: Standard
+    animation: 0
+  - id: 509
+    character: 5
+    bundle: 9
+    prefabname: LeeBongGoo_Retro
+    name: 낡은 경비복
+    desc: 오래전 수위들에게 지급되었던 복장. 착용하면 추억 속의 모습으로 돌아간다.
+    icon: CostumeIcon_LeeBongGoo_Retro
+    collection: Standard
+    animation: 0
+  - id: 609
+    character: 6
+    bundle: 9
+    prefabname: SonDalSu_Retro
+    name: 낡은 경비복
+    desc: 오래전 수위들에게 지급되었던 복장. 착용하면 추억 속의 모습으로 돌아간다.
+    icon: CostumeIcon_SonDalSu_Retro
+    collection: Standard
+    animation: 0
+  - id: 709
+    character: 7
+    bundle: 9
+    prefabname: YooMinJi_Retro
+    name: 옛날 교복
+    desc: 옛날 연두고 여학생들이 입던 교복. 착용하면 얼굴이 각지게 변하는 느낌이다.
+    icon: CostumeIcon_YooMinJi_Retro
+    collection: Standard
+    animation: 0
+  - id: 110
+    character: 1
+    bundle: 10
+    prefabname: HanSoYoung_Sailor
+    name: 세라복
+    desc: 세일러복 스타일의 교복이다. 일부 학생들에게 인기가 많다.
+    icon: CostumeIcon_HanSoYoung_Sailor
+    collection:
+    animation: 0
+  - id: 210
+    character: 2
+    bundle: 10
+    prefabname: KimSungA_Sailor
+    name: 세라복
+    desc: 세일러복 스타일의 교복이다. 일부 학생들에게 인기가 많다.
+    icon: CostumeIcon_KimSungA_Sailor
+    collection:
+    animation: 0
+  - id: 310
+    character: 3
+    bundle: 10
+    prefabname: SeolJiHyeon_Sailor
+    name: 세라복
+    desc: 세일러복 스타일의 교복이다. 일부 학생들에게 인기가 많다.
+    icon: CostumeIcon_SeolJiHyeon_Sailor
+    collection:
+    animation: 0
+  - id: 710
+    character: 7
+    bundle: 10
+    prefabname: YooMinJi_Sailor
+    name: 세라복
+    desc: 세일러복 스타일의 교복이다. 일부 학생들에게 인기가 많다.
+    icon: CostumeIcon_YooMinJi_Sailor
+    collection:
+    animation: 0
+  - id: 111
+    character: 1
+    bundle: 11
+    prefabname: HanSoYoung_Xmas
+    name: 눈의 여왕
+    desc: 하얀 눈과 차고 투명한 얼음을 연상시키는 드레스다.
+    icon: CostumeIcon_HanSoYoung_Xmas
+    collection:
+    animation: 0
+  - id: 211
+    character: 2
+    bundle: 11
+    prefabname: KimSungA_Xmas
+    name: 섹시 산타
+    desc: 추위 따위는 잊어버린 것 같은 섹시한 산타 복장이다.
+    icon: CostumeIcon_KimSungA_Xmas
+    collection:
+    animation: 0
+  - id: 311
+    character: 3
+    bundle: 11
+    prefabname: SeolJiHyeon_Xmas
+    name: 루돌프 드레스
+    desc: 사슴뿔 모양의 귀여운 머리띠로 포인트를 준 루돌프 느낌의 드레스다.
+    icon: CostumeIcon_SeolJiHyeon_Xmas
+    collection:
+    animation: 0
+  - id: 411
+    character: 4
+    bundle: 11
+    prefabname: LeeHeeMin_Xmas
+    name: 산타 정장
+    desc: 검은 색 나비 넥타이로 포인트를 준 산타클로스 느낌의 정장이다.
+    icon: CostumeIcon_LeeHeeMin_Xmas
+    collection:
+    animation: 0
+  - id: 511
+    character: 5
+    bundle: 11
+    prefabname: LeeBongGoo_Xmas
+    name: 눈사람 인형탈
+    desc: 알록달록한 목도리로 장식된 귀여운 눈사람 인형탈이다.
+    icon: CostumeIcon_LeeBongGoo_Xmas
+    collection:
+    animation: 0
+  - id: 611
+    character: 6
+    bundle: 11
+    prefabname: SonDalSu_Xmas
+    name: 사슴 인형탈
+    desc: 금방이라도 울 것 같은 눈망울에서 눈을 뗄 수 없는 인형탈이다.
+    icon: CostumeIcon_SonDalSu_Xmas
+    collection:
+    animation: 0
+  - id: 711
+    character: 7
+    bundle: 11
+    prefabname: YooMinJi_Xmas
+    name: 산타 소녀
+    desc: 하얀 털모자와 앙증 맞은 윗도리로 크리스마스 분위기를 한껏 낸 복장이다.
+    icon: CostumeIcon_YooMinJi_Xmas
+    collection:
+    animation: 0

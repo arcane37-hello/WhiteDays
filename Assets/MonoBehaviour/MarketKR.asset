@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe18f5e1352e820c88ccf143d1108c41, type: 3}
+  m_Name: MarketKR
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Market.xlsx
+  worksheetName: MarketKR
+  dataArray:
+  - id: Product_01
+    costume: 103,203,303
+    name: 크리스마스의 꿈
+    desc: 화이트데이2 개발 확률이 2% 상승합니다.
+    costume1_pos: 0,-0.825,0.533
+    costume1_rot: 0,0,0
+    costume2_pos: -0.271,-0.819,0.332
+    costume2_rot: 0,348.867,0
+    costume3_pos: 0.246,-0.814,0.332
+    costume3_rot: 0,24.6419,0
+    costume4_pos:
+    costume4_rot:
+  - id: Product_02
+    costume: 403,503,603
+    name: 크리스마스의 악몽
+    desc: 개발진의 사기가 5% 상승합니다.
+    costume1_pos: 0.009,-0.98,0.114
+    costume1_rot: 0,0,0
+    costume2_pos: -0.34,-0.994,-0.33
+    costume2_rot: 0,0,0
+    costume3_pos: 0.38,-1.034,-0.4
+    costume3_rot: 0,0,0
+    costume4_pos:
+    costume4_rot:
+  - id: Product_03
+    costume: 104,404
+    name: 토깽이와 멋쟁이
+    desc: 화이트데이VR의 퀄리티가 0.1% 좋아집니다.
+    costume1_pos: 0.207,-0.827,-0.154
+    costume1_rot: 0,19.9203,0
+    costume2_pos: -0.165,-0.827,-0.455
+    costume2_rot: 0,334,0
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_04
+    costume: 204,504
+    name: 냥이와 베어본구
+    desc: 좋은 사무실로 이사갈 확률이 0.2% 증가합니다.
+    costume1_pos: 0.219,-0.84,-0.335
+    costume1_rot: 0,-10.276,0
+    costume2_pos: -0.161,-0.84,-0.987
+    costume2_rot: 0,0,0
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_05
+    costume: 304,604
+    name: 햄스터와 호돌이
+    desc: 개발자들 회식 때 음식의 질이 7% 좋아집니다.
+    costume1_pos: 0.195,-0.877,-0.181
+    costume1_rot: 0,-14.983,0
+    costume2_pos: -0.152,-0.877,-0.722
+    costume2_rot: 0,0,0
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_06
+    costume: 106
+    name: 순백의 사과 교복 (한소영)
+    desc: 새로운 학생이 전학 올 확률이 높아집니다.
+    costume1_pos: 0,-0.845,0.417
+    costume1_rot: 0,0,0
+    costume2_pos:
+    costume2_rot:
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_07
+    costume: 206
+    name: 순백의 사과 교복 (김성아)
+    desc: 새로운 학생이 전학 올 확률이 높아집니다.
+    costume1_pos: 0,-0.837,0.417
+    costume1_rot: 0,0,0
+    costume2_pos:
+    costume2_rot:
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_08
+    costume: 306
+    name: 순백의 사과 교복 (설지현)
+    desc: 새로운 학생이 전학 올 확률이 높아집니다.
+    costume1_pos: 0,-0.807,0.417
+    costume1_rot: 0,0,0
+    costume2_pos:
+    costume2_rot:
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_09
+    costume: 406
+    name: 순백의 사과 교복 (이희민)
+    desc: 새로운 학생이 전학 올 확률이 높아집니다.
+    costume1_pos: 0,-0.89,0.417
+    costume1_rot: 0,0,0
+    costume2_pos:
+    costume2_rot:
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_10
+    costume: 205,405
+    name: 해변의 썸남썸녀
+    desc: 올 여름 헌팅 확률이 5% 상승합니다.
+    costume1_pos: 0.144,-0.771,0.127
+    costume1_rot: 0,11.76,0
+    costume2_pos: -0.206,-0.771,-0.177
+    costume2_rot: 0,-13.05,0
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_11
+    costume: 105,605
+    name: 비너스와 큐피트
+    desc: 해변에서 매력이 10% 증가합니다.
+    costume1_pos: 0.17,-0.8,-0.004
+    costume1_rot: 0,11.34,0
+    costume2_pos: -0.369,-0.828,-0.469
+    costume2_rot: 0,0,0
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_12
+    costume: 305,505
+    name: 웰컴 투 하와이
+    desc: 하와이로 여행을 갈 수 있을지도 모릅니다!
+    costume1_pos: 0.136,-0.764,0.001
+    costume1_rot: 0,0,0
+    costume2_pos: -0.277,-0.755,-0.597
+    costume2_rot: 0,0,0
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:

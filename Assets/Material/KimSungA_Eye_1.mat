@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: KimSungA_Eye
+  m_Shader: {fileID: 4800000, guid: 9992d86b0650b9041944a95dec0bb558, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _CubeMap
+      second:
+        m_Texture: {fileID: 8900000, guid: c867a67c9b8af6648a344dde6907119e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 5e8ba977122dbca4f9995477e2bc2b9c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecMap
+      second:
+        m_Texture: {fileID: 2800000, guid: ff7d803d33100ee49b1ba058fb94aaf9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Compress
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.535
+    - first:
+        name: _DissolvePower
+      second: 1
+    - first:
+        name: _RimPower
+      second: 6
+    - first:
+        name: _Sensitivity
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.8
+    - first:
+        name: _SliceAmount
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+    - first:
+        name: _DissolveEmissionColor
+      second: {r: 0.66176474, g: 0, b: 0, a: 1}
+    - first:
+        name: _LColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ReflectColor
+      second: {r: 1, g: 1, b: 1, a: 0.5}
+    - first:
+        name: _RimColor
+      second: {r: 1, g: 1, b: 1, a: 0.13725491}
+    - first:
+        name: _SColor
+      second: {r: 0.21522637, g: 0.18604021, b: 0.22794116, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.79811853, g: 0.8897059, b: 0.8745466, a: 1}

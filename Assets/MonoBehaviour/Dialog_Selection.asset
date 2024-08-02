@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5492f473880265b6ebc883429bc36352, type: 3}
+  m_Name: Dialog_Selection
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/dialog_selection_data.xlsx
+  worksheetName: Dialog_Selection
+  dataArray:
+  - selection_id: 1001
+    caption_1: 300001
+    caption_2: 300002
+  - selection_id: 1002
+    caption_1: 300003
+    caption_2: 300004
+  - selection_id: 1003
+    caption_1: 300005
+    caption_2: 300006
+  - selection_id: 1004
+    caption_1: 300007
+    caption_2: 300008
+  - selection_id: 1005
+    caption_1: 300009
+    caption_2: 300010
+  - selection_id: 1006
+    caption_1: 300011
+    caption_2: 300012
+  - selection_id: 1007
+    caption_1: 300013
+    caption_2: 300014
+  - selection_id: 1008
+    caption_1: 300015
+    caption_2: 300016
+  - selection_id: 1009
+    caption_1: 300017
+    caption_2: 300018
+  - selection_id: 1010
+    caption_1: 300019
+    caption_2: 300020
+  - selection_id: 1011
+    caption_1: 300021
+    caption_2: 300022
+  - selection_id: 1012
+    caption_1: 300023
+    caption_2: 300024
+  - selection_id: 1013
+    caption_1: 300025
+    caption_2: 300026
+  - selection_id: 1014
+    caption_1: 300027
+    caption_2: 300028
+  - selection_id: 1015
+    caption_1: 300029
+    caption_2: 300030
+  - selection_id: 1016
+    caption_1: 300031
+    caption_2: 300032
+  - selection_id: 1017
+    caption_1: 300033
+    caption_2: 300034
+  - selection_id: 1018
+    caption_1: 300035
+    caption_2: 300036
+  - selection_id: 1019
+    caption_1: 300037
+    caption_2: 300038
+  - selection_id: 1020
+    caption_1: 300039
+    caption_2: 300040
+  - selection_id: 1021
+    caption_1: 300041
+    caption_2: 300042
+  - selection_id: 1022
+    caption_1: 300043
+    caption_2: 300044
+  - selection_id: 1023
+    caption_1: 300045
+    caption_2: 300046
+  - selection_id: 1024
+    caption_1: 300047
+    caption_2: 300048
+  - selection_id: 1025
+    caption_1: 300049
+    caption_2: 300050
+  - selection_id: 1026
+    caption_1: 300051
+    caption_2: 300052
+  - selection_id: 1027
+    caption_1: 300054
+    caption_2: 300053
+  - selection_id: 1028
+    caption_1: 300055
+    caption_2: 300056
+  - selection_id: 1029
+    caption_1: 300057
+    caption_2: 300058
+  - selection_id: 1030
+    caption_1: 300059
+    caption_2: 300060
+  - selection_id: 1031
+    caption_1: 300061
+    caption_2: 300062
+  - selection_id: 1032
+    caption_1: 300063
+    caption_2: 300064
+  - selection_id: 1033
+    caption_1: 300065
+    caption_2: 300066
+  - selection_id: 1034
+    caption_1: 300067
+    caption_2: 300068
+  - selection_id: 1035
+    caption_1: 300069
+    caption_2: 300070
+  - selection_id: 1036
+    caption_1: 300071
+    caption_2: 300072
+  - selection_id: 1037
+    caption_1: 300073
+    caption_2: 300074
+  - selection_id: 1038
+    caption_1: 300075
+    caption_2: 300076
+  - selection_id: 1039
+    caption_1: 300077
+    caption_2: 300078
+  - selection_id: 1040
+    caption_1: 300079
+    caption_2: 300080
+  - selection_id: 1041
+    caption_1: 300081
+    caption_2: 300082
+  - selection_id: 1042
+    caption_1: 300083
+    caption_2: 300084
+  - selection_id: 1043
+    caption_1: 300085
+    caption_2: 300086
+  - selection_id: 1044
+    caption_1: 300087
+    caption_2: 300088
+  - selection_id: 1045
+    caption_1: 300089
+    caption_2: 300090
+  - selection_id: 1046
+    caption_1: 300091
+    caption_2: 300092
+  - selection_id: 1047
+    caption_1: 300093
+    caption_2: 300094
+  - selection_id: 1048
+    caption_1: 300095
+    caption_2: 300096
+  - selection_id: 1049
+    caption_1: 300097
+    caption_2: 300098
+  - selection_id: 1050
+    caption_1: 300099
+    caption_2: 300100
+  - selection_id: 1051
+    caption_1: 300101
+    caption_2: 300102
+  - selection_id: 1052
+    caption_1: 300103
+    caption_2: 300104
+  - selection_id: 1053
+    caption_1: 300105
+    caption_2: 300106
+  - selection_id: 1054
+    caption_1: 300107
+    caption_2: 300108
+  - selection_id: 1055
+    caption_1: 300109
+    caption_2: 300110
+  - selection_id: 1056
+    caption_1: 300111
+    caption_2: 300112
+  - selection_id: 1057
+    caption_1: 300113
+    caption_2: 300114
+  - selection_id: 1058
+    caption_1: 300115
+    caption_2: 300116
+  - selection_id: 1059
+    caption_1: 300117
+    caption_2: 300118
+  - selection_id: 1060
+    caption_1: 300119
+    caption_2: 300120
+  - selection_id: 1061
+    caption_1: 300121
+    caption_2: 300122
+  - selection_id: 1062
+    caption_1: 300123
+    caption_2: 300124
+  - selection_id: 1063
+    caption_1: 300125
+    caption_2: 300126
+  - selection_id: 1064
+    caption_1: 300127
+    caption_2: 300128
+  - selection_id: 1065
+    caption_1: 300129
+    caption_2: 300130
+  - selection_id: 1066
+    caption_1: 300131
+    caption_2: 300132
+  - selection_id: 1067
+    caption_1: 300133
+    caption_2: 300134
+  - selection_id: 1068
+    caption_1: 300135
+    caption_2: 300136
+  - selection_id: 1069
+    caption_1: 300137
+    caption_2: 300138
+  - selection_id: 1070
+    caption_1: 300139
+    caption_2: 300140
+  - selection_id: 1071
+    caption_1: 300141
+    caption_2: 300142
+  - selection_id: 1072
+    caption_1: 300143
+    caption_2: 300144
+  - selection_id: 1073
+    caption_1: 300145
+    caption_2: 300146
+  - selection_id: 1074
+    caption_1: 300147
+    caption_2: 300148
+  - selection_id: 1075
+    caption_1: 300149
+    caption_2: 300150
+  - selection_id: 1076
+    caption_1: 300151
+    caption_2: 300152
+  - selection_id: 1077
+    caption_1: 300153
+    caption_2: 300154
+  - selection_id: 1078
+    caption_1: 300155
+    caption_2: 300156
+  - selection_id: 1079
+    caption_1: 300157
+    caption_2: 300158
+  - selection_id: 1080
+    caption_1: 300159
+    caption_2: 300160
+  - selection_id: 1081
+    caption_1: 300161
+    caption_2: 300162
+  - selection_id: 1082
+    caption_1: 300163
+    caption_2: 300164
+  - selection_id: 1083
+    caption_1: 300165
+    caption_2: 300166
+  - selection_id: 1084
+    caption_1: 300167
+    caption_2: 300168
+  - selection_id: 1085
+    caption_1: 300169
+    caption_2: 300170
+  - selection_id: 1086
+    caption_1: 300171
+    caption_2: 300172
+  - selection_id: 1087
+    caption_1: 300173
+    caption_2: 300174
+  - selection_id: 1088
+    caption_1: 300175
+    caption_2: 300176
+  - selection_id: 1089
+    caption_1: 300177
+    caption_2: 300178
+  - selection_id: 1090
+    caption_1: 300179
+    caption_2: 300180
+  - selection_id: 1091
+    caption_1: 300181
+    caption_2: 300182
+  - selection_id: 1092
+    caption_1: 300183
+    caption_2: 300184
+  - selection_id: 1093
+    caption_1: 300185
+    caption_2: 300186
+  - selection_id: 1094
+    caption_1: 300187
+    caption_2: 300188
+  - selection_id: 1095
+    caption_1: 300189
+    caption_2: 300190
+  - selection_id: 1096
+    caption_1: 300191
+    caption_2: 300192
+  - selection_id: 1097
+    caption_1: 300193
+    caption_2: 300194
+  - selection_id: 1098
+    caption_1: 300195
+    caption_2: 300196
+  - selection_id: 1099
+    caption_1: 300197
+    caption_2: 300198
+  - selection_id: 1100
+    caption_1: 300199
+    caption_2: 300200

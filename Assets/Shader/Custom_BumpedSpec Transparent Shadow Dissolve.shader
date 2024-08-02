@@ -1,0 +1,41 @@
+Shader "Custom/BumpedSpec Transparent Shadow Dissolve" {
+	Properties {
+		_Color ("Main Color", Vector) = (1,1,1,1)
+		_Cutoff ("Alpha Cutoff", Range(0, 1)) = 0
+		_SpecColor ("Specular Color", Vector) = (0.5,0.5,0.5,1)
+		_Shininess ("Shininess", Range(0.03, 1)) = 0.078125
+		_MainTex ("Base (RGB) Gloss (A)", 2D) = "white" {}
+		_SpecMap ("SpecMap(RGB) Illum(A)", 2D) = "white" {}
+		_BumpMap ("Normalmap", 2D) = "bump" {}
+		_CubeMap ("Cube map", Cube) = "white" {}
+		_SliceGuide ("Slice Guide (RGB)", 2D) = "white" {}
+		_SliceAmount ("Slice Amount", Range(0, 1)) = 0
+		_DissolveEdgeColor ("Dissolve Edge Color", Vector) = (0.86,0.192,0.192,0)
+		_DissolveEdgeRange ("Dissolve Edge Range", Range(0, 1)) = 0.01
+		_DissolveEdgeMultiplier ("Dissolve Edge Multiplier", Float) = 120
+	}
+	//DummyShaderTextExporter
+	SubShader{
+		Tags { "RenderType"="Opaque" }
+		LOD 200
+		CGPROGRAM
+#pragma surface surf Standard
+#pragma target 3.0
+
+		sampler2D _MainTex;
+		fixed4 _Color;
+		struct Input
+		{
+			float2 uv_MainTex;
+		};
+		
+		void surf(Input IN, inout SurfaceOutputStandard o)
+		{
+			fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;
+			o.Albedo = c.rgb;
+			o.Alpha = c.a;
+		}
+		ENDCG
+	}
+	Fallback "Legacy Shaders/Specular"
+}

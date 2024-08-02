@@ -1,0 +1,574 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a122d20ef5c6f8cbb78fa44bfb9db6e, type: 3}
+  m_Name: CostumeES
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Costume.xlsx
+  worksheetName: CostumeES
+  dataArray:
+  - id: 100
+    character: 1
+    bundle: 0
+    prefabname: HanSoYoung
+    name: Uniforme de la preparatoria Yeondu
+    desc: Es el uniforme escolar femenino.
+    icon: CostumeIcon_HanSoYoung
+    collection: Standard
+    animation: 0
+  - id: 200
+    character: 2
+    bundle: 0
+    prefabname: KimSungA
+    name: Uniforme de la preparatoria Yeondu
+    desc: Es el uniforme escolar femenino.
+    icon: CostumeIcon_KimSungA
+    collection: Standard
+    animation: 0
+  - id: 300
+    character: 3
+    bundle: 0
+    prefabname: SeolJiHyeon
+    name: Uniforme de la preparatoria Yeondu
+    desc: Es el uniforme escolar femenino.
+    icon: CostumeIcon_SeolJiHyeon
+    collection: Standard
+    animation: 0
+  - id: 400
+    character: 4
+    bundle: 0
+    prefabname: LeeHeeMin
+    name: Uniforme de la preparatoria Yeondu
+    desc: Es el uniforme escolar masculino.
+    icon: CostumeIcon_LeeHeeMin
+    collection: Standard
+    animation: 0
+  - id: 500
+    character: 5
+    bundle: 0
+    prefabname: LeeBongGoo
+    name: Uniforme de la preparatoria Yeondu
+    desc: Es el uniforme que la escuela proporciona a los conserjes.
+    icon: CostumeIcon_LeeBongGoo
+    collection: Standard
+    animation: 0
+  - id: 600
+    character: 6
+    bundle: 0
+    prefabname: SonDalSu
+    name: Uniforme de la preparatoria Yeondu
+    desc: Es el uniforme que la escuela proporciona a los conserjes.
+    icon: CostumeIcon_SonDalSu
+    collection: Standard
+    animation: 0
+  - id: 700
+    character: 7
+    bundle: 0
+    prefabname: YooMinJi
+    name: Uniforme de la preparatoria Yeondu
+    desc: Es el uniforme escolar femenino.
+    icon: CostumeIcon_YooMinJi
+    collection: Standard
+    animation: 0
+  - id: 101
+    character: 1
+    bundle: 1
+    prefabname: HanSoYoung_Idol
+    name: Uniforme fashion
+    desc: 'Solo los elegidos pueden llevar este uniforme. ¡Y es muy colorido! '
+    icon: CostumeIcon_HanSoYoung_Idol
+    collection:
+    animation: 0
+  - id: 201
+    character: 2
+    bundle: 1
+    prefabname: KimSungA_Idol
+    name: Uniforme fashion
+    desc: 'Solo los elegidos pueden llevar este uniforme. ¡Y es muy colorido! '
+    icon: CostumeIcon_KimSungA_Idol
+    collection:
+    animation: 0
+  - id: 301
+    character: 3
+    bundle: 1
+    prefabname: SeolJiHyeon_Idol
+    name: Uniforme fashion
+    desc: 'Solo los elegidos pueden llevar este uniforme. ¡Y es muy colorido! '
+    icon: CostumeIcon_SeolJiHyeon_Idol
+    collection:
+    animation: 0
+  - id: 701
+    character: 7
+    bundle: 1
+    prefabname: YooMinJi_Idol
+    name: Uniforme fashion
+    desc: 'Solo los elegidos pueden llevar este uniforme. ¡Y es muy colorido! '
+    icon: CostumeIcon_YooMinJi_Idol
+    collection:
+    animation: 0
+  - id: 102
+    character: 1
+    bundle: 2
+    prefabname: HanSoYoung_Casual
+    name: Vestido elegante
+    desc: Este vestido a cuadros tiene un corte femenino y elegante.
+    icon: CostumeIcon_HanSoYoung_Casual
+    collection: CollectionRank_3
+    animation: 0
+  - id: 202
+    character: 2
+    bundle: 2
+    prefabname: KimSungA_Casual
+    name: Chica atractiva
+    desc: Camiseta a rayas y pantalones cortos. Un estilo muy de moda.
+    icon: CostumeIcon_KimSungA_Casual
+    collection: CollectionRank_2
+    animation: 0
+  - id: 302
+    character: 3
+    bundle: 2
+    prefabname: SeolJiHyeon_Casual
+    name: Chica sencilla
+    desc: Blusa celeste con falda en tonos claros para tener un aire maduro.
+    icon: CostumeIcon_SeolJiHyeon_Casual
+    collection: CollectionRank_1
+    animation: 0
+  - id: 402
+    character: 4
+    bundle: 2
+    prefabname: LeeHeeMin_Casual
+    name: Chico con clase
+    desc: Esta chaqueta elegante le da toque sutil y moderno a la camisa a cuadros.
+    icon: CostumeIcon_LeeHeeMin_Casual
+    collection: CollectionGhost
+    animation: 0
+  - id: 502
+    character: 5
+    bundle: 2
+    prefabname: LeeBongGoo_Casual
+    name: Memoria solemne
+    desc: Las esponjosas orejeras completan este estilo invernal. Si te parece hortera, te equivocas.
+    icon: CostumeIcon_LeeBongGoo_Casual
+    collection: CollectionFigure
+    animation: 0
+  - id: 602
+    character: 6
+    bundle: 2
+    prefabname: SonDalSu_Casual
+    name: Motero
+    desc: Esta ropa recuerda a un tipo duro que va por el mundo con aire de lealtad.
+    icon: CostumeIcon_SonDalSu_Casual
+    collection: CollectionEnding
+    animation: 0
+  - id: 702
+    character: 7
+    bundle: 2
+    prefabname: YooMinJi_Casual
+    name: La pequeña princesa
+    desc: Aunque sea difícil o triste, ella siempre lo superará.
+    icon: CostumeIcon_YooMinJi_Casual
+    collection: CollectionRank_4
+    animation: 0
+  - id: 106
+    character: 1
+    bundle: 6
+    prefabname: HanSoYoung_Apple
+    name: Uniforme inmaculado con manzana
+    desc: Uniforme escuela blanco con un adorno en forma de manzana.
+    icon: CostumeIcon_HanSoYoung_Apple
+    collection:
+    animation: 0
+  - id: 206
+    character: 2
+    bundle: 6
+    prefabname: KimSungA_Apple
+    name: Uniforme inmaculado con manzana
+    desc: Uniforme escuela blanco con un adorno en forma de manzana.
+    icon: CostumeIcon_KimSungA_Apple
+    collection:
+    animation: 0
+  - id: 306
+    character: 3
+    bundle: 6
+    prefabname: SeolJiHyeon_Apple
+    name: Uniforme inmaculado con manzana
+    desc: Uniforme escuela blanco con un adorno en forma de manzana.
+    icon: CostumeIcon_SeolJiHyeon_Apple
+    collection:
+    animation: 0
+  - id: 406
+    character: 4
+    bundle: 6
+    prefabname: LeeHeeMin_Apple
+    name: Uniforme inmaculado con manzana
+    desc: Uniforme escuela blanco con un adorno en forma de manzana.
+    icon: CostumeIcon_LeeHeeMin_Apple
+    collection:
+    animation: 0
+  - id: 706
+    character: 7
+    bundle: 6
+    prefabname: YooMinJi_Apple
+    name: Uniforme inmaculado con manzana
+    desc: Uniforme escuela blanco con un adorno en forma de manzana.
+    icon: CostumeIcon_YooMinJi_Apple
+    collection:
+    animation: 0
+  - id: 107
+    character: 1
+    bundle: 7
+    prefabname: HanSoYoung_Horror
+    name: Reina de la aventura
+    desc: Este es el traje de una aventurera experimentada que ha sobrevivido a todas las adversidades.
+    icon: CostumeIcon_HanSoYoung_Horror
+    collection:
+    animation: 0
+  - id: 207
+    character: 2
+    bundle: 7
+    prefabname: KimSungA_Horror
+    name: Alocada Seong-ah
+    desc: Siente la fuerza de una guerrera que sobrevive en un mundo devastado.
+    icon: CostumeIcon_KimSungA_Horror
+    collection:
+    animation: 0
+  - id: 307
+    character: 3
+    bundle: 7
+    prefabname: SeolJiHyeon_Horror
+    name: 'Ji Hyeon Valentine '
+    desc: Este es el traje de una muejer de las fuerzas especiales que puede destrozar a un zombie con sus propias manos.
+    icon: CostumeIcon_SeolJiHyeon_Horror
+    collection:
+    animation: 0
+  - id: 407
+    character: 4
+    bundle: 7
+    prefabname: LeeHeeMin_Horror
+    name: Experto en Supervivencia
+    desc: Con un cinturón lleno de artilugios y unas botas de combate, sobrevivir a los zombies es fácil.
+    icon: CostumeIcon_LeeHeeMin_Horror
+    collection:
+    animation: 0
+  - id: 507
+    character: 5
+    bundle: 7
+    prefabname: LeeBongGoo_Horror
+    name: La peor pesadilla
+    desc: Con el rostro deformado en un incendio, este traje es de los que solo se te aparecen en las peores pesadillas.
+    icon: CostumeIcon_LeeBongGoo_Horror
+    collection:
+    animation: 0
+  - id: 607
+    character: 6
+    bundle: 7
+    prefabname: SonDalSu_Horror
+    name: 'Jason enmascarado '
+    desc: Nadie resistirá el miedo que inspiran una máscara de hockey y un machete en la mano.
+    icon: CostumeIcon_SonDalSu_Horror
+    collection:
+    animation: 0
+  - id: 707
+    character: 7
+    bundle: 7
+    prefabname: YooMinJi_Horror
+    name: 'El Alguacil de Yeondu '
+    desc: Ten cuidado, puedes ser detenido en nombre de la justicia si no cumples con el reglamento de la escuela.
+    icon: CostumeIcon_YooMinJi_Horror
+    collection:
+    animation: 0
+  - id: 103
+    character: 1
+    bundle: 3
+    prefabname: HanSoYoung_Beach
+    name: Diosa de la playa
+    desc: Un traje de baño elegante de color marfil que hace lucir a su portadora en toda una diosa.
+    icon: CostumeIcon_HanSoYoung_Beach
+    collection:
+    animation: 1
+  - id: 203
+    character: 2
+    bundle: 3
+    prefabname: KimSungA_Beach
+    name: Bronceado glamuroso
+    desc: Un conjunto de bikini de rayas negro que realza al portador maravillosas curvas
+    icon: CostumeIcon_KimSungA_Beach
+    collection:
+    animation: 1
+  - id: 303
+    character: 3
+    bundle: 3
+    prefabname: SeolJiHyeon_Beach
+    name: Belleza tropical
+    desc: Un traje de baño amarrillo claro para lucir palmito en cualquier playa tropical
+    icon: CostumeIcon_SeolJiHyeon_Beach
+    collection:
+    animation: 1
+  - id: 403
+    character: 4
+    bundle: 3
+    prefabname: LeeHeeMin_Beach
+    name: Salvavidas
+    desc: Unas bermudas azules que resaltan la figura atletica del portador. Mostrando tus fuertes abdominales para convertirse en todo un rompecorazones.
+    icon: CostumeIcon_LeeHeeMin_Beach
+    collection:
+    animation: 0
+  - id: 503
+    character: 5
+    bundle: 3
+    prefabname: LeeBongGoo_Beach
+    name: Bailarina de hula
+    desc: Traje típico que usan los habitantes de una legendaria isla del norte al realizar sus danzas. No te preocupes, no vamos a hacerte aprender los pasos.
+    icon: CostumeIcon_LeeBongGoo_Beach
+    collection:
+    animation: 0
+  - id: 603
+    character: 6
+    bundle: 3
+    prefabname: SonDalSu_Beach
+    name: Rosa maravilloso
+    desc: Bastan un delantal rosa con forma de corazón y unos músculos bronceados para que las chicas se derritan ante ti. Ignora el... atún congelado que llevas en la mano.
+    icon: CostumeIcon_SonDalSu_Beach
+    collection:
+    animation: 0
+  - id: 703
+    character: 7
+    bundle: 3
+    prefabname: YooMinJi_Beach
+    name: Chica de vacaciones
+    desc: Un traje de baño tipo uniforme escolar con un detalle de cuello marinero y lazo rojo.
+    icon: CostumeIcon_YooMinJi_Beach
+    collection:
+    animation: 0
+  - id: 108
+    character: 1
+    bundle: 8
+    prefabname: HanSoYoung_BlazBlue
+    name: "So-Young Han \n\"Noel Vermillion\""
+    desc: Traje especial "Noel Vermillion" de So-Young Han en colaboración con BlazBlue.
+    icon: CostumeIcon_HanSoYoung_BlazBlue
+    collection:
+    animation: 0
+  - id: 208
+    character: 2
+    bundle: 8
+    prefabname: KimSungA_BlazBlue
+    name: "Sung-A Kim \n\"Noel Vermillion\""
+    desc: Traje especial "Noel Vermillion" de Sung-A Kim en colaboración con BlazBlue.
+    icon: CostumeIcon_KimSungA_BlazBlue
+    collection:
+    animation: 0
+  - id: 308
+    character: 3
+    bundle: 8
+    prefabname: SeolJiHyeon_BlazBlue
+    name: "Ji-Hyeon Seol \n\"Noel Vermillion\""
+    desc: Traje especial "Noel Vermillion" de Ji-Hyeon Seol en colaboración con BlazBlue.
+    icon: CostumeIcon_SeolJiHyeon_BlazBlue
+    collection:
+    animation: 0
+  - id: 408
+    character: 4
+    bundle: 8
+    prefabname: LeeHeeMin_BlazBlue
+    name: "Hee-Min Lee \n\"Ragna the Bloodedge\""
+    desc: Traje especial "Ragna the Bloodedge" de Hee-Min Lee en colaboración con BlazBlue.
+    icon: CostumeIcon_LeeHeeMin_BlazBlue
+    collection:
+    animation: 0
+  - id: 508
+    character: 5
+    bundle: 8
+    prefabname: LeeBongGoo_BlazBlue
+    name: "Bong-Goo Lee \n\"Iron Tager\""
+    desc: Traje especial "Iron Tager" de Bong-Goo Lee en colaboración con BlazBlue.
+    icon: CostumeIcon_LeeBongGoo_BlazBlue
+    collection:
+    animation: 0
+  - id: 608
+    character: 6
+    bundle: 8
+    prefabname: SonDalSu_BlazBlue
+    name: "Dal-Su Son \n\"Valkenhayn R. Hellsing\""
+    desc: Traje especial "Valkenhayn R. Hellsing" de Dal-Su Son en colaboración con BlazBlue.
+    icon: CostumeIcon_SonDalSu_BlazBlue
+    collection:
+    animation: 0
+  - id: 708
+    character: 7
+    bundle: 8
+    prefabname: YooMinJi_BlazBlue
+    name: "Yoo Ji-Min \n\"Noel Vermillion\""
+    desc: Traje especial "Noel Vermillion" de Ji-Min Yoo en colaboración con BlazBlue.
+    icon: CostumeIcon_YooMinJi_BlazBlue
+    collection:
+    animation: 0
+  - id: 109
+    character: 1
+    bundle: 9
+    prefabname: HanSoYoung_Retro
+    name: Uniforme antiguo
+    desc: Antiguo uniforme de las alumnas de la secundaria Yeondu. Al ponértelo, revivirás esos años que quedaron en la memoria.
+    icon: CostumeIcon_HanSoYoung_Retro
+    collection: Standard
+    animation: 0
+  - id: 209
+    character: 2
+    bundle: 9
+    prefabname: KimSungA_Retro
+    name: Uniforme antiguo
+    desc: Antiguo uniforme de las alumnas de la secundaria Yeondu. Al ponértelo, revivirás esos años que quedaron en la memoria.
+    icon: CostumeIcon_KimSungA_Retro
+    collection: Standard
+    animation: 0
+  - id: 309
+    character: 3
+    bundle: 9
+    prefabname: SeolJiHyeon_Retro
+    name: Uniforme antiguo
+    desc: Antiguo uniforme de las alumnas de la secundaria Yeondu. Al ponértelo, revivirás esos años que quedaron en la memoria.
+    icon: CostumeIcon_SeolJiHyeon_Retro
+    collection: Standard
+    animation: 0
+  - id: 409
+    character: 4
+    bundle: 9
+    prefabname: LeeHeeMin_Retro
+    name: Uniforme antiguo
+    desc: Antiguo uniforme de los alumnos de la secundaria Yeondu. Al ponértelo, revivirás esos años que quedaron en la memoria.
+    icon: CostumeIcon_LeeHeeMin_Retro
+    collection: Standard
+    animation: 0
+  - id: 509
+    character: 5
+    bundle: 9
+    prefabname: LeeBongGoo_Retro
+    name: Viejo uniforme de conserje
+    desc: Antiguo traje utilizado por los conserjes. Al ponértelo, revivirás esos años que quedaron en la memoria.
+    icon: CostumeIcon_LeeBongGoo_Retro
+    collection: Standard
+    animation: 0
+  - id: 609
+    character: 6
+    bundle: 9
+    prefabname: SonDalSu_Retro
+    name: Viejo uniforme de conserje
+    desc: Antiguo traje utilizado por los conserjes. Al ponértelo, revivirás esos años que quedaron en la memoria.
+    icon: CostumeIcon_SonDalSu_Retro
+    collection: Standard
+    animation: 0
+  - id: 709
+    character: 7
+    bundle: 9
+    prefabname: YooMinJi_Retro
+    name: Uniforme antiguo
+    desc: Antiguo uniforme de las alumnas de la secundaria Yeondu. Al ponértelo, sentirás que tu cara se vuelve más angular.
+    icon: CostumeIcon_YooMinJi_Retro
+    collection: Standard
+    animation: 0
+  - id: 110
+    character: 1
+    bundle: 10
+    prefabname: HanSoYoung_Sailor
+    name: Traje marinero
+    desc: Uniforme escolar tipo traje marinero. Es famoso entre algunos estudiantes.
+    icon: CostumeIcon_HanSoYoung_Sailor
+    collection:
+    animation: 0
+  - id: 210
+    character: 2
+    bundle: 10
+    prefabname: KimSungA_Sailor
+    name: Traje marinero
+    desc: Uniforme escolar tipo traje marinero. Es famoso entre algunos estudiantes.
+    icon: CostumeIcon_KimSungA_Sailor
+    collection:
+    animation: 0
+  - id: 310
+    character: 3
+    bundle: 10
+    prefabname: SeolJiHyeon_Sailor
+    name: Traje marinero
+    desc: Uniforme escolar tipo traje marinero. Es famoso entre algunos estudiantes.
+    icon: CostumeIcon_SeolJiHyeon_Sailor
+    collection:
+    animation: 0
+  - id: 710
+    character: 7
+    bundle: 10
+    prefabname: YooMinJi_Sailor
+    name: Traje marinero
+    desc: Uniforme escolar tipo traje marinero. Es famoso entre algunos estudiantes.
+    icon: CostumeIcon_YooMinJi_Sailor
+    collection:
+    animation: 0
+  - id: 111
+    character: 1
+    bundle: 11
+    prefabname: HanSoYoung_Xmas
+    name: Reina de las nieves
+    desc: Este vestido recuerda a la blanca nieve y al frío y transparente hielo.
+    icon: CostumeIcon_HanSoYoung_Xmas
+    collection:
+    animation: 0
+  - id: 211
+    character: 2
+    bundle: 11
+    prefabname: KimSungA_Xmas
+    name: Papá Noel sexy
+    desc: Esta ropa de Papá Noel es bastante sexy. ¡Ni siquiera el frío evitará que te la pongas!
+    icon: CostumeIcon_KimSungA_Xmas
+    collection:
+    animation: 0
+  - id: 311
+    character: 3
+    bundle: 11
+    prefabname: SeolJiHyeon_Xmas
+    name: Vestido de Rodolfo
+    desc: Este vestido recuerda a Rudolfo. El toque final lo pone la preciosa diadema con cuernos.
+    icon: CostumeIcon_SeolJiHyeon_Xmas
+    collection:
+    animation: 0
+  - id: 411
+    character: 4
+    bundle: 11
+    prefabname: LeeHeeMin_Xmas
+    name: Traje de Papá Noel
+    desc: Este traje recuerda a Papá Noel. El toque final lo pone la pajarita negra.
+    icon: CostumeIcon_LeeHeeMin_Xmas
+    collection:
+    animation: 0
+  - id: 511
+    character: 5
+    bundle: 11
+    prefabname: LeeBongGoo_Xmas
+    name: Disfraz de muñeco de nieve
+    desc: Es un precioso disfraz de muñeco de nieve con una bufanda colorida.
+    icon: CostumeIcon_LeeBongGoo_Xmas
+    collection:
+    animation: 0
+  - id: 611
+    character: 6
+    bundle: 11
+    prefabname: SonDalSu_Xmas
+    name: Disfraz de ciervo
+    desc: Disfraz de ciervo con una mirada tan cautivadora... que parece a punto de echarse a llorar.
+    icon: CostumeIcon_SonDalSu_Xmas
+    collection:
+    animation: 0
+  - id: 711
+    character: 7
+    bundle: 11
+    prefabname: YooMinJi_Xmas
+    name: Chica navideña
+    desc: Un disfraz con todo el espíritu navideño que incluye un gorro y una chaqueta con aplicaciones de tela tipo peluche blanca.
+    icon: CostumeIcon_YooMinJi_Xmas
+    collection:
+    animation: 0

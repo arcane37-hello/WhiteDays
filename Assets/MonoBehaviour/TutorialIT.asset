@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150161c4cf3b151d963e45c9682bfff0, type: 3}
+  m_Name: TutorialIT
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Tutorial.xlsx
+  worksheetName: TutorialIT
+  dataArray:
+  - id: 2
+    title: Correre e sedersi
+    image: Tutorial02
+    desc: Con i tasti Corsa #L1Button# / Sedersi #HideButton# puoi sederti e correre.<br>Nel caso in cui sei seduto, le probabilità di essere scoperto dal bidello si riducono.<br>Se corri troppo a lungo, ti girerà la testa.<br> Riposati per un attimo.
+  - id: 4
+    title: Oggetti di rigenerazione salute
+    image: Tutorial04
+    desc: Puoi consumare il Pranzo Istantaneo, il Caffè, il Latte di Soia, i Sedativi e usare il Kit di Emergenza per recuperare la tua salute e per riprendere fiato.<br>Nel Menu Oggetti di regenerazione salute del tuo zaino, seleziona il pulsante [Usa].
+  - id: 5
+    title: Interazione
+    image: Tutorial05
+    desc: Se nelle vicinanze vi sono degli oggetti con cui è possibile interagire, apparirà [Icona Tonda].<br>Avvicina il puntatore all'icona e premendo #SelectButton#, potrai interagire. <br> Premendo #R2Button# e muovendo #RStick#, potrai muovere il puntatore lentamente.<br>Nel caso di oggetti o documenti, verranno acquisiti. <br>Se si tratta di oggetti che puoi usare, apparirà l'immagine dell'icona corrispondente.
+  - id: 6
+    title: Documenti
+    image: Tutorial06
+    desc: Puoi trovare vari documenti in giro per la scuola.<br>Questi documenti nascondono segreti sulla scuola e suggerimenti per procedere nel gioco.<br>Se sei bloccato e non riesci a fare progressi, questi documenti potrebbero esserti molto utili.
+  - id: 7
+    title: Raccolte
+    image: Tutorial07
+    desc: Durante la partita, puoi creare delle raccolte accumulando ogni tipo di storie di fantasmi e imbattendoti in alcuni di essi.<br>Completando il gioco, puoi accumulare diversi finali.<br>Controlla gli oggetti che hai raccolto e l'avanzamento dei tuoi progressi in [Schermata Principale-Elenco Raccolte].
+  - id: 8
+    title: Accendino
+    image: Tutorial08
+    desc: 'Premendo #R1Button# puoi spegnere e accendere l''accendino.<br>Quando usi l''accendino, per non essere beccato dal bidello, puoi illuminare la zona circostante, ma il raggio d''azione è molto limitato.<br>Se inizi a correre, presta attenzione a spegnere l''accendino. '
+  - id: 9
+    title: Messaggi
+    image: Tutorial09
+    desc: I messaggi forniscono ottime informazioni per guidare i principianti.<br>Non è possibile ricevere messaggi nelle modalità al di sopra di quella Normale.
+  - id: 11
+    title: Salvare il gioco
+    image: Tutorial11
+    desc: Puoi salvare il gioco usando le bacheche appese in giro per la scuola.<br>Se muori nel gioco o se abbandoni durante una partita, puoi riprendere a giocare da dove avevi salvato l'ultima volta.<br>Ricorda che i dati non salvati verranno resettati.
+  - id: 12
+    title: Porta
+    image: Tutorial12
+    desc: 'Avvicinandoti ad una porta aperta, appare un''[icona tonda].<br>Premi #SelectButton# per chiudere ed aprire la porta.<br>Se la porta è chiusa, apparirà un simbolo che ti indicherà di usare le chiavi corrette, se le hai con te.<br>Nel caso in cui non possiedi le chiavi, ma appare comunque il simbolo, si tratta di una porta che non puoi aprire in questo momento. '
+  - id: 13
+    title: Luci
+    image: Tutorial13
+    desc: Per acquisire oggetti o documenti, oppure per interagire con gli strumenti, devi illuminare la zona circostante.<br>Premendo [Interruttore Luce] dentro alla classe, verranno accese le luci di quella classe.<br>Affinchè tu possa trovare l'interruttore della luce anche al buio, viene segnalato con una piccola lampadina. <br>Prova a trovare gli interruttori vicino alle porte.
+  - id: 14
+    title: Limite di tempo
+    image: Tutorial14
+    desc: Alcuni enigmi speciali devono essere risolti entro un certo limite di tempo.<br>In questi casi, l'UI mostrerà il tempo rimanente sulla sinistra dello schermo.<br>Mentre stai risolvendo un enigma a tempo non è possibile salvare il gioco.<br>Tienilo a mente mentre giochi.
+  - id: 15
+    title: Puzzle
+    image: Tutorial15
+    desc: 'Alcuni puzzle possono essere risolti usando il cursore.<br>Cambia il cursore con quello della mano e modifica la parte corrispondente.<br>Premendo #SelectButton#, muovi l''oggetto e risolvi il puzzle. '
+  - id: 16
+    title: Puzzle
+    image: Tutorial16
+    desc: "Con #LStick# muovi il cursore e seleziona il pezzo.\nPremendo #SelectButton#, ruota il pezzo.\nSe connetti il cavo velocemente, risolverai il puzzle."
+  - id: 17
+    title: Cambio personaggio
+    image: Tutorial17
+    desc: Da ora in poi il gioco procederà attraverso il punto di vista di Ji-Min.<br>Non potrai più utilizzare tutti quegli oggetti<br>(Chiavi, Latte di Soia, Messaggi, ecc.) acquisiti giocando come Hee-Min.
+  - id: 18
+    title: Puzzle
+    image: Tutorial18
+    desc: 'In alcuni casi, per risolvere i puzzle, avrai bisogno di parti precise.<br>Usando #LStick#, muovi il cursore e potrai selezionare la parte precisa.<br>Per risolvere il puzzle, vi sono indizi nascosti qua e là.<br>Raccogli gli indizi, trova i codici segreti e risolvi i puzzle. '
+  - id: 501
+    title: Interazione
+    image: Tutorial05
+    desc: Quando vi sono oggetti con cui interagire nelle vicinanze, apparirà [Icona Tonda].<br>Avvicinando il puntatore all'icona, fai [Click Sinistro] e potrai iniziare ad interagire.<br>Nel caso di oggetti o documenti, verranno acquisiti. <br>Se si tratta di oggetti che puoi usare, apparirà l'immagine dell'icona corrispondente.
+  - id: 105
+    title: Interazione
+    image: Tutorial05
+    desc: Se un elemento interattivo è nei paraggi, apparirà un'[icona tonda].<br>Puoi interagire con un PNG cliccando su tale icona.<br>Se l'elemento in questione è un documento o un oggetto, lo acquisirai.<br>Quando un oggetto è disponibile per essere utilizzato, apparirà l’icona corrispondente.
+  - id: 112
+    title: Porte
+    image: Tutorial12
+    desc: Quando ti avvicini a una porta aperta, apparirà un'[icona tonda].<br>Se clicchi sull'icona o ti avvicini alla porta, potrai aprirla e richiuderla.<br>Se una porta è chiusa a chiave, l'icona per aprire la porta apparirà soltanto se possiedi la chiave giusta.<br>Se non visualizzi alcuna icona quando sei davanti a una porta, vuol dire che per ora non puoi aprirla.
+  - id: 115
+    title: Puzzle
+    image: Tutorial15
+    desc: 'Alcuni puzzle devono essere risolti usando il cursore.<br>Puoi modificare le parti interessate cambiando il cursore con quello a forma di manina.<br>Prova a muovere l''oggetto e a risolvere il puzzle. '
+  - id: 116
+    title: Puzzle
+    image: Tutorial16
+    desc: "Seleziona il pezzo muovendo il cursore.\nRuota il pezzo usando il cursore.\nConnettendo correttamente il cavo, risolverai il puzzle."
+  - id: 118
+    title: Puzzle
+    image: Tutorial18
+    desc: In alcuni casi, per risolvere il puzzle sarà necessario il pezzo corretto.<br>Muovendo il cursore, potrai selezionare il pezzo da modificare.<br>Per risovere il puzzle, vi sono alcuni suggerimenti nascosti qua e là.<br>Raccogliendo i vari suggerimenti, troverai il codice segreto per risolvere il puzzle.
+  - id: 19
+    title: Mappa
+    image: Tutorial19
+    desc: Usando la mappa, puoi controllare la tua posizione e la struttura della scuola.<br>In rosso sono evidenziate le zone in cui ancora non sei mai stato.<br>Nel livello Facile e in quelli inferiori, puoi usare la guida che ti aiuterà a procedere nello scenario.
+  - id: 10
+    title: Guardiano
+    image: Tutorial10
+    desc: Se il giocatore viene scoperto dal bidello mentre questi effettua la sua ronda, verrà rincorso ostinatamente.<br>Quando accendi le luci o corri, le possibilità di venire scoperto dal bidello aumentano, perciò fai attenzione.<br>Nei livelli Medio o inferiori, puoi verificare la posizione dei bidelli nelle tue vicinanze attraverso l'icona a forma di occhio.
+  - id: 102
+    title: Correre e sedersi
+    image: Tutorial02
+    desc: Puoi correre o sederti usando il pulsante Corri [##keyRun##] / Siediti [##keyHide##] in basso a destra.<br>Le probabilità di essere scovato dal bidello diminuiscono quando sei seduto.<br>Correre troppo a lungo ti stordisce. Assicurati di fare una pausa.
+  - id: 108
+    title: Accendino
+    image: Tutorial08
+    desc: Usando il bottone Accendino [##keyLighter##] puoi accendere il tuo accendino.<br>Usando l'accendino potrai illuminare l'area senza correre il rischio di essere beccato dai bidelli, ma il raggio d'illuminazione è piuttosto limitato.<br>Ricorda che il tuo accendino si spegnerà se inizi a correre.

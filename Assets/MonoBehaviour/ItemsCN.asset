@@ -1,0 +1,862 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07a5dfe14f036317946630f406b9a1c, type: 3}
+  m_Name: ItemsCN
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Items.xlsx
+  worksheetName: ItemsCN
+  dataArray:
+  - id: 1
+    type: 0
+    mesh: MobilePhone
+    icon: MobilePhone
+    name: 手机
+    desc: 这是希珉的手机。
+  - id: 2
+    type: 0
+    mesh: MobilePhone_jimin
+    icon: MobilePhone
+    name: 手机
+    desc: '-'
+  - id: 10000
+    type: 0
+    mesh: Candybox
+    icon: Candybox
+    name: 白色情人节礼物
+    desc: 是为了向心仪的女生告白而准备的礼物。 里面有糖果。
+  - id: 10010
+    type: 0
+    mesh: Diary
+    icon: Diary
+    name: 小英的日记本
+    desc: 女学生的日记本，写着2年级8班韩小英。
+  - id: 10020
+    type: 0
+    mesh: SchoolMagazine
+    icon: SchoolMagazine
+    name: 延杜校刊
+    desc: 是延杜高中发放的校刊。 新年版特别附录里，包含了为新生的学校地图。
+  - id: 10030
+    type: 0
+    mesh: Nipper
+    icon: Nipper
+    name: 钳子
+    desc: 很普通的钳子。 似乎可以用来剪断细铁丝或铁丝网。
+  - id: 10040
+    type: 0
+    mesh: TalismanFri
+    icon: TalismanFri
+    name: 金之牌
+    desc: 刻有“金”字的木质符箓。 可以感受到吉祥的气息。
+  - id: 10050
+    type: 0
+    mesh: Driver1
+    icon: Driver
+    name: 工具腰带
+    desc: 工作人员使用的腰带。 插着大小不一的螺丝刀。
+  - id: 10051
+    type: 0
+    mesh: Driver2
+    icon: Driver
+    name: 工具腰带
+    desc: 工作人员使用的腰带。 插着大小不一的螺丝刀。
+  - id: 10052
+    type: 0
+    mesh: Driver3
+    icon: Driver
+    name: 工具腰带
+    desc: 工作人员使用的腰带。 插着大小不一的螺丝刀。
+  - id: 10060
+    type: 0
+    mesh: Spray
+    icon: Spray
+    name: 防害虫喷剂
+    desc: 驱赶蚊虫的喷剂。 请勿在火焰附近使用的字样映入眼帘。
+  - id: 10070
+    type: 0
+    mesh: poison
+    icon: Poison
+    name: 化学溶剂
+    desc: 内含进行学校化学实验时，所使用的溶液。 标有骷髅，似乎是种危险的物质。
+  - id: 10080
+    type: 0
+    mesh: TalismanThu
+    icon: TalismanThu
+    name: 木之牌
+    desc: 是刻有“木”字的木质符箓。 可以感受到吉祥的气息。
+  - id: 10090
+    type: 0
+    mesh: CassetteTape
+    icon: CassetteTape
+    name: 反向磁带
+    desc: 有录音的磁带。 但，由于是用反向录入的，所以无法得知内容。
+  - id: 10100
+    type: 0
+    mesh: PicturePiece1_1
+    icon: PicturePiece1
+    name: 图画碎片1
+    desc: 图画的碎片。 背面写着某种数字。
+  - id: 10101
+    type: 0
+    mesh: PicturePiece1_2
+    icon: PicturePiece1
+    name: 图画碎片1
+    desc: 图画的碎片。 背面写着某种数字。
+  - id: 10102
+    type: 0
+    mesh: PicturePiece1_3
+    icon: PicturePiece1
+    name: 图画碎片1
+    desc: 图画的碎片。 背面写着某种数字。
+  - id: 10110
+    type: 0
+    mesh: PicturePiece2
+    icon: PicturePiece2
+    name: 图画碎片2
+    desc: 图画的碎片。 只有跟其他图片组合，才能看出其形态。
+  - id: 10120
+    type: 0
+    mesh: PicturePiece3
+    icon: PicturePiece3
+    name: 图画碎片3
+    desc: 图画的碎片。 只有跟其他图片组合，才能看出其形态。
+  - id: 10130
+    type: 0
+    mesh: Pottery_Remocon
+    icon: Pottery
+    name: 陶瓷
+    desc: 是在音乐老师的画里看到的陶瓷。从里面发出了当啷的响声。
+  - id: 10131
+    type: 0
+    mesh: Pottery
+    icon: Pottery
+    name: 陶瓷
+    desc: 是在音乐老师的画里看到的陶瓷。
+  - id: 10140
+    type: 0
+    mesh: RemoteControl
+    icon: RemoteControl
+    name: 音响遥控器
+    desc: 是可以远程操控音响的遥控器。
+  - id: 10150
+    type: 0
+    mesh: CD_Key
+    icon: CD
+    name: CD
+    desc: 是在音乐室发现的CD。 似乎是音乐老师的遗物。 但看作CD的话，似乎过于重了一些。
+  - id: 10151
+    type: 0
+    mesh: CD
+    icon: CD
+    name: CD
+    desc: 是在音乐室发现的CD。 似乎是音乐老师的遗物。
+  - id: 10160
+    type: 0
+    mesh: ClayDollIncomplete
+    icon: ClayDoll
+    name: 尚未完成的泥人
+    desc: 是用泥塑的女性人偶。 还未完成的状态。
+  - id: 10170
+    type: 0
+    mesh: ClayDollHot
+    icon: ClayDoll
+    name: 烤红的泥人
+    desc: 是在窑里烤红的泥人。 似乎需要用流水降温。
+  - id: 10180
+    type: 0
+    mesh: ClayDollComplete
+    icon: ClayDoll
+    name: 完成的泥人
+    desc: 是用水降温后，完成的泥人。 是一位女性的模样。
+  - id: 10190
+    type: 0
+    mesh: ClayDollCouple
+    icon: ClayDollCouple
+    name: 母子娃娃
+    desc: 是小孩和妈妈手牵手的泥人。
+  - id: 10200
+    type: 0
+    mesh: talismanSat
+    icon: talismanSat
+    name: 土之牌
+    desc: 是刻有“土”字的木质符箓。 可以感受到祥瑞气息。
+  - id: 10210
+    type: 0
+    mesh: VideoTape
+    icon: VideoTape
+    name: 录像带
+    desc: 是在校长室发现的录像带。 没有贴任何标题。
+  - id: 10220
+    type: 0
+    mesh: SignBoard
+    icon: SignBoard
+    name: 书库使用说明
+    desc: 是写有书库注意事项的介绍。 镀膜镀地硬实，易于塞入缝隙。
+  - id: 10230
+    type: 0
+    mesh: TalismanTaegeuk
+    icon: TalismanTaegeuk
+    name: 太极牌
+    desc: 是刻有太极纹路的木质符箓。
+  - id: 10240
+    type: 0
+    mesh: CassetteBand
+    icon: CassetteBand
+    name: 录音机胶带
+    desc: 是在电源出故障的录音机里找到的胶带。
+  - id: 10250
+    type: 0
+    mesh: L_Rod
+    icon: L_Rod
+    name: L型铁杆
+    desc: L字形状的铁杆
+  - id: 10260
+    type: 0
+    mesh: talismanWed
+    icon: talismanWed
+    name: 水之牌
+    desc: 是刻有“水”字的木质符箓。 可以感受到祥瑞气息。
+  - id: 10270
+    type: 0
+    mesh: ExtinguisherA
+    icon: ExtinguisherA
+    name: A型灭火器
+    desc: 是用于灭火的灭火器。 写着可用于常规的火灾。
+  - id: 10280
+    type: 0
+    mesh: ExtinguisherB
+    icon: ExtinguisherB
+    name: B型灭火器
+    desc: 是用于灭火的灭火器。 写着可用于油类火灾。
+  - id: 10290
+    type: 0
+    mesh: ExtinguisherC
+    icon: ExtinguisherC
+    name: C型灭火器
+    desc: 是用于灭火的灭火器。 写着可用于电类引起的火灾。
+  - id: 10300
+    type: 0
+    mesh: Valve
+    icon: Valve
+    name: 阀门把手
+    desc: 是在操控机械设备的时候使用的阀门把手。 似乎可以夹在某个地方使用。
+  - id: 10310
+    type: 0
+    mesh: talismanTue
+    icon: talismanTue
+    name: 火牌
+    desc: 是刻有“火”字的木质符箓。 可以感受到祥瑞气息。
+  - id: 10320
+    type: 0
+    mesh: Blanket
+    icon: Blanket
+    name: 毛毯
+    desc: 羊毛毯。
+  - id: 10330
+    type: 0
+    mesh: Blanket_02
+    icon: BlanketWet
+    name: 浸湿的毛毯
+    desc: 又湿又厚重的毛毯。
+  - id: 10340
+    type: 0
+    mesh: Luminol
+    icon: Luminol
+    name: 鲁米诺溶剂
+    desc: 此为检测铜或铁的溶剂。化学发光检测可用来寻找血的踪迹（血红蛋白和血红素）。
+  - id: 10350
+    type: 0
+    mesh: Diary_JiWon
+    icon: Diary_JiWon
+    name: 金智媛的书
+    desc: 音乐老师的秘密皮革纸条。
+  - id: 10360
+    type: 0
+    mesh: AsthmaSpray
+    icon: AsthmaSpray
+    name: 哮喘吸入器
+    desc: 患有哮喘的人使用的喷雾式药物。
+  - id: 10370
+    type: 0
+    mesh: TalismanTueSeal
+    icon: TalismanTueSeal
+    name: 八卦火卦
+    desc: 看起来很祥和的八卦。其中心写有“火”字。
+  - id: 10380
+    type: 0
+    mesh: TalismanWedSeal
+    icon: TalismanWedSeal
+    name: 八卦水卦
+    desc: 看起来很祥和的八卦。其中心写有“水”字。
+  - id: 10390
+    type: 0
+    mesh: TalismanThuSeal
+    icon: TalismanThuSeal
+    name: 八卦木卦
+    desc: 看起来很祥和的八卦。其中心写有“木”字。
+  - id: 10400
+    type: 0
+    mesh: TalismanFriSeal
+    icon: TalismanFriSeal
+    name: 八卦金卦
+    desc: 看起来很祥和的八卦。其中心写有“金”字。
+  - id: 10410
+    type: 0
+    mesh: TalismanSatSeal
+    icon: TalismanSatSeal
+    name: 八卦土卦
+    desc: 看起来很祥和的八卦。其中心写有“土”字。
+  - id: 10420
+    type: 0
+    mesh: Book01_01
+    icon: Book01
+    name: 了解陶器
+    desc: 内含老虎绘制的书。
+  - id: 10421
+    type: 0
+    mesh: Book01_02
+    icon: Book01
+    name: 了解陶器
+    desc: 内含老虎绘制的书。
+  - id: 10430
+    type: 0
+    mesh: Book03_01
+    icon: Book02
+    name: 心理学简介
+    desc: 内含老虎绘制的书。
+  - id: 10431
+    type: 0
+    mesh: Book03_02
+    icon: Book02
+    name: 心理学简介
+    desc: 内含老虎绘制的书。
+  - id: 10440
+    type: 0
+    mesh: Book02_01
+    icon: Book03
+    name: 西方艺术史
+    desc: 内含老虎绘制的书。
+  - id: 10441
+    type: 0
+    mesh: Book02_02
+    icon: Book03
+    name: 西方艺术史
+    desc: 内含老虎绘制的书。
+  - id: 10450
+    type: 0
+    mesh: Book04_01
+    icon: Book04
+    name: 超自然的书
+    desc: 内含老虎绘制的书。
+  - id: 10451
+    type: 0
+    mesh: Book04_02
+    icon: Book04
+    name: 超自然的书
+    desc: 内含老虎绘制的书。
+  - id: 10460
+    type: 0
+    mesh: Pottery_Memo
+    icon: Pottery
+    name: 陶器
+    desc: 音乐老师制作的另外一个陶器。
+  - id: 10461
+    type: 0
+    mesh: Pottery_SungA
+    icon: Pottery
+    name: 陶器
+    desc: 音乐老师制作的另外一个陶器。
+  - id: 20000
+    type: 1
+    mesh: key_tag_housekeeping_inven
+    icon: key_tag_housekeeping
+    name: 歌词实习室钥匙
+    desc: 是打开歌词实习室大门的钥匙。
+  - id: 20010
+    type: 1
+    mesh: Key_center
+    icon: Key_center
+    name: 主楼1的中央走廊钥匙
+    desc: 是打开主楼1的1楼中央走廊防火墙的钥匙。
+  - id: 20020
+    type: 1
+    mesh: Key_center
+    icon: Key_center
+    name: 主楼1礼堂出入钥匙
+    desc: 是打开主楼1通往礼堂的铁门钥匙。
+  - id: 20030
+    type: 1
+    mesh: Key_master
+    icon: Key_master
+    name: 主楼1的万能钥匙
+    desc: 是打开主楼1的大部分锁头的钥匙。
+  - id: 20031
+    type: 1
+    mesh: Key01
+    icon: Key01
+    name: 失物招领室钥匙
+    desc: 是打开主楼2失物招领室的钥匙。
+  - id: 20040
+    type: 1
+    mesh: key_tag_student
+    icon: key_tag_student
+    name: 学生部室钥匙
+    desc: 是打开主楼2学生部室的钥匙。
+  - id: 20050
+    type: 1
+    mesh: key_tag_teacher2
+    icon: key_tag_teacher2
+    name: 第2教务室的钥匙
+    desc: 是打开主楼2第2教务室的钥匙。
+  - id: 20060
+    type: 1
+    mesh: key_tag_science
+    icon: key_tag_science
+    name: 科学室钥匙
+    desc: 是打开主楼2科学室的钥匙。
+  - id: 20070
+    type: 1
+    mesh: Key_piano
+    icon: Key_piano
+    name: 钢琴椅钥匙
+    desc: 是打开钢琴椅锁的钥匙。
+  - id: 20080
+    type: 1
+    mesh: key_tag_art
+    icon: key_tag_art
+    name: 美术室钥匙
+    desc: 是打开主楼2美术室的钥匙。
+  - id: 20090
+    type: 1
+    mesh: CardYellow
+    icon: CardYellow
+    name: 黄色IC钥匙卡
+    desc: 用于新楼黄色区域的读卡器，来打开房门的IC钥匙卡。
+  - id: 20100
+    type: 1
+    mesh: CardRed
+    icon: CardRed
+    name: 红色IC钥匙卡
+    desc: 用于新楼红色区域的读卡器，来打开房门的IC钥匙卡。
+  - id: 20110
+    type: 1
+    mesh: CardBlue
+    icon: CardBlue
+    name: 蓝色IC钥匙卡
+    desc: 用于新楼蓝色区域的读卡器，来打开房门的IC钥匙卡。
+  - id: 20120
+    type: 1
+    mesh: Key_rooftop
+    icon: Key_rooftop
+    name: 新楼楼顶钥匙
+    desc: 是打开新楼楼顶的钥匙。
+  - id: 20130
+    type: 1
+    mesh: Key_Combined_rb
+    icon: Key_Combined_rb
+    name: 组合的钥匙（红蓝）
+    desc: 是通过钥匙组合器组合而成的钥匙。 红色和蓝色钥匙的组合。 似乎可以打开某种小锁头。
+  - id: 20140
+    type: 1
+    mesh: Key_Combined_ry
+    icon: Key_Combined_ry
+    name: 组合的钥匙（红黄）
+    desc: 是通过钥匙组合器组合而成的钥匙。 红色和黄色钥匙的组合。 似乎可以打开某种小锁头。
+  - id: 20150
+    type: 1
+    mesh: Key_Combined_rd
+    icon: Key_Combined_rd
+    name: 组合的钥匙（红黑）
+    desc: 是通过钥匙组合器组合而成的钥匙。 红色和黑色钥匙的组合。 似乎可以打开某种小锁头。
+  - id: 20160
+    type: 1
+    mesh: Key_Combined_by
+    icon: Key_Combined_by
+    name: 组合的钥匙（蓝黄）
+    desc: 是通过钥匙组合器组合而成的钥匙。 蓝色和黄色钥匙的组合。 似乎可以打开某种小锁头。
+  - id: 20170
+    type: 1
+    mesh: Key_Combined_bd
+    icon: Key_Combined_bd
+    name: 组合的钥匙（蓝黑）
+    desc: 是通过钥匙组合器组合而成的钥匙。 蓝色和黑色钥匙的组合。 似乎可以打开某种小锁头。
+  - id: 20180
+    type: 1
+    mesh: Key_Combined_yd
+    icon: Key_Combined_yd
+    name: 组合的钥匙（黄黑）
+    desc: 是通过钥匙组合器组合而成的钥匙。 黄色和黑色钥匙的组合。 似乎可以打开某种小锁头。
+  - id: 20190
+    type: 1
+    mesh: Key_small_red
+    icon: Key_small_red
+    name: 小型钥匙 （红色）
+    desc: 涂了红色的小钥匙。 似乎可以跟其他钥匙组合使用。
+  - id: 20200
+    type: 1
+    mesh: Key_small_blue
+    icon: Key_small_blue
+    name: 小型钥匙 （蓝色）
+    desc: 涂了蓝色的小钥匙。 似乎可以跟其他钥匙组合使用。
+  - id: 20210
+    type: 1
+    mesh: Key_small_yellow
+    icon: Key_small_yellow
+    name: 小型钥匙 （黄色）
+    desc: 涂了黄色的小钥匙。 似乎可以跟其他钥匙组合使用。
+  - id: 20220
+    type: 1
+    mesh: Key_small_dark
+    icon: Key_small_dark
+    name: 小型钥匙 （黑色）
+    desc: 涂了黑色的小钥匙。 似乎可以跟其他钥匙组合使用。
+  - id: 20230
+    type: 1
+    mesh: Key_Util
+    icon: Key_Util
+    name: 小型万能钥匙
+    desc: 似乎是打开抽屉的小型万能钥匙。
+  - id: 30000
+    type: 2
+    mesh: SoybeanMilk
+    icon: SoybeanMilk
+    name: 豆奶
+    desc: 延杜高校正在出售的豆奶。 可通过学校内部的小卖部或自动售货机获得。
+  - id: 30010
+    type: 2
+    mesh: Lunchbox
+    icon: Lunchbox
+    name: 便当
+    desc: 可方便食用的盒饭。 吃饱了，人才能有力气，心情才能好起来。
+  - id: 30020
+    type: 2
+    mesh: FirstAidKit
+    icon: FirstAidKit
+    name: 急救箱
+    desc: 急救箱，内含可治疗伤患处的物品。 可在危急时使用。
+  - id: 30030
+    type: 2
+    mesh: Pills
+    icon: Pills
+    name: 牛黄清心丸
+    desc: 是缓解紧张，使人冷静的药物。 服用后会消除紧张。
+  - id: 30040
+    type: 2
+    mesh: Coffee
+    icon: Coffee
+    name: 灌装咖啡
+    desc: 易拉罐内有咖啡饮料。 喝一口心情舒爽，但喝多了会伤身。
+  - id: 40010
+    type: 0
+    mesh: Lighter
+    icon: Lighter
+    name: 打火机
+    desc: 是打火机。 点燃之后周围稍微变亮。 在漆黑的地方应该会有所帮助。
+  - id: 40030
+    type: 3
+    mesh: Coin
+    icon: Coin
+    name: 延杜硬币
+    desc: 延杜高中发行的硬币。 可在学校内部的小卖部或自动售货机上使用。
+  - id: 40040
+    type: 3
+    mesh: MagicPen
+    icon: MagicPen
+    name: 油性笔
+    desc: 用于记录什么的油性笔。
+  - id: 50000
+    type: 4
+    mesh: Pin
+    icon: Pin
+    name: 别针
+    desc: 可以用来扎入某个地方的小别针
+  - id: 50010
+    type: 4
+    mesh: Doorknob
+    icon: Doorknob
+    name: 把手
+    desc: 木制的小把手。似乎可以插入某个地方，来打开本来打不来的东西。
+  - id: 50020
+    type: 4
+    mesh: ScaleWeight1g
+    icon: ScaleWeight1g
+    name: 砝码1g
+    desc: 用于称重的金属锤。
+  - id: 50030
+    type: 4
+    mesh: ScaleWeight5g
+    icon: ScaleWeight5g
+    name: 砝码5g
+    desc: 用于称重的金属锤。
+  - id: 50040
+    type: 4
+    mesh: ScaleWeight10g
+    icon: ScaleWeight10g
+    name: 砝码10g
+    desc: 用于称重的金属锤。
+  - id: 50050
+    type: 4
+    mesh: ScaleWeight30g
+    icon: ScaleWeight30g
+    name: 砝码30g
+    desc: 用于称重的金属锤。
+  - id: 50060
+    type: 4
+    mesh: ScaleWeight50g
+    icon: ScaleWeight50g
+    name: 砝码50g
+    desc: 用于称重的金属锤。
+  - id: 50070
+    type: 4
+    mesh: MathTimeTable
+    icon: MathTimeTable
+    name: 时间表碎片 （数学）
+    desc: 是写着数学的时间表的一部分。
+  - id: 50080
+    type: 4
+    mesh: PaperCrane
+    icon: PaperCrane
+    name: 纸鹤
+    desc: 是用黑纸叠成的纸鹤。
+  - id: 50090
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: 摩尔斯电码表
+    desc: 以摩尔斯电码显示数字的摩尔斯电码表。
+  - id: 50091
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: 摩尔斯电码表
+    desc: 以摩尔斯电码显示数字的摩尔斯电码表。
+  - id: 50092
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: 摩尔斯电码表
+    desc: 以摩尔斯电码显示数字的摩尔斯电码表。
+  - id: 50100
+    type: 4
+    mesh: TypewriterO
+    icon: TypewriterO
+    name: 打字机按键O
+    desc: 似乎是从打字机里脱落的老旧按键。
+  - id: 50110
+    type: 4
+    mesh: TypewriterM
+    icon: TypewriterM
+    name: 打字机按键M
+    desc: 似乎是从打字机里脱落的老旧按键。
+  - id: 50120
+    type: 4
+    mesh: TypewriterE
+    icon: TypewriterE
+    name: 打字机按键E
+    desc: 似乎是从打字机里脱落的老旧按键。
+  - id: 50130
+    type: 4
+    mesh: TypewriterN
+    icon: TypewriterN
+    name: 打字机按键N
+    desc: 似乎是从打字机里脱落的老旧按键。
+  - id: 50140
+    type: 4
+    mesh: SpiderSample
+    icon: SpiderSample
+    name: 蜘蛛标本
+    desc: 剥制形态恐怖的蜘蛛后，制作的标本。 连摸一下都觉得渗人。
+  - id: 50150
+    type: 4
+    mesh: LensLeft
+    icon: LensLeft
+    name: 视力测量用镜片（左侧）
+    desc: 看似单眼眼镜的小镜片。
+  - id: 50151
+    type: 4
+    mesh: LensLeft
+    icon: LensLeft
+    name: 视力测量用镜片（左侧）
+    desc: 看似单眼眼镜的小镜片。
+  - id: 50160
+    type: 4
+    mesh: LensRight
+    icon: LensRight
+    name: 视力测量用镜片（右侧）
+    desc: 看似单眼眼镜的小镜片。
+  - id: 50161
+    type: 4
+    mesh: LensRight
+    icon: LensRight
+    name: 视力测量用镜片（右侧）
+    desc: 看似单眼眼镜的小镜片。
+  - id: 50170
+    type: 4
+    mesh: ConfessionMail
+    icon: ConfessionMail
+    name: 告白信
+    desc: 是写着女生告白的情书。
+  - id: 50180
+    type: 4
+    mesh: BloodExerciseBook
+    icon: BloodExerciseBook
+    name: 沾血的习题集
+    desc: 粘着血的数学习题集。
+  - id: 50190
+    type: 4
+    mesh: Chalk
+    icon: Chalk
+    name: 粉笔
+    desc: 是在黑板上写东西的粉笔。
+  - id: 50200
+    type: 4
+    mesh: GymnasticsCap
+    icon: GymnasticsCap
+    name: 体育老师的帽子
+    desc: 看似海军战队助教帽子的红色帽。 应该是体育老师的。
+  - id: 50210
+    type: 4
+    mesh: ScorecardSecond
+    icon: ScorecardSecond
+    name: 第2名的成绩表
+    desc: 是某一优等生的成绩表。 似乎是只因几道题的差距而屈居第2的。
+  - id: 50220
+    type: 4
+    mesh: Cigarette
+    icon: Cigarette
+    name: 香烟
+    desc: 不是学生该拥有的物品。 似乎是几个不良学生藏起来的。
+  - id: 50230
+    type: 4
+    mesh: BellFox
+    icon: BellFox
+    name: 狐狸铃铛
+    desc: 有清脆声音的铃铛。
+  - id: 50240
+    type: 4
+    mesh: Collection_Figure_HM
+    icon: Collection_Figure_HM
+    name: 男学生模型
+    desc: 应该已经制作了14年以上。 是背着书包的男生模型。
+  - id: 50250
+    type: 4
+    mesh: Collection_Figure_SY
+    icon: Collection_Figure_SY
+    name: 长发女生的模型。
+    desc: 应该已经制作了14年以上。 看似冷淡的女生形象。
+  - id: 50260
+    type: 4
+    mesh: Collection_Figure_SA
+    icon: Collection_Figure_SA
+    name: 短发女生的模型
+    desc: 应该已经制作了14年以上。 看似唐突的女生形象。
+  - id: 50270
+    type: 4
+    mesh: Collection_Figure_JH
+    icon: Collection_Figure_JH
+    name: 戴眼镜的女生模型
+    desc: 应该已经制作了14年以上。 看起来纯真的女学生的样子。
+  - id: 50280
+    type: 4
+    mesh: Collection_Figure_BG
+    icon: Collection_Figure_BG
+    name: 秃头守卫模型。
+    desc: 应该已经制作了14年以上。 秃头男子的形象。
+  - id: 50290
+    type: 4
+    mesh: Collection_Figure_DS
+    icon: Collection_Figure_DS
+    name: 戴着帽子的守卫模型
+    desc: 应该已经制作了14年以上。 帽子下压的阴沉男子形象。
+  - id: 50300
+    type: 4
+    mesh: Collection_Figure_EM
+    icon: Collection_Figure_EM
+    name: 大妈模型
+    desc: 应该已经制作了14年以上。 穿着残破连衣裙的大妈形象。
+  - id: 90010
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: QA Cheat Item 1
+    desc: Main1
+  - id: 90020
+    type: 2
+    mesh: CardRed
+    icon: CardRed
+    name: QA Cheat Item 2
+    desc: Main2_A
+  - id: 90021
+    type: 2
+    mesh: CardRed
+    icon: CardRed
+    name: QA Cheat Item 3
+    desc: Main2_B
+  - id: 90030
+    type: 2
+    mesh: CardBlue
+    icon: CardBlue
+    name: QA Cheat Item 4
+    desc: New_A
+  - id: 90031
+    type: 2
+    mesh: CardBlue
+    icon: CardBlue
+    name: QA Cheat Item 5
+    desc: New_B
+  - id: 90040
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: QA Cheat Item 6
+    desc: Hall_A
+  - id: 90041
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: QA Cheat Item 7
+    desc: Hall_B
+  - id: 90100
+    type: 2
+    mesh: poison
+    icon: poison
+    name: QA Cheat Item 8
+    desc: ByeBye Guards
+  - id: 90200
+    type: 2
+    mesh: Candybox
+    icon: Candybox
+    name: QA Cheat Item 9
+    desc: Get all items
+  - id: 90210
+    type: 2
+    mesh: Diary
+    icon: Diary
+    name: QA Cheat Item 10
+    desc: Get all endings.
+  - id: 90220
+    type: 2
+    mesh: Collection_Figure_SY
+    icon: Collection_Figure_SY
+    name: QA Cheat Item 11
+    desc: Get all figures.
+  - id: 90230
+    type: 2
+    mesh: BellFox
+    icon: BellFox
+    name: QA Cheat Item 12
+    desc: Get all ghost stories.
+  - id: 90240
+    type: 2
+    mesh: Pills
+    icon: Pills
+    name: Love Potion
+    desc: If you want to love and eat this pills. But, this is not effective for ugly men.

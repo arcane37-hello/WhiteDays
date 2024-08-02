@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150161c4cf3b151d963e45c9682bfff0, type: 3}
+  m_Name: TutorialCN
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Tutorial.xlsx
+  worksheetName: TutorialCN
+  dataArray:
+  - id: 2
+    title: 跑动和坐下
+    image: Tutorial02
+    desc: 跑#L1Button# / 蹲下#HideButton#通过这些提示来跑和蹲下<br>.在蹲着的状态下，减少守卫发现的几率<br>长时间跑的话会出现头晕目眩<br>请暂时休息
+  - id: 4
+    title: 恢复道具
+    image: Tutorial04
+    desc: 使用盒饭，咖啡，豆奶，牛黄清心丸，急救箱可以恢复体力和調整呼吸。<br>在背包里的恢复道具项目中点击[使用键]。
+  - id: 5
+    title: 互动
+    image: Tutorial05
+    desc: 相互协助的对象在附近的话，可以敲击（圆形图标）<br>指针图标对应好之后，点击#SelectButton#就可以相互协助。通过点击<br>#R2Button#的状态 ，移动#RStick#的话，指针能够慢慢移动，在單品和文件情况下获得。在<br>使用可用的单品情况下，对应的图标会被标示
+  - id: 6
+    title: 文件
+    image: Tutorial06
+    desc: 校内到处都有各种各样的文件。<br>文件内藏有关于延斗高中各种各样的故事和与游戏进度有关的提示。<br>在游戏进展受阻时请仔细阅读获得的文件。
+  - id: 7
+    title: 收藏品
+    image: Tutorial07
+    desc: 在游戏内可以收集各种各样的怪谈文件以及寻找鬼并获取鬼的收藏品。<br>完成游戏后可以获得各种各样的结局的结局收藏品。<br>请在[主页-收集的物品]项内确认收集的物品和完成度。
+  - id: 8
+    title: 打火机
+    image: Tutorial08
+    desc: 通过#R1Button#可以关闭打火机。<br>使用打火机的话，不会被警卫发现，但能照亮周围，能照到的范围有限，<br>请注意跑的话，打火机会灭
+  - id: 9
+    title: 短信
+    image: Tutorial09
+    desc: 短信具有引导新手玩家进行游戏的作用。<br>普通难度以上无法收到文字短信。
+  - id: 11
+    title: 保存
+    image: Tutorial11
+    desc: 使用学校里面的告示板可以保存游戏。<br>GAME OVER或游戏中断时，将回到上次保存的进度继续游戏。<br>未保存的进度将会消失，请留意。
+  - id: 12
+    title: 门
+    image: Tutorial12
+    desc: 走到打开的门的附近会有[圆形图标]出现。<br>按#SelectButton#键可以开门和关门。<br>如果门是锁住的，则仅在已拥有相应的钥匙时会出现可以使用钥匙的标识。<br>如果门上存在没有钥匙的标识，则表示该门为当前无法打开的门。
+  - id: 13
+    title: 照明
+    image: Tutorial13
+    desc: 为了获得单品和文件或者和目标程序相互协力，周围需要明亮  <br>按一下教室 [照明开关]的话， 对应的教室照明会打开.<br>为了在黑暗中找到照明开关，标识为小的火光.<br>.希望找到门边的照明开关
+  - id: 14
+    title: 时间限制
+    image: Tutorial14
+    desc: 对于一部分特殊拼图，需要在限定时间内解开。<br>倒计时开始后，在游戏画面的左上方会出现显示当前剩余时间的界面。<br>在进行时间限制拼图时无法保存游戏。<br>请留意。
+  - id: 15
+    title: 拼图
+    image: Tutorial15
+    desc: 几个拼图变大后使用，应该解决拼图<br>变成手模样的话，可以操作对应的部分<br>点击#SelectButton#移动目标程序，试着解决拼图
+  - id: 16
+    title: 拼图
+    image: Tutorial16
+    desc: "通过#LStick#移动光标，选择碎片 \n点击#SelectButton#，移动碎片\n正确地连接电线的话，可以完成拼图"
+  - id: 17
+    title: 角色转换
+    image: Tutorial17
+    desc: 从现在开始以智敏的视角进行游戏。<br>通过希珉获得的<br>所有道具(钥匙，豆奶，纸条等)将无法使用。
+  - id: 18
+    title: 拼图
+    image: Tutorial18
+    desc: 某种情况下，为了打开拼图，需要精密的操作。<br>移动#LStick#.移动光标，能够选择操作部分<br>为了解决拼图，提示藏着每个角落里。.<br>收集提示，找到密码，就能够解决拼图
+  - id: 501
+    title: 互动
+    image: Tutorial05
+    desc: 周围有能够相互协助的对象的话，点击[选型指针。]<br>指针图标对应好之后 [点击左]就可以相互协作.<br>单品或者文件的情况下获得。<br>可能使用的单品情况下，相应的图标被标示
+  - id: 105
+    title: 互动
+    image: Tutorial05
+    desc: 在可以互动的对象附近会出现【圆形图标】。<br>点击相应图标即可开始互动。<br>如对象为物品或文件时即可立即获取。<br>如有可以使用的物品则会出现相应图标的图片。
+  - id: 112
+    title: 门
+    image: Tutorial12
+    desc: 靠近开着的门时会出现【圆形图标】。<br>点击相应图标或再走近一点即可开关门。<br>如门是关着的，则仅在拥有对应的钥匙时会出现可以使用钥匙的标识。<br>如果门上任何标识都看不到，则该门为现在无法打开的门。
+  - id: 115
+    title: 拼图
+    image: Tutorial15
+    desc: 有几个拼图需要使用光标。<br>当光标变成手的形状时即可移动相应部分。<br>请移动目标解开拼图吧。
+  - id: 116
+    title: 拼图
+    image: Tutorial16
+    desc: "移动光标选择拼图。\n使用光标旋转拼图。\n正确的连接上电线时拼图即被解开。"
+  - id: 118
+    title: 拼图
+    image: Tutorial18
+    desc: 在某些情况下，解开拼图时需要较为精密的操作。<br>移动光标即可选择想要操作的部分。<br>到处都藏着用于解开拼图的提示。<br>收集提示并找出密码来解开拼图吧。
+  - id: 19
+    title: 地图
+    image: Tutorial19
+    desc: 可以使用地图来确认现在的位置和学校的构造。<br>地图上红色的区域为尚未去过地方。<br>在游戏难度为简易以下时可以参考帮助情节发展的指导。
+  - id: 10
+    title: 守卫
+    image: Tutorial10
+    desc: 如守卫在巡查过程中发现玩家，则守卫会执着的追赶过来。<br>开灯或跑动时被守卫发现的危险会提高，请小心。<br>在游戏难度为普通以下时，可以利用眼睛形状的图表来确认附近守卫的状态。
+  - id: 102
+    title: 跑和坐
+    image: Tutorial02
+    desc: 可以使用跑【##keyRun##】/坐【##keyHide##】键跑或坐。<br>坐着时被守卫发现的可能性会降低。<br>跑动时间过长会引起眩晕。请稍作休息。
+  - id: 108
+    title: 打火机
+    image: Tutorial08
+    desc: 可以使用打火机【##keyLighter##】键开关打火机。<br>使用打火机虽然可以在照亮周围时不被守卫发现，但是照亮的范围非常小。<br>跑动时打火机会熄灭，请小心使用。

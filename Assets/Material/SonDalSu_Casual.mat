@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SonDalSu_Casual
+  m_Shader: {fileID: 4800000, guid: 5d1545789b6653041ab34d32dfc0d32f, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _CubeMap
+      second:
+        m_Texture: {fileID: 8900000, guid: ae08991eaf921094d9e5e2e15a9f398b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 4f38bff6860ce1e45b9f58c3ee747c0f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Ramp
+      second:
+        m_Texture: {fileID: 2800000, guid: a7b9dcf4c03fccc4a837fd3072256ccf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecMap
+      second:
+        m_Texture: {fileID: 2800000, guid: a6ad6570955729a48afbb797fc47bed2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Cutoff
+      second: 0.76
+    - first:
+        name: _RimPower
+      second: 6
+    - first:
+        name: _Shininess
+      second: 0.965
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.47794116, g: 0.47794116, b: 0.47794116, a: 1}
+    - first:
+        name: _LColor
+      second: {r: 0.61764705, g: 0.54044116, b: 0.54044116, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 0.7205882, g: 0.7205882, b: 0.7205882, a: 0.08235294}
+    - first:
+        name: _SColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.43863538, g: 0.44279772, b: 0.44852942, a: 1}

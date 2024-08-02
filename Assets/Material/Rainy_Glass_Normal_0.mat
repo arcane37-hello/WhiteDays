@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Rainy_Glass_Normal
+  m_Shader: {fileID: 4800000, guid: 962c0bbb30e91964192fde308d3cad87, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 14, y: 14}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 8900000, guid: acfec6e824babc1439117fc8848bd595, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: dda8606b18f24244f84a37520a6cd8c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RainFlow
+      second:
+        m_Texture: {fileID: 2800000, guid: 8ae624f7949a1cf459644a5b9848b197, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RainGradient
+      second:
+        m_Texture: {fileID: 2800000, guid: 5191a5fd7e4f12240b2a358a777e566b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _RainPower
+      second: 0
+    - first:
+        name: _RainSpeed
+      second: 0
+    - first:
+        name: _RainTilingX
+      second: 2.42
+    - first:
+        name: _RainTilingY
+      second: 1.84
+    - first:
+        name: _Rim
+      second: 0.01
+    - first:
+        name: _RunTime
+      second: 0
+    - first:
+        name: _Shininess
+      second: 0.11
+    - first:
+        name: _Speed
+      second: 1
+    - first:
+        name: _WaterContrast
+      second: 0.85
+    - first:
+        name: _WaterLevel_Bump
+      second: 0.48076922
+    - first:
+        name: _WaterLevel_Diffuse
+      second: 0.32692307
+    - first:
+        name: _fallow
+      second: 0.5
+    - first:
+        name: _level
+      second: 0.12
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.125, g: 0.122242644, b: 0.122242644, a: 0.141}
+    - first:
+        name: _ReflectColor
+      second: {r: 0.28313655, g: 0.2925574, b: 0.30597013, a: 0.5019608}
+    - first:
+        name: _SpecColor
+      second: {r: 0.29411763, g: 0.29411763, b: 0.29411763, a: 1}

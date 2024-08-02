@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150161c4cf3b151d963e45c9682bfff0, type: 3}
+  m_Name: TutorialES
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Tutorial.xlsx
+  worksheetName: TutorialES
+  dataArray:
+  - id: 2
+    title: Correr y agacharse
+    image: Tutorial02
+    desc: Usando Correr #L1Button# / Agacharse #HideButton# puede seleccionar correr o agacharse.<br>Al encontrarse agachado, disminuyen las posibilidades de ser encontrado por el conserje.<br>Si corre por un tiempo prolongado, puede sentirse mareado.<br>Le recomendamos descansar por un momento.
+  - id: 4
+    title: Regenerativos
+    image: Tutorial04
+    desc: 'Consuma bocadillos instantáneos, café, leche de soja, pastillas regenerativas de bezoar,<br> o use el botiquín de primeros auxilios para incrementar su fuerza y recobrar el aliento.<br>Haga click en la opción de Regenerativos de su mochila y presione el botón [Usar]. '
+  - id: 5
+    title: Interaccción
+    image: Tutorial05
+    desc: Cuando haya un objeto con el que sea posible interactuar, aparecerá un [ícono circular].<br>Después de mover el puntero hacia el ícono, presione #SelectButton# y podrá interactuar con el objeto.<br>Presionando #R2Button# , mueva el #RStick# y el puntero empezará a moverse lentamente.<br>Si se trata de un artículo o de un documento, podrá ganarlo.<br>En caso de que hubiera un artículo que pueda ser usado, aparecerá un ícono con una imagen representándolo.
+  - id: 6
+    title: Documentos
+    image: Tutorial06
+    desc: 'Pueden encontrarse documentos en muchos lugares en la escuela.<br>En estos documentos hay escondidas diversas historias sobre la escuela secundaria Yeondu y pistas sobre su desarrollo.<br>Al detenerse el desarrollo de la escuela, examine detenidamente los documentos adquiridos.  '
+  - id: 7
+    title: Colecciones
+    image: Tutorial07
+    desc: En este juego encontrará diversos documentos sobre historias fantasmales y espectros, que podrá compilar en una colección de fantasmas.<br>Al completar el juego, hay una colección de diversos finales posibles.<br>En la opción [Pantalla principal-Colección]  puede verificar los contenidos recopilados y la frecuencia de los logros.
+  - id: 8
+    title: 'Encendedor '
+    image: Tutorial08
+    desc: Puede encender y apagar el encendedor usando #R1Button#.<br>Cuando use el encendedor podrá iluminar áreas a su alrededor, evitando ser descubierto por el conserje, pero el alcance será bastante limitado.<br>Tenga en cuenta que al empezar a correr, el encendedor se apagará.
+  - id: 9
+    title: Mensajes de texto
+    image: Tutorial09
+    desc: Durante el desarrollo del juego, los mensajes cumplen el rol de guía para los principiantes.<br>Al pasar el nivel Normal de dificultad, los mensajes dejarán de aparecer.
+  - id: 11
+    title: Guardar partida
+    image: Tutorial11
+    desc: 'En distintos lugares de la escuela se encuentran dispuestos tableros de anuncios que pueden ser usados para guardar el juego.<br>Al finalizar una partida o suspender el juego, se podrá retornar al último punto en el que este fue guardado y continuar.<br>Si no guarda los contenidos mientras avanza, tenga en cuenta que se reiniciará el juego. '
+  - id: 12
+    title: Puertas
+    image: Tutorial12
+    desc: 'Cuando se acerque a un lugar donde hay una puerta abierta, aparecerá un [ícono redondo].<br>Puede abrir y cerrar la puerta presionando #SelectButton#.<br>Cuando la puerta esté cerrada con llave, solo cuando tenga la llave correcta aparecerá un ícono para indicarle que puede usarla.<br> Si en la puerta aparece una indicación diciendo que no hay llave, no podrá abrirla en ese momento. '
+  - id: 13
+    title: Luces
+    image: Tutorial13
+    desc: Para obtener artículos o documentos, o para interactuar con objetos alrededor, necesitará que haya iluminación.<br>Dentro del salón de clases, podrá encender las luces presionando el [interruptor de luz].<br>Para que sea posible encontrar el interruptor incluso en la oscuridad, este será señalado con una pequeña luz.<br>Busque el interruptor de luz cerca de la puerta.
+  - id: 14
+    title: Límite de tiempo
+    image: Tutorial14
+    desc: En el caso de algunos rompecabezas especiales, tendrá un tiempo limitado para resolverlos.<br>Cuando empiece a correr el tiempo, verá cuánto le queda a la izquierda de la pantalla.<br>Mientras resuelve el rompecabezas, el contenido de la partida actual no podrá ser guardado.<br>Téngalo en cuenta.
+  - id: 15
+    title: Rompecabezas
+    image: Tutorial15
+    desc: Para resolver algunos rompecabezas necesitará usar el cursor.<br>Cuando el cursor cambie de forma a una mano, podrá mover la pieza que señala.<br>Presionando #SelectButton# podrá mover el objeto y tratar de resolver el rompecabezas.
+  - id: 16
+    title: Rompecabezas
+    image: Tutorial16
+    desc: "Presionando #LStick#, mueva el cursor y seleccione la pieza del rompecabezas.\nPresionando #SelectButton#, podrá rotar la pieza del rompecabezas.\nCuando todos los bordes encajen perfectamente, el rompecabezas estará terminado."
+  - id: 17
+    title: Cambio de Personaje
+    image: Tutorial17
+    desc: 'Desde este momento, la historia se desarrollará desde el punto de vista de Ji-Min.<br>Mientras jugó en el rol de Hee-Min<br>los artículos que fueron obtenidos (llaves, leche de soja, mensajes, etc.), no podrán ser utilizados. '
+  - id: 18
+    title: Rompecabezas
+    image: Tutorial18
+    desc: En algunos casos, necesitará piezas muy específicas para completar el rompecabezas.<br>Use #LStick# para mover el cursor y seleccionar la parte a utilizar.<br>Las pistas para completar el rompecabezas están escondidas en diversos lugares.<br>Al juntas todas las pistas podrá obtener una contraseña y completar el rompecabezas.
+  - id: 501
+    title: Interaccción
+    image: Tutorial05
+    desc: Cuando haya algún objeto con el que pueda interactuar en los alrededores, aparecerá un [ícono circular].<br>Al posar el puntero sobre el ícono presione [click izquierdo] y podrá interactuar con el objeto.<br>Si se trata de un artículo o de un documento, podrá ganarlo.<br>En caso de que hubiera un artículo que pueda ser usado, aparecerá un ícono con una imagen representándolo.
+  - id: 105
+    title: Interacción
+    image: Tutorial05
+    desc: Cuando estés cerca de un elemento interactivo, aparecerá un [icono redondo].<br>Podrás interactuar con los PNJ si haces clic sobre ellos.<br>Si el elemento es un documento o un objeto, lo recogerás.<br>También aparecerá este icono cuando puedas usar un objeto.
+  - id: 112
+    title: Puertas
+    image: Tutorial12
+    desc: Al acercarte a una puerta abierta aparecerá un [icono redondo].<br>Si haces clic en el icono o te aproximas más a la puerta, podrás abrirla y cerrarla.<br>Si una puerta está cerrada con llave, únicamente aparecerá el icono si tienes la llave apropiada.<br>Si al acercarte a una puerta no aparece ningún icono, no podrás abrirla en ese momento.
+  - id: 115
+    title: Rompecabezas
+    image: Tutorial15
+    desc: 'Para resolver algunos rompecabezas necesitará usar el cursor.<br>Cuando el cursor cambie de forma a una mano, podrá mover la pieza que señala.<br>Mueva el objeto y trate de resolver el rompecabezas. '
+  - id: 116
+    title: Rompecabezas
+    image: Tutorial16
+    desc: "Mueva el cursor y seleccione la pieza.\nUse el cursor para rotar la pieza.\nCuando todos los bordes encajen perfectamente, el rompecabezas estará terminado."
+  - id: 118
+    title: Rompecabezas
+    image: Tutorial18
+    desc: En algunos casos, necesitará piezas muy específicas para completar el rompecabezas.<br>Mueva el cursor y podrá seleccionar la pieza a utilizar.<br>Las pistas para completar el rompecabezas están escondidas en diversos lugares.<br>Al juntar todas las pistas, podrá obtener una contraseña y completar el rompecabezas.
+  - id: 19
+    title: Mapa
+    image: Tutorial19
+    desc: Usando el mapa podrás ver tu ubicación actual y la estructura de la escuela.<br>Los lugares señalados en rojo son aquellos que aún no has visitado.<br>En niveles de dificultad menores que Fácil, tendrás la oportunidad de revisar una guía de cómo se desarrollan los escenarios del juego.
+  - id: 10
+    title: Conserjes
+    image: Tutorial10
+    desc: 'Si el conserje descubre a un jugador mientras está patrullando, lo perseguirá con insistencia.<br>Al encender la luz o al correr, aumentan las probabilidades de ser descubierto por el conserje, así que tenga cuidado.<br>En niveles de dificultad menores a Normal, podrá verificar si hay un conserje en los alrededores pues aparecerá un ícono en forma de ojo. '
+  - id: 102
+    title: Correr y agacharse
+    image: Tutorial02
+    desc: Puedes para correr o agacharte usando el botón Correr [##keyRun##] / Agacharse [##keyHide##].<br>Si te agachas, será más difícil que te pillen los conserjes.<br>Si corres demasiado te marearás, así que procura descansar.
+  - id: 108
+    title: Mechero
+    image: Tutorial08
+    desc: Utiliza el botón Mechero [##keyLighter##] para encender tu mechero.<br>Con él podrás iluminar la zona sin que te pillen los conserjes, pero el radio de iluminación es bastante limitado.<br>El mechero se apagará si empiezas a correr.

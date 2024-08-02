@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150161c4cf3b151d963e45c9682bfff0, type: 3}
+  m_Name: TutorialFR
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Tutorial.xlsx
+  worksheetName: TutorialFR
+  dataArray:
+  - id: 2
+    title: Courir et s'accroupir
+    image: Tutorial02
+    desc: 'Utiliser les touches Courir #L1Button# / S’accroupir #HideButton# permet de courir et de s’accroupir.<br>S’accroupir réduit les chances de se faire repérer par le gardien.<br>Courir trop longtemps provoque des vertiges.<br>Pensez à reprendre votre souffle. '
+  - id: 4
+    title: Objets de soins
+    image: Tutorial04
+    desc: Reprenez de la santé et du souffle en consommant des repas instantanés, du café, du lait de soja, des boules de puissant sédatif et des kits de secours.<br>Dans la rubrique soins de votre sac à dos, appuyer sur la touche [Use].
+  - id: 5
+    title: Interaction
+    image: Tutorial05
+    desc: 'Lorsqu’un objet avec lequel il est possible d’interagir est proche, [round icon] apparait.<br>Après avoir placer le curseur sur l’icône, appuyer sur la touche #SelectButton# permet d’interagir.<br>Tout en maintenant #R2Button# utiliser le #RStick# permet de déplacer doucement le curseur.<br>Cela permet de ramasser des objets et des documents.<br>Si un objet est utilisable dans une certaine situation, une icône prenant la forme de cet objet apparait. '
+  - id: 6
+    title: Documents
+    image: Tutorial06
+    desc: De nombreux documents sont éparpillés dans l'établissement.<br>Ils contiennent des informations sur le lycée ainsi que des indices utiles à votre progression.<br>Si vous êtes coincé, essayez de lire minutieusement ces documents.
+  - id: 7
+    title: Collection
+    image: Tutorial07
+    desc: Vous pouvez faire une collection de fantômes en ramassant des histoires de revenant ou en entrant en contact avec eux.<br>En finissant le jeu vous pouvez avoir accès à diverses fins et compléter vos collections.<br> Allez dans [Main Screen-Collection List] pour voir vos collections.
+  - id: 8
+    title: Briquet
+    image: Tutorial08
+    desc: '#R1Button# sert à allumer le briquet.<br>Le briquet permet de s''éclairer sans attirer l''attention du gardien, cependant son rayon d''action est très faible.<br>Attention, le briquet s’éteint lorsque vous vous mettez à courir.'
+  - id: 9
+    title: SMS
+    image: Tutorial09
+    desc: Les sms aident les joueurs débutants dans leur progression du jeu.<br>Ils sont désactivés dans les niveaux de difficulté supérieurs à Normal.
+  - id: 11
+    title: Sauvegarde
+    image: Tutorial11
+    desc: Utilisez les panneaux d'affichage disséminés dans l'établissement pour sauvegarder votre progression.<br>Si vous mourrez ou quittez la partie en cours, le jeu reprendra à la dernière sauvegarde.<br>Tout progression non sauvegardée sera effacée.
+  - id: 12
+    title: Les portes
+    image: Tutorial12
+    desc: L'icône [round icon] apparait lorsque vous vous approchez d'une porte qui peut être ouverte.<br>Vous pouvez ouvrir et fermer les portes en appuyant sur #SelectButton#.<br>Certaines portes vérouillées ne peuvent être ouvertes que si vous possédez la bonne clé, dans ce cas une icône en forme de clé apparait.<br>Si une icône indiquant qu'il n'y a pas de clé pour la porte apparait, cela signifie que la porte ne peut pas être ouverte à ce stade.
+  - id: 13
+    title: Eclairage
+    image: Tutorial13
+    desc: 'Pour toute interaction ou obtention d’objet et de documents, les environs doivent être suffisamment éclairés.<br>Dans une classe, si vous appuyez sur [light switch], la lumière s’allumera.<br>Afin de trouver le bouton de la lumière dans le noir, ce dernier est affiché par un petit indicateur lumineux.<br>Cherchez les interrupteurs du côté des portes. '
+  - id: 14
+    title: Limite de temps
+    image: Tutorial14
+    desc: Certaines énigmes spéciales sont chronométrées.<br>Le temps restant s'affiche alors à gauche de l'écran.<br>La partie ne peut pas être sauvegardée durant ces énigmes chronométrées.<br>Agissez en conséquence.
+  - id: 15
+    title: Enigmes
+    image: Tutorial15
+    desc: Certaines énigmes nécessitent l’utilisation du curseur pour être résolues.<br>Quand le curseur prend la forme d’une main, cela signifie que vous pouvez manipuler cette partie.<br>Appuyez sur #SelectButton# pour faire bouger l’objet et résolvez l’énigme.
+  - id: 16
+    title: Enigmes
+    image: Tutorial16
+    desc: "#LStick# fait se déplacer le curseur pour sélectionner les morceaux.\n#SelectButton# sert à faire tourner les morceaux.\nReliez correctement les morceaux entre eux pour résoudre le puzzle."
+  - id: 17
+    title: Changement de personnage
+    image: Tutorial17
+    desc: La partie continue maintenant à travers le regard de Ji-min.<br>Les objets amassés durant la partie avec Hui-min<br>sont tous utilisables (clés, lait de soja, notes etc).
+  - id: 18
+    title: Enigmes
+    image: Tutorial18
+    desc: Certaines énigmes nécessitent un morceau particulier pour être résolues.<br>Utilisez #LStick# pour déplacer le curseur sur le morceau de votre choix.<br>Des indices aidant à la résolution des énigmes sont cachés un peu partout.<br>Rassemblez les documents pour trouver le mot de passe et résolvez l’énigme.
+  - id: 501
+    title: Interaction
+    image: Tutorial05
+    desc: Lorsqu’un objet avec lequel il est possible d’interagir est proche, [round icon] apparait.<br>Après avoir placer le curseur sur l’icône, appuyer sur le [clic gauche] permet d’interagir.<br>Cela permet également de ramasser des objets et des documents.<br>Si un objet est utilisable dans une certaine situation, une icône prenant la forme de cet objet apparait.
+  - id: 105
+    title: Interaction
+    image: Tutorial05
+    desc: Si un objet interactif se trouve à proximité, [round icon] s'affiche.<br>Vous pouvez interagir avec le PNJ en cliquant dessus.<br>Si c'est un document ou un objet, il vous revient.<br>L'icône apparaîtra également quand un objet est disponible à l'emploi.
+  - id: 112
+    title: Les portes
+    image: Tutorial12
+    desc: En passant près d'une porte ouverte, [round icon] s'affiche.<br>Ouvrez la porte en cliquant sur l'icône ou en vous approchant de celle-ci. Les portes ouvertes se referment automatiquement dès qu'on s'en éloigne.<br>Pour une portée verrouillée, une icône d'ouverture s'affiche seulement si vous détenez la bonne clé.<br>En l'absence d'une icône, cette porte est pour l'instant verouillée.
+  - id: 115
+    title: Enigmes
+    image: Tutorial15
+    desc: Certaines énigmes nécessitent l'utilisation du curseur pour être résolues.<br>Quand le curseur prend une forme de main, il est possible de manipuler l'objet sur lequel il se trouve.<br>Faites pivoter l'objet et résolvez l'énigme.
+  - id: 116
+    title: Enigmes
+    image: Tutorial16
+    desc: "Déplacez le curseur pour sélectionner une partie.\nFaites tourner la partie à l'aide du curseur.\nFaites correspondre les parties entre elles pour résoudre l'énigme."
+  - id: 118
+    title: Enigmes
+    image: Tutorial18
+    desc: Certains énigmes nécessitent une manipulation précise pour être résolues.<br>Bougez le curseur pour sélectionner la partie à manipuler.<br>Des indices sur la résolution des énigmes sont cachés un peu partout.<br>Rassemblez les indices pour trouver le mot de passe et résolvez les énigmes.
+  - id: 19
+    title: Carte
+    image: Tutorial19
+    desc: Vous pouvez connaître votre position et découvrir la disposition du lycée à l’aide de la carte.<br>Les zones affichées en rouge sont celles qui n’ont pas encore été visitées.<br>Dans les modes faciles du jeu, un guide est disponible pour faciliter la progression.
+  - id: 10
+    title: Gardien
+    image: Tutorial10
+    desc: Si un gardien vous surprend pendant sa ronde, il vous poursuivra sans relâche.<br>Courir et allumer les lumières augmentent le risque de vous faire repérer par les gardiens.<br>Dans les modes de difficulté les plus faciles, une icône en forme d’œil indique la position des gardiens qui sont dans les environs.
+  - id: 102
+    title: Courir et s'asseoir
+    image: Tutorial02
+    desc: "Pour courir ou s'asseoir, appuyez sur la touche \nRun [##keyRun##] / Sit [##keyHide##] en haut à droite.<br>Assis, les risques que les gardiens vous attrapent sont moindres.<br>Courir trop longtemps vous étourdit. Faites des pauses."
+  - id: 108
+    title: Briquet
+    image: Tutorial08
+    desc: Appuyez sur le bouton Briquet [##keyLighter##] pour allumer votre briquet.<br>Le briquet permet d'éclairer les zones sans risquer de se faire repérer par les gardiens, mais la portée d'éclairage reste limitée.<br>Notez que votre briquet s'éteindra si vous courez.

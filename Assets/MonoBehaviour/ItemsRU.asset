@@ -1,0 +1,862 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07a5dfe14f036317946630f406b9a1c, type: 3}
+  m_Name: ItemsRU
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Items.xlsx
+  worksheetName: ItemsRU
+  dataArray:
+  - id: 1
+    type: 0
+    mesh: MobilePhone
+    icon: MobilePhone
+    name: Сотовый Телефон
+    desc: Это сотовый Химин.
+  - id: 2
+    type: 0
+    mesh: MobilePhone_jimin
+    icon: MobilePhone
+    name: Сотовый Телефон
+    desc: '-'
+  - id: 10000
+    type: 0
+    mesh: Candybox
+    icon: Candybox
+    name: Подарок на Белый день
+    desc: Подарок на Белый День, кем-то раздавлен. Внутри находятся конфеты.
+  - id: 10010
+    type: 0
+    mesh: Diary
+    icon: Diary
+    name: Дневник Cо-Янг
+    desc: Этот дневник принадлежит Соён. “Хан Соён, младший, класс 8.” написано на обложке.
+  - id: 10020
+    type: 0
+    mesh: SchoolMagazine
+    icon: SchoolMagazine
+    name: Школьный Журнал
+    desc: Это школьный журнал школы Ёнту. Поскольку это первый выпуск учебного года, есть карта школы в приложении для первокурсников.
+  - id: 10030
+    type: 0
+    mesh: Nipper
+    icon: Nipper
+    name: Кусачки
+    desc: Простые кусачки. Он может быть использован для перекусывания проводов.
+  - id: 10040
+    type: 0
+    mesh: TalismanFri
+    icon: TalismanFri
+    name: Знак Металла
+    desc: Знак Дерева, на нем знак Металла. Испускает удачную энергетику.
+  - id: 10050
+    type: 0
+    mesh: Driver1
+    icon: Driver
+    name: Пояс для Инструментов
+    desc: Пояс для инструментов работника. Есть отвертки различных размеров.
+  - id: 10051
+    type: 0
+    mesh: Driver2
+    icon: Driver
+    name: Пояс для Инструментов
+    desc: Пояс для инструментов работника. Есть отвертки различных размеров.
+  - id: 10052
+    type: 0
+    mesh: Driver3
+    icon: Driver
+    name: Пояс для Инструментов
+    desc: Пояс для инструментов работника. Есть отвертки различных размеров.
+  - id: 10060
+    type: 0
+    mesh: Spray
+    icon: Spray
+    name: Спрей от Насекомых
+    desc: Это спрей от насекомых. Там видно предупреждения не использовать вблизи огня.
+  - id: 10070
+    type: 0
+    mesh: poison
+    icon: Poison
+    name: Химический Растворитель
+    desc: Растворитель, используемый в химической лаборатории. Видимо, он токсичен и имеет символ скрещенных костей и череп.
+  - id: 10080
+    type: 0
+    mesh: TalismanThu
+    icon: TalismanThu
+    name: Знак Дерева
+    desc: Знак Дерева, на нем виден знак Дерева. Испускает удачную энергетику.
+  - id: 10090
+    type: 0
+    mesh: CassetteTape
+    icon: CassetteTape
+    name: Белая Силовая Лента
+    desc: Что-то было записано на эту пленку. Но записан наоборот, не понятно.
+  - id: 10100
+    type: 0
+    mesh: PicturePiece1_1
+    icon: PicturePiece1
+    name: Часть картинки 1
+    desc: Части разорванной картинки. Есть какие-то числа, написанные на обороте.
+  - id: 10101
+    type: 0
+    mesh: PicturePiece1_2
+    icon: PicturePiece1
+    name: Часть картинки 1
+    desc: Части разорванной картинки. Есть какие-то числа, написанные на обороте.
+  - id: 10102
+    type: 0
+    mesh: PicturePiece1_3
+    icon: PicturePiece1
+    name: Часть картинки 1
+    desc: Части разорванной картинки. Есть какие-то числа, написанные на обороте.
+  - id: 10110
+    type: 0
+    mesh: PicturePiece2
+    icon: PicturePiece2
+    name: Часть картинки 2
+    desc: Части разорванной картинки. Кажется, необходимы другие куски, чтобы собрать всю картину.
+  - id: 10120
+    type: 0
+    mesh: PicturePiece3
+    icon: PicturePiece3
+    name: Часть картинки 3
+    desc: Части разорванной картинки. Кажется, необходимы другие куски, чтобы собрать всю картину.
+  - id: 10130
+    type: 0
+    mesh: Pottery_Remocon
+    icon: Pottery
+    name: Ваза
+    desc: Ваза с портретом учителя музыки. Что-то гремит внутри.
+  - id: 10131
+    type: 0
+    mesh: Pottery
+    icon: Pottery
+    name: Ваза
+    desc: Ваза с портретом учителя музыки.
+  - id: 10140
+    type: 0
+    mesh: RemoteControl
+    icon: RemoteControl
+    name: Дистанционный Пульт
+    desc: Используйте пульт дистанционного управления для стереосистемы.
+  - id: 10150
+    type: 0
+    mesh: CD_Key
+    icon: CD
+    name: Компакт-Диск
+    desc: Компакт-Диск, был найден в музыкальном зале. Кажется, принадлежал мертвому учителю музыки. Кажется, немного тяжел для компакт-диска.
+  - id: 10151
+    type: 0
+    mesh: CD
+    icon: CD
+    name: Компакт-Диск
+    desc: Компакт-Диск, который был найден в музыкальном зале. Кажется, принадлежал мертвому учителю музыки.
+  - id: 10160
+    type: 0
+    mesh: ClayDollIncomplete
+    icon: ClayDoll
+    name: Сухая Глиняная Кукла
+    desc: Глиняная кукла женщины. Оно выглядит сухим.
+  - id: 10170
+    type: 0
+    mesh: ClayDollHot
+    icon: ClayDoll
+    name: Обожженная Глиняная Кукла
+    desc: Красная глиняная кукла в печи. Следует охладить в проточной воде.
+  - id: 10180
+    type: 0
+    mesh: ClayDollComplete
+    icon: ClayDoll
+    name: Готовая Глиняная Кукла
+    desc: Готовая глиняная куклу. По форме напоминает женщину.
+  - id: 10190
+    type: 0
+    mesh: ClayDollCouple
+    icon: ClayDollCouple
+    name: Глиняная Кукла Мать и Ребенок.
+    desc: Глиняная кукла в виде мамы и малыша держащие за руки.
+  - id: 10200
+    type: 0
+    mesh: talismanSat
+    icon: talismanSat
+    name: Знак Земли
+    desc: Знак Дерева, на нем имеется знак Земли. Испускает удачную энергетику.
+  - id: 10210
+    type: 0
+    mesh: VideoTape
+    icon: VideoTape
+    name: Видеолента
+    desc: Видеозапись найдена в кабинете Директора. Метки нет.
+  - id: 10220
+    type: 0
+    mesh: SignBoard
+    icon: SignBoard
+    name: Табличка Правила Библиотеки
+    desc: Правила Библиотеки. Его ламинарное покрытие делает его идеальным для вставки между зазорами.
+  - id: 10230
+    type: 0
+    mesh: TalismanTaegeuk
+    icon: TalismanTaegeuk
+    name: Знак Инь-Янь
+    desc: Знак Дерева, на нем имеется символ Инь-Янь. Испускает удачную энергетику.
+  - id: 10240
+    type: 0
+    mesh: CassetteBand
+    icon: CassetteBand
+    name: Ремень Привода
+    desc: Резиновый приводной ремень найден в сломанном магнитофоне.
+  - id: 10250
+    type: 0
+    mesh: L_Rod
+    icon: L_Rod
+    name: L-образная Прут
+    desc: L-образный Прут.
+  - id: 10260
+    type: 0
+    mesh: talismanWed
+    icon: talismanWed
+    name: Знак Воды
+    desc: Знак Дерева, на нем имеется знак Воды. Испускает удачную энергетику.
+  - id: 10270
+    type: 0
+    mesh: ExtinguisherA
+    icon: ExtinguisherA
+    name: Огнетушитель, Типа-А
+    desc: Огнетушитель, для того, чтобы тушить пожары. Он может быть использован на регулярных пожарах.
+  - id: 10280
+    type: 0
+    mesh: ExtinguisherB
+    icon: ExtinguisherB
+    name: Огнетушитель, Тип-B
+    desc: Огнетушитель, для того, чтобы тушить пожары. Он может быть использован для пожаров на масляной основе.
+  - id: 10290
+    type: 0
+    mesh: ExtinguisherC
+    icon: ExtinguisherC
+    name: Огнетушитель, Тип-С
+    desc: Огнетушитель, для того, чтобы тушить пожары. Он может быть использован при пожарах, связанные с электричеством.
+  - id: 10300
+    type: 0
+    mesh: Valve
+    icon: Valve
+    name: Ручка Клапана
+    desc: Ручка Клапана используется для управления машинами. Похоже, его можно куда-то вставить.
+  - id: 10310
+    type: 0
+    mesh: talismanTue
+    icon: talismanTue
+    name: Знак Огня
+    desc: Знак Дерева, на нем имеется знак Огня. Испускает удачную энергетику.
+  - id: 10320
+    type: 0
+    mesh: Blanket
+    icon: Blanket
+    name: Одеяло
+    desc: Шерстяное одеяло.
+  - id: 10330
+    type: 0
+    mesh: Blanket_02
+    icon: BlanketWet
+    name: Мокрое одеяло
+    desc: Мокрое и тяжелое одеяло.
+  - id: 10340
+    type: 0
+    mesh: Luminol
+    icon: Luminol
+    name: Люминольный растворитель
+    desc: Это растворитель для обнаружения меди или железа. Он используется для теста на хемилюминесценцию для обнаружения следов крови (гемоглобина и гемина).
+  - id: 10350
+    type: 0
+    mesh: Diary_JiWon
+    icon: Diary_JiWon
+    name: Книга Джи-Вон Ким
+    desc: Секретная кожаная записка учителя музыки.
+  - id: 10360
+    type: 0
+    mesh: AsthmaSpray
+    icon: AsthmaSpray
+    name: Ингалятор от астмы
+    desc: Аэрозольное лекарство для людей, страдающих астмой.
+  - id: 10370
+    type: 0
+    mesh: TalismanTueSeal
+    icon: TalismanTueSeal
+    name: Триграмма Огня
+    desc: Миролюбивая триграмма. В центре нее написано слово «Огонь».
+  - id: 10380
+    type: 0
+    mesh: TalismanWedSeal
+    icon: TalismanWedSeal
+    name: Триграмма Воды
+    desc: Миролюбивая триграмма. В центре нее написано слово «Вода».
+  - id: 10390
+    type: 0
+    mesh: TalismanThuSeal
+    icon: TalismanThuSeal
+    name: Триграмма Дерева
+    desc: Миролюбивая триграмма. В центре нее написано слово «Дерево».
+  - id: 10400
+    type: 0
+    mesh: TalismanFriSeal
+    icon: TalismanFriSeal
+    name: Триграмма Металла
+    desc: Миролюбивая триграмма. В центре нее написано слово «Металл».
+  - id: 10410
+    type: 0
+    mesh: TalismanSatSeal
+    icon: TalismanSatSeal
+    name: Триграмма Земли
+    desc: Миролюбивая триграмма. В центре нее написано слово «Земля».
+  - id: 10420
+    type: 0
+    mesh: Book01_01
+    icon: Book01
+    name: Керамика Понимания
+    desc: Книга с рисунком тигра.
+  - id: 10421
+    type: 0
+    mesh: Book01_02
+    icon: Book01
+    name: Керамика Понимания
+    desc: Книга с рисунком тигра.
+  - id: 10430
+    type: 0
+    mesh: Book03_01
+    icon: Book02
+    name: Введение в психологию
+    desc: Книга с рисунком тигра.
+  - id: 10431
+    type: 0
+    mesh: Book03_02
+    icon: Book02
+    name: Введение в психологию
+    desc: Книга с рисунком тигра.
+  - id: 10440
+    type: 0
+    mesh: Book02_01
+    icon: Book03
+    name: История западного искусства
+    desc: Книга с рисунком тигра.
+  - id: 10441
+    type: 0
+    mesh: Book02_02
+    icon: Book03
+    name: История западного искусства
+    desc: Книга с рисунком тигра.
+  - id: 10450
+    type: 0
+    mesh: Book04_01
+    icon: Book04
+    name: Оккультная книга
+    desc: Книга с рисунком тигра.
+  - id: 10451
+    type: 0
+    mesh: Book04_02
+    icon: Book04
+    name: Оккультная книга
+    desc: Книга с рисунком тигра.
+  - id: 10460
+    type: 0
+    mesh: Pottery_Memo
+    icon: Pottery
+    name: Керамика
+    desc: Ещё одно керамическое изделие, изготовленное учителем музыки.
+  - id: 10461
+    type: 0
+    mesh: Pottery_SungA
+    icon: Pottery
+    name: Керамика
+    desc: Ещё одно керамическое изделие, изготовленное учителем музыки.
+  - id: 20000
+    type: 1
+    mesh: key_tag_housekeeping_inven
+    icon: key_tag_housekeeping
+    name: Ключ класса Домоводства
+    desc: Ключ, который отпирает класс Домоводства.
+  - id: 20010
+    type: 1
+    mesh: Key_center
+    icon: Key_center
+    name: Главное Здание 1 Центральный Ключ Коридора
+    desc: Ключ отпирает пожарный ящик на первом этаже Центрального Коридора в Главном Здании 1.
+  - id: 20020
+    type: 1
+    mesh: Key_center
+    icon: Key_center
+    name: Главное Здание 1 Ключ в Аудиторию
+    desc: Ключ открывает железную дверь, ведущую в Актовый зал, в Главном Здании 1.
+  - id: 20030
+    type: 1
+    mesh: Key_master
+    icon: Key_master
+    name: Главное Здание 1 Мастер-Ключ
+    desc: Ключ открывает большинство замков в Главном Здании 1.
+  - id: 20031
+    type: 1
+    mesh: Key01
+    icon: Key01
+    name: Ключ кабинета Находок
+    desc: Ключ открывает комнату Находок в Главном Здании 2.
+  - id: 20040
+    type: 1
+    mesh: key_tag_student
+    icon: key_tag_student
+    name: Ключ Отделения Студентов
+    desc: Ключ открывает Отделения Студентов в Главном Здании 2.
+  - id: 20050
+    type: 1
+    mesh: key_tag_teacher2
+    icon: key_tag_teacher2
+    name: Ключ Учительской 2
+    desc: Ключ открывает Учительскую в Главном Здании 2.
+  - id: 20060
+    type: 1
+    mesh: key_tag_science
+    icon: key_tag_science
+    name: Ключ Научной Лаборатории
+    desc: Ключ Научной лаборатории в Главном Здании 2.
+  - id: 20070
+    type: 1
+    mesh: Key_piano
+    icon: Key_piano
+    name: Ключ Скамьи Фортепьяно
+    desc: Ключ открывает Скамью Фортепьяно.
+  - id: 20080
+    type: 1
+    mesh: key_tag_art
+    icon: key_tag_art
+    name: Ключ кабинета Искусства
+    desc: Ключ открывает кабинет Искусства в Главном Здании 2.
+  - id: 20090
+    type: 1
+    mesh: CardYellow
+    icon: CardYellow
+    name: Желтая Ключ-карта
+    desc: Ключ может открыть двери в желтой секции Нового Здания. Используйте его на кард-ридере.
+  - id: 20100
+    type: 1
+    mesh: CardRed
+    icon: CardRed
+    name: Красная Ключ-карта
+    desc: Ключ может открыть двери в красной секции Нового Здания. Используйте его на кард-ридере.
+  - id: 20110
+    type: 1
+    mesh: CardBlue
+    icon: CardBlue
+    name: Синяя Ключ-карта
+    desc: Ключ может открыть двери на синем участке Нового Здания. Используйте его на кард-ридере.
+  - id: 20120
+    type: 1
+    mesh: Key_rooftop
+    icon: Key_rooftop
+    name: Ключ Крыши в Новом Здании
+    desc: Ключ открывает дверь на крышу Нового Здания.
+  - id: 20130
+    type: 1
+    mesh: Key_Combined_rb
+    icon: Key_Combined_rb
+    name: Комбинированный Ключ (Красный+Синий)
+    desc: Сочетание двух ключей в один ключ в комбинированной машине (красный+синий). Похоже он может открыть небольшой замок.
+  - id: 20140
+    type: 1
+    mesh: Key_Combined_ry
+    icon: Key_Combined_ry
+    name: Комбинированный Ключ (Красный+Желтый)
+    desc: Сочетание двух ключей в один ключ в комбинированной машине (красный+желтый). Похоже он может открыть небольшой замок.
+  - id: 20150
+    type: 1
+    mesh: Key_Combined_rd
+    icon: Key_Combined_rd
+    name: Комбинированный Ключ (Красный+Темный)
+    desc: Сочетание двух ключей в один ключ в комбинированной машине (красный+темный). Похоже он может открыть небольшой замок.
+  - id: 20160
+    type: 1
+    mesh: Key_Combined_by
+    icon: Key_Combined_by
+    name: Комбинированный Ключ (Синий+Желтый)
+    desc: Сочетание двух ключей в один ключ в комбинированной машине (синий+желтый). Похоже он может открыть небольшой замок.
+  - id: 20170
+    type: 1
+    mesh: Key_Combined_bd
+    icon: Key_Combined_bd
+    name: Комбинированный Ключ (Синий+Темный)
+    desc: Сочетание двух ключей в один ключ в комбинированной машине (синий+темный). Похоже он может открыть небольшой замок.
+  - id: 20180
+    type: 1
+    mesh: Key_Combined_yd
+    icon: Key_Combined_yd
+    name: Комбинированный Ключ (Желтый+Темный)
+    desc: Сочетание двух ключей в один ключ в комбинированной машине (желтый+темный). Похоже он может открыть небольшой замок.
+  - id: 20190
+    type: 1
+    mesh: Key_small_red
+    icon: Key_small_red
+    name: Маленький Ключ (Красный)
+    desc: Маленький ключ, окрашен в красный цвет. Похоже, может быть скомбинирован с другим ключом.
+  - id: 20200
+    type: 1
+    mesh: Key_small_blue
+    icon: Key_small_blue
+    name: Маленький Ключ (Синий)
+    desc: Маленький ключ, окрашен в синий. Похоже, может быть скомбинирован с другим ключом.
+  - id: 20210
+    type: 1
+    mesh: Key_small_yellow
+    icon: Key_small_yellow
+    name: Маленький Ключ (Желтый)
+    desc: Маленький ключ, окрашен в желтый цвет. Похоже, может быть скомбинирован с другим ключом.
+  - id: 20220
+    type: 1
+    mesh: Key_small_dark
+    icon: Key_small_dark
+    name: Маленький Ключ (Темный)
+    desc: Маленький ключ окрашен в темный. Похоже, может быть скомбинирован с другим ключом.
+  - id: 20230
+    type: 1
+    mesh: Key_Util
+    icon: Key_Util
+    name: Небольшой Мастер Ключ
+    desc: Небольшой Мастер-ключ. Похоже, он может открывать ящики и другие малые объекты.
+  - id: 30000
+    type: 2
+    mesh: SoybeanMilk
+    icon: SoybeanMilk
+    name: Соевое Молоко
+    desc: Соевое молоко продается в школе. Вы можете получить его в магазине школы или в автоматах.
+  - id: 30010
+    type: 2
+    mesh: Lunchbox
+    icon: Lunchbox
+    name: Быстрая Закуска
+    desc: Быстрая закуска. Будучи питательным придаст вам энергии, и вы будите в хорошем настроении.
+  - id: 30020
+    type: 2
+    mesh: FirstAidKit
+    icon: FirstAidKit
+    name: Набор Первой Помощи
+    desc: Набор первой помощи, которые смогут исцелить вас. Использовать его в экстренных ситуациях.
+  - id: 30030
+    type: 2
+    mesh: Pills
+    icon: Pills
+    name: Успокоительное
+    desc: Облегчает ваши нервы, когда вы нервничаете. Это успокоит вас.
+  - id: 30040
+    type: 2
+    mesh: Coffee
+    icon: Coffee
+    name: Банка Кофе
+    desc: Банка кофе. Дает вам заряд кофеина, но, если пить слишком много может привести к побочным эффектам.
+  - id: 40010
+    type: 0
+    mesh: Lighter
+    icon: Lighter
+    name: Зажигалка
+    desc: Зажигалка. Используйте его, чтобы осветить немного место. Полезно в темных местах.
+  - id: 40030
+    type: 3
+    mesh: Coin
+    icon: Coin
+    name: Школьная Монета
+    desc: Монета, выпущенная в школе. Вы можете использовать его в магазине школы или в автоматах.
+  - id: 40040
+    type: 3
+    mesh: MagicPen
+    icon: MagicPen
+    name: Фломастер
+    desc: Фломастером используется для написания заметок.
+  - id: 50000
+    type: 4
+    mesh: Pin
+    icon: Pin
+    name: Кнопка
+    desc: Небольшая кнопка, выглядит так, будто он был уже где-то наколотым.
+  - id: 50010
+    type: 4
+    mesh: Doorknob
+    icon: Doorknob
+    name: Деревянная Ручка
+    desc: Ручки из дерева. Похоже, он может разблокировать место, где Вы раньше не могли открыть дверь.
+  - id: 50020
+    type: 4
+    mesh: ScaleWeight1g
+    icon: ScaleWeight1g
+    name: Вес 1 гр.
+    desc: Небольшой металлическое грузило, чтобы сбалансировать весы.
+  - id: 50030
+    type: 4
+    mesh: ScaleWeight5g
+    icon: ScaleWeight5g
+    name: Вес 5 гр.
+    desc: Небольшой металлическое грузило, чтобы сбалансировать весы.
+  - id: 50040
+    type: 4
+    mesh: ScaleWeight10g
+    icon: ScaleWeight10g
+    name: Вес 10 гр.
+    desc: Небольшой металлическое грузило, чтобы сбалансировать весы.
+  - id: 50050
+    type: 4
+    mesh: ScaleWeight30g
+    icon: ScaleWeight30g
+    name: Вес 30 гр.
+    desc: Небольшой металлическое грузило, чтобы сбалансировать весы.
+  - id: 50060
+    type: 4
+    mesh: ScaleWeight50g
+    icon: ScaleWeight50g
+    name: Вес 50 гр.
+    desc: Небольшой металлическое грузило, чтобы сбалансировать весы.
+  - id: 50070
+    type: 4
+    mesh: MathTimeTable
+    icon: MathTimeTable
+    name: Часть расписание занятий (Математика)
+    desc: Кусок расписания класса, “Математика”, написанные на ней.
+  - id: 50080
+    type: 4
+    mesh: PaperCrane
+    icon: PaperCrane
+    name: Бумажный Журавлик
+    desc: Подъемный кран сделан из черной бумаги оригами.
+  - id: 50090
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: Азбука-Морзе, Таблица Кодов
+    desc: Диаграмма, показывающая, как расшифровать Код Морзе.
+  - id: 50091
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: Азбука-Морзе, Таблица Кодов
+    desc: Диаграмма, показывающая, как расшифровать Код Морзе.
+  - id: 50092
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: Азбука-Морзе, Таблица Кодов
+    desc: Диаграмма, показывающая, как расшифровать Код Морзе.
+  - id: 50100
+    type: 4
+    mesh: TypewriterO
+    icon: TypewriterO
+    name: Клавиша Пишущей Машинки О
+    desc: Старый ключ, который, вероятно, упал с машинки.
+  - id: 50110
+    type: 4
+    mesh: TypewriterM
+    icon: TypewriterM
+    name: Клавиша Пишущей Машинки М
+    desc: Старый ключ, который, вероятно, упал с машинки.
+  - id: 50120
+    type: 4
+    mesh: TypewriterE
+    icon: TypewriterE
+    name: Клавиша Пишущей Машинки E
+    desc: Старый ключ, который, вероятно, упал с машинки.
+  - id: 50130
+    type: 4
+    mesh: TypewriterN
+    icon: TypewriterN
+    name: Клавиша Пишущей Машинке N
+    desc: Старый ключ, который, вероятно, упал с машинки.
+  - id: 50140
+    type: 4
+    mesh: SpiderSample
+    icon: SpiderSample
+    name: Сохраненный паук
+    desc: Страшный паук. Даже не касаясь страшно.
+  - id: 50150
+    type: 4
+    mesh: LensLeft
+    icon: LensLeft
+    name: Линза проверки зрения (Левый)
+    desc: Небольшой объектив, который выглядит как монокль.
+  - id: 50151
+    type: 4
+    mesh: LensLeft
+    icon: LensLeft
+    name: Линза проверки зрения (Левый)
+    desc: Небольшой объектив, который выглядит как монокль.
+  - id: 50160
+    type: 4
+    mesh: LensRight
+    icon: LensRight
+    name: Линза проверки зрения (Правый)
+    desc: Небольшой объектив, который выглядит как монокль.
+  - id: 50161
+    type: 4
+    mesh: LensRight
+    icon: LensRight
+    name: Линза проверки зрения (Правый)
+    desc: Небольшой объектив, который выглядит как монокль.
+  - id: 50170
+    type: 4
+    mesh: ConfessionMail
+    icon: ConfessionMail
+    name: Любовное Письмо
+    desc: Любовное признание, письмо, написанное студенткой.
+  - id: 50180
+    type: 4
+    mesh: BloodExerciseBook
+    icon: BloodExerciseBook
+    name: Кровавая рабочая тетрадь
+    desc: Рабочая тетрадь по математики с кровавыми пятнами.
+  - id: 50190
+    type: 4
+    mesh: Chalk
+    icon: Chalk
+    name: Мел
+    desc: Использованный мел.
+  - id: 50200
+    type: 4
+    mesh: GymnasticsCap
+    icon: GymnasticsCap
+    name: Кепка Физрука
+    desc: Красная кепка. Это, наверное, физрука.
+  - id: 50210
+    type: 4
+    mesh: ScorecardSecond
+    icon: ScorecardSecond
+    name: Табель (2-й класс)
+    desc: Карточка хорошего ученика. Похоже, он или она занимает второе место, получив несколько не те вопросы.
+  - id: 50220
+    type: 4
+    mesh: Cigarette
+    icon: Cigarette
+    name: Сигареты
+    desc: Что-то, что не должен приносить ни один студент. Вероятно, вещь какого-то преступника.
+  - id: 50230
+    type: 4
+    mesh: BellFox
+    icon: BellFox
+    name: Колокольчик
+    desc: Колокольчик, издает чистый звук.
+  - id: 50240
+    type: 4
+    mesh: Collection_Figure_HM
+    icon: Collection_Figure_HM
+    name: Статуэтка Студента
+    desc: Статуэтка школьника с рюкзаком. Похоже, что этой статуэтке не менее четырнадцати лет.
+  - id: 50250
+    type: 4
+    mesh: Collection_Figure_SY
+    icon: Collection_Figure_SY
+    name: Статуэтка Длинноволосой Студентки
+    desc: Статуэтка надменной школьницы. Похоже, что этой статуэтке не менее четырнадцати лет.
+  - id: 50260
+    type: 4
+    mesh: Collection_Figure_SA
+    icon: Collection_Figure_SA
+    name: Статуэтка Коротковолосой Студентки
+    desc: Статуэтка нахальной школьницы. Похоже, что этой статуэтке не менее четырнадцати лет.
+  - id: 50270
+    type: 4
+    mesh: Collection_Figure_JH
+    icon: Collection_Figure_JH
+    name: Статуэтка Студентки в очках
+    desc: Статуэтка кроткой школьницы. Похоже, что этой статуэтке не менее четырнадцати лет.
+  - id: 50280
+    type: 4
+    mesh: Collection_Figure_BG
+    icon: Collection_Figure_BG
+    name: Статуэтка Лысого Уборщика
+    desc: Статуэтка лысого мужчины. Похоже, что этой статуэтке не менее четырнадцати лет.
+  - id: 50290
+    type: 4
+    mesh: Collection_Figure_DS
+    icon: Collection_Figure_DS
+    name: Статуэтка Уборщик в Кепке
+    desc: Статуэтка мрачного мужчины в шляпе. Похоже, что этой статуэтке не менее четырнадцати лет.
+  - id: 50300
+    type: 4
+    mesh: Collection_Figure_EM
+    icon: Collection_Figure_EM
+    name: Статуэтка Женщины Средних Лет
+    desc: Статуэтка женщины средних лет, одетой в рваное платье. Похоже, что этой статуэтке не менее четырнадцати лет.
+  - id: 90010
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: QA Cheat Item 1
+    desc: Main1
+  - id: 90020
+    type: 2
+    mesh: CardRed
+    icon: CardRed
+    name: QA Cheat Item 2
+    desc: Main2_A
+  - id: 90021
+    type: 2
+    mesh: CardRed
+    icon: CardRed
+    name: QA Cheat Item 3
+    desc: Main2_B
+  - id: 90030
+    type: 2
+    mesh: CardBlue
+    icon: CardBlue
+    name: QA Cheat Item 4
+    desc: New_A
+  - id: 90031
+    type: 2
+    mesh: CardBlue
+    icon: CardBlue
+    name: QA Cheat Item 5
+    desc: New_B
+  - id: 90040
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: QA Cheat Item 6
+    desc: Hall_A
+  - id: 90041
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: QA Cheat Item 7
+    desc: Hall_B
+  - id: 90100
+    type: 2
+    mesh: poison
+    icon: poison
+    name: QA Cheat Item 8
+    desc: ByeBye Guards
+  - id: 90200
+    type: 2
+    mesh: Candybox
+    icon: Candybox
+    name: QA Cheat Item 9
+    desc: Get all items
+  - id: 90210
+    type: 2
+    mesh: Diary
+    icon: Diary
+    name: QA Cheat Item 10
+    desc: Get all endings.
+  - id: 90220
+    type: 2
+    mesh: Collection_Figure_SY
+    icon: Collection_Figure_SY
+    name: QA Cheat Item 11
+    desc: Get all figures.
+  - id: 90230
+    type: 2
+    mesh: BellFox
+    icon: BellFox
+    name: QA Cheat Item 12
+    desc: Get all ghost stories.
+  - id: 90240
+    type: 2
+    mesh: Pills
+    icon: Pills
+    name: Love Potion
+    desc: If you want to love and eat this pills. But, this is not effective for ugly men.

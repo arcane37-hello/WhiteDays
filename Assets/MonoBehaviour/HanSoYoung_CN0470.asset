@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030609d04de5cf3bd2e477af1deae49e, type: 3}
+  m_Name: HanSoYoung_CN0470
+  m_EditorClassIdentifier:
+  m_Fold: 1
+  m_DataName: HanSoYoung_CN0470
+  m_Type: 0
+  m_StartPos: {x: -20.962744, y: 4.59887E-05, z: -54.569794}
+  m_StartRotation: {x: 0, y: -0.7103497, z: 0, w: 0.70384896}
+  m_MoveSpeed: 0
+  m_Waypoints:
+  - {x: -21.55549, y: 5.2176725E-05, z: -54.071632}
+  - {x: -40.36136, y: 4.5700046E-05, z: -53.53519}
+  - {x: -43.222847, y: -9.635836E-06, z: -54.196346}
+  - {x: -43.49817, y: 0.36633715, z: -58.37571}
+  - {x: -43.487797, y: 3.0000005, z: -55.159832}
+  - {x: -41.235107, y: 2.9999902, z: -53.64959}
+  - {x: -37.858322, y: 3.0000494, z: -53.731426}
+  - {x: -23.412956, y: 3.0000486, z: -54.03073}
+  - {x: -17.141499, y: 3.000045, z: -54.38585}
+  m_ChaseableArea: []
+  m_CommonReaction: {fileID: 11400000, guid: 698b1e2d04da9b84c94df1a7d0552d87, type: 2}
+  m_Reaction:
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 3
+    m_fElapseTime: 5
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_ARRIVAL_0
+    m_Sound: D_SY_01_End_01
+    m_AnimationTrigger: 6
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 3
+    m_fElapseTime: 10
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_ARRIVAL_1
+    m_Sound: D_SY_01_End_02
+    m_AnimationTrigger: 6
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 3
+    m_fElapseTime: 20
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_ARRIVAL_2
+    m_Sound: D_SY_01_End_03
+    m_AnimationTrigger: 56
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 3
+    m_fElapseTime: 30
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_ARRIVAL_3
+    m_Sound: D_SY_01_End_04
+    m_AnimationTrigger: 56
+    m_Result: 1
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 3
+    m_fElapseTime: 40
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_ARRIVAL_4
+    m_Sound: D_SY_01_End_05
+    m_AnimationTrigger: 56
+    m_Result: 1
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 4
+    m_fElapseTime: 5
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_CLOSE_0
+    m_Sound: D_SY_01_Blocked_01
+    m_AnimationTrigger: 4
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 4
+    m_fElapseTime: 10
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_CLOSE_1
+    m_Sound: D_SY_01_Blocked_02
+    m_AnimationTrigger: 56
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 4
+    m_fElapseTime: 20
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_CLOSE_2
+    m_Sound: D_SY_01_Blocked_03
+    m_AnimationTrigger: 56
+    m_Result: 1
+  - m_Fold: 1
+    m_Indispensable: 1
+    m_ConditionType: 5
+    m_fElapseTime: 0
+    m_TriggerPos: {x: -30.639076, y: 5.47112E-05, z: -53.927742}
+    m_TriggerRadius: 1.0001602
+    m_SpeechID: COMPANION_TRIGGER_0
+    m_Sound: D_SY_01_Core_01
+    m_AnimationTrigger: 0
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 1
+    m_ConditionType: 5
+    m_fElapseTime: 0
+    m_TriggerPos: {x: -34.090744, y: 5.348344E-05, z: -53.88631}
+    m_TriggerRadius: 1.0001945
+    m_SpeechID: COMPANION_TRIGGER_1
+    m_Sound: D_SY_01_Core_02
+    m_AnimationTrigger: 0
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 1
+    m_ConditionType: 5
+    m_fElapseTime: 0
+    m_TriggerPos: {x: -36.60966, y: 5.0412746E-05, z: -53.789837}
+    m_TriggerRadius: 0.9999237
+    m_SpeechID: COMPANION_TRIGGER_2
+    m_Sound: D_SY_01_Core_03
+    m_AnimationTrigger: 0
+    m_Result: 0

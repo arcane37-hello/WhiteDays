@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ghost_BookGirl
+  m_Shader: {fileID: 4800000, guid: 8a051233dc452244084a8fc4d66aeff5, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: cb6251671ccebb0428dc9854b5a6df9b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _CubeMap
+      second:
+        m_Texture: {fileID: 8900000, guid: 6eca99e49f1f11a4c9f318d24e24a3d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: ce19c5660bdb27e49bb1d60766213ec5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 6dcecfc5b2be8454081a544322accfb5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Cutoff
+      second: 0.672
+    - first:
+        name: _RimPower
+      second: 1
+    - first:
+        name: _Sensitivity
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.292
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.375, g: 0.375, b: 0.375, a: 1}
+    - first:
+        name: _LColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 0.022058845, g: 0.022058845, b: 0.022058845, a: 0.08235294}
+    - first:
+        name: _SColor
+      second: {r: 0.19117647, g: 0.19117647, b: 0.19117647, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 1, b: 1, a: 1}
