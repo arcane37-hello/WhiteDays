@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: f3174f5eee40b464b841a90934efd93e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: pad_cross
+  - first:
+      213: 21300002
+    second: pad_circle
+  - first:
+      213: 21300004
+    second: ImgNoticeIcon
+  - first:
+      213: 21300006
+    second: InvenSubMenuBarBottom
+  - first:
+      213: 21300008
+    second: ImgInvenBackpackBkgrnd
+  - first:
+      213: 21300010
+    second: pad_L1
+  - first:
+      213: 21300012
+    second: blank
+  - first:
+      213: 21300014
+    second: CassetteTape
+  - first:
+      213: 21300016
+    second: pad_triangle
+  - first:
+      213: 21300018
+    second: pad_analogR
+  - first:
+      213: 21300020
+    second: pad_R1
+  - first:
+      213: 21300022
+    second: pad_analogL
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pad_cross
+      rect:
+        serializedVersion: 2
+        x: 1282.0267
+        y: 1536.0513
+        width: 39.946495
+        height: 39.89737
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.49999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.999998, y: -20.000002}
+        - {x: -19.999998, y: -14.000002}
+        - {x: -19.999998, y: 12.999998}
+        - {x: -17.999998, y: 19.999998}
+        - {x: 14.000002, y: 19.999998}
+        - {x: 20.000002, y: 13.999998}
+        - {x: 20.000002, y: -11.000002}
+        - {x: 18.000002, y: -20.000002}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pad_circle
+      rect:
+        serializedVersion: 2
+        x: 1618.0267
+        y: 1194.0513
+        width: 39.946495
+        height: 39.89737
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.49999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.999998, y: -20.000002}
+        - {x: -19.999998, y: -14.000002}
+        - {x: -19.999998, y: 12.999998}
+        - {x: -17.999998, y: 19.999998}
+        - {x: 14.000002, y: 19.999998}
+        - {x: 20.000002, y: 13.999998}
+        - {x: 20.000002, y: -11.000002}
+        - {x: 18.000002, y: -20.000002}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImgNoticeIcon
+      rect:
+        serializedVersion: 2
+        x: 1818.0267
+        y: 452.0761
+        width: 74.89713
+        height: 62.847755
+      alignment: 9
+      pivot: {x: 0.50032955, y: 0.50000006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.47532, y: -31.499996}
+        - {x: -37.47532, y: -28.499996}
+        - {x: -37.47532, y: -21.499996}
+        - {x: -4.475319, y: 31.500004}
+        - {x: 1.5246811, y: 31.500004}
+        - {x: 7.5246816, y: 28.500004}
+        - {x: 37.52468, y: -20.499996}
+        - {x: 37.52468, y: -29.499994}
+        - {x: 36.52468, y: -31.499996}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: InvenSubMenuBarBottom
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2008
+        width: 512
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -256, y: -15.000001}
+        - {x: -256, y: 15.000001}
+        - {x: 256, y: 15.000001}
+        - {x: 256, y: -15.000001}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ImgInvenBackpackBkgrnd
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 254
+        width: 255.49857
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -127.74928, y: -118}
+        - {x: -127.74928, y: 118}
+        - {x: 127.74928, y: 118}
+        - {x: 127.74928, y: -118}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pad_L1
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1284.0513
+        width: 44
+        height: 34.872562
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51469356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -17.487598}
+        - {x: -22, y: -9.487598}
+        - {x: -22, y: 17.512402}
+        - {x: 22, y: 17.512402}
+        - {x: 22, y: -14.487599}
+        - {x: 21, y: -17.487598}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blank
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 1364
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -16}
+        - {x: -16, y: 16}
+        - {x: 16, y: 16}
+        - {x: 16, y: -16}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CassetteTape
+      rect:
+        serializedVersion: 2
+        x: 1725.0762
+        y: 464.0429
+        width: 90.89713
+        height: 70.93034
+      alignment: 9
+      pivot: {x: 0.5052292, y: 0.49283692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11.475319, y: -35.50808}
+        - {x: -45.52468, y: -18.50808}
+        - {x: -45.52468, y: 11.49192}
+        - {x: -42.52468, y: 35.49192}
+        - {x: 45.47532, y: 35.49192}
+        - {x: 45.47532, y: 4.4919205}
+        - {x: 41.47532, y: -35.50808}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pad_triangle
+      rect:
+        serializedVersion: 2
+        x: 801.02673
+        y: 1057.0513
+        width: 39.946495
+        height: 39.89737
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.49999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.999998, y: -20.000002}
+        - {x: -19.999998, y: -14.000002}
+        - {x: -19.999998, y: 12.999998}
+        - {x: -17.999998, y: 19.999998}
+        - {x: 14.000002, y: 19.999998}
+        - {x: 20.000002, y: 13.999998}
+        - {x: 20.000002, y: -11.000002}
+        - {x: 18.000002, y: -20.000002}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pad_analogR
+      rect:
+        serializedVersion: 2
+        x: 1049.0267
+        y: 1839.0513
+        width: 39.946495
+        height: 39.89737
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.49999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.999998, y: -20.000002}
+        - {x: -19.999998, y: -14.000002}
+        - {x: -19.999998, y: 12.999998}
+        - {x: -17.999998, y: 19.999998}
+        - {x: 14.000002, y: 19.999998}
+        - {x: 20.000002, y: 13.999998}
+        - {x: 20.000002, y: -11.000002}
+        - {x: 18.000002, y: -20.000002}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pad_R1
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1715.0513
+        width: 44
+        height: 34.872562
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51469356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -17.487598}
+        - {x: -22, y: -9.487598}
+        - {x: -22, y: 17.512402}
+        - {x: 22, y: 17.512402}
+        - {x: 22, y: -14.487599}
+        - {x: 21, y: -17.487598}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pad_analogL
+      rect:
+        serializedVersion: 2
+        x: 1133.0267
+        y: 94.051315
+        width: 39.946495
+        height: 39.89737
+      alignment: 9
+      pivot: {x: 0.50000006, y: 0.49999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.999998, y: -20.000002}
+        - {x: -19.999998, y: -14.000002}
+        - {x: -19.999998, y: 12.999998}
+        - {x: -17.999998, y: 19.999998}
+        - {x: 14.000002, y: 19.999998}
+        - {x: 20.000002, y: 13.999998}
+        - {x: 20.000002, y: -11.000002}
+        - {x: 18.000002, y: -20.000002}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CassetteTape: 21300014
+      ImgInvenBackpackBkgrnd: 21300008
+      ImgNoticeIcon: 21300004
+      InvenSubMenuBarBottom: 21300006
+      blank: 21300012
+      pad_L1: 21300010
+      pad_R1: 21300020
+      pad_analogL: 21300022
+      pad_analogR: 21300018
+      pad_circle: 21300002
+      pad_cross: 21300000
+      pad_triangle: 21300016
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
