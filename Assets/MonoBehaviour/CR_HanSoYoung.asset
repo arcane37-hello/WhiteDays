@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b58ba428c896a10f3b4df39a6399e29, type: 3}
+  m_Name: CR_HanSoYoung
+  m_EditorClassIdentifier:
+  m_Fold: 1
+  m_DataName: CR_HanSoYoung
+  m_AnimatorController: {fileID: 22100000, guid: 8103db141181d6e488af5335b43a2fc5, type: 2}
+  m_FinalReaction:
+    m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 0
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 0
+    m_SpeechID: COMPANION_FINAL
+    m_Sound: D_SY_00_FinalReaction
+    m_AnimationTrigger: 1
+    m_Result: 1
+  m_ConnectReaction:
+    m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 0
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 0
+    m_SpeechID: COMPANION_ANYWAY
+    m_Sound: D_SY_00_Anyway
+    m_AnimationTrigger: 0
+    m_Result: 0
+  m_SitReaction:
+    m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 0
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 0
+    m_SpeechID: COMPANION_SIT
+    m_Sound: D_SY_00_SitReaction
+    m_AnimationTrigger: 0
+    m_Result: 0
+  m_TouchReaction:
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 2
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_LEG_TOUCHED_01
+    m_Sound: D_SY_00_LegTouched_01
+    m_AnimationTrigger: 56
+    m_Result: 1
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 2
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_LEG_TOUCHED_02
+    m_Sound: D_SY_00_LegTouched_02
+    m_AnimationTrigger: 56
+    m_Result: 1
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 2
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_LEG_TOUCHED_03
+    m_Sound: D_SY_00_LegTouched_03
+    m_AnimationTrigger: 56
+    m_Result: 1
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 2
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_LEG_TOUCHED_04
+    m_Sound: D_SY_00_LegTouched_04
+    m_AnimationTrigger: 56
+    m_Result: 1
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 2
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_LEG_TOUCHED_05
+    m_Sound: D_SY_00_LegTouched_05
+    m_AnimationTrigger: 56
+    m_Result: 1
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 2
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_LEG_TOUCHED_06
+    m_Sound: D_SY_00_LegTouched_06
+    m_AnimationTrigger: 128
+    m_Result: 1

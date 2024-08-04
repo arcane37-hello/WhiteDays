@@ -1,0 +1,862 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07a5dfe14f036317946630f406b9a1c, type: 3}
+  m_Name: ItemsKR
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Items.xlsx
+  worksheetName: ItemsKR
+  dataArray:
+  - id: 1
+    type: 0
+    mesh: MobilePhone
+    icon: MobilePhone
+    name: 휴대폰
+    desc: 희민이의 휴대폰이다.
+  - id: 2
+    type: 0
+    mesh: MobilePhone_jimin
+    icon: MobilePhone
+    name: 휴대폰
+    desc: '-'
+  - id: 10000
+    type: 0
+    mesh: Candybox
+    icon: Candybox
+    name: 화이트데이 선물
+    desc: 좋아하는 여학생에게 고백을 하기 위해 준비한 선물이다. 사탕이 들어있다.
+  - id: 10010
+    type: 0
+    mesh: Diary
+    icon: Diary
+    name: 소영이의 다이어리
+    desc: 여학생의 다이어리다. 2학년 8반 한소영이라고 쓰여있다.
+  - id: 10020
+    type: 0
+    mesh: SchoolMagazine
+    icon: SchoolMagazine
+    name: 연두 교지
+    desc: 연두 고교에서 발행한 학급지다. 신년호 특별부록으로 신입생을 위한 학교 지도가 포함되어 있다.
+  - id: 10030
+    type: 0
+    mesh: Nipper
+    icon: Nipper
+    name: 니퍼
+    desc: 평범한 니퍼다. 가는 철사나 철조망 등을 자를 때 사용할 수 있을 것 같다.
+  - id: 10040
+    type: 0
+    mesh: TalismanFri
+    icon: TalismanFri
+    name: 금(金)의 패
+    desc: '''金''이 각인 되어있는 나무 부적이다. 상서로운 기운이 느껴진다.'
+  - id: 10050
+    type: 0
+    mesh: Driver1
+    icon: Driver
+    name: 공구벨트
+    desc: 작업자가 사용하는 벨트다. 다양한 크기의 드라이버가 꽂혀있다.
+  - id: 10051
+    type: 0
+    mesh: Driver2
+    icon: Driver
+    name: 공구벨트
+    desc: 작업자가 사용하는 벨트다. 다양한 크기의 드라이버가 꽂혀있다.
+  - id: 10052
+    type: 0
+    mesh: Driver3
+    icon: Driver
+    name: 공구벨트
+    desc: 작업자가 사용하는 벨트다. 다양한 크기의 드라이버가 꽂혀있다.
+  - id: 10060
+    type: 0
+    mesh: Spray
+    icon: Spray
+    name: 해충방지 스프레이
+    desc: 벌레를 쫓을 때 쓰는 스프레이다. 불 근처에서 쓰지 말라는 표시가 눈에 띈다.
+  - id: 10070
+    type: 0
+    mesh: poison
+    icon: Poison
+    name: 화학용제
+    desc: 학교의 화학 실습 때 사용되는 용액이 들어있다. 해골 표시가 된 것으로 보아 위험한 물질인 것 같다.
+  - id: 10080
+    type: 0
+    mesh: TalismanThu
+    icon: TalismanThu
+    name: 목(木)의 패
+    desc: '''木''이 각인 되어있는 나무 부적이다. 상서로운 기운이 느껴진다.'
+  - id: 10090
+    type: 0
+    mesh: CassetteTape
+    icon: CassetteTape
+    name: 백워드 테이프
+    desc: 무언가가 녹음된 테이프다. 하지만 백워드로 녹음되어 있어 내용을 알 수가 없다.
+  - id: 10100
+    type: 0
+    mesh: PicturePiece1_1
+    icon: PicturePiece1
+    name: 그림 조각 1
+    desc: 찢어진 그림의 일부다. 뒤에 뭔가 숫자가 쓰여있다.
+  - id: 10101
+    type: 0
+    mesh: PicturePiece1_2
+    icon: PicturePiece1
+    name: 그림 조각 1
+    desc: 찢어진 그림의 일부다. 뒤에 뭔가 숫자가 쓰여있다.
+  - id: 10102
+    type: 0
+    mesh: PicturePiece1_3
+    icon: PicturePiece1
+    name: 그림 조각 1
+    desc: 찢어진 그림의 일부다. 뒤에 뭔가 숫자가 쓰여있다.
+  - id: 10110
+    type: 0
+    mesh: PicturePiece2
+    icon: PicturePiece2
+    name: 그림 조각 2
+    desc: 찢어진 그림의 일부다. 다른 그림과 합쳐야만 형태를 알 수 있을 것 같다.
+  - id: 10120
+    type: 0
+    mesh: PicturePiece3
+    icon: PicturePiece3
+    name: 그림 조각 3
+    desc: 찢어진 그림의 일부다. 다른 그림과 합쳐야만 형태를 알 수 있을 것 같다.
+  - id: 10130
+    type: 0
+    mesh: Pottery_Remocon
+    icon: Pottery
+    name: 도자기
+    desc: 음악선생의 그림에서 보았던 도자기다. 안에서 달그락거리는 소리가 들린다.
+  - id: 10131
+    type: 0
+    mesh: Pottery
+    icon: Pottery
+    name: 도자기
+    desc: 음악선생의 그림에서 보았던 도자기다.
+  - id: 10140
+    type: 0
+    mesh: RemoteControl
+    icon: RemoteControl
+    name: 오디오 리모컨
+    desc: 멀리서 오디오를 조작할 수 있는 콘트롤러다.
+  - id: 10150
+    type: 0
+    mesh: CD_Key
+    icon: CD
+    name: CD
+    desc: 음악실에서 발견한 CD다. 음악선생의 유품인 것 같다. CD치고는 상당히 묵직하게 느껴진다.
+  - id: 10151
+    type: 0
+    mesh: CD
+    icon: CD
+    name: CD
+    desc: 음악실에서 발견한 CD다. 음악선생의 유품인 것 같다.
+  - id: 10160
+    type: 0
+    mesh: ClayDollIncomplete
+    icon: ClayDoll
+    name: 미완성 상태의 흙인형
+    desc: 흙으로 빚은 여성 모습의 인형이다. 아직 미완성 된 상태다.
+  - id: 10170
+    type: 0
+    mesh: ClayDollHot
+    icon: ClayDoll
+    name: 달궈진 흙인형
+    desc: 가마에서 구워 붉게 달궈진 상태의 흙인형이다. 어딘가에서 흐르는 물로 식혀야 할 것 같다.
+  - id: 10180
+    type: 0
+    mesh: ClayDollComplete
+    icon: ClayDoll
+    name: 완성된 흙인형
+    desc: 물로 식힌 뒤, 완성된 상태의 흙인형이다. 여성의 모습을 하고 있다.
+  - id: 10190
+    type: 0
+    mesh: ClayDollCouple
+    icon: ClayDollCouple
+    name: 엄마와 아기 인형
+    desc: 아기와 엄마가 사이좋게 손을 잡고 있는 모습의 흙인형이다.
+  - id: 10200
+    type: 0
+    mesh: talismanSat
+    icon: talismanSat
+    name: 토(土)의 패
+    desc: '''土''가 각인 되어있는 나무 부적이다. 상서로운 기운이 느껴진다.'
+  - id: 10210
+    type: 0
+    mesh: VideoTape
+    icon: VideoTape
+    name: 비디오 테이프
+    desc: 교장실에서 발견한 비디오 테이프이다. 아무런 제목도 붙어있지 않다.
+  - id: 10220
+    type: 0
+    mesh: SignBoard
+    icon: SignBoard
+    name: 서고 안내문
+    desc: 서고에서의 주의사항이 적힌 안내문이다. 빳빳하게 코팅되어 있어 틈새에 밀어넣기 좋을 것 같다.
+  - id: 10230
+    type: 0
+    mesh: TalismanTaegeuk
+    icon: TalismanTaegeuk
+    name: 태극패
+    desc: 태극 무늬가 각인 되어있는 나무 부적이다.
+  - id: 10240
+    type: 0
+    mesh: CassetteBand
+    icon: CassetteBand
+    name: 녹음기 벨트
+    desc: 전원이 고장난 녹음기에서 찾아낸 고무벨트다.
+  - id: 10250
+    type: 0
+    mesh: L_Rod
+    icon: L_Rod
+    name: L로드
+    desc: L자 모양의 막대
+  - id: 10260
+    type: 0
+    mesh: talismanWed
+    icon: talismanWed
+    name: 수(水)의 패
+    desc: '''水''가 각인 되어있는 나무 부적이다. 상서로운 기운이 느껴진다.'
+  - id: 10270
+    type: 0
+    mesh: ExtinguisherA
+    icon: ExtinguisherA
+    name: A형 소화기
+    desc: 불을 끌 때 사용하는 소화기다. 일반적인 화재에 사용할 수 있다고 적혀있다.
+  - id: 10280
+    type: 0
+    mesh: ExtinguisherB
+    icon: ExtinguisherB
+    name: B형 소화기
+    desc: 불을 끌 때 사용하는 소화기다. 유류 화재에 사용할 수 있다고 적혀있다.
+  - id: 10290
+    type: 0
+    mesh: ExtinguisherC
+    icon: ExtinguisherC
+    name: C형 소화기
+    desc: 불을 끌 때 사용하는 소화기다. 전기로 인한 화재에 사용할 수 있다고 적혀있다.
+  - id: 10300
+    type: 0
+    mesh: Valve
+    icon: Valve
+    name: 밸브 손잡이
+    desc: 기계설비를 조작할 때 쓰이는 밸브의 손잡이이다. 어딘가에 끼워 사용할 수 있을 것 같다.
+  - id: 10310
+    type: 0
+    mesh: talismanTue
+    icon: talismanTue
+    name: 화(火)의 패
+    desc: '''火''가 각인 되어있는 나무 부적이다. 상서로운 기운이 느껴진다.'
+  - id: 10320
+    type: 0
+    mesh: Blanket
+    icon: Blanket
+    name: 담요
+    desc: 모직으로 만들어진 담요다.
+  - id: 10330
+    type: 0
+    mesh: Blanket_02
+    icon: BlanketWet
+    name: 젖은 담요
+    desc: 물에 젖어 무거워진 담요다.
+  - id: 10340
+    type: 0
+    mesh: Luminol
+    icon: Luminol
+    name: 루미놀 용제
+    desc: 구리나 철 등을 검출 시 사용하는 용제이다. 혈액(헤모글로빈, 헤민)에 화학발광을 한다.
+  - id: 10350
+    type: 0
+    mesh: Diary_JiWon
+    icon: Diary_JiWon
+    name: 김지원의 책
+    desc: 음악선생님이 사용한 비밀스런 가죽노트이다.
+  - id: 10360
+    type: 0
+    mesh: AsthmaSpray
+    icon: AsthmaSpray
+    name: 천식 호흡기
+    desc: 천식이 있는 환자가 사용하는 분무형태의 약이다.
+  - id: 10370
+    type: 0
+    mesh: TalismanTueSeal
+    icon: TalismanTueSeal
+    name: 화(火)의 괘
+    desc: 평온한 느낌을 주는 괘이다. 가운데 '화(火)'가 각인 되어 있다.
+  - id: 10380
+    type: 0
+    mesh: TalismanWedSeal
+    icon: TalismanWedSeal
+    name: 수(水)의 괘
+    desc: 평온한 느낌을 주는 괘이다. 가운데 '수(水)'가 각인 되어 있다.
+  - id: 10390
+    type: 0
+    mesh: TalismanThuSeal
+    icon: TalismanThuSeal
+    name: 목(木)의 괘
+    desc: 평온한 느낌을 주는 괘이다. 가운데 '목(木)'가 각인 되어 있다.
+  - id: 10400
+    type: 0
+    mesh: TalismanFriSeal
+    icon: TalismanFriSeal
+    name: 금(金)의 괘
+    desc: 평온한 느낌을 주는 괘이다. 가운데 '금(金)'가 각인 되어 있다.
+  - id: 10410
+    type: 0
+    mesh: TalismanSatSeal
+    icon: TalismanSatSeal
+    name: 토(土)의 괘
+    desc: 평온한 느낌을 주는 괘이다. 가운데 '토(土)'가 각인 되어 있다.
+  - id: 10420
+    type: 0
+    mesh: Book01_01
+    icon: Book01
+    name: 도자기 바로 보기
+    desc: 호랑이 낙서가 있는 책이다.
+  - id: 10421
+    type: 0
+    mesh: Book01_02
+    icon: Book01
+    name: 도자기 바로 보기
+    desc: 호랑이 낙서가 있는 책이다.
+  - id: 10430
+    type: 0
+    mesh: Book03_01
+    icon: Book02
+    name: 심리학 개론
+    desc: 호랑이 낙서가 있는 책이다.
+  - id: 10431
+    type: 0
+    mesh: Book03_02
+    icon: Book02
+    name: 심리학 개론
+    desc: 호랑이 낙서가 있는 책이다.
+  - id: 10440
+    type: 0
+    mesh: Book02_01
+    icon: Book03
+    name: 서양 미술사
+    desc: 호랑이 낙서가 있는 책이다.
+  - id: 10441
+    type: 0
+    mesh: Book02_02
+    icon: Book03
+    name: 서양 미술사
+    desc: 호랑이 낙서가 있는 책이다.
+  - id: 10450
+    type: 0
+    mesh: Book04_01
+    icon: Book04
+    name: 백초귀장술
+    desc: 호랑이 낙서가 있는 책이다.
+  - id: 10451
+    type: 0
+    mesh: Book04_02
+    icon: Book04
+    name: 백초귀장술
+    desc: 호랑이 낙서가 있는 책이다.
+  - id: 10460
+    type: 0
+    mesh: Pottery_Memo
+    icon: Pottery
+    name: 도자기
+    desc: 음악 선생이 만든 또 다른 도자기이다.
+  - id: 10461
+    type: 0
+    mesh: Pottery_SungA
+    icon: Pottery
+    name: 도자기
+    desc: 음악 선생이 만든 또 다른 도자기이다.
+  - id: 20000
+    type: 1
+    mesh: key_tag_housekeeping_inven
+    icon: key_tag_housekeeping
+    name: 가사실습실 열쇠
+    desc: 가사실습실의 문을 열 수 있는 열쇠다.
+  - id: 20010
+    type: 1
+    mesh: Key_center
+    icon: Key_center
+    name: 본관1 중앙복도 열쇠
+    desc: 본관1 1층의 중앙 복도에 있는 방화벽을 열 수 있는 열쇠다.
+  - id: 20020
+    type: 1
+    mesh: Key_center
+    icon: Key_center
+    name: 본관1 강당통로 열쇠
+    desc: 본관1에서 강당으로 가는 통로의 철문을 열 수 있는 열쇠다.
+  - id: 20030
+    type: 1
+    mesh: Key_master
+    icon: Key_master
+    name: 본관1 마스터키
+    desc: 본관1의 문에 달린 대부분의 자물쇠를 열 수 있는 열쇠다.
+  - id: 20031
+    type: 1
+    mesh: Key01
+    icon: Key01
+    name: 분실물실 열쇠
+    desc: 본관2의 분실물실을 열 수 있는 열쇠다.
+  - id: 20040
+    type: 1
+    mesh: key_tag_student
+    icon: key_tag_student
+    name: 학생부실 열쇠
+    desc: 본관2의 학생부실을 열 수 있는 열쇠다.
+  - id: 20050
+    type: 1
+    mesh: key_tag_teacher2
+    icon: key_tag_teacher2
+    name: 제2교무실 열쇠
+    desc: 본관2의 제2교무실을 열 수 있는 열쇠다.
+  - id: 20060
+    type: 1
+    mesh: key_tag_science
+    icon: key_tag_science
+    name: 과학실 열쇠
+    desc: 본관2의 과학실을 열 수 있는 열쇠다.
+  - id: 20070
+    type: 1
+    mesh: Key_piano
+    icon: Key_piano
+    name: 피아노 의자 열쇠
+    desc: 피아노 의자의 잠금을 풀 수 있는 열쇠다.
+  - id: 20080
+    type: 1
+    mesh: key_tag_art
+    icon: key_tag_art
+    name: 미술실 열쇠
+    desc: 본관2의 미술실을 열 수 있는 열쇠다.
+  - id: 20090
+    type: 1
+    mesh: CardYellow
+    icon: CardYellow
+    name: 노란색 카드키
+    desc: 신관 노란색 구역의 카드리더기에 사용해 문을 열 수 있는 카드키다.
+  - id: 20100
+    type: 1
+    mesh: CardRed
+    icon: CardRed
+    name: 붉은색 카드키
+    desc: 신관 빨간색 구역의 카드리더기에 사용해 문을 열 수 있는 카드키다.
+  - id: 20110
+    type: 1
+    mesh: CardBlue
+    icon: CardBlue
+    name: 파란색 카드키
+    desc: 신관 파란색 구역의 카드리더기에 사용해 문을 열 수 있는 카드키다.
+  - id: 20120
+    type: 1
+    mesh: Key_rooftop
+    icon: Key_rooftop
+    name: 신관 옥상 열쇠
+    desc: 신관 옥상을 열 수 있는 열쇠다.
+  - id: 20130
+    type: 1
+    mesh: Key_Combined_rb
+    icon: Key_Combined_rb
+    name: 조합된 열쇠 (빨파)
+    desc: 빨강과 파랑 열쇠가 합쳐진 열쇠다. 뭔가 작은 자물쇠를 열 수 있을 것 같다.
+  - id: 20140
+    type: 1
+    mesh: Key_Combined_ry
+    icon: Key_Combined_ry
+    name: 조합된 열쇠 (빨노)
+    desc: 빨강과 노랑 열쇠가 합쳐진 열쇠다. 뭔가 작은 자물쇠를 열 수 있을 것 같다.
+  - id: 20150
+    type: 1
+    mesh: Key_Combined_rd
+    icon: Key_Combined_rd
+    name: 조합된 열쇠 (빨검)
+    desc: 빨강과 검정 열쇠가 합쳐진 열쇠다. 뭔가 작은 자물쇠를 열 수 있을 것 같다.
+  - id: 20160
+    type: 1
+    mesh: Key_Combined_by
+    icon: Key_Combined_by
+    name: 조합된 열쇠 (파노)
+    desc: 파랑과 노랑 열쇠가 합쳐진 열쇠다. 뭔가 작은 자물쇠를 열 수 있을 것 같다.
+  - id: 20170
+    type: 1
+    mesh: Key_Combined_bd
+    icon: Key_Combined_bd
+    name: 조합된 열쇠 (파검)
+    desc: 파랑과 검정 열쇠가 합쳐진 열쇠다. 뭔가 작은 자물쇠를 열 수 있을 것 같다.
+  - id: 20180
+    type: 1
+    mesh: Key_Combined_yd
+    icon: Key_Combined_yd
+    name: 조합된 열쇠 (노검)
+    desc: 노랑과 검정 열쇠가 합쳐진 열쇠다. 뭔가 작은 자물쇠를 열 수 있을 것 같다.
+  - id: 20190
+    type: 1
+    mesh: Key_small_red
+    icon: Key_small_red
+    name: 소형 열쇠 (빨강)
+    desc: 빨강색으로 칠해진 작은 열쇠다. 다른 열쇠와 조합을 해서 쓸 수 있을 것 같다.
+  - id: 20200
+    type: 1
+    mesh: Key_small_blue
+    icon: Key_small_blue
+    name: 소형 열쇠 (파랑)
+    desc: 파란색으로 칠해진 작은 열쇠다. 다른 열쇠와 조합을 해서 쓸 수 있을 것 같다.
+  - id: 20210
+    type: 1
+    mesh: Key_small_yellow
+    icon: Key_small_yellow
+    name: 소형 열쇠 (노랑)
+    desc: 노란색으로 칠해진 작은 열쇠다. 다른 열쇠와 조합을 해서 쓸 수 있을 것 같다.
+  - id: 20220
+    type: 1
+    mesh: Key_small_dark
+    icon: Key_small_dark
+    name: 소형 열쇠 (검정)
+    desc: 검정색으로 칠해진 작은 열쇠다. 다른 열쇠와 조합을 해서 쓸 수 있을 것 같다.
+  - id: 20230
+    type: 1
+    mesh: Key_Util
+    icon: Key_Util
+    name: 소형 만능키
+    desc: 사랍등을 열수 있을 것 같은 작은 만능열쇠다.
+  - id: 30000
+    type: 2
+    mesh: SoybeanMilk
+    icon: SoybeanMilk
+    name: 두유
+    desc: 연두 고교에서 판매중인 두유이다. 학교 안의 매점이나 자판기에서 얻을 수 있다.
+  - id: 30010
+    type: 2
+    mesh: Lunchbox
+    icon: Lunchbox
+    name: 즉석 도시락
+    desc: 간편하게 먹을 수 있는 도시락이다. 배가 부르면 힘도 솟고 기분도 좋아진다.
+  - id: 30020
+    type: 2
+    mesh: FirstAidKit
+    icon: FirstAidKit
+    name: 구급상자
+    desc: 상처를 치료할 수 있는 물건들이 들어있는 구급상자다. 위급할 때 사용할 수 있다.
+  - id: 30030
+    type: 2
+    mesh: Pills
+    icon: Pills
+    name: 우황청심환
+    desc: 긴장을 풀고 진정할 수 있게 도와주는 약이다. 먹으면 차분해진다.
+  - id: 30040
+    type: 2
+    mesh: Coffee
+    icon: Coffee
+    name: 캔 커피
+    desc: 캔 안에 커피 음료가 들어있다. 마시면 기분이 좋아지지만 너무 많이 마시면 몸에 해롭다.
+  - id: 40010
+    type: 0
+    mesh: Lighter
+    icon: Lighter
+    name: 라이터
+    desc: 라이터다. 켜면 주변이 조금은 밝아진다. 어두운 곳에서 도움이 될 것 같다.
+  - id: 40030
+    type: 3
+    mesh: Coin
+    icon: Coin
+    name: 연두동전
+    desc: 연두 고교에서 발행한 동전이다. 학교 안의 매점이나 자판기에서 사용할 수 있다.
+  - id: 40040
+    type: 3
+    mesh: MagicPen
+    icon: MagicPen
+    name: 사인펜
+    desc: 무언가를 적어두는데 쓰는 사인펜이다.
+  - id: 50000
+    type: 4
+    mesh: Pin
+    icon: Pin
+    name: 핀
+    desc: 어딘가에 꽂을 수 있을 것 같은 작은 핀이다.
+  - id: 50010
+    type: 4
+    mesh: Doorknob
+    icon: Doorknob
+    name: 손잡이
+    desc: 나무로 만들어진 작은 손잡이다. 어딘가에 끼워 사용하면 열리지 않던 것을 열 수 있을 것 같다.
+  - id: 50020
+    type: 4
+    mesh: ScaleWeight1g
+    icon: ScaleWeight1g
+    name: 추 1g
+    desc: 무게를 재는 데 사용되는 작은 금속추다.
+  - id: 50030
+    type: 4
+    mesh: ScaleWeight5g
+    icon: ScaleWeight5g
+    name: 추 5g
+    desc: 무게를 재는 데 사용되는 작은 금속추다.
+  - id: 50040
+    type: 4
+    mesh: ScaleWeight10g
+    icon: ScaleWeight10g
+    name: 추 10g
+    desc: 무게를 재는 데 사용되는 작은 금속추다.
+  - id: 50050
+    type: 4
+    mesh: ScaleWeight30g
+    icon: ScaleWeight30g
+    name: 추 30g
+    desc: 무게를 재는 데 사용되는 작은 금속추다.
+  - id: 50060
+    type: 4
+    mesh: ScaleWeight50g
+    icon: ScaleWeight50g
+    name: 추 50g
+    desc: 무게를 재는 데 사용되는 작은 금속추다.
+  - id: 50070
+    type: 4
+    mesh: MathTimeTable
+    icon: MathTimeTable
+    name: 시간표 조각 (수학)
+    desc: 수학이라고 적힌 시간표의 일부분이다.
+  - id: 50080
+    type: 4
+    mesh: PaperCrane
+    icon: PaperCrane
+    name: 종이학
+    desc: 검은색 종이로 접은 종이학이다.
+  - id: 50090
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: 모스부호표
+    desc: 모스 부호로  숫자를 나타내는 법이 적인 모스부호표이다.
+  - id: 50091
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: 모스부호표
+    desc: 모스 부호로  숫자를 나타내는 법이 적인 모스부호표이다.
+  - id: 50092
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: 모스부호표
+    desc: 모스 부호로  숫자를 나타내는 법이 적인 모스부호표이다.
+  - id: 50100
+    type: 4
+    mesh: TypewriterO
+    icon: TypewriterO
+    name: 타자기 버튼 O
+    desc: 타자기에서 빠진 것 같은 낡은 버튼이다.
+  - id: 50110
+    type: 4
+    mesh: TypewriterM
+    icon: TypewriterM
+    name: 타자기 버튼 M
+    desc: 타자기에서 빠진 것 같은 낡은 버튼이다.
+  - id: 50120
+    type: 4
+    mesh: TypewriterE
+    icon: TypewriterE
+    name: 타자기 버튼 E
+    desc: 타자기에서 빠진 것 같은 낡은 버튼이다.
+  - id: 50130
+    type: 4
+    mesh: TypewriterN
+    icon: TypewriterN
+    name: 타자기 버튼 N
+    desc: 타자기에서 빠진 것 같은 낡은 버튼이다.
+  - id: 50140
+    type: 4
+    mesh: SpiderSample
+    icon: SpiderSample
+    name: 거미 표본
+    desc: 무섭게 생긴 거미를 박제해 만든 표본이다. 만지는 것조차 끔찍하다.
+  - id: 50150
+    type: 4
+    mesh: LensLeft
+    icon: LensLeft
+    name: 시력측정용 렌즈 (왼쪽)
+    desc: 외눈 안경처럼 생긴 작은 렌즈다.
+  - id: 50151
+    type: 4
+    mesh: LensLeft
+    icon: LensLeft
+    name: 시력측정용 렌즈 (왼쪽)
+    desc: 외눈 안경처럼 생긴 작은 렌즈다.
+  - id: 50160
+    type: 4
+    mesh: LensRight
+    icon: LensRight
+    name: 시력측정용 렌즈 (오른쪽)
+    desc: 외눈 안경처럼 생긴 작은 렌즈다.
+  - id: 50161
+    type: 4
+    mesh: LensRight
+    icon: LensRight
+    name: 시력측정용 렌즈 (오른쪽)
+    desc: 외눈 안경처럼 생긴 작은 렌즈다.
+  - id: 50170
+    type: 4
+    mesh: ConfessionMail
+    icon: ConfessionMail
+    name: 고백의 편지
+    desc: 여학생의 고백이 담긴 편지다.
+  - id: 50180
+    type: 4
+    mesh: BloodExerciseBook
+    icon: BloodExerciseBook
+    name: 피 묻은 문제집
+    desc: 피가 묻어 있는 수학 문제집이다.
+  - id: 50190
+    type: 4
+    mesh: Chalk
+    icon: Chalk
+    name: 분필
+    desc: 칠판에 무언가를 적을 때 쓰는 분필이다.
+  - id: 50200
+    type: 4
+    mesh: GymnasticsCap
+    icon: GymnasticsCap
+    name: 체육선생의 모자
+    desc: 해병대 조교의 모자 같이 생긴 붉은 색 모자다. 체육선생의 것으로 보인다.
+  - id: 50210
+    type: 4
+    mesh: ScorecardSecond
+    icon: ScorecardSecond
+    name: 2등의 성적표
+    desc: 어떤 우등생의 성적표다. 몇 문제 차이로 2등을 한 것 같아 보인다.
+  - id: 50220
+    type: 4
+    mesh: Cigarette
+    icon: Cigarette
+    name: 담배
+    desc: 학생이 소지해서는 안 될 물건이다. 몇몇 불량학생들이 숨겨둔 것 같아 보인다.
+  - id: 50230
+    type: 4
+    mesh: BellFox
+    icon: BellFox
+    name: 여우방울
+    desc: 맑은 소리를 내는 방울이다.
+  - id: 50240
+    type: 4
+    mesh: Collection_Figure_HM
+    icon: Collection_Figure_HM
+    name: 남학생 모형
+    desc: 만든 지 14년은 된 것 같은 모형이다. 가방을 맨 남학생의 모습이다.
+  - id: 50250
+    type: 4
+    mesh: Collection_Figure_SY
+    icon: Collection_Figure_SY
+    name: 긴 머리 여학생 모형
+    desc: 만든 지 14년은 된 것 같은 모형이다. 차가워 보이는 여학생의 모습이다.
+  - id: 50260
+    type: 4
+    mesh: Collection_Figure_SA
+    icon: Collection_Figure_SA
+    name: 짧은 머리 여학생 모형
+    desc: 만든 지 14년은 된 것 같은 모형이다. 당돌해 보이는 여학생의 모습을 하고 있다.
+  - id: 50270
+    type: 4
+    mesh: Collection_Figure_JH
+    icon: Collection_Figure_JH
+    name: 안경 낀 여학생 모형
+    desc: 만든 지 14년은 된 것 같은 모형이다. 순진해 보이는 여학생의 모습을 하고 있다.
+  - id: 50280
+    type: 4
+    mesh: Collection_Figure_BG
+    icon: Collection_Figure_BG
+    name: 대머리 수위 모형
+    desc: 만든 지 14년은 된 것 같은 모형이다. 머리가 벗겨진 대머리 남성의 모습을 하고 있다.
+  - id: 50290
+    type: 4
+    mesh: Collection_Figure_DS
+    icon: Collection_Figure_DS
+    name: 모자 쓴 수위 모형
+    desc: 만든 지 14년은 된 것 같은 모형이다. 모자를 눌러 쓴 음침한 남성의 모습을 하고 있다.
+  - id: 50300
+    type: 4
+    mesh: Collection_Figure_EM
+    icon: Collection_Figure_EM
+    name: 아줌마 모형
+    desc: 만든 지 14년은 된 것 같은 모형이다. 누더기가 된 원피스를 입은 아줌마의 모습을 하고 있다.
+  - id: 90010
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: 본관1 하이패스
+    desc: 본관1에서 진행할 수 있는 하이패스 티켓
+  - id: 90020
+    type: 2
+    mesh: CardRed
+    icon: CardRed
+    name: 본관2 A루트용 하이패스
+    desc: 본관2에서 A루트를 진행할 수 있는 하이패스 티켓
+  - id: 90021
+    type: 2
+    mesh: CardRed
+    icon: CardRed
+    name: 본관2 B루트용 하이패스
+    desc: 본관2에서 B루트를 진행할 수 있는 하이패스 티켓
+  - id: 90030
+    type: 2
+    mesh: CardBlue
+    icon: CardBlue
+    name: 신관 A루트용 하이패스
+    desc: 신관에서 A루트를 진행할 수 있는 하이패스 티켓
+  - id: 90031
+    type: 2
+    mesh: CardBlue
+    icon: CardBlue
+    name: 신관 B루트용 하이패스
+    desc: 신관에서 B루트를 진행할 수 있는 하이패스 티켓
+  - id: 90040
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: 강당 A루트용 하이패스
+    desc: 강당에서 A루트를 진행할 수 있는 하이패스 티켓
+  - id: 90041
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: 강당 B루트용 하이패스
+    desc: 강당에서 B루트를 진행할 수 있는 하이패스 티켓
+  - id: 90100
+    type: 2
+    mesh: poison
+    icon: poison
+    name: 수위 퇴치제
+    desc: 이것을 사용하면 수위를 한방에 보낼 수 있다.
+  - id: 90200
+    type: 2
+    mesh: Candybox
+    icon: Candybox
+    name: 종합 선물세트
+    desc: 인생은 한방.
+  - id: 90210
+    type: 2
+    mesh: Diary
+    icon: Diary
+    name: 엔딩 수첩
+    desc: 모든 엔딩수집물을 기록해 놓은 수첩이다.
+  - id: 90220
+    type: 2
+    mesh: Collection_Figure_SY
+    icon: Collection_Figure_SY
+    name: 피규어 세트
+    desc: 덕후들이 좋아할것 같은 물건이다.
+  - id: 90230
+    type: 2
+    mesh: BellFox
+    icon: BellFox
+    name: 무당의 방울
+    desc: 무당이 사용하던 방울이다. 모든 귀신을 볼 수 있다.
+  - id: 90240
+    type: 2
+    mesh: Pills
+    icon: Pills
+    name: 사랑의 묘약
+    desc: 이 묘약을 삼키면 세상 모든 여자의 호감을 얻게된다. 단, 원빈급으로 잘생겨야 효과가 있음.

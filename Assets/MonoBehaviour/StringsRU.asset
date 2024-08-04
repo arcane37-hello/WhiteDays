@@ -1,0 +1,1650 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da84e45da3418d9e996de0c0cd6962b9, type: 3}
+  m_Name: StringsRU
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Strings.xlsx
+  worksheetName: StringsRU
+  dataArray:
+  - id: COMFIRM
+    text: Хорошо
+  - id: CANCEL
+    text: Отмена
+  - id: YES
+    text: Да
+  - id: NO
+    text: Нет
+  - id: CLOSE
+    text: Закрыть
+  - id: EXIT
+    text: Выход
+  - id: MAX
+    text: Макс.
+  - id: MIN
+    text: Мин.
+  - id: EMPTY
+    text: Пусто
+  - id: QUANTITY
+    text: Количество
+  - id: DOCUMENT
+    text: Документ
+  - id: LADDER
+    text: Лестница
+  - id: SPEAKER
+    text: Диктор
+  - id: SAVE_GAME
+    text: Хотели бы вы сохранить игру?
+  - id: ITEM_OBTAINED
+    text: '{0} получено.'
+  - id: ITEM_REMOVED
+    text: '{0} удалено.'
+  - id: MOVETO_MAINBUILDING1
+    text: Пойти в Главное здание 1
+  - id: MOVETO_MAINBUILDING2
+    text: Пойти в Главное здание 2
+  - id: MOVETO_NEWBUILDING
+    text: Пойти в Новое здание
+  - id: MOVETO_HALL
+    text: Пойти в Актовый зал
+  - id: LOBBY_NEW_GAME0
+    text: Вход в Школу
+  - id: LOBBY_NEW_GAME1
+    text: Перезапуск Игры
+  - id: SETTING
+    text: Параметры
+  - id: CONTENTS
+    text: Загружаемый Контент
+  - id: LOBBY_ESCAPE
+    text: Конец Игры
+  - id: LOBBY_NEW_GAME2
+    text: Выберите сложность
+  - id: LEVEL_VERY_EASY
+    text: Очень Легко
+  - id: LEVEL_EASY
+    text: Легко
+  - id: LEVEL_NORMAL
+    text: Нормально
+  - id: LEVEL_HARD
+    text: Тяжелый
+  - id: LEVEL_VERY_HARD
+    text: Ад
+  - id: LEVEL_NORMAL_DESC
+    text: Хорошо сбалансированный уровень сложности.
+  - id: LEVEL_HARD_DESC
+    text: Более тревожный и сложнее играть.
+  - id: LEVEL_VERY_HARD_DESC
+    text: Испытайте на себе самый ужасный и трудный режим.
+  - id: LEVEL_VERY_HARD_DESC_EXCEPTION
+    text: Никто не отменил режим Ад.
+  - id: LEVEL_VERY_EASY_COMMENT
+    text: '<Легче убежать от уборщика.>'
+  - id: LEVEL_EASY_COMMENT
+    text: '<Полученные текстовые сообщения в игре, помогут вам продвинуться в игре.>'
+  - id: LEVEL_NORMAL_COMMENT
+    text: '<Решить головоломки, спрятанные в школе и соберите страшилки.>'
+  - id: LEVEL_HARD_COMMENT
+    text: '<Столкнитесь с призраками, которые находятся в школе.>'
+  - id: LEVEL_VERY_HARD_COMMENT
+    text: '<Режим Хардкор включен. У тебя только одна жизнь.>'
+  - id: LEVEL_VERY_HARD_COMMENT_EXCEPTION
+    text: ※ Будут обновления в ближайшее время. Следите за обновлениями!
+  - id: CONTINUE
+    text: Продолжить
+  - id: LOAD
+    text: Загрузить
+  - id: COLLECTION
+    text: Список Собранного
+  - id: LOAD_DESC
+    text: Загрузить сохраненную игру.
+  - id: SETTING_DESC
+    text: Изменить настройки игры.
+  - id: ACCOUNT_SETTING
+    text: Настройки Учетной Записи
+  - id: ACCOUNT_SETTING_DESC
+    text: Просмотреть/Изменить информацию о пользователе.
+  - id: SNS_CONNECT
+    text: Подключиться к СНС
+  - id: ACCOUNT_AND_MOBILE_INFO
+    text: Информацию об устройстве
+  - id: GOOGLE_CONNECT
+    text: Зарегистрировать аккаунт в Google+
+  - id: FACEBOOK_CONNECT
+    text: Зарегистрировать аккаунт Facebook
+  - id: SNS_CONNECT_DESC
+    text: Использовать разные аккаунты СНС для регистрации и подключения.
+  - id: ACCOUNT_INFO_DESC
+    text: Просмотр учетной записи и информации об устройстве.
+  - id: ACCOUNT_INFO
+    text: Информация об Учетной Записи
+  - id: MOBILE_INFO
+    text: Информация об Устройстве
+  - id: ADD_CONTENTS_DESC
+    text: Купить или изменить содержание игры.
+  - id: CHANGE_CLOTH
+    text: Сменить Костюм
+  - id: REGIST_CODE
+    text: Зарегистрировать Специальный Код
+  - id: QUIT_DESC
+    text: Выйти из игры?
+  - id: DELETE_DESC
+    text: Удалить?
+  - id: COLLECTION_DESC
+    text: Просмотр списка предметов, которые вы собрали в игре.
+  - id: COLLECTION_GHOST
+    text: Коллекция Призраков
+  - id: COLLECTION_ENDING
+    text: Коллекция Концовки
+  - id: COLLECTION_GHOST_DESC
+    text: Призраки встречаются в школе и в их историях.
+  - id: COLLECTION_DETAIL
+    text: Смотреть детали
+  - id: COLLECTION_GHOST_DETAIL_DESC
+    text: Подробная информация о собранных духов.
+  - id: COLLECTION_ENDING_DESC
+    text: Различные концовки игры.
+  - id: COLLECTION_ENDING_PERCENT
+    text: Прогресс Коллекции Концовки
+  - id: COLLECTION_ENDING_LEVEL
+    text: 'Особенности Коллекции Концовки:'
+  - id: COLLECTION_ENDING_NAME_01
+    text: Белая Хризантема <br>(Правда)
+  - id: COLLECTION_ENDING_NAME_02
+    text: Гиацинт<br>(Прости меня)
+  - id: COLLECTION_ENDING_NAME_03
+    text: Айви<br>(Дружба)
+  - id: COLLECTION_ENDING_NAME_04
+    text: Тубероза<br>(Опасные удовольствия)
+  - id: COLLECTION_ENDING_NAME_05
+    text: Черное Дерево<br>(Лицемерие)
+  - id: COLLECTION_ENDING_NAME_06
+    text: Одуванчик<br>(Верность)
+  - id: COLLECTION_ENDING_NAME_07
+    text: Алтей<br>(Усталость от любви)
+  - id: COLLECTION_ENDING_NAME_08
+    text: Тис<br>(Смерть)
+  - id: COLLECTION_ENDING_NAME_09
+    text: Маргаритка<br>(Тайная любовь)
+  - id: COLLECTION_ENDING_NAME_10
+    text: Жасмин<br>(Ты мой)
+  - id: VERY_EASY
+    text: Очень Легко
+  - id: EASY
+    text: Легко
+  - id: NORMAL
+    text: Нормально
+  - id: HARD
+    text: Тяжело
+  - id: VERY_HARD
+    text: Ад
+  - id: COLLECTION_ACHIEVEMENT
+    text: 'Достижение Прогресса:'
+  - id: CHANGE_CLOTH_DESC
+    text: Изменения костюма персонажей.
+  - id: EMPTY_INFO
+    text: Нет информации
+  - id: DELETE
+    text: Удалить
+  - id: CONTINUE_PLAY
+    text: Продолжить
+  - id: NOTICE_ENDING_NAME_01
+    text: White chrysanthemum
+  - id: NOTICE_ENDING_NAME_02
+    text: Hyacinth
+  - id: NOTICE_ENDING_NAME_03
+    text: Ivy
+  - id: NOTICE_ENDING_NAME_04
+    text: Tuberose
+  - id: NOTICE_ENDING_NAME_05
+    text: Ebony
+  - id: NOTICE_ENDING_NAME_06
+    text: Dandelion
+  - id: NOTICE_ENDING_NAME_07
+    text: Althaea
+  - id: NOTICE_ENDING_NAME_08
+    text: Yew
+  - id: NOTICE_ENDING_NAME_09
+    text: Jasmine
+  - id: NOTICE_ENDING_NAME_10
+    text: Marguerite
+  - id: NOTICE_ENDING_TIME_01
+    text: 14 марта 06:37 утра
+  - id: NOTICE_ENDING_TIME_02
+    text: 14 марта 06:25 утра
+  - id: NOTICE_ENDING_TIME_03
+    text: 14 марта 06:37 утра
+  - id: NOTICE_ENDING_TIME_04
+    text: 14 марта 05:58 утра
+  - id: NOTICE_ENDING_TIME_05
+    text: 14 марта 05:58 утра
+  - id: NOTICE_ENDING_TIME_06
+    text: 14 марта 05:42 утра
+  - id: NOTICE_ENDING_TIME_07
+    text: 14 марта 05:44 утра
+  - id: NOTICE_ENDING_TIME_SceneMainBuilding1
+    text: 13 марта 10:51 вечера
+  - id: NOTICE_ENDING_TIME_SceneMainBuilding2
+    text: 13 марта 11:19 вечера
+  - id: NOTICE_ENDING_TIME_SceneNewBuilding
+    text: 14 марта, 12:23 утра
+  - id: NOTICE_ENDING_TIME_SceneHall
+    text: 14 марта 04:44 утра
+  - id: NOTICE_ENDING_TIME_SceneMaze
+    text: 14 марта 06:15 утра
+  - id: NOTICE_ENDING_LOCATION_01
+    text: Область Школы
+  - id: NOTICE_ENDING_LOCATION_02
+    text: Область Школы
+  - id: NOTICE_ENDING_LOCATION_03
+    text: Область Школы
+  - id: NOTICE_ENDING_LOCATION_04
+    text: Аудитория (2Э)
+  - id: NOTICE_ENDING_LOCATION_05
+    text: Аудитория (2Э)
+  - id: NOTICE_ENDING_LOCATION_06
+    text: Аудитория (Основной Холл)
+  - id: NOTICE_ENDING_LOCATION_07
+    text: Аудитория (Основной Холл)
+  - id: NOTICE_ENDING_LOCATION_SceneMainBuilding1
+    text: Главное Здание, Секция 1
+  - id: NOTICE_ENDING_LOCATION_SceneMainBuilding2
+    text: Главное Здание, Секция 2
+  - id: NOTICE_ENDING_LOCATION_SceneNewBuilding
+    text: Новое Здание
+  - id: NOTICE_ENDING_LOCATION_SceneHall
+    text: Аудитория
+  - id: NOTICE_ENDING_LOCATION_SceneMaze
+    text: Лабиринт
+  - id: NOTICE_LOCATION_SceneMainBuilding1
+    text: Главное здание, Секция 1<br>13 марта, 10:00 вечера
+  - id: NOTICE_LOCATION_SceneMainBuilding2
+    text: Главное здание, Секция 2<br>13 марта, 11:01 вечера
+  - id: NOTICE_LOCATION_SceneNewBuilding
+    text: Новое Здание<br>14 марта, 12:04 утра
+  - id: NOTICE_LOCATION_SceneHall
+    text: Аудитория<br>14 марта, 04:26 утра
+  - id: NOTICE_LOCATION_SceneMaze
+    text: Лабиринт<br>14 марта ??:?? утра
+  - id: GAMEOVER_TEXT_DIE_GUARD
+    text: Вы были до смерти избиты уборщиком.
+  - id: GAMEOVER_TEXT_DIE_GHOST
+    text: Вы умерли от сердечного приступа от страха.
+  - id: GAMEOVER_TEXT_DIE_EUNMI
+    text: Вы умерли от поножовщины сумасшедшей.
+  - id: GAMEOVER_TEXT_DIE_FIRE
+    text: Вы были без сознания от боли, чтобы быть сожженным заживо.
+  - id: GAMEOVER_TEXT_QTE_CN_0310
+    text: Вы чувствуете свое тело проколотым. Кровь хлещет из раны.
+  - id: GAMEOVER_TEXT_QTE_CN_0600
+    text: Вы слышали плач ребенка, но твои кости стерты в пыль.
+  - id: GAMEOVER_TEXT_QTE_CN_0830
+    text: Нет возможности бежать, вас потянуло на дно ужасное существо.
+  - id: GAMEOVER_TEXT_QTE_CN_0922
+    text: Вы умерли страшной смертью от сдавливания светильником.
+  - id: GAMEOVER_TEXT_QTE_CN_0932
+    text: Охвачен пламенем, вы были без сознания от боли и были сожжены заживо.
+  - id: GAMEOVER_TEXT_QTE_CN_0952
+    text: Вы умерли после того, как потеряют сознание от тяжелых железных ворот.
+  - id: GAMEOVER_TEXT_QTE_CN_0972
+    text: Охвачен пламенем, вы были без сознания от боли и были сожжены заживо.
+  - id: GAMEOVER_TEXT_TIMEOVER_TM
+    text: Крики эхо Со-янг, зловещий цветок уже цветет.
+  - id: GAMEOVER_TEXT_TIMEOVER_BB
+    text: При звуке плача ребенка, школа рухнет.
+  - id: GAMEOVER_TEXT_TIMEOVER_MM
+    text: Вы теряете сознание от удушья.
+  - id: GAMEOVER_TEXT_TIMEOVER_HALL
+    text: Взрыв, пожар поглотит все.
+  - id: GAMEOVER_TEXT_TIMEOVER_MAZE
+    text: Вы навечно заперты в лабиринте.
+  - id: GAMEOVER_TEXT_DIE_LBG
+    text: Смерть наступила быстро, как только вы увидели ее лицо.
+  - id: GAMEOVER_TEXT_DIE_FALL
+    text: Лабиринт разваливается, вы пали в бездну.
+  - id: CODE_SUCCESS
+    text: Успешно Зарегистрирован!
+  - id: CODE_SUCCESS_DESC
+    text: Ваш код Зарегистрирован.<br>Вы можете проверить новые костюмы нажав<br>[Главное->Загруженный Контент->Изменить Костюм]
+  - id: SHORT_CUT
+    text: Идти
+  - id: DOWNLOAD_NOW
+    text: Скачать
+  - id: COSTUME_CHANGE
+    text: Сменить Костюм
+  - id: COSTUME_CHANGE_DESC
+    text: Изменить костюм персонажей.
+  - id: POPUP_ALERT_BUY_DESC
+    text: Покупка костюма выполнена.<br>Вы можете просмотреть и примерить новые костюмы в <br> [Главное->Загруженный Контент->Изменить Костюм]
+  - id: POPUP_ALERT_BUY_TITLE
+    text: Спасибо за покупку!
+  - id: POPUP_DOWNLOAD_TITLE
+    text: Скачать контент
+  - id: POPUP_DOWNLOAD_DESC
+    text: Ваши покупки сейчас скачиваются.
+  - id: UI_SAVE_MARKER_CNT
+    text: 'Фломастеры: <color=#ffff00ff>{0}</color>'
+  - id: QTE_NOTIFICATION_DRAG
+    text: Перетащите предмет, который вы хотите использовать!
+  - id: QTE_NOTIFICATION_TOUCH
+    text: Повторно нажмите левую и правую кнопку!
+  - id: QTE_NOTIFICATION_SLIDE
+    text: Сдвиньте в сторону!
+  - id: ENDING_COLLECTION_REWARD_DISC
+    text: Костюм будет выдан<br>после завершения Коллекции Концовок
+  - id: GHOST_COLLECTION_REWARD_DISC
+    text: Костюм будет выдан<br>после завершения Коллекции Призраков
+  - id: FIGURE_COLLECTION_REWARD_DISC
+    text: Костюм будет выдан<br>после завершения Коллекции Старых Статуэток
+  - id: LEVEL_VERY_HARD_COMMENT_UNLOCK
+    text: '<Режим Ад откроется, когда вы очистите режим Тяжело.>'
+  - id: CHARACTER_1
+    text: Со-янг Хан
+  - id: CHARACTER_2
+    text: Сеон-ох Ким
+  - id: CHARACTER_3
+    text: Чжи-Хен соль
+  - id: CHARACTER_4
+    text: Хуэй-мин Ли
+  - id: CHARACTER_5
+    text: Бонг-гу Ли
+  - id: CHARACTER_6
+    text: Даль-су Сон
+  - id: SHOP_MOVE
+    text: Перейти к покупке
+  - id: LIMITED_EDITION_TITLE
+    text: Регистрация Специального Ограниченного Кода
+  - id: LIMITED_EDITION_TITLE_DESC
+    text: 'Ограниченный Костюм: Получить стильную школьную форму.'
+  - id: BUY_CLOTH
+    text: Купить Костюм
+  - id: SHOP_BUY_BUTTON_DESC
+    text: Купить {0}
+  - id: SHOP_ALREADY_PURCHASED
+    text: Вы уже приобрели этот товар.
+  - id: SHOP_TITLE
+    text: Купить Костюм
+  - id: SHOP_TITLE_DESC
+    text: Вы можете купить специальные костюмы по доступным ценам.
+  - id: COSTUME_COLLECTION_CONFIRM
+    text: Посмотреть Условия Вознаграждения
+  - id: COSTUME_COLLECTION_GET
+    text: Вы заслужили [{0}] костюм.
+  - id: CHECK_SERVER_COSTUME
+    text: Проверить список принадлежащих костюмов.
+  - id: CHECK_SERVER_MARKET
+    text: Загрузка списка предметов с сервера.
+  - id: MARKET_NOTICE_LOADING
+    text: Сменить свой костюм.
+  - id: MARKET_NOTICE_SERVER
+    text: Проверка доступности.
+  - id: IABHELPER_OK
+    text: Товар был успешно приобретен.
+  - id: IABHELPER_-100
+    text: Покупка товара недоступно в настоящее время.
+  - id: IABHELPER_-101
+    text: Произошла ошибка в процессе покупки товара.
+  - id: IABHELPER_-102
+    text: Товар недоступен в настоящее время.
+  - id: IABHELPER_-103
+    text: Произошла ошибка во время покупки выбранного Вами товара.
+  - id: IABHELPER_-1000
+    text: Произошла ошибка в процессе покупки товара.
+  - id: IABHELPER_-1001
+    text: Не удается подключиться к серверу, чтобы сделать покупку.
+  - id: IABHELPER_-1002
+    text: Нет ответа от сервера.
+  - id: IABHELPER_-1005
+    text: Приобретение товара было отменено пользователем.
+  - id: IABHELPER_-1006
+    text: Покупка отменена по неизвестной причине сервера.
+  - id: IABHELPER_-1007
+    text: Покупка отменена из-за недопустимых значений.
+  - id: IABHELPER_-1008
+    text: Покупка отменена из-за неизвестной ошибки.
+  - id: IABHELPER_-1009
+    text: Товар не доступен для покупки. Для этой подписки.
+  - id: IABHELPER_-1010
+    text: Товар не доступен для покупки. Он является расходным материалом.
+  - id: MARKET_NOTICE_COMPLETE
+    text: Выполняется Ваш заказ на покупку.
+  - id: PURCHASE_RESTORE
+    text: Восстановить Историю Покупок
+  - id: UI_CONTENT_RESET_ALERT
+    text: ※ Внимание! При удалении игры, костюмы которые вы заработали,<br>награды и коллекции, будут восстановлены по умолчанию.<br>(истории покупок будут сохранены.)
+  - id: UI_PURCHASE_RESTORE_PROGRESS
+    text: Пожалуйста, подождите, выполняется восстановление.
+  - id: UI_PURCHASE_RESTORE_BUTTON
+    text: Восстановление...
+  - id: UI_PURCHASE_RESTORE_COMPLETE
+    text: Ваши покупки были восстановлены.
+  - id: UI_SHOP_LIMITED_SELL_PERIOD
+    text: 'Период продажи: до ДД/мм/гг'
+  - id: UI_SHOP_SELL_PERIOD
+    text: Постоянная продажа
+  - id: UI_WAIT_POPUP_MESSAGE
+    text: Пожалуйста, подождите.
+  - id: UI_PURCHASE_RESTORE_DESC
+    text: В игре пункт "история покупок" будут восстановлены<br>согласно информации и документу пользователя.<br>※ это может занять несколько минут.
+  - id: UI_START
+    text: Начать
+  - id: UI_BUTTON_RESTORATION
+    text: Запрос Восстановления
+  - id: UI_COSTUME_WEAR
+    text: Надеть Костюм
+  - id: UI_COSTUME_CLOTHED
+    text: Оборудован
+  - id: UI_COSTUME_CODE_REGIST
+    text: Код Регистрации
+  - id: UI_COSTUME_REWARD
+    text: Получать Награду
+  - id: UI_LOAD_GAME_DESC
+    text: Хотели бы вы загрузить сохраненную игру?
+  - id: UI_COLLECTION_RANK
+    text: Собранный ранг
+  - id: UI_COLLECTION_FIGURE
+    text: Статуэтки to Собранные Статуэтки
+  - id: UI_COSTUME_CODE_INPUT
+    text: Пожалуйста, введите код купона.
+  - id: UI_INPUT_COMPLETE
+    text: Вошел
+  - id: UI_COLLECTION_RANK_TITLE
+    text: Собранный ранг
+  - id: UI_COLLECTION_RANK_DESC
+    text: Самый высокий ранг и оценка сложности для каждого
+  - id: UI_COLLECTION_FIGURE_TITLE
+    text: Статуэтки to Собранные Статуэтки
+  - id: UI_COLLECTION_FIGURE_DESC
+    text: Человеческие статуэтки из школы
+  - id: UI_COLLECTION_FIGURE_COUNT
+    text: 'Заработанные Статуэтки:'
+  - id: UI_SHOP_CLOTH_LIST
+    text: Костюм в комплекте
+  - id: UI_BACKPACK
+    text: Рюкзак
+  - id: UI_MAP
+    text: Карта
+  - id: UI_MAIL
+    text: Сообщения
+  - id: UI_DOCUMENT
+    text: Документы
+  - id: UI_SYSTEM
+    text: Система
+  - id: UI_BACKPACK_MENU
+    text: Рюкзак
+  - id: UI_BACKPACK_MENUDESC
+    text: Изучите вещи, которые у вас есть.
+  - id: UI_BACKPACK_ITEM_GENERALS
+    text: Основные Предметы
+  - id: UI_BACKPACK_ITEM_KEYS
+    text: Ключи
+  - id: UI_BACKPACK_ITEM_HEALING
+    text: Лекарства
+  - id: UI_BACKPACK_ITEM_USABLE
+    text: Полезное
+  - id: UI_BACKPACK_ITEM_ETC
+    text: Разное
+  - id: UI_BACKPACK_USEITEM
+    text: Использовать предмет
+  - id: UI_MAP_MENU
+    text: Карта
+  - id: UI_MAP_MENUDESC
+    text: Посмотреть на карту.
+  - id: UI_MAP_MAINBUILDING1
+    text: Главное Здание 1
+  - id: UI_MAP_MAINBUILDING2
+    text: Главный Здание 2
+  - id: UI_MAP_NEWBUILDING
+    text: Новое Здание
+  - id: UI_MAP_HALL
+    text: Аудитория
+  - id: UI_MAP_1F
+    text: 1Э
+  - id: UI_MAP_2F
+    text: 2Э
+  - id: UI_MAP_3F
+    text: 3Э
+  - id: UI_MAP_4F
+    text: 4Э
+  - id: UI_MAP_5F
+    text: 5Э
+  - id: UI_MAIL_MENU
+    text: Текстовое Сообщение
+  - id: UI_MAIL_MENUDESC
+    text: Просмотреть полученные текстовые сообщения.
+  - id: UI_MAIL_RECEIVED
+    text: Полученные Сообщения
+  - id: UI_DOCUMENT_MENU
+    text: Документы
+  - id: UI_DOCUMENT_MENUDESC
+    text: Просмотреть собранные документы.
+  - id: UI_DOCUMENT_SCHOOL
+    text: Школьные Документы
+  - id: UI_DOCUMENT_MEMO
+    text: Записки
+  - id: UI_DOCUMENT_RUMOR
+    text: Слухи
+  - id: UI_DOCUMENT_GHOSTSTORY
+    text: Истории о Привидениях
+  - id: UI_SYSTEM_MENU
+    text: Система
+  - id: UI_SYSTEM_MENUDESC
+    text: Системное меню
+  - id: UI_SYSTEM_GAMEOPTION
+    text: Настройки игры
+  - id: UI_SYSTEM_EXITTOLOBBY
+    text: Выход
+  - id: UI_SYSTEM_GAMEOPTION_CONTROL
+    text: Управление
+  - id: UI_SYSTEM_GAMEOPTION_LANGUAGE
+    text: Язык
+  - id: UI_SYSTEM_GAMEOPTION_GRAPHIC
+    text: Графика
+  - id: UI_SYSTEM_GAMEOPTION_SOUND
+    text: Звук
+  - id: UI_SYSTEM_GAMEOPTION_SUPPORT
+    text: Поддержка
+  - id: UI_SYSTEM_CONTROL
+    text: '[Настройки Управления]'
+  - id: UI_SYSTEM_CONTROL_TYPE1
+    text: Режим Стандартный <color=#666666ff><size=16>Элемент управления, который наиболее близкий к оригиналу Белого Дня.</size></color>
+  - id: UI_SYSTEM_CONTROL_TYPE2
+    text: Режим Джойстика <color=#666666ff><size=16>Управления подходит для пользователей консолей.</size></color>
+  - id: UI_SYSTEM_CONTROL_TYPE3
+    text: Режим Одной рукой <color=#666666ff><size=16>Управление подходит для тех, кто предпочитает играть с одной рукой.</size></color>
+  - id: UI_SYSTEM_CONTROL_TYPE4
+    text: Режим Джойстик (бета) <color=#666666ff><size=16>Управления подходит для пользователей с джойстиком.</size></color>
+  - id: UI_SYSTEM_CONTROL_NUM1
+    text: Диапазон Движения
+  - id: UI_SYSTEM_CONTROL_NUM2
+    text: Спектр Зрения
+  - id: UI_SYSTEM_CONTROL_NUM3
+    text: Бег/Присесть кнопки
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN1
+    text: Переместить вид Горизонтально
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN2
+    text: Переместить вид Вертикально
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN3
+    text: Бег
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN4
+    text: Присесть/Стоят
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN5
+    text: Зажигалка Вкл/Выкл
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN6
+    text: Выбор/Отменить выбор
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN7
+    text: Инструкция
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN8
+    text: Отмена
+  - id: UI_SYSTEM_SENSITIVITY
+    text: '[Посмотреть Чувствительность]'
+  - id: UI_SYSTEM_TUTORIAL
+    text: '[Обучение]'
+  - id: UI_SYSTEM_TUTORIAL_TOGGLE
+    text: Больше не показывать обучение.
+  - id: UI_SYSTEM_PROLOGUE
+    text: '[Кинематика]'
+  - id: UI_SYSTEM_PROLOGUE_TOGGLE
+    text: Пропустить ролики при запуске игры.
+  - id: UI_SYSTEM_LANGUAGE
+    text: '[Язык]'
+  - id: UI_SYSTEM_LANGUAGE_KOREAN
+    text: 한국어
+  - id: UI_SYSTEM_LANGUAGE_ENGLISH
+    text: English
+  - id: UI_SYSTEM_LANGUAGE_FRENCH
+    text: Français
+  - id: UI_SYSTEM_LANGUAGE_GERMAN
+    text: Deutsch
+  - id: UI_SYSTEM_LANGUAGE_JAPANESE
+    text: 日本語
+  - id: UI_SYSTEM_LANGUAGE_SPANISH
+    text: Español
+  - id: UI_SYSTEM_LANGUAGE_ITALIAN
+    text: Italiano
+  - id: UI_SYSTEM_LANGUAGE_CHINESESIMPLIFIED
+    text: 中国 (简体)
+  - id: UI_SYSTEM_LANGUAGE_CHINESETRADITIONAL
+    text: 中國 (繁體)
+  - id: UI_SYSTEM_LANGUAGE_RESET
+    text: ※ Вы должны перезапустить игру, чтобы применить изменения языка.
+  - id: UI_SYSTEM_LANGUAGE_RESET_CONFIRM
+    text: Перезапуск
+  - id: UI_SYSTEM_LANGUAGE_RESET_POPUP
+    text: Вы должны перезапустить игру, чтобы применить изменения языка.<br>Вы бы хотели перезапустить игру для смены языка?
+  - id: UI_SYSTEM_GRAPHICS
+    text: '[Графические Настройки]'
+  - id: UI_SYSTEM_GRAPHICS_TOGGLE
+    text: Применить цветовой фильтр для кинематографического эффекта.
+  - id: UI_SYSTEM_BRIGHTNESS
+    text: '[Яркость Экрана]'
+  - id: UI_SYSTEM_BRIGHTNESS_DESC
+    text: Увеличение яркости может улучшить удовольствие от игры. (※Применяется только когда параметры цветового фильтра включены.)
+  - id: UI_SYSTEM_SOUNDS_EFFECT
+    text: '[Звуковые Эффекты Игры]'
+  - id: UI_SYSTEM_SOUNDS_EFFECT_TOGGLE
+    text: Управлять различными звуковыми эффектами в игре.
+  - id: UI_SYSTEM_SOUNDS_BGM
+    text: '[Фоновая Музыка Игры]'
+  - id: UI_SYSTEM_SOUNDS_BGM_TOGGLE
+    text: Проигрывать фоновую музыку для полного погружения в игру.
+  - id: UI_SYSTEM_SOUNDS_VOLUME
+    text: '[Регулятор Громкости]'
+  - id: UI_SYSTEM_USERID
+    text: '[ID пользователя]'
+  - id: UI_SYSTEM_USERID_DESC
+    text: Параметр <color= yellow>ID пользователя</color> проверяется для общения с клиентами.
+  - id: UI_SYSTEM_VERSION
+    text: '[Версия]'
+  - id: UI_SYSTEM_VERSION_DESC
+    text: Проверка <color= yellow>версии</color> игры установленной в настоящее время.
+  - id: UI_SYSTEM_QA
+    text: '[Обратная связь]'
+  - id: UI_SYSTEM_QA_DESC
+    text: Если есть серьезные проблемы, касающиеся игры, обращайтесь к нам.
+  - id: UI_SYSTEM_QA_SEND
+    text: Связь с нами
+  - id: UI_SYSTEM_RESOURCE_VALIDATE
+    text: '[Проверка Целостности Ресурса]'
+  - id: UI_SYSTEM_RESOURCE_VALIDATE_TOGGLE
+    text: При следующем запуске игры, ресурсы игры будут проверены на наличие ошибок. (Необходимо полностью закрыть приложение, перезапустите его.)
+  - id: UI_SYSTEM_EXITTOLOBBY_DESC
+    text: Если вы выходите из игры, все несохраненные данные будут потеряны.<br>Вы хотели бы вернуться на главный экран?
+  - id: UI_SYSTEM_EXITTOLOBBY_BUTTON
+    text: Выход
+  - id: UI_GAMEOVER
+    text: ИГРА ЗАКОНЧЕНА
+  - id: UI_GAMEOVER_DESC
+    text: Загрузка последней точки сохранения... пожалуйста, подождите.
+  - id: UI_GAMEOVER_VERYHARD_DESC1
+    text: Перезапуск с последней точки сохранения, используя фломастер.
+  - id: UI_GAMEOVER_VERYHARD_DESC2
+    text: 'Фломастер: {0}'
+  - id: UI_GAMEOVER_VERYHARD_DESC3
+    text: Ты умер.
+  - id: UI_SAVEGAME
+    text: Сохранить игру
+  - id: UI_SAVEGAME_DESC
+    text: Сохранить текущий прогресс.
+  - id: UI_POINTCAMERA_EXIT
+    text: Выход
+  - id: UI_POINTCAMERA_EXIT_DESC
+    text: Перейти в главное меню
+  - id: UI_POINTCAMERA_PREV
+    text: Назад
+  - id: UI_POINTCAMERA_PREV_DESC
+    text: Перейти к предыдущему
+  - id: MAP_MAINBUILDING1
+    text: Главное Здание 1
+  - id: MAP_MAINBUILDING2
+    text: Главное Здание 2
+  - id: MAP_NEWBUILDING
+    text: Новое Здание
+  - id: MAP_HALL
+    text: Аудитория
+  - id: MAP_MAZE
+    text: Лабиринт
+  - id: MAP_CERAMIC
+    text: '???'
+  - id: MAP_CLASSROOM2_1
+    text: 2-1
+  - id: MAP_CLASSROOM2_2
+    text: 2-2
+  - id: MAP_CLASSROOM2_3
+    text: 2-3
+  - id: MAP_CLASSROOM2_4
+    text: 2-4
+  - id: MAP_CLASSROOM2_5
+    text: 2-5
+  - id: MAP_CLASSROOM2_6
+    text: 2-6
+  - id: MAP_CLASSROOM2_7
+    text: 2-7
+  - id: MAP_CLASSROOM2_8
+    text: 2-8
+  - id: MAP_CLASSROOM2_9
+    text: 2-9
+  - id: MAP_CLASSROOM2_10
+    text: 2-10
+  - id: MAP_CLASSROOM2_11
+    text: 2-11
+  - id: MAP_CLASSROOM2_12
+    text: 2-12
+  - id: MAP_HOUSEKEEPINGROOM
+    text: Главный<br>Экономический<br>класс
+  - id: MAP_MACHINEROOM
+    text: Мастерская
+  - id: MAP_REGISTERROOM1
+    text: Студент<br>Управления записями
+  - id: MAP_REGISTERROOM2
+    text: Главный Офис
+  - id: MAP_MOUNTAINROOM
+    text: Туристический Клуб
+  - id: MAP_PHOTOROOM
+    text: Фотография<br>клуб
+  - id: MAP_PHYSICALROOM
+    text: Зал<br>комната<br>хранения
+  - id: MAP_STUDIO1
+    text: Радиорубка<br>комната
+  - id: MAP_STUDIO2
+    text: Записывающая<br>комната
+  - id: MAP_COUNSELINGROOM1
+    text: Психология<br>комната
+  - id: MAP_COUNSELINGROOM2
+    text: Психология <br>комната, Б
+  - id: MAP_PRINCIPALROOM
+    text: Директор<br>комната
+  - id: MAP_TEACHERSROOMA
+    text: Учительская 1
+  - id: MAP_TEACHERSROOMC1
+    text: Учительская 2
+  - id: MAP_TEACHERSROOMC2
+    text: Кафедра<br>гостиная
+  - id: MAP_NIGHTDUTYROOM
+    text: Сторож<br>комната
+  - id: MAP_DISPENSARY
+    text: Медсестры<br>комната
+  - id: MAP_WAREHOUSE
+    text: Находки<br>комната
+  - id: MAP_STUDENTROOM
+    text: Студенческий<br>отдел<br>комната
+  - id: MAP_MUSICROOM1
+    text: Музыкальный комната
+  - id: MAP_MUSICROOM2
+    text: Музыкальные товары<br>комната
+  - id: MAP_SCIENCEROOM1
+    text: Научная Лаборатория
+  - id: MAP_SCIENCEROOM2
+    text: Научные запасы<br>комната
+  - id: MAP_ARTROOM1
+    text: Комната Искусства
+  - id: MAP_ARTROOM2
+    text: Художественные принадлежности <br>комната
+  - id: MAP_BIOLOGYROOM1
+    text: Кабинет Биологии
+  - id: MAP_BIOLOGYROOM2
+    text: Поставки Биологии <br>комната
+  - id: MAP_MUSEUM
+    text: Кабинет Истории
+  - id: MAP_CHAIRMANROOM
+    text: Председателя<br>кабинет
+  - id: MAP_MUSICHALL
+    text: Музыкальная<br>студия<br>комната
+  - id: MAP_DANCINGROOM
+    text: Танцевальная Студия
+  - id: MAP_OCCULTROOM
+    text: Оккультный Клуб
+  - id: MAP_CAFETERIA
+    text: Магазин школы
+  - id: MAP_ELECTRICROOM
+    text: Электра<br>комната
+  - id: MAP_DRAWINGROOM
+    text: Арт-Студия
+  - id: MAP_LANGUAGEROOM
+    text: Кабинет Языка
+  - id: MAP_STAFFLAUNGE
+    text: Факультет<br>гостиной
+  - id: MAP_EARTHSCIENCEROOM
+    text: Научная Лаборатория Земли
+  - id: MAP_COMPUTERROOM
+    text: Компьютерная Лаборатория
+  - id: MAP_CLASSROOM3_1
+    text: 3-1
+  - id: MAP_CLASSROOM3_2
+    text: 3-2
+  - id: MAP_CLASSROOM3_3
+    text: 3-3
+  - id: MAP_CLASSROOM3_4
+    text: 3-4
+  - id: MAP_CLASSROOM3_5
+    text: 3-5
+  - id: MAP_CLASSROOM3_6
+    text: 3-6
+  - id: MAP_CLASSROOM3_7
+    text: 3-7
+  - id: MAP_CLASSROOM3_8
+    text: 3-8
+  - id: MAP_CLASSROOM3_9
+    text: 3-9
+  - id: MAP_CLASSROOM3_10
+    text: 3-10
+  - id: MAP_CLASSROOM3_11
+    text: 3-11
+  - id: MAP_CLASSROOM3_12
+    text: 3-12
+  - id: MAP_POOL
+    text: На Крыше (Бассейн)
+  - id: MAP_READINGROOM
+    text: Читальный Зал
+  - id: MAP_SEARCHROOM
+    text: Ресурсы<br>центр
+  - id: MAP_LIBRARY1
+    text: Библиотека 1
+  - id: MAP_LIBRARY2
+    text: Библиотека 2
+  - id: MAP_STOREHOUSE
+    text: Кладовая
+  - id: MAP_CONTROLROOM
+    text: Аудитория<br>диспетчерской<br>
+  - id: MAP_FITTINGROOMMAN
+    text: Раздевалка<br>мальчиков<br>
+  - id: MAP_FITTINGROOMWOMAN
+    text: Раздевалка <br>девочек<br>
+  - id: MAP_SHOWERROOMMAN
+    text: Душевая<br>мальчиков<br>
+  - id: MAP_SHOWERROOMWOMAN
+    text: Душевая<br>девочек<br>
+  - id: MAP_WAITINGROOM
+    text: Зеленая<br>комната
+  - id: MAP_ENTRANCE
+    text: Главный<br>вход
+  - id: MAP_STAGE
+    text: Этаж
+  - id: MAP_PROJECTIONROOM
+    text: Проекционная<br>будка
+  - id: MAP_STAND
+    text: Стенд
+  - id: MONOLOGUE_001
+    text: Я думаю, что есть кто-то в школе.
+  - id: MONOLOGUE_002
+    text: Я слышала открывающейся двери.
+  - id: MONOLOGUE_003
+    text: Мне нужно чем-нибудь перерезать провод...
+  - id: MONOLOGUE_004
+    text: Я не могу пройти. Там слишком много горячего пара.
+  - id: MONOLOGUE_005
+    text: Дверь не открывает почему-то.
+  - id: MONOLOGUE_006
+    text: Она заперта. Я не думаю, что я могу войти.
+  - id: MONOLOGUE_007
+    text: Странного вида дерево.
+  - id: MONOLOGUE_008
+    text: Дерево убило токсичными химикатами.
+  - id: MONOLOGUE_009
+    text: Су-янг исчезла. Интересно, куда она пошла.
+  - id: MONOLOGUE_100
+    text: Она сказала, все здания были подключены.
+  - id: MONOLOGUE_110
+    text: Мне нужен пароль, чтобы войти.
+  - id: MONOLOGUE_120
+    text: Я думаю, он пытается что-то сказать.
+  - id: MONOLOGUE_130
+    text: Это пара линз проверки зрения.
+  - id: MONOLOGUE_140
+    text: Это где-то подключается к аудитории.
+  - id: MONOLOGUE_150
+    text: Шаги звучат необычно.
+  - id: MONOLOGUE_160
+    text: Китайский иероглиф в центре каждого предложения означает что-то.
+  - id: MONOLOGUE_170
+    text: Я думаю, что поток воздуха здесь силен.
+  - id: MONOLOGUE_180
+    text: Это рабочий стол украшен традиционными узорами.
+  - id: MONOLOGUE_190
+    text: Они являются нежелательными вещами. Странно угнетает.
+  - id: MONOLOGUE_200
+    text: Это глиняная кукла матери.
+  - id: MONOLOGUE_210
+    text: Что-то в стерео. Мне нужен пульт дистанционного управления, чтобы включить его.
+  - id: MONOLOGUE_220
+    text: Кровь капает на фортепиано.
+  - id: MONOLOGUE_230
+    text: Что-то упало на пол.
+  - id: MONOLOGUE_240
+    text: Она была зарезана. Только часть изображения осталось.
+  - id: MONOLOGUE_250
+    text: Видимо, нужно найти керамику, которая изображена на фото.
+  - id: MONOLOGUE_260
+    text: Они выглядели озабоченно, что-то ищут.
+  - id: MONOLOGUE_270
+    text: Сухая глиняная кукла. Она выглядит очень хрупкой.
+  - id: MONOLOGUE_280
+    text: Я надеюсь, что душа может покоиться с миром.
+  - id: MONOLOGUE_290
+    text: Нелегко разговаривать с девушкой.
+  - id: MONOLOGUE_300
+    text: Хм... похоже, она волнуется за меня.
+  - id: MONOLOGUE_310
+    text: Она думает, что я идиот? Тьфу, я не знаю...
+  - id: MONOLOGUE_320
+    text: Я хочу уйти из этой школы сейчас...
+  - id: MONOLOGUE_330
+    text: Кассета не может быть воспроизведена, поскольку приводной ремень сломан.
+  - id: MONOLOGUE_340
+    text: Я надеюсь, что это передается тому, кто поверит, что он говорит.
+  - id: MONOLOGUE_350
+    text: Мой последний художественный класс, тоже пахло этим.
+  - id: MONOLOGUE_360
+    text: Хм... Инь-Янь Знак? Как раз то, что мне сейчас нужно.
+  - id: MONOLOGUE_370
+    text: Дверь заперта изнутри. Я думаю, я могу открыть его с чем-то.
+  - id: MONOLOGUE_380
+    text: Это большой кондиционер, который выглядит так словно может создать торнадо. Но это не покрутить.
+  - id: MONOLOGUE_390
+    text: Я волнуюсь за Джи-хеон.
+  - id: MONOLOGUE_400
+    text: Инь-Янь знак треснул! Он больше не излучают защитный свет!
+  - id: MONOLOGUE_410
+    text: Хм. Я думал, что физрук был на ночном дежурстве. В любом случае, что учитель выглядит знакомо...
+  - id: MONOLOGUE_420
+    text: Это просто стандартный клубный номер.
+  - id: MONOLOGUE_430
+    text: Единственный друг, который у меня был в моей прошлой школе был сыном владельца магазина. Я скучаю по нему.
+  - id: MONOLOGUE_440
+    text: Это, наверное, старый ключ... он внешне отличается от других.
+  - id: MONOLOGUE_450
+    text: Я чувствую холод, глубокую горечь. Надеюсь, душа отдыхает в тишине.
+  - id: MONOLOGUE_460
+    text: Это приведет к катастрофе. Я должен выйти из школы и быстро обратиться за помощью.
+  - id: MONOLOGUE_470
+    text: Что это?
+  - id: MONOLOGUE_480
+    text: Это рисунок птичьей клетки. Но внутри нет птицы.
+  - id: MONOLOGUE_490
+    text: Леденец на палочке? Что это значит?
+  - id: MONOLOGUE_500
+    text: Это рисунок плачущего ангела.
+  - id: MONOLOGUE_510
+    text: Муха похожа на Сон-А.
+  - id: MONOLOGUE_520
+    text: Эта муха похожа на Джи-Хен...
+  - id: MONOLOGUE_530
+    text: Кошка ищет своего котенка.
+  - id: MONOLOGUE_540
+    text: Крылья бабочки похожи по форме на человеческое тело.
+  - id: MONOLOGUE_550
+    text: Это рисунок жука-прилипалы, который что-то говорит.
+  - id: MONOLOGUE_560
+    text: Голубь на рисунке выглядит грустным.
+  - id: MONOLOGUE_570
+    text: Это рисунок крысы, которая держит огромные костыли.
+  - id: MONOLOGUE_580
+    text: 'Муха кого-то мне напоминает. '
+  - id: MONOLOGUE_590
+    text: СЯ... Это значит Со-Янг?
+  - id: MONOLOGUE_600
+    text: Если я использую огнетушитель, он может усилить пламя. Мне нужно мокрое одеяло или что-то в этом роде.
+  - id: MONOLOGUE_610
+    text: Это маленькое мокрое одеяло, которое с трудом закроет одного человека.
+  - id: MONOLOGUE_2010
+    text: Я должен найти способ добраться до Нового здания.
+  - id: MONOLOGUE_2020
+    text: Это тот же барьер, который я увидел в Главном здании 1.
+  - id: MONOLOGUE_2030
+    text: Я думаю там должно быть что-то в кабинете директора.
+  - id: MONOLOGUE_2040
+    text: Что-то скрыто в факультете Управления.
+  - id: MONOLOGUE_2050
+    text: Есть стопка невостребованных предметов сбора пыли.
+  - id: MONOLOGUE_2060
+    text: Есть глиняная кукла по форме напоминает женщину в деле.
+  - id: MONOLOGUE_2070
+    text: Компакт-диск в дисковод.
+  - id: MONOLOGUE_2080
+    text: Кто-то оторвал остальные картинки.
+  - id: MONOLOGUE_2090
+    text: Это изображение человека, который держит вазу.
+  - id: MONOLOGUE_2100
+    text: Если так будет продолжаться, здание может рухнуть!
+  - id: MONOLOGUE_1010
+    text: Я должен пойти в Младший класс 8.
+  - id: MONOLOGUE_1020
+    text: Я не могу больше встречаться таким образом.
+  - id: MONOLOGUE_1030
+    text: Я думаю, что есть кто-то еще в школе.
+  - id: MONOLOGUE_1040
+    text: Она обладает набором инструментов.
+  - id: MONOLOGUE_1050
+    text: Окна, вентиляционного отверстия с защитной сеткой.
+  - id: MONOLOGUE_1060
+    text: Это ее классный руководитель.
+  - id: MONOLOGUE_1070
+    text: Она заперта. Я не могу войти. Я должен просто уйти?
+  - id: MONOLOGUE_1080
+    text: Со-янг обронила что-то.
+  - id: MONOLOGUE_1090
+    text: Растения на этаже ниже полностью заблокировала дверь.
+  - id: MONOLOGUE_1100
+    text: Я просто услышал страшный звук.
+  - id: MONOLOGUE_1110
+    text: Все исчезло без следа.
+  - id: MONOLOGUE_1120
+    text: Ничего. Я не вижу Со-янг, либо.
+  - id: MONOLOGUE_1130
+    text: Я не могу пройти мимо. Там слишком много горячего пара.
+  - id: MONOLOGUE_1140
+    text: Дверь не открывается!
+  - id: MONOLOGUE_1150
+    text: Это странного вида дерево.
+  - id: MONOLOGUE_1160
+    text: Дверь в зал закрыта.
+  - id: MONOLOGUE_1170
+    text: Есть лестница для строительных работ.
+  - id: MONOLOGUE_1180
+    text: Дверь не может быть использована с этой стороны.
+  - id: MONOLOGUE_3010
+    text: Водный барьер блокирует путь к аудитории.
+  - id: MONOLOGUE_3020
+    text: Мне нужен ключ соответствующего цвета, чтобы открыть дверь.
+  - id: MONOLOGUE_3030
+    text: Я думаю, что могу играть маской ленты факультет отделение если я смогу починить кассетный плеер.
+  - id: MONOLOGUE_3040
+    text: Этот магнитофон не работает. Его приводной ремень был срезан.
+  - id: MONOLOGUE_3050
+    text: Я вижу красную карточку в зеркале.
+  - id: MONOLOGUE_3060
+    text: Дверная цепочка внутри. Я думаю, я могу открыть его с чем-то.
+  - id: MONOLOGUE_3070
+    text: Кондиционер не реагирует. Я думаю, что здесь я бессилен.
+  - id: MONOLOGUE_3080
+    text: Я вижу, ламинированная доска на полке, но это слишком высоко. Я не могу дотянуться.
+  - id: MONOLOGUE_3090
+    text: Джи-Хен пропал!
+  - id: MONOLOGUE_3100
+    text: Я услышал звук чего-то разбитого, поступающий из главного зала.
+  - id: MONOLOGUE_3110
+    text: Там есть дренажный клапан на другой стороне бассейна.
+  - id: MONOLOGUE_3120
+    text: Я надеюсь, что это передается тому, кто поверит, что он говорит.
+  - id: MONOLOGUE_4010
+    text: Зловещая тишина заполняет зал.
+  - id: MONOLOGUE_4020
+    text: Выход не открывается.
+  - id: MONOLOGUE_4030
+    text: Есть кто на сцене.
+  - id: MONOLOGUE_4040
+    text: Машина выходит из-под контроля. Это выглядит опасно.
+  - id: MONOLOGUE_4050
+    text: Я думаю, открыл запертую дверь.
+  - id: MONOLOGUE_4060
+    text: Есть огнетушитель.
+  - id: MONOLOGUE_5000
+    text: Я не могу взять маркер. Мощность барьера должны быть восстановлены в первую очередь.
+  - id: MONOLOGUE_5010
+    text: Я взял маркер.
+  - id: MONOLOGUE_6000
+    text: С помощью этого растворителя я бы мог выяснить, что это за пятно.
+  - id: MONOLOGUE_6010
+    text: 'Что это за школа?! '
+  - id: MONOLOGUE_6020
+    text: Книга? Там была книга... Это та книга, которую искала Со-Янг?
+  - id: MONOLOGUE_6030
+    text: Я слышал эту песню раньше... Она звучит из кабинета психолога?
+  - id: MONOLOGUE_6040
+    text: Учитель музыки, которая совершила самоубийство? Что я вижу здесь?
+  - id: MONOLOGUE_6050
+    text: Среди учеников была популярна игра, где нужно искать вещи умершего учителя музыки.<br>Может мне удастся что-то найти, если у меня будет какая-нибудь вещь учителя музыки!
+  - id: MONOLOGUE_6060
+    text: Мне кажется, я видел это лицо раньше...
+  - id: MONOLOGUE_6070
+    text: Это, должно быть, потерянные вещи... За каждой вещью стоит целая история.
+  - id: MONOLOGUE_6080
+    text: Ваза? Может в ней есть что-то важное? Нужно выяснить.
+  - id: MONOLOGUE_6090
+    text: Я никогда не видел таких замков раньше. Как мне его открыть?
+  - id: MONOLOGUE_6100
+    text: Пятно было в основном здании 1.
+  - id: MONOLOGUE_6110
+    text: Я думаю, нужно исследовать пятно прямо сейчас.
+  - id: MONOLOGUE_6120
+    text: Сначала нужно найти вещь учителя музыки.
+  - id: MONOLOGUE_6130
+    text: В этой вазе что-то есть.
+  - id: MONOLOGUE_6140
+    text: На всякий случай нужно найти ингалятор от астмы.
+  - id: MONOLOGUE_6150
+    text: Ингалятор от астмы? Она — мать Сон-А!
+  - id: MONOLOGUE_6160
+    text: Мне нужно что-то сделать, прежде чем они сделают это.
+  - id: MONOLOGUE_6170
+    text: Это место выглядит как-то иначе.
+  - id: MONOLOGUE_6180
+    text: Прощай... Надеюсь, ты будешь счастлив в следующей жизни...
+  - id: MONOLOGUE_6190
+    text: Сонбэ, мы же скоро снова увидимся?
+  - id: MONOLOGUE_6200
+    text: Уф... Что-то мне неспокойно. По многим причинам.
+  - id: MONOLOGUE_UNSAFE
+    text: Я не думаю, что это безопасно сейчас...
+  - id: MONOLOGUE_SAVED
+    text: Я оставил записи на доске объявлений.
+  - id: MONOLOGUE_DARKNESS
+    text: Я ничего не вижу. Слишком темно.
+  - id: MONOLOGUE_CLOSE_GAS_VALVE
+    text: Закрыл клапан.
+  - id: MONOLOGUE_SIREN
+    text: Сработала сигнализация. Я должен сдать ее как можно быстрее!
+  - id: MONOLOGUE_LOCKED
+    text: Она заперта.
+  - id: MONOLOGUE_UNLOCKED
+    text: Я отпер ее.
+  - id: MONOLOGUE_NO_COIN
+    text: У меня нет монет.
+  - id: MONOLOGUE_NOTHING_HAPPENS
+    text: Ничего не произошло.
+  - id: MONOLOGUE_SAVE_CANT
+    text: У меня нет на это времени.
+  - id: MONOLOGUE_SCENECHANGE_CANT
+    text: У меня еще есть незаконченные дела.
+  - id: MONOLOGUE_TOOLBOX
+    text: Содержание набора инструментов разбросаны. Есть много различных типов инструментов.
+  - id: MONOLOGUE_POTTERYBOX
+    text: Это коробка, содержащая личные вещи.
+  - id: MONOLOGUE_PICTURE_COMPLETE
+    text: Я думаю, что я видел, что-то перед вазой...
+  - id: MONOLOGUE_CLOCK_CHECK
+    text: Часы указывает на неправильное время.
+  - id: MONOLOGUE_CLOCK_BASE
+    text: Я думаю, что часы показывают то же самое время, как на картинке.
+  - id: MONOLOGUE_PICTURE_GREENWICH
+    text: Это снимок Королевской обсерватории в Гринвиче.
+  - id: MONOLOGUE_PICTURE_TIANANMEN
+    text: Это фотография площади Тяньаньмэнь в Пекине.
+  - id: MONOLOGUE_PICTURE_CREMLIN
+    text: Это фотография Кремля в Москве.
+  - id: MONOLOGUE_PICTURE_PENTAGON
+    text: Это фото Пентагона в Вашингтоне.
+  - id: MONOLOGUE_FLOWER
+    text: Есть хризантемы здесь оставили для кого-то.
+  - id: MONOLOGUE_FIND_HOLE
+    text: Есть дырка. Я не могу понять ее назначение.
+  - id: MONOLOGUE_SOMETHING_DROPPED
+    text: Что-то упало.
+  - id: MONOLOGUE_LOCKED_BY_SOMETHING
+    text: Она заперта.
+  - id: MONOLOGUE_FLOOR_BROKEN
+    text: Пол треснул.
+  - id: MONOLOGUE_DOCUMENT_PRINTED
+    text: Документ был напечатан.
+  - id: MONOLOGUE_NOT_WORK
+    text: Это не работает...
+  - id: MONOLOGUE_VALVE_NOT_ROTATE
+    text: Клапан не поворачивать.
+  - id: MONOLOGUE_TAEGUEK_SHINED
+    text: Инь-Янь знак излучает свет.
+  - id: MONOLOGUE_DONOT_MOVE
+    text: Я не могу пошевелить ногами.
+  - id: MONOLOGUE_ELECTRIC_DANGER
+    text: Высокое напряжение проходит через него. Это слишком опасно трогать.
+  - id: COLLECTION_GHOST_NAME_01
+    text: Мстительный дух Домоправительницы
+  - id: COLLECTION_GHOST_NAME_02
+    text: Невидимый Голос
+  - id: COLLECTION_GHOST_NAME_03
+    text: Ложь Студентка
+  - id: COLLECTION_GHOST_NAME_04
+    text: Женщина в раздевалке
+  - id: COLLECTION_GHOST_NAME_05
+    text: Кровожадное Дерево
+  - id: COLLECTION_GHOST_NAME_06
+    text: Душа младенца
+  - id: COLLECTION_GHOST_NAME_07
+    text: Девушка за окном
+  - id: COLLECTION_GHOST_NAME_08
+    text: Голод Духа
+  - id: COLLECTION_GHOST_NAME_09
+    text: Девушка со скрытым лицом
+  - id: COLLECTION_GHOST_NAME_10
+    text: Призрак Библиотеки
+  - id: COLLECTION_GHOST_NAME_11
+    text: Малыш решении задачи
+  - id: COLLECTION_GHOST_NAME_12
+    text: Привидения-Призрак Глава
+  - id: COLLECTION_GHOST_NAME_13
+    text: Призрак Посещаемости
+  - id: COLLECTION_GHOST_NAME_14
+    text: У меня в зеркале
+  - id: COLLECTION_GHOST_NAME_15
+    text: Девочки, кто стал пауком
+  - id: COLLECTION_GHOST_NAME_16
+    text: Лицо ненависти
+  - id: COLLECTION_GHOST_NAME_17
+    text: Женщина, Которая Повесилась
+  - id: COLLECTION_GHOST_NAME_18
+    text: Гостиная Манекена
+  - id: COLLECTION_GHOST_NAME_19
+    text: Тень в воде
+  - id: COLLECTION_GHOST_NAME_20
+    text: Бабушка-Призрак
+  - id: UI_POPUP_FACEBOOK_COMFIRM_ALERT
+    text: Не установлен Facebook. Пожалуйста, установите Facebook и попробуйте снова.
+  - id: UI_POPUP_TWITTER_COMFIRM_ALERT
+    text: Твиттер не установлено. Пожалуйста, установите Twitter и попробовать снова.
+  - id: UI_POPUP_DOWNLOAD_START
+    text: Ваши покупки сейчас скачиваю.
+  - id: UI_POPUP_DOWNLOAD_COMPLETE
+    text: Загрузка завершена.
+  - id: UI_POPUP_SAVE_ALERT1
+    text: Вы действительно хотите сохраниться на этом слоте?
+  - id: UI_POPUP_SAVE_ALERT2
+    text: '[{0} {1:D02}:{2:D02}:{3:D02}] уже существует.<br>Хотели бы перезаписать данные?'
+  - id: UI_INTRO_TOUCH
+    text: Нажмите на любую кнопку.
+  - id: GOOGLE_CS_CONTENT
+    text: 'Привет Roi Games!<br><br>Контакт с клиентом электронной почты: {0}<br><br>Укажите следующую информацию и ваш запрос.<br><br>1. ID пользователя<br>В 2. Ваше мобильное устройство<br>3. Версия прошивки iOS<br>4. Текущая версия игры<br>5. Магазине покупки<br>6. Адрес электронной почты, чтобы получать ответы на него<br>7. Детали <br><br>Если у вас есть какие-либо вопросы или предложения, пожалуйста, не стесняйтесь обращаться к нам. Мы внимательно изучим ваш запрос и ответим Вам как можно скорее.<br>Спасибо.'
+  - id: SEND_MAIL
+    text: Отправить по электронной почте
+  - id: MAIL_TITLE_GOOGLE
+    text: '[Google]_The School : White Day Inquiry'
+  - id: MAIL_TITLE_APPLE
+    text: '[Apple]_The School : White Day Inquiry'
+  - id: CS_CONTENT
+    text: '1. ID пользователя: {0}<br>2. Информация о мобильном устройстве: {1}<br>3. Версия прошивки операционной системы: {2}<br>4. Текущая версия игры: {3} <br>5. Магазин: <br>6. Адрес электронной почты, чтобы получать ответы: <br> 7. Детали запроса:'
+  - id: UI_CINEMA_BUTTON_SKIP
+    text: Пропустить
+  - id: UI_RESULT_TITLE_TEXT
+    text: Результаты игры
+  - id: UI_RESULT_FACTOR_TEXT_01
+    text: Общее время игры
+  - id: UI_RESULT_FACTOR_TEXT_02
+    text: Общий счет
+  - id: UI_RESULT_FACTOR_TEXT_03
+    text: Число урона
+  - id: UI_RESULT_FACTOR_TEXT_04
+    text: Вещей
+  - id: UI_RESULT_FACTOR_TEXT_05
+    text: Документов
+  - id: UI_RESULT_FACTOR_TEXT_06
+    text: Встреча Призраков
+  - id: UI_RESULT_FACTOR_TEXT_07
+    text: Фломастеры
+  - id: UI_RESULT_BUTTON_TEXT_01
+    text: Перейти в Главное меню
+  - id: UI_RESULT_BUTTON_TEXT_02
+    text: Хорошо
+  - id: UI_RESULT_BUTTON_TEXT_03
+    text: Поделиться
+  - id: UI_CINEMA_PROLOGUE_TEXT_01
+    text: Легко, пусть время проходит
+  - id: UI_CINEMA_PROLOGUE_TEXT_02
+    text: без задних мыслей.
+  - id: UI_CINEMA_PROLOGUE_TEXT_03
+    text: Зеленая трава, ярко светит солнце.
+  - id: UI_CINEMA_PROLOGUE_TEXT_04
+    text: И ее...
+  - id: UI_CINEMA_PROLOGUE_TEXT_05
+    text: Со-янг Хан, Младшего класса 8.
+  - id: UI_CINEMA_PROLOGUE_TEXT_06
+    text: Она была там.
+  - id: UI_CINEMA_INTRO_TEXT_01
+    text: Я просто хотел дать ей маленький подарок.
+  - id: UI_CINEMA_INTRO_TEXT_02
+    text: Вместе с ней потерял дневник...
+  - id: UI_CINEMA_INTRO_TEXT_03
+    text: Но
+  - id: UI_CINEMA_INTRO_TEXT_04
+    text: Я поел в школе.
+  - id: UI_LOADSCENE_TIP
+    text: Чтобы сделать игру более интересной, используйте наушники.
+  - id: UI_LOADSCENE_DESC
+    text: Загрузка игры...
+  - id: NOTICE_LOCATION_MAINBUILDING1_TEXT1
+    text: Главное Здание, Секция 1
+  - id: NOTICE_LOCATION_MAINBUILDING1_TEXT2
+    text: 13 марта 10:00 вечера
+  - id: NOTICE_LOCATION_MAINBUILDING2_TEXT1
+    text: Главное Здание, Секция 2
+  - id: NOTICE_LOCATION_MAINBUILDING2_TEXT2
+    text: 13 марта 11:01 вечера
+  - id: NOTICE_LOCATION_NEWBUILDING2_TEXT1
+    text: Новое Здание
+  - id: NOTICE_LOCATION_NEWBUILDING2_TEXT2
+    text: 14 марта, 12:04 утра
+  - id: NOTICE_LOCATION_HALL_TEXT1
+    text: Аудитория
+  - id: NOTICE_LOCATION_HALL_TEXT2
+    text: 14 марта 04:26 утра
+  - id: NOTICE_LOCATION_MAZE_TEXT1
+    text: Лабиринт
+  - id: NOTICE_LOCATION_MAZE_TEXT2
+    text: 14 марта ??:??
+  - id: NOTICE_LOCATION_CERAMIC_TEXT1
+    text: '???'
+  - id: NOTICE_LOCATION_CERAMIC_TEXT2
+    text: 14 марта ??:??
+  - id: UI_LOBBY_CODE_EMPTY
+    text: Пожалуйста, введите код и снова попробуйте.
+  - id: UI_TUTORIAL_CONTROL_BUTTON
+    text: Выберите "Управление"
+  - id: UI_TUTORIAL
+    text: '[<color=#7c973a>Обучение</color>]'
+  - id: MAP_TOILETMAN
+    text: Туалет Мальчиков
+  - id: MAP_TOILETWOMAN
+    text: Туалет Девочек
+  - id: UI_POPUP_CLOUD_SAVE_CONFIRM
+    text: '{2}/{1}/{0} {3}:{4}:{5}<br><br>Сохранить текущий прогресс игры в облаке?<br>Любые данные в облаке будут перезаписаны. <br>※ Пожалуйста, не закрыть приложение или отключите от сети, пока игра не была сохранена.'
+  - id: UI_POPUP_CLOUD_SAVE_COMPLETE
+    text: Сохранение завершено.<br>Вы теперь можете использовать функцию облако, чтобы продолжить игру на других устройствах.<br>※ Это может занять несколько секунд для синхронизации.
+  - id: UI_POPUP_CLOUD_SAVE_FAIL
+    text: Не удалось сохранить.<br>Пожалуйста попробуйте еще раз со стабильным сетевым подключением.
+  - id: UI_POPUP_CLOUD_LOAD_CONFIRM
+    text: '{2}/{1}/{0} {3}:{4}:{5}<br><br>Загрузить сохраненную игру?<br> Внимание※. Игровые данные на этом устройстве будут удалены.'
+  - id: UI_POPUP_CLOUD_LOAD_COMPLETE
+    text: Загружаются сохранения.
+  - id: UI_POPUP_CLOUD_LOAD_FAIL
+    text: Не удалось загрузить.<br>Пожалуйста попробуйте еще раз со стабильным сетевым подключением.
+  - id: UI_POPUP_CLOUD_LOAD_NODATA
+    text: Нет сохранений игры на облаке.
+  - id: UI_SAVE
+    text: Сохранить
+  - id: UI_REPLAY_ENDING
+    text: Повтор Концовки
+  - id: UI_RANK_CARD_DESC
+    text: Добраться до карты,<br>чтобы использовать костюм.
+  - id: UI_MAX_PLAY_SCORE
+    text: Лучший Результат Игры
+  - id: UI_SETTING_RESTORE_BUTTON
+    text: Восстановление Запроса
+  - id: UI_POPUP_CLOUD_LOAD_WRONGDATA
+    text: Эти данные сохранены не полностью.<br>Пожалуйста попробуйте еще раз через некоторое время, чтобы сохранить его полностью.
+  - id: UI_POPUP_CLOUD_IOS_NOTLOGIN
+    text: Не можем получить доступ к iCloud.<br>Пожалуйста, проверьте настройки приложения.
+  - id: UI_SYSTEM_LANGUAGE_SUBTITLE
+    text: Язык Субтитров
+  - id: UI_SYSTEM_LANGUAGE_VOICE
+    text: Язык Озвучки
+  - id: UI_SYSTEM_LANGUAGE_VOICE_KOREAN
+    text: Корейский
+  - id: UI_SYSTEM_LANGUAGE_VOICE_ENGLISH
+    text: английский
+  - id: UI_SYSTEM_LANGUAGE_VOICE_CHINESE
+    text: Китайский
+  - id: UI_SYSTEM_LANGUAGE_BUTTON_DELETE
+    text: Удалить Ресурс
+  - id: UI_SYSTEM_LANGUAGE_DELETE_POPUP
+    text: Удаление неиспользуемых языков.<br><br>※ Удаленные языки должны быть повторно загружены, чтобы использоваться в игре.
+  - id: UI_SYSTEM_LANGUAGE_DELETE_CONFIRM
+    text: Удалить
+  - id: UI_SYSTEM_LANGUAGE_DELETE_CANCLE
+    text: Отменить
+  - id: UI_FIGURE_DETAIL_TITLE
+    text: Изучить
+  - id: UI_FIGURE_DETAIL_DESC
+    text: Изучить старые коллекции фигурок.
+  - id: IABHELPER_-500
+    text: Отменено, потому что не смогли найти историю покупок.
+  - id: UI_CHECKPOINT_ENDING
+    text: Концовка
+  - id: BEACON_OBJ_SWITCHBOX_LIGHT
+    text: Свет
+  - id: BEACON_OBJ_SWITCHBOX_POWER
+    text: Сила
+  - id: BEACON_OBJ_SWITCHBOX_ALARM
+    text: Охранная Сигнализация
+  - id: UI_SYSTEM_GRAPHICS_LOWSPEC_TOGGLE
+    text: Запуск игры в Производительном режиме.
+  - id: UI_SYSTEM_GRAPHICS_RESET_POPUP
+    text: Вы должны перезапустить игру, чтобы применить изменения.<br>Хотите перезагрузить игру?
+  - id: UI_SYSTEM_RESOLUTION
+    text: '[Настройки Разрешения]'
+  - id: UI_SYSTEM_RESOLUTION_NATIVE
+    text: Родное Разрешение
+  - id: UI_SYSTEM_FRAMERATE
+    text: '[Настройки Частоты Кадров]'
+  - id: UI_SYSTEM_LANGUAGE_RUSSIAN
+    text: Pусский
+  - id: UI_BACK
+    text: Назад
+  - id: UI_ENDGAME
+    text: '[<color=#7c973a>Выход</color>]'
+  - id: UI_SYSTEM_GAMEOPTION_KEYBOARD
+    text: Клавиатура
+  - id: UI_SYSTEM_GAMEOPTION_JOYPAD
+    text: контроллер
+  - id: UI_SYSTEM_SCREENRESOLUTION
+    text: Разрешение экрана
+  - id: UI_SYSTEM_FILTER
+    text: Использовать экранный фильтр
+  - id: UI_SYSTEM_ANTIALIASING
+    text: Использовать сглаживание
+  - id: UI_SYSTEM_SHADOW
+    text: Показывать тени
+  - id: UI_SYSTEM_DYNAMICLIGHTING
+    text: Использовать динамическое освещение
+  - id: UI_SYSTEM_DEPTHOFFIELD
+    text: Использовать глубину резкости
+  - id: UI_SYSTEM_BLOOM
+    text: Использовать эффект свечения
+  - id: UI_SYSTEM_SSAO
+    text: Использовать SSAO
+  - id: UI_SYSTEM_GAMMA
+    text: Настроить яркость экрана
+  - id: UI_SYSTEM_MASTERSOUND
+    text: Воспроизводить звуки директора школы
+  - id: UI_SYSTEM_SFXSOUND
+    text: Воспроизводить звуковые эффекты
+  - id: UI_SYSTEM_SFXSOUNDVOLUME
+    text: Громкость звуковых эффектов
+  - id: UI_SYSTEM_MASTERSOUNDVOLUME
+    text: Громкость звуков директора школы
+  - id: UI_SYSTEM_MUSICSOUND
+    text: Воспроизводить фоновые звуки
+  - id: UI_SYSTEM_MUSICSOUNDVOLUME
+    text: Громкость фоновых звуков
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_FORWARD
+    text: Двигаться вперед
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_BACKWARD
+    text: Двигаться назад
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_LEFT
+    text: Двигаться налево
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_RIGHT
+    text: Двигаться направо
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_RUN
+    text: Бежать
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_HIDE
+    text: Присесть/Нагнуться/Стоять
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_LIGHTER
+    text: Подсветка вкл./выкл.
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_CANCEL
+    text: Отмена
+  - id: UI_ON
+    text: Вкл.
+  - id: UI_OFF
+    text: Выкл.
+  - id: UI_CONTROLMENU_MOVETAB
+    text: Переключить вкладку
+  - id: UI_CONTROLMENU_SELECT
+    text: Выбрать
+  - id: UI_CONTROLMENU_CANCEL
+    text: Отмена
+  - id: UI_CONTROLMENU_SETTINGS
+    text: Настройки
+  - id: UI_CONTROLMENU_OPENMENU
+    text: Меню
+  - id: UI_CONTROLMENU_MOVEMENT
+    text: Вперед
+  - id: UI_CONTROLMENU_ROTATION
+    text: Вращать
+  - id: UI_CONTROLMENU_OPENBACKPACK
+    text: Открыть сумку
+  - id: UI_CONTROLMENU_USE
+    text: Использовать
+  - id: UI_CONTROLMENU_LIGHTER
+    text: Подсветка
+  - id: UI_SHOWALL
+    text: Смотреть все
+  - id: CHARACTER_7
+    text: Чжи-Мин Ю
+  - id: MONOLOGUE_NOMAGICPEN
+    text: Мне нужен фломастер, чтобы сделать запись.
+  - id: UI_SYSTEM_GRAPHICS_PROLOGUE
+    text: Посмотреть пролог
+  - id: UI_SYSTEM_GRAPHICS_FULLSCREEN
+    text: Полноэкранный режим
+  - id: UI_BONUS_COSTUMES_COLLECTION
+    text: Коллекция костюмов
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT1
+    text: Проверить все концовки для Со-янг
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT2
+    text: Проверить все концовки для Сеон-ох
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT3
+    text: Проверить все концовки для Чжи-хен
+  - id: 'UI_BONUS_COSTUMES_TERMS '
+    text: Условия получения
+  - id: UI_RESULT_FACTOR_TEXT_08
+    text: Лучшее время игры
+  - id: UI_DOCUMENT_DIARY
+    text: Дневник
+  - id: UI_DOCUMENT_SPELL
+    text: Заклинание
+  - id: UI_DOCUMENT_NOTE
+    text: Заметки
+  - id: UI_SYSTEM_CHARACTERSHADOW
+    text: Создается тень персонажа.
+  - id: UI_BONUS_COSTUMES_COLLECTION_DESC
+    text: Добавьте описание коллекции бонусных костюмов.
+  - id: UI_CONTROLMENU_CAMERA
+    text: Вращать
+  - id: UI_SYSTEM_VIRTUALCURSORSPEED
+    text: Скорость курсора
+  - id: UI_SYSTEM_JOYPADHORIZONTAL
+    text: Скорость по горизонтали
+  - id: UI_SYSTEM_JOYPADVERTICAL
+    text: Скорость по вертикали
+  - id: UI_SYSTEM_HORIZONTALREVERSAL
+    text: Отразить по горизонтали
+  - id: UI_SYSTEM_VERTIVALREVERSAL
+    text: Отразить по вертикали
+  - id: UI_GAMEOVER_DESC1
+    text: Вы ушли слишком далеко от Ын-ми. Загрузка последней точки сохранения...
+  - id: UI_GAMEOVER_DESC2
+    text: Вы слишком отстали от тени. Загрузка последней точки сохранения...
+  - id: UI_GOTOMAINMENU
+    text: Главная
+  - id: TITLE_NAME
+    text: White Day:a labyrinth named school
+  - id: SYSTEM_SAVE_DATA
+    text: Сохранение данных системы
+  - id: AUTO_SAVE_DATA
+    text: Автосохранение данных
+  - id: AVAILABLE_SPACE_OVER_ERROR_TITLE
+    text: Сохранить
+  - id: AVAILABLE_SPACE_OVER_ERROR_MESSAGE
+    text: Недостаточно места на диске. Для того, чтобы начать игру, освободите как минимум 30 МБ памяти.
+  - id: UI_COSTUME_CONFIRM_WEAR
+    text: Одеть
+  - id: UI_COSTUME_CONFIRM_GET
+    text: Взять
+  - id: UI_COSTUME_CONFIRM_BUY
+    text: Купить
+  - id: UI_COSTUME_LOCKED_GUIDE_GET
+    text: "Данный костюм \nможно найти. \nНажмите {0},  \nчтобы перейти в Собранное."
+  - id: UI_COSTUME_LOCKED_GUIDE_BUY
+    text: "Данный костюм \nдоступен после покупки. \nНажмите {0}, \nчтобы перейти в Магазин."
+  - id: UI_CONFIG_GRAPHIC_GAMMA_FEW
+    text: Не видно
+  - id: UI_CONFIG_GRAPHIC_GAMMA_AFEW
+    text: Почти не видно
+  - id: UI_CONFIG_GRAPHIC_GAMMA_GUIDE
+    text: "От яркости экрана зависит и атмосфера игры.\nС помощью данного изображений вы можете настроить темные и светлые тона в игре.\nНастройте так, чтобы левая часть была затемнена, а символ справа было лишь смутно видно."
+  - id: UI_COLLECTION_GHOST_DOC_READ
+    text: Читать
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT4
+    text: Проверить все концовки за Чжимин
+  - id: UI_CONFIG_SAVE
+    text: Сохранение измененных настроек...
+  - id: UI_CONFIG_KEYSETTING_DEFAULT
+    text: По умолчанию
+  - id: UI_LOADING_COMMENT_1
+    text: Шансы не быть пойманным уборщиком увеличиваются, когда вы на корточках.
+  - id: UI_LOADING_COMMENT_2
+    text: Спрятавшись за столом, вы можете избежать зоркого взгляда уборщика.
+  - id: UI_LOADING_COMMENT_3
+    text: Если бежать слишком долго, может у вас может закружиться голова. Отдохните.
+  - id: UI_LOADING_COMMENT_4
+    text: Восстанавливайте силы и сердцебиение с помощью лекарств.
+  - id: UI_LOADING_COMMENT_5
+    text: Документы, спрятанные по всей школе, полны секретами школы и советами по прохождению.
+  - id: UI_LOADING_COMMENT_6
+    text: Зажигалка освещает темные места без риска быть пойманным уборщиком, однако ее огонь может осветить лишь небольшое пространство.
+  - id: UI_LOADING_COMMENT_7
+    text: Зажигалка гаснет, когда вы бежите.
+  - id: UI_LOADING_COMMENT_8
+    text: Уборщик может заподозрить неладное и погнаться за вами, если вы включите свет в аудитории или побежите.
+  - id: UI_LOADING_COMMENT_9
+    text: Игра не может быть сохранена, если включен таймер.
+  - id: UI_LOADING_COMMENT_10
+    text: Уборщику нужно несколько секунд для того, чтобы открыть дверь. Закрыв за собой дверь, вы можете выиграть время.
+  - id: UI_LOADING_COMMENT_11
+    text: На уровне сложности Легкий и ниже вы будете получать текстовые сообщения, которые помогут в прохождении.
+  - id: UI_LOADING_COMMENT_12
+    text: Вы будете натыкаться на прячущихся в недрах школы призраков только на уровне сложности не ниже Тяжелого.
+  - id: UI_LOADING_COMMENT_13
+    text: Вы легко можете убежать от призрака Глава, который вечно слоняется по школе.
+  - id: UI_LOADING_COMMENT_14
+    text: Благосклонность девочек зависит от того, какие решения вы принимаете, а также от того, что вы им говорите.
+  - id: UI_LOADING_COMMENT_15
+    text: От ваших решений и благосклонности девочек зависит концовка.
+  - id: UI_LOADING_COMMENT_16
+    text: Между Главным зданием и аудиторией когда-то находился пруд.
+  - id: UI_LOADING_COMMENT_17
+    text: Школа была посторена на благоприятном по фен-шую месте.
+  - id: UI_LOADING_COMMENT_18
+    text: Когда-то, вплоть до недавнего времени, в школе было общежитие.
+  - id: UI_LOADING_COMMENT_19
+    text: Когда-то из Ёнту пытались сделать школу искусств, но ничего не получилось.
+  - id: UI_LOADING_COMMENT_20
+    text: Среди учеников бытует мнение, что по коридору, соединяющему Главное и Новое здания, лучше не ходить.
+  - id: UI_LOADING_COMMENT_21
+    text: Один из уборщиков повредил ногу из-за несчастного случая, произошедшего в школе.
+  - id: UI_LOADING_COMMENT_22
+    text: Тринадцать раз молния попадала в громоотвод на крыше Главного здания.
+  - id: UI_LOADING_COMMENT_23
+    text: В Главном здании 1 на третьем и четвертом этажах учатся восьмиклассники.
+  - id: UI_LOADING_COMMENT_24
+    text: Говорят, Главное здание школы когда-то использовалось отнюдь не в образовательных целях.
+  - id: UI_LOADING_COMMENT_25
+    text: Школьное предание гласит, что в первое время после того, как построили школу, происходило множество необъяснимых аварий и несчастных случаев.
+  - id: UI_LOADING_COMMENT_26
+    text: Среди членов Оккультного клуба ходят легенды, что по школе бродят не менее двадцати призраков.
+  - id: UI_LOADING_COMMENT_27
+    text: Прошел слух, что в подвалах школы запрятан лабиринт.
+  - id: UI_LOADING_COMMENT_28
+    text: Все знают, что физрук по уши втрескался в медсестру, но та не отвечает ему взаимностью.
+  - id: UI_LOADING_COMMENT_29
+    text: За последние пару лет сменилось несколько учителей музыки. Сейчас же это место вакантно.
+  - id: UI_LOADING_COMMENT_30
+    text: Учитель китайского языка увлекается ориентологией и исследует Теорию пяти элементов.
+  - id: UI_CONFIG_CONTROLS_TUTORIAL
+    text: Пройти обучение
+  - id: UI_INGAME_CATEGORY_MENU_POUSE
+    text: Пауза
+  - id: BUY_CLOTH_PS4
+    text: '"PlayStation Store"'
+  - id: UI_CONFIG_CONTROLS_VIBRATION
+    text: Вибрация
+  - id: UI_CONTROLMENU_SKIP
+    text: Пропустить
+  - id: UI_CONTROLMENU_CHOICE
+    text: Выбрать
+  - id: UI_CONFIG_CONTROLS_SUBTITLE
+    text: Отобразить субтитры
+  - id: UI_LOBBY_CONTINUE_DELETE_DESC
+    text: (Автоматически сохраненные данные будут удалены.)
+  - id: MONOLOGUE_CINEMA_2210
+    text: '[Наён Хан]'
+  - id: UI_POPUP_AGE
+    text: Данная функция недоступна по причине возрастного ограничения.
+  - id: LEVEL_VERY_EASY_DESC
+    text: Подходит для тех, кто желает насладиться сюжетом без каких-либо проблем.<br>(Инструкция поможет вам в прохождении.)
+  - id: LEVEL_EASY_DESC
+    text: Менее тревожный, но легче играть.<br>(Инструкция поможет вам в прохождении.)
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_MOVETAB_L
+    text: Переместить вкладку (влево)
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_MOVETAB_R
+    text: Переместить вкладку (вправо)
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_OPENMAP
+    text: Открыть карту
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_OPENMENU
+    text: Открыть меню
+  - id: UI_SAVE_SAVETIME
+    text: '{2:D02}/{1:D02}/{0:D02} {3:D02}:{4:D02}:{5:D02}'
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_QUICKTURN
+    text: Быстрое вращение

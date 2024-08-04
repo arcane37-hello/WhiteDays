@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: HanSoYoung_Eye
+  m_Shader: {fileID: 4800000, guid: ea59058e8f202344da7065c149927efe, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _CubeMap
+      second:
+        m_Texture: {fileID: 8900000, guid: 44cb2311ad57d6a4b87f05c151cc37a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 7403383914afb9c4285b402dd6503f3b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 5dd98e2e1f6ffb245aa05676ded9fda0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Compress
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.21
+    - first:
+        name: _RimPower
+      second: 6
+    - first:
+        name: _Sensitivity
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.8
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.60784316, g: 0.60784316, b: 0.60784316, a: 1}
+    - first:
+        name: _LColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ReflectColor
+      second: {r: 1, g: 1, b: 1, a: 0.5}
+    - first:
+        name: _RimColor
+      second: {r: 1, g: 1, b: 1, a: 0.13725491}
+    - first:
+        name: _SColor
+      second: {r: 0.21522637, g: 0.18604021, b: 0.22794116, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.8512111, g: 0.9044118, b: 0.89560616, a: 1}

@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150161c4cf3b151d963e45c9682bfff0, type: 3}
+  m_Name: TutorialEN
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Tutorial.xlsx
+  worksheetName: TutorialEN
+  dataArray:
+  - id: 2
+    title: Run and Crouch
+    image: Tutorial02
+    desc: 'Run #L1Button# / Crouch #HideButton#  You can either run or Crouch. <br> You''re less likely to be discovered by a janitor when you''re Crouching. <br> You''ll feel dizzy if you run for too long. <br> Take a break. '
+  - id: 4
+    title: Healing Items
+    image: Tutorial04
+    desc: 'You can recover health points and catch your breath by using items such as Instant Lunchbox, Coffee, Soy Milk, Tranquilizer and First Aid Kit. <br>Press [use] from the healing item tap in the inventory. '
+  - id: 5
+    title: Interactions
+    image: Tutorial05
+    desc: 'When an interactive subject is near you [Circular Icon] will be displayed.<br>You can interact by moving the pointer and clicking on #SelectButton#.<br>You can move the pointer slowly by holding #R2Button# down and moving #RStick#.<br>You can acquire items or documents.<br>If there are usable items, their images will be displayed. '
+  - id: 6
+    title: Documents
+    image: Tutorial06
+    desc: You can find different documents throughout the school.<br>These documents contain various school secrets and tips on completing your objectives.<br>If you're stuck and not making any progress, these documents might be very helpful.
+  - id: 7
+    title: Collections
+    image: Tutorial07
+    desc: You can complete the ghost collection in the game by collecting all kinds of ghost stories and encountering different ghosts.<br>You can also collect various endings by clearing the game.<br>Check your collected items and achievement progress in [Main Screen-Collections].
+  - id: 8
+    title: Lighter
+    image: Tutorial08
+    desc: 'You can turn on or off the lighter with #R1Button#.<br>Using a lighter lets you brighten the area without getting caught by a janitor, but the area is very limited.<br>Lighter will turn off if you run, so be careful. '
+  - id: 9
+    title: SMS
+    image: Tutorial09
+    desc: 'SMS provides a good guideline for beginners.<br> You won''t receive any texts on Normal level or above. '
+  - id: 11
+    title: Save
+    image: Tutorial11
+    desc: You can save the game using the bulletin boards throughout the school.<br>If you are dead or have quit in the middle of the game, you can continue from the last save point.<br>Please note that any unsaved data will be lost.
+  - id: 12
+    title: Door
+    image: Tutorial12
+    desc: 'If you go near an open door, a Circular Icon will pop up.<br>You can press #SelectButton# to open or close the door.<br>If the door is closed, it’ll say “You can use the key only if it’s the right one.”<br>If “No Key” message pops up, the door can’t be open with your current status. '
+  - id: 13
+    title: Lights
+    image: Tutorial13
+    desc: There must be sufficient light around you to acquire items/documents or to interact with objects.<br>You can turn on the lights in classrooms by pressing the light switch.<br>Light switches are marked with a small light so you can easily find them in dark.<br>Light switches are easily found near the door.
+  - id: 14
+    title: Time Limits
+    image: Tutorial14
+    desc: Some special puzzles need to be solved within a time limit.<br>You will see the remaining time displayed on the top left once it starts.<br>You cannot save the game while time-limited puzzles are in progress.<br>Please keep this in mind.
+  - id: 15
+    title: Puzzles
+    image: Tutorial15
+    desc: 'Some puzzles need to be solved using a cursor.<br>You can work on the area when the cursor changes to a hand. <br> Click on #SelectButton#, move objects, and solve puzzles. '
+  - id: 16
+    title: Puzzles
+    image: Tutorial16
+    desc: "Move cursor with #LStick#  and select a piece.\nClick #SelectButton# and rotate the piece.\nPuzzle is solved when the electric wire is connected correctly. "
+  - id: 17
+    title: Swap Characters
+    image: Tutorial17
+    desc: 'The game will continue from Ji-Min''s point of view.<br>All items(keys, Soy Milk, Memos and etc.)<br>acquired from Hee-Min''s character can not be used. '
+  - id: 18
+    title: Puzzles
+    image: Tutorial18
+    desc: 'Sometimes you need meticulous movements in order to solve puzzles.<br> Use #LStick# to move the cursor and select the area to manipulate.<br>Clues are hiddenin various places.<br>Collect clues, find the password, and solve the puzzle. '
+  - id: 501
+    title: Interactions
+    image: Tutorial05
+    desc: 'When an interactive subject is near you [Circular Icon] will be displayed.<br>You can interact by moving the pointer and clicking the [Left Mouse Button].<br> You can acquire items or documents.<br>If there are usable items, their images will be displayed. '
+  - id: 105
+    title: Interaction
+    image: Tutorial05
+    desc: If an interactive object is nearby, a [round icon] will be displayed.<br>You can interact by clicking on that icon.<br>If the object is a document or an item, you will acquire it.<br>You will also see this icon appear when an item is available for use.
+  - id: 112
+    title: Doors
+    image: Tutorial12
+    desc: When you approach an open door a [round icon] will be displayed.<br>If you click on that icon or get closer to the door, you can open or close the door. <br>If a door is locked, an icon to open the door will only be displayed if you have the right key.<br>If there are no displayed icons when you are at a door, it means you cannot open it for the time being.
+  - id: 115
+    title: Puzzles
+    image: Tutorial15
+    desc: Some puzzles need to be solved by using the cursor.<br>You can work on the area when the cursor changes to a hand.<br>Move objects and solve the puzzle.
+  - id: 116
+    title: Puzzles
+    image: Tutorial16
+    desc: "Move the cursor and select a piece.\nClick and rotate the piece.\nPuzzle is solved when all parts are connected correctly. "
+  - id: 118
+    title: Puzzles
+    image: Tutorial18
+    desc: 'Sometimes you need meticulous movements in order to solve puzzles.<br>Move the cursor and select the area to manipulate.<br>Clues are hidden in various places.<br>Collect clues, find the password, and solve the puzzle. '
+  - id: 19
+    title: Map
+    image: Tutorial19
+    desc: You can see the current location and the structure of the school by using the map.<br>The area marked in red means that you have never visited the site.<br> In a difficulty level below Easy Mode, you can check the guide that can help you with the scenario.
+  - id: 10
+    title: Janitor
+    image: Tutorial10
+    desc: Janitor will chase after you if he finds you while he's on patrol.<br>Be careful when you turn on the light or run because the chance of getting caught by the janitor will increase.<br>In a difficulty level below Normal Mode,  you can check the status of the janitor with the eye shaped icon.
+  - id: 102
+    title: Running and Crouching
+    image: Tutorial02
+    desc: You may run or crouch using the Run [##keyRun##] /Crouch [##keyHide##] button.<br>Your chance of being caught by janitors is reduced when you're crouching.<br>You'll get dizzy if you run too long. Make sure to take a break.
+  - id: 108
+    title: Lighter
+    image: Tutorial08
+    desc: By using the Lighter [##keyLighter##] button you can turn on your lighter.<br>Using the lighter will allow you to light up the areas without the risk of being caught by janitors, but its illumination range is quite limited.<br>Please note that your lighter will go out if you start running.

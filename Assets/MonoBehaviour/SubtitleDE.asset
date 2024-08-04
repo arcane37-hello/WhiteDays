@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8518c58100b73b5b8baede22969e95a, type: 3}
+  m_Name: SubtitleDE
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Subtitle.xlsx
+  worksheetName: SubtitleDE
+  dataArray:
+  - id: D_SA_01_END_01
+    text: Na los, beeil dich!
+  - id: D_SA_01_END_02
+    text: Was? Das ist doch nur die Mädchentoilette.
+  - id: D_SA_01_END_03
+    text: Es ist okay. Komm rein!
+  - id: D_SA_01_END_04
+    text: Na los, beeil dich!
+  - id: D_SA_01_END_05
+    text: Hey! Hörst du mich etwa nicht?
+  - id: D_SA_01_Blocked_01
+    text: Was? Willst du mir etwas sagen?
+  - id: D_SA_01_Blocked_02
+    text: Kannst du mir aus dem Weg gehen?
+  - id: D_SA_01_Blocked_03
+    text: Was zur Hölle? Geh mir aus dem Weg!
+  - id: D_SA_01_Core_01
+    text: Ji-Hyeon und ich waren völlig neben der Spur.
+  - id: D_SA_01_Core_02
+    text: Gott sei Dank bist du aufgetaucht.
+  - id: D_SA_01_Core_03
+    text: Du kannst mir sicher helfen.
+  - id: D_SA_02_Touched_01
+    text: Wenn du dich in der Schule umsiehst, findest du, was du brauchst.
+  - id: D_SA_02_Touched_02
+    text: Ich glaube, ich habe vorhin eine Leiter in der Nähe der Werkstatt gesehen.
+  - id: D_SA_02_Touched_03
+    text: Da brauchen wir wohl eine Drahtschere oder so etwas.
+  - id: D_SA_02_Touched_04
+    text: Hast du etwas gefunden?
+  - id: D_SA_02_Touched_05
+    text: Hey! Du wolltest mir helfen!
+  - id: D_SA_02_Touched_06
+    text: Mann! Du bist echt erbärmlich.
+  - id: D_SA_03_Touched_01
+    text: Hä? Du bist noch hier?
+  - id: D_SA_03_Touched_02
+    text: Hast du etwa Schiss? Angsthase! Haha!
+  - id: D_SA_03_Touched_03
+    text: Mach dir keine Sorgen um mich. Geh weiter.
+  - id: D_SA_03_Touched_04
+    text: Ich sagte, "Geh!"
+  - id: D_SA_03_Touched_05
+    text: Was hast du für ein Problem?
+  - id: D_SA_03_Touched_06
+    text: Ach, lass mich einfach in Ruhe!
+  - id: D_SA_00_FinalReaction
+    text: ARGH! Du bist eine Nervensäge!
+  - id: D_SA_00_Anyway
+    text: Wie auch immer,
+  - id: D_SA_00_SitReaction
+    text: Ach du Sch… Du hast mich erschreckt!
+  - id: D_SA_00_LegTouched_01
+    text: Hey! W-Was machst du da?
+  - id: D_SA_00_LegTouched_02
+    text: Hey! Hör auf!
+  - id: D_SA_00_LegTouched_03
+    text: Willst du einen Tritt?
+  - id: D_SA_00_LegTouched_04
+    text: Ich warne dich …
+  - id: D_SA_00_LegTouched_05
+    text: Es reicht! Wenn du mich noch einmal berührst, dann werde ich …
+  - id: D_SA_00_LegTouched_06
+    text: Pfoten weg!
+  - id: D_SY_01_Blocked_01
+    text: Nun geh schon.
+  - id: D_SY_01_Blocked_02
+    text: Halt bitte etwas Abstand.
+  - id: D_SY_01_Blocked_03
+    text: Was soll denn das werden?
+  - id: D_SY_01_End_01
+    text: Lass uns hier reingehen.
+  - id: D_SY_01_End_02
+    text: Ich dachte, du wolltest mir bei der Suche nach Ji-Hyeon helfen.
+  - id: D_SY_01_End_03
+    text: Sehen wir hier mal nach.
+  - id: D_SY_01_End_04
+    text: Willst du da einfach so rumstehen?
+  - id: D_SY_01_End_05
+    text: Na gut. Mir egal. Mach doch, was du willst.
+  - id: D_SY_01_Core_01
+    text: Warum ist Ji-Hyeon so spät zur Schule gekommen?
+  - id: D_SY_01_Core_02
+    text: Dasselbe gilt auch für dich.
+  - id: D_SY_01_Core_03
+    text: Heute Abend scheinen viele Leute in der Schule zu sein.
+  - id: D_SY_02_Blocked_01
+    text: Was? Hast du was gefunden?
+  - id: D_SY_02_Blocked_02
+    text: Willst du mir etwas sagen?
+  - id: D_SY_02_Blocked_03
+    text: Du bist schräg.
+  - id: D_SY_02_Touched_01
+    text: Was ist los?
+  - id: D_SY_02_Touched_02
+    text: Wir sollten zum Geschichtsraum im Erdgeschoss.
+  - id: D_SY_02_Touched_03
+    text: Dafür habe ich jetzt keine Zeit.
+  - id: D_SY_02_Touched_04
+    text: Ich muss nach Hinweisen suchen.
+  - id: D_SY_02_Touched_05
+    text: Was ist dein Problem? Nerv mich nicht!
+  - id: D_SY_02_Touched_06
+    text: Mann. Du gehst mir echt auf den Keks.
+  - id: D_SY_03_Blocked_01
+    text: Beweg dich, bitte.
+  - id: D_SY_03_Blocked_02
+    text: Ich gehe voraus. Mir nach!
+  - id: D_SY_03_Blocked_03
+    text: Steh nicht im Weg rum!
+  - id: D_SY_03_End_01
+    text: Hier entlang.
+  - id: D_SY_03_End_02
+    text: Es ist diese Tür.
+  - id: D_SY_03_End_03
+    text: Diese Tür lässt sich nur mit einer Schlüsselkarte öffnen.
+  - id: D_SY_03_End_04
+    text: Du sollst herkommen, habe ich gesagt.
+  - id: D_SY_03_End_05
+    text: Lass den Unsinn.
+  - id: D_SY_03_Core_01
+    text: Ich hatte dir von der Schlüsselkarte für den Neubau erzählt, oder?
+  - id: D_SY_03_Core_02
+    text: Mit der Schlüsselkarte sollten wir in die Haupthalle gelangen.
+  - id: D_SY_03_Core_03
+    text: Wir sollten da drüben nach Spuren suchen.
+  - id: D_SY_04_Touched_01
+    text: Alles okay. Mach dir keine Sorgen um mich. Geh einfach.
+  - id: D_SY_04_Touched_02
+    text: Ohne dich hätte ich es niemals so weit geschafft.
+  - id: D_SY_04_Touched_03
+    text: Ich werde dich nicht noch mal bitten. Bitte geh.
+  - id: D_SY_04_Touched_04
+    text: Warum gehst du nicht?
+  - id: D_SY_04_Touched_05
+    text: Was hast du?
+  - id: D_SY_04_Touched_06
+    text: Was glaubst du, was du da tust?
+  - id: D_SY_00_FinalReaction
+    text: Herrje … Du machst mich langsam müde.
+  - id: D_SY_00_Anyway
+    text: Wie auch immer …
+  - id: D_SY_00_SitReaction
+    text: Ist da etwas?
+  - id: D_SY_00_LegTouched_01
+    text: Was machst du?
+  - id: D_SY_00_LegTouched_02
+    text: Du bist erbärmlich!
+  - id: D_SY_00_LegTouched_03
+    text: Und deshalb kann ich Jungs nicht leiden!
+  - id: D_SY_00_LegTouched_04
+    text: Bist du taub? Ich sagte, du sollst aufhören!
+  - id: D_SY_00_LegTouched_05
+    text: Das ist jetzt die letzte Warnung. Hör auf damit!
+  - id: D_SY_00_LegTouched_06
+    text: Du Perversling!
+  - id: D_JH_01_Touched_01
+    text: Kannst du für mich nachsehen?
+  - id: D_JH_01_Touched_02
+    text: Bitte mach schon. Ich habe Angst …
+  - id: D_JH_01_Touched_03
+    text: Hörst du nicht das Klavier?
+  - id: D_JH_01_Touched_04
+    text: Vielleicht ist es der Geist des toten Musiklehrers!
+  - id: D_JH_01_Touched_05
+    text: Hör bitte auf, mich zu erschrecken.
+  - id: D_JH_01_Touched_06
+    text: Ich habe solche Angst!
+  - id: D_JH_02_Blocked_01
+    text: 'Was? '
+  - id: D_JH_02_Blocked_02
+    text: Was ist los? Beeil dich!
+  - id: D_JH_02_Blocked_03
+    text: Bitte nicht … Ich habe echt Angst!
+  - id: D_JH_02_Touched_01
+    text: Ähm … Wo gehen wir hin?
+  - id: D_JH_02_Touched_02
+    text: Glaubst du, Sung-A geht es gut?
+  - id: D_JH_02_Touched_03
+    text: Das Beben wird immer schlimmer …
+  - id: D_JH_02_Touched_04
+    text: Sprich nicht mit mir! Ich habe Angst …
+  - id: D_JH_02_Touched_05
+    text: Warum tust du das? Ich habe gesagt, du sollst aufhören!
+  - id: D_JH_02_Touched_06
+    text: Hinter dir ist etwas!!
+  - id: D_JH_02_Core_01
+    text: Oben im Kunstraum hat sich angeblich eine Schülerin das Leben genommen.
+  - id: D_JH_02_Core_02
+    text: Sie war auch noch schwanger …
+  - id: D_JH_02_Core_03
+    text: Die Lehrer sagen, es sei nur ein Gerücht.
+  - id: D_JH_02_Core_04
+    text: Ich glaube aber, dass es wahr ist.
+  - id: D_JH_02_Core_05
+    text: Manchmal höre ich dort ein Baby weinen …
+  - id: D_JH_03_Touched_01
+    text: Lass mich einfach in Ruhe!
+  - id: D_JH_03_Touched_02
+    text: Ich habe doch gesagt, du sollst verschwinden!
+  - id: D_JH_03_Touched_03
+    text: …
+  - id: D_JH_03_Touched_04
+    text: …
+  - id: D_JH_03_Touched_05
+    text: Fass mich noch einmal an und ich … ich werde … Du wirst es bereuen!
+  - id: D_JH_03_Touched_06
+    text: Hehehehehe bwahahahaha hehehehe!
+  - id: D_JH_04_Touched_01
+    text: Was? Wolltest du nicht Sung-A suchen?
+  - id: D_JH_04_Touched_02
+    text: Ich warte hier auf dich. Na los.
+  - id: D_JH_04_Touched_03
+    text: Du musst dir wirklich keinen Kopf um mich machen.
+  - id: D_JH_04_Touched_04
+    text: Hör schon auf, zu nerven.
+  - id: D_JH_04_Touched_05
+    text: Was ist? Willst du etwas von mir?
+  - id: D_JH_04_Touched_06
+    text: Kannst du jetzt bitte gehen?
+  - id: D_JH_00_FinalReaction
+    text: Ich rede kein Wort mehr mit dir!
+  - id: D_JH_00_Anyway
+    text: Wie auch immer …
+  - id: D_JH_00_SitReaction
+    text: W-Was ist hier los?
+  - id: D_JH_00_LegTouched_01
+    text: Hey! Rühr mich nicht an!
+  - id: D_JH_00_LegTouched_02
+    text: Was machst du da? Lass das bitte …
+  - id: D_JH_00_LegTouched_03
+    text: Ich hätte nicht gedacht, dass du zu dieser Sorte Jungs gehörst.
+  - id: D_JH_00_LegTouched_04
+    text: Was stimmt nicht mit dir?
+  - id: D_JH_00_LegTouched_05
+    text: Du bist doch nicht etwa in mich verknallt, oder?
+  - id: D_JH_00_LegTouched_06
+    text: Ich sagte, du sollst dich fernhalten!
+  - id: D_mj_01_Touched_01
+    text: Ich habe dir doch gesagt, dass dieser Ort abgeschlossen ist…!
+  - id: D_mj_01_Touched_02
+    text: Noch etwas?
+  - id: D_mj_01_Touched_03
+    text: Interessierst du dich für mich?
+  - id: D_mj_01_Touched_04
+    text: Hast du keine Mädchen zu Hause?
+  - id: D_mj_01_Touched_05
+    text: Gefällt es dir, meine Beine zu sehen?
+  - id: D_mj_01_Touched_06
+    text: Du solltest aufhören…
+  - id: D_mj_01_Touched_07
+    text: Du fängst an mir auf die Nerven zu gehen
+  - id: D_mj_01_Touched_08
+    text: Hör auf damit oder ich hau dir eine!!!
+  - id: SFX_Event_Maze_Voice1_01
+    text: Hallo Na-Young. Ich bins.
+  - id: SFX_Event_Maze_Voice1_02
+    text: Was? Hier ist Sung-A.
+  - id: SFX_Event_Maze_Voice1_03
+    text: So-Young?
+  - id: SFX_Event_Maze_Voice1_04
+    text: Klinge ich echt wie So-Young?
+  - id: SFX_Event_Maze_Voice1_05
+    text: Vielleicht hört sich das am Telefon so an.
+  - id: SFX_Event_Maze_Voice1_06
+    text: Aber egal. Magst du morgen zu mir kommen? Meine Mama möchte dir …
+  - id: SFX_Event_Maze_Voice2_01
+    text: Hallo Frau Han. Wie geht es Ihnen?
+  - id: SFX_Event_Maze_Voice2_02
+    text: Haha. Ich bin es, Eun-Mi, die Mutter von Sung-A.
+  - id: SFX_Event_Maze_Voice2_03
+    text: Tut mir leid, dass ich mich nicht schon früher gemeldet habe.
+  - id: SFX_Event_Maze_Voice2_04
+    text: Haha. Wissen Sie, Na-Young kümmert sich vorbildlich um Sung-A.
+  - id: SFX_Event_Maze_Voice2_05
+    text: Ja … Meine Tochter ist so zart und zerbrechlich. Ich bin froh, dass Na-Young auf sie aufpasst.
+  - id: SFX_Event_Maze_Voice2_06
+    text: Ach, bitte. Sagen Sie doch so was nicht. Haha …
+  - id: SFX_Event_Maze_Voice2_07
+    text: Wie wäre es mit einer kleinen Dinnerparty zusammen mit den Kindern?
+  - id: SFX_Event_Maze_Voice2_08
+    text: Das hört sich gut an.
+  - id: SFX_Event_Maze_Voice3_01
+    text: Na-Young, sieh mich an!
+  - id: SFX_Event_Maze_Voice3_02
+    text: Haha. Ich bin dir so dankbar.
+  - id: SFX_Event_Maze_Voice3_03
+    text: Es ist sicher nicht leicht, die ganze Zeit mit mir zu lernen, aber das hilft mir wirklich sehr.
+  - id: SFX_Event_Maze_Voice3_04
+    text: Hey, hör doch mal auf, zu lachen. Sag etwas!
+  - id: SFX_Event_Maze_Voice4_01
+    text: Na-Young? Wo bist du? Lass den Unsinn sein und komm raus …
+  - id: SFX_Event_Maze_Voice4_02
+    text: Ahhhhhhh!! Hust, hust!
+  - id: SFX_Event_Maze_Voice4_03
+    text: Feuer!!! Aaah … Hust, hust!
+  - id: SFX_Event_Maze_Voice4_04
+    text: Mama … Na-Young! Ahhhhhhh!! Hust, hust!
+  - id: SFX_Event_Maze_Voice4_05
+    text: Hilfe! Aaaah!! Bitte helft mir doch!
+  - id: SFX_Event_Maze_Voice4_06
+    text: Hust, hust! Aaah …
+  - id: SFX_Event_Maze_Voice5_01
+    text: Loslassen! Meine Tochter ist da drin!
+  - id: SFX_Event_Maze_Voice5_02
+    text: Sung-A! Sung-A!!!
+  - id: SFX_Event_Maze_Voice5_03
+    text: Aus dem Weg! Ich muss da durch!
+  - id: SFX_Event_Maze_Voice5_04
+    text: Nein! Lassen Sie mich! Sung-A! Sung-A! Oh nein … Sung-A! Seong-ah! Oh mein Gott … Sung-A!
+  - id: SFX_Event_Maze_Voice6_01
+    text: Hallo? Ist da jemand?
+  - id: SFX_Event_Maze_Voice6_02
+    text: Mama … Mama? Wo bist du?
+  - id: SFX_Event_Maze_Voice6_03
+    text: Ich kann nichts sehen … Mama?
+  - id: SFX_Event_Maze_Voice6_04
+    text: Mama?!
+  - id: SFX_Event_Maze_Voice7_01
+    text: Schau mich an, Na-Young Han. Kannst du mich etwa nicht sehen?
+  - id: SFX_Event_Maze_Voice7_02
+    text: Wo warst du, als ich starb?
+  - id: SFX_Event_Maze_Voice7_03
+    text: Tu nicht so, als ob du traurig wärst. Gib nicht vor, ein guter Mensch zu sein.
+  - id: SFX_Event_Maze_Voice7_04
+    text: Du wirst meinen Schmerz spüren.
+  - id: SFX_Event_Maze_Voice7_05
+    text: Hehehehehehehehehe.
+  - id: SFX_Event_Maze_Voice8_01
+    text: Schwesterherz, das Abendessen ist fertig. Na-Young? Das Essen ist fertig!
+  - id: SFX_Event_Maze_Voice8_02
+    text: Hast du keinen Hunger?
+  - id: SFX_Event_Maze_Voice8_03
+    text: Nun mach schon auf. Warum kommst du nicht raus?
+  - id: SFX_Event_Maze_Voice8_04
+    text: Was ist los?
+  - id: SFX_Event_Maze_Voice8_05
+    text: Bist du etwa sauer? Was habe ich denn gemacht?!
+  - id: SFX_Event_Cassette_Play_01
+    text: Feuer!!!
+  - id: SFX_Event_Cassette_Play_02
+    text: Aaah … Hust, hust!
+  - id: SFX_Event_Cassette_Play_03
+    text: Mama … Na-Young!
+  - id: SFX_Event_Cassette_Play_04
+    text: Ahhhhhhh!! Hust, hust!
+  - id: SFX_Event_Cassette_Play_05
+    text: Hilfe! Aaaah!! Bitte helft mir doch!

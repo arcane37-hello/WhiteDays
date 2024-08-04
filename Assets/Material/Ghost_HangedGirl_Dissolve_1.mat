@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ghost_HangedGirl_Dissolve
+  m_Shader: {fileID: 4800000, guid: 2c353ab3308df024fac940f684b10bd3, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _CubeMap
+      second:
+        m_Texture: {fileID: 8900000, guid: 08d8361720eaa2649837e86ef867b47d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DissolveTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 922421b8d26516d43a5a4d9a0960f164, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 6eb7e882ae6789c45989a2bf4fb83974, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Ramp
+      second:
+        m_Texture: {fileID: 2800000, guid: a8cb93f0cb816904ab3597814c8e67d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecMap
+      second:
+        m_Texture: {fileID: 2800000, guid: bcdc02724463d724b847634cd82dd93d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Cutoff
+      second: 0.424
+    - first:
+        name: _DissolvePower
+      second: -0.003325639
+    - first:
+        name: _RimPower
+      second: 5.88
+    - first:
+        name: _Sensitivity
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.478
+    - first:
+        name: _SliceAmount
+      second: 0.5
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.5102725, g: 0.51070875, b: 0.5735294, a: 1}
+    - first:
+        name: _DissolveEmissionColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _LColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 1, g: 1, b: 1, a: 0.08235294}
+    - first:
+        name: _SColor
+      second: {r: 0.19117647, g: 0.19117647, b: 0.19117647, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.79811853, g: 0.87075675, b: 0.8897059, a: 1}

@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: YooMinJi_Hair
+  m_Shader: {fileID: 4800000, guid: 4a3c367179c0d9446b5f3fea228d3989, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON _NORMALMAP
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Transparent
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: f963e6ef39aeec848b131b6104aea2db, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: de45270d144010e438a27a698a80e57e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Ramp
+      second:
+        m_Texture: {fileID: 2800000, guid: 7f530af53f75d184587013d7b603e44c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecMap
+      second:
+        m_Texture: {fileID: 2800000, guid: f05c91d628d314d44b7a9ea764a9eb75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Compress
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.193
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 10
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _KKPrimaryShift
+      second: 0.8
+    - first:
+        name: _KKPrimarySpecPower
+      second: 17.4
+    - first:
+        name: _KKSecondaryShift
+      second: -0.3
+    - first:
+        name: _KKSecondarySpecPower
+      second: 12.3
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 2
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _OpaqueCutoff
+      second: 0.61
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _RimPower
+      second: 6
+    - first:
+        name: _Sensitivity
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.33
+    - first:
+        name: _SrcBlend
+      second: 5
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _KKPrimarySpecColor
+      second: {r: 0.6838235, g: 0.6535855, b: 0.6435986, a: 1}
+    - first:
+        name: _KKSecondarySpecColor
+      second: {r: 0.39705884, g: 0.38497794, b: 0.37954155, a: 1}
+    - first:
+        name: _KKUpVector
+      second: {r: 0, g: 1, b: 0, a: 1}
+    - first:
+        name: _LColor
+      second: {r: 0.9044118, g: 0.9044118, b: 0.9044118, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 1, g: 1, b: 1, a: 0.08235294}
+    - first:
+        name: _SColor
+      second: {r: 0.21522637, g: 0.18604021, b: 0.22794116, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 1, b: 1, a: 1}

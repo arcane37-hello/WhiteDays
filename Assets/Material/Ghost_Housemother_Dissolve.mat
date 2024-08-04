@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ghost_Housemother_Dissolve
+  m_Shader: {fileID: 4800000, guid: e653e5acbeb520f45b94dbb5fc1e42bd, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 0ed30df226039864f8e378762cbd8e4c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _CubeMap
+      second:
+        m_Texture: {fileID: 8900000, guid: ec04b081d92e40345a113cdf32314276, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: e734c118e1880864db883f56ea166cfb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SliceGuide
+      second:
+        m_Texture: {fileID: 2800000, guid: 0c7d90bf1e4b0be4692bec3418401646, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecMap
+      second:
+        m_Texture: {fileID: 2800000, guid: a3cc9ab8303b3a241a64ace6c94c1144, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Cutoff
+      second: 0.552
+    - first:
+        name: _DissolveEdgeMultiplier
+      second: 120
+    - first:
+        name: _DissolveEdgeRange
+      second: 0.029
+    - first:
+        name: _RimPower
+      second: 3
+    - first:
+        name: _Sensitivity
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.548
+    - first:
+        name: _SliceAmount
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.35294116, g: 0.35294116, b: 0.35294116, a: 1}
+    - first:
+        name: _DissolveEdgeColor
+      second: {r: 0.7058823, g: 0, b: 0, a: 0}
+    - first:
+        name: _LColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 0.8170956, g: 0.8510396, b: 0.875, a: 0.08235294}
+    - first:
+        name: _SColor
+      second: {r: 0.19117647, g: 0.19117647, b: 0.19117647, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0.9117647, g: 0.9117647, b: 0.9117647, a: 1}

@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150161c4cf3b151d963e45c9682bfff0, type: 3}
+  m_Name: TutorialTW
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Tutorial.xlsx
+  worksheetName: TutorialTW
+  dataArray:
+  - id: 2
+    title: 跑動和坐下
+    image: Tutorial02
+    desc: 跑#L1Button# / 蹲下#HideButton# 使用這些按鈕來跑和蹲下。<br>在蹲著的狀態下，會減少被守衛發現的機率。<br>長時間跑的話會出現頭暈目眩，請暫時休息。
+  - id: 4
+    title: 回復道具
+    image: Tutorial04
+    desc: 使用飯盒，咖啡，豆奶，鎮靜劑，急救箱可以恢復體力和調整呼吸。<br>在背包裏的恢復道具項目中點擊[使用鍵]。
+  - id: 5
+    title: 互動
+    image: Tutorial05
+    desc: 若有可觸動的物品在附近時， 會顯示[圓形圖示]<br>可將指標移動至圖示，並點擊#SelectButton#就可以觸動。<br>在按住#R2Button#的狀態下，移動#RStick#的話， 指標就能夠慢慢移動。<br>遊戲中可以取得物品和文件。<br>有可使用的物品時，將會顯示對應的圖示。
+  - id: 6
+    title: 文件
+    image: Tutorial06
+    desc: 校內到處有各式各樣的文件。<br>文件內藏有關於延斗高中各種各樣的故事和與遊戲進度有關的提示。<br>在遊戲進展受阻時，請仔細閱讀獲得的文件，說不定非常有幫助。
+  - id: 7
+    title: 收藏品
+    image: Tutorial07
+    desc: 在遊戲內可以透過收集各種的怪談文件以及尋找鬼來完成鬼魂收集成就。<br>完成各鬼魂支線後可以獲得各種的結局收藏。<br>請在[主頁-收集的物品]項內確認收集的物品和完成度。
+  - id: 8
+    title: 打火機
+    image: Tutorial08
+    desc: 使用#R1Button#可以關閉打火機.<br>使用打火機的話，不會被警衛發現，但能照亮周圍，不過能照到的範圍有限。<br>請注意，如果跑動的話，打火機會熄滅。
+  - id: 9
+    title: 短信
+    image: Tutorial09
+    desc: 簡訊具有引導新手玩家進行遊戲的作用。<br>普通難度以上無法收到文字簡訊。
+  - id: 11
+    title: 保存
+    image: Tutorial11
+    desc: 使用學校裏面的告示板可以保存遊戲。<br>GAME OVER或遊戲中斷時，將回到上次保存的進度繼續遊戲。<br>未保存的進度將會消失，請留意。
+  - id: 12
+    title: 門
+    image: Tutorial12
+    desc: 走到可打開的門的附近會有[圓形圖標]出現。<br>按下#SelectButton#按鈕可以開門和關門。<br>如果門是鎖住的，則會顯示只有擁有相對應的鑰匙時才可以打開。<br>如果門上沒有出現鑰匙的標示，則表示該門為當前無法打開的門。
+  - id: 13
+    title: 照明
+    image: Tutorial13
+    desc: 為了獲得物品和文件或者觸動目標物時，周圍需要足夠的照明。<br>按下教室的照明開關的話， 對應的教室照明會打開。<br>教室的照明開關會有小火光標記，以便在黑暗中找到開關。<br>通常在門邊可找到照明開關。
+  - id: 14
+    title: 時間限制
+    image: Tutorial14
+    desc: 對於部分特殊事件謎題，需要在限定時間內解開。<br>倒計時開始後，在遊戲畫面的左上方會顯示當前剩餘時間的介面。<br>在進行有時間限制的特殊謎題時無法保存遊戲。<br>請留意。
+  - id: 15
+    title: 拼圖
+    image: Tutorial15
+    desc: 某些拼圖需要使用光標進行解謎，<br>當光標變成手的時候可以操作對應的部分<br>點擊#SelectButton#移動目標物件，試著破解拼圖。
+  - id: 16
+    title: 拼圖
+    image: Tutorial16
+    desc: "使用#LStick#移動光標，選擇碎片。\n點擊#SelectButton#，旋轉碎片。\n正確地連接電線的話，即可破解拼圖。"
+  - id: 17
+    title: 角色轉換
+    image: Tutorial17
+    desc: 從現在開始以智敏的視角進行遊戲。<br>通過希民獲得的<br>所有道具(鑰匙，豆奶，紙條等)將無法使用。
+  - id: 18
+    title: 拼圖
+    image: Tutorial18
+    desc: 有時候為了破解拼圖，需要精密的操作。<br>使用#LStick#移動光標，並選擇可操作的部分去進行<br>拼圖的提示將藏在每個角落。<br>收集提示，找到密碼，就能破解謎題。
+  - id: 501
+    title: 互動
+    image: Tutorial05
+    desc: 若有可觸動的物品在附近時， 會顯示[圓形圖示]<br>可將指標移動至圖示，並點擊[滑鼠左鍵]就可以觸動。<br>遊戲中可以取得物品和文件。<br>有可使用的物品時，將會顯示對應的圖示。
+  - id: 105
+    title: 互動
+    image: Tutorial05
+    desc: 若有可觸動的物品在附近時， 會顯示[圓形圖示]。<br>點擊該圖示就可以觸動。<br>若為物品或文件時，則可獲得。<br>有可使用的物品時，將會顯示對應的圖示。
+  - id: 112
+    title: 門
+    image: Tutorial12
+    desc: 走到可打開的門的附近會有[圓形圖示]出現。<br>按下該圖示或走得更靠近的話，可以開門和關門。<br>如果門是鎖住的，則會顯示只有擁有相對應的鑰匙時才可以打開。<br>如果門上沒有出現鑰匙的標示，則表示該門為當前無法打開的門。
+  - id: 115
+    title: 拼圖
+    image: Tutorial15
+    desc: 某些拼圖需要使用光標進行解謎，<br>當光標變成手的時候可以操作對應的部分<br>試著移動目標物件並破解拼圖。
+  - id: 116
+    title: 拼圖
+    image: Tutorial16
+    desc: "移動光標以選擇碎片。\n使用光標旋轉碎片。\n正確地連接電線的話，即可破解拼圖。"
+  - id: 118
+    title: 拼圖
+    image: Tutorial18
+    desc: 有時候為了破解拼圖，需要精密的操作。<br>移動光標，即可選擇欲操作的部分。<br>拼圖的提示將藏在每個角落。<br>收集提示，找到密碼，就能破解謎題。
+  - id: 19
+    title: 地圖
+    image: Tutorial19
+    desc: 使用地圖可以勘查現在的位置及學校的結構。<br>以紅色標示的部分是表示尚未進探訪過的地區。<br>在簡易以下模式下，可以找到遊戲進行的攻略指南。
+  - id: 10
+    title: 警衛
+    image: Tutorial10
+    desc: 警衛在巡查中發現玩家的話，將會緊追不捨。<br>開燈或跑動時，將會增加被警衛發現的風險，請多小心。<br>在普通以下模式下，可由眼睛圖示確認附近的警衛狀態。
+  - id: 102
+    title: 跑動和坐下
+    image: Tutorial02
+    desc: 跑動[##keyRun##]/坐下[##keyHide##] 使用這些按鍵跑動和坐下。在坐下的狀態下，會減少被守衛發現的機率。<br>長時間跑的話會出現頭暈目眩，請暫時休息。
+  - id: 108
+    title: 打火機
+    image: Tutorial08
+    desc: 使用打火機[##keyLighter##]可以關閉打火機。<br>使用打火機的話，不會被警衛發現，但能照亮周圍，不過能照到的範圍有限。<br>請注意，如果跑動的話，打火機會熄滅。

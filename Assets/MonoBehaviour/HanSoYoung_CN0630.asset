@@ -1,0 +1,420 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030609d04de5cf3bd2e477af1deae49e, type: 3}
+  m_Name: HanSoYoung_CN0630
+  m_EditorClassIdentifier:
+  m_Fold: 0
+  m_DataName: HanSoYoung_CN0630
+  m_Type: 1
+  m_StartPos: {x: -68.9921, y: 2.9979982, z: -22.6146}
+  m_StartRotation: {x: 0, y: -0.7043704, z: -0, w: 0.70983267}
+  m_MoveSpeed: 0
+  m_Waypoints: []
+  m_ChaseableArea:
+  - vtTryPoint0: {x: -46.5, y: 3.0190237, z: -21.7}
+    vtTryPoint1: {x: -48.3, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -49.100002, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -46.5, y: 3.0190237, z: -21.7}
+    vtTryPoint1: {x: -46.9, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -48.3, y: 3.0190237, z: -22.9}
+  - vtTryPoint0: {x: -46.5, y: 3.0190237, z: -21.7}
+    vtTryPoint1: {x: -46.5, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -46.9, y: 3.0190237, z: -22.9}
+  - vtTryPoint0: {x: -48.3, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -49.100002, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -49.100002, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -49.100002, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -49.7, y: 3.0190237, z: -23}
+    vtTryPoint2: {x: -51.2, y: 3.0190237, z: -23}
+  - vtTryPoint0: {x: -49.100002, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -49.100002, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -49.7, y: 3.0190237, z: -23}
+  - vtTryPoint0: {x: -48.3, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -46.9, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -47, y: 3.0190237, z: -23.4}
+  - vtTryPoint0: {x: -48.3, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -47, y: 3.0190237, z: -23.4}
+    vtTryPoint2: {x: -48.2, y: 3.0190237, z: -23.4}
+  - vtTryPoint0: {x: -48.5, y: 3.0190237, z: -23.6}
+    vtTryPoint1: {x: -46.600002, y: 3.0190237, z: -23.5}
+    vtTryPoint2: {x: -47.2, y: 3.0190237, z: -25.1}
+  - vtTryPoint0: {x: -48.5, y: 3.0190237, z: -23.6}
+    vtTryPoint1: {x: -47, y: 3.0190237, z: -23.4}
+    vtTryPoint2: {x: -46.600002, y: 3.0190237, z: -23.5}
+  - vtTryPoint0: {x: -48.5, y: 3.0190237, z: -23.6}
+    vtTryPoint1: {x: -48.2, y: 3.0190237, z: -23.4}
+    vtTryPoint2: {x: -47, y: 3.0190237, z: -23.4}
+  - vtTryPoint0: {x: -48.5, y: 3.0190237, z: -23.6}
+    vtTryPoint1: {x: -47.2, y: 3.0190237, z: -25.1}
+    vtTryPoint2: {x: -47.7, y: 3.0190237, z: -24.9}
+  - vtTryPoint0: {x: -46.600002, y: 2.8190238, z: -25.6}
+    vtTryPoint1: {x: -47.2, y: 2.8190238, z: -25.6}
+    vtTryPoint2: {x: -47.2, y: 3.0190237, z: -25.1}
+  - vtTryPoint0: {x: -46.600002, y: 2.8190238, z: -25.6}
+    vtTryPoint1: {x: -47.2, y: 1.5190237, z: -27.9}
+    vtTryPoint2: {x: -47.2, y: 2.8190238, z: -25.6}
+  - vtTryPoint0: {x: -46.600002, y: 2.8190238, z: -25.6}
+    vtTryPoint1: {x: -46.600002, y: 1.5190237, z: -30}
+    vtTryPoint2: {x: -47.2, y: 1.5190237, z: -27.9}
+  - vtTryPoint0: {x: -46.600002, y: 0.019023657, z: -30}
+    vtTryPoint1: {x: -48.5, y: 0.019023657, z: -29.9}
+    vtTryPoint2: {x: -48.5, y: 0.019023657, z: -28.1}
+  - vtTryPoint0: {x: -46.600002, y: 0.019023657, z: -30}
+    vtTryPoint1: {x: -48.5, y: 0.019023657, z: -28.1}
+    vtTryPoint2: {x: -47.4, y: 0.019023657, z: -28}
+  - vtTryPoint0: {x: -46.600002, y: 0.019023657, z: -30}
+    vtTryPoint1: {x: -47.7, y: 0.019023657, z: -30.7}
+    vtTryPoint2: {x: -48.5, y: 0.019023657, z: -29.9}
+  - vtTryPoint0: {x: -47.7, y: 0.019023657, z: -30.7}
+    vtTryPoint1: {x: -48.4, y: 0.019023657, z: -30.2}
+    vtTryPoint2: {x: -48.5, y: 0.019023657, z: -29.9}
+  - vtTryPoint0: {x: -46.600002, y: 0.019023657, z: -30}
+    vtTryPoint1: {x: -47.100002, y: 0.019023657, z: -30.6}
+    vtTryPoint2: {x: -47.7, y: 0.019023657, z: -30.7}
+  - vtTryPoint0: {x: -48.5, y: 0.019023657, z: -23.6}
+    vtTryPoint1: {x: -47, y: 0.019023657, z: -23.4}
+    vtTryPoint2: {x: -46.600002, y: 0.019023657, z: -23.5}
+  - vtTryPoint0: {x: -48.3, y: 0.019023657, z: -22.9}
+    vtTryPoint1: {x: -46.9, y: 0.019023657, z: -22.9}
+    vtTryPoint2: {x: -47, y: 0.019023657, z: -23.4}
+  - vtTryPoint0: {x: -46.600002, y: 0.019023657, z: -21.7}
+    vtTryPoint1: {x: -46.9, y: 0.019023657, z: -22.9}
+    vtTryPoint2: {x: -48.3, y: 0.019023657, z: -22.9}
+  - vtTryPoint0: {x: -46.600002, y: 0.019023657, z: -21.7}
+    vtTryPoint1: {x: -46.600002, y: 0.019023657, z: -22.9}
+    vtTryPoint2: {x: -46.9, y: 0.019023657, z: -22.9}
+  - vtTryPoint0: {x: -46.600002, y: 0.019023657, z: -21.7}
+    vtTryPoint1: {x: -49.100002, y: 0.019023657, z: -22.9}
+    vtTryPoint2: {x: -51.2, y: 0.019023657, z: -21.7}
+  - vtTryPoint0: {x: -46.600002, y: 0.019023657, z: -21.7}
+    vtTryPoint1: {x: -48.3, y: 0.019023657, z: -22.9}
+    vtTryPoint2: {x: -49.100002, y: 0.019023657, z: -22.9}
+  - vtTryPoint0: {x: -51.2, y: 0.019023657, z: -21.7}
+    vtTryPoint1: {x: -49.100002, y: 0.019023657, z: -22.9}
+    vtTryPoint2: {x: -49.7, y: 0.019023657, z: -23}
+  - vtTryPoint0: {x: -51.2, y: 0.019023657, z: -21.7}
+    vtTryPoint1: {x: -49.7, y: 0.019023657, z: -23}
+    vtTryPoint2: {x: -51.2, y: 0.019023657, z: -23}
+  - vtTryPoint0: {x: -48.5, y: 0.2190237, z: -25.6}
+    vtTryPoint1: {x: -47.9, y: 1.5190237, z: -27.9}
+    vtTryPoint2: {x: -48.5, y: 1.5190237, z: -29.9}
+  - vtTryPoint0: {x: -46.600002, y: 1.5190237, z: -30}
+    vtTryPoint1: {x: -47.7, y: 1.5190237, z: -28.1}
+    vtTryPoint2: {x: -47.2, y: 1.5190237, z: -27.9}
+  - vtTryPoint0: {x: -46.600002, y: 1.5190237, z: -30}
+    vtTryPoint1: {x: -48.5, y: 1.5190237, z: -29.9}
+    vtTryPoint2: {x: -47.7, y: 1.5190237, z: -28.1}
+  - vtTryPoint0: {x: -46.600002, y: 1.5190237, z: -30}
+    vtTryPoint1: {x: -47.7, y: 1.5190237, z: -30.7}
+    vtTryPoint2: {x: -48.5, y: 1.5190237, z: -29.9}
+  - vtTryPoint0: {x: -48.5, y: 1.5190237, z: -29.9}
+    vtTryPoint1: {x: -47.9, y: 1.5190237, z: -27.9}
+    vtTryPoint2: {x: -47.7, y: 1.5190237, z: -28.1}
+  - vtTryPoint0: {x: -46.600002, y: 1.5190237, z: -30}
+    vtTryPoint1: {x: -47.100002, y: 1.5190237, z: -30.6}
+    vtTryPoint2: {x: -47.7, y: 1.5190237, z: -30.7}
+  - vtTryPoint0: {x: -47.7, y: 1.5190237, z: -30.7}
+    vtTryPoint1: {x: -48.4, y: 1.5190237, z: -30.2}
+    vtTryPoint2: {x: -48.5, y: 1.5190237, z: -29.9}
+  - vtTryPoint0: {x: -49.100002, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -51.2, y: 3.0190237, z: -23}
+    vtTryPoint2: {x: -51.2, y: 3.0190237, z: -21.7}
+  - vtTryPoint0: {x: -53.200005, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -51.200005, y: 3.0190237, z: -21.7}
+    vtTryPoint2: {x: -51.200005, y: 3.0190237, z: -23}
+  - vtTryPoint0: {x: -53.200005, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -51.200005, y: 3.0190237, z: -23}
+    vtTryPoint2: {x: -53.200005, y: 3.0190237, z: -22.9}
+  - vtTryPoint0: {x: -56.5, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -53.200005, y: 3.0190237, z: -21.800001}
+    vtTryPoint2: {x: -53.200005, y: 3.0190237, z: -22.9}
+  - vtTryPoint0: {x: -56.5, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -53.200005, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -56.5, y: 3.0190237, z: -22.9}
+  - vtTryPoint0: {x: -55.9, y: 3.0190237, z: -21.7}
+    vtTryPoint1: {x: -53.200005, y: 3.0190237, z: -21.800001}
+    vtTryPoint2: {x: -56.5, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -56.5, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -53.200005, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -55.9, y: 3.0190237, z: -23}
+  - vtTryPoint0: {x: -49.100002, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -51.2, y: 3.0190237, z: -21.7}
+    vtTryPoint2: {x: -49.600002, y: 3.0190237, z: -21.6}
+  - vtTryPoint0: {x: -49.600002, y: 3.0190237, z: -21.6}
+    vtTryPoint1: {x: -49.3, y: 3.0190237, z: -21.6}
+    vtTryPoint2: {x: -49.100002, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -49.100002, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -49.3, y: 3.0190237, z: -23.1}
+    vtTryPoint2: {x: -49.7, y: 3.0190237, z: -23}
+  - vtTryPoint0: {x: -56.300003, y: 3.0190237, z: -23.1}
+    vtTryPoint1: {x: -56.5, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -55.9, y: 3.0190237, z: -23}
+  - vtTryPoint0: {x: -55.9, y: 3.0190237, z: -21.7}
+    vtTryPoint1: {x: -56.5, y: 3.0190237, z: -21.800001}
+    vtTryPoint2: {x: -56.300003, y: 3.0190237, z: -21.6}
+  - vtTryPoint0: {x: -57.200005, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -56.5, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -57.200005, y: 3.0190237, z: -22.9}
+  - vtTryPoint0: {x: -57.200005, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -56.5, y: 3.0190237, z: -21.800001}
+    vtTryPoint2: {x: -56.5, y: 3.0190237, z: -22.9}
+  - vtTryPoint0: {x: -61.300003, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -57.200005, y: 3.0190237, z: -21.800001}
+    vtTryPoint2: {x: -57.200005, y: 3.0190237, z: -22.9}
+  - vtTryPoint0: {x: -61.300003, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -57.200005, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -61.300003, y: 3.0190237, z: -22.9}
+  - vtTryPoint0: {x: -57.200005, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -57.5, y: 3.0190237, z: -23.2}
+    vtTryPoint2: {x: -57.800003, y: 3.0190237, z: -23}
+  - vtTryPoint0: {x: -57.200005, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -57.800003, y: 3.0190237, z: -23}
+    vtTryPoint2: {x: -61.300003, y: 3.0190237, z: -22.9}
+  - vtTryPoint0: {x: -57.800003, y: 3.0190237, z: -21.7}
+    vtTryPoint1: {x: -57.5, y: 3.0190237, z: -21.6}
+    vtTryPoint2: {x: -57.200005, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -61.300003, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -57.800003, y: 3.0190237, z: -21.7}
+    vtTryPoint2: {x: -57.200005, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -64.600006, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -61.300003, y: 3.0190237, z: -21.800001}
+    vtTryPoint2: {x: -61.300003, y: 3.0190237, z: -22.9}
+  - vtTryPoint0: {x: -64.600006, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -64.600006, y: 3.0190237, z: -21.800001}
+    vtTryPoint2: {x: -61.300003, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -61.300003, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -64, y: 3.0190237, z: -23}
+    vtTryPoint2: {x: -64.600006, y: 3.0190237, z: -22.9}
+  - vtTryPoint0: {x: -64.600006, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -64.100006, y: 3.0190237, z: -21.7}
+    vtTryPoint2: {x: -61.300003, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -64.600006, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -64.4, y: 3.0190237, z: -21.6}
+    vtTryPoint2: {x: -64.100006, y: 3.0190237, z: -21.7}
+  - vtTryPoint0: {x: -64.600006, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -71.700005, y: 3.0190237, z: -22.2}
+    vtTryPoint2: {x: -64.600006, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -71.700005, y: 3.0190237, z: -22.2}
+    vtTryPoint1: {x: -65.4, y: 3.0190237, z: -21.800001}
+    vtTryPoint2: {x: -64.600006, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -71.700005, y: 3.0190237, z: -22.2}
+    vtTryPoint1: {x: -67.5, y: 3.0190237, z: -21.800001}
+    vtTryPoint2: {x: -65.4, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -64.600006, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -71.700005, y: 3.0190237, z: -22.5}
+    vtTryPoint2: {x: -71.700005, y: 3.0190237, z: -22.2}
+  - vtTryPoint0: {x: -64.600006, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -65.4, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -71.700005, y: 3.0190237, z: -22.5}
+  - vtTryPoint0: {x: -65.4, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -67.5, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -71.700005, y: 3.0190237, z: -22.5}
+  - vtTryPoint0: {x: -65.4, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -67.5, y: 3.0190237, z: -25.6}
+    vtTryPoint2: {x: -67.5, y: 3.0190237, z: -22.9}
+  - vtTryPoint0: {x: -65.4, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -65.3, y: 3.0190237, z: -25.6}
+    vtTryPoint2: {x: -67.5, y: 3.0190237, z: -25.6}
+  - vtTryPoint0: {x: -67.5, y: 3.0190237, z: -25.6}
+    vtTryPoint1: {x: -65.3, y: 3.0190237, z: -25.6}
+    vtTryPoint2: {x: -65.3, y: 3.0190237, z: -26.7}
+  - vtTryPoint0: {x: -67.5, y: 3.0190237, z: -25.6}
+    vtTryPoint1: {x: -65.3, y: 3.0190237, z: -26.7}
+    vtTryPoint2: {x: -67.5, y: 3.0190237, z: -26.7}
+  - vtTryPoint0: {x: -67.5, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -68.200005, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -71.700005, y: 3.0190237, z: -22.5}
+  - vtTryPoint0: {x: -68.200005, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -71.5, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -71.700005, y: 3.0190237, z: -22.5}
+  - vtTryPoint0: {x: -68.8, y: 3.0190237, z: -23}
+    vtTryPoint1: {x: -71.5, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -68.200005, y: 3.0190237, z: -22.9}
+  - vtTryPoint0: {x: -71.700005, y: 3.0190237, z: -22.2}
+    vtTryPoint1: {x: -68.200005, y: 3.0190237, z: -21.800001}
+    vtTryPoint2: {x: -67.5, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -71.700005, y: 3.0190237, z: -22.2}
+    vtTryPoint1: {x: -71.5, y: 3.0190237, z: -21.800001}
+    vtTryPoint2: {x: -68.200005, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -71.100006, y: 3.0190237, z: -21.6}
+    vtTryPoint1: {x: -68.200005, y: 3.0190237, z: -21.800001}
+    vtTryPoint2: {x: -71.5, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -48.3, y: 0.019023657, z: -22.9}
+    vtTryPoint1: {x: -47, y: 0.019023657, z: -23.4}
+    vtTryPoint2: {x: -48.2, y: 0.019023657, z: -23.4}
+  - vtTryPoint0: {x: -48.5, y: 0.019023657, z: -23.6}
+    vtTryPoint1: {x: -48.2, y: 0.019023657, z: -23.4}
+    vtTryPoint2: {x: -47, y: 0.019023657, z: -23.4}
+  - vtTryPoint0: {x: -46.600002, y: 2.8190238, z: -25.6}
+    vtTryPoint1: {x: -47.2, y: 3.0190237, z: -25.1}
+    vtTryPoint2: {x: -46.600002, y: 3.0190237, z: -23.5}
+  - vtTryPoint0: {x: -46.600002, y: 0.019023657, z: -25.6}
+    vtTryPoint1: {x: -46.600002, y: 0.019023657, z: -30}
+    vtTryPoint2: {x: -47.4, y: 0.019023657, z: -28}
+  - vtTryPoint0: {x: -46.600002, y: 0.019023657, z: -25.6}
+    vtTryPoint1: {x: -47.4, y: 0.019023657, z: -28}
+    vtTryPoint2: {x: -47.5, y: 0.019023657, z: -25.6}
+  - vtTryPoint0: {x: -47.5, y: 0.019023657, z: -25.6}
+    vtTryPoint1: {x: -47.8, y: 0.2190237, z: -25.6}
+    vtTryPoint2: {x: -48.5, y: 0.019023657, z: -23.6}
+  - vtTryPoint0: {x: -48.5, y: 0.019023657, z: -23.6}
+    vtTryPoint1: {x: -46.600002, y: 0.019023657, z: -25.6}
+    vtTryPoint2: {x: -47.5, y: 0.019023657, z: -25.6}
+  - vtTryPoint0: {x: -48.5, y: 0.019023657, z: -23.6}
+    vtTryPoint1: {x: -46.600002, y: 0.019023657, z: -23.5}
+    vtTryPoint2: {x: -46.600002, y: 0.019023657, z: -25.6}
+  - vtTryPoint0: {x: -48.5, y: 0.2190237, z: -25.6}
+    vtTryPoint1: {x: -47.8, y: 0.2190237, z: -25.6}
+    vtTryPoint2: {x: -47.9, y: 1.5190237, z: -27.9}
+  - vtTryPoint0: {x: -47.8, y: 0.2190237, z: -25.6}
+    vtTryPoint1: {x: -48.5, y: 0.2190237, z: -25.6}
+    vtTryPoint2: {x: -48.5, y: 0.01902366, z: -23.6}
+  - vtTryPoint0: {x: -49.7, y: 0.019023657, z: -23}
+    vtTryPoint1: {x: -49.100002, y: 0.019023657, z: -22.9}
+    vtTryPoint2: {x: -49.3, y: 0.019023657, z: -23.5}
+  - vtTryPoint0: {x: -49.7, y: 0.019023657, z: -23}
+    vtTryPoint1: {x: -49.3, y: 0.019023657, z: -23.5}
+    vtTryPoint2: {x: -49.600002, y: 0.019023657, z: -23.5}
+  - vtTryPoint0: {x: -68.4, y: 3.0190237, z: -23.6}
+    vtTryPoint1: {x: -68.8, y: 3.0190237, z: -23.7}
+    vtTryPoint2: {x: -68.700005, y: 3.0190237, z: -23.1}
+  - vtTryPoint0: {x: -68.4, y: 3.0190237, z: -23.6}
+    vtTryPoint1: {x: -68.700005, y: 3.0190237, z: -23.1}
+    vtTryPoint2: {x: -68.4, y: 3.0190237, z: -23.1}
+  - vtTryPoint0: {x: -68.200005, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -68.4, y: 3.0190237, z: -23.1}
+    vtTryPoint2: {x: -68.700005, y: 3.0190237, z: -23.1}
+  - vtTryPoint0: {x: -66, y: 3.0190237, z: -21.7}
+    vtTryPoint1: {x: -65.600006, y: 3.0190237, z: -21.6}
+    vtTryPoint2: {x: -65.4, y: 3.0190237, z: -21.800001}
+  - vtTryPoint0: {x: -66, y: 3.0190237, z: -21}
+    vtTryPoint1: {x: -65.600006, y: 3.0190237, z: -21.6}
+    vtTryPoint2: {x: -65.8, y: 3.0190237, z: -21.5}
+  - vtTryPoint0: {x: -66, y: 3.0190237, z: -21.7}
+    vtTryPoint1: {x: -65.8, y: 3.0190237, z: -21.5}
+    vtTryPoint2: {x: -65.600006, y: 3.0190237, z: -21.6}
+  - vtTryPoint0: {x: -66, y: 3.0190237, z: -21}
+    vtTryPoint1: {x: -65.600006, y: 3.0190237, z: -21.1}
+    vtTryPoint2: {x: -65.600006, y: 3.0190237, z: -21.6}
+  - vtTryPoint0: {x: -71.3, y: 3.0190237, z: -21.6}
+    vtTryPoint1: {x: -70.9, y: 3.0190237, z: -21}
+    vtTryPoint2: {x: -71.100006, y: 3.0190237, z: -21.6}
+  - vtTryPoint0: {x: -68.200005, y: 3.0190237, z: -21.800001}
+    vtTryPoint1: {x: -68.200005, y: 3.0190237, z: -22.9}
+    vtTryPoint2: {x: -68.700005, y: 3.0190237, z: -23.1}
+  - vtTryPoint0: {x: -71.700005, y: 3.0190237, z: -22.2}
+    vtTryPoint1: {x: -71.3, y: 3.0190237, z: -21.6}
+    vtTryPoint2: {x: -71.100006, y: 3.0190237, z: -21.6}
+  - vtTryPoint0: {x: -68.200005, y: 3.0190237, z: -22.9}
+    vtTryPoint1: {x: -66, y: 3.0190237, z: -21.7}
+    vtTryPoint2: {x: -65.4, y: 3.0190237, z: -21.800001}
+  m_CommonReaction: {fileID: 11400000, guid: 698b1e2d04da9b84c94df1a7d0552d87, type: 2}
+  m_Reaction:
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 1
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID:
+    m_Sound: D_SY_02_Touched_01
+    m_AnimationTrigger: 6
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 1
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID:
+    m_Sound: D_SY_02_Touched_02
+    m_AnimationTrigger: 6
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 1
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID:
+    m_Sound: D_SY_02_Touched_03
+    m_AnimationTrigger: 6
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 1
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID:
+    m_Sound: D_SY_02_Touched_04
+    m_AnimationTrigger: 6
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 1
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID:
+    m_Sound: D_SY_02_Touched_05
+    m_AnimationTrigger: 56
+    m_Result: 1
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 1
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID:
+    m_Sound: D_SY_02_Touched_06
+    m_AnimationTrigger: 56
+    m_Result: 1
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 1
+    m_fElapseTime: 0
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID:
+    m_Sound: D_SY_00_FinalReaction
+    m_AnimationTrigger: 1
+    m_Result: 1
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 4
+    m_fElapseTime: 5
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID:
+    m_Sound: D_SY_02_Blocked_01
+    m_AnimationTrigger: 6
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 4
+    m_fElapseTime: 10
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID:
+    m_Sound: D_SY_02_Blocked_02
+    m_AnimationTrigger: 6
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 4
+    m_fElapseTime: 20
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID:
+    m_Sound: D_SY_02_Blocked_03
+    m_AnimationTrigger: 56
+    m_Result: 1

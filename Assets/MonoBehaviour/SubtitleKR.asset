@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8518c58100b73b5b8baede22969e95a, type: 3}
+  m_Name: SubtitleKR
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Subtitle.xlsx
+  worksheetName: SubtitleKR
+  dataArray:
+  - id: D_SA_01_END_01
+    text: 뭐해~ 빨리 와!
+  - id: D_SA_01_END_02
+    text: 왜? 여자화장실이라서 그래?
+  - id: D_SA_01_END_03
+    text: 괜찮으니까, 빨리 들어와.
+  - id: D_SA_01_END_04
+    text: 빨리 오라니까?
+  - id: D_SA_01_END_05
+    text: 야, 내 말 안들려?
+  - id: D_SA_01_Blocked_01
+    text: 왜? 뭐 할 말 있어?
+  - id: D_SA_01_Blocked_02
+    text: 야~ 좀 비켜봐.
+  - id: D_SA_01_Blocked_03
+    text: 아, 진짜 뭐 해, 안 비키고!
+  - id: D_SA_01_Core_01
+    text: 지현이랑 둘이 난감해 하던 중이었는데,
+  - id: D_SA_01_Core_02
+    text: 남자인 네가 와서 다행이야.
+  - id: D_SA_01_Core_03
+    text: 너라면 충분히 도와줄 수 있을 것 같애~
+  - id: D_SA_02_Touched_01
+    text: 학교를 둘러보면, 필요한 물건들을 찾을 수 있을 거야.
+  - id: D_SA_02_Touched_02
+    text: 아까 기계실습실 옆 쪽에서 사다리를 본 거 같은데?
+  - id: D_SA_02_Touched_03
+    text: 철망을 자르려면, 니퍼 같은 게 필요하지 않을까?
+  - id: D_SA_02_Touched_04
+    text: 뭐해, 아직도 못 구했어?
+  - id: D_SA_02_Touched_05
+    text: 야, 도와 준다며!
+  - id: D_SA_02_Touched_06
+    text: 하! 너 겨우 이런 애였니?
+  - id: D_SA_03_Touched_01
+    text: 응? 아직 안 갔어?
+  - id: D_SA_03_Touched_02
+    text: 왜, 혼자 가려니까 겁나? 하핫.
+  - id: D_SA_03_Touched_03
+    text: 난 걱정말고 이제 네 갈 길 가~
+  - id: D_SA_03_Touched_04
+    text: 야, 좀 가라니까?
+  - id: D_SA_03_Touched_05
+    text: 너 진짜 왜 이러는데?
+  - id: D_SA_03_Touched_06
+    text: 그만 귀찮게 하고 꺼져!
+  - id: D_SA_00_FinalReaction
+    text: 아, 진짜 짜증나게.
+  - id: D_SA_00_Anyway
+    text: 아무튼,
+  - id: D_SA_00_SitReaction
+    text: 어머, 놀랐잖아!
+  - id: D_SA_00_LegTouched_01
+    text: 야! 뭐.. 뭐하는거야!!
+  - id: D_SA_00_LegTouched_02
+    text: 너 그만 안 둬?!
+  - id: D_SA_00_LegTouched_03
+    text: 확! 걷어 차 버린다?
+  - id: D_SA_00_LegTouched_04
+    text: 너 내가 못 찰 줄 알아?
+  - id: D_SA_00_LegTouched_05
+    text: 너 한 번만 더 만지기만 해봐..
+  - id: D_SA_00_LegTouched_06
+    text: 꺼져!!!
+  - id: D_SY_01_Blocked_01
+    text: 비켜줘.
+  - id: D_SY_01_Blocked_02
+    text: 좀 비켜봐.
+  - id: D_SY_01_Blocked_03
+    text: 무슨 꿍꿍이지?
+  - id: D_SY_01_End_01
+    text: 여기야, 여길 들어가 보자.
+  - id: D_SY_01_End_02
+    text: 지현이 찾는 거 도와준다며?
+  - id: D_SY_01_End_03
+    text: 여길 찾아보자니까?
+  - id: D_SY_01_End_04
+    text: 계속 거기 있을 거야?
+  - id: D_SY_01_End_05
+    text: 오든 말든, 네 마음대로 해.
+  - id: D_SY_01_Core_01
+    text: 지현이는 이 시간에 왜 학교에 온 걸까..
+  - id: D_SY_01_Core_02
+    text: 너도 그렇고..
+  - id: D_SY_01_Core_03
+    text: 오늘은 특히 불청객이 많은 것 같아.
+  - id: D_SY_02_Blocked_01
+    text: 왜? 뭔가 찾았어?
+  - id: D_SY_02_Blocked_02
+    text: 뭐 할 말 있어?
+  - id: D_SY_02_Blocked_03
+    text: 너 정말 이상하다..
+  - id: D_SY_02_Touched_01
+    text: 왜 그래?
+  - id: D_SY_02_Touched_02
+    text: 1층 역사관 쪽으로 가는 게 좋을 것 같아.
+  - id: D_SY_02_Touched_03
+    text: 이러고 있을 때가 아니야.
+  - id: D_SY_02_Touched_04
+    text: 어디든 가서 단서를 찾아봐야지.
+  - id: D_SY_02_Touched_05
+    text: 너 정말 답답하다..대체 왜 이러는 거야?
+  - id: D_SY_02_Touched_06
+    text: 너 같은 애는 정말..
+  - id: D_SY_03_Blocked_01
+    text: 좀 비켜줄래?
+  - id: D_SY_03_Blocked_02
+    text: 내가 앞장 설 게. 따라와.
+  - id: D_SY_03_Blocked_03
+    text: 네가 이러고 있어서 못 가잖아.
+  - id: D_SY_03_End_01
+    text: 이쪽이야.
+  - id: D_SY_03_End_02
+    text: 여기 이 문이야.
+  - id: D_SY_03_End_03
+    text: 그 카드가 있어야 이 문을 열 수 있어.
+  - id: D_SY_03_End_04
+    text: 이쪽으로 좀 오라니까?
+  - id: D_SY_03_End_05
+    text: 지금 나랑 장난 하는 거니?
+  - id: D_SY_03_Core_01
+    text: 내가 신관의 카드키에 대해 얘기 했지?
+  - id: D_SY_03_Core_02
+    text: 그 카드가 있으면 중앙홀 쪽으로 갈 수 있을 거야.
+  - id: D_SY_03_Core_03
+    text: 거기서 다른 단서를 찾아보는 게 좋겠어.
+  - id: D_SY_04_Touched_01
+    text: 난 괜찮아. 걱정하지 말고 어서 가.
+  - id: D_SY_04_Touched_02
+    text: 네가 아니었다면, 여기까지 오지 못 했을 거야.
+  - id: D_SY_04_Touched_03
+    text: 이번이 마지막이야. 어서 가.
+  - id: D_SY_04_Touched_04
+    text: 왜 안가는 건데?
+  - id: D_SY_04_Touched_05
+    text: 이제 와서 왜 이러는 거야?
+  - id: D_SY_04_Touched_06
+    text: 너 대체 무슨 생각이야?
+  - id: D_SY_00_FinalReaction
+    text: 하아.. 너 때문에.. 피곤해..
+  - id: D_SY_00_Anyway
+    text: 하여간,
+  - id: D_SY_00_SitReaction
+    text: 거기 뭐라도 있어?
+  - id: D_SY_00_LegTouched_01
+    text: 지금, 뭐 하는 거지?
+  - id: D_SY_00_LegTouched_02
+    text: 너, 정말 형편없는 애구나.
+  - id: D_SY_00_LegTouched_03
+    text: 내가 이래서 남자들이 싫어.
+  - id: D_SY_00_LegTouched_04
+    text: 너 미친 거 아냐? 그만 하라고!
+  - id: D_SY_00_LegTouched_05
+    text: 한 번만 더 경고한다, 그만 해..
+  - id: D_SY_00_LegTouched_06
+    text: 이, 저질!!
+  - id: D_JH_01_Touched_01
+    text: 네가 가서 한 번 확인 해줘..
+  - id: D_JH_01_Touched_02
+    text: 빨리 가 봐. 나 무섭단 말이야..
+  - id: D_JH_01_Touched_03
+    text: 이 피아노 소리 안 들려?
+  - id: D_JH_01_Touched_04
+    text: 자살한 음악선생님의 귀신일지도 몰라!!
+  - id: D_JH_01_Touched_05
+    text: 너 진짜 왜 이래.. 빨리 가!
+  - id: D_JH_01_Touched_06
+    text: 나 정말 무섭단 말이야..!
+  - id: D_JH_02_Blocked_01
+    text: '왜 그래? '
+  - id: D_JH_02_Blocked_02
+    text: 왜 그러는거야..? 빨리 가자..
+  - id: D_JH_02_Blocked_03
+    text: 이러지 마. 나 정말 무섭단 말이야..
+  - id: D_JH_02_Touched_01
+    text: 우리.. 어디로 가는 거야?
+  - id: D_JH_02_Touched_02
+    text: 성아는.. 괜찮을까?
+  - id: D_JH_02_Touched_03
+    text: 지진이 더 심해지는 것 같아..
+  - id: D_JH_02_Touched_04
+    text: 자꾸 말 시키지 마! 무섭단 말야..
+  - id: D_JH_02_Touched_05
+    text: 너 왜 이래, 하지 말라니까?
+  - id: D_JH_02_Touched_06
+    text: 네 뒤에 뭔가 있어!!
+  - id: D_JH_02_Core_01
+    text: 윗층 미술실에서 약을 먹고 자살한 학생이 있었대.
+  - id: D_JH_02_Core_02
+    text: 그런데 그 학생이 임신 중이었다나봐.
+  - id: D_JH_02_Core_03
+    text: 학교에서는 헛소문이라고 했지만..
+  - id: D_JH_02_Core_04
+    text: 난 진짜라고 생각해.
+  - id: D_JH_02_Core_05
+    text: 가끔 이 근처에서 아기 울음소리가 들릴 때가 있거든..
+  - id: D_JH_03_Touched_01
+    text: 날 내버려 둬!!
+  - id: D_JH_03_Touched_02
+    text: 여기서 나가라니까!
+  - id: D_JH_03_Touched_03
+    text: …
+  - id: D_JH_03_Touched_04
+    text: …
+  - id: D_JH_03_Touched_05
+    text: 한 번만 더 건드리면.. 가만 안 둘 거야..
+  - id: D_JH_03_Touched_06
+    text: 히히히힛 히히히히히 이히히히히힛 으헤헤헤헷~
+  - id: D_JH_04_Touched_01
+    text: 왜? 성아를 찾으러 간다며..
+  - id: D_JH_04_Touched_02
+    text: 난 쉬고 있을테니까 빨리 가봐.
+  - id: D_JH_04_Touched_03
+    text: 난 신경쓰지 않아도 된다니까?
+  - id: D_JH_04_Touched_04
+    text: 아, 왜 이렇게 귀찮게 하는데..?
+  - id: D_JH_04_Touched_05
+    text: 뭐야 너? 나한테 바라는 거 있어?
+  - id: D_JH_04_Touched_06
+    text: 이제 그냥 좀 가!
+  - id: D_JH_00_FinalReaction
+    text: 너랑 더 이상 얘기 안 해!
+  - id: D_JH_00_Anyway
+    text: 하여튼,
+  - id: D_JH_00_SitReaction
+    text: 왜.. 왜 그래?
+  - id: D_JH_00_LegTouched_01
+    text: 야..어딜 만지는 거야..!
+  - id: D_JH_00_LegTouched_02
+    text: 왜 이래.. 이러지 마..
+  - id: D_JH_00_LegTouched_03
+    text: 너.. 그렇게 안 봤는데..
+  - id: D_JH_00_LegTouched_04
+    text: 대체 왜 이러는 거야..
+  - id: D_JH_00_LegTouched_05
+    text: 날 좋아하는 거야? 그런 거 아니지?
+  - id: D_JH_00_LegTouched_06
+    text: 저리 가라고!!
+  - id: D_mj_01_Touched_01
+    text: 여긴 잠겨 있다 말했잖아요…!
+  - id: D_mj_01_Touched_02
+    text: 아직 볼 일이 남았나요?
+  - id: D_mj_01_Touched_03
+    text: 저한테 관심있어요?
+  - id: D_mj_01_Touched_04
+    text: 집에 여자 없어요?
+  - id: D_mj_01_Touched_05
+    text: 다리 보는 게 좋아요?
+  - id: D_mj_01_Touched_06
+    text: 그만 좀 하죠…
+  - id: D_mj_01_Touched_07
+    text: 아 슬슬 짜증이 나네…
+  - id: D_mj_01_Touched_08
+    text: 아~ 걷어 차이고 싶은 거군요~
+  - id: SFX_Event_Maze_Voice1_01
+    text: 나영아, 나야.
+  - id: SFX_Event_Maze_Voice1_02
+    text: 응? 무슨 소리야? 나 성안데?
+  - id: SFX_Event_Maze_Voice1_03
+    text: 소영이?
+  - id: SFX_Event_Maze_Voice1_04
+    text: 아, 그래? 내 목소리가 소영이랑 비슷해?
+  - id: SFX_Event_Maze_Voice1_05
+    text: 아~ 전화 상이라 그런가?
+  - id: SFX_Event_Maze_Voice1_06
+    text: 아무튼 너 내일 우리집 올래? 엄마가 너 준다고..
+  - id: SFX_Event_Maze_Voice2_01
+    text: 안녕하세요. 나영이 어머니. 별 일 없으시죠?
+  - id: SFX_Event_Maze_Voice2_02
+    text: 하하, 성아 엄마에요.
+  - id: SFX_Event_Maze_Voice2_03
+    text: 자주 인사 못 드려서 미안해요.
+  - id: SFX_Event_Maze_Voice2_04
+    text: 하하, 나영이가 우리 성아를 여간 잘 돌봐주는 게 아니라서요.
+  - id: SFX_Event_Maze_Voice2_05
+    text: 워낙 몸이 약한 애라서, 늘 고맙게 생각하고 있습니다.
+  - id: SFX_Event_Maze_Voice2_06
+    text: 아유~ 무슨 그런 말씀을요. 하하.
+  - id: SFX_Event_Maze_Voice2_07
+    text: 언제 시간 되면 애들 데리고 같이 식사라도 한 번 하죠.
+  - id: SFX_Event_Maze_Voice2_08
+    text: 네. 네~
+  - id: SFX_Event_Maze_Voice3_01
+    text: 나영아, 나 좀 봐봐.
+  - id: SFX_Event_Maze_Voice3_02
+    text: 하하, 늘 미안하고 고마워.
+  - id: SFX_Event_Maze_Voice3_03
+    text: 너도 공부하느라 힘들텐데 네가 항상 내 옆에 있어줘서, 너무 힘이 되.
+  - id: SFX_Event_Maze_Voice3_04
+    text: 뭐해~ 웃지만 말고 뭐라고 말 좀 해봐.
+  - id: SFX_Event_Maze_Voice4_01
+    text: 나영아, 너 어디있는거야? 장난치지 말고 나와..
+  - id: SFX_Event_Maze_Voice4_02
+    text: 아악~ 콜록콜록콜록.. 어흑..콜록..
+  - id: SFX_Event_Maze_Voice4_03
+    text: 불이야!! 어흑 콜록..
+  - id: SFX_Event_Maze_Voice4_04
+    text: 하아, 엄마!! 나영아! 으아악~ 콜록콜록..
+  - id: SFX_Event_Maze_Voice4_05
+    text: 누구 없어요? 하아악, 하아악.. 도와 주세요..
+  - id: SFX_Event_Maze_Voice4_06
+    text: 콜록 콜록 으헉억..
+  - id: SFX_Event_Maze_Voice5_01
+    text: 이거 놔주세요! 저 안에 내 딸이 있단 말이에요!
+  - id: SFX_Event_Maze_Voice5_02
+    text: 성아야!! 성아야!!!
+  - id: SFX_Event_Maze_Voice5_03
+    text: 비켜줘요.. 들어가게 해주세요.
+  - id: SFX_Event_Maze_Voice5_04
+    text: 안돼! 이거 놔요.. 성아야 성아야.. 안돼 안돼!!! 성아야..!! 성아야!!!! 으허어.. 성아야!!!
+  - id: SFX_Event_Maze_Voice6_01
+    text: 여보세요.. 아무도 없어요?
+  - id: SFX_Event_Maze_Voice6_02
+    text: 엄마.. 엄마..? 엄마 어딨어..?
+  - id: SFX_Event_Maze_Voice6_03
+    text: 아무것도 아무것도 안보여.. 엄마? 엄마….
+  - id: SFX_Event_Maze_Voice6_04
+    text: 엄마~~~
+  - id: SFX_Event_Maze_Voice7_01
+    text: 한나영. 날 똑봐로 봐. 내가 안보여?
+  - id: SFX_Event_Maze_Voice7_02
+    text: 내가 죽을 때 넌 어딨었어?
+  - id: SFX_Event_Maze_Voice7_03
+    text: 슬픈 척, 착한 척 하지 마.
+  - id: SFX_Event_Maze_Voice7_04
+    text: 이제 날 느끼게 해줄거야.
+  - id: SFX_Event_Maze_Voice7_05
+    text: 흐흐흐 흐흐하하하하 흐하하하하
+  - id: SFX_Event_Maze_Voice8_01
+    text: 밥 먹으래. 언니, 밥먹으라니까?
+  - id: SFX_Event_Maze_Voice8_02
+    text: 밥 안 먹을 꺼야?
+  - id: SFX_Event_Maze_Voice8_03
+    text: 이 문 좀 열어봐. 잘 나오지도 않고 뭐하는거야.
+  - id: SFX_Event_Maze_Voice8_04
+    text: 무슨 일있어?
+  - id: SFX_Event_Maze_Voice8_05
+    text: 허, 칫! 왜 나한테 화를 내고 난리야?
+  - id: SFX_Event_Cassette_Play_01
+    text: 불이야!!
+  - id: SFX_Event_Cassette_Play_02
+    text: 어흑 콜록..
+  - id: SFX_Event_Cassette_Play_03
+    text: 엄마!! 나영아!
+  - id: SFX_Event_Cassette_Play_04
+    text: 으아악~ 콜록콜록..
+  - id: SFX_Event_Cassette_Play_05
+    text: 누구 없어요? 하아악, 하아악.. 도와 주세요..

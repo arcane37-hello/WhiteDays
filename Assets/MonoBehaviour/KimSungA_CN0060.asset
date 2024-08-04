@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030609d04de5cf3bd2e477af1deae49e, type: 3}
+  m_Name: KimSungA_CN0060
+  m_EditorClassIdentifier:
+  m_Fold: 1
+  m_DataName: KimSungA_CN0060
+  m_Type: 0
+  m_StartPos: {x: -11.488495, y: 0.04998505, z: -3.8522625}
+  m_StartRotation: {x: 0, y: 0.7137443, z: 0, w: 0.70040643}
+  m_MoveSpeed: 0
+  m_Waypoints:
+  - {x: -8.475518, y: 0.04998505, z: -4.0104613}
+  - {x: -7.192302, y: 0.028556008, z: -2.31293}
+  - {x: -5.0810113, y: -1.50203705E-05, z: 3.7709835}
+  m_ChaseableArea: []
+  m_CommonReaction: {fileID: 11400000, guid: 22a6b7ee63cd5454e88f62b2180f8433, type: 2}
+  m_Reaction:
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 3
+    m_fElapseTime: 5
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_ARRIVAL_0
+    m_Sound: D_SA_01_END_01
+    m_AnimationTrigger: 0
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 3
+    m_fElapseTime: 10
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_ARRIVAL_1
+    m_Sound: D_SA_01_END_02
+    m_AnimationTrigger: 0
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 3
+    m_fElapseTime: 20
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_ARRIVAL_2
+    m_Sound: D_SA_01_END_03
+    m_AnimationTrigger: 0
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 3
+    m_fElapseTime: 30
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_ARRIVAL_3
+    m_Sound: D_SA_01_END_04
+    m_AnimationTrigger: 0
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 3
+    m_fElapseTime: 40
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_ARRIVAL_4
+    m_Sound: D_SA_01_END_05
+    m_AnimationTrigger: 0
+    m_Result: 1
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 4
+    m_fElapseTime: 5
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_CLOSE_0
+    m_Sound: D_SA_01_Blocked_01
+    m_AnimationTrigger: 0
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 4
+    m_fElapseTime: 10
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_CLOSE_1
+    m_Sound: D_SA_01_Blocked_02
+    m_AnimationTrigger: 0
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 0
+    m_ConditionType: 4
+    m_fElapseTime: 20
+    m_TriggerPos: {x: 0, y: 0, z: 0}
+    m_TriggerRadius: 1
+    m_SpeechID: COMPANION_CLOSE_2
+    m_Sound: D_SA_01_Blocked_03
+    m_AnimationTrigger: 0
+    m_Result: 1
+  - m_Fold: 1
+    m_Indispensable: 1
+    m_ConditionType: 5
+    m_fElapseTime: 0
+    m_TriggerPos: {x: -10.169026, y: 0.04998505, z: -3.9666264}
+    m_TriggerRadius: 0.99973226
+    m_SpeechID: COMPANION_TRIGGER_0
+    m_Sound: D_SA_01_Core_01
+    m_AnimationTrigger: 0
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 1
+    m_ConditionType: 5
+    m_fElapseTime: 0
+    m_TriggerPos: {x: -8.503317, y: 0.04998505, z: -4.0133095}
+    m_TriggerRadius: 0.99963236
+    m_SpeechID: COMPANION_TRIGGER_1
+    m_Sound: D_SA_01_Core_02
+    m_AnimationTrigger: 0
+    m_Result: 0
+  - m_Fold: 1
+    m_Indispensable: 1
+    m_ConditionType: 5
+    m_fElapseTime: 0
+    m_TriggerPos: {x: -7.2127323, y: 0.028838936, z: -2.3283088}
+    m_TriggerRadius: 0.9999031
+    m_SpeechID: COMPANION_TRIGGER_2
+    m_Sound: D_SA_01_Core_03
+    m_AnimationTrigger: 0
+    m_Result: 0

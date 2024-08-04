@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba021141e06378a25540ea54ebe0894c, type: 3}
+  m_Name: EventGuide
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/EventGuides.xlsx
+  worksheetName: EventGuide
+  dataArray:
+  - id: 0
+    sceneIndex: 0
+    targetPos: -8.198,0,-3.634
+  - id: 1
+    sceneIndex: 0
+    targetPos: -25.405,0.5634,-3.715
+  - id: 2
+    sceneIndex: 0
+    targetPos: -24.263,0,4.453
+  - id: 3
+    sceneIndex: 0
+    targetPos: -19.7237,0.0186,2.511
+  - id: 4
+    sceneIndex: 0
+    targetPos: -19.311,0,-50.395
+  - id: 5
+    sceneIndex: 0
+    targetPos: -8.0714,4.1385,-4.636
+  - id: 6
+    sceneIndex: 0
+    targetPos: -24.9547,0.0647,4.5723
+  - id: 7
+    sceneIndex: 0
+    targetPos: -24.4936,0.9619,-39.03825
+  - id: 8
+    sceneIndex: 0
+    targetPos: -21.89,3,-3.67
+  - id: 9
+    sceneIndex: 0
+    targetPos: -5.342001,3,-36.74
+  - id: 10
+    sceneIndex: 0
+    targetPos: -8.609,3.7895,5.163
+  - id: 11
+    sceneIndex: 0
+    targetPos: -21.558,4.0338,-0.83
+  - id: 12
+    sceneIndex: 0
+    targetPos: -0.8250713,1.378975,-35.54744
+  - id: 13
+    sceneIndex: 0
+    targetPos: -1.670072,3.5929,-35.32044
+  - id: 14
+    sceneIndex: 0
+    targetPos: -19.23493,0,-53.203
+  - id: 15
+    sceneIndex: 1
+    targetPos: -43.468,3,-54.05
+  - id: 16
+    sceneIndex: 1
+    targetPos: -27.309,0.557,-55.996
+  - id: 17
+    sceneIndex: 1
+    targetPos: -39.8515,0.3661,-56.4875
+  - id: 18
+    sceneIndex: 1
+    targetPos: -37.1481,4,-54.893
+  - id: 19
+    sceneIndex: 1
+    targetPos: -18.558,1.153,-54.792
+  - id: 20
+    sceneIndex: 1
+    targetPos: -17.89,0,-59.121
+  - id: 21
+    sceneIndex: 1
+    targetPos: -19.71,0,-59.82
+  - id: 22
+    sceneIndex: 1
+    targetPos: -20.821,1.8018,-58.746
+  - id: 23
+    sceneIndex: 1
+    targetPos: -18.4451,3.685,-60.296
+  - id: 24
+    sceneIndex: 1
+    targetPos: -18.4451,3.685,-60.296
+  - id: 25
+    sceneIndex: 1
+    targetPos: -30.645,6,-59.143
+  - id: 26
+    sceneIndex: 1
+    targetPos: -24.771,6.31,-58.263
+  - id: 27
+    sceneIndex: 1
+    targetPos: -24.771,6.31,-58.263
+  - id: 28
+    sceneIndex: 1
+    targetPos: -13.7227,6.193,-55.4146
+  - id: 29
+    sceneIndex: 1
+    targetPos: -37.615,4.114,-57.41
+  - id: 30
+    sceneIndex: 1
+    targetPos: -14.054,4.172,-56.918
+  - id: 31
+    sceneIndex: 1
+    targetPos: -16.3494,6.0013,-55.6832
+  - id: 32
+    sceneIndex: 1
+    targetPos: -16.995,9.1504,-59.247
+  - id: 33
+    sceneIndex: 1
+    targetPos: -15.516,3.041,-59.236
+  - id: 34
+    sceneIndex: 1
+    targetPos: -17.59,9,-59.16
+  - id: 35
+    sceneIndex: 1
+    targetPos: -15.05,9.0189,-55.86
+  - id: 36
+    sceneIndex: 1
+    targetPos: -43.903,4,-51.163
+  - id: 37
+    sceneIndex: 2
+    targetPos: -62.799,0.7942,-26.856
+  - id: 38
+    sceneIndex: 2
+    targetPos: -71.8112,3.8,-22.8546
+  - id: 39
+    sceneIndex: 2
+    targetPos: -84.213,0.187,-31.6745
+  - id: 40
+    sceneIndex: 2
+    targetPos: -86.5,0.004,-36
+  - id: 41
+    sceneIndex: 2
+    targetPos: -82.66,9,-12.54
+  - id: 42
+    sceneIndex: 2
+    targetPos: -95.0334,9.9351,-12.4863
+  - id: 43
+    sceneIndex: 2
+    targetPos: -78.78777,0,-36.01196
+  - id: 44
+    sceneIndex: 2
+    targetPos: -63.93,3,-28.29
+  - id: 45
+    sceneIndex: 2
+    targetPos: -52.7918,4.5,-14.7948
+  - id: 46
+    sceneIndex: 2
+    targetPos: -52.7928,4.5,-29.9493
+  - id: 47
+    sceneIndex: 2
+    targetPos: -60.9318,4.5,-14.7954
+  - id: 48
+    sceneIndex: 2
+    targetPos: -78.9503,1.5,-14.912
+  - id: 49
+    sceneIndex: 2
+    targetPos: -72.309,0.9205,-13.613
+  - id: 50
+    sceneIndex: 2
+    targetPos: -77.5164,4.1,-31.5551
+  - id: 51
+    sceneIndex: 2
+    targetPos: -83.73199,4.1,-17.1919
+  - id: 52
+    sceneIndex: 2
+    targetPos: -84.4854,7.1,-31.5551
+  - id: 53
+    sceneIndex: 2
+    targetPos: -73.6007,7.1,-17.1918
+  - id: 54
+    sceneIndex: 2
+    targetPos: -90.7,7.1,-17.1914
+  - id: 55
+    sceneIndex: 2
+    targetPos: -94.4,0,-12.609
+  - id: 56
+    sceneIndex: 2
+    targetPos: -81.126,0.0181,-24.1723
+  - id: 57
+    sceneIndex: 2
+    targetPos: -71.822,9.002,-17.162
+  - id: 58
+    sceneIndex: 2
+    targetPos: -65.5,9.047,-22.48
+  - id: 59
+    sceneIndex: 2
+    targetPos: -81.903,4,-14.5819
+  - id: 60
+    sceneIndex: 2
+    targetPos: -92.499,9,-18.119
+  - id: 61
+    sceneIndex: 2
+    targetPos: -59.919,3,-1.787
+  - id: 62
+    sceneIndex: 3
+    targetPos: -53.77,3,2.4351
+  - id: 63
+    sceneIndex: 3
+    targetPos: -39.51,0,4.935
+  - id: 64
+    sceneIndex: 3
+    targetPos: -46.2,0,16.67
+  - id: 65
+    sceneIndex: 3
+    targetPos: -61.896,0,3.072
+  - id: 66
+    sceneIndex: 3
+    targetPos: -39.527,0,23.105
+  - id: 67
+    sceneIndex: 3
+    targetPos: -67.653,0,23.105
+  - id: 68
+    sceneIndex: 3
+    targetPos: -45.44,0,1.934
+  - id: 69
+    sceneIndex: 3
+    targetPos: -59.266,0,29.482
+  - id: 70
+    sceneIndex: 3
+    targetPos: -53.686,0,20.017
+  - id: 71
+    sceneIndex: 3
+    targetPos: -42.793,3.9238,-0.8650001
+  - id: 72
+    sceneIndex: 1
+    targetPos: -27.65,3.4291,-55.336
+  - id: 73
+    sceneIndex: 1
+    targetPos: -27.65,3.4291,-55.336
+  - id: 74
+    sceneIndex: 3
+    targetPos: -53.59,0.74,30
+  - id: 75
+    sceneIndex: 0
+    targetPos: -25.1,0.5609,-44.489

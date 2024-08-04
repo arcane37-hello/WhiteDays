@@ -1,0 +1,472 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e154c5aa3023b805c40eadec17f22f1f, type: 3}
+  m_Name: Vibration
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Vibration_data.xlsx
+  worksheetName: Vibrationdata
+  dataArray:
+  - id: 1
+    vibrationL: 255
+    vibrationR: 0
+    modifierL: -80
+    modifierR: 30
+    totalTime: 3
+    vibrationTime: 3
+    intervalTime: 0
+  - id: 2
+    vibrationL: 255
+    vibrationR: 255
+    modifierL: 0
+    modifierR: 0
+    totalTime: 0.3
+    vibrationTime: 0.3
+    intervalTime: 0
+  - id: 3
+    vibrationL: 80
+    vibrationR: 200
+    modifierL: -30
+    modifierR: 15
+    totalTime: 3.5
+    vibrationTime: 0.3
+    intervalTime: 0.4
+  - id: 4
+    vibrationL: 80
+    vibrationR: 120
+    modifierL: -50
+    modifierR: -55
+    totalTime: 0.3
+    vibrationTime: 0.3
+    intervalTime: 0
+  - id: 5
+    vibrationL: 120
+    vibrationR: 200
+    modifierL: 0
+    modifierR: 0
+    totalTime: 0.3
+    vibrationTime: 0.3
+    intervalTime: 0
+  - id: 6
+    vibrationL: 150
+    vibrationR: 100
+    modifierL: -175
+    modifierR: -65
+    totalTime: 2
+    vibrationTime: 2
+    intervalTime: 0
+  - id: 7
+    vibrationL: 170
+    vibrationR: 200
+    modifierL: 0
+    modifierR: 0
+    totalTime: 0.5
+    vibrationTime: 0.5
+    intervalTime: 0
+  - id: 8
+    vibrationL: 220
+    vibrationR: 200
+    modifierL: 0
+    modifierR: 0
+    totalTime: 0.5
+    vibrationTime: 0.5
+    intervalTime: 0
+  - id: 9
+    vibrationL: 255
+    vibrationR: 255
+    modifierL: -255
+    modifierR: -255
+    totalTime: 1
+    vibrationTime: 1
+    intervalTime: 0
+  - id: 10
+    vibrationL: 80
+    vibrationR: 20
+    modifierL: 0
+    modifierR: 100
+    totalTime: 0.7
+    vibrationTime: 0.7
+    intervalTime: 0
+  - id: 11
+    vibrationL: 80
+    vibrationR: 60
+    modifierL: 60
+    modifierR: 30
+    totalTime: 9
+    vibrationTime: 1
+    intervalTime: 0
+  - id: 12
+    vibrationL: 30
+    vibrationR: 80
+    modifierL: 15
+    modifierR: 10
+    totalTime: 8.5
+    vibrationTime: 7.5
+    intervalTime: 0
+  - id: 13
+    vibrationL: 200
+    vibrationR: 80
+    modifierL: -100
+    modifierR: 8
+    totalTime: 15
+    vibrationTime: 15
+    intervalTime: 0
+  - id: 14
+    vibrationL: 100
+    vibrationR: 180
+    modifierL: 15
+    modifierR: 0
+    totalTime: 8.5
+    vibrationTime: 8.5
+    intervalTime: 0
+  - id: 15
+    vibrationL: 50
+    vibrationR: 80
+    modifierL: 25
+    modifierR: 0
+    totalTime: 5
+    vibrationTime: 5
+    intervalTime: 0
+  - id: 16
+    vibrationL: 255
+    vibrationR: 255
+    modifierL: 0
+    modifierR: 0
+    totalTime: 0.5
+    vibrationTime: 0.5
+    intervalTime: 0
+  - id: 17
+    vibrationL: 35
+    vibrationR: 80
+    modifierL: 0
+    modifierR: 20
+    totalTime: 8.5
+    vibrationTime: 8.5
+    intervalTime: 0
+  - id: 18
+    vibrationL: 120
+    vibrationR: 40
+    modifierL: 50
+    modifierR: 40
+    totalTime: 5.5
+    vibrationTime: 1.1
+    intervalTime: 0
+  - id: 19
+    vibrationL: 120
+    vibrationR: 40
+    modifierL: 50
+    modifierR: 40
+    totalTime: 4.5
+    vibrationTime: 0.9
+    intervalTime: 0
+  - id: 20
+    vibrationL: 20
+    vibrationR: 30
+    modifierL: 15
+    modifierR: 30
+    totalTime: 6.5
+    vibrationTime: 6.5
+    intervalTime: 0
+  - id: 21
+    vibrationL: 200
+    vibrationR: 180
+    modifierL: -100
+    modifierR: -45
+    totalTime: 5.5
+    vibrationTime: 5.5
+    intervalTime: 0
+  - id: 22
+    vibrationL: 80
+    vibrationR: 180
+    modifierL: 30
+    modifierR: 40
+    totalTime: 3
+    vibrationTime: 0.5
+    intervalTime: 0
+  - id: 23
+    vibrationL: 220
+    vibrationR: 220
+    modifierL: -55
+    modifierR: -20
+    totalTime: 6
+    vibrationTime: 6
+    intervalTime: 0
+  - id: 24
+    vibrationL: 150
+    vibrationR: 60
+    modifierL: 50
+    modifierR: 40
+    totalTime: 4.5
+    vibrationTime: 0.9
+    intervalTime: 0
+  - id: 25
+    vibrationL: 150
+    vibrationR: 255
+    modifierL: -140
+    modifierR: -150
+    totalTime: 1.5
+    vibrationTime: 1.5
+    intervalTime: 0
+  - id: 26
+    vibrationL: 150
+    vibrationR: 60
+    modifierL: 50
+    modifierR: 40
+    totalTime: 9
+    vibrationTime: 0.9
+    intervalTime: 0
+  - id: 27
+    vibrationL: 150
+    vibrationR: 255
+    modifierL: 20
+    modifierR: -50
+    totalTime: 3
+    vibrationTime: 3
+    intervalTime: 0
+  - id: 28
+    vibrationL: 50
+    vibrationR: 50
+    modifierL: 8
+    modifierR: 20
+    totalTime: 15
+    vibrationTime: 15
+    intervalTime: 0
+  - id: 29
+    vibrationL: 150
+    vibrationR: 60
+    modifierL: 25
+    modifierR: 20
+    totalTime: 4.5
+    vibrationTime: 0.9
+    intervalTime: 0
+  - id: 30
+    vibrationL: 30
+    vibrationR: 100
+    modifierL: 40
+    modifierR: 10
+    totalTime: 6.5
+    vibrationTime: 6.5
+    intervalTime: 0
+  - id: 31
+    vibrationL: 220
+    vibrationR: 220
+    modifierL: -50
+    modifierR: -10
+    totalTime: 15
+    vibrationTime: 15
+    intervalTime: 0
+  - id: 32
+    vibrationL: 30
+    vibrationR: 80
+    modifierL: 15
+    modifierR: 10
+    totalTime: 11.5
+    vibrationTime: 11.5
+    intervalTime: 0
+  - id: 33
+    vibrationL: 0
+    vibrationR: 50
+    modifierL: 10
+    modifierR: 20
+    totalTime: 14
+    vibrationTime: 14
+    intervalTime: 0
+  - id: 34
+    vibrationL: 30
+    vibrationR: 50
+    modifierL: 10
+    modifierR: 15
+    totalTime: 14.5
+    vibrationTime: 14.5
+    intervalTime: 0
+  - id: 35
+    vibrationL: 255
+    vibrationR: 255
+    modifierL: -50
+    modifierR: -10
+    totalTime: 15
+    vibrationTime: 15
+    intervalTime: 0
+  - id: 36
+    vibrationL: 70
+    vibrationR: 100
+    modifierL: 0
+    modifierR: 15
+    totalTime: 7
+    vibrationTime: 7
+    intervalTime: 0
+  - id: 37
+    vibrationL: 150
+    vibrationR: 60
+    modifierL: 100
+    modifierR: 80
+    totalTime: 9
+    vibrationTime: 0.9
+    intervalTime: 0
+  - id: 38
+    vibrationL: 255
+    vibrationR: 255
+    modifierL: -20
+    modifierR: -80
+    totalTime: 8
+    vibrationTime: 8
+    intervalTime: 0
+  - id: 39
+    vibrationL: 150
+    vibrationR: 60
+    modifierL: 100
+    modifierR: 80
+    totalTime: 2.4
+    vibrationTime: 1.2
+    intervalTime: 0
+  - id: 40
+    vibrationL: 255
+    vibrationR: 255
+    modifierL: -120
+    modifierR: -120
+    totalTime: 2
+    vibrationTime: 2
+    intervalTime: 0
+  - id: 41
+    vibrationL: 200
+    vibrationR: 200
+    modifierL: -40
+    modifierR: -30
+    totalTime: 3.5
+    vibrationTime: 3.5
+    intervalTime: 0
+  - id: 42
+    vibrationL: 150
+    vibrationR: 60
+    modifierL: 100
+    modifierR: 80
+    totalTime: 12
+    vibrationTime: 1
+    intervalTime: 0
+  - id: 43
+    vibrationL: 120
+    vibrationR: 120
+    modifierL: 40
+    modifierR: 40
+    totalTime: 3.5
+    vibrationTime: 3.5
+    intervalTime: 0
+  - id: 44
+    vibrationL: 120
+    vibrationR: 120
+    modifierL: 30
+    modifierR: 30
+    totalTime: 4
+    vibrationTime: 4
+    intervalTime: 0
+  - id: 45
+    vibrationL: 150
+    vibrationR: 60
+    modifierL: 100
+    modifierR: 80
+    totalTime: 20
+    vibrationTime: 1
+    intervalTime: 0
+  - id: 46
+    vibrationL: 150
+    vibrationR: 60
+    modifierL: 100
+    modifierR: 80
+    totalTime: 6
+    vibrationTime: 1
+    intervalTime: 0
+  - id: 47
+    vibrationL: 200
+    vibrationR: 200
+    modifierL: -100
+    modifierR: -100
+    totalTime: 1.5
+    vibrationTime: 1.5
+    intervalTime: 0
+  - id: 48
+    vibrationL: 150
+    vibrationR: 60
+    modifierL: 100
+    modifierR: 80
+    totalTime: 3.5
+    vibrationTime: 1
+    intervalTime: 0
+  - id: 49
+    vibrationL: 170
+    vibrationR: 200
+    modifierL: 0
+    modifierR: 0
+    totalTime: 0.5
+    vibrationTime: 0.5
+    intervalTime: 0
+  - id: 50
+    vibrationL: 150
+    vibrationR: 60
+    modifierL: 100
+    modifierR: 80
+    totalTime: 3.6
+    vibrationTime: 1.2
+    intervalTime: 0
+  - id: 51
+    vibrationL: 150
+    vibrationR: 180
+    modifierL: 0
+    modifierR: 0
+    totalTime: 0.3
+    vibrationTime: 0.3
+    intervalTime: 0
+  - id: 52
+    vibrationL: 170
+    vibrationR: 200
+    modifierL: 0
+    modifierR: 0
+    totalTime: 0.5
+    vibrationTime: 0.5
+    intervalTime: 0
+  - id: 53
+    vibrationL: 150
+    vibrationR: 60
+    modifierL: 100
+    modifierR: 80
+    totalTime: 3600
+    vibrationTime: 1
+    intervalTime: 0
+  - id: 54
+    vibrationL: 150
+    vibrationR: 60
+    modifierL: 100
+    modifierR: 80
+    totalTime: 3600
+    vibrationTime: 1
+    intervalTime: 0
+  - id: 55
+    vibrationL: 80
+    vibrationR: 120
+    modifierL: -50
+    modifierR: -55
+    totalTime: 0.3
+    vibrationTime: 0.3
+    intervalTime: 0
+  - id: 56
+    vibrationL: 50
+    vibrationR: 50
+    modifierL: -25
+    modifierR: -25
+    totalTime: 2
+    vibrationTime: 2
+    intervalTime: 0
+  - id: 57
+    vibrationL: 150
+    vibrationR: 150
+    modifierL: -30
+    modifierR: -30
+    totalTime: 5
+    vibrationTime: 5
+    intervalTime: 0

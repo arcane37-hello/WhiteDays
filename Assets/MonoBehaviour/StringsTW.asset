@@ -1,0 +1,1650 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da84e45da3418d9e996de0c0cd6962b9, type: 3}
+  m_Name: StringsTW
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Strings.xlsx
+  worksheetName: StringsTW
+  dataArray:
+  - id: COMFIRM
+    text: 確認
+  - id: CANCEL
+    text: 取消
+  - id: YES
+    text: 是
+  - id: NO
+    text: 否
+  - id: CLOSE
+    text: 關閉
+  - id: EXIT
+    text: 離開
+  - id: MAX
+    text: 最大
+  - id: MIN
+    text: 最小
+  - id: EMPTY
+    text: 空白
+  - id: QUANTITY
+    text: 數量
+  - id: DOCUMENT
+    text: 文件
+  - id: LADDER
+    text: 梯子
+  - id: SPEAKER
+    text: 擴音器
+  - id: SAVE_GAME
+    text: 要儲存遊戲內容嗎？
+  - id: ITEM_OBTAINED
+    text: 獲得{0}。
+  - id: ITEM_REMOVED
+    text: 消除{0}。
+  - id: MOVETO_MAINBUILDING1
+    text: 前往本館1
+  - id: MOVETO_MAINBUILDING2
+    text: 前往本館2
+  - id: MOVETO_NEWBUILDING
+    text: 前往新館
+  - id: MOVETO_HALL
+    text: 前往禮堂
+  - id: LOBBY_NEW_GAME0
+    text: 進到學校
+  - id: LOBBY_NEW_GAME1
+    text: 新遊戲
+  - id: SETTING
+    text: 設定
+  - id: CONTENTS
+    text: 可下載內容
+  - id: LOBBY_ESCAPE
+    text: 遊戲結束
+  - id: LOBBY_NEW_GAME2
+    text: 選擇要進行的遊戲難度。
+  - id: LEVEL_VERY_EASY
+    text: 超簡單
+  - id: LEVEL_EASY
+    text: 簡單
+  - id: LEVEL_NORMAL
+    text: 普通
+  - id: LEVEL_HARD
+    text: 困難
+  - id: LEVEL_VERY_HARD
+    text: 超真實
+  - id: LEVEL_NORMAL_DESC
+    text: 劇情與驚悚度適中的難度。
+  - id: LEVEL_HARD_DESC
+    text: 選擇較危險的難度，驚悚度也會提高。
+  - id: LEVEL_VERY_HARD_DESC
+    text: 挑戰最真實最恐怖的難度。
+  - id: LEVEL_VERY_HARD_DESC_EXCEPTION
+    text: 尚未有人可以挑戰「超真實」的難度。
+  - id: LEVEL_VERY_EASY_COMMENT
+    text: '<可以更輕易地逃離警衛。>'
+  - id: LEVEL_EASY_COMMENT
+    text: '<遊戲進行時，會收到提示簡訊。>'
+  - id: LEVEL_NORMAL_COMMENT
+    text: 解開藏在校內的謎題，可以收集到各種怪談。
+  - id: LEVEL_HARD_COMMENT
+    text: '<在學校裡徘徊的話有機會遇到躲藏在四處的鬼魂。>'
+  - id: LEVEL_VERY_HARD_COMMENT
+    text: '<可以開啟一死亡遊戲就結束的專家模式。>'
+  - id: LEVEL_VERY_HARD_COMMENT_EXCEPTION
+    text: ※ 之後預計會更新， 敬請期待！
+  - id: CONTINUE
+    text: 繼續
+  - id: LOAD
+    text: 讀取
+  - id: COLLECTION
+    text: 收集品
+  - id: LOAD_DESC
+    text: 讀取存檔。
+  - id: SETTING_DESC
+    text: 變更遊戲設定
+  - id: ACCOUNT_SETTING
+    text: 帳號設定
+  - id: ACCOUNT_SETTING_DESC
+    text: ACCOUNT_SETTING_DESC
+  - id: SNS_CONNECT
+    text: SNS連結
+  - id: ACCOUNT_AND_MOBILE_INFO
+    text: 帳號與裝置資訊
+  - id: GOOGLE_CONNECT
+    text: Google+ 帳號登入
+  - id: FACEBOOK_CONNECT
+    text: Facebook 帳號登入
+  - id: SNS_CONNECT_DESC
+    text: 請以本用戶的其他SNS帳號登入。
+  - id: ACCOUNT_INFO_DESC
+    text: 請確認用戶的帳號和裝置資訊。
+  - id: ACCOUNT_INFO
+    text: 帳號資訊
+  - id: MOBILE_INFO
+    text: 裝置資訊
+  - id: ADD_CONTENTS_DESC
+    text: 變更或購買遊戲內容。
+  - id: CHANGE_CLOTH
+    text: 服裝變更
+  - id: REGIST_CODE
+    text: 登錄特別活動編碼
+  - id: QUIT_DESC
+    text: 確定要結束遊戲嗎？
+  - id: DELETE_DESC
+    text: 確定要刪除嗎？
+  - id: COLLECTION_DESC
+    text: 確認您在遊戲獲得的物品。
+  - id: COLLECTION_GHOST
+    text: 鬼魂收集
+  - id: COLLECTION_ENDING
+    text: 結局收集
+  - id: COLLECTION_GHOST_DESC
+    text: 在學校遇到的鬼和相關鬼故事
+  - id: COLLECTION_DETAIL
+    text: 查看詳細
+  - id: COLLECTION_GHOST_DETAIL_DESC
+    text: 查看您獲得的鬼魂資訊。
+  - id: COLLECTION_ENDING_DESC
+    text: 遊戲中的各種結局
+  - id: COLLECTION_ENDING_PERCENT
+    text: 結局收集達成度
+  - id: COLLECTION_ENDING_LEVEL
+    text: 已完成結局之難度
+  - id: COLLECTION_ENDING_NAME_01
+    text: 白色菊花<br><size=28><color=#606060FF>（真實）</color></size>
+  - id: COLLECTION_ENDING_NAME_02
+    text: 風信子<br><size=28><color=#606060FF>（原諒我吧）</color></size>
+  - id: COLLECTION_ENDING_NAME_03
+    text: 常春藤<br><size=28><color=#606060FF>（友情）</color></size>
+  - id: COLLECTION_ENDING_NAME_04
+    text: 夜來香<br><size=28><color=#606060FF>（危險的快樂）</color></size>
+  - id: COLLECTION_ENDING_NAME_05
+    text: 黑檀木<br><size=28><color=#606060FF>（偽善）</color></size>
+  - id: COLLECTION_ENDING_NAME_06
+    text: 蒲公英<br><size=28><color=#606060FF>（誠實）</color></size>
+  - id: COLLECTION_ENDING_NAME_07
+    text: 一丈紅<br><size=28><color=#606060FF>（愛得倦了）</color></size>
+  - id: COLLECTION_ENDING_NAME_08
+    text: 赤柏松<br><size=28><color=#606060FF>（死亡）</color></size>
+  - id: COLLECTION_ENDING_NAME_09
+    text: 茉莉花<br><size=28><color=#606060FF>(你是我的)</color></size>
+  - id: COLLECTION_ENDING_NAME_10
+    text: 雛菊<br><size=28><color=#606060FF>(藏在心裡的愛)</color></size>
+  - id: VERY_EASY
+    text: 超簡單
+  - id: EASY
+    text: 簡單
+  - id: NORMAL
+    text: 普通
+  - id: HARD
+    text: 困難
+  - id: VERY_HARD
+    text: 超真實
+  - id: COLLECTION_ACHIEVEMENT
+    text: 達成率：
+  - id: CHANGE_CLOTH_DESC
+    text: 更換角色的服裝。
+  - id: EMPTY_INFO
+    text: 無資訊
+  - id: DELETE
+    text: 刪除
+  - id: CONTINUE_PLAY
+    text: 繼續遊戲
+  - id: NOTICE_ENDING_NAME_01
+    text: White chrysanthemum
+  - id: NOTICE_ENDING_NAME_02
+    text: Hyacinth
+  - id: NOTICE_ENDING_NAME_03
+    text: Ivy
+  - id: NOTICE_ENDING_NAME_04
+    text: Tuberose
+  - id: NOTICE_ENDING_NAME_05
+    text: Ebony
+  - id: NOTICE_ENDING_NAME_06
+    text: Dandelion
+  - id: NOTICE_ENDING_NAME_07
+    text: Althaea
+  - id: NOTICE_ENDING_NAME_08
+    text: Yew
+  - id: NOTICE_ENDING_NAME_09
+    text: Jasmine
+  - id: NOTICE_ENDING_NAME_10
+    text: Marguerite
+  - id: NOTICE_ENDING_TIME_01
+    text: 3月 14日 上午 06:37
+  - id: NOTICE_ENDING_TIME_02
+    text: 3月 14日 上午 06:25
+  - id: NOTICE_ENDING_TIME_03
+    text: 3月 14日 上午 06:37
+  - id: NOTICE_ENDING_TIME_04
+    text: 3月 14日 上午 05:58
+  - id: NOTICE_ENDING_TIME_05
+    text: 3月 14日 上午 05:58
+  - id: NOTICE_ENDING_TIME_06
+    text: 3月 14日 上午 05:42
+  - id: NOTICE_ENDING_TIME_07
+    text: 3月 14日 上午 05:44
+  - id: NOTICE_ENDING_TIME_SceneMainBuilding1
+    text: 3月 13日 下午 10:51
+  - id: NOTICE_ENDING_TIME_SceneMainBuilding2
+    text: 3月 13日 下午 11:19
+  - id: NOTICE_ENDING_TIME_SceneNewBuilding
+    text: 3月 14日 淩晨 00:23
+  - id: NOTICE_ENDING_TIME_SceneHall
+    text: 3月 14日 淩晨 04:44
+  - id: NOTICE_ENDING_TIME_SceneMaze
+    text: 3月 14日 上午 06:15
+  - id: NOTICE_ENDING_LOCATION_01
+    text: 延斗高中操場
+  - id: NOTICE_ENDING_LOCATION_02
+    text: 延斗高中操場
+  - id: NOTICE_ENDING_LOCATION_03
+    text: 延斗高中操場
+  - id: NOTICE_ENDING_LOCATION_04
+    text: 延斗高中禮堂2樓
+  - id: NOTICE_ENDING_LOCATION_05
+    text: 延斗高中禮堂2樓
+  - id: NOTICE_ENDING_LOCATION_06
+    text: 延斗高中禮堂中央大廳
+  - id: NOTICE_ENDING_LOCATION_07
+    text: 延斗高中禮堂中央大廳
+  - id: NOTICE_ENDING_LOCATION_SceneMainBuilding1
+    text: 延斗高中本館1區
+  - id: NOTICE_ENDING_LOCATION_SceneMainBuilding2
+    text: 延斗高中本館2區
+  - id: NOTICE_ENDING_LOCATION_SceneNewBuilding
+    text: 延斗高中新館
+  - id: NOTICE_ENDING_LOCATION_SceneHall
+    text: 延斗高中禮堂
+  - id: NOTICE_ENDING_LOCATION_SceneMaze
+    text: 迷宮
+  - id: NOTICE_LOCATION_SceneMainBuilding1
+    text: 延斗高中本館1區<br>3月 13日 下午10:00
+  - id: NOTICE_LOCATION_SceneMainBuilding2
+    text: 延斗高級中學本館2區<br>3月 13日 下午11:01
+  - id: NOTICE_LOCATION_SceneNewBuilding
+    text: 延斗高級中學 新館<br>3月 14日 上午 00:04
+  - id: NOTICE_LOCATION_SceneHall
+    text: 延斗高級中學 禮堂<br>3月 14日 上午 04:26
+  - id: NOTICE_LOCATION_SceneMaze
+    text: 迷宮<br>3月 14日 上午 ??:??
+  - id: GAMEOVER_TEXT_DIE_GUARD
+    text: 被警衛毆打致死。
+  - id: GAMEOVER_TEXT_DIE_GHOST
+    text: 因為恐懼而心臟病發死亡。
+  - id: GAMEOVER_TEXT_DIE_EUNMI
+    text: 被瘋女人用刀刺，迎接殘酷的死亡。
+  - id: GAMEOVER_TEXT_DIE_FIRE
+    text: 在貫穿全身的痛苦當中失去意識。
+  - id: GAMEOVER_TEXT_QTE_CN_0310
+    text: 身體感受著被刺穿的疼痛，血流滿地。
+  - id: GAMEOVER_TEXT_QTE_CN_0600
+    text: 承受著渾身骨頭斷裂的痛苦，耳邊傳來嬰兒的哭泣聲。
+  - id: GAMEOVER_TEXT_QTE_CN_0830
+    text: 被駭人的存在給捉住，不斷被拖進水裡。
+  - id: GAMEOVER_TEXT_QTE_CN_0922
+    text: 被掉落的照明燈具砸中，死狀悽慘。
+  - id: GAMEOVER_TEXT_QTE_CN_0932
+    text: 不祥的氣息籠罩，在貫穿全身的痛苦當中失去意識。
+  - id: GAMEOVER_TEXT_QTE_CN_0952
+    text: 撞上沉重的鐵門，失去意識後死亡。
+  - id: GAMEOVER_TEXT_QTE_CN_0972
+    text: 不祥的氣息籠罩，在貫穿全身的痛苦當中失去意識。
+  - id: GAMEOVER_TEXT_TIMEOVER_TM
+    text: 小英尖叫聲猶如回音，不祥的氣息席捲而來。
+  - id: GAMEOVER_TEXT_TIMEOVER_BB
+    text: 伴隨著嬰兒的哭聲,學校塌陷了。
+  - id: GAMEOVER_TEXT_TIMEOVER_MM
+    text: 在無法喘息的痛苦之中，意識漸漸模糊。
+  - id: GAMEOVER_TEXT_TIMEOVER_HALL
+    text: 爆炸同時，火勢吞噬了所有東西。
+  - id: GAMEOVER_TEXT_TIMEOVER_MAZE
+    text: 被關在迷宮，永遠在裡面徘徊。
+  - id: GAMEOVER_TEXT_DIE_LBG
+    text: 看見女學生臉龐的瞬間，死神就會找上門了。
+  - id: GAMEOVER_TEXT_DIE_FALL
+    text: 迷宮崩塌同時，掉進無底深淵。
+  - id: CODE_SUCCESS
+    text: 登錄成功！
+  - id: CODE_SUCCESS_DESC
+    text: 編號登錄完成！<br>可以在[大廳>附加內容>服裝變更]<br>確認新的服裝。
+  - id: SHORT_CUT
+    text: 立即前往
+  - id: DOWNLOAD_NOW
+    text: 現在下載
+  - id: COSTUME_CHANGE
+    text: 服裝變更
+  - id: COSTUME_CHANGE_DESC
+    text: 更換角色的服裝。
+  - id: POPUP_ALERT_BUY_DESC
+    text: 已成功購買該套服裝。<br>可以在[大廳>附加內容>服裝變更] 中<br>確認並換上購買的服裝。
+  - id: POPUP_ALERT_BUY_TITLE
+    text: 感謝您的購買！
+  - id: POPUP_DOWNLOAD_TITLE
+    text: 內容下載
+  - id: POPUP_DOWNLOAD_DESC
+    text: 正在下載您的購買內容！
+  - id: UI_SAVE_MARKER_CNT
+    text: '剩下的麥克筆 : <color=#ffff00ff>{0}支</color>'
+  - id: QTE_NOTIFICATION_DRAG
+    text: 請拖曳欲使用的物品！
+  - id: QTE_NOTIFICATION_TOUCH
+    text: 請連擊左右鍵！
+  - id: QTE_NOTIFICATION_SLIDE
+    text: 請依據方向劃動畫面！
+  - id: ENDING_COLLECTION_REWARD_DISC
+    text: 結局收集完成時<br>發送服裝
+  - id: GHOST_COLLECTION_REWARD_DISC
+    text: 鬼魂收集完成時<br>發送服裝
+  - id: FIGURE_COLLECTION_REWARD_DISC
+    text: 老舊模型收集完成時<br>發送服裝
+  - id: LEVEL_VERY_HARD_COMMENT_UNLOCK
+    text: '<完成困難難度之後才能挑戰超真實難度。>'
+  - id: CHARACTER_1
+    text: 韓小英
+  - id: CHARACTER_2
+    text: 金聖雅
+  - id: CHARACTER_3
+    text: 薛智賢
+  - id: CHARACTER_4
+    text: 李希民
+  - id: CHARACTER_5
+    text: 李奉九
+  - id: CHARACTER_6
+    text: 孫達守
+  - id: SHOP_MOVE
+    text: 前去購買
+  - id: LIMITED_EDITION_TITLE
+    text: 限定版特別活動編號登錄
+  - id: LIMITED_EDITION_TITLE_DESC
+    text: '限定版服裝 : 獲得了時尚校服。'
+  - id: BUY_CLOTH
+    text: 購買服裝
+  - id: SHOP_BUY_BUTTON_DESC
+    text: '{0} 購買'
+  - id: SHOP_ALREADY_PURCHASED
+    text: 已經購買的商品。
+  - id: SHOP_TITLE
+    text: 購買服裝
+  - id: SHOP_TITLE_DESC
+    text: 可用合理的價格購買特別的服裝。
+  - id: COSTUME_COLLECTION_CONFIRM
+    text: 確認獲得條件
+  - id: COSTUME_COLLECTION_GET
+    text: '[{0}] 已獲得服裝獎勵。'
+  - id: CHECK_SERVER_COSTUME
+    text: 正在確認持有的服裝內容。
+  - id: CHECK_SERVER_MARKET
+    text: 正在從伺服器讀取商品目錄。
+  - id: MARKET_NOTICE_LOADING
+    text: 正在換裝。
+  - id: MARKET_NOTICE_SERVER
+    text: 正在確認是否能購買該商品。
+  - id: IABHELPER_OK
+    text: 完成商品購買。
+  - id: IABHELPER_-100
+    text: 無法使用交易功能。
+  - id: IABHELPER_-101
+    text: 購買商品時發生錯誤。
+  - id: IABHELPER_-102
+    text: 該商品目前無法購買。
+  - id: IABHELPER_-103
+    text: 購買您要的商品時發生錯誤。
+  - id: IABHELPER_-1000
+    text: 購買商品時發生錯誤。
+  - id: IABHELPER_-1001
+    text: 目前無法連接至交易伺服器。
+  - id: IABHELPER_-1002
+    text: 交易伺服器沒有回應。
+  - id: IABHELPER_-1005
+    text: 依使用者請求取消了商品購買。
+  - id: IABHELPER_-1006
+    text: 因未知的回應取消購買。
+  - id: IABHELPER_-1007
+    text: 代幣價格不符，取消購買。
+  - id: IABHELPER_-1008
+    text: 因未知的錯誤取消購買。
+  - id: IABHELPER_-1009
+    text: 該商品為無法購買的訂閱商品。
+  - id: IABHELPER_-1010
+    text: 該商品為無法購買的消耗性商品。
+  - id: MARKET_NOTICE_COMPLETE
+    text: 正在完成購買處理程式。
+  - id: PURCHASE_RESTORE
+    text: 復原購買
+  - id: UI_CONTENT_RESET_ALERT
+    text: ※請注意，若刪除遊戲，透過獎勵獲得的服裝<br>與收藏內容將會初始化。<br>(將會保留您的購買記錄。)
+  - id: UI_PURCHASE_RESTORE_PROGRESS
+    text: 請稍候。 正在進行復原。
+  - id: UI_PURCHASE_RESTORE_BUTTON
+    text: 復原進行中
+  - id: UI_PURCHASE_RESTORE_COMPLETE
+    text: 已復原購買內容。
+  - id: UI_SHOP_LIMITED_SELL_PERIOD
+    text: '販賣期間: 至yy年MM月dd日止'
+  - id: UI_SHOP_SELL_PERIOD
+    text: 正常販賣
+  - id: UI_WAIT_POPUP_MESSAGE
+    text: 請稍候。
+  - id: UI_PURCHASE_RESTORE_DESC
+    text: 根據使用者的收據資料，<br>將會復原遊戲內的商品購買記錄。<br>※ 本操作可能需要幾分鐘。
+  - id: UI_START
+    text: 開始
+  - id: UI_BUTTON_RESTORATION
+    text: 申請復原
+  - id: UI_COSTUME_WEAR
+    text: 著裝
+  - id: UI_COSTUME_CLOTHED
+    text: 著裝中
+  - id: UI_COSTUME_CODE_REGIST
+    text: 登錄代碼
+  - id: UI_COSTUME_REWARD
+    text: 領取獎勵
+  - id: UI_LOAD_GAME_DESC
+    text: 要讀取已儲存的遊戲嗎?
+  - id: UI_COLLECTION_RANK
+    text: 收集遊戲排名
+  - id: UI_COLLECTION_FIGURE
+    text: 收集老舊的模型
+  - id: UI_COSTUME_CODE_INPUT
+    text: 請輸入優惠券號碼
+  - id: UI_INPUT_COMPLETE
+    text: 輸入完成
+  - id: UI_COLLECTION_RANK_TITLE
+    text: 收集遊戲排名
+  - id: UI_COLLECTION_RANK_DESC
+    text: 各難度的最佳排名與分數
+  - id: UI_COLLECTION_FIGURE_TITLE
+    text: 收集老舊的模型
+  - id: UI_COLLECTION_FIGURE_DESC
+    text: 在學校獲得的各種人型模型
+  - id: UI_COLLECTION_FIGURE_COUNT
+    text: '獲得的模型:'
+  - id: UI_SHOP_CLOTH_LIST
+    text: 內含的服裝
+  - id: UI_BACKPACK
+    text: 背包
+  - id: UI_MAP
+    text: 地圖
+  - id: UI_MAIL
+    text: 簡訊
+  - id: UI_DOCUMENT
+    text: 文件
+  - id: UI_SYSTEM
+    text: 系統
+  - id: UI_BACKPACK_MENU
+    text: 背包
+  - id: UI_BACKPACK_MENUDESC
+    text: 請確認現在持有的道具。
+  - id: UI_BACKPACK_ITEM_GENERALS
+    text: 重要道具
+  - id: UI_BACKPACK_ITEM_KEYS
+    text: 鑰匙道具
+  - id: UI_BACKPACK_ITEM_HEALING
+    text: 恢復道具
+  - id: UI_BACKPACK_ITEM_USABLE
+    text: 消費道具
+  - id: UI_BACKPACK_ITEM_ETC
+    text: 其他道具
+  - id: UI_BACKPACK_USEITEM
+    text: 使用道具
+  - id: UI_MAP_MENU
+    text: 地圖
+  - id: UI_MAP_MENUDESC
+    text: 確認地圖
+  - id: UI_MAP_MAINBUILDING1
+    text: 本館1
+  - id: UI_MAP_MAINBUILDING2
+    text: 本館2
+  - id: UI_MAP_NEWBUILDING
+    text: 新館
+  - id: UI_MAP_HALL
+    text: 禮堂
+  - id: UI_MAP_1F
+    text: 1樓
+  - id: UI_MAP_2F
+    text: 2樓
+  - id: UI_MAP_3F
+    text: 3樓
+  - id: UI_MAP_4F
+    text: 4樓
+  - id: UI_MAP_5F
+    text: 5樓
+  - id: UI_MAIL_MENU
+    text: 簡訊
+  - id: UI_MAIL_MENUDESC
+    text: 確認收到的簡訊。
+  - id: UI_MAIL_RECEIVED
+    text: 收到的簡訊
+  - id: UI_DOCUMENT_MENU
+    text: 文件
+  - id: UI_DOCUMENT_MENUDESC
+    text: 確認目前為止收集到的檔。
+  - id: UI_DOCUMENT_SCHOOL
+    text: 學校文件
+  - id: UI_DOCUMENT_MEMO
+    text: 紙條
+  - id: UI_DOCUMENT_RUMOR
+    text: 傳聞
+  - id: UI_DOCUMENT_GHOSTSTORY
+    text: 怪談
+  - id: UI_SYSTEM_MENU
+    text: 系統
+  - id: UI_SYSTEM_MENUDESC
+    text: 系統選單
+  - id: UI_SYSTEM_GAMEOPTION
+    text: 遊戲選項
+  - id: UI_SYSTEM_EXITTOLOBBY
+    text: 結束
+  - id: UI_SYSTEM_GAMEOPTION_CONTROL
+    text: 操作
+  - id: UI_SYSTEM_GAMEOPTION_LANGUAGE
+    text: 語言
+  - id: UI_SYSTEM_GAMEOPTION_GRAPHIC
+    text: 圖示
+  - id: UI_SYSTEM_GAMEOPTION_SOUND
+    text: 聲音
+  - id: UI_SYSTEM_GAMEOPTION_SUPPORT
+    text: 客戶支援
+  - id: UI_SYSTEM_CONTROL
+    text: '[遊戲控制方式]'
+  - id: UI_SYSTEM_CONTROL_TYPE1
+    text: 原始模式 <color=#666666ff><size=16>與White Day原作最接近的控制方式。</size></color>
+  - id: UI_SYSTEM_CONTROL_TYPE2
+    text: 控制器模式 <color=#666666ff><size=16>適合習慣玩單機遊戲的玩家。</size></color>
+  - id: UI_SYSTEM_CONTROL_TYPE3
+    text: 單手模式 <color=#666666ff><size=16>適合覺得兩手操作不方便的玩家。</size></color>
+  - id: UI_SYSTEM_CONTROL_TYPE4
+    text: 控制器模式(beta) <color=#666666ff><size=16>適合使用遊戲控制器的玩家。</size></color>
+  - id: UI_SYSTEM_CONTROL_NUM1
+    text: 移動操作範圍
+  - id: UI_SYSTEM_CONTROL_NUM2
+    text: 視野操作範圍
+  - id: UI_SYSTEM_CONTROL_NUM3
+    text: 奔跑/蹲下按鈕
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN1
+    text: 視線水平移動
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN2
+    text: 視線垂直移動
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN3
+    text: 奔跑
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN4
+    text: 蹲下/站著
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN5
+    text: 開啟/關閉打火機
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN6
+    text: 選擇
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN7
+    text: 打開選單
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN8
+    text: 取消
+  - id: UI_SYSTEM_SENSITIVITY
+    text: '[視線迴轉靈敏度]'
+  - id: UI_SYSTEM_TUTORIAL
+    text: '[教學]'
+  - id: UI_SYSTEM_TUTORIAL_TOGGLE
+    text: 不要再觀看教學。
+  - id: UI_SYSTEM_PROLOGUE
+    text: '[序言影片]'
+  - id: UI_SYSTEM_PROLOGUE_TOGGLE
+    text: 開始進行遊戲時，跳過序言影片。
+  - id: UI_SYSTEM_LANGUAGE
+    text: '[語言]'
+  - id: UI_SYSTEM_LANGUAGE_KOREAN
+    text: 韓文
+  - id: UI_SYSTEM_LANGUAGE_ENGLISH
+    text: 英文
+  - id: UI_SYSTEM_LANGUAGE_FRENCH
+    text: 法文
+  - id: UI_SYSTEM_LANGUAGE_GERMAN
+    text: 德文
+  - id: UI_SYSTEM_LANGUAGE_JAPANESE
+    text: 日文
+  - id: UI_SYSTEM_LANGUAGE_SPANISH
+    text: 西班牙文
+  - id: UI_SYSTEM_LANGUAGE_ITALIAN
+    text: 義大利文
+  - id: UI_SYSTEM_LANGUAGE_CHINESESIMPLIFIED
+    text: 中文 (简体)
+  - id: UI_SYSTEM_LANGUAGE_CHINESETRADITIONAL
+    text: 中文 (繁體)
+  - id: UI_SYSTEM_LANGUAGE_RESET
+    text: ※ 語言變更必須重新運行遊戲才會生效。
+  - id: UI_SYSTEM_LANGUAGE_RESET_CONFIRM
+    text: 重新開始
+  - id: UI_SYSTEM_LANGUAGE_RESET_POPUP
+    text: 語言變更必須重新運行遊戲才會生效。請問要重新啟動遊戲嗎?
+  - id: UI_SYSTEM_GRAPHICS
+    text: '[圖示設定]'
+  - id: UI_SYSTEM_GRAPHICS_TOGGLE
+    text: 使用顏色濾鏡，展現如電影般的畫面。
+  - id: UI_SYSTEM_BRIGHTNESS
+    text: '[畫面亮度]'
+  - id: UI_SYSTEM_BRIGHTNESS_DESC
+    text: 畫面調太亮，有可能會減低遊戲的趣味性。 (※須啟動顏色濾鏡選項才能使用。)
+  - id: UI_SYSTEM_SOUNDS_EFFECT
+    text: '[音效輸出]'
+  - id: UI_SYSTEM_SOUNDS_EFFECT_TOGGLE
+    text: 控制遊戲內各種音效輸出與否。
+  - id: UI_SYSTEM_SOUNDS_BGM
+    text: '[背景音樂輸出]'
+  - id: UI_SYSTEM_SOUNDS_BGM_TOGGLE
+    text: 輸出遊戲背景音樂強化臨場感。
+  - id: UI_SYSTEM_SOUNDS_VOLUME
+    text: '[音量調整]'
+  - id: UI_SYSTEM_USERID
+    text: '[使用者ID]'
+  - id: UI_SYSTEM_USERID_DESC
+    text: 請確認您的<color=yellow>使用者ID</color>以便客服回覆。
+  - id: UI_SYSTEM_VERSION
+    text: '[版本資訊]'
+  - id: UI_SYSTEM_VERSION_DESC
+    text: 確認現在安裝的遊戲<color=yellow>版本資訊</color>。
+  - id: UI_SYSTEM_QA
+    text: '[詢問]'
+  - id: UI_SYSTEM_QA_DESC
+    text: 遊戲進行中若出現重大問題，請利用1:1詢問。
+  - id: UI_SYSTEM_QA_SEND
+    text: 1:1詢問
+  - id: UI_SYSTEM_RESOURCE_VALIDATE
+    text: '[檢查資源有效性]'
+  - id: UI_SYSTEM_RESOURCE_VALIDATE_TOGGLE
+    text: 在下次進行時確認遊戲資源是否有異常。 (須完全關閉App後重新開始。)
+  - id: UI_SYSTEM_EXITTOLOBBY_DESC
+    text: 中斷遊戲的話，尚未儲存的資料將會消失。<br>要前往初始畫面嗎?
+  - id: UI_SYSTEM_EXITTOLOBBY_BUTTON
+    text: 離開
+  - id: UI_GAMEOVER
+    text: GAME OVER
+  - id: UI_GAMEOVER_DESC
+    text: 稍後將移動至最後儲存的場所。
+  - id: UI_GAMEOVER_VERYHARD_DESC1
+    text: 稍後將移動至最後儲存的場所。
+  - id: UI_GAMEOVER_VERYHARD_DESC2
+    text: '剩下的麥克筆 : {0}支'
+  - id: UI_GAMEOVER_VERYHARD_DESC3
+    text: 你已經死了。
+  - id: UI_SAVEGAME
+    text: 儲存遊戲
+  - id: UI_SAVEGAME_DESC
+    text: 儲存現在進行的遊戲內容。
+  - id: UI_POINTCAMERA_EXIT
+    text: 離開
+  - id: UI_POINTCAMERA_EXIT_DESC
+    text: 返回遊戲畫面
+  - id: UI_POINTCAMERA_PREV
+    text: 返回
+  - id: UI_POINTCAMERA_PREV_DESC
+    text: 返回上一個畫面
+  - id: MAP_MAINBUILDING1
+    text: 本館1
+  - id: MAP_MAINBUILDING2
+    text: 本館2
+  - id: MAP_NEWBUILDING
+    text: 新館
+  - id: MAP_HALL
+    text: 禮堂
+  - id: MAP_MAZE
+    text: 迷宮
+  - id: MAP_CERAMIC
+    text: '???'
+  - id: MAP_CLASSROOM2_1
+    text: 2年級1班
+  - id: MAP_CLASSROOM2_2
+    text: 2年級2班
+  - id: MAP_CLASSROOM2_3
+    text: 2年級3班
+  - id: MAP_CLASSROOM2_4
+    text: 2年級4班
+  - id: MAP_CLASSROOM2_5
+    text: 2年級5班
+  - id: MAP_CLASSROOM2_6
+    text: 2年級6班
+  - id: MAP_CLASSROOM2_7
+    text: 2年級7班
+  - id: MAP_CLASSROOM2_8
+    text: 2年級8班
+  - id: MAP_CLASSROOM2_9
+    text: 2年級9班
+  - id: MAP_CLASSROOM2_10
+    text: 2年級10班
+  - id: MAP_CLASSROOM2_11
+    text: 2年級11班
+  - id: MAP_CLASSROOM2_12
+    text: 2年級12班
+  - id: MAP_HOUSEKEEPINGROOM
+    text: 歌詞實習室
+  - id: MAP_MACHINEROOM
+    text: 機械實習室
+  - id: MAP_REGISTERROOM1
+    text: 學籍簿室
+  - id: MAP_REGISTERROOM2
+    text: 庶務室
+  - id: MAP_MOUNTAINROOM
+    text: 登山社
+  - id: MAP_PHOTOROOM
+    text: 攝影社
+  - id: MAP_PHYSICALROOM
+    text: 體育倉庫
+  - id: MAP_STUDIO1
+    text: 廣播室
+  - id: MAP_STUDIO2
+    text: 錄音室
+  - id: MAP_COUNSELINGROOM1
+    text: 1樓諮商室
+  - id: MAP_COUNSELINGROOM2
+    text: 2樓諮商室
+  - id: MAP_PRINCIPALROOM
+    text: 校長室
+  - id: MAP_TEACHERSROOMA
+    text: 第1辦公室
+  - id: MAP_TEACHERSROOMC1
+    text: 第2辦公室
+  - id: MAP_TEACHERSROOMC2
+    text: 教師<br>休息室
+  - id: MAP_NIGHTDUTYROOM
+    text: 值班室
+  - id: MAP_DISPENSARY
+    text: 健康中心
+  - id: MAP_WAREHOUSE
+    text: 遺失物<br>保管室
+  - id: MAP_STUDENTROOM
+    text: 學生部室
+  - id: MAP_MUSICROOM1
+    text: 音樂教室
+  - id: MAP_MUSICROOM2
+    text: 音樂<br>附屬室
+  - id: MAP_SCIENCEROOM1
+    text: 科學教室
+  - id: MAP_SCIENCEROOM2
+    text: 科學<br>附屬室
+  - id: MAP_ARTROOM1
+    text: 美術教室
+  - id: MAP_ARTROOM2
+    text: 美術<br>附屬室
+  - id: MAP_BIOLOGYROOM1
+    text: 生物教室
+  - id: MAP_BIOLOGYROOM2
+    text: 生物<br>附屬室
+  - id: MAP_MUSEUM
+    text: 歷史館
+  - id: MAP_CHAIRMANROOM
+    text: 董事長室
+  - id: MAP_MUSICHALL
+    text: 音樂鑑賞室
+  - id: MAP_DANCINGROOM
+    text: 舞蹈教室
+  - id: MAP_OCCULTROOM
+    text: 超自然力量同好會
+  - id: MAP_CAFETERIA
+    text: 福利社
+  - id: MAP_ELECTRICROOM
+    text: 電力<br>控制室
+  - id: MAP_DRAWINGROOM
+    text: 畫室
+  - id: MAP_LANGUAGEROOM
+    text: 語言教室
+  - id: MAP_STAFFLAUNGE
+    text: 教職員休息室
+  - id: MAP_EARTHSCIENCEROOM
+    text: 地科教室
+  - id: MAP_COMPUTERROOM
+    text: 電腦教室
+  - id: MAP_CLASSROOM3_1
+    text: 3年級1班
+  - id: MAP_CLASSROOM3_2
+    text: 3年級2班
+  - id: MAP_CLASSROOM3_3
+    text: 3年級3班
+  - id: MAP_CLASSROOM3_4
+    text: 3年級4班
+  - id: MAP_CLASSROOM3_5
+    text: 3年級5班
+  - id: MAP_CLASSROOM3_6
+    text: 3年級6班
+  - id: MAP_CLASSROOM3_7
+    text: 3年級7班
+  - id: MAP_CLASSROOM3_8
+    text: 3年級8班
+  - id: MAP_CLASSROOM3_9
+    text: 3年級9班
+  - id: MAP_CLASSROOM3_10
+    text: 3年級10班
+  - id: MAP_CLASSROOM3_11
+    text: 3年級11班
+  - id: MAP_CLASSROOM3_12
+    text: 3年級12班
+  - id: MAP_POOL
+    text: 頂樓<br>游泳池
+  - id: MAP_READINGROOM
+    text: 閱覽室
+  - id: MAP_SEARCHROOM
+    text: 資料<br>檢索室
+  - id: MAP_LIBRARY1
+    text: 第1書庫
+  - id: MAP_LIBRARY2
+    text: 第2書庫
+  - id: MAP_STOREHOUSE
+    text: 倉庫
+  - id: MAP_CONTROLROOM
+    text: 禮堂機械控制室
+  - id: MAP_FITTINGROOMMAN
+    text: 男<br>更衣室
+  - id: MAP_FITTINGROOMWOMAN
+    text: 女<br>更衣室
+  - id: MAP_SHOWERROOMMAN
+    text: 男<br>淋浴間
+  - id: MAP_SHOWERROOMWOMAN
+    text: 女<br>淋浴間
+  - id: MAP_WAITINGROOM
+    text: 舞臺<br>休息室
+  - id: MAP_ENTRANCE
+    text: 玄關
+  - id: MAP_STAGE
+    text: 舞臺
+  - id: MAP_PROJECTIONROOM
+    text: 放映室
+  - id: MAP_STAND
+    text: 觀眾席
+  - id: MONOLOGUE_001
+    text: 好像有人在學校。
+  - id: MONOLOGUE_002
+    text: 聽見開門的聲音。
+  - id: MONOLOGUE_003
+    text: 需要可以切割鐵絲網的工具。
+  - id: MONOLOGUE_004
+    text: 因為高溫的蒸氣而無法順利經過。
+  - id: MONOLOGUE_005
+    text: 這扇門不知道為什麼打不開。
+  - id: MONOLOGUE_006
+    text: 這扇門被上鎖了，沒辦法進去。
+  - id: MONOLOGUE_007
+    text: 長相奇特的樹木。
+  - id: MONOLOGUE_008
+    text: 因為劇烈的化學毒素，樹木都枯死了。
+  - id: MONOLOGUE_009
+    text: 小英突然消失了，看不見人影。
+  - id: MONOLOGUE_100
+    text: 聽說所有建築物都是連在一起的。
+  - id: MONOLOGUE_110
+    text: 想進去就需要密碼。
+  - id: MONOLOGUE_120
+    text: 好像要說什麼話。
+  - id: MONOLOGUE_130
+    text: 測量視力用的眼鏡。
+  - id: MONOLOGUE_140
+    text: 連結禮堂的地方。
+  - id: MONOLOGUE_150
+    text: 只有在這個地方會聽見奇怪的腳步聲。
+  - id: MONOLOGUE_160
+    text: 每個句子間的漢字表示否定。
+  - id: MONOLOGUE_170
+    text: 沉重的空氣流動其中。
+  - id: MONOLOGUE_180
+    text: 飾有傳統花紋的書桌。
+  - id: MONOLOGUE_190
+    text: 未被領走的物品。 不知為何有股陰氣。
+  - id: MONOLOGUE_200
+    text: 母親模樣的泥娃娃。
+  - id: MONOLOGUE_210
+    text: 有什麼東西掛在音響上。 需要遙控器才能開啟。
+  - id: MONOLOGUE_220
+    text: 鋼琴上頭血正在滴落。
+  - id: MONOLOGUE_230
+    text: 有什麼東西掉在地板上。
+  - id: MONOLOGUE_240
+    text: 圖畫被撕碎了，只留下一部分。
+  - id: MONOLOGUE_250
+    text: 看起來我們得去找照片裡的瓷器。
+  - id: MONOLOGUE_260
+    text: 似乎拼命地在找尋著什麼。
+  - id: MONOLOGUE_270
+    text: 處於未完成狀態的泥娃娃。好像快碎了。
+  - id: MONOLOGUE_280
+    text: 希望不要再感到痛苦了。
+  - id: MONOLOGUE_290
+    text: 跟女生講話真難。
+  - id: MONOLOGUE_300
+    text: 那是擔心我的語氣。
+  - id: MONOLOGUE_310
+    text: 是把我當作笨蛋嗎？… 我不知道…
+  - id: MONOLOGUE_320
+    text: 在這種狀況下，只想趕快逃離這裡。
+  - id: MONOLOGUE_330
+    text: 驅動帶斷裂，無法聽錄音帶。
+  - id: MONOLOGUE_340
+    text: 希望能傳達給願意聽他故事的人。
+  - id: MONOLOGUE_350
+    text: 轉學之前的學校也有畫室。 從這裡總是能感受到相同的味道。
+  - id: MONOLOGUE_360
+    text: 太極牌啊…看來我現在需要它。
+  - id: MONOLOGUE_370
+    text: 門從裡邊用扣環鎖上了。 只要有硬紙板應該就能打開。
+  - id: MONOLOGUE_380
+    text: 像是會吹出強力冷風的冷氣。 但是沒有電力。
+  - id: MONOLOGUE_390
+    text: 擔心智賢自己一個人。
+  - id: MONOLOGUE_400
+    text: 太極牌出現裂痕… 不再發光了。
+  - id: MONOLOGUE_410
+    text: 值班的不是體育老師嗎？ 總之，好像曾經在哪見過。
+  - id: MONOLOGUE_420
+    text: 與料想的不同，只是間平凡的興趣組教室。
+  - id: MONOLOGUE_430
+    text: 以前在學校唯一的朋友就是福利社老闆的兒子。 真想念那個帥氣的小子。
+  - id: MONOLOGUE_440
+    text: 以前的老東西了... 與其他鑰匙的形狀不同。
+  - id: MONOLOGUE_450
+    text: 感受到既陰寒又深沉的怨恨。 希望她不要再受苦了。
+  - id: MONOLOGUE_460
+    text: 最後卻發生了意外。 要趕快離開學校尋求幫助。
+  - id: MONOLOGUE_470
+    text: 這是什麼？
+  - id: MONOLOGUE_480
+    text: 鳥籠的圖案。鳥籠內沒有鳥。
+  - id: MONOLOGUE_490
+    text: 一支棒棒糖？這什麼意思？
+  - id: MONOLOGUE_500
+    text: 哭泣天使的畫像。
+  - id: MONOLOGUE_510
+    text: 飛過的物體好像是聖雅。
+  - id: MONOLOGUE_520
+    text: 飛過的物體像是智賢……
+  - id: MONOLOGUE_530
+    text: 母貓正尋找著幼貓。
+  - id: MONOLOGUE_540
+    text: 蝴蝶的翅膀如人體形狀。
+  - id: MONOLOGUE_550
+    text: 正訴說某件事的竹節蟲圖案。
+  - id: MONOLOGUE_560
+    text: 圖中的鴿子看來很憂傷。
+  - id: MONOLOGUE_570
+    text: 圖案是握著大拐杖的老鼠。
+  - id: MONOLOGUE_580
+    text: 這蒼蠅讓我想起某人。
+  - id: MONOLOGUE_590
+    text: SY… 指的是小英嗎？
+  - id: MONOLOGUE_600
+    text: 如果使用了滅火器，可能讓火勢擴大。我需要一條濕毛毯或什麼的。
+  - id: MONOLOGUE_610
+    text: 這麼小條的濕毛毯根本蓋不住一個人。
+  - id: MONOLOGUE_2010
+    text: 要找出到新館的方法。
+  - id: MONOLOGUE_2020
+    text: 和在本館1看見的結界型態相同。
+  - id: MONOLOGUE_2030
+    text: 進去校長室，應該能知道些什麼吧...？
+  - id: MONOLOGUE_2040
+    text: 辦公室裡似乎藏著什麼秘密。
+  - id: MONOLOGUE_2050
+    text: 在灰塵中，堆積著失去主人的物品們。
+  - id: MONOLOGUE_2060
+    text: 盒子裡有一隻女生泥娃娃。
+  - id: MONOLOGUE_2070
+    text: CD卡在音響的CD槽裡。
+  - id: MONOLOGUE_2080
+    text: 好像有人把圖畫的其他部份給撕走了。
+  - id: MONOLOGUE_2090
+    text: 一個男子拿著瓷器的圖畫。
+  - id: MONOLOGUE_2100
+    text: 再這樣下去，學校搞不好會垮掉！！
+  - id: MONOLOGUE_1010
+    text: 先去2年8班吧。
+  - id: MONOLOGUE_1020
+    text: 好像已經無法離開這個地方了。
+  - id: MONOLOGUE_1030
+    text: 除了我之外，好像還有別人在學校。
+  - id: MONOLOGUE_1040
+    text: 有各種進行作業時需要用到的工具。
+  - id: MONOLOGUE_1050
+    text: 通風口被鐵絲網給擋住了。
+  - id: MONOLOGUE_1060
+    text: 這裡就是她的班級。
+  - id: MONOLOGUE_1070
+    text: 門鎖上了，無法進去。 要就這樣走了嗎...？
+  - id: MONOLOGUE_1080
+    text: 小英把什麼東西給弄掉了。
+  - id: MONOLOGUE_1090
+    text: 從樓下往上伸展過來的樹木枝條死死地擋住教室的門。
+  - id: MONOLOGUE_1100
+    text: 從某處傳來了令人毛骨悚然的聲音。
+  - id: MONOLOGUE_1110
+    text: 所有東西都消失了，沒有留下任何痕跡...
+  - id: MONOLOGUE_1120
+    text: 沒有任何東西。 也沒看見小英。
+  - id: MONOLOGUE_1130
+    text: 因為高溫的蒸氣而無法順利經過。
+  - id: MONOLOGUE_1140
+    text: 門打不開...！
+  - id: MONOLOGUE_1150
+    text: 長相奇特的樹木。
+  - id: MONOLOGUE_1160
+    text: 前往禮堂的門鎖上了。
+  - id: MONOLOGUE_1170
+    text: 這邊放有施工時用的梯子。
+  - id: MONOLOGUE_1180
+    text: 無法使用這一扇門。
+  - id: MONOLOGUE_3010
+    text: 水之結界擋住了前往禮堂的路。
+  - id: MONOLOGUE_3020
+    text: 想要打開這扇門，就需要相同顏色的鑰匙卡。
+  - id: MONOLOGUE_3030
+    text: 修好語言學習機，應該就能聽出辦公室那捲反向播放錄音帶的內容了。
+  - id: MONOLOGUE_3040
+    text: 這台語言學習機的驅動帶斷裂而無法運作。
+  - id: MONOLOGUE_3050
+    text: 鏡子裡有紅色的鑰匙卡。
+  - id: MONOLOGUE_3060
+    text: 門裡邊有個扣環。 如果有硬紙板應該可以打開。
+  - id: MONOLOGUE_3070
+    text: 按下冷氣，冷氣也不運轉。 似乎沒有電力供給。
+  - id: MONOLOGUE_3080
+    text: 書櫃上有說明書。 不過太高了，手搆不到。
+  - id: MONOLOGUE_3090
+    text: 智賢不見了！！
+  - id: MONOLOGUE_3100
+    text: 從中央大廳那傳來東西碎裂的聲音。
+  - id: MONOLOGUE_3110
+    text: 游泳池的對面有排水閥。
+  - id: MONOLOGUE_3120
+    text: 希望能傳達給願意聽他故事的人。
+  - id: MONOLOGUE_4010
+    text: 不祥的寂靜充斥整間禮堂。
+  - id: MONOLOGUE_4020
+    text: 出去的門打不開。
+  - id: MONOLOGUE_4030
+    text: 舞臺上有人。
+  - id: MONOLOGUE_4040
+    text: 機械爆走中。 看起來很危險。
+  - id: MONOLOGUE_4050
+    text: 鎖上的門好像打開了。
+  - id: MONOLOGUE_4060
+    text: 這邊放有一個滅火器。
+  - id: MONOLOGUE_5000
+    text: 無法拿掉符咒。 必須重新恢復結界的力量。
+  - id: MONOLOGUE_5010
+    text: 拿出符咒了。
+  - id: MONOLOGUE_6000
+    text: 有了溶劑，或許我可以找出汙漬到底是什麼。
+  - id: MONOLOGUE_6010
+    text: 這是所怎樣的學校？！
+  - id: MONOLOGUE_6020
+    text: 書？這有本書……是那本小英在找的書嗎？
+  - id: MONOLOGUE_6030
+    text: 我聽過這首歌……聲音從諮商室傳來的嗎？
+  - id: MONOLOGUE_6040
+    text: 音樂老師自殺了？那我現在看到的是什麼？
+  - id: MONOLOGUE_6050
+    text: 學生間流傳著的遊戲是，尋找過世音樂老師的東西。<br>如果我擁有音樂老師的某個物品，或許會發現一些端倪！
+  - id: MONOLOGUE_6060
+    text: 我想我見過這張臉……
+  - id: MONOLOGUE_6070
+    text: 這些一定是那些不見的東西……每樣東西看起來背後都有故事……
+  - id: MONOLOGUE_6080
+    text: 花瓶？或許有甚麼重要的意義？我一定要找到。
+  - id: MONOLOGUE_6090
+    text: 我從沒見過這樣的鎖。我該怎麼打開？
+  - id: MONOLOGUE_6100
+    text: 主大樓 1 的汙漬。
+  - id: MONOLOGUE_6110
+    text: 我猜我現在應該跟著汙漬走。
+  - id: MONOLOGUE_6120
+    text: 我必須先找到音樂老師的東西。
+  - id: MONOLOGUE_6130
+    text: 花瓶中有東西。
+  - id: MONOLOGUE_6140
+    text: 以防萬一，我必須找到氣喘吸入器。
+  - id: MONOLOGUE_6150
+    text: 氣喘吸入器？她是聖雅的媽媽！！
+  - id: MONOLOGUE_6160
+    text: 我必須在他們行動前行動。
+  - id: MONOLOGUE_6170
+    text: 這個地方看起來不大一樣。
+  - id: MONOLOGUE_6180
+    text: 再見…… 希望來生快樂……
+  - id: MONOLOGUE_6190
+    text: 我們很快就能再見面的對吧。學長？
+  - id: MONOLOGUE_6200
+    text: 哎…好擔心…所有這些事情。
+  - id: MONOLOGUE_UNSAFE
+    text: 現在好像不安全...
+  - id: MONOLOGUE_SAVED
+    text: 已將記錄留在公佈欄上了。
+  - id: MONOLOGUE_DARKNESS
+    text: 一片漆黑，什麼都看不到。
+  - id: MONOLOGUE_CLOSE_GAS_VALVE
+    text: 已關閉門閥。
+  - id: MONOLOGUE_SIREN
+    text: 警報聲響起。 要快點關掉…
+  - id: MONOLOGUE_LOCKED
+    text: 門鎖上了。
+  - id: MONOLOGUE_UNLOCKED
+    text: 已解除鎖定。
+  - id: MONOLOGUE_NO_COIN
+    text: 一個硬幣都沒有。
+  - id: MONOLOGUE_NOTHING_HAPPENS
+    text: 什麼事都沒發生。
+  - id: MONOLOGUE_SAVE_CANT
+    text: 現在沒有這樣子待著的時間...
+  - id: MONOLOGUE_SCENECHANGE_CANT
+    text: 還有要解決的事情。
+  - id: MONOLOGUE_TOOLBOX
+    text: 這邊放著一個工具箱。 裡頭有各種的工具。
+  - id: MONOLOGUE_POTTERYBOX
+    text: 這是收集了某人雜物的箱子。
+  - id: MONOLOGUE_PICTURE_COMPLETE
+    text: 那個瓷器好像在哪見過...？
+  - id: MONOLOGUE_CLOCK_CHECK
+    text: 時鐘指向相當不對勁的時間。
+  - id: MONOLOGUE_CLOCK_BASE
+    text: 這個時鐘指的時間似乎是照片裡的時間。
+  - id: MONOLOGUE_PICTURE_GREENWICH
+    text: 這是格林威治天文臺的照片。
+  - id: MONOLOGUE_PICTURE_TIANANMEN
+    text: 這是北京天安門廣場的照片。
+  - id: MONOLOGUE_PICTURE_CREMLIN
+    text: 這是莫斯科克裡姆林宮的照片。
+  - id: MONOLOGUE_PICTURE_PENTAGON
+    text: 這是位於華盛頓五角大廈的照片。
+  - id: MONOLOGUE_FLOWER
+    text: 放著一朵獻給某人的菊花。
+  - id: MONOLOGUE_FIND_HOLE
+    text: 有個不知用途的洞。
+  - id: MONOLOGUE_SOMETHING_DROPPED
+    text: 有什麼東西掉在下麵。
+  - id: MONOLOGUE_LOCKED_BY_SOMETHING
+    text: 好像用什麼裝置鎖著。
+  - id: MONOLOGUE_FLOOR_BROKEN
+    text: 地板碎裂了。
+  - id: MONOLOGUE_DOCUMENT_PRINTED
+    text: 資料被印出來了。
+  - id: MONOLOGUE_NOT_WORK
+    text: 沒有在運作...
+  - id: MONOLOGUE_VALVE_NOT_ROTATE
+    text: 門閥不再運轉。
+  - id: MONOLOGUE_TAEGUEK_SHINED
+    text: 太極牌正在發光。
+  - id: MONOLOGUE_DONOT_MOVE
+    text: 無法移動腳步
+  - id: MONOLOGUE_ELECTRIC_DANGER
+    text: 電流正在流動，觸摸會有危險。
+  - id: COLLECTION_GHOST_NAME_01
+    text: 女舍監的冤魂
+  - id: COLLECTION_GHOST_NAME_02
+    text: 看不見的聲音
+  - id: COLLECTION_GHOST_NAME_03
+    text: 躺在地上的女學生
+  - id: COLLECTION_GHOST_NAME_04
+    text: 櫃子裡的女人
+  - id: COLLECTION_GHOST_NAME_05
+    text: 噬血的樹木
+  - id: COLLECTION_GHOST_NAME_06
+    text: 嬰兒的鬼魂
+  - id: COLLECTION_GHOST_NAME_07
+    text: 窗外的女學生
+  - id: COLLECTION_GHOST_NAME_08
+    text: 餓死鬼
+  - id: COLLECTION_GHOST_NAME_09
+    text: 遮住臉的女學生
+  - id: COLLECTION_GHOST_NAME_10
+    text: 圖書館的鬼魂
+  - id: COLLECTION_GHOST_NAME_11
+    text: 解題的學生
+  - id: COLLECTION_GHOST_NAME_12
+    text: 髮絲鬼
+  - id: COLLECTION_GHOST_NAME_13
+    text: 點名簿鬼魂
+  - id: COLLECTION_GHOST_NAME_14
+    text: 鏡子裡的我
+  - id: COLLECTION_GHOST_NAME_15
+    text: 變成蜘蛛的女學生
+  - id: COLLECTION_GHOST_NAME_16
+    text: 充滿憎恨的臉孔
+  - id: COLLECTION_GHOST_NAME_17
+    text: 上吊的女人
+  - id: COLLECTION_GHOST_NAME_18
+    text: 會動的人體模型
+  - id: COLLECTION_GHOST_NAME_19
+    text: 水裡的影子
+  - id: COLLECTION_GHOST_NAME_20
+    text: 老奶奶亡靈
+  - id: UI_POPUP_FACEBOOK_COMFIRM_ALERT
+    text: 尚未安裝Facebook。 請安裝Facebook重試一次。
+  - id: UI_POPUP_TWITTER_COMFIRM_ALERT
+    text: 尚未安裝Twitter。 請安裝Twitter重試一次。
+  - id: UI_POPUP_DOWNLOAD_START
+    text: 正在下載您購買的物品。
+  - id: UI_POPUP_DOWNLOAD_COMPLETE
+    text: 已完成下載。
+  - id: UI_POPUP_SAVE_ALERT1
+    text: 要儲存在這一欄裡嗎？
+  - id: UI_POPUP_SAVE_ALERT2
+    text: '[{0} {1:D02} : {2:D02} : {3:D02}]已存在。<br>要覆蓋該筆資料嗎？'
+  - id: UI_INTRO_TOUCH
+    text: 請按任意按鈕
+  - id: GOOGLE_CS_CONTENT
+    text: '您好。 我們是ROI GAMES。<br><br>客服Mail : {0}<br><br>詢問內容<br><br>1. 提問的使用者ID<br>2. 現在使用的手機機種<br>3. OS - firmware version<br>4. 現在的Build.VERSION<br>5. 購買market<br>6. 收取回覆的e-Mail<br>7. 詢問內容<br><br>如有疑問請提問，負責人將會盡心回覆。<br>謝謝。'
+  - id: SEND_MAIL
+    text: 發送信件
+  - id: MAIL_TITLE_GOOGLE
+    text: '[Google]_恐怖學校 : 白色情人節問與答'
+  - id: MAIL_TITLE_APPLE
+    text: '[Apple]_恐怖學校 : 白色情人節問與答'
+  - id: CS_CONTENT
+    text: '1. 提問的使用者ID : {0}<br>2. 現在使用的手機機種 : {1}<br>3. OS - firmware version : {2}<br>4. 現在的Build.VERSION : {3}<br>5. 購買market : <br>6. 收取回覆的e-Mail : <br>7. 詢問內容 :'
+  - id: UI_CINEMA_BUTTON_SKIP
+    text: 跳過
+  - id: UI_RESULT_TITLE_TEXT
+    text: 白色情人節：恐怖學校 遊戲結果
+  - id: UI_RESULT_FACTOR_TEXT_01
+    text: 總遊戲時間
+  - id: UI_RESULT_FACTOR_TEXT_02
+    text: 好感分數
+  - id: UI_RESULT_FACTOR_TEXT_03
+    text: 被命中次數
+  - id: UI_RESULT_FACTOR_TEXT_04
+    text: 獲得道具
+  - id: UI_RESULT_FACTOR_TEXT_05
+    text: 獲得文件
+  - id: UI_RESULT_FACTOR_TEXT_06
+    text: 遭遇鬼
+  - id: UI_RESULT_FACTOR_TEXT_07
+    text: 麥克筆
+  - id: UI_RESULT_BUTTON_TEXT_01
+    text: 移至初始畫面
+  - id: UI_RESULT_BUTTON_TEXT_02
+    text: 確認
+  - id: UI_RESULT_BUTTON_TEXT_03
+    text: 分享
+  - id: UI_CINEMA_PROLOGUE_TEXT_01
+    text: 有時會毫無感覺地
+  - id: UI_CINEMA_PROLOGUE_TEXT_02
+    text: 擦肩而過
+  - id: UI_CINEMA_PROLOGUE_TEXT_03
+    text: 清綠的幼苗、溫暖的陽光。
+  - id: UI_CINEMA_PROLOGUE_TEXT_04
+    text: 還有她...
+  - id: UI_CINEMA_PROLOGUE_TEXT_05
+    text: 2年8班韓小英。
+  - id: UI_CINEMA_PROLOGUE_TEXT_06
+    text: 她就在那裡。
+  - id: UI_CINEMA_INTRO_TEXT_01
+    text: 只是想要送她一點小禮物。
+  - id: UI_CINEMA_INTRO_TEXT_02
+    text: 還有要還她的日記...
+  - id: UI_CINEMA_INTRO_TEXT_03
+    text: 然而我
+  - id: UI_CINEMA_INTRO_TEXT_04
+    text: 卻漸漸地被學校吞噬。。。
+  - id: UI_LOADSCENE_TIP
+    text: 建議配戴耳罩式/塞耳式耳機增加臨場感。
+  - id: UI_LOADSCENE_DESC
+    text: 正在讀取遊戲。
+  - id: NOTICE_LOCATION_MAINBUILDING1_TEXT1
+    text: 延斗高中本館1區
+  - id: NOTICE_LOCATION_MAINBUILDING1_TEXT2
+    text: 3月 13日 下午10:00
+  - id: NOTICE_LOCATION_MAINBUILDING2_TEXT1
+    text: 延斗高中本館2區
+  - id: NOTICE_LOCATION_MAINBUILDING2_TEXT2
+    text: 3月 13日 下午11:01
+  - id: NOTICE_LOCATION_NEWBUILDING2_TEXT1
+    text: 延斗高中新館
+  - id: NOTICE_LOCATION_NEWBUILDING2_TEXT2
+    text: 3月 14日 上午 00:04
+  - id: NOTICE_LOCATION_HALL_TEXT1
+    text: 延斗高中禮堂
+  - id: NOTICE_LOCATION_HALL_TEXT2
+    text: 3月 14日 上午 04:26
+  - id: NOTICE_LOCATION_MAZE_TEXT1
+    text: 迷宮
+  - id: NOTICE_LOCATION_MAZE_TEXT2
+    text: 3月 14日 上午 ??:??
+  - id: NOTICE_LOCATION_CERAMIC_TEXT1
+    text: '???'
+  - id: NOTICE_LOCATION_CERAMIC_TEXT2
+    text: 3月 14日 上午 ??:??
+  - id: UI_LOBBY_CODE_EMPTY
+    text: 請輸入代碼後再試一次。
+  - id: UI_TUTORIAL_CONTROL_BUTTON
+    text: 選擇控制方式
+  - id: UI_TUTORIAL
+    text: '[<color=#7c973a>教學</color>]'
+  - id: MAP_TOILETMAN
+    text: 男廁
+  - id: MAP_TOILETWOMAN
+    text: 女廁
+  - id: UI_POPUP_CLOUD_SAVE_CONFIRM
+    text: '{0}.{1}.{2}. {3}:{4}:{5}<br><br>要將現在的遊戲狀態儲存到Cloud嗎?<br>將會覆蓋已經儲存的資料。<br>※ 完成儲存前請勿結束App或是中斷網路連線。'
+  - id: UI_POPUP_CLOUD_SAVE_COMPLETE
+    text: 儲存完成。<br>現在利用Cloud功能，在其他機器上也可以繼續遊戲了。<br>※ 同步化處理需要幾秒鐘的時間。
+  - id: UI_POPUP_CLOUD_SAVE_FAIL
+    text: 儲存失敗。<br>請在網路順暢時重試一次。
+  - id: UI_POPUP_CLOUD_LOAD_CONFIRM
+    text: '{0}.{1}.{2}. {3}:{4}:{5}<br><br>要讀取該進行內容嗎?<br>※ 現在機器進行中的遊戲資料將會消失。 敬請注意。'
+  - id: UI_POPUP_CLOUD_LOAD_COMPLETE
+    text: 已讀取儲存的進行內容。
+  - id: UI_POPUP_CLOUD_LOAD_FAIL
+    text: 讀取失敗。<br>請在網路順暢時重試一次。
+  - id: UI_POPUP_CLOUD_LOAD_NODATA
+    text: 沒有儲存於Cloud的內容，無法讀取。
+  - id: UI_SAVE
+    text: 儲存
+  - id: UI_REPLAY_ENDING
+    text: 再看一次結局
+  - id: UI_RANK_CARD_DESC
+    text: 卡片排名若達標，<br>可以使用服裝。
+  - id: UI_MAX_PLAY_SCORE
+    text: 遊戲最高分數
+  - id: UI_SETTING_RESTORE_BUTTON
+    text: 申請復原
+  - id: UI_POPUP_CLOUD_LOAD_WRONGDATA
+    text: 未正常儲存的資料。<br>請完成新的儲存動作後再試一次。
+  - id: UI_POPUP_CLOUD_IOS_NOTLOGIN
+    text: 無法連接至iCloud。<br>請在設定中確認是否使用iCloud Drive。
+  - id: UI_SYSTEM_LANGUAGE_SUBTITLE
+    text: 字幕語言
+  - id: UI_SYSTEM_LANGUAGE_VOICE
+    text: 語音語言
+  - id: UI_SYSTEM_LANGUAGE_VOICE_KOREAN
+    text: 韓語
+  - id: UI_SYSTEM_LANGUAGE_VOICE_ENGLISH
+    text: 英語
+  - id: UI_SYSTEM_LANGUAGE_VOICE_CHINESE
+    text: 中文
+  - id: UI_SYSTEM_LANGUAGE_BUTTON_DELETE
+    text: 刪除資源
+  - id: UI_SYSTEM_LANGUAGE_DELETE_POPUP
+    text: 刪除不使用的語言資源。<br><br>※ 變更為此語言設定時，須重新下載。
+  - id: UI_SYSTEM_LANGUAGE_DELETE_CONFIRM
+    text: 刪除
+  - id: UI_SYSTEM_LANGUAGE_DELETE_CANCLE
+    text: 取消
+  - id: UI_FIGURE_DETAIL_TITLE
+    text: 觀察
+  - id: UI_FIGURE_DETAIL_DESC
+    text: 仔細查看收集到的內容。
+  - id: IABHELPER_-500
+    text: 無法驗證付款已被取消。
+  - id: UI_CHECKPOINT_ENDING
+    text: ENDING
+  - id: BEACON_OBJ_SWITCHBOX_LIGHT
+    text: 燈
+  - id: BEACON_OBJ_SWITCHBOX_POWER
+    text: 電源
+  - id: BEACON_OBJ_SWITCHBOX_ALARM
+    text: 警鈴
+  - id: UI_SYSTEM_GRAPHICS_LOWSPEC_TOGGLE
+    text: 以高視聽效果模式執行遊戲。
+  - id: UI_SYSTEM_GRAPHICS_RESET_POPUP
+    text: 你需要重新啟動遊戲才能套用設定。<br>要現在重新啟動嗎？
+  - id: UI_SYSTEM_RESOLUTION
+    text: '[解析度設定]'
+  - id: UI_SYSTEM_RESOLUTION_NATIVE
+    text: 原始解析度
+  - id: UI_SYSTEM_FRAMERATE
+    text: '[畫面更新率設定]'
+  - id: UI_SYSTEM_LANGUAGE_RUSSIAN
+    text: 俄文
+  - id: UI_BACK
+    text: 返回
+  - id: UI_ENDGAME
+    text: '[<color=#7c973a>離開</color>]'
+  - id: UI_SYSTEM_GAMEOPTION_KEYBOARD
+    text: 鍵盤
+  - id: UI_SYSTEM_GAMEOPTION_JOYPAD
+    text: 遊戲手把
+  - id: UI_SYSTEM_SCREENRESOLUTION
+    text: 畫面解析度
+  - id: UI_SYSTEM_FILTER
+    text: 使用畫面濾光器
+  - id: UI_SYSTEM_ANTIALIASING
+    text: 使用防鋸齒功能
+  - id: UI_SYSTEM_SHADOW
+    text: 顯示陰影
+  - id: UI_SYSTEM_DYNAMICLIGHTING
+    text: 使用動態光源
+  - id: UI_SYSTEM_DEPTHOFFIELD
+    text: 使用景深
+  - id: UI_SYSTEM_BLOOM
+    text: 使用綻放效果
+  - id: UI_SYSTEM_SSAO
+    text: 使用 SSAO
+  - id: UI_SYSTEM_GAMMA
+    text: 調整畫面亮度
+  - id: UI_SYSTEM_MASTERSOUND
+    text: 播放主音效
+  - id: UI_SYSTEM_SFXSOUND
+    text: 打開音效
+  - id: UI_SYSTEM_SFXSOUNDVOLUME
+    text: 音效大小
+  - id: UI_SYSTEM_MASTERSOUNDVOLUME
+    text: 主音效音量
+  - id: UI_SYSTEM_MUSICSOUND
+    text: 播放背景音效
+  - id: UI_SYSTEM_MUSICSOUNDVOLUME
+    text: 背景音效音量
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_FORWARD
+    text: 向前移動
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_BACKWARD
+    text: 向後移動
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_LEFT
+    text: 向左移動
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_RIGHT
+    text: 向右移動
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_RUN
+    text: 奔跑
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_HIDE
+    text: 蹲伏/站起
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_LIGHTER
+    text: 打火機開啟/關閉
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_CANCEL
+    text: 取消
+  - id: UI_ON
+    text: 開啟
+  - id: UI_OFF
+    text: 關閉
+  - id: UI_CONTROLMENU_MOVETAB
+    text: 切換標籤
+  - id: UI_CONTROLMENU_SELECT
+    text: 選取
+  - id: UI_CONTROLMENU_CANCEL
+    text: 取消
+  - id: UI_CONTROLMENU_SETTINGS
+    text: 設定
+  - id: UI_CONTROLMENU_OPENMENU
+    text: 功能表
+  - id: UI_CONTROLMENU_MOVEMENT
+    text: 前往
+  - id: UI_CONTROLMENU_ROTATION
+    text: 旋轉
+  - id: UI_CONTROLMENU_OPENBACKPACK
+    text: 開啟袋子
+  - id: UI_CONTROLMENU_USE
+    text: 使用
+  - id: UI_CONTROLMENU_LIGHTER
+    text: 打火機
+  - id: UI_SHOWALL
+    text: 檢視全部
+  - id: CHARACTER_7
+    text: 劉智敏
+  - id: MONOLOGUE_NOMAGICPEN
+    text: 我需要麥克筆才能紀錄。
+  - id: UI_SYSTEM_GRAPHICS_PROLOGUE
+    text: 觀看序章
+  - id: UI_SYSTEM_GRAPHICS_FULLSCREEN
+    text: 全屏模式
+  - id: UI_BONUS_COSTUMES_COLLECTION
+    text: 收集獎勵服裝
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT1
+    text: 確認小英的全部結局
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT2
+    text: 確認聖雅的全部結局
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT3
+    text: 確認智賢的全部結局
+  - id: 'UI_BONUS_COSTUMES_TERMS '
+    text: 獲取條件
+  - id: UI_RESULT_FACTOR_TEXT_08
+    text: 最佳時刻
+  - id: UI_DOCUMENT_DIARY
+    text: 打開
+  - id: UI_DOCUMENT_SPELL
+    text: 咒術
+  - id: UI_DOCUMENT_NOTE
+    text: 便條
+  - id: UI_SYSTEM_CHARACTERSHADOW
+    text: 角色陰影
+  - id: UI_BONUS_COSTUMES_COLLECTION_DESC
+    text: 請輸入與收集獎勵服裝相關的內容。
+  - id: UI_CONTROLMENU_CAMERA
+    text: 旋轉
+  - id: UI_SYSTEM_VIRTUALCURSORSPEED
+    text: 鼠標指針移動速度調節
+  - id: UI_SYSTEM_JOYPADHORIZONTAL
+    text: 水準速度
+  - id: UI_SYSTEM_JOYPADVERTICAL
+    text: 垂直速度
+  - id: UI_SYSTEM_HORIZONTALREVERSAL
+    text: 左右翻轉
+  - id: UI_SYSTEM_VERTIVALREVERSAL
+    text: 上下翻轉
+  - id: UI_GAMEOVER_DESC1
+    text: 你離恩美太遠了…正在載入上次存檔中，請稍候
+  - id: UI_GAMEOVER_DESC2
+    text: 你離影子太遠了…正在載入上次存檔中，請稍候
+  - id: UI_GOTOMAINMENU
+    text: 主選單
+  - id: TITLE_NAME
+    text: 白色情人節：恐怖學校
+  - id: SYSTEM_SAVE_DATA
+    text: 系統保存數據
+  - id: AUTO_SAVE_DATA
+    text: 自動保存數據
+  - id: AVAILABLE_SPACE_OVER_ERROR_TITLE
+    text: 保存
+  - id: AVAILABLE_SPACE_OVER_ERROR_MESSAGE
+    text: 主機儲存空間不足。繼續遊戲需要30MB以上空餘儲存空間。
+  - id: UI_COSTUME_CONFIRM_WEAR
+    text: 穿戴
+  - id: UI_COSTUME_CONFIRM_GET
+    text: 獲取
+  - id: UI_COSTUME_CONFIRM_BUY
+    text: 購買
+  - id: UI_COSTUME_LOCKED_GUIDE_GET
+    text: "該服裝可以\n通過收藏品獲得。\n點擊{0}\n即可移動到相關收藏品頁面。"
+  - id: UI_COSTUME_LOCKED_GUIDE_BUY
+    text: "該服裝可以\n通過購買服裝包獲得。\n點擊{0}\n即可移動到購買頁面。"
+  - id: UI_CONFIG_GRAPHIC_GAMMA_FEW
+    text: 不可見
+  - id: UI_CONFIG_GRAPHIC_GAMMA_AFEW
+    text: 隱約可見
+  - id: UI_CONFIG_GRAPHIC_GAMMA_GUIDE
+    text: 畫面的亮度可以影響遊戲的氣氛。 上面的圖片代表遊戲背景的黑暗部分和明亮部分。 請將畫面的左邊調為不可見，右邊調為能隱約可見。
+  - id: UI_COLLECTION_GHOST_DOC_READ
+    text: 閱讀
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT4
+    text: 確認智敏的結局畫面
+  - id: UI_CONFIG_SAVE
+    text: 正在儲存變更
+  - id: UI_CONFIG_KEYSETTING_DEFAULT
+    text: 初始值
+  - id: UI_LOADING_COMMENT_1
+    text: 蹲著的狀態可以減少被守衛發現的幾率
+  - id: UI_LOADING_COMMENT_2
+    text: 隱藏在書桌後的話，可以避免守衛的視線
+  - id: UI_LOADING_COMMENT_3
+    text: 長時間跑的話，會出現頭暈目眩，請休息一下
+  - id: UI_LOADING_COMMENT_4
+    text: 利用恢復道具，可以恢復體力和心率
+  - id: UI_LOADING_COMMENT_5
+    text: 在學校裡能找到的文件中，藏著遊戲進行的提示和很多故事
+  - id: UI_LOADING_COMMENT_6
+    text: 打火機可以照亮周圍的小範圍，不會被守衛發現。
+  - id: UI_LOADING_COMMENT_7
+    text: 奔跑的話，打火機的火會熄滅。
+  - id: UI_LOADING_COMMENT_8
+    text: 打開教室燈或著奔跑移動時有可能引起警衛注意和追擊
+  - id: UI_LOADING_COMMENT_9
+    text: 在時間限制的情況下，無法儲存遊戲進度。
+  - id: UI_LOADING_COMMENT_10
+    text: 當逃離警衛追擊時，試著穿過門後把門關上，可以趁警衛開門時爭取逃跑時間
+  - id: UI_LOADING_COMMENT_11
+    text: 在簡單難度以下，遊戲進行可以得到直接的文字提示
+  - id: UI_LOADING_COMMENT_12
+    text: 選擇難度困難以上會遇到躲藏在學校的鬼
+  - id: UI_LOADING_COMMENT_13
+    text: 你可以逃離在學校徘迴的髮絲鬼
+  - id: UI_LOADING_COMMENT_14
+    text: 和女同學的談話和選擇會影響好感
+  - id: UI_LOADING_COMMENT_15
+    text: 結局會依照你的選擇和好感度而改變
+  - id: UI_LOADING_COMMENT_16
+    text: 現在的禮堂和本館之間曾經有個小池塘
+  - id: UI_LOADING_COMMENT_17
+    text: 學校是建在一處風水好的地方
+  - id: UI_LOADING_COMMENT_18
+    text: 學校直到幾年前還有經營宿舍
+  - id: UI_LOADING_COMMENT_19
+    text: 過去本來想把延斗高中作為藝術特許學校，但是結果並沒有很成功
+  - id: UI_LOADING_COMMENT_20
+    text: 本館與新館連接的走廊發生過許多事故
+  - id: UI_LOADING_COMMENT_21
+    text: 其中一位警衛由於幾年前學校出現的事故，導致腿受傷
+  - id: UI_LOADING_COMMENT_22
+    text: 本館頂樓的避雷針據說被雷擊中13次
+  - id: UI_LOADING_COMMENT_23
+    text: 高一的教室在本館的第3層和4層樓
+  - id: UI_LOADING_COMMENT_24
+    text: 本館以前是做其他用途的
+  - id: UI_LOADING_COMMENT_25
+    text: 學校建立初期， 相傳有很多奇怪的事故發生
+  - id: UI_LOADING_COMMENT_26
+    text: 學校的20個怪談被超自然同好社流傳下來
+  - id: UI_LOADING_COMMENT_27
+    text: 學生中流傳著學校的地下室有個像迷宮一樣的地方
+  - id: UI_LOADING_COMMENT_28
+    text: 體育老師暗戀保健老師已經不是秘密了
+  - id: UI_LOADING_COMMENT_29
+    text: 最近幾年音樂老師常常換，現在還是個空缺
+  - id: UI_LOADING_COMMENT_30
+    text: 教東洋學的教導主任對五行很感興趣
+  - id: UI_CONFIG_CONTROLS_TUTORIAL
+    text: 觀看教學
+  - id: UI_INGAME_CATEGORY_MENU_POUSE
+    text: 暫停
+  - id: BUY_CLOTH_PS4
+    text: '"PlayStation Store"'
+  - id: UI_CONFIG_CONTROLS_VIBRATION
+    text: 震動功能
+  - id: UI_CONTROLMENU_SKIP
+    text: 跳過
+  - id: UI_CONTROLMENU_CHOICE
+    text: 選項
+  - id: UI_CONFIG_CONTROLS_SUBTITLE
+    text: 字幕
+  - id: UI_LOBBY_CONTINUE_DELETE_DESC
+    text: （已刪除自動保存的數據。）
+  - id: MONOLOGUE_CINEMA_2210
+    text: '[韓娜英]'
+  - id: UI_POPUP_AGE
+    text: 由於年齡限制，無法使用這個功能。
+  - id: LEVEL_VERY_EASY_DESC
+    text: 難度較低，適合想觀賞劇情的玩家。<br>（提供遊戲進行的攻略。）
+  - id: LEVEL_EASY_DESC
+    text: 雖然驚悚度會降低，但遊戲也會更簡單。<br>（提供遊戲進行的攻略。）
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_MOVETAB_L
+    text: 切換移動 (左)
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_MOVETAB_R
+    text: 切換移動 (右)
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_OPENMAP
+    text: 觀看地圖
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_OPENMENU
+    text: 開啟選單
+  - id: UI_SAVE_SAVETIME
+    text: '{0:D02}/{1:D02}/{2:D02} {3:D02}:{4:D02}:{5:D02}'
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_QUICKTURN
+    text: 快速迴轉

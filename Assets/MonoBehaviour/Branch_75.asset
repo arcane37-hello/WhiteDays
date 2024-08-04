@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd312c7964fa27a631be24e6b9e8fb8c, type: 3}
+  m_Name: Branch
+  m_EditorClassIdentifier:
+  enabled: 1
+  m_InputNodeList:
+  - {fileID: 11400000, guid: c7b10056146411e42b5dd57f891987f9, type: 2}
+  - {fileID: 11400000, guid: 3ff78be2e9b61c64db3e2f7648d0b1b2, type: 2}
+  m_OutputNode: {fileID: 11400000, guid: 6a5bc79a35e48164ab37e94a8a7a2da6, type: 2}
+  m_BoolParam: {fileID: 11400000, guid: 3db2fe9f7dfae0d499296e09f0420cce, type: 2}

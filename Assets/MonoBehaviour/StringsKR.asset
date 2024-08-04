@@ -1,0 +1,1652 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da84e45da3418d9e996de0c0cd6962b9, type: 3}
+  m_Name: StringsKR
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Strings.xlsx
+  worksheetName: StringsKR
+  dataArray:
+  - id: COMFIRM
+    text: 확인
+  - id: CANCEL
+    text: 취소
+  - id: YES
+    text: 네
+  - id: NO
+    text: 아니요
+  - id: CLOSE
+    text: 닫기
+  - id: EXIT
+    text: 나가기
+  - id: MAX
+    text: 최대
+  - id: MIN
+    text: 최소
+  - id: EMPTY
+    text: 비어있음
+  - id: QUANTITY
+    text: 수량
+  - id: DOCUMENT
+    text: 문서
+  - id: LADDER
+    text: 사다리
+  - id: SPEAKER
+    text: 스피커
+  - id: SAVE_GAME
+    text: 게임을 저장하시겠습니까?
+  - id: ITEM_OBTAINED
+    text: '{0}(을)를 획득했습니다.'
+  - id: ITEM_REMOVED
+    text: '{0}(이)가 제거되었습니다.'
+  - id: MOVETO_MAINBUILDING1
+    text: 본관1로 이동
+  - id: MOVETO_MAINBUILDING2
+    text: 본관2로 이동
+  - id: MOVETO_NEWBUILDING
+    text: 신관으로 이동
+  - id: MOVETO_HALL
+    text: 강당으로 이동
+  - id: LOBBY_NEW_GAME0
+    text: 학교로 들어간다
+  - id: LOBBY_NEW_GAME1
+    text: 새로 시작하기
+  - id: SETTING
+    text: 설정
+  - id: CONTENTS
+    text: 추가 콘텐츠
+  - id: LOBBY_ESCAPE
+    text: 게임종료
+  - id: LOBBY_NEW_GAME2
+    text: 플레이 할 게임의 난이도를 선택합니다.
+  - id: LEVEL_VERY_EASY
+    text: 왕이지 난이도
+  - id: LEVEL_EASY
+    text: 쉬움 난이도
+  - id: LEVEL_NORMAL
+    text: 보통 난이도
+  - id: LEVEL_HARD
+    text: 어려움 난이도
+  - id: LEVEL_VERY_HARD
+    text: 왕리얼 난이도
+  - id: LEVEL_NORMAL_DESC
+    text: 시나리오와 스릴이 적절히 균형 잡힌 난이도입니다.
+  - id: LEVEL_HARD_DESC
+    text: 더 위험한 난이도에서 스릴을 즐길 수 있습니다.
+  - id: LEVEL_VERY_HARD_DESC
+    text: 가장 리얼하고 공포스러운 난이도에 도전합니다.
+  - id: LEVEL_VERY_HARD_DESC_EXCEPTION
+    text: 왕리얼에 도전할 수 있는 사람은 아직 아무도 없습니다.
+  - id: LEVEL_VERY_EASY_COMMENT
+    text: '<수위에게 좀 더 쉽게 도망칠 수 있습니다.>'
+  - id: LEVEL_EASY_COMMENT
+    text: '<게임 진행에 도움을 주는 문자를 수신할 수 있습니다.>'
+  - id: LEVEL_NORMAL_COMMENT
+    text: '<교내에 숨겨진 퍼즐들을 풀고 괴담을 수집할 수 있습니다.>'
+  - id: LEVEL_HARD_COMMENT
+    text: '<학교를 배회하는 숨겨진 귀신들과 조우할 수 있습니다.>'
+  - id: LEVEL_VERY_HARD_COMMENT
+    text: '<한 번이라도 죽으면 모든 것이 끝나는 하드코어 모드가 적용됩니다.>'
+  - id: LEVEL_VERY_HARD_COMMENT_EXCEPTION
+    text: ※ 향후 업데이트 될 예정입니다. 기대해주시기 바랍니다!
+  - id: CONTINUE
+    text: 이어하기
+  - id: LOAD
+    text: 불러오기
+  - id: COLLECTION
+    text: 수집물
+  - id: LOAD_DESC
+    text: 저장된 게임을 불러옵니다.
+  - id: SETTING_DESC
+    text: 게임의 설정을 변경합니다.
+  - id: ACCOUNT_SETTING
+    text: 계정 설정
+  - id: ACCOUNT_SETTING_DESC
+    text: 사용자의 정보를 확인/변경합니다.
+  - id: SNS_CONNECT
+    text: SNS 연결
+  - id: ACCOUNT_AND_MOBILE_INFO
+    text: 계정 및 기기정보
+  - id: GOOGLE_CONNECT
+    text: Google+ 계정 등록
+  - id: FACEBOOK_CONNECT
+    text: Facebook 계정 등록
+  - id: SNS_CONNECT_DESC
+    text: 사용자의 다른 SNS 계정을 등록하여 연결합니다.
+  - id: ACCOUNT_INFO_DESC
+    text: 사용자의 계정과 기기 정보를 확인합니다.
+  - id: ACCOUNT_INFO
+    text: 계정 정보
+  - id: MOBILE_INFO
+    text: 기기 정보
+  - id: ADD_CONTENTS_DESC
+    text: 게임의 콘텐츠를 변경하거나 구매합니다.
+  - id: CHANGE_CLOTH
+    text: 의상 변경
+  - id: REGIST_CODE
+    text: 특전 코드 등록
+  - id: QUIT_DESC
+    text: 종료하시겠습니까?
+  - id: DELETE_DESC
+    text: 삭제하시겠습니까?
+  - id: COLLECTION_DESC
+    text: 게임에서 획득한 것들을 확인합니다.
+  - id: COLLECTION_GHOST
+    text: 귀신 수집
+  - id: COLLECTION_ENDING
+    text: 엔딩 수집
+  - id: COLLECTION_GHOST_DESC
+    text: 학교에서 만난 귀신과 그에 대한 괴담들
+  - id: COLLECTION_DETAIL
+    text: 자세히 보기
+  - id: COLLECTION_GHOST_DETAIL_DESC
+    text: 획득한 귀신의 정보를 살펴봅니다.
+  - id: COLLECTION_ENDING_DESC
+    text: 화이트데이의 다양한 결말.
+  - id: COLLECTION_ENDING_PERCENT
+    text: 엔딩 수집달성률
+  - id: COLLECTION_ENDING_LEVEL
+    text: '수집 완료 난이도:'
+  - id: COLLECTION_ENDING_NAME_01
+    text: 하얀 국화<br><size=28><color=#606060FF>(진실)</color></size>
+  - id: COLLECTION_ENDING_NAME_02
+    text: 히아신스<br><size=28><color=#606060FF>(나를 용서해 줘)</color></size>
+  - id: COLLECTION_ENDING_NAME_03
+    text: 담쟁이넝쿨<br><size=28><color=#606060FF>(우정)</color></size>
+  - id: COLLECTION_ENDING_NAME_04
+    text: 월하향<br><size=28><color=#606060FF>(위험한 쾌락)</color></size>
+  - id: COLLECTION_ENDING_NAME_05
+    text: 흑단<br><size=28><color=#606060FF>(위선)</color></size>
+  - id: COLLECTION_ENDING_NAME_06
+    text: 민들레<br><size=28><color=#606060FF>(성실)</color></size>
+  - id: COLLECTION_ENDING_NAME_07
+    text: 접시꽃<br><size=28><color=#606060FF>(사랑에 지침)</color></size>
+  - id: COLLECTION_ENDING_NAME_08
+    text: 주목<br><size=28><color=#606060FF>(죽음)</color></size>
+  - id: COLLECTION_ENDING_NAME_09
+    text: 쟈스민<br><size=28><color=#606060FF>(당신은 나의 것)</color></size>
+  - id: COLLECTION_ENDING_NAME_10
+    text: 마거리트<br><size=28><color=#606060FF>(마음속에 감춘 사랑)</color></size>
+  - id: VERY_EASY
+    text: 왕이지
+  - id: EASY
+    text: 쉬움
+  - id: NORMAL
+    text: 보통
+  - id: HARD
+    text: 어려움
+  - id: VERY_HARD
+    text: 왕리얼
+  - id: COLLECTION_ACHIEVEMENT
+    text: '달성률:'
+  - id: CHANGE_CLOTH_DESC
+    text: 캐릭터들의 의상을 변경합니다.
+  - id: EMPTY_INFO
+    text: 정보 없음
+  - id: DELETE
+    text: 삭제하기
+  - id: CONTINUE_PLAY
+    text: 게임 계속하기
+  - id: NOTICE_ENDING_NAME_01
+    text: White chrysanthemum
+  - id: NOTICE_ENDING_NAME_02
+    text: Hyacinth
+  - id: NOTICE_ENDING_NAME_03
+    text: Ivy
+  - id: NOTICE_ENDING_NAME_04
+    text: Tuberose
+  - id: NOTICE_ENDING_NAME_05
+    text: Ebony
+  - id: NOTICE_ENDING_NAME_06
+    text: Dandelion
+  - id: NOTICE_ENDING_NAME_07
+    text: Althaea
+  - id: NOTICE_ENDING_NAME_08
+    text: Yew
+  - id: NOTICE_ENDING_NAME_09
+    text: Jasmine
+  - id: NOTICE_ENDING_NAME_10
+    text: Marguerite
+  - id: NOTICE_ENDING_TIME_01
+    text: 3월 14일 오전 06:37
+  - id: NOTICE_ENDING_TIME_02
+    text: 3월 14일 오전 06:25
+  - id: NOTICE_ENDING_TIME_03
+    text: 3월 14일 오전 06:37
+  - id: NOTICE_ENDING_TIME_04
+    text: 3월 14일 오전 05:58
+  - id: NOTICE_ENDING_TIME_05
+    text: 3월 14일 오전 05:58
+  - id: NOTICE_ENDING_TIME_06
+    text: 3월 14일 오전 05:42
+  - id: NOTICE_ENDING_TIME_07
+    text: 3월 14일 오전 05:44
+  - id: NOTICE_ENDING_TIME_SceneMainBuilding1
+    text: 3월 13일 오후 10:51
+  - id: NOTICE_ENDING_TIME_SceneMainBuilding2
+    text: 3월 13일 오후 11:19
+  - id: NOTICE_ENDING_TIME_SceneNewBuilding
+    text: 3월 14일 오전 00:23
+  - id: NOTICE_ENDING_TIME_SceneHall
+    text: 3월 14일 오전 04:44
+  - id: NOTICE_ENDING_TIME_SceneMaze
+    text: 3월 14일 오전 06:15
+  - id: NOTICE_ENDING_LOCATION_01
+    text: 연두고등학교 운동장
+  - id: NOTICE_ENDING_LOCATION_02
+    text: 연두고등학교 운동장
+  - id: NOTICE_ENDING_LOCATION_03
+    text: 연두고등학교 운동장
+  - id: NOTICE_ENDING_LOCATION_04
+    text: 연두고등학교 강당 2층
+  - id: NOTICE_ENDING_LOCATION_05
+    text: 연두고등학교 강당 2층
+  - id: NOTICE_ENDING_LOCATION_06
+    text: 연두고등학교 강당 중앙홀
+  - id: NOTICE_ENDING_LOCATION_07
+    text: 연두고등학교 강당 중앙홀
+  - id: NOTICE_ENDING_LOCATION_SceneMainBuilding1
+    text: 연두고등학교 본관 1구역
+  - id: NOTICE_ENDING_LOCATION_SceneMainBuilding2
+    text: 연두고등학교 본관 2구역
+  - id: NOTICE_ENDING_LOCATION_SceneNewBuilding
+    text: 연두고등학교 신관
+  - id: NOTICE_ENDING_LOCATION_SceneHall
+    text: 연두고등학교 강당
+  - id: NOTICE_ENDING_LOCATION_SceneMaze
+    text: 미궁
+  - id: NOTICE_LOCATION_SceneMainBuilding1
+    text: 연두 고등학교 본관 1구역<br>3월 13일 오후 10:00
+  - id: NOTICE_LOCATION_SceneMainBuilding2
+    text: 연두 고등학교 본관 2구역<br>3월 13일 오후 11:01
+  - id: NOTICE_LOCATION_SceneNewBuilding
+    text: 연두 고등학교 신관<br>3월 14일 오전 00:04
+  - id: NOTICE_LOCATION_SceneHall
+    text: 연두 고등학교 강당<br>3월 14일 오전 04:26
+  - id: NOTICE_LOCATION_SceneMaze
+    text: 미궁<br>3월 14일 오전 ??:??
+  - id: GAMEOVER_TEXT_DIE_GUARD
+    text: 수위에게 무자비하게 구타당해 목숨을 잃었습니다.
+  - id: GAMEOVER_TEXT_DIE_GHOST
+    text: 공포스러운 존재로 인해 심장이 멈춰버렸습니다.
+  - id: GAMEOVER_TEXT_DIE_EUNMI
+    text: 미친 여인의 칼에 찔려 참혹한 죽음을 맞이했습니다.
+  - id: GAMEOVER_TEXT_DIE_FIRE
+    text: 온몸이 타들어가는 고통 속에서 의식을 잃었습니다.
+  - id: GAMEOVER_TEXT_QTE_CN_0310
+    text: 몸이 꿰뚫리는 고통과 함께 피가 빨려나갔습니다.
+  - id: GAMEOVER_TEXT_QTE_CN_0600
+    text: 온몸의 뼈가 부서지는 고통과 함께 아기의 울음소리가 들렸습니다.
+  - id: GAMEOVER_TEXT_QTE_CN_0830
+    text: 끔찍한 존재에게 붙잡혀 물 속으로 한없이 끌려 들어갔습니다.
+  - id: GAMEOVER_TEXT_QTE_CN_0922
+    text: 무너지는 조명기기 아래 깔려 처참함 죽음을 맞이했습니다.
+  - id: GAMEOVER_TEXT_QTE_CN_0932
+    text: 불길에 휩싸여 온몸이 타들어가는 고통 속에서 의식을 잃었습니다.
+  - id: GAMEOVER_TEXT_QTE_CN_0952
+    text: 육중한 철문에 부딪혀 정신을 잃고 죽음을 맞이했습니다.
+  - id: GAMEOVER_TEXT_QTE_CN_0972
+    text: 불길에 휩싸여 온몸이 타들어가는 고통 속에서 의식을 잃었습니다.
+  - id: GAMEOVER_TEXT_TIMEOVER_TM
+    text: 소영의 비명 소리가 메아리치고 불길한 꽃이 피었습니다.
+  - id: GAMEOVER_TEXT_TIMEOVER_BB
+    text: 아기의 울음소리와 함께 학교가 무너져 내렸습니다.
+  - id: GAMEOVER_TEXT_TIMEOVER_MM
+    text: 숨을 쉴 수가 없는 고통 속에서 의식이 서서히 희미해졌습니다.
+  - id: GAMEOVER_TEXT_TIMEOVER_HALL
+    text: 폭발과 동시에 불길이 모든 것을 삼켜버렸습니다.
+  - id: GAMEOVER_TEXT_TIMEOVER_MAZE
+    text: 미궁에 갇혀 그 안을 영원히 헤매는 존재가 되었습니다.
+  - id: GAMEOVER_TEXT_DIE_LBG
+    text: 여학생의 얼굴을 보는 순간 죽음이 찾아왔습니다.
+  - id: GAMEOVER_TEXT_DIE_FALL
+    text: 무너지는 미궁과 함께 무저갱 속으로 떨어졌습니다.
+  - id: CODE_SUCCESS
+    text: 등록 성공!
+  - id: CODE_SUCCESS_DESC
+    text: 코드가 정상적으로 등록되었습니다.<br>[메인로비>추가 콘텐츠>의상 변경]에서<br>새로운 의상을 확인하실 수 있습니다.
+  - id: SHORT_CUT
+    text: 바로가기
+  - id: DOWNLOAD_NOW
+    text: 지금 다운로드
+  - id: COSTUME_CHANGE
+    text: 의상 변경
+  - id: COSTUME_CHANGE_DESC
+    text: 캐릭터들의 의상을 변경합니다.
+  - id: POPUP_ALERT_BUY_DESC
+    text: 해당 의상 세트의 구매가 완료되었습니다.<br>[메인로비>추가 콘텐츠>의상 변경]에서<br>구매한 의상을 확인하고 착용할 수 있습니다.
+  - id: POPUP_ALERT_BUY_TITLE
+    text: 구매해주셔서 감사합니다!
+  - id: POPUP_DOWNLOAD_TITLE
+    text: 콘텐츠 다운로드
+  - id: POPUP_DOWNLOAD_DESC
+    text: 구매하신 콘텐츠를 다운로드 중입니다
+  - id: UI_SAVE_MARKER_CNT
+    text: '남아있는 사인펜 : <color=#ffff00ff>{0}개</color>'
+  - id: QTE_NOTIFICATION_DRAG
+    text: 사용할 아이템을 드래그 하세요!
+  - id: QTE_NOTIFICATION_TOUCH
+    text: 좌우 버튼을 연타하세요!
+  - id: QTE_NOTIFICATION_SLIDE
+    text: 해당 방향으로 화면을 슬라이드 하세요!
+  - id: ENDING_COLLECTION_REWARD_DISC
+    text: 엔딩 수집 완료시<br>코스튬 지급
+  - id: GHOST_COLLECTION_REWARD_DISC
+    text: 귀신 수집 완료시<br>코스튬 지급
+  - id: FIGURE_COLLECTION_REWARD_DISC
+    text: 오래된 모형 수집 완료시<br>코스튬 지급
+  - id: LEVEL_VERY_HARD_COMMENT_UNLOCK
+    text: '<어려움 난이도를 클리어하면 왕리얼에 도전할 수 있습니다.>'
+  - id: CHARACTER_1
+    text: 한 소영
+  - id: CHARACTER_2
+    text: 김 성아
+  - id: CHARACTER_3
+    text: 설 지현
+  - id: CHARACTER_4
+    text: 이 희민
+  - id: CHARACTER_5
+    text: 이 봉구
+  - id: CHARACTER_6
+    text: 손 달수
+  - id: SHOP_MOVE
+    text: 구매하러 가기
+  - id: LIMITED_EDITION_TITLE
+    text: 한정판 특전 코드 등록
+  - id: LIMITED_EDITION_TITLE_DESC
+    text: '한정판 코스튬 : 패션 교복을 획득합니다.'
+  - id: BUY_CLOTH
+    text: 의상 구매
+  - id: SHOP_BUY_BUTTON_DESC
+    text: '{0} 구매'
+  - id: SHOP_ALREADY_PURCHASED
+    text: 이미 구매하신 상품입니다.
+  - id: SHOP_TITLE
+    text: 의상 구매
+  - id: SHOP_TITLE_DESC
+    text: 특별한 의상을 합리적인 가격에 구매할 수 있습니다.
+  - id: COSTUME_COLLECTION_CONFIRM
+    text: 획득 조건 확인
+  - id: COSTUME_COLLECTION_GET
+    text: '[{0}] 의상을 보상으로 획득하였습니다.'
+  - id: CHECK_SERVER_COSTUME
+    text: 보유하신 의상 내역을 확인하고 있습니다.
+  - id: CHECK_SERVER_MARKET
+    text: 서버에서 상품 목록을 받아오고 있습니다.
+  - id: MARKET_NOTICE_LOADING
+    text: 의상을 갈아입는 중입니다.
+  - id: MARKET_NOTICE_SERVER
+    text: 해당 상품의 구매 가능 여부를 확인 중입니다.
+  - id: IABHELPER_OK
+    text: 상품 구매가 완료 되었습니다.
+  - id: IABHELPER_-100
+    text: 결제 기능을 사용할 수 없는 상태입니다.
+  - id: IABHELPER_-101
+    text: 상품을 구매하는 과정에서 오류가 발생하였습니다.
+  - id: IABHELPER_-102
+    text: 해당 상품은 구매할 수 없는 상태입니다.
+  - id: IABHELPER_-103
+    text: 요청하신 상품을 구매하는 과정에서 오류가 발생했습니다.
+  - id: IABHELPER_-1000
+    text: 상품을 구매하는 과정에서 오류가 발생하였습니다.
+  - id: IABHELPER_-1001
+    text: 현재 결제 서버에 접속할 수 없는 상태입니다.
+  - id: IABHELPER_-1002
+    text: 결제 서버로부터 응답이 없습니다.
+  - id: IABHELPER_-1005
+    text: 상품 구매가 사용자의 요청에 의해 취소 되었습니다.
+  - id: IABHELPER_-1006
+    text: 알 수 없는 응답으로 인해 구매가 취소 되었습니다.
+  - id: IABHELPER_-1007
+    text: 토큰값이 일치하지 않아 구매가 취소 되었습니다.
+  - id: IABHELPER_-1008
+    text: 알 수 없는 오류로 인해 구매가 취소 되었습니다.
+  - id: IABHELPER_-1009
+    text: 해당 상품은 구매할 수 없는 구독 상품입니다.
+  - id: IABHELPER_-1010
+    text: 해당 상품은 구매할 수 없는 소모성 상품입니다.
+  - id: MARKET_NOTICE_COMPLETE
+    text: 구매 처리를 완료하는 중입니다.
+  - id: PURCHASE_RESTORE
+    text: 구매복원
+  - id: UI_CONTENT_RESET_ALERT
+    text: ※ 게임을 삭제할 경우, 콜렉션 내역과 보상으로<br>획득한 의상이 초기화 됩니다. 주의하시기 바랍니다.<br>(구매 하신 의상 내역은 유지 됩니다.)
+  - id: UI_PURCHASE_RESTORE_PROGRESS
+    text: 잠시만 기다리세요. 복원 진행중 입니다.
+  - id: UI_PURCHASE_RESTORE_BUTTON
+    text: 복원 진행 중
+  - id: UI_PURCHASE_RESTORE_COMPLETE
+    text: 구매 내역에 대한 복원이 완료되었습니다.
+  - id: UI_SHOP_LIMITED_SELL_PERIOD
+    text: '판매 기간: yy년 MM월 dd일까지'
+  - id: UI_SHOP_SELL_PERIOD
+    text: 상시 판매
+  - id: UI_WAIT_POPUP_MESSAGE
+    text: 잠시만 기다려주세요.
+  - id: UI_PURCHASE_RESTORE_DESC
+    text: 사용자의 영수증 정보를 확인하여<br>게임 내 상품의 구매 내역을 복원합니다.<br>※ 이 작업에는 몇 분 정도 소요될 수 있습니다.
+  - id: UI_START
+    text: 시작하기
+  - id: UI_BUTTON_RESTORATION
+    text: 복원 요청
+  - id: UI_COSTUME_WEAR
+    text: '의상 착용하기 '
+  - id: UI_COSTUME_CLOTHED
+    text: 착용중
+  - id: UI_COSTUME_CODE_REGIST
+    text: 코드 등록하기
+  - id: UI_COSTUME_REWARD
+    text: 보상받기
+  - id: UI_LOAD_GAME_DESC
+    text: 저장된 게임을 불러 오시겠 습니까?
+  - id: UI_COLLECTION_RANK
+    text: 플레이 랭크 수집
+  - id: UI_COLLECTION_FIGURE
+    text: 오래된 모형 수집
+  - id: UI_COSTUME_CODE_INPUT
+    text: 쿠폰번호를 입력해 주세요
+  - id: UI_INPUT_COMPLETE
+    text: 입력 완료
+  - id: UI_COLLECTION_RANK_TITLE
+    text: 플레이 랭크 수집
+  - id: UI_COLLECTION_RANK_DESC
+    text: 난이도 별 최고 랭크와 점수
+  - id: UI_COLLECTION_FIGURE_TITLE
+    text: 오래된 모형 수집
+  - id: UI_COLLECTION_FIGURE_DESC
+    text: 학교에서 얻은 사람 형태의 모형들
+  - id: UI_COLLECTION_FIGURE_COUNT
+    text: '획득한 피규어:'
+  - id: UI_SHOP_CLOTH_LIST
+    text: 포함된 의상
+  - id: UI_BACKPACK
+    text: 가방
+  - id: UI_MAP
+    text: 지도
+  - id: UI_MAIL
+    text: 문자
+  - id: UI_DOCUMENT
+    text: 문서
+  - id: UI_SYSTEM
+    text: 시스템
+  - id: UI_BACKPACK_MENU
+    text: 가방
+  - id: UI_BACKPACK_MENUDESC
+    text: 현재 가진 아이템을 확인합니다.
+  - id: UI_BACKPACK_ITEM_GENERALS
+    text: 중요 아이템
+  - id: UI_BACKPACK_ITEM_KEYS
+    text: 열쇠 아이템
+  - id: UI_BACKPACK_ITEM_HEALING
+    text: 회복 아이템
+  - id: UI_BACKPACK_ITEM_USABLE
+    text: 소비 아이템
+  - id: UI_BACKPACK_ITEM_ETC
+    text: 기타 아이템
+  - id: UI_BACKPACK_USEITEM
+    text: 아이템 사용
+  - id: UI_MAP_MENU
+    text: 지도
+  - id: UI_MAP_MENUDESC
+    text: 지도를 확인합니다.
+  - id: UI_MAP_MAINBUILDING1
+    text: 본관1
+  - id: UI_MAP_MAINBUILDING2
+    text: 본관2
+  - id: UI_MAP_NEWBUILDING
+    text: 신관
+  - id: UI_MAP_HALL
+    text: 강당
+  - id: UI_MAP_1F
+    text: 1층
+  - id: UI_MAP_2F
+    text: 2층
+  - id: UI_MAP_3F
+    text: 3층
+  - id: UI_MAP_4F
+    text: 4층
+  - id: UI_MAP_5F
+    text: 5층
+  - id: UI_MAIL_MENU
+    text: 문자
+  - id: UI_MAIL_MENUDESC
+    text: 지금까지 받은 문자를 확인합니다.
+  - id: UI_MAIL_RECEIVED
+    text: 수신된 문자
+  - id: UI_DOCUMENT_MENU
+    text: 문서
+  - id: UI_DOCUMENT_MENUDESC
+    text: 지금까지 수집한 문서를 확인합니다.
+  - id: UI_DOCUMENT_SCHOOL
+    text: 학교 문서
+  - id: UI_DOCUMENT_MEMO
+    text: 쪽지
+  - id: UI_DOCUMENT_RUMOR
+    text: 소문
+  - id: UI_DOCUMENT_GHOSTSTORY
+    text: 괴담
+  - id: UI_SYSTEM_MENU
+    text: 시스템
+  - id: UI_SYSTEM_MENUDESC
+    text: 시스템 메뉴
+  - id: UI_SYSTEM_GAMEOPTION
+    text: 게임 옵션
+  - id: UI_SYSTEM_EXITTOLOBBY
+    text: 끝내기
+  - id: UI_SYSTEM_GAMEOPTION_CONTROL
+    text: 조작
+  - id: UI_SYSTEM_GAMEOPTION_LANGUAGE
+    text: 언어
+  - id: UI_SYSTEM_GAMEOPTION_GRAPHIC
+    text: 그래픽
+  - id: UI_SYSTEM_GAMEOPTION_SOUND
+    text: 사운드
+  - id: UI_SYSTEM_GAMEOPTION_SUPPORT
+    text: 고객지원
+  - id: UI_SYSTEM_CONTROL
+    text: '[게임 컨트롤 방식]'
+  - id: UI_SYSTEM_CONTROL_TYPE1
+    text: 오리지날 모드  <color=#666666ff><size=16>원작 화이트데이와 가장 가까운 컨트롤입니다.</size></color>
+  - id: UI_SYSTEM_CONTROL_TYPE2
+    text: 게임 패드 모드  <color=#666666ff><size=16>콘솔 게임에 익숙한 플레이어를 위한 컨트롤입니다.</size></color>
+  - id: UI_SYSTEM_CONTROL_TYPE3
+    text: 한 손 조작 모드  <color=#666666ff><size=16>두 손 조작에 불편함을 느끼는 분들을 위한 컨트롤입니다.</size></color>
+  - id: UI_SYSTEM_CONTROL_TYPE4
+    text: 게임패드 모드(beta)  <color=#666666ff><size=16>게임패드를 사용하시는 분들을 위한 컨트롤입니다.</size></color>
+  - id: UI_SYSTEM_CONTROL_NUM1
+    text: 이동 조작 영역
+  - id: UI_SYSTEM_CONTROL_NUM2
+    text: 시선 조작 영역
+  - id: UI_SYSTEM_CONTROL_NUM3
+    text: 달리기/앉기 버튼
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN1
+    text: 시선 수평 이동
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN2
+    text: 시선 수직 이동
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN3
+    text: 달리기
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN4
+    text: 앉기/서기
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN5
+    text: 라이터 켜기/끄기
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN6
+    text: 확인
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN7
+    text: 메뉴 열기
+  - id: UI_SYSTEM_CONTROL_JOYPADBTN8
+    text: 취소
+  - id: UI_SYSTEM_SENSITIVITY
+    text: '[시선 회전 감도]'
+  - id: UI_SYSTEM_TUTORIAL
+    text: '[튜토리얼]'
+  - id: UI_SYSTEM_TUTORIAL_TOGGLE
+    text: 더 이상 튜토리얼을 보지 않습니다.
+  - id: UI_SYSTEM_PROLOGUE
+    text: '[프롤로그 영상]'
+  - id: UI_SYSTEM_PROLOGUE_TOGGLE
+    text: 게임 실행 시 프롤로그 영상을 건너 뜁니다.
+  - id: UI_SYSTEM_LANGUAGE
+    text: '[언어]'
+  - id: UI_SYSTEM_LANGUAGE_KOREAN
+    text: 한국어
+  - id: UI_SYSTEM_LANGUAGE_ENGLISH
+    text: English
+  - id: UI_SYSTEM_LANGUAGE_FRENCH
+    text: Français
+  - id: UI_SYSTEM_LANGUAGE_GERMAN
+    text: Deutsch
+  - id: UI_SYSTEM_LANGUAGE_JAPANESE
+    text: 日本語
+  - id: UI_SYSTEM_LANGUAGE_SPANISH
+    text: Español
+  - id: UI_SYSTEM_LANGUAGE_ITALIAN
+    text: Italiano
+  - id: UI_SYSTEM_LANGUAGE_CHINESESIMPLIFIED
+    text: 中国 (简体)
+  - id: UI_SYSTEM_LANGUAGE_CHINESETRADITIONAL
+    text: 中國 (繁體)
+  - id: UI_SYSTEM_LANGUAGE_RESET
+    text: ※ 변경된 언어가 적용되려면 게임을 종료한 뒤 다시 실행해야 합니다.
+  - id: UI_SYSTEM_LANGUAGE_RESET_CONFIRM
+    text: 재시작
+  - id: UI_SYSTEM_LANGUAGE_RESET_POPUP
+    text: 변경된 언어가 적용되려면 게임을 종료한 뒤 다시 실행해야 합니다.<br>지금 게임을 종료 하시겠습니까?
+  - id: UI_SYSTEM_GRAPHICS
+    text: '[그래픽 설정]'
+  - id: UI_SYSTEM_GRAPHICS_TOGGLE
+    text: 색상 필터를 적용해, 영화 같은 화면을 연출합니다.
+  - id: UI_SYSTEM_BRIGHTNESS
+    text: '[화면 밝기]'
+  - id: UI_SYSTEM_BRIGHTNESS_DESC
+    text: 화면을 너무 밝게 조절할 경우, 게임의 재미가 반감될 수 있습니다. (※색상 필터 옵션이 활성화 되어야 적용됩니다.)
+  - id: UI_SYSTEM_SOUNDS_EFFECT
+    text: '[효과음 출력]'
+  - id: UI_SYSTEM_SOUNDS_EFFECT_TOGGLE
+    text: 게임 내 다양한 효과음의 출력 여부를 제어합니다.
+  - id: UI_SYSTEM_SOUNDS_BGM
+    text: '[배경음 출력]'
+  - id: UI_SYSTEM_SOUNDS_BGM_TOGGLE
+    text: 게임의 배경음을 출력해 현장감을 강화합니다.
+  - id: UI_SYSTEM_SOUNDS_VOLUME
+    text: '[음량 조절]'
+  - id: UI_SYSTEM_USERID
+    text: '[사용자 ID]'
+  - id: UI_SYSTEM_USERID_DESC
+    text: 고객 대응을 위한 유저의 <color=yellow> 사용자 ID</color>를 확인합니다.
+  - id: UI_SYSTEM_VERSION
+    text: '[버전 정보]'
+  - id: UI_SYSTEM_VERSION_DESC
+    text: 현재 설치된 게임의 <color=yellow>버전 정보</color>를 확인합니다.
+  - id: UI_SYSTEM_QA
+    text: '[문의하기]'
+  - id: UI_SYSTEM_QA_DESC
+    text: 게임 진행에 치명적인 문제가 발생할 경우 1:1문의를 남겨주시기 바랍니다.
+  - id: UI_SYSTEM_QA_SEND
+    text: 1:1 문의하기
+  - id: UI_SYSTEM_RESOURCE_VALIDATE
+    text: '[리소스 유효성 검사]'
+  - id: UI_SYSTEM_RESOURCE_VALIDATE_TOGGLE
+    text: 다음 실행 시 게임 리소스의 이상 유무를 확인합니다. (앱을 완전히 종료 후 재시작 해야 합니다.)
+  - id: UI_SYSTEM_EXITTOLOBBY_DESC
+    text: 게임을 중단 하면 저장하지 않은 데이터가 사라집니다.<br>처음 화면으로 돌아 가시겠습니까?
+  - id: UI_SYSTEM_EXITTOLOBBY_BUTTON
+    text: 나가기
+  - id: UI_GAMEOVER
+    text: GAME OVER
+  - id: UI_GAMEOVER_DESC
+    text: 잠시 후 마지막으로 저장된 장소로 이동합니다.
+  - id: UI_GAMEOVER_VERYHARD_DESC1
+    text: 사인펜을 사용해 마지막 저장 지점에서 재시작합니다.
+  - id: UI_GAMEOVER_VERYHARD_DESC2
+    text: '남은 사인펜 : {0}개'
+  - id: UI_GAMEOVER_VERYHARD_DESC3
+    text: 당신은 죽었습니다.
+  - id: UI_SAVEGAME
+    text: 게임 저장
+  - id: UI_SAVEGAME_DESC
+    text: 현재 진행중인 게임을 저장합니다.
+  - id: UI_POINTCAMERA_EXIT
+    text: 나가기
+  - id: UI_POINTCAMERA_EXIT_DESC
+    text: 게임 화면으로 이동
+  - id: UI_POINTCAMERA_PREV
+    text: 이전으로
+  - id: UI_POINTCAMERA_PREV_DESC
+    text: 이전 화면으로 이동
+  - id: MAP_MAINBUILDING1
+    text: 본관1
+  - id: MAP_MAINBUILDING2
+    text: 본관2
+  - id: MAP_NEWBUILDING
+    text: 신관
+  - id: MAP_HALL
+    text: 강당
+  - id: MAP_MAZE
+    text: 미궁
+  - id: MAP_CERAMIC
+    text: '???'
+  - id: MAP_CLASSROOM2_1
+    text: 2-1
+  - id: MAP_CLASSROOM2_2
+    text: 2-2
+  - id: MAP_CLASSROOM2_3
+    text: 2-3
+  - id: MAP_CLASSROOM2_4
+    text: 2-4
+  - id: MAP_CLASSROOM2_5
+    text: 2-5
+  - id: MAP_CLASSROOM2_6
+    text: 2-6
+  - id: MAP_CLASSROOM2_7
+    text: 2-7
+  - id: MAP_CLASSROOM2_8
+    text: 2-8
+  - id: MAP_CLASSROOM2_9
+    text: 2-9
+  - id: MAP_CLASSROOM2_10
+    text: 2-10
+  - id: MAP_CLASSROOM2_11
+    text: 2-11
+  - id: MAP_CLASSROOM2_12
+    text: 2-12
+  - id: MAP_HOUSEKEEPINGROOM
+    text: 가사 실습실
+  - id: MAP_MACHINEROOM
+    text: 기계 실습실
+  - id: MAP_REGISTERROOM1
+    text: 학적부실
+  - id: MAP_REGISTERROOM2
+    text: 서무실
+  - id: MAP_MOUNTAINROOM
+    text: 산악<br>동아리
+  - id: MAP_PHOTOROOM
+    text: 사진<br>동아리
+  - id: MAP_PHYSICALROOM
+    text: 체육창고
+  - id: MAP_STUDIO1
+    text: 방송실
+  - id: MAP_STUDIO2
+    text: 녹음실
+  - id: MAP_COUNSELINGROOM1
+    text: 1층<br>상담실
+  - id: MAP_COUNSELINGROOM2
+    text: 2층<br>상담실
+  - id: MAP_PRINCIPALROOM
+    text: 교장실
+  - id: MAP_TEACHERSROOMA
+    text: 제1 교무실
+  - id: MAP_TEACHERSROOMC1
+    text: 제2 교무실
+  - id: MAP_TEACHERSROOMC2
+    text: 교사<br>휴게실
+  - id: MAP_NIGHTDUTYROOM
+    text: 숙직실
+  - id: MAP_DISPENSARY
+    text: 양호실
+  - id: MAP_WAREHOUSE
+    text: 분실물<br>보관소
+  - id: MAP_STUDENTROOM
+    text: 학생부실
+  - id: MAP_MUSICROOM1
+    text: 음악실
+  - id: MAP_MUSICROOM2
+    text: 음악<br>부속실
+  - id: MAP_SCIENCEROOM1
+    text: 과학실
+  - id: MAP_SCIENCEROOM2
+    text: 과학<br>부속실
+  - id: MAP_ARTROOM1
+    text: 미술실
+  - id: MAP_ARTROOM2
+    text: 미술<br>부속실
+  - id: MAP_BIOLOGYROOM1
+    text: 생물실
+  - id: MAP_BIOLOGYROOM2
+    text: 생물<br>부속실
+  - id: MAP_MUSEUM
+    text: 역사관
+  - id: MAP_CHAIRMANROOM
+    text: 이사장실
+  - id: MAP_MUSICHALL
+    text: 음악감상실
+  - id: MAP_DANCINGROOM
+    text: 무용실
+  - id: MAP_OCCULTROOM
+    text: 오컬트 동호회
+  - id: MAP_CAFETERIA
+    text: 매점
+  - id: MAP_ELECTRICROOM
+    text: 전기<br>제어실
+  - id: MAP_DRAWINGROOM
+    text: 화실
+  - id: MAP_LANGUAGEROOM
+    text: 어학실
+  - id: MAP_STAFFLAUNGE
+    text: 휴게실
+  - id: MAP_EARTHSCIENCEROOM
+    text: 지구과학실
+  - id: MAP_COMPUTERROOM
+    text: 컴퓨터실
+  - id: MAP_CLASSROOM3_1
+    text: 3-1
+  - id: MAP_CLASSROOM3_2
+    text: 3-2
+  - id: MAP_CLASSROOM3_3
+    text: 3-3
+  - id: MAP_CLASSROOM3_4
+    text: 3-4
+  - id: MAP_CLASSROOM3_5
+    text: 3-5
+  - id: MAP_CLASSROOM3_6
+    text: 3-6
+  - id: MAP_CLASSROOM3_7
+    text: 3-7
+  - id: MAP_CLASSROOM3_8
+    text: 3-8
+  - id: MAP_CLASSROOM3_9
+    text: 3-9
+  - id: MAP_CLASSROOM3_10
+    text: 3-10
+  - id: MAP_CLASSROOM3_11
+    text: 3-11
+  - id: MAP_CLASSROOM3_12
+    text: 3-12
+  - id: MAP_POOL
+    text: 옥상<br>수영장
+  - id: MAP_READINGROOM
+    text: 열람실
+  - id: MAP_SEARCHROOM
+    text: 자료<br>검색실
+  - id: MAP_LIBRARY1
+    text: 제1 서고
+  - id: MAP_LIBRARY2
+    text: 제2 서고
+  - id: MAP_STOREHOUSE
+    text: 창고
+  - id: MAP_CONTROLROOM
+    text: 기계<br>제어실
+  - id: MAP_FITTINGROOMMAN
+    text: 남자<br>탈의실
+  - id: MAP_FITTINGROOMWOMAN
+    text: 여자<br>탈의실
+  - id: MAP_SHOWERROOMMAN
+    text: 남자<br>샤워실
+  - id: MAP_SHOWERROOMWOMAN
+    text: 여자<br>샤워실
+  - id: MAP_WAITINGROOM
+    text: 무대 대기실
+  - id: MAP_ENTRANCE
+    text: 현관
+  - id: MAP_STAGE
+    text: 무대
+  - id: MAP_PROJECTIONROOM
+    text: 영사실
+  - id: MAP_STAND
+    text: 스탠드
+  - id: MONOLOGUE_001
+    text: 누군가 학교에 있는 것 같다.
+  - id: MONOLOGUE_002
+    text: 문을 여는 소리가 들렸다.
+  - id: MONOLOGUE_003
+    text: 철조망을 자를 수 있는 것이 필요할 것 같다.
+  - id: MONOLOGUE_004
+    text: 뜨거운 증기 때문에 지나갈 수가 없다.
+  - id: MONOLOGUE_005
+    text: 무슨 이유인지 문이 열리지 않는다.
+  - id: MONOLOGUE_006
+    text: 자물쇠로 잠겨 있어 들어갈 수 없을 것 같다.
+  - id: MONOLOGUE_007
+    text: 특이하게 생긴 나무다.
+  - id: MONOLOGUE_008
+    text: 독한 화학성분으로 인해 나무가 시들어 죽었다.
+  - id: MONOLOGUE_009
+    text: 소영이는 어디로 사라졌는지 보이지 않는다.
+  - id: MONOLOGUE_100
+    text: 건물은 모두 이어져 있다고 했다.
+  - id: MONOLOGUE_110
+    text: 들어가려면 비밀번호가 필요하다.
+  - id: MONOLOGUE_120
+    text: 무슨 말은 하는 것만 같다.
+  - id: MONOLOGUE_130
+    text: 시력을 측정하는 안경이다.
+  - id: MONOLOGUE_140
+    text: 강당으로 이어지는 곳이다.
+  - id: MONOLOGUE_150
+    text: 이곳만 발자국 소리가 이상하게 들린다.
+  - id: MONOLOGUE_160
+    text: 각 문장의 가운데 한자는 부정을 뜻한다.
+  - id: MONOLOGUE_170
+    text: 무거운 공기가 흐르는 것 같다.
+  - id: MONOLOGUE_180
+    text: '전통 문양으로 장식된 책상이다. '
+  - id: MONOLOGUE_190
+    text: 찾아가지 않은 물건들이다. 왠지 쓸쓸함이 느껴진다.
+  - id: MONOLOGUE_200
+    text: 엄마의 모습을 한 흙인형이다.
+  - id: MONOLOGUE_210
+    text: 오디오에 뭔가 걸려있다. 작동 시키려면 리모컨이 필요하다.
+  - id: MONOLOGUE_220
+    text: 피아노 위로 피가 떨어지고 있다.
+  - id: MONOLOGUE_230
+    text: 바닥으로 뭔가 떨어졌다.
+  - id: MONOLOGUE_240
+    text: 그림이 찢어져 일부만 남아있다.
+  - id: MONOLOGUE_250
+    text: 사진 속의 도자기를 찾아야 할 것 같다.
+  - id: MONOLOGUE_260
+    text: 뭔가를 애타게 찾고 있는 것 같다.
+  - id: MONOLOGUE_270
+    text: 미완성 상태의 흙인형이다. 금방이라도 부서질 것 같다.
+  - id: MONOLOGUE_280
+    text: 더 이상 어떠한 아픔도 겪지 않았으면 좋겠다.
+  - id: MONOLOGUE_290
+    text: 여자와의 대화는 늘 어렵다.
+  - id: MONOLOGUE_300
+    text: 날 걱정해 주는 말투다.
+  - id: MONOLOGUE_310
+    text: 날 바보로 보는 건가?… 모르겠다…
+  - id: MONOLOGUE_320
+    text: 이 상황에서 어서 빨리 벗어나고 싶을 뿐이다.
+  - id: MONOLOGUE_330
+    text: 구동벨트가 끈어져 카세트테잎을 들을 수 없다.
+  - id: MONOLOGUE_340
+    text: 이야기를 들어 줄 수 있는 사람에게 전달 되었으면 좋겠다.
+  - id: MONOLOGUE_350
+    text: 전학 오기 전 학교에도 화실이 있었다. 여기선 늘 같은 냄새가 느껴진다.
+  - id: MONOLOGUE_360
+    text: 태극패…라… 지금 나에게 꼭 필요해 보인다.
+  - id: MONOLOGUE_370
+    text: 문이 안쪽에서 고리로 잠겨있다. 빳빳한 종이 만 있으면 열 수 있을 것 같다.
+  - id: MONOLOGUE_380
+    text: 엄청 센 바람을 토해 낼 것 같은 큰 에어컨이다. 하지만 전원이 들어 오지 않는다.
+  - id: MONOLOGUE_390
+    text: '혼자있을 지현이가 걱정이다. '
+  - id: MONOLOGUE_400
+    text: 태극패에 금이 갔다… 더 이상 빛이 나오지 않는다.
+  - id: MONOLOGUE_410
+    text: '당직은 체육선생님 아니었나? 아무튼 어디선가 본 얼굴인 것 같다. '
+  - id: MONOLOGUE_420
+    text: 생각과는 달리 평범한 동호회 교실이다.
+  - id: MONOLOGUE_430
+    text: 예전 학교의 유일한 친구가 매점집 아들이었다. 그 잘생긴 친구가 보고 싶다.
+  - id: MONOLOGUE_440
+    text: 옛 물건인지... 다른 열쇠들과 다른 모양을 하고 있다.
+  - id: MONOLOGUE_450
+    text: 차갑고 깊은 원한이 느껴진다. 더는 고통받지 않았으면 좋겠다.
+  - id: MONOLOGUE_460
+    text: 결국 사고로 이어지고 말았다. 어서 학교를 빠져나가 도움을 청해야 한다.
+  - id: MONOLOGUE_470
+    text: 누구지?
+  - id: MONOLOGUE_480
+    text: 새장을 그린 낙서다.  새는 날아가고 없다.
+  - id: MONOLOGUE_490
+    text: 막대사탕?? 무슨 뜻이 있는 걸까???
+  - id: MONOLOGUE_500
+    text: 울고 있는 천사가 그려져 있다.
+  - id: MONOLOGUE_510
+    text: 파리가 성아를 닮았다.
+  - id: MONOLOGUE_520
+    text: 이 파리는 지현을 닮았다…
+  - id: MONOLOGUE_530
+    text: 엄마 고양이가 아기 고양이를 찾고 있다.
+  - id: MONOLOGUE_540
+    text: 사람 모양의 날개를 가진 나비 그림이다.
+  - id: MONOLOGUE_550
+    text: 무언가 얘기하는 대벌레 그림이다.
+  - id: MONOLOGUE_560
+    text: 슬퍼 보이는 비둘기 그림이다.
+  - id: MONOLOGUE_570
+    text: 자기보다 큰 목발을 짚고 서있는 쥐 그림이다.
+  - id: MONOLOGUE_580
+    text: '파리가… 누굴 닮았다. '
+  - id: MONOLOGUE_590
+    text: SY… 소영을 말하는 걸까?
+  - id: MONOLOGUE_600
+    text: 소화기를 사용하면 불이 날려 더 위험할 것 같다. 젖은 이불 같은 것이 필요하다.
+  - id: MONOLOGUE_610
+    text: 몸을 간신히 덮는 작은 이불이다.
+  - id: MONOLOGUE_2010
+    text: 신관으로 갈 방법을 찾아야 한다.
+  - id: MONOLOGUE_2020
+    text: 본관1에서 본 것과 같은 형태의 결계다.
+  - id: MONOLOGUE_2030
+    text: 교장실에 들어가면 뭔가 알 수 있지 않을까..?
+  - id: MONOLOGUE_2040
+    text: 교무실에 뭔가를 숨긴 것 같다.
+  - id: MONOLOGUE_2050
+    text: 먼지 속에 주인을 잃어버린 물건들이 쌓여있다.
+  - id: MONOLOGUE_2060
+    text: 케이스 안에 여성의 모습을 한 흙인형이 보인다.
+  - id: MONOLOGUE_2070
+    text: 오디오의 트레이에 CD가 걸려있다.
+  - id: MONOLOGUE_2080
+    text: 누군가 그림의 나머지를 찢어간 것 같다.
+  - id: MONOLOGUE_2090
+    text: 어떤 남자가 도자기를 들고 있는 그림이다.
+  - id: MONOLOGUE_2100
+    text: 이대로는 학교가 무너질지도 모른다!!
+  - id: MONOLOGUE_1010
+    text: 일단 2학년 8반으로 가보자.
+  - id: MONOLOGUE_1020
+    text: 이제 이곳으론 나갈 수 없을 것 같다.
+  - id: MONOLOGUE_1030
+    text: 나 말고 누군가 학교에 있는 것 같다.
+  - id: MONOLOGUE_1040
+    text: 작업에 필요한 다양한 공구가 들어있다.
+  - id: MONOLOGUE_1050
+    text: 환풍구가 철망으로 막혀있다.
+  - id: MONOLOGUE_1060
+    text: 여기가 그 아이의 반이다.
+  - id: MONOLOGUE_1070
+    text: 잠겨서 들어갈 수 없다. 그냥 가야하는 걸까..?
+  - id: MONOLOGUE_1080
+    text: 소영이가 뭔가를 떨어트렸다.
+  - id: MONOLOGUE_1090
+    text: 아래층에서 올라온 나무줄기가 교실의 문을 단단히 막고 있다.
+  - id: MONOLOGUE_1100
+    text: 어디선가 끔찍한 소리가 들려왔다.
+  - id: MONOLOGUE_1110
+    text: 모든 것이 흔적도 없이 사라졌다..
+  - id: MONOLOGUE_1120
+    text: 아무 것도 없다. 소영이도 보이지 않는다.
+  - id: MONOLOGUE_1130
+    text: 뜨거운 증기 때문에 지나갈 수가 없다.
+  - id: MONOLOGUE_1140
+    text: 문이 열리지 않는다..!
+  - id: MONOLOGUE_1150
+    text: 특이하게 생긴 나무다.
+  - id: MONOLOGUE_1160
+    text: 강당으로 가는 문은 잠겨있다.
+  - id: MONOLOGUE_1170
+    text: 공사에 쓰이는 사다리가 놓여있다.
+  - id: MONOLOGUE_1180
+    text: 이쪽의 문은 사용할 수 없다.
+  - id: MONOLOGUE_3010
+    text: 수(水)의 결계가 강당으로 가는 길을 막고 있다.
+  - id: MONOLOGUE_3020
+    text: 이 문을 열려면 같은 색의 카드키가 필요하다.
+  - id: MONOLOGUE_3030
+    text: 어학기를 고치면 교무실에 있던 백워드 테이프의 내용을 들을 수 있을 것 같다.
+  - id: MONOLOGUE_3040
+    text: 이 어학기는 구동벨트가 끊어져 작동되지 않는다.
+  - id: MONOLOGUE_3050
+    text: 거울 안에 붉은색 카드키가 보인다.
+  - id: MONOLOGUE_3060
+    text: 문 안쪽에 고리가 걸려있다. 빳빳한 종이가 있다면 열 수 있을 것 같다.
+  - id: MONOLOGUE_3070
+    text: 에어컨을 눌러도 동작하지 않는다. 전원이 공급되지 않는 것 같다.
+  - id: MONOLOGUE_3080
+    text: 책장 위에 안내문이 보인다. 하지만 너무 높아 손에 닿지 않는다.
+  - id: MONOLOGUE_3090
+    text: 지현이가 사라져버렸다!!
+  - id: MONOLOGUE_3100
+    text: 중앙홀 쪽에서 뭔가 부서지는 소리가 들렸다.
+  - id: MONOLOGUE_3110
+    text: 수영장의 건너편에 배수밸브가 보인다.
+  - id: MONOLOGUE_3120
+    text: 이야기를 들어 줄 수 있는 사람에게 전달 되었으면 좋겠다.
+  - id: MONOLOGUE_4010
+    text: 불길한 정적이 강당 안을 채우고 있다.
+  - id: MONOLOGUE_4020
+    text: 나가는 문은 열리지 않는다.
+  - id: MONOLOGUE_4030
+    text: 무대 위에 누군가가 있다.
+  - id: MONOLOGUE_4040
+    text: 기계가 폭주하고 있다. 위험해 보인다.
+  - id: MONOLOGUE_4050
+    text: 잠겨있던 문이 열린 것 같다.
+  - id: MONOLOGUE_4060
+    text: 소화기가 놓여있다.
+  - id: MONOLOGUE_5000
+    text: 부적을 빼낼 수 없다. 결계의 힘이 다시 돌아와야 한다.
+  - id: MONOLOGUE_5010
+    text: 부적을 빼냈다.
+  - id: MONOLOGUE_6000
+    text: 이 용제면 얼룩이 무언지 알 수 있겠지…
+  - id: MONOLOGUE_6010
+    text: '이 학교 뭐야…! '
+  - id: MONOLOGUE_6020
+    text: 책? 책이 있었다…? 소영언니가 찾고 있는 게 혹시 책인가??
+  - id: MONOLOGUE_6030
+    text: 어디서 들어 본 곡인데… 상담실인가?
+  - id: MONOLOGUE_6040
+    text: 자살한 음악선생님…? 내가 뭘 보고 있는 거지…
+  - id: MONOLOGUE_6050
+    text: 죽은 음악선생님의 유품을 찾는 놀이가 유행했었는데…<br>유품을 찾으면 뭔가 있을지 몰라!
+  - id: MONOLOGUE_6060
+    text: 어디서 본 것 같은 얼굴인데…
+  - id: MONOLOGUE_6070
+    text: 주인을 기다리는 물건들이구나… 각자 깊은 사연이 있는 것 같다.
+  - id: MONOLOGUE_6080
+    text: 도자기?? 뭔가 중요한 것이 있는 걸까? 찾아 보는 게 좋겠어
+  - id: MONOLOGUE_6090
+    text: 처음 보는 자물쇠다. 어떻게 여는 걸까?
+  - id: MONOLOGUE_6100
+    text: 얼룩은 본관 1에 있었지…
+  - id: MONOLOGUE_6110
+    text: 지금은 얼룩을 따라 가 보는 것이 중요할 것 같다.
+  - id: MONOLOGUE_6120
+    text: 우선 음악선생님의 유품을 찾는 것이 중요하다.
+  - id: MONOLOGUE_6130
+    text: 도자기 안에 뭔가 들어 있다.
+  - id: MONOLOGUE_6140
+    text: 혹시 모르니 천식 호흡기를 찾아 보는 것이 좋겠어…
+  - id: MONOLOGUE_6150
+    text: 천식호흡기…?? 저 사람이 성아 엄마였구나…
+  - id: MONOLOGUE_6160
+    text: 저것들 보다 먼저 행동하지 않으면 안될 것 같은데…
+  - id: MONOLOGUE_6170
+    text: 여기 달라진 것 같지 않아??
+  - id: MONOLOGUE_6180
+    text: 잘가… 부디 다음 생엔 행복한 삶을 살아…
+  - id: MONOLOGUE_6190
+    text: 금방 다시 만날 수 있겠죠. 선배?
+  - id: MONOLOGUE_6200
+    text: 어휴… 걱정이다. 여러모로.
+  - id: MONOLOGUE_UNSAFE
+    text: 지금은 안전하지 않은것 같다...
+  - id: MONOLOGUE_SAVED
+    text: 게시판에 기록을 남겨놓았다.
+  - id: MONOLOGUE_DARKNESS
+    text: 어두워서 아무것도 보이지 않는다.
+  - id: MONOLOGUE_CLOSE_GAS_VALVE
+    text: 밸브를 잠갔다.
+  - id: MONOLOGUE_SIREN
+    text: 경보가 울렸다. 서둘러 꺼야해...
+  - id: MONOLOGUE_LOCKED
+    text: 문이 잠겨있다.
+  - id: MONOLOGUE_UNLOCKED
+    text: 잠금을 해제하였다.
+  - id: MONOLOGUE_NO_COIN
+    text: 동전이 하나도 없다.
+  - id: MONOLOGUE_NOTHING_HAPPENS
+    text: 아무일도 일어나지 않았다.
+  - id: MONOLOGUE_SAVE_CANT
+    text: 지금은 이럴 시간이 없어..
+  - id: MONOLOGUE_SCENECHANGE_CANT
+    text: 아직 해결해야 할 일이 남았어.
+  - id: MONOLOGUE_TOOLBOX
+    text: 공구상자가 놓여있다. 다양한 공구들이 보인다.
+  - id: MONOLOGUE_POTTERYBOX
+    text: 누군가의 잡동사니를 모아놓은 상자다.
+  - id: MONOLOGUE_PICTURE_COMPLETE
+    text: 저 도자기는 어디서 본 것 같은데..?
+  - id: MONOLOGUE_CLOCK_CHECK
+    text: 시계가 엉뚱한 시간을 가리키고 있다.
+  - id: MONOLOGUE_CLOCK_BASE
+    text: 이 시계는 사진 속의 시간을 가리키고 있는 것 같다.
+  - id: MONOLOGUE_PICTURE_GREENWICH
+    text: 그리니치 천문대의 사진이다.
+  - id: MONOLOGUE_PICTURE_TIANANMEN
+    text: 북경의 천안문 광장 사진이다.
+  - id: MONOLOGUE_PICTURE_CREMLIN
+    text: 모스크바의 크렘린 궁전 사진이다.
+  - id: MONOLOGUE_PICTURE_PENTAGON
+    text: 워싱턴에 있는 펜타곤 사진이다.
+  - id: MONOLOGUE_FLOWER
+    text: 누군가를 위한 국화 한 송이가 놓여있다.
+  - id: MONOLOGUE_FIND_HOLE
+    text: 용도를 알 수 없는 구멍이 나있다.
+  - id: MONOLOGUE_SOMETHING_DROPPED
+    text: 무언가 아래로 떨어졌다.
+  - id: MONOLOGUE_LOCKED_BY_SOMETHING
+    text: 장치로 잠겨있는거 같다.
+  - id: MONOLOGUE_FLOOR_BROKEN
+    text: 바닥이 부서졌다.
+  - id: MONOLOGUE_DOCUMENT_PRINTED
+    text: 문서가 출력되었다.
+  - id: MONOLOGUE_NOT_WORK
+    text: 동작하지 않는다...
+  - id: MONOLOGUE_VALVE_NOT_ROTATE
+    text: 밸브가 더 이상 돌아가지 않는다.
+  - id: MONOLOGUE_TAEGUEK_SHINED
+    text: 태극패에서 빛이 나오고 있다.
+  - id: MONOLOGUE_DONOT_MOVE
+    text: 발을 움직일 수 없다
+  - id: MONOLOGUE_ELECTRIC_DANGER
+    text: 전기가 흐르고 있어서 만지면 위험하다.
+  - id: COLLECTION_GHOST_NAME_01
+    text: 여사감의 원혼
+  - id: COLLECTION_GHOST_NAME_02
+    text: 보이지 않는 목소리
+  - id: COLLECTION_GHOST_NAME_03
+    text: 누워있는 여학생
+  - id: COLLECTION_GHOST_NAME_04
+    text: 캐비닛 안의 여자
+  - id: COLLECTION_GHOST_NAME_05
+    text: 피를 원하는 나무
+  - id: COLLECTION_GHOST_NAME_06
+    text: 아기의 영혼
+  - id: COLLECTION_GHOST_NAME_07
+    text: 창문 밖의 여학생
+  - id: COLLECTION_GHOST_NAME_08
+    text: 굶주린 귀신
+  - id: COLLECTION_GHOST_NAME_09
+    text: 얼굴을 가린 여학생
+  - id: COLLECTION_GHOST_NAME_10
+    text: 도서관의 귀신
+  - id: COLLECTION_GHOST_NAME_11
+    text: 문제 푸는 아이
+  - id: COLLECTION_GHOST_NAME_12
+    text: 머리 귀신
+  - id: COLLECTION_GHOST_NAME_13
+    text: 출석부 귀신
+  - id: COLLECTION_GHOST_NAME_14
+    text: 거울 속의 나
+  - id: COLLECTION_GHOST_NAME_15
+    text: 거미가 된 여학생
+  - id: COLLECTION_GHOST_NAME_16
+    text: 증오로 가득 찬 얼굴
+  - id: COLLECTION_GHOST_NAME_17
+    text: 목 매단 여인
+  - id: COLLECTION_GHOST_NAME_18
+    text: 움직이는 인체모형
+  - id: COLLECTION_GHOST_NAME_19
+    text: 물 속의 그림자
+  - id: COLLECTION_GHOST_NAME_20
+    text: 할머니 망령
+  - id: UI_POPUP_FACEBOOK_COMFIRM_ALERT
+    text: 페이스북이 설치 되지 않았습니다. 페이스북 설치후 다시 시도해주세요.
+  - id: UI_POPUP_TWITTER_COMFIRM_ALERT
+    text: 트위터가 설치 되지 않았습니다. 트위터 설치후 다시 시도해주세요.
+  - id: UI_POPUP_DOWNLOAD_START
+    text: 구매하신 콘텐츠를 다운로드 중입니다.
+  - id: UI_POPUP_DOWNLOAD_COMPLETE
+    text: 다운로드가 완료되었습니다.
+  - id: UI_POPUP_SAVE_ALERT1
+    text: 이 슬롯에 저장하시겠습니까?
+  - id: UI_POPUP_SAVE_ALERT2
+    text: '[{0} {1:D02}:{2:D02}:{3:D02}] 가 존재합니다.<br>해당 데이터를 덮어쓰시겠습니까?'
+  - id: UI_INTRO_TOUCH
+    text: 아무 버튼이나 눌러주세요
+  - id: GOOGLE_CS_CONTENT
+    text: '안녕하세요. 로이게임즈입니다.<br><br>고객 문의 메일 : {0}<br><br>문의 주실 내용을<br><br>1. 문의 주시는 유저 아이디<br>2. 현재 사용중인 핸드폰 기종<br>3. OS - 펌웨어 버전<br>4. 현재 빌드버전<br>5. 구매 마켓<br>6. 답변 받으실 e-Mail<br>7. 문의 내용<br><br>궁금하신 사항을 문의 주시면 담당자가 성심 성의껏 답변 드리겠습니다.<br>감사합니다.'
+  - id: SEND_MAIL
+    text: 메일 보내기
+  - id: MAIL_TITLE_GOOGLE
+    text: '[구글]_화이트데이 문의'
+  - id: MAIL_TITLE_APPLE
+    text: '[애플]_화이트데이 문의'
+  - id: CS_CONTENT
+    text: '1. 문의 주시는 유저 아이디 : {0}<br>2. 현재 사용중인 핸드폰 기종 : {1}<br>3. OS - 펌웨어 버전 : {2}<br>4. 현재 빌드버전 : {3}<br>5. 구매 마켓 : <br>6. 답변 받으실 e-Mail :<br>7. 문의 내용 :'
+  - id: UI_CINEMA_BUTTON_SKIP
+    text: 건너뛰기
+  - id: UI_RESULT_TITLE_TEXT
+    text: 화이트데이 플레이 결과
+  - id: UI_RESULT_FACTOR_TEXT_01
+    text: Total Play Time
+  - id: UI_RESULT_FACTOR_TEXT_02
+    text: Good feeling Score
+  - id: UI_RESULT_FACTOR_TEXT_03
+    text: Hit Count
+  - id: UI_RESULT_FACTOR_TEXT_04
+    text: Get Item
+  - id: UI_RESULT_FACTOR_TEXT_05
+    text: Get Document
+  - id: UI_RESULT_FACTOR_TEXT_06
+    text: Encounter Ghost
+  - id: UI_RESULT_FACTOR_TEXT_07
+    text: SignPen
+  - id: UI_RESULT_BUTTON_TEXT_01
+    text: 처음 화면으로 이동
+  - id: UI_RESULT_BUTTON_TEXT_02
+    text: 확인
+  - id: UI_RESULT_BUTTON_TEXT_03
+    text: 공유
+  - id: UI_CINEMA_PROLOGUE_TEXT_01
+    text: 아무 것도 느끼지 못하고
+  - id: UI_CINEMA_PROLOGUE_TEXT_02
+    text: 지나칠 때가 있다
+  - id: UI_CINEMA_PROLOGUE_TEXT_03
+    text: 싱그러운 푸르름, 따스한 햇살.
+  - id: UI_CINEMA_PROLOGUE_TEXT_04
+    text: 그리고 그녀…
+  - id: UI_CINEMA_PROLOGUE_TEXT_05
+    text: 2학년 8반 한소영.
+  - id: UI_CINEMA_PROLOGUE_TEXT_06
+    text: 그녀가 그 곳에 있었다.
+  - id: UI_CINEMA_INTRO_TEXT_01
+    text: 그냥 조그만 선물을 주고 싶었다.
+  - id: UI_CINEMA_INTRO_TEXT_02
+    text: 돌려줄 다이어리와 함께…
+  - id: UI_CINEMA_INTRO_TEXT_03
+    text: 그러나 나는
+  - id: UI_CINEMA_INTRO_TEXT_04
+    text: 학교에 삼켜지고 있었다.
+  - id: UI_LOADSCENE_TIP
+    text: 보다 실감나는 플레이를 위해서 헤드폰/이어폰 착용을 권장합니다.
+  - id: UI_LOADSCENE_DESC
+    text: 게임을 불러오고 있습니다.
+  - id: NOTICE_LOCATION_MAINBUILDING1_TEXT1
+    text: 연두 고등학교 본관 1구역
+  - id: NOTICE_LOCATION_MAINBUILDING1_TEXT2
+    text: 3월 13일 오후 {0,2:00}:{1,2:00}
+  - id: NOTICE_LOCATION_MAINBUILDING2_TEXT1
+    text: 연두 고등학교 본관 2구역
+  - id: NOTICE_LOCATION_MAINBUILDING2_TEXT2
+    text: 3월 13일 오후 11:01
+  - id: NOTICE_LOCATION_NEWBUILDING2_TEXT1
+    text: 연두 고등학교 신관
+  - id: NOTICE_LOCATION_NEWBUILDING2_TEXT2
+    text: 3월 14일 오전 {0,2:00}:{1,2:00}
+  - id: NOTICE_LOCATION_HALL_TEXT1
+    text: 연두 고등학교 강당
+  - id: NOTICE_LOCATION_HALL_TEXT2
+    text: 3월 14일 오전 04:26
+  - id: NOTICE_LOCATION_MAZE_TEXT1
+    text: 미궁
+  - id: NOTICE_LOCATION_MAZE_TEXT2
+    text: 3월 14일 오전 ??:??
+  - id: NOTICE_LOCATION_CERAMIC_TEXT1
+    text: '???'
+  - id: NOTICE_LOCATION_CERAMIC_TEXT2
+    text: 3월 14일 오전 ??:??
+  - id: UI_LOBBY_CODE_EMPTY
+    text: 코드를 입력 후 다시 시도해주세요
+  - id: UI_TUTORIAL_CONTROL_BUTTON
+    text: 컨트롤 선택하기
+  - id: UI_TUTORIAL
+    text: '[<color=#7c973a>도움말</color>]'
+  - id: MAP_TOILETMAN
+    text: 남자 화장실
+  - id: MAP_TOILETWOMAN
+    text: 여자 화장실
+  - id: UI_POPUP_CLOUD_SAVE_CONFIRM
+    text: '{0}.{1}.{2}. {3}:{4}:{5}<br><br>현재 게임의 상태를 클라우드에 저장 하시겠습니까?<br>이미 저장된 정보가 있다면 덮어 쓰게 됩니다.<br>※ 저장이 완료되기 전까지 앱을 종료하거나 네트워크를 끊지 마시기 바랍니다.'
+  - id: UI_POPUP_CLOUD_SAVE_COMPLETE
+    text: 저장이 완료 되었습니다.<br>이제 클라우드 기능을 이용해, 다른 기기에서도 플레이를 이어할 수 있습니다.<br>※ 동기화 처리를 위해 몇 초 정도 시간이 필요할 수 있습니다.
+  - id: UI_POPUP_CLOUD_SAVE_FAIL
+    text: 저장에 실패하였습니다.<br>네트워크가 원활한 상태에서 다시 시도해 주시기 바랍니다.
+  - id: UI_POPUP_CLOUD_LOAD_CONFIRM
+    text: '{0}.{1}.{2}. {3}:{4}:{5}<br><br>해당 진행 내역을 불러오시겠습니까?<br>※ 현재 기기의 게임 진행 정보는 사라집니다. 주의하시기 바랍니다.'
+  - id: UI_POPUP_CLOUD_LOAD_COMPLETE
+    text: 저장된 진행 내역을 불러왔습니다.
+  - id: UI_POPUP_CLOUD_LOAD_FAIL
+    text: 불러오기에 실패하였습니다.<br>네트워크가 원활한 상태에서 다시 시도해 주시기 바랍니다.
+  - id: UI_POPUP_CLOUD_LOAD_NODATA
+    text: 클라우드에 저장된 내역이 없어 불러올 수 없습니다.
+  - id: UI_SAVE
+    text: 저장하기
+  - id: UI_REPLAY_ENDING
+    text: 엔딩 다시보기
+  - id: UI_RANK_CARD_DESC
+    text: 카드의 랭크를 달성하면<br>의상을 사용할수 있습니다
+  - id: UI_MAX_PLAY_SCORE
+    text: 플레이 최고점수
+  - id: UI_SETTING_RESTORE_BUTTON
+    text: 복원 요청
+  - id: UI_POPUP_CLOUD_LOAD_WRONGDATA
+    text: 정상적으로 저장이 완료되지 않은 데이터입니다.<br>새로 저장을 완료한 뒤에 다시 시도해 주시기 바랍니다.
+  - id: UI_POPUP_CLOUD_IOS_NOTLOGIN
+    text: iCloud 서비스에 접근할 수 없습니다.<br>설정에서 iCloud Drive의 사용 여부를 확인하여 주시기 바랍니다.
+  - id: UI_SYSTEM_LANGUAGE_SUBTITLE
+    text: 자막 언어
+  - id: UI_SYSTEM_LANGUAGE_VOICE
+    text: 음성 언어
+  - id: UI_SYSTEM_LANGUAGE_VOICE_KOREAN
+    text: 한국어
+  - id: UI_SYSTEM_LANGUAGE_VOICE_ENGLISH
+    text: 영어
+  - id: UI_SYSTEM_LANGUAGE_VOICE_CHINESE
+    text: 중국어
+  - id: UI_SYSTEM_LANGUAGE_BUTTON_DELETE
+    text: 리소스 삭제하기
+  - id: UI_SYSTEM_LANGUAGE_DELETE_POPUP
+    text: 사용하지 않는 언어의 리소스를 삭제합니다.<br><br>※ 해당 언어로 설정을 변경 시, 다시 다운로드 해야합니다.
+  - id: UI_SYSTEM_LANGUAGE_DELETE_CONFIRM
+    text: 삭제
+  - id: UI_SYSTEM_LANGUAGE_DELETE_CANCLE
+    text: 취소
+  - id: UI_FIGURE_DETAIL_TITLE
+    text: 살펴보기
+  - id: UI_FIGURE_DETAIL_DESC
+    text: 수집된 내용을 자세히 살펴봅니다.
+  - id: IABHELPER_-500
+    text: 결제 내역을 확인할 수 없어 취소 되었습니다.
+  - id: UI_CHECKPOINT_ENDING
+    text: 엔딩
+  - id: BEACON_OBJ_SWITCHBOX_LIGHT
+    text: 전등
+  - id: BEACON_OBJ_SWITCHBOX_POWER
+    text: 전원
+  - id: BEACON_OBJ_SWITCHBOX_ALARM
+    text: 도난경보기
+  - id: UI_SYSTEM_GRAPHICS_LOWSPEC_TOGGLE
+    text: 최저 사양 모드로 게임을 실행합니다.
+  - id: UI_SYSTEM_GRAPHICS_RESET_POPUP
+    text: 변경된 그래픽 설정이 적용되려면 게임을 재시작 해야 합니다.<br>지금 게임을 재시작 하시겠습니까?
+  - id: UI_SYSTEM_RESOLUTION
+    text: '[해상도 설정]'
+  - id: UI_SYSTEM_RESOLUTION_NATIVE
+    text: 기기 해상도
+  - id: UI_SYSTEM_FRAMERATE
+    text: '[프레임 레이트 설정]'
+  - id: UI_SYSTEM_LANGUAGE_RUSSIAN
+    text: Pусский
+  - id: UI_BACK
+    text: 뒤로 가기
+  - id: UI_ENDGAME
+    text: '[<color=#7c973a>끝내기</color>]'
+  - id: UI_SYSTEM_GAMEOPTION_KEYBOARD
+    text: 키보드
+  - id: UI_SYSTEM_GAMEOPTION_JOYPAD
+    text: 컨트롤
+  - id: UI_SYSTEM_SCREENRESOLUTION
+    text: 화면 해상도
+  - id: UI_SYSTEM_FILTER
+    text: 화면 필터 사용
+  - id: UI_SYSTEM_ANTIALIASING
+    text: 안티 앨리어싱(Anti-Aliasing) 사용
+  - id: UI_SYSTEM_SHADOW
+    text: 그림자 그리기
+  - id: UI_SYSTEM_DYNAMICLIGHTING
+    text: 동적 광원 사용
+  - id: UI_SYSTEM_DEPTHOFFIELD
+    text: 초점 효과(Depth of Field) 사용
+  - id: UI_SYSTEM_BLOOM
+    text: 블룸(Bloom)효과 사용
+  - id: UI_SYSTEM_SSAO
+    text: SSAO 사용
+  - id: UI_SYSTEM_GAMMA
+    text: 화면 밝기 조절
+  - id: UI_SYSTEM_MASTERSOUND
+    text: 전체 사운드 재생
+  - id: UI_SYSTEM_MASTERSOUNDVOLUME
+    text: 전체 사운드 크기
+  - id: UI_SYSTEM_SFXSOUND
+    text: 이펙트 사운드 재생
+  - id: UI_SYSTEM_SFXSOUNDVOLUME
+    text: 이펙트 사운드 크기
+  - id: UI_SYSTEM_MUSICSOUND
+    text: 배경 사운드 재생
+  - id: UI_SYSTEM_MUSICSOUNDVOLUME
+    text: 배경 사운드 크기
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_FORWARD
+    text: 앞으로 이동
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_BACKWARD
+    text: 뒤로 이동
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_LEFT
+    text: 왼쪽으로 이동
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_RIGHT
+    text: 오른쪽으로 이동
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_RUN
+    text: 달리기
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_HIDE
+    text: 앉기/서기
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_LIGHTER
+    text: 라이터 켜기/끄기
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_CANCEL
+    text: 취소
+  - id: UI_ON
+    text: 켬
+  - id: UI_OFF
+    text: 끔
+  - id: UI_CONTROLMENU_MOVETAB
+    text: 탭 이동
+  - id: UI_CONTROLMENU_SELECT
+    text: 확인
+  - id: UI_CONTROLMENU_CANCEL
+    text: 뒤로
+  - id: UI_CONTROLMENU_SETTINGS
+    text: 설정
+  - id: UI_CONTROLMENU_OPENMENU
+    text: 메뉴
+  - id: UI_CONTROLMENU_MOVEMENT
+    text: 이동
+  - id: UI_CONTROLMENU_ROTATION
+    text: 회전
+  - id: UI_CONTROLMENU_OPENBACKPACK
+    text: 가방 열기
+  - id: UI_CONTROLMENU_USE
+    text: 사용
+  - id: UI_CONTROLMENU_LIGHTER
+    text: 라이터
+  - id: UI_SHOWALL
+    text: 전체 보기
+  - id: CHARACTER_7
+    text: 유 지민
+  - id: MONOLOGUE_NOMAGICPEN
+    text: 기록을 남기려면 사인펜이 필요하다.
+  - id: UI_SYSTEM_GRAPHICS_PROLOGUE
+    text: 프롤로그 영상 보기
+  - id: UI_SYSTEM_GRAPHICS_FULLSCREEN
+    text: 전체 화면 모드
+  - id: UI_BONUS_COSTUMES_COLLECTION
+    text: 보너스 의상 수집
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT1
+    text: 소영의 모든 엔딩을 한 번씩 확인
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT2
+    text: 성아의 모든 엔딩을 한 번씩 확인
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT3
+    text: 지현의 모든 엔딩을 한 번씩 확인
+  - id: 'UI_BONUS_COSTUMES_TERMS '
+    text: 획득 조건
+  - id: UI_RESULT_FACTOR_TEXT_08
+    text: Best Play Time
+  - id: UI_DOCUMENT_DIARY
+    text: 일기
+  - id: UI_DOCUMENT_SPELL
+    text: 주술
+  - id: UI_DOCUMENT_NOTE
+    text: 메모
+  - id: UI_SYSTEM_CHARACTERSHADOW
+    text: 캐릭터 그림자를 생성합니다.
+  - id: UI_BONUS_COSTUMES_COLLECTION_DESC
+    text: 보너스 의상 수집 관련 내용을 넣어주세요.
+  - id: UI_CONTROLMENU_CAMERA
+    text: 회전
+  - id: UI_SYSTEM_VIRTUALCURSORSPEED
+    text: 커서 속도 조절
+  - id: UI_SYSTEM_JOYPADHORIZONTAL
+    text: 수평속도
+  - id: UI_SYSTEM_JOYPADVERTICAL
+    text: 수직속도
+  - id: UI_SYSTEM_HORIZONTALREVERSAL
+    text: 좌우 반전
+  - id: UI_SYSTEM_VERTIVALREVERSAL
+    text: 상하 반전
+  - id: UI_GAMEOVER_DESC1
+    text: 은미와 거리가 너무 멀어졌습니다. 잠시 후 마지막으로 저장된 장소로 이동합니다.
+  - id: UI_GAMEOVER_DESC2
+    text: 그림자 보다 늦어 손쓸 방법이 없다...잠시 후 마지막으로 저장된 장소로 이동합니다.
+  - id: UI_GOTOMAINMENU
+    text: 메인메뉴
+  - id: TITLE_NAME
+    text: 화이트데이:학교라는 이름의 미궁
+  - id: SYSTEM_SAVE_DATA
+    text: 시스템 저장 데이터
+  - id: AUTO_SAVE_DATA
+    text: 자동 저장 데이터
+  - id: AVAILABLE_SPACE_OVER_ERROR_TITLE
+    text: 저장
+  - id: AVAILABLE_SPACE_OVER_ERROR_MESSAGE
+    text: 본체 스토리지의 빈 용량이 부족합니다. 게임을 진행 하려면 30MB 이상의 빈 용량이 필요합니다.
+  - id: UI_COSTUME_CONFIRM_WEAR
+    text: 착용
+  - id: UI_COSTUME_CONFIRM_GET
+    text: 획득
+  - id: UI_COSTUME_CONFIRM_BUY
+    text: 구매
+  - id: UI_COSTUME_LOCKED_GUIDE_GET
+    text: "수집물을 통해\n획득할 수 있는 의상입니다.\n{0}을 누르면\n해당 수집물 페이지로 이동합니다."
+  - id: UI_COSTUME_LOCKED_GUIDE_BUY
+    text: "의상팩을 구매하여\n획득할 수 있는 의상입니다.\n{0}을 누르면\n구매 페이지로 이동합니다."
+  - id: UI_CONFIG_GRAPHIC_GAMMA_FEW
+    text: 어두운 부분
+  - id: UI_CONFIG_GRAPHIC_GAMMA_AFEW
+    text: 밝은 부분
+  - id: UI_CONFIG_GRAPHIC_GAMMA_GUIDE
+    text: "화면의 밝기는 게임의 분위기를 좌우합니다.\n위 그림은 배경의 어두운 부분과 밝은 부분을 의미합니다.\n왼쪽은 보이지 않고 오른쪽은 희미하게 보이도록 맞추시기 바랍니다."
+  - id: UI_COLLECTION_GHOST_DOC_READ
+    text: 읽기
+  - id: UI_BONUS_COSTUMES_DESCRIPTION_TEXT4
+    text: 지민의 모든 엔딩을 한 번씩 확인
+  - id: UI_CONFIG_SAVE
+    text: 변경된 설정을 저장 중입니다.
+  - id: UI_CONFIG_KEYSETTING_DEFAULT
+    text: 기본값
+  - id: UI_LOADING_COMMENT_1
+    text: 앉은 상태에서는 수위에게 발각될 확률이 줄어듭니다.
+  - id: UI_LOADING_COMMENT_2
+    text: 책상 뒤에 앉아서 숨으면 수위의 시선을 피할 수 있습니다.
+  - id: UI_LOADING_COMMENT_3
+    text: 너무 오래 달릴 경우 현기증이 날 수 있습니다. 휴식을 취하시기 바랍니다.
+  - id: UI_LOADING_COMMENT_4
+    text: 회복 아이템을 이용해 체력과 심박수를 회복할 수 있습니다.
+  - id: UI_LOADING_COMMENT_5
+    text: 학교 안에서 찾을 수 있는 문서에는 진행에 필요한 힌트와 다양한 이야기들이 숨겨져 있습니다.
+  - id: UI_LOADING_COMMENT_6
+    text: 라이터는 수위의 이목을 끌지 않고 주변을 밝힐 수 있지만, 그 범위가 매우 작습니다.
+  - id: UI_LOADING_COMMENT_7
+    text: 달리면 라이터가 꺼집니다.
+  - id: UI_LOADING_COMMENT_8
+    text: 교실의 조명을 켜거나 뛰어서 돌아다니면, 수위가 이상을 느끼고 달려올 수도 있습니다.
+  - id: UI_LOADING_COMMENT_9
+    text: 시간제한 상황에서는 게임의 진행 내역을 저장할 수 없습니다.
+  - id: UI_LOADING_COMMENT_10
+    text: 문을 닫으면 수위가 문을 여는 동안 잠시 시간을 벌 수 있습니다.
+  - id: UI_LOADING_COMMENT_11
+    text: 쉬움 난이도 이하에서는 게임 진행에 직접적인 힌트를 주는 문자를 수신할 수 있습니다.
+  - id: UI_LOADING_COMMENT_12
+    text: 학교 안에 숨어있는 귀신들은 어려움 이상 난이도에서 조우할 수 있습니다.
+  - id: UI_LOADING_COMMENT_13
+    text: 학교 안을 배회하는 머리 귀신은 뛰어서 따돌릴 수는 있습니다.
+  - id: UI_LOADING_COMMENT_14
+    text: 여학생들과의 대화와 선택은 호감도에 영향을 줍니다.
+  - id: UI_LOADING_COMMENT_15
+    text: 당신의 선택과 호감도에 따라 엔딩이 달라집니다.
+  - id: UI_LOADING_COMMENT_16
+    text: 지금의 강당과 본관 사이에는 오래된 연못이 있었습니다.
+  - id: UI_LOADING_COMMENT_17
+    text: 학교는 풍수지리적으로 명당의 위치에 지어졌습니다.
+  - id: UI_LOADING_COMMENT_18
+    text: 몇 년 전까지만 해도 학교에서는 기숙사를 운영했습니다.
+  - id: UI_LOADING_COMMENT_19
+    text: 과거 연두 고등학교를 예술 특화 고등학교로 만들려는 시도가 있었지만, 잘 되진 않았습니다.
+  - id: UI_LOADING_COMMENT_20
+    text: 본관과 신관을 연결하는 복도는 학생들 사이에서 악명이 자자합니다.
+  - id: UI_LOADING_COMMENT_21
+    text: 수위 중 한 명은 몇 년 전 학교에서 일어난 사고로 인해 다리를 다쳤습니다.
+  - id: UI_LOADING_COMMENT_22
+    text: 본관 옥상의 피뢰침에는 13번의 번개가 떨어졌습니다.
+  - id: UI_LOADING_COMMENT_23
+    text: 본관1 3층과 4층엔 1학년 교실이 있습니다.
+  - id: UI_LOADING_COMMENT_24
+    text: 본관 건물은 과거 다른 용도로 사용되던 건물이라고 합니다.
+  - id: UI_LOADING_COMMENT_25
+    text: 학교가 설립된 초기에는 이상한 사건 사고들이 많았다고 전해집니다.
+  - id: UI_LOADING_COMMENT_26
+    text: 학교의 오컬트 동아리에는 교내에 숨겨진 20개의 괴담에 대한 전설이 전해집니다.
+  - id: UI_LOADING_COMMENT_27
+    text: 학생들 사이에는 학교 지하에 미로 같은 곳이 있다는 소문이 떠돌고 있습니다.
+  - id: UI_LOADING_COMMENT_28
+    text: 체육 선생님이 양호 선생님을 짝사랑 한다는 비밀은 이제 공공연한 소문입니다.
+  - id: UI_LOADING_COMMENT_29
+    text: 최근의 몇 년 사이 음악 담당 교사가 자주 바뀌었고, 현재는 공석입니다.
+  - id: UI_LOADING_COMMENT_30
+    text: 한문을 가르치는 교감 선생은 동양학과 음양 오행에 관심이 많습니다.
+  - id: UI_CONFIG_CONTROLS_TUTORIAL
+    text: 튜토리얼 보기
+  - id: UI_INGAME_CATEGORY_MENU_POUSE
+    text: 일시정지
+  - id: BUY_CLOTH_PS4
+    text: '"PlayStation Store"'
+  - id: UI_CONFIG_CONTROLS_VIBRATION
+    text: 진동 기능
+  - id: UI_CONTROLMENU_SKIP
+    text: 스킵
+  - id: UI_CONTROLMENU_CHOICE
+    text: 선택
+  - id: UI_CONFIG_CONTROLS_SUBTITLE
+    text: 자막 보기
+  - id: UI_LOBBY_CONTINUE_DELETE_DESC
+    text: ( 자동저장 데이터는 삭제됩니다. )
+  - id: MONOLOGUE_CINEMA_2210
+    text: '[한나영]'
+  - id: UI_COSTUME_LOCKED_GUIDE_LIMITED
+    text: "선택받은 학생들만 \n입을 수 있는 의상입니다. (한정판)\n{0}을 누르면\n코드 입력 페이지로 이동합니다."
+  - id: UI_POPUP_AGE
+    text: 연령제한에 의해 이 기능을 이용하실 수 없습니다.
+  - id: LEVEL_VERY_EASY_DESC
+    text: 큰 어려움 없이 시나리오를 즐기고 싶은 사람에게 적합합니다.<br>(시나리오 진행을 위한 가이드가 제공됩니다.)
+  - id: LEVEL_EASY_DESC
+    text: 스릴은 줄어들지만 좀 더 쉽게 플레이 할 수 있습니다.<br>(시나리오 진행을 위한 가이드가 제공됩니다.)
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_MOVETAB_L
+    text: 탭 이동 (좌)
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_MOVETAB_R
+    text: 탭 이동 (우)
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_OPENMAP
+    text: 지도 보기
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_OPENMENU
+    text: 메뉴 열기
+  - id: UI_SAVE_SAVETIME
+    text: '{0:D02}/{1:D02}/{2:D02} {3:D02}:{4:D02}:{5:D02}'
+  - id: UI_SYSTEM_CONTROL_KEYBOARD_QUICKTURN
+    text: 빠른 회전

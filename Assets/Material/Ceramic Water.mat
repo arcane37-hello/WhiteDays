@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Ceramic Water
+  m_Shader: {fileID: 4800000, guid: 9637829364b8dd24c9dd054a8ad0dc2f, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 562eb4897159c6a4ba4dd5c4fa331605, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Fresnel
+      second:
+        m_Texture: {fileID: 2800000, guid: 30471c183fe4dea4a926cacb2e4d468c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ReflectionTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ReflectiveColor
+      second:
+        m_Texture: {fileID: 2800000, guid: 00fd180ade7654840a10f6d72813c194, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RefractionTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _ReflDistort
+      second: 0.5
+    - first:
+        name: _RefrDistort
+      second: 0.5
+    - first:
+        name: _WaveScale
+      second: 0.05
+    m_Colors:
+    - first:
+        name: WaveSpeed
+      second: {r: 9, g: 4.5, b: -8, a: -3.5}
+    - first:
+        name: _BumpMap_ST
+      second: {r: 1, g: 1, b: 0, a: 0}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Fresnel_ST
+      second: {r: 1, g: 1, b: 0, a: 0}
+    - first:
+        name: _HorizonColor
+      second: {r: 0.14901961, g: 0.28235295, b: 0.38039216, a: 0}
+    - first:
+        name: _MainTex_ST
+      second: {r: 1, g: 1, b: 0, a: 0}
+    - first:
+        name: _ReflectionTex_ST
+      second: {r: 1, g: 1, b: 0, a: 0}
+    - first:
+        name: _ReflectiveColorCube_ST
+      second: {r: 1, g: 1, b: 0, a: 0}
+    - first:
+        name: _ReflectiveColor_ST
+      second: {r: 1, g: 1, b: 0, a: 0}
+    - first:
+        name: _RefrColor
+      second: {r: 0.102941155, g: 0.022885097, b: 0.021193769, a: 1}
+    - first:
+        name: _RefractionTex_ST
+      second: {r: 1, g: 1, b: 0, a: 0}

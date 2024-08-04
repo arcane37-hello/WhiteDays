@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb5bcdf7beba5d5e9dbda58d087dc2c5, type: 3}
+  m_Name: HM_FootStep_Vent
+  m_EditorClassIdentifier:
+  m_AudioData:
+    m_AudioName:
+    m_Loop: 0
+    m_Volume: 0.7
+    m_Pitch: 1
+    m_MinDistance: 0
+    m_MaxDistance: 10
+    m_SpatialBlend: 0
+  m_AudioOutput: {fileID: 11400000, guid: f185b37be135108419c8d5d683fa67b7, type: 2}
+  m_NodeList:
+  - {fileID: 11400000, guid: f185b37be135108419c8d5d683fa67b7, type: 2}
+  - {fileID: 11400000, guid: ba5e8178d065bfa4f851a2f2caacd8a0, type: 2}
+  - {fileID: 11400000, guid: 738b8a9d3eaf9cf43bdb962bbad4cfe2, type: 2}

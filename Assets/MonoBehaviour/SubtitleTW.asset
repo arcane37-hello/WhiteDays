@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8518c58100b73b5b8baede22969e95a, type: 3}
+  m_Name: SubtitleTW
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Subtitle.xlsx
+  worksheetName: SubtitleTW
+  dataArray:
+  - id: D_SA_01_END_01
+    text: 幹嗎呢~趕緊過來啊！
+  - id: D_SA_01_END_02
+    text: 怎麼辦？ 因為是女廁所？
+  - id: D_SA_01_END_03
+    text: 沒事，趕緊進來。
+  - id: D_SA_01_END_04
+    text: 叫你快點過來啊？
+  - id: D_SA_01_END_05
+    text: 喂，沒聽見我說的話嗎？
+  - id: D_SA_01_Blocked_01
+    text: 怎麼辦？ 有話要說？
+  - id: D_SA_01_Blocked_02
+    text: 喂~讓開啊。
+  - id: D_SA_01_Blocked_03
+    text: 喂，我說你能不能讓開點！
+  - id: D_SA_01_Core_01
+    text: 是與智賢陷入尷尬的時候，
+  - id: D_SA_01_Core_02
+    text: 幸虧是你這個男的過來。
+  - id: D_SA_01_Core_03
+    text: 你的話，應該能幫到我~
+  - id: D_SA_02_Touched_01
+    text: 在學校轉悠轉悠，應該能找到一些有用的物品。
+  - id: D_SA_02_Touched_02
+    text: 剛剛好像在機機器實習室旁邊見過梯子。
+  - id: D_SA_02_Touched_03
+    text: 想要剪斷鐵絲網，應該需要像鉗子之類的東西吧？
+  - id: D_SA_02_Touched_04
+    text: 幹嗎呢，還沒拿到？？
+  - id: D_SA_02_Touched_05
+    text: 喂，不是說會幫忙嗎！
+  - id: D_SA_02_Touched_06
+    text: 哈！ 你就這點出息？
+  - id: D_SA_03_Touched_01
+    text: 嗯？ 怎麼還沒走？
+  - id: D_SA_03_Touched_02
+    text: 怎麼，很怕獨自一個人走？ 哈哈
+  - id: D_SA_03_Touched_03
+    text: 不用擔心我，你走你的吧~
+  - id: D_SA_03_Touched_04
+    text: 喂，我叫你走，聽沒聽見？
+  - id: D_SA_03_Touched_05
+    text: 你究竟是想幹什麼？
+  - id: D_SA_03_Touched_06
+    text: 趕緊給我消失！
+  - id: D_SA_00_FinalReaction
+    text: 啊，真是煩死了。
+  - id: D_SA_00_Anyway
+    text: 總之，
+  - id: D_SA_00_SitReaction
+    text: 啊，你嚇到我了！
+  - id: D_SA_00_LegTouched_01
+    text: 喂！ 什麼... 你在幹什麼！！
+  - id: D_SA_00_LegTouched_02
+    text: 還不住手？！
+  - id: D_SA_00_LegTouched_03
+    text: 確認！ 踢飛了哦？
+  - id: D_SA_00_LegTouched_04
+    text: 你以為我不敢踢你？
+  - id: D_SA_00_LegTouched_05
+    text: 你要是敢再摸一下..
+  - id: D_SA_00_LegTouched_06
+    text: 滾蛋！！
+  - id: D_SY_01_Blocked_01
+    text: 讓開。
+  - id: D_SY_01_Blocked_02
+    text: 讓開啊。
+  - id: D_SY_01_Blocked_03
+    text: 在打什麼鬼主意？
+  - id: D_SY_01_End_01
+    text: 就是這裡，進去看看吧。
+  - id: D_SY_01_End_02
+    text: 不是說好要幫我找智賢嗎？
+  - id: D_SY_01_End_03
+    text: 我說了在這兒找找，OK？
+  - id: D_SY_01_End_04
+    text: 準備一直在那兒待著？
+  - id: D_SY_01_End_05
+    text: 來不來隨你便。
+  - id: D_SY_01_Core_01
+    text: 智賢這個時間來學校幹嘛..
+  - id: D_SY_01_Core_02
+    text: 那也是..
+  - id: D_SY_01_Core_03
+    text: 今天的不速之客真夠多的啊。
+  - id: D_SY_02_Blocked_01
+    text: 怎麼辦？ 找到什麼了嗎？
+  - id: D_SY_02_Blocked_02
+    text: 有話要說？
+  - id: D_SY_02_Blocked_03
+    text: 你真的很怪..
+  - id: D_SY_02_Touched_01
+    text: 你這是怎麼了？
+  - id: D_SY_02_Touched_02
+    text: 往1樓歷史館方向走似乎更好一些。
+  - id: D_SY_02_Touched_03
+    text: 現在不是這樣的時候。
+  - id: D_SY_02_Touched_04
+    text: 得儘快想辦法找到線索。
+  - id: D_SY_02_Touched_05
+    text: 你這人也太悶了..到底為什麼要這樣？
+  - id: D_SY_02_Touched_06
+    text: 像你這樣的人真是..
+  - id: D_SY_03_Blocked_01
+    text: 能讓開嗎？
+  - id: D_SY_03_Blocked_02
+    text: 我走前面。 跟上來吧。
+  - id: D_SY_03_Blocked_03
+    text: 你這樣，我怎麼走。
+  - id: D_SY_03_End_01
+    text: 是這邊。
+  - id: D_SY_03_End_02
+    text: 就是這扇門。
+  - id: D_SY_03_End_03
+    text: 只有拿到那張卡，才能開啟這扇門。
+  - id: D_SY_03_End_04
+    text: 叫你來這兒啊？
+  - id: D_SY_03_End_05
+    text: 你現在是跟我開玩笑？
+  - id: D_SY_03_Core_01
+    text: 我之前有說過關於新樓卡片鑰匙的事吧？
+  - id: D_SY_03_Core_02
+    text: 有了那張卡，就有可能進入中央大廳。
+  - id: D_SY_03_Core_03
+    text: 最好在那兒找找其他的線索。
+  - id: D_SY_04_Touched_01
+    text: 我沒事。 不用擔心我，快走。
+  - id: D_SY_04_Touched_02
+    text: 要不是有你，我也到不了這兒。
+  - id: D_SY_04_Touched_03
+    text: 這是最後一次。 趕緊走啊。
+  - id: D_SY_04_Touched_04
+    text: 為什麼還不走？
+  - id: D_SY_04_Touched_05
+    text: 都到這時候了居然給我搞這一出？
+  - id: D_SY_04_Touched_06
+    text: 你到底在想什麼？
+  - id: D_SY_00_FinalReaction
+    text: 哈啊.. 因為你.. 好累..
+  - id: D_SY_00_Anyway
+    text: 總之,
+  - id: D_SY_00_SitReaction
+    text: 哪兒有什麼？
+  - id: D_SY_00_LegTouched_01
+    text: 你，在幹什麼呢？
+  - id: D_SY_00_LegTouched_02
+    text: 你，真是夠差勁的。
+  - id: D_SY_00_LegTouched_03
+    text: 我就是因為這個才討厭男人。
+  - id: D_SY_00_LegTouched_04
+    text: 你是不是瘋了？ 我叫你住手啊！
+  - id: D_SY_00_LegTouched_05
+    text: 我最後再警告你一次，住手..
+  - id: D_SY_00_LegTouched_06
+    text: 這，垃圾！！
+  - id: D_JH_01_Touched_01
+    text: 你替我去確認一下..
+  - id: D_JH_01_Touched_02
+    text: 快去。 我真的好怕啊..
+  - id: D_JH_01_Touched_03
+    text: 聽不到這鋼琴聲嗎？
+  - id: D_JH_01_Touched_04
+    text: 也許是自殺的音樂老師鬼魂！！
+  - id: D_JH_01_Touched_05
+    text: 你到底是怎麼了.. 快走啊！
+  - id: D_JH_01_Touched_06
+    text: 我真的好害怕..！
+  - id: D_JH_02_Blocked_01
+    text: 你這是怎麼了？
+  - id: D_JH_02_Blocked_02
+    text: 為什麼要那樣..？ 快走吧..
+  - id: D_JH_02_Blocked_03
+    text: 別這樣.. 我真的好害怕..
+  - id: D_JH_02_Touched_01
+    text: 我們.. 這是要去哪兒？
+  - id: D_JH_02_Touched_02
+    text: 聖雅.. 會不會有事啊？
+  - id: D_JH_02_Touched_03
+    text: 地震好像更劇烈了..
+  - id: D_JH_02_Touched_04
+    text: 你給我消停一會兒！ 真的好怕..
+  - id: D_JH_02_Touched_05
+    text: 你幹什麼呢，住手啊？
+  - id: D_JH_02_Touched_06
+    text: 你身後有東西！！
+  - id: D_JH_02_Core_01
+    text: 據說，有個學生以前在樓上的美術室服藥自殺哦。
+  - id: D_JH_02_Core_02
+    text: 還有人說，那個學生死前就已經懷孕了。
+  - id: D_JH_02_Core_03
+    text: 雖然校方說這是傳聞..
+  - id: D_JH_02_Core_04
+    text: 但我覺得這是真的。
+  - id: D_JH_02_Core_05
+    text: 偶爾這附近會響起嬰兒哭啼的聲音..
+  - id: D_JH_03_Touched_01
+    text: 別管我！！
+  - id: D_JH_03_Touched_02
+    text: 我叫你走啊！
+  - id: D_JH_03_Touched_03
+    text: …
+  - id: D_JH_03_Touched_04
+    text: …
+  - id: D_JH_03_Touched_05
+    text: 敢再惹我.. 絕不放過你..
+  - id: D_JH_03_Touched_06
+    text: 嘻嘻嘻嘻嘻嘻嘻嘻咦嘻嘻嘻嘻呃呵呵呵呵~
+  - id: D_JH_04_Touched_01
+    text: 為什麼？ 不是說要去找聖雅嗎..
+  - id: D_JH_04_Touched_02
+    text: 我休息一會兒，你先去看看。
+  - id: D_JH_04_Touched_03
+    text: 我說了不用管我，OK？
+  - id: D_JH_04_Touched_04
+    text: 啊，你怎麼這麼煩人..？
+  - id: D_JH_04_Touched_05
+    text: 你誰啊？ 你有求於我？
+  - id: D_JH_04_Touched_06
+    text: 趕緊走啊！
+  - id: D_JH_00_FinalReaction
+    text: 我再也不跟你說話了！
+  - id: D_JH_00_Anyway
+    text: 總之,
+  - id: D_JH_00_SitReaction
+    text: 怎麼辦... 你這是怎麼了？
+  - id: D_JH_00_LegTouched_01
+    text: 喂..摸哪兒呢..！
+  - id: D_JH_00_LegTouched_02
+    text: 為什麼要這樣.. 別這樣..
+  - id: D_JH_00_LegTouched_03
+    text: 你... 我沒想到你是這種人..
+  - id: D_JH_00_LegTouched_04
+    text: 到底為什麼要這樣..
+  - id: D_JH_00_LegTouched_05
+    text: 你喜歡我？ 對不對？
+  - id: D_JH_00_LegTouched_06
+    text: 我叫你閃一邊去，聽沒聽見！！
+  - id: D_mj_01_Touched_01
+    text: 我不是說了，這裡已經被鎖起來了呀…！
+  - id: D_mj_01_Touched_02
+    text: 還有事？
+  - id: D_mj_01_Touched_03
+    text: 你喜歡我？
+  - id: D_mj_01_Touched_04
+    text: 家裡沒有女生嗎？
+  - id: D_mj_01_Touched_05
+    text: 就這麼喜歡看著我的腿啊？
+  - id: D_mj_01_Touched_06
+    text: 不要再玩啦…
+  - id: D_mj_01_Touched_07
+    text: 我要生氣咯…
+  - id: D_mj_01_Touched_08
+    text: 快停下，不然我就揍你了！！！
+  - id: SFX_Event_Maze_Voice1_01
+    text: 娜英，是我。
+  - id: SFX_Event_Maze_Voice1_02
+    text: 嗯？ 說什麼呢？ 我是聖雅啊？
+  - id: SFX_Event_Maze_Voice1_03
+    text: 小英？
+  - id: SFX_Event_Maze_Voice1_04
+    text: 啊，是嗎？ 我的聲音很像小英嗎？
+  - id: SFX_Event_Maze_Voice1_05
+    text: 啊~是因為通電話的關係嗎？
+  - id: SFX_Event_Maze_Voice1_06
+    text: 反正你明天來我家不？ 我媽說要給你，所以..
+  - id: SFX_Event_Maze_Voice2_01
+    text: 你好。 娜英媽媽。 沒什麼事吧？
+  - id: SFX_Event_Maze_Voice2_02
+    text: 哈哈，我是聖雅的媽媽。
+  - id: SFX_Event_Maze_Voice2_03
+    text: 沒能經常去看望您，真是很抱歉。
+  - id: SFX_Event_Maze_Voice2_04
+    text: 哈哈，畢竟娜英很照顧我們家的聖雅。
+  - id: SFX_Event_Maze_Voice2_05
+    text: 這孩子身體不好，所以更讓人感激。
+  - id: SFX_Event_Maze_Voice2_06
+    text: 哎呦~您這話說的。 哈哈。
+  - id: SFX_Event_Maze_Voice2_07
+    text: 有空的時候，帶著孩子一起吃頓飯吧。
+  - id: SFX_Event_Maze_Voice2_08
+    text: 好的。 好的~
+  - id: SFX_Event_Maze_Voice3_01
+    text: 娜英，看著我。
+  - id: SFX_Event_Maze_Voice3_02
+    text: 哈哈，我一直很感謝你，也對不起你。
+  - id: SFX_Event_Maze_Voice3_03
+    text: 我知道你也有學習壓力，但仍舊陪在我身邊，我真的很開心，也很有動力。
+  - id: SFX_Event_Maze_Voice3_04
+    text: 愣著幹嗎~別只顧著笑，說點什麼啊。
+  - id: SFX_Event_Maze_Voice4_01
+    text: 娜英，你現在在哪兒？ 別開玩笑了，趕緊出來..
+  - id: SFX_Event_Maze_Voice4_02
+    text: 啊啊~咳咳咳咳.. 呃..咳咳..
+  - id: SFX_Event_Maze_Voice4_03
+    text: 火啊！！ 呃咳咳..
+  - id: SFX_Event_Maze_Voice4_04
+    text: 哈啊，媽媽！！ 娜英！ 呃啊啊~咳咳..
+  - id: SFX_Event_Maze_Voice4_05
+    text: 有人嗎？ 啊啊、啊啊.. 幫幫我..
+  - id: SFX_Event_Maze_Voice4_06
+    text: 咳咳 咳咳 呃呵呃..
+  - id: SFX_Event_Maze_Voice5_01
+    text: 放開我！ 那裡面有我的女兒啊！
+  - id: SFX_Event_Maze_Voice5_02
+    text: 聖雅！！ 聖雅！！！
+  - id: SFX_Event_Maze_Voice5_03
+    text: 請讓開.. 讓我進去。
+  - id: SFX_Event_Maze_Voice5_04
+    text: 不！ 放開我.. 聖雅、聖雅.. 不、不！！！ 聖雅..！！ 聖雅！！！！ 呃呵呃.. 聖雅！！！
+  - id: SFX_Event_Maze_Voice6_01
+    text: 喂.. 有沒有人啊？
+  - id: SFX_Event_Maze_Voice6_02
+    text: 媽媽... 媽媽..？ 媽媽，你哪兒..？
+  - id: SFX_Event_Maze_Voice6_03
+    text: 我什麼也，什麼也看不見.. 媽媽？ 媽媽…
+  - id: SFX_Event_Maze_Voice6_04
+    text: 媽媽~~~
+  - id: SFX_Event_Maze_Voice7_01
+    text: 韓娜英。 正眼看著我。 看不到我嗎？
+  - id: SFX_Event_Maze_Voice7_02
+    text: 我死的時候，你在哪兒？
+  - id: SFX_Event_Maze_Voice7_03
+    text: 別裝傷心，裝善良。
+  - id: SFX_Event_Maze_Voice7_04
+    text: 很快你就能感受到我了。
+  - id: SFX_Event_Maze_Voice7_05
+    text: 呵呵呵，呵呵哈哈哈，呵哈哈哈哈
+  - id: SFX_Event_Maze_Voice8_01
+    text: 我要吃飯。 姐，吃飯啊？
+  - id: SFX_Event_Maze_Voice8_02
+    text: 不準備吃了？
+  - id: SFX_Event_Maze_Voice8_03
+    text: 開一下這個門。 搞什麼呢，怎麼還不出來。
+  - id: SFX_Event_Maze_Voice8_04
+    text: 有事？
+  - id: SFX_Event_Maze_Voice8_05
+    text: 呵、切！ 幹嗎對我發火兒？
+  - id: SFX_Event_Cassette_Play_01
+    text: 火啊！！
+  - id: SFX_Event_Cassette_Play_02
+    text: 呃咳咳..
+  - id: SFX_Event_Cassette_Play_03
+    text: 哈啊，媽媽！！ 娜英！
+  - id: SFX_Event_Cassette_Play_04
+    text: 呃啊啊~咳咳..
+  - id: SFX_Event_Cassette_Play_05
+    text: 有人嗎？ 啊啊、啊啊.. 幫幫我..

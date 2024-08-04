@@ -1,0 +1,862 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07a5dfe14f036317946630f406b9a1c, type: 3}
+  m_Name: ItemsEN
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Items.xlsx
+  worksheetName: ItemsEN
+  dataArray:
+  - id: 1
+    type: 0
+    mesh: MobilePhone
+    icon: MobilePhone
+    name: Cell Phone
+    desc: This is Hee-Min's cell phone.
+  - id: 2
+    type: 0
+    mesh: MobilePhone_jimin
+    icon: MobilePhone
+    name: Cell Phone
+    desc: '-'
+  - id: 10000
+    type: 0
+    mesh: Candybox
+    icon: Candybox
+    name: Gift for White Day
+    desc: A white day gift for someone's crush. It has candy inside.
+  - id: 10010
+    type: 0
+    mesh: Diary
+    icon: Diary
+    name: So-Young's Diary
+    desc: This diary belongs to So-Young. “So-Young Han, Junior, Homeroom 8.” is written on the cover.
+  - id: 10020
+    type: 0
+    mesh: SchoolMagazine
+    icon: SchoolMagazine
+    name: School Magazine
+    desc: This is the school magazine published by Yeondu High School. Since it's the first issue of the school year, there's a map of the school in the appendix for freshmen.
+  - id: 10030
+    type: 0
+    mesh: Nipper
+    icon: Nipper
+    name: Wire Cutter
+    desc: A simple wire cutter. It can be used to cut fences and small wires.
+  - id: 10040
+    type: 0
+    mesh: TalismanFri
+    icon: TalismanFri
+    name: Metal Token
+    desc: A wooden token that has the Metal symbol on it. It gives off a lucky vibe.
+  - id: 10050
+    type: 0
+    mesh: Driver1
+    icon: Driver
+    name: Tool Belt
+    desc: A worker's tool belt. It has screwdrivers of varying sizes on it.
+  - id: 10051
+    type: 0
+    mesh: Driver2
+    icon: Driver
+    name: Tool Belt
+    desc: A worker's tool belt. It has screwdrivers of varying sizes on it.
+  - id: 10052
+    type: 0
+    mesh: Driver3
+    icon: Driver
+    name: Tool Belt
+    desc: A worker's tool belt. It has screwdrivers of varying sizes on it.
+  - id: 10060
+    type: 0
+    mesh: Spray
+    icon: Spray
+    name: Insect-Repellent Spray
+    desc: It's bug spray. There's a prominent warning not to use it near fire.
+  - id: 10070
+    type: 0
+    mesh: poison
+    icon: Poison
+    name: Chemical Solvent
+    desc: A solvent used in the chemistry lab. It looks toxic and has a skull and crossbones symbol.
+  - id: 10080
+    type: 0
+    mesh: TalismanThu
+    icon: TalismanThu
+    name: Wood Token
+    desc: A wooden token that has the Wood symbol on it. It gives off a lucky vibe.
+  - id: 10090
+    type: 0
+    mesh: CassetteTape
+    icon: CassetteTape
+    name: Backmasked Tape
+    desc: Something's been recorded on this tape. But its recording is backwards and indecipherable.
+  - id: 10100
+    type: 0
+    mesh: PicturePiece1_1
+    icon: PicturePiece1
+    name: Picture Piece 1
+    desc: Part of a ripped picture. It has some numbers written on the back.
+  - id: 10101
+    type: 0
+    mesh: PicturePiece1_2
+    icon: PicturePiece1
+    name: Picture Piece 1
+    desc: Part of a ripped picture. It has some numbers written on the back.
+  - id: 10102
+    type: 0
+    mesh: PicturePiece1_3
+    icon: PicturePiece1
+    name: Picture Piece 1
+    desc: Part of a ripped picture. It has some numbers written on the back.
+  - id: 10110
+    type: 0
+    mesh: PicturePiece2
+    icon: PicturePiece2
+    name: Picture Piece 2
+    desc: Part of a ripped picture. It seems other pieces are needed to make out the whole of the picture.
+  - id: 10120
+    type: 0
+    mesh: PicturePiece3
+    icon: PicturePiece3
+    name: Picture Piece 3
+    desc: Part of a ripped picture. It seems other pieces are needed to make out the whole of the picture.
+  - id: 10130
+    type: 0
+    mesh: Pottery_Remocon
+    icon: Pottery
+    name: Vase
+    desc: The vase from the music teacher's portrait. Something rattles inside.
+  - id: 10131
+    type: 0
+    mesh: Pottery
+    icon: Pottery
+    name: Vase
+    desc: The vase from the music teacher's portrait.
+  - id: 10140
+    type: 0
+    mesh: RemoteControl
+    icon: RemoteControl
+    name: Stereo Remote
+    desc: A remote control used for stereo systems.
+  - id: 10150
+    type: 0
+    mesh: CD_Key
+    icon: CD
+    name: CD
+    desc: The CD that was found in the Music Room. It seems to have belonged to the dead music teacher. It feels kind of heavy for a CD.
+  - id: 10151
+    type: 0
+    mesh: CD
+    icon: CD
+    name: CD
+    desc: The CD that was found in the Music Room. It seems to have belonged to the dead music teacher.
+  - id: 10160
+    type: 0
+    mesh: ClayDollIncomplete
+    icon: ClayDoll
+    name: Dry Clay Doll
+    desc: A clay doll of a woman. It looks bone dry.
+  - id: 10170
+    type: 0
+    mesh: ClayDollHot
+    icon: ClayDoll
+    name: Fired Clay Doll
+    desc: A clay doll fired red in the kiln. It should be cooled in running water.
+  - id: 10180
+    type: 0
+    mesh: ClayDollComplete
+    icon: ClayDoll
+    name: Finished Clay Doll
+    desc: A finished clay doll. It's shaped like a woman.
+  - id: 10190
+    type: 0
+    mesh: ClayDollCouple
+    icon: ClayDollCouple
+    name: Mother-and-Baby Clay Doll.
+    desc: A clay doll in the shape of a mother and a baby holding hands.
+  - id: 10200
+    type: 0
+    mesh: talismanSat
+    icon: talismanSat
+    name: Earth Token
+    desc: A wooden token that has the Earth symbol on it. It gives off a lucky vibe.
+  - id: 10210
+    type: 0
+    mesh: VideoTape
+    icon: VideoTape
+    name: Video Tape
+    desc: A video tape found in the Principal's Office. It has no label.
+  - id: 10220
+    type: 0
+    mesh: SignBoard
+    icon: SignBoard
+    name: Library Rules Plaque
+    desc: The rules for the library. Its laminate coating makes it ideal for shoving between gaps.
+  - id: 10230
+    type: 0
+    mesh: TalismanTaegeuk
+    icon: TalismanTaegeuk
+    name: Yin-Yang Token
+    desc: A wooden token that has the Yin-Yang symbol on it. It gives off a lucky vibe.
+  - id: 10240
+    type: 0
+    mesh: CassetteBand
+    icon: CassetteBand
+    name: Drive Belt
+    desc: A rubber drive belt found in the broken tape recorder.
+  - id: 10250
+    type: 0
+    mesh: L_Rod
+    icon: L_Rod
+    name: L-Rod
+    desc: An L-shaped rod.
+  - id: 10260
+    type: 0
+    mesh: talismanWed
+    icon: talismanWed
+    name: Water Token
+    desc: A wooden token that has the Water symbol on it. It gives off a lucky vibe.
+  - id: 10270
+    type: 0
+    mesh: ExtinguisherA
+    icon: ExtinguisherA
+    name: Fire Extinguisher, Type-A
+    desc: A fire extinguisher used to put out fires. It says that it can be used on regular fires.
+  - id: 10280
+    type: 0
+    mesh: ExtinguisherB
+    icon: ExtinguisherB
+    name: Fire Extinguisher, Type-B
+    desc: A fire extinguisher used to put out fires. It says that it can be used on oil-based fires.
+  - id: 10290
+    type: 0
+    mesh: ExtinguisherC
+    icon: ExtinguisherC
+    name: Fire Extinguisher, Type-C
+    desc: A fire extinguisher used to put out fires. It says that it can be used on electrical fires.
+  - id: 10300
+    type: 0
+    mesh: Valve
+    icon: Valve
+    name: Valve Handle
+    desc: A valve handle used to control machinery. It looks like it can be inserted somewhere.
+  - id: 10310
+    type: 0
+    mesh: talismanTue
+    icon: talismanTue
+    name: Fire Token
+    desc: A wooden token that has the Fire symbol on it. It gives off a lucky vibe.
+  - id: 10320
+    type: 0
+    mesh: Blanket
+    icon: Blanket
+    name: Blanket
+    desc: A wool blanket.
+  - id: 10330
+    type: 0
+    mesh: Blanket_02
+    icon: BlanketWet
+    name: Wet Blanket
+    desc: A wet and heavy blanket.
+  - id: 10340
+    type: 0
+    mesh: Luminol
+    icon: Luminol
+    name: Luminol Solvent
+    desc: This is a solvent to detect copper or iron. It is used for the chemiluminescence test to find the presence of blood (hemoglobin and hemin).
+  - id: 10350
+    type: 0
+    mesh: Diary_JiWon
+    icon: Diary_JiWon
+    name: Ji-won Kim’s Book
+    desc: A secret leather note used by the music teacher.
+  - id: 10360
+    type: 0
+    mesh: AsthmaSpray
+    icon: AsthmaSpray
+    name: Asthma inhaler
+    desc: A spray-type medicine used by people with asthma.
+  - id: 10370
+    type: 0
+    mesh: TalismanTueSeal
+    icon: TalismanTueSeal
+    name: Fire Trigram
+    desc: A peaceful-looking trigram. It has the word, ‘Fire’ inscribed at the center.
+  - id: 10380
+    type: 0
+    mesh: TalismanWedSeal
+    icon: TalismanWedSeal
+    name: Water Trigram
+    desc: A peaceful-looking trigram. It has the word, ‘Water’ inscribed at the center.
+  - id: 10390
+    type: 0
+    mesh: TalismanThuSeal
+    icon: TalismanThuSeal
+    name: Wood Trigram
+    desc: A peaceful-looking trigram. It has the word, ‘Wood’ inscribed at the center.
+  - id: 10400
+    type: 0
+    mesh: TalismanFriSeal
+    icon: TalismanFriSeal
+    name: Metal Trigram
+    desc: A peaceful-looking trigram. It has the word, ‘Metal’ inscribed at the center.
+  - id: 10410
+    type: 0
+    mesh: TalismanSatSeal
+    icon: TalismanSatSeal
+    name: Earth Trigram
+    desc: A peaceful-looking trigram. It has the word, ‘Earth’ inscribed at the center.
+  - id: 10420
+    type: 0
+    mesh: Book01_01
+    icon: Book01
+    name: Understanding Pottery
+    desc: A book with a tiger drawing.
+  - id: 10421
+    type: 0
+    mesh: Book01_02
+    icon: Book01
+    name: Understanding Pottery
+    desc: A book with a tiger drawing.
+  - id: 10430
+    type: 0
+    mesh: Book03_01
+    icon: Book02
+    name: Introduction to Psychology
+    desc: A book with a tiger drawing.
+  - id: 10431
+    type: 0
+    mesh: Book03_02
+    icon: Book02
+    name: Introduction to Psychology
+    desc: A book with a tiger drawing.
+  - id: 10440
+    type: 0
+    mesh: Book02_01
+    icon: Book03
+    name: Western Art History
+    desc: A book with a tiger drawing.
+  - id: 10441
+    type: 0
+    mesh: Book02_02
+    icon: Book03
+    name: Western Art History
+    desc: A book with a tiger drawing.
+  - id: 10450
+    type: 0
+    mesh: Book04_01
+    icon: Book04
+    name: Occult book
+    desc: A book with a tiger drawing.
+  - id: 10451
+    type: 0
+    mesh: Book04_02
+    icon: Book04
+    name: Occult book
+    desc: A book with a tiger drawing.
+  - id: 10460
+    type: 0
+    mesh: Pottery_Memo
+    icon: Pottery
+    name: Pottery
+    desc: Another pottery made by a music teacher.
+  - id: 10461
+    type: 0
+    mesh: Pottery_SungA
+    icon: Pottery
+    name: Pottery
+    desc: Another pottery made by a music teacher.
+  - id: 20000
+    type: 1
+    mesh: key_tag_housekeeping_inven
+    icon: key_tag_housekeeping
+    name: Home Economics Classroom Key
+    desc: The key that unlocks the Home Economics Classroom.
+  - id: 20010
+    type: 1
+    mesh: Key_center
+    icon: Key_center
+    name: Main Building 1 Central Hallway Key
+    desc: Key that unlocks the fire shutter on the first floor of the Central Hallway in Main Building 1.
+  - id: 20020
+    type: 1
+    mesh: Key_center
+    icon: Key_center
+    name: Main Building 1 Auditorium Passageway Key
+    desc: Key that unlocks the iron door leading to the Auditorium Passageway in Main Building 1.
+  - id: 20030
+    type: 1
+    mesh: Key_master
+    icon: Key_master
+    name: Main Building 1 Master Key
+    desc: Key that opens most locks in Main Building 1.
+  - id: 20031
+    type: 1
+    mesh: Key01
+    icon: Key01
+    name: Lost and Found Room Key
+    desc: Key that unlocks the Lost and Found Room in Main Building 2.
+  - id: 20040
+    type: 1
+    mesh: key_tag_student
+    icon: key_tag_student
+    name: Student Department Office Key
+    desc: Key that unlocks the Student Department Office in Main Building 2.
+  - id: 20050
+    type: 1
+    mesh: key_tag_teacher2
+    icon: key_tag_teacher2
+    name: Faculty Office 2 Key
+    desc: Key that unlocks the Faculty Office 2 in Main Building 2.
+  - id: 20060
+    type: 1
+    mesh: key_tag_science
+    icon: key_tag_science
+    name: Science Lab Key
+    desc: Key that unlocks the Science Lab in Main Building 2.
+  - id: 20070
+    type: 1
+    mesh: Key_piano
+    icon: Key_piano
+    name: Piano Bench Key
+    desc: Key that unlocks the piano bench.
+  - id: 20080
+    type: 1
+    mesh: key_tag_art
+    icon: key_tag_art
+    name: Art Room Key
+    desc: Key that unlocks the Art Room in Main Building 2.
+  - id: 20090
+    type: 1
+    mesh: CardYellow
+    icon: CardYellow
+    name: Yellow Keycard
+    desc: A keycard that can unlock doors in the yellow section of the New Building. Use it on the card reader.
+  - id: 20100
+    type: 1
+    mesh: CardRed
+    icon: CardRed
+    name: Red Keycard
+    desc: A keycard that can unlock doors in the red section of the New Building. Use it on the card reader.
+  - id: 20110
+    type: 1
+    mesh: CardBlue
+    icon: CardBlue
+    name: Blue Keycard
+    desc: A keycard that can unlock doors in the blue section of the New Building. Use it on the card reader.
+  - id: 20120
+    type: 1
+    mesh: Key_rooftop
+    icon: Key_rooftop
+    name: New Building Rooftop Key
+    desc: Key that unlocks the door to the rooftop of the New Building.
+  - id: 20130
+    type: 1
+    mesh: Key_Combined_rb
+    icon: Key_Combined_rb
+    name: Combined Key (Red+Blue)
+    desc: A combination of two keys from a key combining machine (Red+Blue). It looks like it can open a small lock.
+  - id: 20140
+    type: 1
+    mesh: Key_Combined_ry
+    icon: Key_Combined_ry
+    name: Combined Key (Red+Yellow)
+    desc: A combination of two keys from a key combining machine (Red+Yellow). It looks like it can open a small lock.
+  - id: 20150
+    type: 1
+    mesh: Key_Combined_rd
+    icon: Key_Combined_rd
+    name: Combined Key (Red+Dark)
+    desc: A combination of two keys from a key combining machine (Red+Dark). It looks like it can open a small lock.
+  - id: 20160
+    type: 1
+    mesh: Key_Combined_by
+    icon: Key_Combined_by
+    name: Combined Key (Blue+Yellow)
+    desc: A combination of two keys from a key combining machine (Blue+Yellow). It looks like it can open a small lock.
+  - id: 20170
+    type: 1
+    mesh: Key_Combined_bd
+    icon: Key_Combined_bd
+    name: Combined Key (Blue+Dark)
+    desc: A combination of two keys from a key combining machine (Blue+Dark). It looks like it can open a small lock.
+  - id: 20180
+    type: 1
+    mesh: Key_Combined_yd
+    icon: Key_Combined_yd
+    name: Combined Key (Yellow+Dark)
+    desc: A combination of two keys from a key combining machine (Yellow+Dark). It looks like it can open a small lock.
+  - id: 20190
+    type: 1
+    mesh: Key_small_red
+    icon: Key_small_red
+    name: Small Key (Red)
+    desc: A small key painted red. It looks like it could be combined with other keys.
+  - id: 20200
+    type: 1
+    mesh: Key_small_blue
+    icon: Key_small_blue
+    name: Small Key (Blue)
+    desc: A small key painted blue. It looks like it could be combined with other keys.
+  - id: 20210
+    type: 1
+    mesh: Key_small_yellow
+    icon: Key_small_yellow
+    name: Small Key (Yellow)
+    desc: A small key painted yellow. It looks like it could be combined with other keys.
+  - id: 20220
+    type: 1
+    mesh: Key_small_dark
+    icon: Key_small_dark
+    name: Small Key (Dark)
+    desc: A small key painted dark. It looks like it could be combined with other keys.
+  - id: 20230
+    type: 1
+    mesh: Key_Util
+    icon: Key_Util
+    name: Small Master Key
+    desc: A small master key. It looks like it can open drawers and other objects.
+  - id: 30000
+    type: 2
+    mesh: SoybeanMilk
+    icon: SoybeanMilk
+    name: Soy Milk
+    desc: Soy milk sold by the school. You can get it at the school store or from the vending machines.
+  - id: 30010
+    type: 2
+    mesh: Lunchbox
+    icon: Lunchbox
+    name: Instant Lunchbox
+    desc: A simple lunchbox. Being full gives you energy and puts you in a good mood.
+  - id: 30020
+    type: 2
+    mesh: FirstAidKit
+    icon: FirstAidKit
+    name: Emergency Kit
+    desc: A kit that contains supplies that can heal you. Use it in an emergency.
+  - id: 30030
+    type: 2
+    mesh: Pills
+    icon: Pills
+    name: Tranquilizer
+    desc: Eases your mind when you're nervous. Using it will calm you down.
+  - id: 30040
+    type: 2
+    mesh: Coffee
+    icon: Coffee
+    name: Can of Coffee
+    desc: A can of coffee. It gives you a caffeine boost, but drinking too much may lead to unhealthy side effects.
+  - id: 40010
+    type: 0
+    mesh: Lighter
+    icon: Lighter
+    name: Lighter
+    desc: A lighter. Using it will light up the area a little. Helpful in dark areas.
+  - id: 40030
+    type: 3
+    mesh: Coin
+    icon: Coin
+    name: School Coin
+    desc: A coin issued by the school. You can use it at the school store or for the vending machines.
+  - id: 40040
+    type: 3
+    mesh: MagicPen
+    icon: MagicPen
+    name: Felt-Tip Pen
+    desc: A felt-tip pen used to write notes.
+  - id: 50000
+    type: 4
+    mesh: Pin
+    icon: Pin
+    name: Pin
+    desc: A small pin that looks like it can be pinned somewhere.
+  - id: 50010
+    type: 4
+    mesh: Doorknob
+    icon: Doorknob
+    name: Wooden Handle
+    desc: A handle made of wood. It looks like it can be fitted with something to unlock a place you couldn't open before.
+  - id: 50020
+    type: 4
+    mesh: ScaleWeight1g
+    icon: ScaleWeight1g
+    name: 1g Weight
+    desc: A small metal weight used to balance a scale.
+  - id: 50030
+    type: 4
+    mesh: ScaleWeight5g
+    icon: ScaleWeight5g
+    name: 5g Weight
+    desc: A small metal weight used to balance a scale.
+  - id: 50040
+    type: 4
+    mesh: ScaleWeight10g
+    icon: ScaleWeight10g
+    name: 10g Weight
+    desc: A small metal weight used to balance a scale.
+  - id: 50050
+    type: 4
+    mesh: ScaleWeight30g
+    icon: ScaleWeight30g
+    name: 30g Weight
+    desc: A small metal weight used to balance a scale.
+  - id: 50060
+    type: 4
+    mesh: ScaleWeight50g
+    icon: ScaleWeight50g
+    name: 50g Weight
+    desc: A small metal weight used to balance a scale.
+  - id: 50070
+    type: 4
+    mesh: MathTimeTable
+    icon: MathTimeTable
+    name: Piece of Class Schedule (Mathematics)
+    desc: A piece of a class schedule that has “Mathematics” written on it.
+  - id: 50080
+    type: 4
+    mesh: PaperCrane
+    icon: PaperCrane
+    name: Paper Crane
+    desc: A crane made with black origami paper.
+  - id: 50090
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: Morse Code Chart
+    desc: A chart showing how to represent numbers in Morse code.
+  - id: 50091
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: Morse Code Chart
+    desc: A chart showing how to represent numbers in Morse code.
+  - id: 50092
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: Morse Code Chart
+    desc: A chart showing how to represent numbers in Morse code.
+  - id: 50100
+    type: 4
+    mesh: TypewriterO
+    icon: TypewriterO
+    name: Typewriter Button O
+    desc: An old key that probably fell off of a typewriter.
+  - id: 50110
+    type: 4
+    mesh: TypewriterM
+    icon: TypewriterM
+    name: Typewriter Button M
+    desc: An old key that probably fell off of a typewriter.
+  - id: 50120
+    type: 4
+    mesh: TypewriterE
+    icon: TypewriterE
+    name: Typewriter Button E
+    desc: An old key that probably fell off of a typewriter.
+  - id: 50130
+    type: 4
+    mesh: TypewriterN
+    icon: TypewriterN
+    name: Typewriter Button N
+    desc: An old key that probably fell off of a typewriter.
+  - id: 50140
+    type: 4
+    mesh: SpiderSample
+    icon: SpiderSample
+    name: Preserved Spider
+    desc: A scary-looking preserved spider. Even touching it is terrifying.
+  - id: 50150
+    type: 4
+    mesh: LensLeft
+    icon: LensLeft
+    name: Eye-Testing Lens (Left)
+    desc: A small lens that looks like a monocle.
+  - id: 50151
+    type: 4
+    mesh: LensLeft
+    icon: LensLeft
+    name: Eye-Testing Lens (Left)
+    desc: A small lens that looks like a monocle.
+  - id: 50160
+    type: 4
+    mesh: LensRight
+    icon: LensRight
+    name: Eye-Testing Lens (Right)
+    desc: A small lens that looks like a monocle.
+  - id: 50161
+    type: 4
+    mesh: LensRight
+    icon: LensRight
+    name: Eye-Testing Lens (Right)
+    desc: A small lens that looks like a monocle.
+  - id: 50170
+    type: 4
+    mesh: ConfessionMail
+    icon: ConfessionMail
+    name: Love Letter
+    desc: A love confession letter written by a female student.
+  - id: 50180
+    type: 4
+    mesh: BloodExerciseBook
+    icon: BloodExerciseBook
+    name: Bloody Workbook
+    desc: A math workbook with bloody marks.
+  - id: 50190
+    type: 4
+    mesh: Chalk
+    icon: Chalk
+    name: Chalk
+    desc: Chalk used to write on the chalkboard.
+  - id: 50200
+    type: 4
+    mesh: GymnasticsCap
+    icon: GymnasticsCap
+    name: Gym Teacher's Cap
+    desc: A red cap that resembles a drill instructor's. It's probably the gym teacher's.
+  - id: 50210
+    type: 4
+    mesh: ScorecardSecond
+    icon: ScorecardSecond
+    name: A Report Card (2nd in Class)
+    desc: A report card of a good student. It looks like he or she ranked in second place for getting a few questions wrong.
+  - id: 50220
+    type: 4
+    mesh: Cigarette
+    icon: Cigarette
+    name: Cigarettes
+    desc: Something that no student should carry. It was probably hidden by some delinquent.
+  - id: 50230
+    type: 4
+    mesh: BellFox
+    icon: BellFox
+    name: Spirit-Bell
+    desc: A bell that makes a clear sound.
+  - id: 50240
+    type: 4
+    mesh: Collection_Figure_HM
+    icon: Collection_Figure_HM
+    name: Male Student Figurine
+    desc: A figurine of a male student with a backpack; it looks like it was made at least 14 years ago.
+  - id: 50250
+    type: 4
+    mesh: Collection_Figure_SY
+    icon: Collection_Figure_SY
+    name: Long-Haired Female Student Figurine
+    desc: A figurine of a female student who looks aloof; it looks like it was made at least 14 years ago.
+  - id: 50260
+    type: 4
+    mesh: Collection_Figure_SA
+    icon: Collection_Figure_SA
+    name: Short-Haired Female Student Figurine
+    desc: A figurine of a female student who looks daring; it looks like it was made at least 14 years ago.
+  - id: 50270
+    type: 4
+    mesh: Collection_Figure_JH
+    icon: Collection_Figure_JH
+    name: Female Student with Glasses Figurine
+    desc: A figurine of a female student who looks naive; it looks like it was made at least 14 years ago.
+  - id: 50280
+    type: 4
+    mesh: Collection_Figure_BG
+    icon: Collection_Figure_BG
+    name: Bald Janitor Figurine
+    desc: A figurine of a bald man; it looks like it was made at least 14 years ago.
+  - id: 50290
+    type: 4
+    mesh: Collection_Figure_DS
+    icon: Collection_Figure_DS
+    name: Janitor with Hat Figurine
+    desc: A figurine of a dreary looking man with a hat; it looks like it was made at least 14 years ago.
+  - id: 50300
+    type: 4
+    mesh: Collection_Figure_EM
+    icon: Collection_Figure_EM
+    name: Middle-Aged Woman Figurine
+    desc: A figurine of a middle-aged woman in a tattered dress; it looks like it was made at least 14 years ago.
+  - id: 90010
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: QA Cheat Item 1
+    desc: Main1
+  - id: 90020
+    type: 2
+    mesh: CardRed
+    icon: CardRed
+    name: QA Cheat Item 2
+    desc: Main2_A
+  - id: 90021
+    type: 2
+    mesh: CardRed
+    icon: CardRed
+    name: QA Cheat Item 3
+    desc: Main2_B
+  - id: 90030
+    type: 2
+    mesh: CardBlue
+    icon: CardBlue
+    name: QA Cheat Item 4
+    desc: New_A
+  - id: 90031
+    type: 2
+    mesh: CardBlue
+    icon: CardBlue
+    name: QA Cheat Item 5
+    desc: New_B
+  - id: 90040
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: QA Cheat Item 6
+    desc: Hall_A
+  - id: 90041
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: QA Cheat Item 7
+    desc: Hall_B
+  - id: 90100
+    type: 2
+    mesh: poison
+    icon: poison
+    name: QA Cheat Item 8
+    desc: ByeBye Guards
+  - id: 90200
+    type: 2
+    mesh: Candybox
+    icon: Candybox
+    name: QA Cheat Item 9
+    desc: Get all items
+  - id: 90210
+    type: 2
+    mesh: Diary
+    icon: Diary
+    name: QA Cheat Item 10
+    desc: Get all endings.
+  - id: 90220
+    type: 2
+    mesh: Collection_Figure_SY
+    icon: Collection_Figure_SY
+    name: QA Cheat Item 11
+    desc: Get all figures.
+  - id: 90230
+    type: 2
+    mesh: BellFox
+    icon: BellFox
+    name: QA Cheat Item 12
+    desc: Get all ghost stories.
+  - id: 90240
+    type: 2
+    mesh: Pills
+    icon: Pills
+    name: Love Potion
+    desc: If you want to love and eat this pills. But, this is not effective for ugly men.

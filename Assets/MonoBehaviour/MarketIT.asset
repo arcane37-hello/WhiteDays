@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe18f5e1352e820c88ccf143d1108c41, type: 3}
+  m_Name: MarketIT
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Market.xlsx
+  worksheetName: MarketIT
+  dataArray:
+  - id: Product_01
+    costume: 103,203,303
+    name: Sogno di Natale
+    desc: Le possibilità di sviluppo di White Day 2 aumentano del 2%.
+    costume1_pos: 0,-0.825,0.533
+    costume1_rot: 0,0,0
+    costume2_pos: -0.271,-0.819,0.332
+    costume2_rot: 0,348.867,0
+    costume3_pos: 0.246,-0.814,0.332
+    costume3_rot: 0,24.6419,0
+    costume4_pos:
+    costume4_rot:
+  - id: Product_02
+    costume: 403,503,603
+    name: Incubo di Natale
+    desc: Il morale del team di sviluppo aumenta del 5%.
+    costume1_pos: 0.009,-0.98,0.114
+    costume1_rot: 0,0,0
+    costume2_pos: -0.34,-0.994,-0.33
+    costume2_rot: 0,0,0
+    costume3_pos: 0.38,-1.034,-0.4
+    costume3_rot: 0,0,0
+    costume4_pos:
+    costume4_rot:
+  - id: Product_03
+    costume: 104,404
+    name: Coniglietto & Chic
+    desc: La qualità della realtà virtuale di White Day aumenta dello 0,1%.
+    costume1_pos: 0.207,-0.827,-0.154
+    costume1_rot: 0,19.9203,0
+    costume2_pos: -0.165,-0.827,-0.455
+    costume2_rot: 0,334,0
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_04
+    costume: 204,504
+    name: Gattino & Orso scheletrico
+    desc: Le chance per uno sviluppatore di ottenere un ufficio migliore aumentano dello 0,2%.
+    costume1_pos: 0.219,-0.84,-0.335
+    costume1_rot: 0,-10.276,0
+    costume2_pos: -0.161,-0.84,-0.987
+    costume2_rot: 0,0,0
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_05
+    costume: 304,604
+    name: Cricetino & Pattuglia tigre
+    desc: La qualità del cibo durante la cena aziendale degli sviluppatori aumenta del 7%.
+    costume1_pos: 0.195,-0.877,-0.181
+    costume1_rot: 0,-14.983,0
+    costume2_pos: -0.152,-0.877,-0.722
+    costume2_rot: 0,0,0
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_06
+    costume: 106
+    name: Uniforme mela bianca pura (So-young Han)
+    desc: Infunde coraje y esperanza a los desarrolladores.
+    costume1_pos: 0,-0.845,0.417
+    costume1_rot: 0,0,0
+    costume2_pos:
+    costume2_rot:
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_07
+    costume: 206
+    name: Uniforme mela bianca pura (Seong-ah Kim)
+    desc: Infunde coraje y esperanza a los desarrolladores.
+    costume1_pos: 0,-0.837,0.417
+    costume1_rot: 0,0,0
+    costume2_pos:
+    costume2_rot:
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_08
+    costume: 306
+    name: Uniforme mela bianca pura (Ji-hyeon Seol)
+    desc: Infunde coraje y esperanza a los desarrolladores.
+    costume1_pos: 0,-0.807,0.417
+    costume1_rot: 0,0,0
+    costume2_pos:
+    costume2_rot:
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_09
+    costume: 406
+    name: Uniforme mela bianca pura (Hui-min Lee)
+    desc: Infunde coraje y esperanza a los desarrolladores.
+    costume1_pos: 0,-0.89,0.417
+    costume1_rot: 0,0,0
+    costume2_pos:
+    costume2_rot:
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_10
+    costume: 205,405
+    name: Amantes de la playa
+    desc: Tus probabilidades de ligar este verano aumentan un 5 %.
+    costume1_pos: 0.144,-0.771,0.127
+    costume1_rot: 0,11.76,0
+    costume2_pos: -0.206,-0.771,-0.177
+    costume2_rot: 0,-13.05,0
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_11
+    costume: 105,605
+    name: Venus y Cupido
+    desc: Tu encanto aumenta un 10 % en la playa.
+    costume1_pos: 0.17,-0.8,-0.004
+    costume1_rot: 0,11.34,0
+    costume2_pos: -0.369,-0.828,-0.469
+    costume2_rot: 0,0,0
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:
+  - id: Product_12
+    costume: 305,505
+    name: Bienvenidos a Hawái
+    desc: ¡Igual puedes irte unos días de vacaciones a Hawái!
+    costume1_pos: 0.136,-0.764,0.001
+    costume1_rot: 0,0,0
+    costume2_pos: -0.277,-0.755,-0.597
+    costume2_rot: 0,0,0
+    costume3_pos:
+    costume3_rot:
+    costume4_pos:
+    costume4_rot:

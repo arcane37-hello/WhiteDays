@@ -1,0 +1,1387 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c673a6040d44a1c19058a34a9b610bb5, type: 3}
+  m_Name: Dialog_Sound
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/dialog_sound_data.xlsx
+  worksheetName: Dialog_Sound
+  dataArray:
+  - sound_id: 10000001
+    sound_filename: CN_0060_01_JH
+    caption_id: -1
+  - sound_id: 10000002
+    sound_filename: CN_0060_01_SA
+    caption_id: -1
+  - sound_id: 10000003
+    sound_filename: CN_0060_03_JH
+    caption_id: -1
+  - sound_id: 10000004
+    sound_filename: CN_0060_03_SA
+    caption_id: -1
+  - sound_id: 10000005
+    sound_filename: CN_0060_04_SA
+    caption_id: -1
+  - sound_id: 10000006
+    sound_filename: CN_0060_05_SA
+    caption_id: -1
+  - sound_id: 10000007
+    sound_filename: CN_0060_06_SA
+    caption_id: -1
+  - sound_id: 10000008
+    sound_filename: CN_0060_07_SA
+    caption_id: -1
+  - sound_id: 10000009
+    sound_filename: CN_0060_08_SA
+    caption_id: -1
+  - sound_id: 10000010
+    sound_filename: CN_0060_09_SA
+    caption_id: -1
+  - sound_id: 10000011
+    sound_filename: CN_0060_10_SA
+    caption_id: -1
+  - sound_id: 10000012
+    sound_filename: CN_0060_11_SA
+    caption_id: -1
+  - sound_id: 10000013
+    sound_filename: CN_0070_01_SA
+    caption_id: -1
+  - sound_id: 10000014
+    sound_filename: CN_0070_02_SA
+    caption_id: -1
+  - sound_id: 10000015
+    sound_filename: CN_0070_03_SA
+    caption_id: -1
+  - sound_id: 10000016
+    sound_filename: CN_0070_04_SA
+    caption_id: -1
+  - sound_id: 10000017
+    sound_filename: CN_0070_05_SA
+    caption_id: -1
+  - sound_id: 10000018
+    sound_filename: CN_0070_08_SA
+    caption_id: -1
+  - sound_id: 10000019
+    sound_filename: CN_0070_10_SA
+    caption_id: -1
+  - sound_id: 10000020
+    sound_filename: CN_0070_11_SA
+    caption_id: -1
+  - sound_id: 10000021
+    sound_filename: CN_0070_13_SA
+    caption_id: -1
+  - sound_id: 10000022
+    sound_filename: CN_0120_01_SA
+    caption_id: -1
+  - sound_id: 10000023
+    sound_filename: CN_0120_02_SA
+    caption_id: -1
+  - sound_id: 10000024
+    sound_filename: CN_0120_03_SA
+    caption_id: -1
+  - sound_id: 10000025
+    sound_filename: CN_0120_04_SA
+    caption_id: -1
+  - sound_id: 10000026
+    sound_filename: CN_0120_05_SA
+    caption_id: -1
+  - sound_id: 10000027
+    sound_filename: CN_0120_06_SA
+    caption_id: -1
+  - sound_id: 10000028
+    sound_filename: CN_0140_01_JH
+    caption_id: -1
+  - sound_id: 10000029
+    sound_filename: CN_0140_02_JH
+    caption_id: -1
+  - sound_id: 10000030
+    sound_filename: CN_0140_03_JH
+    caption_id: -1
+  - sound_id: 10000031
+    sound_filename: CN_0140_04_JH
+    caption_id: -1
+  - sound_id: 10000032
+    sound_filename: CN_0140_05_JH
+    caption_id: -1
+  - sound_id: 10000033
+    sound_filename: CN_0140_06_JH
+    caption_id: -1
+  - sound_id: 10000034
+    sound_filename: CN_0140_07_JH
+    caption_id: -1
+  - sound_id: 10000035
+    sound_filename: CN_0140_08_JH
+    caption_id: -1
+  - sound_id: 10000036
+    sound_filename: CN_0140_09_JH
+    caption_id: -1
+  - sound_id: 10000037
+    sound_filename: CN_0140_10_JH
+    caption_id: -1
+  - sound_id: 10000038
+    sound_filename: CN_0140_11_JH
+    caption_id: -1
+  - sound_id: 10000039
+    sound_filename: CN_0140_12_JH
+    caption_id: -1
+  - sound_id: 10000040
+    sound_filename: CN_0140_13_JH
+    caption_id: -1
+  - sound_id: 10000041
+    sound_filename: CN_0220_01_SY
+    caption_id: -1
+  - sound_id: 10000042
+    sound_filename: CN_0220_02_SY
+    caption_id: -1
+  - sound_id: 10000043
+    sound_filename: CN_0220_03_SY
+    caption_id: -1
+  - sound_id: 10000044
+    sound_filename: CN_0220_04_SY
+    caption_id: -1
+  - sound_id: 10000045
+    sound_filename: CN_0220_05_SY
+    caption_id: -1
+  - sound_id: 10000046
+    sound_filename: CN_0330_01_SA
+    caption_id: -1
+  - sound_id: 10000047
+    sound_filename: CN_0330_02_SA
+    caption_id: -1
+  - sound_id: 10000048
+    sound_filename: CN_0330_03_SA
+    caption_id: -1
+  - sound_id: 10000049
+    sound_filename: CN_0330_04_SA
+    caption_id: -1
+  - sound_id: 10000050
+    sound_filename: CN_0330_05_SA
+    caption_id: -1
+  - sound_id: 10000051
+    sound_filename: CN_0330_06_SA
+    caption_id: -1
+  - sound_id: 10000052
+    sound_filename: CN_0330_07_SA
+    caption_id: -1
+  - sound_id: 10000053
+    sound_filename: CN_0330_08_SA
+    caption_id: -1
+  - sound_id: 10000054
+    sound_filename: CN_0330_09_SA
+    caption_id: -1
+  - sound_id: 10000055
+    sound_filename: CN_0330_10_SA
+    caption_id: -1
+  - sound_id: 10000056
+    sound_filename: CN_0330_11_SA
+    caption_id: -1
+  - sound_id: 10000057
+    sound_filename: CN_0350_01_SY
+    caption_id: -1
+  - sound_id: 10000058
+    sound_filename: CN_0350_02_SY
+    caption_id: -1
+  - sound_id: 10000059
+    sound_filename: CN_0350_03_SY
+    caption_id: -1
+  - sound_id: 10000060
+    sound_filename: CN_0350_04_SY
+    caption_id: -1
+  - sound_id: 10000061
+    sound_filename: CN_0350_05_SY
+    caption_id: -1
+  - sound_id: 10000062
+    sound_filename: CN_0350_06_SY
+    caption_id: -1
+  - sound_id: 10000063
+    sound_filename: CN_0350_07_SY
+    caption_id: -1
+  - sound_id: 10000064
+    sound_filename: CN_0351_01_SA
+    caption_id: -1
+  - sound_id: 10000065
+    sound_filename: CN_0351_02_SA
+    caption_id: -1
+  - sound_id: 10000066
+    sound_filename: CN_0351_03_SA
+    caption_id: -1
+  - sound_id: 10000067
+    sound_filename: CN_0351_04_SA
+    caption_id: -1
+  - sound_id: 10000068
+    sound_filename: CN_0351_05_SA
+    caption_id: -1
+  - sound_id: 10000069
+    sound_filename: CN_0351_06_SA
+    caption_id: -1
+  - sound_id: 10000070
+    sound_filename: CN_0351_07_SA
+    caption_id: -1
+  - sound_id: 10000071
+    sound_filename: CN_0351_08_SA
+    caption_id: -1
+  - sound_id: 10000072
+    sound_filename: CN_0351_09_SA
+    caption_id: -1
+  - sound_id: 10000073
+    sound_filename: CN_0351_10_SA
+    caption_id: -1
+  - sound_id: 10000074
+    sound_filename: CN_0351_11_SA
+    caption_id: -1
+  - sound_id: 10000075
+    sound_filename: CN_0351_12_SA
+    caption_id: -1
+  - sound_id: 10000076
+    sound_filename: CN_0080_01_FX
+    caption_id: -1
+  - sound_id: 10000077
+    sound_filename: CN_0100_01_FX
+    caption_id: -1
+  - sound_id: 10000078
+    sound_filename: CN_0270_01_FX
+    caption_id: -1
+  - sound_id: 10000079
+    sound_filename: CN_0290_01_FX
+    caption_id: -1
+  - sound_id: 10000080
+    sound_filename: CN_0210_01_FX
+    caption_id: -1
+  - sound_id: 10000081
+    sound_filename: CN_0110_01_FX
+    caption_id: -1
+  - sound_id: 10000082
+    sound_filename: SC_0280_01_FX
+    caption_id: -1
+  - sound_id: 10000083
+    sound_filename: CN_0110_01_FX
+    caption_id: -1
+  - sound_id: 10000084
+    sound_filename: CN_0030_01_FX
+    caption_id: -1
+  - sound_id: 10000085
+    sound_filename: CN_0060_01_FX
+    caption_id: -1
+  - sound_id: 10000086
+    sound_filename: CN_0060_03_FX
+    caption_id: -1
+  - sound_id: 10000087
+    sound_filename: CN_0070_01_FX
+    caption_id: -1
+  - sound_id: 10000088
+    sound_filename: CN_0120_01_FX
+    caption_id: -1
+  - sound_id: 10000089
+    sound_filename: CN_0130_01_FX
+    caption_id: -1
+  - sound_id: 10000090
+    sound_filename: CN_0140_01_FX
+    caption_id: -1
+  - sound_id: 10000091
+    sound_filename: CN_0140_13_FX
+    caption_id: -1
+  - sound_id: 10000092
+    sound_filename: CN_0220_01_FX
+    caption_id: -1
+  - sound_id: 10000093
+    sound_filename: CN_0230_01_FX
+    caption_id: -1
+  - sound_id: 10000094
+    sound_filename: CN_0230_01_SY
+    caption_id: -1
+  - sound_id: 10000095
+    sound_filename: CN_0270_01_FX
+    caption_id: -1
+  - sound_id: 10000096
+    sound_filename: CN_0290_01_FX
+    caption_id: -1
+  - sound_id: 10000097
+    sound_filename: CN_0330_01_FX
+    caption_id: -1
+  - sound_id: 10000098
+    sound_filename: CN_0330_05_FX
+    caption_id: -1
+  - sound_id: 10000099
+    sound_filename: CN_0330_08_FX
+    caption_id: -1
+  - sound_id: 10000100
+    sound_filename: CN_0330_11_FX
+    caption_id: -1
+  - sound_id: 10000101
+    sound_filename: CN_0350_01_FX
+    caption_id: -1
+  - sound_id: 10000102
+    sound_filename: CN_0350_04_FX
+    caption_id: -1
+  - sound_id: 10000103
+    sound_filename: CN_0350_07_FX
+    caption_id: -1
+  - sound_id: 10000104
+    sound_filename: CN_0351_01_FX
+    caption_id: -1
+  - sound_id: 10000105
+    sound_filename: CN_0351_07_FX
+    caption_id: -1
+  - sound_id: 10000106
+    sound_filename: CN_0351_12_FX
+    caption_id: -1
+  - sound_id: 10000107
+    sound_filename: CN_0190_01_FX
+    caption_id: -1
+  - sound_id: 10000108
+    sound_filename: CN_0170_01_FX
+    caption_id: -1
+  - sound_id: 10000109
+    sound_filename: CN_0300_01_FX
+    caption_id: -1
+  - sound_id: 10000110
+    sound_filename: CN_0380_01_FX
+    caption_id: -1
+  - sound_id: 10000111
+    sound_filename: CN_0380_02_FX
+    caption_id: -1
+  - sound_id: 10000112
+    sound_filename: CN_0430_01_FX
+    caption_id: -1
+  - sound_id: 10000113
+    sound_filename: CN_0431_01_FX
+    caption_id: -1
+  - sound_id: 10000114
+    sound_filename: CN_0470_01_SY
+    caption_id: -1
+  - sound_id: 10000115
+    sound_filename: CN_0470_02_SY
+    caption_id: -1
+  - sound_id: 10000116
+    sound_filename: CN_0470_03_SY
+    caption_id: -1
+  - sound_id: 10000117
+    sound_filename: CN_0470_04_FX
+    caption_id: -1
+  - sound_id: 10000118
+    sound_filename: CN_0470_04_SY
+    caption_id: -1
+  - sound_id: 10000119
+    sound_filename: CN_0480_01_FX
+    caption_id: -1
+  - sound_id: 10000120
+    sound_filename: CN_0480_01_SY
+    caption_id: -1
+  - sound_id: 10000121
+    sound_filename: CN_0480_02_SY
+    caption_id: -1
+  - sound_id: 10000122
+    sound_filename: CN_0480_03_SY
+    caption_id: -1
+  - sound_id: 10000123
+    sound_filename: CN_0490_01_FX
+    caption_id: -1
+  - sound_id: 10000124
+    sound_filename: CN_0490_01_SY
+    caption_id: -1
+  - sound_id: 10000125
+    sound_filename: CN_0500_01_FX
+    caption_id: -1
+  - sound_id: 10000126
+    sound_filename: CN_0500_01_SY
+    caption_id: -1
+  - sound_id: 10000127
+    sound_filename: CN_0500_02_SY
+    caption_id: -1
+  - sound_id: 10000128
+    sound_filename: CN_0500_03_SY
+    caption_id: -1
+  - sound_id: 10000129
+    sound_filename: CN_0500_04_FX
+    caption_id: -1
+  - sound_id: 10000130
+    sound_filename: CN_0500_04_JH
+    caption_id: -1
+  - sound_id: 10000131
+    sound_filename: CN_0500_04_SY
+    caption_id: -1
+  - sound_id: 10000132
+    sound_filename: CN_0501_01_FX
+    caption_id: -1
+  - sound_id: 10000133
+    sound_filename: CN_0501_01_SA
+    caption_id: -1
+  - sound_id: 10000134
+    sound_filename: CN_0501_02_SA
+    caption_id: -1
+  - sound_id: 10000135
+    sound_filename: CN_0501_03_SA
+    caption_id: -1
+  - sound_id: 10000136
+    sound_filename: CN_0501_04_FX
+    caption_id: -1
+  - sound_id: 10000137
+    sound_filename: CN_0501_04_SA
+    caption_id: -1
+  - sound_id: 10000138
+    sound_filename: CN_0511_01_FX
+    caption_id: -1
+  - sound_id: 10000139
+    sound_filename: CN_0511_01_JH
+    caption_id: -1
+  - sound_id: 10000140
+    sound_filename: CN_0511_02_JH
+    caption_id: -1
+  - sound_id: 10000141
+    sound_filename: CN_0511_03_JH
+    caption_id: -1
+  - sound_id: 10000142
+    sound_filename: CN_0511_04_FX
+    caption_id: -1
+  - sound_id: 10000143
+    sound_filename: CN_0511_04_JH
+    caption_id: -1
+  - sound_id: 10000144
+    sound_filename: CN_0511_05_FX
+    caption_id: -1
+  - sound_id: 10000145
+    sound_filename: CN_0511_05_JH
+    caption_id: -1
+  - sound_id: 10000146
+    sound_filename: CN_0511_06_FX
+    caption_id: -1
+  - sound_id: 10000147
+    sound_filename: CN_0511_06_JH
+    caption_id: -1
+  - sound_id: 10000148
+    sound_filename: CN_0512_01_FX
+    caption_id: -1
+  - sound_id: 10000149
+    sound_filename: CN_0512_01_JH
+    caption_id: -1
+  - sound_id: 10000150
+    sound_filename: CN_0512_01_SA
+    caption_id: -1
+  - sound_id: 10000151
+    sound_filename: CN_0513_01_FX
+    caption_id: -1
+  - sound_id: 10000152
+    sound_filename: CN_0513_01_SA
+    caption_id: -1
+  - sound_id: 10000153
+    sound_filename: CN_0514_01_FX
+    caption_id: -1
+  - sound_id: 10000154
+    sound_filename: CN_0514_01_SA
+    caption_id: -1
+  - sound_id: 10000155
+    sound_filename: CN_0541_01_FX
+    caption_id: -1
+  - sound_id: 10000156
+    sound_filename: CN_0541_01_JH
+    caption_id: -1
+  - sound_id: 10000157
+    sound_filename: CN_0621_01_FX
+    caption_id: -1
+  - sound_id: 10000158
+    sound_filename: CN_0621_01_SA
+    caption_id: -1
+  - sound_id: 10000159
+    sound_filename: CN_0623_01_FX
+    caption_id: -1
+  - sound_id: 10000160
+    sound_filename: CN_0623_01_SA
+    caption_id: -1
+  - sound_id: 10000161
+    sound_filename: CN_0623_02_SA
+    caption_id: -1
+  - sound_id: 10000162
+    sound_filename: CN_0623_03_SA
+    caption_id: -1
+  - sound_id: 10000163
+    sound_filename: CN_0623_04_SA
+    caption_id: -1
+  - sound_id: 10000164
+    sound_filename: CN_0623_05_SA
+    caption_id: -1
+  - sound_id: 10000165
+    sound_filename: CN_0623_06_SA
+    caption_id: -1
+  - sound_id: 10000166
+    sound_filename: CN_0623_07_SA
+    caption_id: -1
+  - sound_id: 10000167
+    sound_filename: CN_0624_01_SA
+    caption_id: -1
+  - sound_id: 10000168
+    sound_filename: CN_0624_02_SA
+    caption_id: -1
+  - sound_id: 10000169
+    sound_filename: CN_0624_03_SA
+    caption_id: -1
+  - sound_id: 10000170
+    sound_filename: CN_0624_04_FX
+    caption_id: -1
+  - sound_id: 10000171
+    sound_filename: CN_0624_04_SA
+    caption_id: -1
+  - sound_id: 10000172
+    sound_filename: CN_0625_01_SA
+    caption_id: -1
+  - sound_id: 10000173
+    sound_filename: CN_0625_02_SA
+    caption_id: -1
+  - sound_id: 10000174
+    sound_filename: CN_0625_03_SA
+    caption_id: -1
+  - sound_id: 10000175
+    sound_filename: CN_0625_04_FX
+    caption_id: -1
+  - sound_id: 10000176
+    sound_filename: CN_0625_04_SA
+    caption_id: -1
+  - sound_id: 10000177
+    sound_filename: 1060_01
+    caption_id: -1
+  - sound_id: 10000178
+    sound_filename: 1060_02
+    caption_id: -1
+  - sound_id: 10000179
+    sound_filename: CN_1061_02_FX
+    caption_id: -1
+  - sound_id: 10000180
+    sound_filename: CN_1061_02_SY
+    caption_id: -1
+  - sound_id: 10000181
+    sound_filename: 1070_01
+    caption_id: -1
+  - sound_id: 10000182
+    sound_filename: CN_1071_01_SY
+    caption_id: -1
+  - sound_id: 10000183
+    sound_filename: 1072_01
+    caption_id: -1
+  - sound_id: 10000184
+    sound_filename: 1080_01
+    caption_id: -1
+  - sound_id: 10000185
+    sound_filename: 1081_01
+    caption_id: -1
+  - sound_id: 10000186
+    sound_filename: CN_0511_07_JH
+    caption_id: -1
+  - sound_id: 10000187
+    sound_filename: CN_0630_01_SY
+    caption_id: -1
+  - sound_id: 10000188
+    sound_filename: CN_0630_02_SY
+    caption_id: -1
+  - sound_id: 10000189
+    sound_filename: CN_0630_03_SY
+    caption_id: -1
+  - sound_id: 10000190
+    sound_filename: CN_0630_04_SY
+    caption_id: -1
+  - sound_id: 10000191
+    sound_filename: CN_0630_05_SY
+    caption_id: -1
+  - sound_id: 10000192
+    sound_filename: CN_0630_06_SY
+    caption_id: -1
+  - sound_id: 10000193
+    sound_filename: CN_0630_07_SY
+    caption_id: -1
+  - sound_id: 10000194
+    sound_filename: CN_0630_08_SY
+    caption_id: -1
+  - sound_id: 10000195
+    sound_filename: CN_0630_09_SY
+    caption_id: -1
+  - sound_id: 10000196
+    sound_filename: CN_0630_10_FX
+    caption_id: -1
+  - sound_id: 10000197
+    sound_filename: CN_0630_10_SY
+    caption_id: -1
+  - sound_id: 10000198
+    sound_filename: CN_0631_01_FX
+    caption_id: -1
+  - sound_id: 10000199
+    sound_filename: CN_0631_01_SA
+    caption_id: -1
+  - sound_id: 10000200
+    sound_filename: CN_0632_01_SA
+    caption_id: -1
+  - sound_id: 10000201
+    sound_filename: CN_0632_02_SA
+    caption_id: -1
+  - sound_id: 10000202
+    sound_filename: CN_0632_03_SA
+    caption_id: -1
+  - sound_id: 10000203
+    sound_filename: CN_0632_04_SA
+    caption_id: -1
+  - sound_id: 10000204
+    sound_filename: CN_0632_05_SA
+    caption_id: -1
+  - sound_id: 10000205
+    sound_filename: CN_0632_06_SA
+    caption_id: -1
+  - sound_id: 10000206
+    sound_filename: CN_0632_07_FX
+    caption_id: -1
+  - sound_id: 10000207
+    sound_filename: CN_0632_07_SA
+    caption_id: -1
+  - sound_id: 10000208
+    sound_filename: CN_0632_08_FX
+    caption_id: -1
+  - sound_id: 10000209
+    sound_filename: CN_0632_08_SA
+    caption_id: -1
+  - sound_id: 10000210
+    sound_filename: CN_0632_09_SA
+    caption_id: -1
+  - sound_id: 10000211
+    sound_filename: CN_0632_10_SA
+    caption_id: -1
+  - sound_id: 10000212
+    sound_filename: CN_0632_11_FX
+    caption_id: -1
+  - sound_id: 10000213
+    sound_filename: CN_0632_11_SA
+    caption_id: -1
+  - sound_id: 10000214
+    sound_filename: CN_0640_01_SY
+    caption_id: -1
+  - sound_id: 10000215
+    sound_filename: CN_0640_02_FX
+    caption_id: -1
+  - sound_id: 10000216
+    sound_filename: CN_0640_02_SY
+    caption_id: -1
+  - sound_id: 10000217
+    sound_filename: CN_0641_01_FX
+    caption_id: -1
+  - sound_id: 10000218
+    sound_filename: CN_0641_01_SY
+    caption_id: -1
+  - sound_id: 10000219
+    sound_filename: CN_0642_01_SY
+    caption_id: -1
+  - sound_id: 10000220
+    sound_filename: CN_0642_02_SY
+    caption_id: -1
+  - sound_id: 10000221
+    sound_filename: CN_0642_03_SY
+    caption_id: -1
+  - sound_id: 10000222
+    sound_filename: CN_0642_04_SY
+    caption_id: -1
+  - sound_id: 10000223
+    sound_filename: CN_0642_05_SY
+    caption_id: -1
+  - sound_id: 10000224
+    sound_filename: CN_0642_06_SY
+    caption_id: -1
+  - sound_id: 10000225
+    sound_filename: CN_0642_07_SY
+    caption_id: -1
+  - sound_id: 10000226
+    sound_filename: CN_0650_02_SY
+    caption_id: -1
+  - sound_id: 10000227
+    sound_filename: CN_0650_03_SY
+    caption_id: -1
+  - sound_id: 10000228
+    sound_filename: CN_0650_04_FX
+    caption_id: -1
+  - sound_id: 10000229
+    sound_filename: CN_0650_04_SY
+    caption_id: -1
+  - sound_id: 10000230
+    sound_filename: CN_0660_01_FX
+    caption_id: -1
+  - sound_id: 10000231
+    sound_filename: CN_0660_01_SY
+    caption_id: -1
+  - sound_id: 10000232
+    sound_filename: CN_0660_02_FX
+    caption_id: -1
+  - sound_id: 10000233
+    sound_filename: CN_0660_02_SY
+    caption_id: -1
+  - sound_id: 10000234
+    sound_filename: CN_0661_01_SY
+    caption_id: -1
+  - sound_id: 10000235
+    sound_filename: CN_0710_01_FX
+    caption_id: -1
+  - sound_id: 10000236
+    sound_filename: CN_0710_01_JH
+    caption_id: -1
+  - sound_id: 10000237
+    sound_filename: CN_0711_01_JH
+    caption_id: -1
+  - sound_id: 10000238
+    sound_filename: CN_0711_02_JH
+    caption_id: -1
+  - sound_id: 10000239
+    sound_filename: CN_0711_03_JH
+    caption_id: -1
+  - sound_id: 10000240
+    sound_filename: CN_0711_04_JH
+    caption_id: -1
+  - sound_id: 10000241
+    sound_filename: CN_0711_05_FX
+    caption_id: -1
+  - sound_id: 10000242
+    sound_filename: CN_0711_05_JH
+    caption_id: -1
+  - sound_id: 10000243
+    sound_filename: CN_0711_06_FX
+    caption_id: -1
+  - sound_id: 10000244
+    sound_filename: CN_0711_06_JH
+    caption_id: -1
+  - sound_id: 10000245
+    sound_filename: CN_0711_07_JH
+    caption_id: -1
+  - sound_id: 10000246
+    sound_filename: CN_0780_01_FX
+    caption_id: -1
+  - sound_id: 10000247
+    sound_filename: CN_0780_01_SY
+    caption_id: -1
+  - sound_id: 10000248
+    sound_filename: CN_0780_02_SY
+    caption_id: -1
+  - sound_id: 10000249
+    sound_filename: CN_0780_03_FX
+    caption_id: -1
+  - sound_id: 10000250
+    sound_filename: CN_0780_03_SY
+    caption_id: -1
+  - sound_id: 10000251
+    sound_filename: CN_0780_04_SY
+    caption_id: -1
+  - sound_id: 10000252
+    sound_filename: CN_0850_01_FX
+    caption_id: -1
+  - sound_id: 10000253
+    sound_filename: CN_0850_01_YM
+    caption_id: -1
+  - sound_id: 10000254
+    sound_filename: CN_0850_02_YM
+    caption_id: -1
+  - sound_id: 10000255
+    sound_filename: CN_0850_04_YM
+    caption_id: -1
+  - sound_id: 10000256
+    sound_filename: CN_0850_06_YM
+    caption_id: -1
+  - sound_id: 10000257
+    sound_filename: CN_0850_07_YM
+    caption_id: -1
+  - sound_id: 10000258
+    sound_filename: CN_0860_03_FX
+    caption_id: -1
+  - sound_id: 10000259
+    sound_filename: CN_0860_03_YM
+    caption_id: -1
+  - sound_id: 10000260
+    sound_filename: CN_0861_01_FX
+    caption_id: -1
+  - sound_id: 10000261
+    sound_filename: CN_0862_01_FX
+    caption_id: -1
+  - sound_id: 10000262
+    sound_filename: CN_0862_01_SA
+    caption_id: -1
+  - sound_id: 10000263
+    sound_filename: CN_0862_02_SA
+    caption_id: -1
+  - sound_id: 10000264
+    sound_filename: CN_0862_03_SA
+    caption_id: -1
+  - sound_id: 10000265
+    sound_filename: CN_0862_04_SA
+    caption_id: -1
+  - sound_id: 10000266
+    sound_filename: CN_0863_01_FX
+    caption_id: -1
+  - sound_id: 10000267
+    sound_filename: CN_0863_01_SA
+    caption_id: -1
+  - sound_id: 10000268
+    sound_filename: CN_0863_02_SA
+    caption_id: -1
+  - sound_id: 10000269
+    sound_filename: CN_0863_03_SA
+    caption_id: -1
+  - sound_id: 10000270
+    sound_filename: CN_0863_04_SA
+    caption_id: -1
+  - sound_id: 10000271
+    sound_filename: CN_0863_05_SA
+    caption_id: -1
+  - sound_id: 10000272
+    sound_filename: CN_1010_01_SY
+    caption_id: -1
+  - sound_id: 10000273
+    sound_filename: CN_1011_01_FX
+    caption_id: -1
+  - sound_id: 10000274
+    sound_filename: CN_1011_01_JH
+    caption_id: -1
+  - sound_id: 10000275
+    sound_filename: CN_1011_02_JH
+    caption_id: -1
+  - sound_id: 10000276
+    sound_filename: CN_1011_03_JH
+    caption_id: -1
+  - sound_id: 10000277
+    sound_filename: CN_1011_04_FX
+    caption_id: -1
+  - sound_id: 10000278
+    sound_filename: CN_1011_04_JH
+    caption_id: -1
+  - sound_id: 10000279
+    sound_filename: CN_1011_05_JH
+    caption_id: -1
+  - sound_id: 10000280
+    sound_filename: CN_1020_01_FX
+    caption_id: -1
+  - sound_id: 10000281
+    sound_filename: CN_1020_01_SA
+    caption_id: -1
+  - sound_id: 10000282
+    sound_filename: CN_1020_01_SY
+    caption_id: -1
+  - sound_id: 10000283
+    sound_filename: CN_1030_01_FX
+    caption_id: -1
+  - sound_id: 10000284
+    sound_filename: CN_1030_01_SA
+    caption_id: -1
+  - sound_id: 10000285
+    sound_filename: CN_1073_01_FX
+    caption_id: -1
+  - sound_id: 10000286
+    sound_filename: CN_1073_02_SY
+    caption_id: -1
+  - sound_id: 10000287
+    sound_filename: CN_1073_03_FX
+    caption_id: -1
+  - sound_id: 10000288
+    sound_filename: CN_1073_04_FX
+    caption_id: -1
+  - sound_id: 10000289
+    sound_filename: CN_1073_04_SY
+    caption_id: -1
+  - sound_id: 10000290
+    sound_filename: CN_1073_05_SA
+    caption_id: -1
+  - sound_id: 10000291
+    sound_filename: CN_1073_06_SA
+    caption_id: -1
+  - sound_id: 10000292
+    sound_filename: CN_1073_07_FX
+    caption_id: -1
+  - sound_id: 10000293
+    sound_filename: CN_0770_01_JW
+    caption_id: -1
+  - sound_id: 10000294
+    sound_filename: CN_0770_02_JW
+    caption_id: -1
+  - sound_id: 10000295
+    sound_filename: CN_0770_03_JW
+    caption_id: -1
+  - sound_id: 10000296
+    sound_filename: CN_0770_04_JW
+    caption_id: -1
+  - sound_id: 10000297
+    sound_filename: CN_0770_05_JW
+    caption_id: -1
+  - sound_id: 10000298
+    sound_filename: CN_0770_06_JW
+    caption_id: -1
+  - sound_id: 10000299
+    sound_filename: CN_0770_07_JW
+    caption_id: -1
+  - sound_id: 10000300
+    sound_filename: CN_0770_07_FX
+    caption_id: -1
+  - sound_id: 10000301
+    sound_filename: CN_0710_02_JH
+    caption_id: -1
+  - sound_id: 10000302
+    sound_filename: CN_0710_03_JH
+    caption_id: -1
+  - sound_id: 10000303
+    sound_filename: CN_0710_04_JH
+    caption_id: -1
+  - sound_id: 10000304
+    sound_filename: CN_0710_05_JH
+    caption_id: -1
+  - sound_id: 10000305
+    sound_filename: CN_0710_06_JH
+    caption_id: -1
+  - sound_id: 10000306
+    sound_filename: CN_1011_06_JH
+    caption_id: -1
+  - sound_id: 10000307
+    sound_filename: CN_1080_01_JH
+    caption_id: -1
+  - sound_id: 10000308
+    sound_filename: CN_0650_01_SY
+    caption_id: -1
+  - sound_id: 10000309
+    sound_filename: CN_1060_01_SY
+    caption_id: -1
+  - sound_id: 10000310
+    sound_filename: CN_1060_02_FX
+    caption_id: -1
+  - sound_id: 10000311
+    sound_filename: CN_1060_02_SY
+    caption_id: -1
+  - sound_id: 10000312
+    sound_filename: CN_1061_01_FX
+    caption_id: -1
+  - sound_id: 10000313
+    sound_filename: CN_1061_01_SY
+    caption_id: -1
+  - sound_id: 10000314
+    sound_filename: CN_1070_01_FX
+    caption_id: -1
+  - sound_id: 10000315
+    sound_filename: CN_1070_01_SA
+    caption_id: -1
+  - sound_id: 10000316
+    sound_filename: CN_1072_01_FX
+    caption_id: -1
+  - sound_id: 10000317
+    sound_filename: CN_1072_01_SA
+    caption_id: -1
+  - sound_id: 10000318
+    sound_filename: CN_1081_01_JH
+    caption_id: -1
+  - sound_id: 10000319
+    sound_filename: CN_1050_01_FX
+    caption_id: 0
+  - sound_id: 10000320
+    sound_filename: CN_1073_02_FX
+    caption_id: 0
+  - sound_id: 10000321
+    sound_filename: CN_1073_05_FX
+    caption_id: 0
+  - sound_id: 10000322
+    sound_filename: CN_1073_06_FX
+    caption_id: 0
+  - sound_id: 10000323
+    sound_filename: CN_1080_01_FX
+    caption_id: 0
+  - sound_id: 10000324
+    sound_filename: CN_1082_01_FX
+    caption_id: 0
+  - sound_id: 10000325
+    sound_filename: CN_0010_01_FX
+    caption_id: 0
+  - sound_id: 10000326
+    sound_filename: CN_0060_12_FX
+    caption_id: 0
+  - sound_id: 10000327
+    sound_filename: CN_0200_01_FX
+    caption_id: 0
+  - sound_id: 10000328
+    sound_filename: CN_0260_01_FX
+    caption_id: 0
+  - sound_id: 10000329
+    sound_filename: CN_0280_01_FX
+    caption_id: 0
+  - sound_id: 10000330
+    sound_filename: CN_0310_01_FX
+    caption_id: 0
+  - sound_id: 10000331
+    sound_filename: CN_0540_01_FX
+    caption_id: 0
+  - sound_id: 10000332
+    sound_filename: CN_0550_01_FX
+    caption_id: 0
+  - sound_id: 10000333
+    sound_filename: CN_0580_01_FX
+    caption_id: 0
+  - sound_id: 10000334
+    sound_filename: CN_0590_01_FX
+    caption_id: 0
+  - sound_id: 10000335
+    sound_filename: CN_0600_01_FX
+    caption_id: 0
+  - sound_id: 10000336
+    sound_filename: CN_0650_01_FX
+    caption_id: 0
+  - sound_id: 10000337
+    sound_filename: CN_0670_01_FX
+    caption_id: 0
+  - sound_id: 10000338
+    sound_filename: CN_0680_01_FX
+    caption_id: 0
+  - sound_id: 10000339
+    sound_filename: CN_0690_01_FX
+    caption_id: 0
+  - sound_id: 10000340
+    sound_filename: CN_0711_07_FX
+    caption_id: 0
+  - sound_id: 10000341
+    sound_filename: CN_0771_01_FX
+    caption_id: 0
+  - sound_id: 10000342
+    sound_filename: CN_0781_01_FX
+    caption_id: 0
+  - sound_id: 10000343
+    sound_filename: CN_0790_01_FX
+    caption_id: 0
+  - sound_id: 10000344
+    sound_filename: CN_0800_01_FX
+    caption_id: 0
+  - sound_id: 10000345
+    sound_filename: CN_0810_01_FX
+    caption_id: 0
+  - sound_id: 10000346
+    sound_filename: CN_0821_01_FX
+    caption_id: 0
+  - sound_id: 10000347
+    sound_filename: CN_0830_01_FX
+    caption_id: 0
+  - sound_id: 10000348
+    sound_filename: CN_0840_01_FX
+    caption_id: 0
+  - sound_id: 10000349
+    sound_filename: CN_0850_07_FX
+    caption_id: 0
+  - sound_id: 10000350
+    sound_filename: CN_0870_01_FX
+    caption_id: 0
+  - sound_id: 10000351
+    sound_filename: CN_0880_01_FX
+    caption_id: 0
+  - sound_id: 10000352
+    sound_filename: CN_0900_01_FX
+    caption_id: 0
+  - sound_id: 10000353
+    sound_filename: CN_0920_01_FX
+    caption_id: 0
+  - sound_id: 10000354
+    sound_filename: CN_0922_01_FX
+    caption_id: 0
+  - sound_id: 10000355
+    sound_filename: CN_0922_02_FX
+    caption_id: 0
+  - sound_id: 10000356
+    sound_filename: CN_0930_01_FX
+    caption_id: 0
+  - sound_id: 10000357
+    sound_filename: CN_0931_01_FX
+    caption_id: 0
+  - sound_id: 10000358
+    sound_filename: CN_0932_01_FX
+    caption_id: 0
+  - sound_id: 10000359
+    sound_filename: CN_0950_01_FX
+    caption_id: 0
+  - sound_id: 10000360
+    sound_filename: CN_0951_01_FX
+    caption_id: 0
+  - sound_id: 10000361
+    sound_filename: CN_0951_02_FX
+    caption_id: 0
+  - sound_id: 10000362
+    sound_filename: CN_0970_01_FX
+    caption_id: 0
+  - sound_id: 10000363
+    sound_filename: CN_0971_01_FX
+    caption_id: 0
+  - sound_id: 10000364
+    sound_filename: CN_0971_02_FX
+    caption_id: 0
+  - sound_id: 10000365
+    sound_filename: CN_0972_01_FX
+    caption_id: 0
+  - sound_id: 10000366
+    sound_filename: CN_0990_01_FX
+    caption_id: 0
+  - sound_id: 10000367
+    sound_filename: CN_1000_01_FX
+    caption_id: 0
+  - sound_id: 10000368
+    sound_filename: CN_1021_01_FX
+    caption_id: 0
+  - sound_id: 10000369
+    sound_filename: CN_1040_01_FX
+    caption_id: 0
+  - sound_id: 10000370
+    sound_filename: CN_1060_01_FX
+    caption_id: 0
+  - sound_id: 10000371
+    sound_filename: CN_1062_01_FX
+    caption_id: 0
+  - sound_id: 10000372
+    sound_filename: CN_0020_01_FX
+    caption_id: 0
+  - sound_id: 10000373
+    sound_filename: CN_1071_01_FX
+    caption_id: 0
+  - sound_id: 10000374
+    sound_filename: CN_1081_01_FX
+    caption_id: 0
+  - sound_id: 10000375
+    sound_filename: CN_0622_01_FX
+    caption_id: 0
+  - sound_id: 10000376
+    sound_filename: CN_0511_07_FX
+    caption_id: 0
+  - sound_id: 10000377
+    sound_filename: CN_0623_07_FX
+    caption_id: 0
+  - sound_id: 10000378
+    sound_filename: CN_0750_01_FX
+    caption_id: 0
+  - sound_id: 10000379
+    sound_filename: CN_0626_01_FX
+    caption_id: 0
+  - sound_id: 10000380
+    sound_filename: CN_0626_01_SA
+    caption_id: 0
+  - sound_id: 10000381
+    sound_filename: CN_0780_04_FX
+    caption_id: 0
+  - sound_id: 10000382
+    sound_filename: CN_0921_01_FX
+    caption_id: 0
+  - sound_id: 10000383
+    sound_filename: CN_0711_01_FX
+    caption_id: 0
+  - sound_id: 10000384
+    sound_filename: CN_2020_01_JM
+    caption_id: 0
+  - sound_id: 10000385
+    sound_filename: CN_2020_02_JM
+    caption_id: 0
+  - sound_id: 10000386
+    sound_filename: CN_2020_03_JM
+    caption_id: 0
+  - sound_id: 10000387
+    sound_filename: CN_2020_04_JM
+    caption_id: 0
+  - sound_id: 10000388
+    sound_filename: CN_2020_05_JM
+    caption_id: 0
+  - sound_id: 10000389
+    sound_filename: CN_2020_06_JM
+    caption_id: 0
+  - sound_id: 10000390
+    sound_filename: CN_2020_07_JM
+    caption_id: 0
+  - sound_id: 10000391
+    sound_filename: CN_2020_08_JM
+    caption_id: 0
+  - sound_id: 10000392
+    sound_filename: CN_2020_09_JM
+    caption_id: 0
+  - sound_id: 10000393
+    sound_filename: CN_2020_10_JM
+    caption_id: 0
+  - sound_id: 10000394
+    sound_filename: CN_2030_01_JM
+    caption_id: 0
+  - sound_id: 10000395
+    sound_filename: CN_2030_02_JM
+    caption_id: 0
+  - sound_id: 10000396
+    sound_filename: CN_2030_03_JM
+    caption_id: 0
+  - sound_id: 10000397
+    sound_filename: CN_2030_04_JM
+    caption_id: 0
+  - sound_id: 10000398
+    sound_filename: CN_2030_05_JM
+    caption_id: 0
+  - sound_id: 10000399
+    sound_filename: CN_2030_06_JM
+    caption_id: 0
+  - sound_id: 10000400
+    sound_filename: CN_2030_07_JM
+    caption_id: 0
+  - sound_id: 10000401
+    sound_filename: CN_2040_01_JM
+    caption_id: 0
+  - sound_id: 10000402
+    sound_filename: CN_2050_01_JM
+    caption_id: 0
+  - sound_id: 10000403
+    sound_filename: CN_2051_01_JM
+    caption_id: 0
+  - sound_id: 10000404
+    sound_filename: CN_2052_01_JM
+    caption_id: 0
+  - sound_id: 10000405
+    sound_filename: CN_2070_01_JM
+    caption_id: 0
+  - sound_id: 10000406
+    sound_filename: CN_2070_02_JM
+    caption_id: 0
+  - sound_id: 10000407
+    sound_filename: CN_2070_03_JM
+    caption_id: 0
+  - sound_id: 10000408
+    sound_filename: CN_2070_04_JM
+    caption_id: 0
+  - sound_id: 10000409
+    sound_filename: CN_2070_05_JM
+    caption_id: 0
+  - sound_id: 10000410
+    sound_filename: CN_2070_06_JM
+    caption_id: 0
+  - sound_id: 10000411
+    sound_filename: CN_2070_07_JM
+    caption_id: 0
+  - sound_id: 10000412
+    sound_filename: CN_2070_08_JM
+    caption_id: 0
+  - sound_id: 10000413
+    sound_filename: CN_2070_09_JM
+    caption_id: 0
+  - sound_id: 10000414
+    sound_filename: CN_2070_10_JM
+    caption_id: 0
+  - sound_id: 10000415
+    sound_filename: CN_2090_01_JM
+    caption_id: 0
+  - sound_id: 10000416
+    sound_filename: CN_2090_02_JM
+    caption_id: 0
+  - sound_id: 10000417
+    sound_filename: CN_2100_01_JM
+    caption_id: 0
+  - sound_id: 10000418
+    sound_filename: CN_2110_01_JM
+    caption_id: 0
+  - sound_id: 10000419
+    sound_filename: CN_2120_01_JM
+    caption_id: 0
+  - sound_id: 10000420
+    sound_filename: CN_2130_01_JM
+    caption_id: 0
+  - sound_id: 10000421
+    sound_filename: CN_2140_01_JM
+    caption_id: 0
+  - sound_id: 10000422
+    sound_filename: CN_2150_01_JM
+    caption_id: 0
+  - sound_id: 10000423
+    sound_filename: CN_2160_01_JM
+    caption_id: 0
+  - sound_id: 10000424
+    sound_filename: CN_2170_01_JM
+    caption_id: 0
+  - sound_id: 10000425
+    sound_filename: CN_2171_01_JM
+    caption_id: 0
+  - sound_id: 10000426
+    sound_filename: CN_2180_01_JM
+    caption_id: 0
+  - sound_id: 10000427
+    sound_filename: CN_2200_01_JM
+    caption_id: 0
+  - sound_id: 10000428
+    sound_filename: CN_2210_01_JM
+    caption_id: 0
+  - sound_id: 10000429
+    sound_filename: CN_2160_02_JM
+    caption_id: 0
+  - sound_id: 10000430
+    sound_filename: CN_0291_01
+    caption_id: 0
+  - sound_id: 10000431
+    sound_filename: CN_0292_01
+    caption_id: 0
+  - sound_id: 10000432
+    sound_filename: CN_0293_01
+    caption_id: 0
+  - sound_id: 10000433
+    sound_filename: CN_0294_01
+    caption_id: 0
+  - sound_id: 10000434
+    sound_filename: CN_0295_01
+    caption_id: 0
+  - sound_id: 10000435
+    sound_filename: CN_0581_01_FX
+    caption_id: 0
+  - sound_id: 10000436
+    sound_filename: CN_0582_01_FX
+    caption_id: 0
+  - sound_id: 10000437
+    sound_filename: CN_0583_01_FX
+    caption_id: 0
+  - sound_id: 10000438
+    sound_filename: CN_0584_01_FX
+    caption_id: 0
+  - sound_id: 10000439
+    sound_filename: CN_2190_01_JM
+    caption_id: 0
+  - sound_id: 10000440
+    sound_filename: CN_2190_02_JM
+    caption_id: 0
+  - sound_id: 10000441
+    sound_filename: CN_2190_03_JM
+    caption_id: 0
+  - sound_id: 10000442
+    sound_filename: CN_0500_01_FX
+    caption_id: 0
+  - sound_id: 10000443
+    sound_filename: CN_0851_01_FX
+    caption_id: 0
+  - sound_id: 10000444
+    sound_filename: CN_0852_01_FX
+    caption_id: 0
+  - sound_id: 10000445
+    sound_filename: CN_0853_01_FX
+    caption_id: 0
+  - sound_id: 10000446
+    sound_filename: CN_0854_01_FX
+    caption_id: 0
+  - sound_id: 10000447
+    sound_filename: CN_0855_01_FX
+    caption_id: 0
+  - sound_id: 10000448
+    sound_filename: CN_0856_01_FX
+    caption_id: 0
+  - sound_id: 10000449
+    sound_filename: CN_2080_01_JM
+    caption_id: 0
+  - sound_id: 10000450
+    sound_filename: CN_2081_01_JM
+    caption_id: 0
+  - sound_id: 10000451
+    sound_filename: CN_2160_02_JM
+    caption_id: 0
+  - sound_id: 10000452
+    sound_filename: CN_2172_01_JM
+    caption_id: 0
+  - sound_id: 10000453
+    sound_filename: CN_2172_02_JM
+    caption_id: 0
+  - sound_id: 10000454
+    sound_filename: CN_2180_02_JM
+    caption_id: 0
+  - sound_id: 10000455
+    sound_filename: CN_2181_01
+    caption_id: 0
+  - sound_id: 10000456
+    sound_filename: CN_2181_01_JM
+    caption_id: 0
+  - sound_id: 10000457
+    sound_filename: CN_0952_01_FX
+    caption_id: 0

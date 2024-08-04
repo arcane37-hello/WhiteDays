@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150161c4cf3b151d963e45c9682bfff0, type: 3}
+  m_Name: TutorialDE
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Tutorial.xlsx
+  worksheetName: TutorialDE
+  dataArray:
+  - id: 2
+    title: Rennen und Hinsetzen
+    image: Tutorial02
+    desc: Durch Drücken auf #L1Button# oder #HideButton# Tasten kannst du laufen oder sitzen.<br>Im Sitzen verjüngest sich die Wahrscheinlichkeit von den Wächtern entdeckt zu werden.<br>Wenn du zu lange läufst wird dir schwindelig.<br>Bitte lege kurze Pausen ein.
+  - id: 4
+    title: Heilgegenstände
+    image: Tutorial04
+    desc: Mit Kaffee, Sojamilch, Beruhigungspillen, und dem Verbandskasten kannst du deine Gesundheit und Ausdauer sofort wiederherstellen.<br> Drücke dazu den [Verwenden Button] im Menü Gesundheit deines Inventars.
+  - id: 5
+    title: Interagieren
+    image: Tutorial05
+    desc: In der Nähe von Objekten mit denen du interagieren kannst, wird das [Kreissymbol] angezeigt.<br>Wenn der Cursor auf das Icon ausgerichtet ist, drücke #SelectButton#, um zu interagieren.<br>Durch gleichzeitiges Halten der  #R2Button# und bewegen des #RStick#, kannst du den Cursor gezielt ausrichten.<br>Items oder Dokumente können so aufgenommen werden.<br>Bei verwendbaren Gegenständen wird das entsprechende Icon angezeigt.
+  - id: 6
+    title: Dokumente
+    image: Tutorial06
+    desc: Im Schulgebäude befinden sich an einigen Stellen Dokumente.<br>In diesen Dokumenten findest Du zahlreiche Hintergrundgeschichten über die Schule und Hinweise, die dir weiterhelfen werden.<br>Solltest Du einmal nicht wissen, wie es weitergeht, nimm bitte die Dokumente ganz genau unter die Lupe.
+  - id: 7
+    title: Sammlungen
+    image: Tutorial07
+    desc: Im Laufe des Spiels kannst du zahlreiche Geistergeschichten und Geister entdecken und sammeln.<br>Wenn Du das Speil einmal durchgespielt hast, kannst du deine Sammlung der zahlreichen alternativen Enden vervollständigen.<br>Unter [Hauptmenü-Sammlungen] kannst Du den Inhalt und den Fortschritt deiner Sammlung überprüfen.
+  - id: 8
+    title: Feuerzeug
+    image: Tutorial08
+    desc: Mit #R1Button# kannst du das Feuerzeug an anzünden oder löschen.<br>Mit dem Feuerzeug kannst du für etwas Licht sorgen, ohne von den Wächtern entdeckt zu werden, jedoch ist der Lichtkegel sehr klein.<br>Wenn du zu laufen beginnst, erlischt das Feuerzeug.
+  - id: 9
+    title: SMS
+    image: Tutorial09
+    desc: Für Anfänger gibt es die Möglichkeit Spiel-Tips in Form von Textnachrichten zu erhalten.<br>Auf höheren Schwierigkeitsgraden ist diese Hilfsfunktion deaktiviert.
+  - id: 11
+    title: Speichern des Spiels
+    image: Tutorial11
+    desc: An den schwarzen Brettern, die in der Schule aufgehängt sind, kannst Du das Spiel speichern.<br>Falls es zu einem Gameover kommt oder Du das Spiel unterbrechen musst, kannst du das Spiel an deinem letzen Speicherpunkt fortsetzten.<br>Beachte bitte, dass nicht gespeicherte Spielfortschritte verloren gehen.
+  - id: 12
+    title: Türen
+    image: Tutorial12
+    desc: Wenn du dich einer Tür näherst, die nich abgeschlossen ist, wird das [Kreis-Symbol] angezeigt.<br>Durch Drücken auf #SelectButton# kannst Du Türen öffnen oder schließen.<br>Bei verschlossen Türen wird das Schlüsselsymbol zum öffnen der Tür nur dann angezeigt, wenn du im Besitz eines Schlüssels bist.<br>Wenn das Schlüssel fehlt" Symbol angezeigt wird, ist es nicht möglich diese Türe zu öffnen.
+  - id: 13
+    title: Licht
+    image: Tutorial13
+    desc: Du benötigst Licht, um Items und Dokumente aufnehmen zu können und mit Gegenständen interagieren zu können.<br>Drücke den [Lichtschalter] im Klassenzimmer, um das Licht einzuschalten.<br>Der Lichtschalter blinkt etwas auf, damit du ihn in der Dunkelheit finden kannst. <br> Versuche die Lichtschalter in der Nähe der Türen zu finden.
+  - id: 14
+    title: Zeitbegrenzung
+    image: Tutorial14
+    desc: Bestimmte Rätsel müssen unter Zeitdruck gelöst werden.<br>Die verbleibende Zeit wird dir am linken Bildschirmrand angezeigt, sobald die Uhr zu ticken beginnt.<br>Vorsicht!<br>Während du ein Rätsel mit Zeitbeschränkung löst, kannst Du das Spiel nicht speichern.
+  - id: 15
+    title: Rätsel
+    image: Tutorial15
+    desc: Einige Rätsel müssen mit dem Cursor gelöst werden.<br>Wenn der Cursor zu einer Hand wird, kannst du mit diesem Teil des Rätsel interagieren.<br>Drücke #SelectButton# und bewege die Objekte, um das Rätsel zu lösen.
+  - id: 16
+    title: Rätsel
+    image: Tutorial16
+    desc: "Mit #LStick# bewegst du den Cursor und wählst die Puzzleteile aus.\nDrücke #SelectButton#, um die Teile auszurichten.\nWenn die Kanten der Teile richtig ineinander gepasst sind, ist das Rätsel gelöst."
+  - id: 17
+    title: Charakterwechsel
+    image: Tutorial17
+    desc: Ab jetzt wird das Spiel aus der Perspektive von Ji-Min fortgesetzt.<br>Sämtliche Gegenstände von Hui-Min<br>(Schlüssel, Sojamilch, Notizen...) können nicht mehr verwendet werden.
+  - id: 18
+    title: Rätsel
+    image: Tutorial18
+    desc: Für das Lösen einiger Rätsel benötigst du Fingerspitzengefühl.<br>Verwende #LStick#, um den Cursor zu bewegen und Objekte anzuwählen.<br>Hier und da sind Hinweise zum Lösen der Rätsel versteckt.<br>Sammle die Hinweise, finde die Geheimzahl heraus und löse das Rätsel.
+  - id: 501
+    title: Interagieren
+    image: Tutorial05
+    desc: In der Nähe von Objekten mit denen du interagieren kannst, wird [Kreissymbol] angezeigt.<br>Wenn der Cursor auf das Icon ausgerichtet ist, [Rechtsklick] zum Interagieren.<br>Items oder Dokumente können so aufgenommen werden.<br>Bei verwendbaren Gegenständen wird das entsprechende Icon angezeigt.
+  - id: 105
+    title: Interagieren
+    image: Tutorial05
+    desc: Befindet sich ein interaktives Objekt in der Nähe, wird ein [rundes Symbol] angezeigt.<br>Wenn du auf das Symbol klickst, kannst du mit dem NPC interagieren.<br>Handelt es sich um ein Dokument oder einen Gegenstand, nimmst du das Objekt auf.<br>Wenn der Gegenstand verwendet werden kann, wir dieses Symbol ebenfalls angezeigt.
+  - id: 112
+    title: Türen
+    image: Tutorial12
+    desc: Wenn du eine Tür öffnest, wird ein [rundes Symbol] angezeigt.<br>Wenn du das Symbol klickst oder dich der Tür näherst, öffnet sie sich. Offene Türen schließen sich automatisch, wenn du dich von ihnen entfernst.<br>Ist eine Tür verschlossen, erscheint ein Symbol zum Öffnen der Tür, wenn du den passenden Schlüssel besitzt.<br>Wird kein Symbol angezeigt, wenn du dich vor einer Tür befindest, kannst du sie zum gegenwärtigen Zeitpunkt nicht öffnen.
+  - id: 115
+    title: Rätsel
+    image: Tutorial15
+    desc: Einige Rätsel müssen mit dem Cursor gelöst werden.<br>Wenn der Cursor die Form einer Hand annimmt, kann der entsprechende Bereich manipuliert  werden.<br>Bewege die Objekte und versuche das Rätsel zu lösen.
+  - id: 116
+    title: Rätsel
+    image: Tutorial16
+    desc: "Bewege den Cursor und wähle die Fragmente.\nDrehe die Fragmente mit Hilfe des Cursors.\nWenn alle Fragmente richtig eingepasst sind, ist das Rätsel gelöst."
+  - id: 118
+    title: Rätsel
+    image: Tutorial18
+    desc: Einige Rätsel verlangen nach großer Präzision, um gelöst zu werden.<br>Du kannst den Cursor bewegen und den gewünschten Bereich auswählen.<br>An einigen Stellen sind Hinweise versteckt, die Dir bei der Lösung der Rätsel helfen.<br>Sammle die Hinweise, finde das Passwort und löse die Rätsel.
+  - id: 19
+    title: Karte
+    image: Tutorial19
+    desc: Mit der Karte kannst Du deinen Standort bestimmen und Dich mit dem Aufbau der Schule vertraut machen.<br>Unerforschte Bereiche auf der Karte sind mit Rot markiert.<br>Auf einfachen Schwierigkeitsgraden steht Dir ein Guide zur verfügung, der Dich durch das Spiel führt.
+  - id: 10
+    title: Hausmeister
+    image: Tutorial10
+    desc: Sollte der Hausmeister Dich auf seinem Rundgang entdecken, wird er Dich erbarmungslos verfolgen.<br>Wenn Du Licht benutzt oder Dich schnell bewegst, steigt die Wahrscheinlichkeit entdeckt zu werden.<br>Auf Schwierigkeitsgraden leichter als Normal, wirst Du mit einem Augensymbol vor dem Hausmeister gewarnt, wenn er sich in der Nähe befindet.
+  - id: 102
+    title: Rennen und Hinsetzen
+    image: Tutorial02
+    desc: Drücke die Rennen [##keyRun##]/Sitzen [##keyHide##]-Taste, um zu rennen oder dich zu setzen.<br>Wenn du dich setzt, können dich die Hausmeister nicht mehr so leicht entdecken.<br>Wenn du zu lange rennst, wird dir schwindelig. Du solltest dann eine Pause einlegen.
+  - id: 108
+    title: Feuerzeug
+    image: Tutorial08
+    desc: Mit der Taste Feuerzeug [##keyLighter##] kannst Du das Feuerzeug verwenden.<br>Mit dem Feuerzeug kannst du Bereiche beleuchten, ohne Gefahr zu laufen, von einem Hausmeister erwischt zu werden. Die Sichtweite ist jedoch eingeschränkt.<br>Wenn du rennst, geht dein Feuerzeug aus.

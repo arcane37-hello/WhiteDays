@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e534fd138b3e1419e0e42451eecd4fa, type: 3}
+  m_Name: Modulator
+  m_EditorClassIdentifier:
+  enabled: 1
+  m_InputNodeList:
+  - {fileID: 11400000, guid: e825d5b062dcfb54caea606d09a4c5d1, type: 2}
+  m_OutputNode: {fileID: 11400000, guid: 6c3e67cd00dc93440b7a1410f1746a1a, type: 2}
+  m_MinPitch: 0.5
+  m_MaxPitch: 0.7
+  m_MinVolume: 0.5
+  m_MaxVolume: 0.5

@@ -1,0 +1,364 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8518c58100b73b5b8baede22969e95a, type: 3}
+  m_Name: SubtitleRU
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Subtitle.xlsx
+  worksheetName: SubtitleRU
+  dataArray:
+  - id: D_SA_01_END_01
+    text: Давай, поторопись!
+  - id: D_SA_01_END_02
+    text: Что? Это потому что это туалет для девочек?
+  - id: D_SA_01_END_03
+    text: Все хорошо, так что поторопись и приходи.
+  - id: D_SA_01_END_04
+    text: Давай, поторопись! Как ты?
+  - id: D_SA_01_END_05
+    text: Эй! Разве вы не слышите меня?
+  - id: D_SA_01_Blocked_01
+    text: Что? Есть что сказать?
+  - id: D_SA_01_Blocked_02
+    text: Эй! Уйди в сторону!
+  - id: D_SA_01_Blocked_03
+    text: Эй! Что вы делаете? Уйди в сторону!
+  - id: D_SA_01_Core_01
+    text: Чжихен и я не знаю, что мы будем делать...
+  - id: D_SA_01_Core_02
+    text: Слава богу, парень, как ты появился.
+  - id: D_SA_01_Core_03
+    text: Ты определенно имеешь все необходимое, чтобы помочь мне.
+  - id: D_SA_02_Touched_01
+    text: Если ты посмотришь вокруг, ты сможешь найти то, что тебе нужно.
+  - id: D_SA_02_Touched_02
+    text: Я думаю, что я увидел лестницу в Мастерской.
+  - id: D_SA_02_Touched_03
+    text: Вы не думаете, что нам понадобится что-то вроде кусачек, чтобы перерезать металлический щит?
+  - id: D_SA_02_Touched_04
+    text: Что ты делаешь? Ты не нашел его еще?
+  - id: D_SA_02_Touched_05
+    text: Эй! Ты сказал, что поможешь мне!
+  - id: D_SA_02_Touched_06
+    text: Тьфу! Я не знала, что ты такой
+  - id: D_SA_03_Touched_01
+    text: Да? Вы еще не ушли?
+  - id: D_SA_03_Touched_02
+    text: Ты что, боишься? Трус! Ха-ха!
+  - id: D_SA_03_Touched_03
+    text: Не беспокойся обо мне. Иди своей дорогой.
+  - id: D_SA_03_Touched_04
+    text: Я сказала, иди!
+  - id: D_SA_03_Touched_05
+    text: В чем твоя проблема?
+  - id: D_SA_03_Touched_06
+    text: Отстань от меня и проваливай!
+  - id: D_SA_00_FinalReaction
+    text: Тьфу! Ты меня уже достал!
+  - id: D_SA_00_Anyway
+    text: В любом случае,
+  - id: D_SA_00_SitReaction
+    text: О, боже, ты меня напугал!
+  - id: D_SA_00_LegTouched_01
+    text: Эй! Что ты делаешь?!
+  - id: D_SA_00_LegTouched_02
+    text: Эй! Хватит!
+  - id: D_SA_00_LegTouched_03
+    text: Эй! Ты хочешь, чтобы я надрал тебе зад?
+  - id: D_SA_00_LegTouched_04
+    text: Я предупреждаю тебя...
+  - id: D_SA_00_LegTouched_05
+    text: Вот именно! Дотронешься до меня еще раз и я...
+  - id: D_SA_00_LegTouched_06
+    text: Заблудидись!
+  - id: D_SY_01_Blocked_01
+    text: Пожалуйста, шевелись.
+  - id: D_SY_01_Blocked_02
+    text: Пожалуйста, уйди с моего пути.
+  - id: D_SY_01_Blocked_03
+    text: Что вы задумали?
+  - id: D_SY_01_End_01
+    text: Здесь, давай попробуй.
+  - id: D_SY_01_End_02
+    text: Я думала, ты сможешь найти Чжихен.
+  - id: D_SY_01_End_03
+    text: Давайте попробуйте поискать здесь.
+  - id: D_SY_01_End_04
+    text: Ты собираешься просто стоять там?
+  - id: D_SY_01_End_05
+    text: Ладно, мне плевать. Делай, что хочешь.
+  - id: D_SY_01_Core_01
+    text: Интересно, почему Чжихен пришла в школу в такое время?
+  - id: D_SY_01_Core_02
+    text: И то же самое можно сказать и о тебе.
+  - id: D_SY_01_Core_03
+    text: Мне, кажется, здесь много людей, которые не должны быть сегодня вечером.
+  - id: D_SY_02_Blocked_01
+    text: Что? Ты нашел что-нибудь?
+  - id: D_SY_02_Blocked_02
+    text: Тебе есть что сказать?
+  - id: D_SY_02_Blocked_03
+    text: Ты действительно странная.
+  - id: D_SY_02_Touched_01
+    text: Что случилось?
+  - id: D_SY_02_Touched_02
+    text: Нам лучше пойти в кабинет Истории на первом этаже.
+  - id: D_SY_02_Touched_03
+    text: Не время, чтобы стоять тут.
+  - id: D_SY_02_Touched_04
+    text: Мне нужно найти улики.
+  - id: D_SY_02_Touched_05
+    text: Ты действительно неприятен... почему ты так себя ведешь?
+  - id: D_SY_02_Touched_06
+    text: Такие люди как ты, просто…
+  - id: D_SY_03_Blocked_01
+    text: Не могли бы вы подвинуться?
+  - id: D_SY_03_Blocked_02
+    text: Я отведу тебя туда, следуй за мной.
+  - id: D_SY_03_Blocked_03
+    text: Мы не можем идти, потому что ты так себя ведешь.
+  - id: D_SY_03_End_01
+    text: Сюда.
+  - id: D_SY_03_End_02
+    text: Это дверь.
+  - id: D_SY_03_End_03
+    text: Эта дверь открывается только ключ-картой.
+  - id: D_SY_03_End_04
+    text: Я сказал, идти сюда.
+  - id: D_SY_03_End_05
+    text: Ты прикалываешься?
+  - id: D_SY_03_Core_01
+    text: Я рассказал вам о ключ-карте Нового здания?
+  - id: D_SY_03_Core_02
+    text: Вы сможете направиться к Главному зданию с ключ-картой.
+  - id: D_SY_03_Core_03
+    text: Нам лучше найти другие подсказки.
+  - id: D_SY_04_Touched_01
+    text: Я в порядке. Не беспокойся обо мне. Просто иди.
+  - id: D_SY_04_Touched_02
+    text: Если бы не ты, я никогда бы не зашла так далеко.
+  - id: D_SY_04_Touched_03
+    text: Я не буду просить вас больше. Пожалуйста, оставьте.
+  - id: D_SY_04_Touched_04
+    text: Почему ты не идешь?
+  - id: D_SY_04_Touched_05
+    text: Почему ты так себя ведешь?
+  - id: D_SY_04_Touched_06
+    text: Что, черт возьми, ты думаешь?
+  - id: D_SY_00_FinalReaction
+    text: Тьфу, я так устал от тебя.
+  - id: D_SY_00_Anyway
+    text: В любом случае...
+  - id: D_SY_00_SitReaction
+    text: Что-то там?
+  - id: D_SY_00_LegTouched_01
+    text: что вы думаете, делать сейчас?
+  - id: D_SY_00_LegTouched_02
+    text: Ты жалок!
+  - id: D_SY_00_LegTouched_03
+    text: Вот почему я терпеть не могу мальчишек!
+  - id: D_SY_00_LegTouched_04
+    text: В чем твоя проблема? Я сказал тебе прекратить!
+  - id: D_SY_00_LegTouched_05
+    text: Ладно, я предупреждаю вас в последний раз. Хватит!
+  - id: D_SY_00_LegTouched_06
+    text: Извращенец!
+  - id: D_JH_01_Touched_01
+    text: Можешь проверить для меня?
+  - id: D_JH_01_Touched_02
+    text: Иди посмотри. Я так испугалась...
+  - id: D_JH_01_Touched_03
+    text: Разве вы не слышите, как играет пианино?
+  - id: D_JH_01_Touched_04
+    text: Это может быть призрак мертвого учителя музыки!
+  - id: D_JH_01_Touched_05
+    text: Что с тобой? Уходи!
+  - id: D_JH_01_Touched_06
+    text: Мне очень, очень страшно!
+  - id: D_JH_02_Blocked_01
+    text: В чем дело?
+  - id: D_JH_02_Blocked_02
+    text: В чем дело? Давайте поторопимся!
+  - id: D_JH_02_Blocked_03
+    text: Пожалуйста, не надо... я реально в ужасе!
+  - id: D_JH_02_Touched_01
+    text: Хм... а куда мы едем?
+  - id: D_JH_02_Touched_02
+    text: Вы думаете это Сона?
+  - id: D_JH_02_Touched_03
+    text: Я думаю, каждый раз становится все хуже...
+  - id: D_JH_02_Touched_04
+    text: Пожалуйста, прекрати говорить со мной! Я боюсь...
+  - id: D_JH_02_Touched_05
+    text: Зачем ты это делаешь? Я попросил тебя остановиться!
+  - id: D_JH_02_Touched_06
+    text: Есть что-то для вас!!
+  - id: D_JH_02_Core_01
+    text: Я слышал, была студентка, которая покончила с собой с помощью яда на втором этаже класса Искусства.
+  - id: D_JH_02_Core_02
+    text: И кажется студентка была беременной на тот момент...
+  - id: D_JH_02_Core_03
+    text: Школа старается сказать это только слухи
+  - id: D_JH_02_Core_04
+    text: Но я думаю, что это правдивая история.
+  - id: D_JH_02_Core_05
+    text: Я иногда слышу плач ребенка где-то здесь...
+  - id: D_JH_03_Touched_01
+    text: Оставь меня в покое!
+  - id: D_JH_03_Touched_02
+    text: Я сказал тебе, убирайся!
+  - id: D_JH_03_Touched_03
+    text: …
+  - id: D_JH_03_Touched_04
+    text: …
+  - id: D_JH_03_Touched_05
+    text: Еще раз тронешь меня, и я ... я буду... ты об этом пожалеешь!
+  - id: D_JH_03_Touched_06
+    text: Хехехехех хахахахха тхетхетхетхе!
+  - id: D_JH_04_Touched_01
+    text: Что? Я думала, что мы собирались найти, Сона?
+  - id: D_JH_04_Touched_02
+    text: Я буду ждать тебя здесь. Иди.
+  - id: D_JH_04_Touched_03
+    text: Слушай, тебе не придется беспокоиться обо мне.
+  - id: D_JH_04_Touched_04
+    text: Перестать быть надоедливой.
+  - id: D_JH_04_Touched_05
+    text: Что это? Тебе что-то нужно от меня?
+  - id: D_JH_04_Touched_06
+    text: Может ты просто сейчас уйдешь?
+  - id: D_JH_00_FinalReaction
+    text: Я больше не скажу ни слова!
+  - id: D_JH_00_Anyway
+    text: В любом случае...
+  - id: D_JH_00_SitReaction
+    text: Чт.… что происходит?
+  - id: D_JH_00_LegTouched_01
+    text: Эй! Следи за руками!
+  - id: D_JH_00_LegTouched_02
+    text: Что ты делаешь? Пожалуйста, прекрати...
+  - id: D_JH_00_LegTouched_03
+    text: Я никогда не думала, что ты будешь одним из тех парней.
+  - id: D_JH_00_LegTouched_04
+    text: Что с тобой?
+  - id: D_JH_00_LegTouched_05
+    text: Ты запала на меня?
+  - id: D_JH_00_LegTouched_06
+    text: Я сказала, отвали от меня!!
+  - id: D_mj_01_Touched_01
+    text: Я говорил, что это место было заперто...!
+  - id: D_mj_01_Touched_02
+    text: Что-нибудь еще?
+  - id: D_mj_01_Touched_03
+    text: Я тебя интересую?
+  - id: D_mj_01_Touched_04
+    text: Разве у тебя нет девушек дома?
+  - id: D_mj_01_Touched_05
+    text: Ты любуешься моими ногами?
+  - id: D_mj_01_Touched_06
+    text: 'Прекрати... '
+  - id: D_mj_01_Touched_07
+    text: Ты действуешь мне на нервы.
+  - id: D_mj_01_Touched_08
+    text: Прекрати или я тебя стукну!!!
+  - id: SFX_Event_Maze_Voice1_01
+    text: Эй Наён, это я.
+  - id: SFX_Event_Maze_Voice1_02
+    text: Эй? Это я, Сона.
+  - id: SFX_Event_Maze_Voice1_03
+    text: Сона?
+  - id: SFX_Event_Maze_Voice1_04
+    text: Ой, правда? Я что, похожа на Сона?
+  - id: SFX_Event_Maze_Voice1_05
+    text: Ну, может потому, что мы разговариваем по телефону.
+  - id: SFX_Event_Maze_Voice1_06
+    text: В любом случае, ты хочешь приехать в мой дом завтра? Моя мама хочет, дать кое-что...
+  - id: SFX_Event_Maze_Voice2_01
+    text: Здравствуйте, Миссис Хан. Как ваши дела?
+  - id: SFX_Event_Maze_Voice2_02
+    text: Ха-ха, это я, Сона мама.
+  - id: SFX_Event_Maze_Voice2_03
+    text: Прости, что не позвонила раньше.
+  - id: SFX_Event_Maze_Voice2_04
+    text: Ха-ха, Наён действительно заботится о Сона?
+  - id: SFX_Event_Maze_Voice2_05
+    text: Да... моя дочь такая хрупкая, понимаешь? Я всегда благодарна за то, что Наён присматривает за ней.
+  - id: SFX_Event_Maze_Voice2_06
+    text: Пожалуйста! Не говорите ей только. Ха-ха...
+  - id: SFX_Event_Maze_Voice2_07
+    text: Почему бы нам не устроить ужин с детьми какое-то время?
+  - id: SFX_Event_Maze_Voice2_08
+    text: Хорошо. Ладно.
+  - id: SFX_Event_Maze_Voice3_01
+    text: Эй, На-янг, посмотри на меня.
+  - id: SFX_Event_Maze_Voice3_02
+    text: Ха-ха, я всегда благодарна тебе.
+  - id: SFX_Event_Maze_Voice3_03
+    text: Это должно быть трудно для тебя, учиться и оставаться со мной, но это действительно помогает мне.
+  - id: SFX_Event_Maze_Voice3_04
+    text: Давай, только не смейся. Скажи что-нибудь!
+  - id: SFX_Event_Maze_Voice4_01
+    text: На-янг? Где ты? Бросай играться…. выходи...
+  - id: SFX_Event_Maze_Voice4_02
+    text: Ааааах!! Кашель! Кашель!
+  - id: SFX_Event_Maze_Voice4_03
+    text: Огонь!! Тьфу... Кхе! Кашель!
+  - id: SFX_Event_Maze_Voice4_04
+    text: Мама... На-янг! Аааааахаа!! Кашель! Кашель!
+  - id: SFX_Event_Maze_Voice4_05
+    text: Кто-нибудь, помогите мне! Аха-ха!! Пожалуйста, помогите...
+  - id: SFX_Event_Maze_Voice4_06
+    text: Кашель! Кашель! Тьфу...
+  - id: SFX_Event_Maze_Voice5_01
+    text: Отпусти меня! Там моя дочь!
+  - id: SFX_Event_Maze_Voice5_02
+    text: Сона!! Сона!!!
+  - id: SFX_Event_Maze_Voice5_03
+    text: Уйдите. Пожалуйста, дайте мне пройти.
+  - id: SFX_Event_Maze_Voice5_04
+    text: Нет! Отпусти меня!! Сона!! Сона!! О, нет... Сона!! Сона!! О, боже… Сона!!
+  - id: SFX_Event_Maze_Voice6_01
+    text: Эй? Кто-нибудь?
+  - id: SFX_Event_Maze_Voice6_02
+    text: Мам... Мам? Мама, где ты?
+  - id: SFX_Event_Maze_Voice6_03
+    text: Я ничего не вижу... Мама? Мама...?
+  - id: SFX_Event_Maze_Voice6_04
+    text: Мама??
+  - id: SFX_Event_Maze_Voice7_01
+    text: Посмотри на меня, Наён Хан. Вы видите меня?
+  - id: SFX_Event_Maze_Voice7_02
+    text: Где вы были, когда я умерла?
+  - id: SFX_Event_Maze_Voice7_03
+    text: Не веди себя, словно тебе грустно. Не притворяйтесь.
+  - id: SFX_Event_Maze_Voice7_04
+    text: Ты почувствуешь мою боль.
+  - id: SFX_Event_Maze_Voice7_05
+    text: Хехехехеххех
+  - id: SFX_Event_Maze_Voice8_01
+    text: Привет, сестренка, ужин готов. На-янг? Я сказала прийти на ужин.
+  - id: SFX_Event_Maze_Voice8_02
+    text: Разве ты не хочешь поесть?
+  - id: SFX_Event_Maze_Voice8_03
+    text: Открой дверь. Почему Вы не выходите их комнаты?
+  - id: SFX_Event_Maze_Voice8_04
+    text: Что в этом плохого?
+  - id: SFX_Event_Maze_Voice8_05
+    text: Гах! Почему ты злишься на меня!?
+  - id: SFX_Event_Cassette_Play_01
+    text: Огонь!!
+  - id: SFX_Event_Cassette_Play_02
+    text: Тьфу... Кхе! Кашель!
+  - id: SFX_Event_Cassette_Play_03
+    text: Мама... Наён!
+  - id: SFX_Event_Cassette_Play_04
+    text: Аххххххххх!! Кашель! Кашель!
+  - id: SFX_Event_Cassette_Play_05
+    text: Кто-нибудь, помогите мне! Аххххххххх!! Пожалуйста, помогите...

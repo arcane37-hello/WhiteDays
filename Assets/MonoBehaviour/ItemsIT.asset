@@ -1,0 +1,862 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07a5dfe14f036317946630f406b9a1c, type: 3}
+  m_Name: ItemsIT
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Items.xlsx
+  worksheetName: ItemsIT
+  dataArray:
+  - id: 1
+    type: 0
+    mesh: MobilePhone
+    icon: MobilePhone
+    name: Cellulare
+    desc: È il cellulare di Hee-Min.
+  - id: 2
+    type: 0
+    mesh: MobilePhone_jimin
+    icon: MobilePhone
+    name: Cellulare
+    desc: '-'
+  - id: 10000
+    type: 0
+    mesh: Candybox
+    icon: Candybox
+    name: Dono per il white day
+    desc: Un dono per il white day di qualcuno per la sua fiamma. Contiene dolciumi.
+  - id: 10010
+    type: 0
+    mesh: Diary
+    icon: Diary
+    name: Diario di So-young
+    desc: 'Questo diario è di So-Young. Sulla copertina c''è scritto: "So-Young Han, 3° anno, Aula comune 8".'
+  - id: 10020
+    type: 0
+    mesh: SchoolMagazine
+    icon: SchoolMagazine
+    name: Rivista scolastica
+    desc: Questa è la rivista scolastica pubblicata dal liceo Yeondu. Dato che è il primo numero dell'anno, contiene anche una mappa della scuola.
+  - id: 10030
+    type: 0
+    mesh: Nipper
+    icon: Nipper
+    name: Tagliafili
+    desc: Una semplice tagliafili. Puoi usarla per tagliare reti e fili sottili.
+  - id: 10040
+    type: 0
+    mesh: TalismanFri
+    icon: TalismanFri
+    name: Gettone Metallo
+    desc: Un gettone in legno con sopra il simbolo del Metallo. Emana vibrazioni portafortuna.
+  - id: 10050
+    type: 0
+    mesh: Driver1
+    icon: Driver
+    name: Cintura porta-attrezzi
+    desc: Una cintura porta-attrezzi da operaio. Contiene cacciaviti di varie dimensioni.
+  - id: 10051
+    type: 0
+    mesh: Driver2
+    icon: Driver
+    name: Cintura porta-attrezzi
+    desc: Una cintura porta-attrezzi da operaio. Contiene cacciaviti di varie dimensioni.
+  - id: 10052
+    type: 0
+    mesh: Driver3
+    icon: Driver
+    name: Cintura porta-attrezzi
+    desc: Una cintura porta-attrezzi da operaio. Contiene cacciaviti di varie dimensioni.
+  - id: 10060
+    type: 0
+    mesh: Spray
+    icon: Spray
+    name: Spray anti-insetti
+    desc: È uno spray contro gli insetti. Un segnale ben visibile avverte di non usarlo vicino al fuoco.
+  - id: 10070
+    type: 0
+    mesh: poison
+    icon: Poison
+    name: Solvente chimico
+    desc: Un solvente usato nel laboratorio di chimica. Sembra tossico e presenta un simbolo con teschio e ossa.
+  - id: 10080
+    type: 0
+    mesh: TalismanThu
+    icon: TalismanThu
+    name: Gettone Legno
+    desc: Un gettone in legno con sopra il simbolo del Legno. Emana vibrazioni portafortuna.
+  - id: 10090
+    type: 0
+    mesh: CassetteTape
+    icon: CassetteTape
+    name: Nastro misterioso
+    desc: C'è qualcosa di registrato su questo nastro. Ma la registrazione è al contrario ed è indecifrabile.
+  - id: 10100
+    type: 0
+    mesh: PicturePiece1_1
+    icon: PicturePiece1
+    name: Pezzo di fotografia 1
+    desc: Parte di una fotografia strappata. Sul retro sono scritti dei numeri.
+  - id: 10101
+    type: 0
+    mesh: PicturePiece1_2
+    icon: PicturePiece1
+    name: Pezzo di fotografia 1
+    desc: Parte di una fotografia strappata. Sul retro sono scritti dei numeri.
+  - id: 10102
+    type: 0
+    mesh: PicturePiece1_3
+    icon: PicturePiece1
+    name: Pezzo di fotografia 1
+    desc: Parte di una fotografia strappata. Sul retro sono scritti dei numeri.
+  - id: 10110
+    type: 0
+    mesh: PicturePiece2
+    icon: PicturePiece2
+    name: Pezzo di fotografia 2
+    desc: Parte di una fotografia strappata. Sembra che ne servano altre per completarla.
+  - id: 10120
+    type: 0
+    mesh: PicturePiece3
+    icon: PicturePiece3
+    name: Pezzo di fotografia 3
+    desc: Parte di una fotografia strappata. Sembra che ne servano altre per completarla.
+  - id: 10130
+    type: 0
+    mesh: Pottery_Remocon
+    icon: Pottery
+    name: Vaso
+    desc: Il vaso nel ritratto dell'insegnante di musica. Qualcosa si muove al suo interno.
+  - id: 10131
+    type: 0
+    mesh: Pottery
+    icon: Pottery
+    name: Vaso
+    desc: Il vaso nel ritratto dell'insegnante di musica.
+  - id: 10140
+    type: 0
+    mesh: RemoteControl
+    icon: RemoteControl
+    name: Telecomando stereo
+    desc: Un telecomando per impianti stereo.
+  - id: 10150
+    type: 0
+    mesh: CD_Key
+    icon: CD
+    name: CD
+    desc: Il CD trovato nell'Aula di Musica. Sembra appartenesse all'insegnante di musica defunto. Pesa un po' troppo per essere un CD.
+  - id: 10151
+    type: 0
+    mesh: CD
+    icon: CD
+    name: CD
+    desc: Il CD trovato nell'Aula di Musica. Sembra appartenesse all'insegnante di musica defunto.
+  - id: 10160
+    type: 0
+    mesh: ClayDollIncomplete
+    icon: ClayDoll
+    name: Bambola d'argilla secca
+    desc: Una bambola di argilla a forma di donna. Sembra secchissima.
+  - id: 10170
+    type: 0
+    mesh: ClayDollHot
+    icon: ClayDoll
+    name: Bambola d'argilla incandescente
+    desc: Una bambola d'argilla resa rossa incandescente nella fornace. Dovrà essere raffreddata sotto l'acqua.
+  - id: 10180
+    type: 0
+    mesh: ClayDollComplete
+    icon: ClayDoll
+    name: Bambola d'argilla rifinita
+    desc: Una bambola d'argilla rifinita. Ha la forma di una donna.
+  - id: 10190
+    type: 0
+    mesh: ClayDollCouple
+    icon: ClayDollCouple
+    name: Bambola d'argilla di madre con bambino
+    desc: Una bambola d'argilla che raffigura una madre e un bambino che si tengono per mano.
+  - id: 10200
+    type: 0
+    mesh: talismanSat
+    icon: talismanSat
+    name: Gettone Terra
+    desc: Un gettone in legno con sopra il simbolo della Terra. Emana vibrazioni portafortuna.
+  - id: 10210
+    type: 0
+    mesh: VideoTape
+    icon: VideoTape
+    name: Videocassetta
+    desc: Una videocassetta trovata nell'ufficio del Preside. Non ha etichetta.
+  - id: 10220
+    type: 0
+    mesh: SignBoard
+    icon: SignBoard
+    name: Targa con le regole della Biblioteca
+    desc: Una targa il cui rivestimento plastificato la rende ideale per infilarla nelle fessure.
+  - id: 10230
+    type: 0
+    mesh: TalismanTaegeuk
+    icon: TalismanTaegeuk
+    name: Gettone Yin-Yang
+    desc: Un gettone in legno con sopra il simbolo Yin-Yang. Emana vibrazioni portafortuna.
+  - id: 10240
+    type: 0
+    mesh: CassetteBand
+    icon: CassetteBand
+    name: Cinghia
+    desc: Una cinghia in gomma trovata nel registratore rotto.
+  - id: 10250
+    type: 0
+    mesh: L_Rod
+    icon: L_Rod
+    name: Bacchetta a L
+    desc: Una bacchetta a forma di L.
+  - id: 10260
+    type: 0
+    mesh: talismanWed
+    icon: talismanWed
+    name: Gettone Acqua
+    desc: Un gettone in legno con sopra il simbolo dell'Acqua. Emana vibrazioni portafortuna.
+  - id: 10270
+    type: 0
+    mesh: ExtinguisherA
+    icon: ExtinguisherA
+    name: Estintore, tipo A
+    desc: Un estintore per incendi. C'è scritto che può essere usato per fuochi normali.
+  - id: 10280
+    type: 0
+    mesh: ExtinguisherB
+    icon: ExtinguisherB
+    name: Estintore, tipo B
+    desc: Un estintore per incendi. C'è scritto che può essere usato per fiamme derivate da sostanze oleose.
+  - id: 10290
+    type: 0
+    mesh: ExtinguisherC
+    icon: ExtinguisherC
+    name: Estintore, tipo C
+    desc: Un estintore per incendi. C'è scritto che può essere usato per fiamme derivate da circuiti elettrici.
+  - id: 10300
+    type: 0
+    mesh: Valve
+    icon: Valve
+    name: Manopola valvola
+    desc: Una manopola per le valvole di macchinari. Sembra che si possa inserire da qualche parte.
+  - id: 10310
+    type: 0
+    mesh: talismanTue
+    icon: talismanTue
+    name: Gettone Fuoco
+    desc: Un gettone in legno con sopra il simbolo del Fuoco. Emana vibrazioni portafortuna.
+  - id: 10320
+    type: 0
+    mesh: Blanket
+    icon: Blanket
+    name: Coperta
+    desc: Una coperta di lana.
+  - id: 10330
+    type: 0
+    mesh: Blanket_02
+    icon: BlanketWet
+    name: Coperta bagnata
+    desc: Una coperta bagnata e pesante.
+  - id: 10340
+    type: 0
+    mesh: Luminol
+    icon: Luminol
+    name: Solvente Luminol
+    desc: Questo è un solvente per individuare rame o ferro. È utilizzato per il test sulla chemiluminescenza per trovare tracce di sangue (emoglobina ed emina).
+  - id: 10350
+    type: 0
+    mesh: Diary_JiWon
+    icon: Diary_JiWon
+    name: Libro di Ji-won Kim
+    desc: Una nota in pelle segreta usata dalla professoressa di musica.
+  - id: 10360
+    type: 0
+    mesh: AsthmaSpray
+    icon: AsthmaSpray
+    name: Inalatore per asmatici
+    desc: Una medicina in spray utilizzata dalle persone asmatiche.
+  - id: 10370
+    type: 0
+    mesh: TalismanTueSeal
+    icon: TalismanTueSeal
+    name: Trigramma Fuoco
+    desc: Un trigramma dall'aspetto pacifico. Ha la parola "Fuoco" impressa al centro.
+  - id: 10380
+    type: 0
+    mesh: TalismanWedSeal
+    icon: TalismanWedSeal
+    name: Trigramma Acqua
+    desc: Un trigramma dall'aspetto pacifico. Ha la parola "Acqua" impressa al centro.
+  - id: 10390
+    type: 0
+    mesh: TalismanThuSeal
+    icon: TalismanThuSeal
+    name: Trigramma Legno
+    desc: Un trigramma dall'aspetto pacifico. Ha la parola "Legno" impressa al centro.
+  - id: 10400
+    type: 0
+    mesh: TalismanFriSeal
+    icon: TalismanFriSeal
+    name: Trigramma Metallo
+    desc: Un trigramma dall'aspetto pacifico. Ha la parola "Metallo" impressa al centro.
+  - id: 10410
+    type: 0
+    mesh: TalismanSatSeal
+    icon: TalismanSatSeal
+    name: Trigramma Terra
+    desc: Un trigramma dall'aspetto pacifico. Ha la parola "Terra" impressa al centro.
+  - id: 10420
+    type: 0
+    mesh: Book01_01
+    icon: Book01
+    name: Comprendere la ceramica
+    desc: Un libro con il disegno di una tigre.
+  - id: 10421
+    type: 0
+    mesh: Book01_02
+    icon: Book01
+    name: Comprendere la ceramica
+    desc: Un libro con il disegno di una tigre.
+  - id: 10430
+    type: 0
+    mesh: Book03_01
+    icon: Book02
+    name: Introduzione alla Psicologia
+    desc: Un libro con il disegno di una tigre.
+  - id: 10431
+    type: 0
+    mesh: Book03_02
+    icon: Book02
+    name: Introduzione alla Psicologia
+    desc: Un libro con il disegno di una tigre.
+  - id: 10440
+    type: 0
+    mesh: Book02_01
+    icon: Book03
+    name: Storia dell'Arte Occidentale
+    desc: Un libro con il disegno di una tigre.
+  - id: 10441
+    type: 0
+    mesh: Book02_02
+    icon: Book03
+    name: Storia dell'Arte Occidentale
+    desc: Un libro con il disegno di una tigre.
+  - id: 10450
+    type: 0
+    mesh: Book04_01
+    icon: Book04
+    name: Libro occulto
+    desc: Un libro con il disegno di una tigre.
+  - id: 10451
+    type: 0
+    mesh: Book04_02
+    icon: Book04
+    name: Libro occulto
+    desc: Un libro con il disegno di una tigre.
+  - id: 10460
+    type: 0
+    mesh: Pottery_Memo
+    icon: Pottery
+    name: Ceramiche
+    desc: Ancora altre ceramiche realizzate dall'insegnante di musica.
+  - id: 10461
+    type: 0
+    mesh: Pottery_SungA
+    icon: Pottery
+    name: Ceramiche
+    desc: Ancora altre ceramiche realizzate dall'insegnante di musica.
+  - id: 20000
+    type: 1
+    mesh: key_tag_housekeeping_inven
+    icon: key_tag_housekeeping
+    name: Chiave Aula di Economia Domestica
+    desc: Chiave che apre la porta dell'Aula di Economia Domestica.
+  - id: 20010
+    type: 1
+    mesh: Key_center
+    icon: Key_center
+    name: Chiave Corridoio Centrale Edificio Principale 1
+    desc: Chiave che apre la serranda tagliafuoco nel Corridoio Centrale al primo piano dell'Edificio Principale 1.
+  - id: 20020
+    type: 1
+    mesh: Key_center
+    icon: Key_center
+    name: Chiave Passaggio Auditorium Edificio Principale 1
+    desc: Chiave che apre la porta di ferro che conduce al Passaggio Auditorium dell'Edificio Principale 1.
+  - id: 20030
+    type: 1
+    mesh: Key_master
+    icon: Key_master
+    name: Passepartout Edificio Principale 1
+    desc: Chiave che apre la maggior parte delle serrature dell'Edificio Principale 1.
+  - id: 20031
+    type: 1
+    mesh: Key01
+    icon: Key01
+    name: Chiave Stanza Oggetti Smarriti
+    desc: Chiave che apre la porta della Stanza Oggetti Smarriti dell'Edificio Principale 2.
+  - id: 20040
+    type: 1
+    mesh: key_tag_student
+    icon: key_tag_student
+    name: Chiave Ufficio Dipartimento Studenti
+    desc: Chiave che apre la porta dell'Ufficio Dipartimento Studenti dell'Edificio Principale 2.
+  - id: 20050
+    type: 1
+    mesh: key_tag_teacher2
+    icon: key_tag_teacher2
+    name: Chiave Ufficio Insegnanti 2
+    desc: Chiave che apre la porta dell'Ufficio Insegnanti dell'Edificio Principale 2.
+  - id: 20060
+    type: 1
+    mesh: key_tag_science
+    icon: key_tag_science
+    name: Chiave del Laboratorio di Scienze
+    desc: Chiave che apre la porta del Laboratorio di Scienze dell'Edificio Principale 2.
+  - id: 20070
+    type: 1
+    mesh: Key_piano
+    icon: Key_piano
+    name: Chiave sgabello pianoforte
+    desc: Chiave che sblocca lo sgabello del pianoforte.
+  - id: 20080
+    type: 1
+    mesh: key_tag_art
+    icon: key_tag_art
+    name: Chiave dell'Aula di Arte
+    desc: Chiave che apre la porta dell'Aula di Arte dell'Edificio Principale 2.
+  - id: 20090
+    type: 1
+    mesh: CardYellow
+    icon: CardYellow
+    name: Carta magnetica gialla
+    desc: Carta magnetica che apre le porte della sezione gialla del Nuovo Edificio. Usala sull'apposito lettore.
+  - id: 20100
+    type: 1
+    mesh: CardRed
+    icon: CardRed
+    name: Carta magnetica rossa
+    desc: Carta magnetica che apre le porte della sezione rossa del Nuovo Edificio. Usala sull'apposito lettore.
+  - id: 20110
+    type: 1
+    mesh: CardBlue
+    icon: CardBlue
+    name: Carta magnetica blu
+    desc: Carta magnetica che apre le porte della sezione blu del Nuovo Edificio. Usala sull'apposito lettore.
+  - id: 20120
+    type: 1
+    mesh: Key_rooftop
+    icon: Key_rooftop
+    name: Chiave tetto Nuovo Edificio
+    desc: Chiave che apre la porta di accesso al tetto del Nuovo Edificio.
+  - id: 20130
+    type: 1
+    mesh: Key_Combined_rb
+    icon: Key_Combined_rb
+    name: Chiave combinata (rossa+blu)
+    desc: Combinazione di due chiavi creata dalla macchina combina-chiavi (rossa+blu). Sembra fatta per una serratura piccola.
+  - id: 20140
+    type: 1
+    mesh: Key_Combined_ry
+    icon: Key_Combined_ry
+    name: Chiave combinata (rossa+gialla)
+    desc: Combinazione di due chiavi creata dalla macchina combina-chiavi (rossa+gialla). Sembra fatta per una serratura piccola.
+  - id: 20150
+    type: 1
+    mesh: Key_Combined_rd
+    icon: Key_Combined_rd
+    name: Chiave combinata (rossa+nera)
+    desc: Combinazione di due chiavi creata dalla macchina combina-chiavi (rossa+nera). Sembra fatta per una serratura piccola.
+  - id: 20160
+    type: 1
+    mesh: Key_Combined_by
+    icon: Key_Combined_by
+    name: Chiave combinata (blu+gialla)
+    desc: Combinazione di due chiavi creata dalla macchina combina-chiavi (blu+gialla). Sembra fatta per una serratura piccola.
+  - id: 20170
+    type: 1
+    mesh: Key_Combined_bd
+    icon: Key_Combined_bd
+    name: Chiave combinata (blu+nera)
+    desc: Combinazione di due chiavi creata dalla macchina combina-chiavi (blu+nera). Sembra fatta per una serratura piccola.
+  - id: 20180
+    type: 1
+    mesh: Key_Combined_yd
+    icon: Key_Combined_yd
+    name: Chiave combinata (gialla+nera)
+    desc: Combinazione di due chiavi creata dalla macchina combina-chiavi (gialla+nera). Sembra fatta per una serratura piccola.
+  - id: 20190
+    type: 1
+    mesh: Key_small_red
+    icon: Key_small_red
+    name: Chiave piccola (rossa)
+    desc: Chiave piccola colorata di rosso. Sembra che si possa combinare con altre chiavi.
+  - id: 20200
+    type: 1
+    mesh: Key_small_blue
+    icon: Key_small_blue
+    name: Chiave piccola (blu)
+    desc: Chiave piccola colorata di blu. Sembra che si possa combinare con altre chiavi.
+  - id: 20210
+    type: 1
+    mesh: Key_small_yellow
+    icon: Key_small_yellow
+    name: Chiave piccola (gialla)
+    desc: Chiave piccola colorata di giallo. Sembra che si possa combinare con altre chiavi.
+  - id: 20220
+    type: 1
+    mesh: Key_small_dark
+    icon: Key_small_dark
+    name: Chiave piccola (nera)
+    desc: Chiave piccola colorata di nero. Sembra che si possa combinare con altre chiavi.
+  - id: 20230
+    type: 1
+    mesh: Key_Util
+    icon: Key_Util
+    name: Passepartout piccolo
+    desc: Un piccolo passepartout. Sembra che serva per cassetti e altri oggetti.
+  - id: 30000
+    type: 2
+    mesh: SoybeanMilk
+    icon: SoybeanMilk
+    name: Latte di soia
+    desc: Latte di soia venduto dalla scuola. Puoi comprarlo al negozio della scuola o dai distributori automatici.
+  - id: 30010
+    type: 2
+    mesh: Lunchbox
+    icon: Lunchbox
+    name: Pranzo istantaneo
+    desc: Un semplice cestino da pranzo. La sazietà dà energia e mette di buon umore.
+  - id: 30020
+    type: 2
+    mesh: FirstAidKit
+    icon: FirstAidKit
+    name: Kit del pronto soccorso
+    desc: Un kit che contiene il necessario per curarti. Usalo in caso di emergenza.
+  - id: 30030
+    type: 2
+    mesh: Pills
+    icon: Pills
+    name: Sedativo
+    desc: Rilassa la mente quando sei nervoso. Usala per calmarti.
+  - id: 30040
+    type: 2
+    mesh: Coffee
+    icon: Coffee
+    name: Lattina di caffè
+    desc: Una lattina di caffè. La sua caffeina ti tirerà su, ma berne in quantità eccessiva può avere effetti collaterali nocivi.
+  - id: 40010
+    type: 0
+    mesh: Lighter
+    icon: Lighter
+    name: Accendino
+    desc: Un accendino. Usandolo ti farai un po' di luce intorno. Utile in zone buie.
+  - id: 40030
+    type: 3
+    mesh: Coin
+    icon: Coin
+    name: Moneta della scuola
+    desc: Moneta coniata dalla scuola. Puoi spenderla al negozio della scuola o nei distributori automatici.
+  - id: 40040
+    type: 3
+    mesh: MagicPen
+    icon: MagicPen
+    name: Pennarello
+    desc: Un pennarello usato per scrivere appunti.
+  - id: 50000
+    type: 4
+    mesh: Pin
+    icon: Pin
+    name: Spilla
+    desc: Una piccola spilla che sembra vada appuntata da qualche parte.
+  - id: 50010
+    type: 4
+    mesh: Doorknob
+    icon: Doorknob
+    name: Maniglia in legno
+    desc: Una maniglia di legno. Sembra che serva a sbloccare un qualche passaggio che prima non sei riuscito ad aprire.
+  - id: 50020
+    type: 4
+    mesh: ScaleWeight1g
+    icon: ScaleWeight1g
+    name: Peso da 1g
+    desc: Un piccolo peso in metallo per bilance.
+  - id: 50030
+    type: 4
+    mesh: ScaleWeight5g
+    icon: ScaleWeight5g
+    name: Peso da 5g
+    desc: Un piccolo peso in metallo per bilance.
+  - id: 50040
+    type: 4
+    mesh: ScaleWeight10g
+    icon: ScaleWeight10g
+    name: Peso da 10g
+    desc: Un piccolo peso in metallo per bilance.
+  - id: 50050
+    type: 4
+    mesh: ScaleWeight30g
+    icon: ScaleWeight30g
+    name: Peso da 30g
+    desc: Un piccolo peso in metallo per bilance.
+  - id: 50060
+    type: 4
+    mesh: ScaleWeight50g
+    icon: ScaleWeight50g
+    name: Peso da 50g
+    desc: Un piccolo peso in metallo per bilance.
+  - id: 50070
+    type: 4
+    mesh: MathTimeTable
+    icon: MathTimeTable
+    name: Pezzo di orario lezioni (Matematica)
+    desc: Pezzo di un orario delle lezioni con sopra scritto "Matematica".
+  - id: 50080
+    type: 4
+    mesh: PaperCrane
+    icon: PaperCrane
+    name: Gru di carta
+    desc: Un origami di una gru in carta nera.
+  - id: 50090
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: Tabella codice Morse
+    desc: Una tabella che mostra come rappresentare i numeri in codice Morse.
+  - id: 50091
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: Tabella codice Morse
+    desc: Una tabella che mostra come rappresentare i numeri in codice Morse.
+  - id: 50092
+    type: 4
+    mesh: MorseCode
+    icon: MorseCode
+    name: Tabella codice Morse
+    desc: Una tabella che mostra come rappresentare i numeri in codice Morse.
+  - id: 50100
+    type: 4
+    mesh: TypewriterO
+    icon: TypewriterO
+    name: Tasto O di macchina da scrivere
+    desc: Un vecchio tasto probabilmente caduto da una macchina da scrivere.
+  - id: 50110
+    type: 4
+    mesh: TypewriterM
+    icon: TypewriterM
+    name: Tasto M di macchina da scrivere
+    desc: Un vecchio tasto probabilmente caduto da una macchina da scrivere.
+  - id: 50120
+    type: 4
+    mesh: TypewriterE
+    icon: TypewriterE
+    name: Tasto E di macchina da scrivere
+    desc: Un vecchio tasto probabilmente caduto da una macchina da scrivere.
+  - id: 50130
+    type: 4
+    mesh: TypewriterN
+    icon: TypewriterN
+    name: Tasto N di macchina da scrivere
+    desc: Un vecchio tasto probabilmente caduto da una macchina da scrivere.
+  - id: 50140
+    type: 4
+    mesh: SpiderSample
+    icon: SpiderSample
+    name: Ragno conservato
+    desc: Un orrendo ragno conservato. Fa paura persino a toccarlo.
+  - id: 50150
+    type: 4
+    mesh: LensLeft
+    icon: LensLeft
+    name: Lente per il controllo della vista (occhio sinistro)
+    desc: Una piccola lente che sembra un monocolo.
+  - id: 50151
+    type: 4
+    mesh: LensLeft
+    icon: LensLeft
+    name: Lente per il controllo della vista (occhio sinistro)
+    desc: Una piccola lente che sembra un monocolo.
+  - id: 50160
+    type: 4
+    mesh: LensRight
+    icon: LensRight
+    name: Lente per il controllo della vista (occhio destro)
+    desc: Una piccola lente che sembra un monocolo.
+  - id: 50161
+    type: 4
+    mesh: LensRight
+    icon: LensRight
+    name: Lente per il controllo della vista (occhio destro)
+    desc: Una piccola lente che sembra un monocolo.
+  - id: 50170
+    type: 4
+    mesh: ConfessionMail
+    icon: ConfessionMail
+    name: Lettera d'amore
+    desc: Una dichiarazione d'amore scritta da una studentessa.
+  - id: 50180
+    type: 4
+    mesh: BloodExerciseBook
+    icon: BloodExerciseBook
+    name: Quaderno insanguinato
+    desc: Un quaderno di matematica macchiato di sangue.
+  - id: 50190
+    type: 4
+    mesh: Chalk
+    icon: Chalk
+    name: Gessetto
+    desc: Un gessetto usato per scrivere sulla lavagna.
+  - id: 50200
+    type: 4
+    mesh: GymnasticsCap
+    icon: GymnasticsCap
+    name: Berretto dell'insegnante di ginnastica
+    desc: Un berretto rosso simile a quelli degli istruttori. Probabilmente è quello dell'insegnante di ginnastica.
+  - id: 50210
+    type: 4
+    mesh: ScorecardSecond
+    icon: ScorecardSecond
+    name: Una pagella (2° della classe)
+    desc: La pagella di un bravo studente. Pare che si sia classificato secondo per via di qualche risposta sbagliata.
+  - id: 50220
+    type: 4
+    mesh: Cigarette
+    icon: Cigarette
+    name: Sigarette
+    desc: Nessuno studente dovrebbe averle con sé. Saranno state nascoste da qualche delinquente.
+  - id: 50230
+    type: 4
+    mesh: BellFox
+    icon: BellFox
+    name: Campana-spirito
+    desc: Una campana che produce un suono chiaro.
+  - id: 50240
+    type: 4
+    mesh: Collection_Figure_HM
+    icon: Collection_Figure_HM
+    name: Statuina di uno studente
+    desc: Una statuina che ritrae uno studente con lo zaino. Sembra risalga ad almeno 14 anni fa.
+  - id: 50250
+    type: 4
+    mesh: Collection_Figure_SY
+    icon: Collection_Figure_SY
+    name: Statuina di una studentessa coi capelli lunghi
+    desc: Una statuina che ritrae una studentessa dall'aria distaccata. Sembra risalga ad almeno 14 anni fa.
+  - id: 50260
+    type: 4
+    mesh: Collection_Figure_SA
+    icon: Collection_Figure_SA
+    name: Statuina di una studentessa coi capelli corti
+    desc: Una statuina che ritrae una studentessa dall'aria audace. Sembra risalga ad almeno 14 anni fa.
+  - id: 50270
+    type: 4
+    mesh: Collection_Figure_JH
+    icon: Collection_Figure_JH
+    name: Statuina di una studentessa con gli occhiali
+    desc: Una statuina che ritrae una studentessa dall'aria ingenua. Sembra risalga ad almeno 14 anni fa.
+  - id: 50280
+    type: 4
+    mesh: Collection_Figure_BG
+    icon: Collection_Figure_BG
+    name: Statuina di un bidello calvo
+    desc: Una statuina che ritrae un uomo calvo. Sembra risalga ad almeno 14 anni fa.
+  - id: 50290
+    type: 4
+    mesh: Collection_Figure_DS
+    icon: Collection_Figure_DS
+    name: Statuina di un bidello col cappello
+    desc: Una statuina che ritrae un uomo col cappello dall'aria cupa. Sembra risalga ad almeno 14 anni fa.
+  - id: 50300
+    type: 4
+    mesh: Collection_Figure_EM
+    icon: Collection_Figure_EM
+    name: Statuina di una donna di mezza età
+    desc: Una statuina che ritrae una donna di mezza età con un vestito logoro. Sembra risalga ad almeno 14 anni fa.
+  - id: 90010
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: QA Cheat Item 1
+    desc: Main1
+  - id: 90020
+    type: 2
+    mesh: CardRed
+    icon: CardRed
+    name: QA Cheat Item 2
+    desc: Main2_A
+  - id: 90021
+    type: 2
+    mesh: CardRed
+    icon: CardRed
+    name: QA Cheat Item 3
+    desc: Main2_B
+  - id: 90030
+    type: 2
+    mesh: CardBlue
+    icon: CardBlue
+    name: QA Cheat Item 4
+    desc: New_A
+  - id: 90031
+    type: 2
+    mesh: CardBlue
+    icon: CardBlue
+    name: QA Cheat Item 5
+    desc: New_B
+  - id: 90040
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: QA Cheat Item 6
+    desc: Hall_A
+  - id: 90041
+    type: 2
+    mesh: CardYellow
+    icon: CardYellow
+    name: QA Cheat Item 7
+    desc: Hall_B
+  - id: 90100
+    type: 2
+    mesh: poison
+    icon: poison
+    name: QA Cheat Item 8
+    desc: ByeBye Guards
+  - id: 90200
+    type: 2
+    mesh: Candybox
+    icon: Candybox
+    name: QA Cheat Item 9
+    desc: Get all items
+  - id: 90210
+    type: 2
+    mesh: Diary
+    icon: Diary
+    name: QA Cheat Item 10
+    desc: Get all endings.
+  - id: 90220
+    type: 2
+    mesh: Collection_Figure_SY
+    icon: Collection_Figure_SY
+    name: QA Cheat Item 11
+    desc: Get all figures.
+  - id: 90230
+    type: 2
+    mesh: BellFox
+    icon: BellFox
+    name: QA Cheat Item 12
+    desc: Get all ghost stories.
+  - id: 90240
+    type: 2
+    mesh: Pills
+    icon: Pills
+    name: Love Potion
+    desc: If you want to love and eat this pills. But, this is not effective for ugly men.

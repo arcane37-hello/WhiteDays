@@ -1,0 +1,574 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a122d20ef5c6f8cbb78fa44bfb9db6e, type: 3}
+  m_Name: CostumeCN
+  m_EditorClassIdentifier:
+  sheetName: Assets/Excels/Costume.xlsx
+  worksheetName: CostumeCN
+  dataArray:
+  - id: 100
+    character: 1
+    bundle: 0
+    prefabname: HanSoYoung
+    name: 延杜高中校服
+    desc: 是延杜高中的女生校服。
+    icon: CostumeIcon_HanSoYoung
+    collection: Standard
+    animation: 0
+  - id: 200
+    character: 2
+    bundle: 0
+    prefabname: KimSungA
+    name: 延杜高中校服
+    desc: 是延杜高中的女生校服。
+    icon: CostumeIcon_KimSungA
+    collection: Standard
+    animation: 0
+  - id: 300
+    character: 3
+    bundle: 0
+    prefabname: SeolJiHyeon
+    name: 延杜高中校服
+    desc: 是延杜高中的女生校服。
+    icon: CostumeIcon_SeolJiHyeon
+    collection: Standard
+    animation: 0
+  - id: 400
+    character: 4
+    bundle: 0
+    prefabname: LeeHeeMin
+    name: 延杜高中校服
+    desc: 是延杜高中的男生校服。
+    icon: CostumeIcon_LeeHeeMin
+    collection: Standard
+    animation: 0
+  - id: 500
+    character: 5
+    bundle: 0
+    prefabname: LeeBongGoo
+    name: 延杜高中警卫服
+    desc: 为延杜高校守门人们提供的服装。
+    icon: CostumeIcon_LeeBongGoo
+    collection: Standard
+    animation: 0
+  - id: 600
+    character: 6
+    bundle: 0
+    prefabname: SonDalSu
+    name: 延杜高中警卫服
+    desc: 为延杜高校守门人们提供的服装。
+    icon: CostumeIcon_SonDalSu
+    collection: Standard
+    animation: 0
+  - id: 700
+    character: 7
+    bundle: 0
+    prefabname: YooMinJi
+    name: 延杜高中校服
+    desc: 是延杜高中的女生校服。
+    icon: CostumeIcon_YooMinJi
+    collection: Standard
+    animation: 0
+  - id: 102
+    character: 1
+    bundle: 2
+    prefabname: HanSoYoung_Casual
+    name: 优雅连衣裙
+    desc: 是格子纹的优雅连衣裙。
+    icon: CostumeIcon_HanSoYoung_Casual
+    collection: CollectionRank_3
+    animation: 0
+  - id: 202
+    character: 2
+    bundle: 2
+    prefabname: KimSungA_Casual
+    name: 火辣女孩
+    desc: 条纹衬衫与超短裤配对的热辣服装。
+    icon: CostumeIcon_KimSungA_Casual
+    collection: CollectionRank_2
+    animation: 0
+  - id: 302
+    character: 3
+    bundle: 2
+    prefabname: SeolJiHyeon_Casual
+    name: 平静的淑女
+    desc: 天蓝色的短袖衫与亮色半身裙给人一种成熟之美。
+    icon: CostumeIcon_SeolJiHyeon_Casual
+    collection: CollectionRank_1
+    animation: 0
+  - id: 402
+    character: 4
+    bundle: 2
+    prefabname: LeeHeeMin_Casual
+    name: 花花公子
+    desc: 格子衬衫上面搭配干练的配色针织衫，隐隐散发一种魅力。
+    icon: CostumeIcon_LeeHeeMin_Casual
+    collection: CollectionGhost
+    animation: 0
+  - id: 502
+    character: 5
+    bundle: 2
+    prefabname: LeeBongGoo_Casual
+    name: 毛巾的回忆
+    desc: 冬天时尚的毛绒耳罩 要是联想到香淑，那绝对是错觉。
+    icon: CostumeIcon_LeeBongGoo_Casual
+    collection: CollectionFigure
+    animation: 0
+  - id: 602
+    character: 6
+    bundle: 2
+    prefabname: SonDalSu_Casual
+    name: 飙车族
+    desc: 能感受到粗犷爷们之情义的服装。
+    icon: CostumeIcon_SonDalSu_Casual
+    collection: CollectionEnding
+    animation: 0
+  - id: 702
+    character: 7
+    bundle: 2
+    prefabname: YooMinJi_Casual
+    name: 小公主
+    desc: 即使再困难再伤心也要闯过去。
+    icon: CostumeIcon_YooMinJi_Casual
+    collection: CollectionRank_4
+    animation: 0
+  - id: 106
+    character: 1
+    bundle: 6
+    prefabname: HanSoYoung_Apple
+    name: 纯白色苹果校服
+    desc: 有引人瞩目的苹果饰品的白色校服。
+    icon: CostumeIcon_HanSoYoung_Apple
+    collection:
+    animation: 0
+  - id: 206
+    character: 2
+    bundle: 6
+    prefabname: KimSungA_Apple
+    name: 纯白色苹果校服
+    desc: 有引人瞩目的苹果饰品的白色校服。
+    icon: CostumeIcon_KimSungA_Apple
+    collection:
+    animation: 0
+  - id: 306
+    character: 3
+    bundle: 6
+    prefabname: SeolJiHyeon_Apple
+    name: 纯白色苹果校服
+    desc: 有引人瞩目的苹果饰品的白色校服。
+    icon: CostumeIcon_SeolJiHyeon_Apple
+    collection:
+    animation: 0
+  - id: 406
+    character: 4
+    bundle: 6
+    prefabname: LeeHeeMin_Apple
+    name: 纯白色苹果校服
+    desc: 有引人瞩目的苹果饰品的白色校服。
+    icon: CostumeIcon_LeeHeeMin_Apple
+    collection:
+    animation: 0
+  - id: 706
+    character: 7
+    bundle: 6
+    prefabname: YooMinJi_Apple
+    name: 纯白色苹果校服
+    desc: 有引人瞩目的苹果饰品的白色校服。
+    icon: CostumeIcon_YooMinJi_Apple
+    collection:
+    animation: 0
+  - id: 107
+    character: 1
+    bundle: 7
+    prefabname: HanSoYoung_Horror
+    name: 冒险女王
+    desc: 在各种各样的炼狱里也能活下来的经验丰富的冒险家的服装。
+    icon: CostumeIcon_HanSoYoung_Horror
+    collection:
+    animation: 0
+  - id: 207
+    character: 2
+    bundle: 7
+    prefabname: KimSungA_Horror
+    name: 疯狂的圣雅
+    desc: 能夠感受到在这荒芜的世界中生存下来的女战士的坚强。
+    icon: CostumeIcon_KimSungA_Horror
+    collection:
+    animation: 0
+  - id: 307
+    character: 3
+    bundle: 7
+    prefabname: SeolJiHyeon_Horror
+    name: 志炫情人节
+    desc: 能赤手空拳打倒僵尸的特殊部队队员的服装。
+    icon: CostumeIcon_SeolJiHyeon_Horror
+    collection:
+    animation: 0
+  - id: 407
+    character: 4
+    bundle: 7
+    prefabname: LeeHeeMin_Horror
+    name: 生存专家
+    desc: 只要有口袋腰带和结实的军靴，即使被僵尸包围也能生存下来。
+    icon: CostumeIcon_LeeHeeMin_Horror
+    collection:
+    animation: 0
+  - id: 507
+    character: 5
+    bundle: 7
+    prefabname: LeeBongGoo_Horror
+    name: 噩梦奉九
+    desc: 仿佛只有在噩梦中才会出现的由于烧伤而扭曲的恐怖的脸。
+    icon: CostumeIcon_LeeBongGoo_Horror
+    collection:
+    animation: 0
+  - id: 607
+    character: 6
+    bundle: 7
+    prefabname: SonDalSu_Horror
+    name: 孙达生
+    desc: 如果他拥有曲棍球防护面具和羊角起钉钳，便无法与其对抗。
+    icon: CostumeIcon_SonDalSu_Horror
+    collection:
+    animation: 0
+  - id: 707
+    character: 7
+    bundle: 7
+    prefabname: YooMinJi_Horror
+    name: 延杜高中警卫
+    desc: 如果违反校规则可能被其以正义的名义逮捕，请小心。
+    icon: CostumeIcon_YooMinJi_Horror
+    collection:
+    animation: 0
+  - id: 103
+    character: 1
+    bundle: 3
+    prefabname: HanSoYoung_Beach
+    name: 海边的维纳斯
+    desc: 高级的象牙色泳衣，看起来像女神。
+    icon: CostumeIcon_HanSoYoung_Beach
+    collection:
+    animation: 1
+  - id: 203
+    character: 2
+    bundle: 3
+    prefabname: KimSungA_Beach
+    name: 日光浴女孩
+    desc: '凸显身材的黑色条纹比基尼。 '
+    icon: CostumeIcon_KimSungA_Beach
+    collection:
+    animation: 1
+  - id: 303
+    character: 3
+    bundle: 3
+    prefabname: SeolJiHyeon_Beach
+    name: 夏威夷装女孩
+    desc: 热带地区鸡蛋花的浅黄色泳衣。
+    icon: CostumeIcon_SeolJiHyeon_Beach
+    collection:
+    animation: 1
+  - id: 403
+    character: 4
+    bundle: 3
+    prefabname: LeeHeeMin_Beach
+    name: 海上救助人员
+    desc: 蓝色的短裤，显露身材的服饰。 性感的腹肌深得女人心。
+    icon: CostumeIcon_LeeHeeMin_Beach
+    collection:
+    animation: 0
+  - id: 503
+    character: 5
+    bundle: 3
+    prefabname: LeeBongGoo_Beach
+    name: 草裙舞服装
+    desc: 跳传说中的噗拉噗拉舞专用衣服。 但是不想看跳舞呢。
+    icon: CostumeIcon_LeeBongGoo_Beach
+    collection:
+    animation: 0
+  - id: 603
+    character: 6
+    bundle: 3
+    prefabname: SonDalSu_Beach
+    name: 漂亮的粉红色
+    desc: 粉红色爱心围裙和古铜色肌肉，让人精神恍惚的组合！ 手上的冷冻金枪鱼… 不去管了。
+    icon: CostumeIcon_SonDalSu_Beach
+    collection:
+    animation: 0
+  - id: 703
+    character: 7
+    bundle: 3
+    prefabname: YooMinJi_Beach
+    name: 假期少女
+    desc: .水军颜色上用红色发带作为亮点的学校泳衣
+    icon: CostumeIcon_YooMinJi_Beach
+    collection:
+    animation: 0
+  - id: 108
+    character: 1
+    bundle: 8
+    prefabname: HanSoYoung_BlazBlue
+    name: "韩小英\n【诺爱尔·梵米利昂】"
+    desc: 穿着苍翼默示录联动优惠衣服【诺爱尔·梵米利昂】的韩小英。
+    icon: CostumeIcon_HanSoYoung_BlazBlue
+    collection:
+    animation: 0
+  - id: 208
+    character: 2
+    bundle: 8
+    prefabname: KimSungA_BlazBlue
+    name: "金圣雅\n【诺爱尔·梵米利昂】"
+    desc: 穿着苍翼默示录联动优惠衣服【诺爱尔·梵米利昂】的金圣雅。
+    icon: CostumeIcon_KimSungA_BlazBlue
+    collection:
+    animation: 0
+  - id: 308
+    character: 3
+    bundle: 8
+    prefabname: SeolJiHyeon_BlazBlue
+    name: "雪智贤\n【诺爱尔·梵米利昂】"
+    desc: 穿着苍翼默示录联动优惠衣服【诺爱尔·梵米利昂】的雪智贤。
+    icon: CostumeIcon_SeolJiHyeon_BlazBlue
+    collection:
+    animation: 0
+  - id: 408
+    character: 4
+    bundle: 8
+    prefabname: LeeHeeMin_BlazBlue
+    name: "刘智敏\n【拉格纳·查·布拉德艾奇】"
+    desc: 穿着苍翼默示录联动优惠衣服【拉格纳·查·布拉德艾奇】的刘智敏。
+    icon: CostumeIcon_LeeHeeMin_BlazBlue
+    collection:
+    animation: 0
+  - id: 508
+    character: 5
+    bundle: 8
+    prefabname: LeeBongGoo_BlazBlue
+    name: 李峰鸠【钢铁·帝卡】
+    desc: 穿着苍翼默示录联动优惠衣服【钢铁·帝卡】的李峰鸠。
+    icon: CostumeIcon_LeeBongGoo_BlazBlue
+    collection:
+    animation: 0
+  - id: 608
+    character: 6
+    bundle: 8
+    prefabname: SonDalSu_BlazBlue
+    name: "孙达秀\n【瓦尔肯海因·R·海尔辛】"
+    desc: 穿着苍翼默示录联动优惠衣服【瓦尔肯海因·R·海尔辛】的孙达秀。
+    icon: CostumeIcon_SonDalSu_BlazBlue
+    collection:
+    animation: 0
+  - id: 708
+    character: 7
+    bundle: 8
+    prefabname: YooMinJi_BlazBlue
+    name: "李希珉\n【诺爱尔·梵米利昂】"
+    desc: 穿着苍翼默示录联动优惠衣服【诺爱尔·梵米利昂】的李希珉。
+    icon: CostumeIcon_YooMinJi_BlazBlue
+    collection:
+    animation: 0
+  - id: 101
+    character: 1
+    bundle: 1
+    prefabname: HanSoYoung_Idol
+    name: 时尚校服
+    desc: 只有被选定的学生才有资格穿的华美校服。
+    icon: CostumeIcon_HanSoYoung_Idol
+    collection:
+    animation: 0
+  - id: 201
+    character: 2
+    bundle: 1
+    prefabname: KimSungA_Idol
+    name: 时尚校服
+    desc: 只有被选定的学生才有资格穿的华美校服。
+    icon: CostumeIcon_KimSungA_Idol
+    collection:
+    animation: 0
+  - id: 301
+    character: 3
+    bundle: 1
+    prefabname: SeolJiHyeon_Idol
+    name: 时尚校服
+    desc: 只有被选定的学生才有资格穿的华美校服。
+    icon: CostumeIcon_SeolJiHyeon_Idol
+    collection:
+    animation: 0
+  - id: 701
+    character: 7
+    bundle: 1
+    prefabname: YooMinJi_Idol
+    name: 时尚校服
+    desc: 只有被选定的学生才有资格穿的华美校服。
+    icon: CostumeIcon_YooMinJi_Idol
+    collection:
+    animation: 0
+  - id: 109
+    character: 1
+    bundle: 9
+    prefabname: HanSoYoung_Retro
+    name: 老校服
+    desc: 过去延斗高中的女高中生们穿的校服。穿上后能回到记忆中的样子。
+    icon: CostumeIcon_HanSoYoung_Retro
+    collection: Standard
+    animation: 0
+  - id: 209
+    character: 2
+    bundle: 9
+    prefabname: KimSungA_Retro
+    name: 老校服
+    desc: 过去延斗高中的女高中生们穿的校服。穿上后能回到记忆中的样子。
+    icon: CostumeIcon_KimSungA_Retro
+    collection: Standard
+    animation: 0
+  - id: 309
+    character: 3
+    bundle: 9
+    prefabname: SeolJiHyeon_Retro
+    name: 老校服
+    desc: 过去延斗高中的女高中生们穿的校服。穿上后能回到记忆中的样子。
+    icon: CostumeIcon_SeolJiHyeon_Retro
+    collection: Standard
+    animation: 0
+  - id: 409
+    character: 4
+    bundle: 9
+    prefabname: LeeHeeMin_Retro
+    name: 老校服
+    desc: 过去延斗高中的女高中生们穿的校服。穿上后能回到记忆中的样子。
+    icon: CostumeIcon_LeeHeeMin_Retro
+    collection: Standard
+    animation: 0
+  - id: 509
+    character: 5
+    bundle: 9
+    prefabname: LeeBongGoo_Retro
+    name: 旧警卫服
+    desc: 很久以前提供给守卫们的服装。穿上后能回到记忆中的样子。
+    icon: CostumeIcon_LeeBongGoo_Retro
+    collection: Standard
+    animation: 0
+  - id: 609
+    character: 6
+    bundle: 9
+    prefabname: SonDalSu_Retro
+    name: 旧警卫服
+    desc: 很久以前提供给守卫们的服装。穿上后能回到记忆中的样子。
+    icon: CostumeIcon_SonDalSu_Retro
+    collection: Standard
+    animation: 0
+  - id: 709
+    character: 7
+    bundle: 9
+    prefabname: YooMinJi_Retro
+    name: 老校服
+    desc: 过去延斗高中的女高中生们穿的校服。穿上后能让脸变的棱角分明。
+    icon: CostumeIcon_YooMinJi_Retro
+    collection: Standard
+    animation: 0
+  - id: 110
+    character: 1
+    bundle: 10
+    prefabname: HanSoYoung_Sailor
+    name: 水手服
+    desc: 水手服风格的校服。对于部分学生来说人气很高。
+    icon: CostumeIcon_HanSoYoung_Sailor
+    collection:
+    animation: 0
+  - id: 210
+    character: 2
+    bundle: 10
+    prefabname: KimSungA_Sailor
+    name: 水手服
+    desc: 水手服风格的校服。对于部分学生来说人气很高。
+    icon: CostumeIcon_KimSungA_Sailor
+    collection:
+    animation: 0
+  - id: 310
+    character: 3
+    bundle: 10
+    prefabname: SeolJiHyeon_Sailor
+    name: 水手服
+    desc: 水手服风格的校服。对于部分学生来说人气很高。
+    icon: CostumeIcon_SeolJiHyeon_Sailor
+    collection:
+    animation: 0
+  - id: 710
+    character: 7
+    bundle: 10
+    prefabname: YooMinJi_Sailor
+    name: 水手服
+    desc: 水手服风格的校服。对于部分学生来说人气很高。
+    icon: CostumeIcon_YooMinJi_Sailor
+    collection:
+    animation: 0
+  - id: 111
+    character: 1
+    bundle: 11
+    prefabname: HanSoYoung_Xmas
+    name: 雪之女王
+    desc: 能让人联想到白雪和冰晶的连衣裙。
+    icon: CostumeIcon_HanSoYoung_Xmas
+    collection:
+    animation: 0
+  - id: 211
+    character: 2
+    bundle: 11
+    prefabname: KimSungA_Xmas
+    name: 性感圣诞
+    desc: 忘却寒冷的性感圣诞服。
+    icon: CostumeIcon_KimSungA_Xmas
+    collection:
+    animation: 0
+  - id: 311
+    character: 3
+    bundle: 11
+    prefabname: SeolJiHyeon_Xmas
+    name: 麋鹿礼服
+    desc: 形似鹿角的可爱头饰，神似麋鹿的连衣裙。
+    icon: CostumeIcon_SeolJiHyeon_Xmas
+    collection:
+    animation: 0
+  - id: 411
+    character: 4
+    bundle: 11
+    prefabname: LeeHeeMin_Xmas
+    name: 圣诞正装
+    desc: 以黑色领结为亮点的圣诞老人式正装。
+    icon: CostumeIcon_LeeHeeMin_Xmas
+    collection:
+    animation: 0
+  - id: 511
+    character: 5
+    bundle: 11
+    prefabname: LeeBongGoo_Xmas
+    name: 雪人装
+    desc: 装饰了艳色围巾的雪人装。
+    icon: CostumeIcon_LeeBongGoo_Xmas
+    collection:
+    animation: 0
+  - id: 611
+    character: 6
+    bundle: 11
+    prefabname: SonDalSu_Xmas
+    name: 麋鹿装
+    desc: 从感觉下一刻就要掉眼泪的眼珠中，无法转移视线的人偶装。
+    icon: CostumeIcon_SonDalSu_Xmas
+    collection:
+    animation: 0
+  - id: 711
+    character: 7
+    bundle: 11
+    prefabname: YooMinJi_Xmas
+    name: 圣诞少女
+    desc: 白色的毛绒帽和可爱的上衣，非常有圣诞气息的服装。
+    icon: CostumeIcon_YooMinJi_Xmas
+    collection:
+    animation: 0
