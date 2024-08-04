@@ -28,6 +28,7 @@ public class DalsuMove : MonoBehaviour
     private NavMeshAgent dsnvAgent;
     //private 플레이어스크립트이름 playerSc;
     private float dist;
+    private PlayerHealth playerHealth;
 
     //추적 사정 거리
     public float chaseDist = 20.0f;
@@ -50,6 +51,7 @@ public class DalsuMove : MonoBehaviour
         cc = GetComponent<CharacterController>();
         dsnvAgent = GetComponent<NavMeshAgent>();
         dsanim = GetComponent<Animator>();
+        playerHealth = pTransform.GetComponent<PlayerHealth>();
         curState = CurrentState.patrol;
         
     }
@@ -152,17 +154,17 @@ public class DalsuMove : MonoBehaviour
         if (dist <= attackDist)
         {
             dsanim.SetTrigger("Attack");
-            // DsDMG();
+            DsDMG();
             yield return new WaitForSeconds(2.1f); // 공격 애니메이션 시간만큼 대기
             if (dist <= attackDist)
             {
                 dsanim.SetTrigger("At");
-                // DsDMG();
+                DsDMG();
                 yield return new WaitForSeconds(2.1f); // 공격 애니메이션 시간만큼 대기
                 if (dist <= attackDist)
                 {
                     dsanim.SetTrigger("At2");
-                    // DsDMG();
+                    DsDMG();
                     yield return new WaitForSeconds(2.1f); // 공격 애니메이션 시간만큼 대기
                 }
             }
@@ -207,5 +209,6 @@ public class DalsuMove : MonoBehaviour
     void DsDMG()
     {
         // 플레이어에게 dsdmg 만큼 대미지를 입히는 함수를 실행
+        playerHealth.TakeDamage((int)dsdmg);
     }
 }
