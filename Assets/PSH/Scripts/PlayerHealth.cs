@@ -25,6 +25,7 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("Player has died");
         gameObject.SetActive(false);
+        GameManager.gm.showGameOverUI();
     }
 
     public int GetCurrentHealth()
