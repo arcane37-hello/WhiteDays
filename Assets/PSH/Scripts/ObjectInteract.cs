@@ -7,6 +7,14 @@ public class ObjectInteract : MonoBehaviour
     public float interactionRange = 3.0f; // 열쇠와의 상호작용 거리
     public Camera playerCamera; // 플레이어의 카메라
 
+    void Start()
+    {
+        if (playerCamera == null)
+        {
+            playerCamera = Camera.main; // 기본 카메라를 자동으로 할당
+        }
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F))
