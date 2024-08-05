@@ -15,6 +15,7 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        print("체력저하");
         if (currentHealth <= 0)
         {
             Die();

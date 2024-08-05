@@ -21,6 +21,7 @@ public class DalsuMove : MonoBehaviour
     CharacterController cc;
     Vector3 patrolCenter;
     Vector3 patrolNext;
+    public GameObject hm;
 
     private List<AudioSource> dsAs = new List<AudioSource>();
     private Transform dsTransform;
@@ -35,6 +36,8 @@ public class DalsuMove : MonoBehaviour
     //공격 사정 거리
     public float attackDist = 3.0f;
 
+    bool canAt = true;
+
 
     void Start()
     {
@@ -47,19 +50,21 @@ public class DalsuMove : MonoBehaviour
         patrolNext = patrolCenter;
 
         dsTransform = GetComponent<Transform>();
-        pTransform = GameObject.FindGameObjectWithTag("Player").transform;
         cc = GetComponent<CharacterController>();
         dsnvAgent = GetComponent<NavMeshAgent>();
         dsanim = GetComponent<Animator>();
-        playerHealth = pTransform.GetComponent<PlayerHealth>();
+        playerHealth = hm.GetComponent<PlayerHealth>();
         curState = CurrentState.patrol;
-        
+
+        bool canAt = true;
+
     }
 
 
 
     void Update()
     {
+        pTransform = hm.transform;
         StartCoroutine(CheckState());
         StartCoroutine(CheckStateForAction());
     }
@@ -123,7 +128,7 @@ public class DalsuMove : MonoBehaviour
     void Patrol()
     {
         Vector3 dir = pTransform.position - dsTransform.position;
-        dsanim.SetTrigger("Patrol");
+        //dsanim.SetTrigger("Patrol");
         dsnvAgent.speed = 0.8f;
         //cc.Move(dir.normalized * dsnvAgent.speed * Time.deltaTime);
         patrolNext = patrolCenter + new Vector3(Random.Range(-10, 10), 0, Random.Range(-10, 10));
@@ -139,10 +144,10 @@ public class DalsuMove : MonoBehaviour
     void Chase()
     {
         Vector3 dir = pTransform.position - dsTransform.position;
-        dsnvAgent.speed = 1.4f;
+        dsnvAgent.speed = 2.0f;
         //cc.Move(dir.normalized * dsnvAgent.speed * Time.deltaTime);
         dsnvAgent.SetDestination(pTransform.position);
-        dsanim.SetTrigger("Chase");
+        //dsanim.SetTrigger("Chase");
     }
 
     IEnumerator Attack()
@@ -151,21 +156,27 @@ public class DalsuMove : MonoBehaviour
         cc.Move(Vector3.zero);
         //dsTransform.LookAt(pTransform.position);
 
-        if (dist <= attackDist)
+        if (dist <= attackDist && canAt == true)
         {
-            dsanim.SetTrigger("Attack");
-            DsDMG();
+            canAt = false;
+            //dsanim.SetTrigger("Attack");
+            playerHealth.TakeDamage((int)dsdmg);
             yield return new WaitForSeconds(2.1f); // 공격 애니메이션 시간만큼 대기
-            if (dist <= attackDist)
+            canAt = true;
+            if (dist <= attackDist && canAt == true)
             {
-                dsanim.SetTrigger("At");
-                DsDMG();
+                canAt = false;
+                //dsanim.SetTrigger("At");
+                playerHealth.TakeDamage((int)dsdmg);
                 yield return new WaitForSeconds(2.1f); // 공격 애니메이션 시간만큼 대기
-                if (dist <= attackDist)
+                canAt = true;
+                if (dist <= attackDist && canAt == true)
                 {
-                    dsanim.SetTrigger("At2");
-                    DsDMG();
+                    canAt = false;
+                    //dsanim.SetTrigger("At2");
+                    playerHealth.TakeDamage((int)dsdmg);
                     yield return new WaitForSeconds(2.1f); // 공격 애니메이션 시간만큼 대기
+                    canAt = true;
                 }
             }
         }
@@ -206,9 +217,5 @@ public class DalsuMove : MonoBehaviour
     //    dsnvAgent.transform.rotation = Quaternion.Slerp(dsnvAgent.transform.rotation, targetAngle, 120);
     //}
 
-    void DsDMG()
-    {
-        // 플레이어에게 dsdmg 만큼 대미지를 입히는 함수를 실행
-        playerHealth.TakeDamage((int)dsdmg);
-    }
+ 
 }
