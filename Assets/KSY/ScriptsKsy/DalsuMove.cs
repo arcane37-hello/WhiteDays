@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -17,10 +18,19 @@ public class DalsuMove : MonoBehaviour
     public AudioClip dsKey;
     public AudioClip dsWs;
     public AudioClip dsAt;
+    public AudioClip dsAtss;
+
+    public float currentSpeed;
+    public float patrolSpeed = 0.8f;
+    public float chaseSpeed = 1.8f;
 
     CharacterController cc;
+<<<<<<< Updated upstream
     Vector3 patrolCenter;
     Vector3 patrolNext;
+=======
+    public GameObject hm;
+>>>>>>> Stashed changes
 
     private List<AudioSource> dsAs = new List<AudioSource>();
     private Transform dsTransform;
@@ -30,9 +40,9 @@ public class DalsuMove : MonoBehaviour
     private float dist;
 
     //추적 사정 거리
-    public float chaseDist = 20.0f;
+    public float chaseDist = 25.0f;
     //공격 사정 거리
-    public float attackDist = 3.0f;
+    private float attackDist = 1.2f;
 
 
     void Start()
@@ -41,23 +51,44 @@ public class DalsuMove : MonoBehaviour
         AddAudioSource(dsKey);
         AddAudioSource(dsWs);
         AddAudioSource(dsAt);
-
-        patrolCenter = transform.position;
-        patrolNext = patrolCenter;
+        AddAudioSource(dsAtss);
 
         dsTransform = GetComponent<Transform>();
         pTransform = GameObject.FindGameObjectWithTag("Player").transform;
         cc = GetComponent<CharacterController>();
         dsnvAgent = GetComponent<NavMeshAgent>();
+        dsnvAgent.updateRotation = false;
         dsanim = GetComponent<Animator>();
+<<<<<<< Updated upstream
         curState = CurrentState.patrol;
         
+=======
+        hm = GameObject.FindWithTag("Player");
+        playerHealth = hm.GetComponent<PlayerHealth>();
+        curState = CurrentState.patrol;
+        dsnvAgent.stoppingDistance = attackDist;
+
+
+        bool canAt = true;
+
+>>>>>>> Stashed changes
     }
 
 
 
     void Update()
     {
+<<<<<<< Updated upstream
+=======
+        pTransform = hm.transform;
+        // 플레이어를 향해 바라보도록 설정
+        //Vector3 pSis = new Vector3(pTransform.position.x, pTransform.position.y, pTransform.position.z);
+        //dsTransform.LookAt(pSis);
+        if (dsnvAgent.velocity.sqrMagnitude > Mathf.Epsilon)
+        {
+            dsTransform.rotation = Quaternion.LookRotation(dsnvAgent.velocity.normalized);
+        }
+>>>>>>> Stashed changes
         StartCoroutine(CheckState());
         StartCoroutine(CheckStateForAction());
     }
@@ -73,7 +104,8 @@ public class DalsuMove : MonoBehaviour
         else if (dist <= chaseDist)  //isHiding이 아니라면
         {
             RaycastHit hit;
-            if (Physics.Raycast(transform.position, (pTransform.position - transform.position).normalized, out hit, chaseDist))
+            Vector3 raydir = (pTransform.position - dsTransform.position).normalized;
+            if (Physics.Raycast(dsTransform.position, raydir, out hit, chaseDist))
                 if (hit.transform == pTransform)
                 {
                     if (curState == CurrentState.chase)
@@ -102,7 +134,7 @@ public class DalsuMove : MonoBehaviour
         switch(curState)
         {
             case CurrentState.attack:
-                StartCoroutine(Attack());
+                Attack();
                 break;
             case CurrentState.patrol:
                 Patrol();
@@ -120,12 +152,19 @@ public class DalsuMove : MonoBehaviour
 
     void Patrol()
     {
+<<<<<<< Updated upstream
         Vector3 dir = pTransform.position - dsTransform.position;
         dsanim.SetTrigger("Patrol");
         dsnvAgent.speed = 0.8f;
         //cc.Move(dir.normalized * dsnvAgent.speed * Time.deltaTime);
         patrolNext = patrolCenter + new Vector3(Random.Range(-10, 10), 0, Random.Range(-10, 10));
         dsnvAgent.SetDestination(patrolNext);
+=======
+        dsanim.SetTrigger("goPatrol");
+        currentSpeed = patrolSpeed;
+        dsnvAgent.speed = currentSpeed;
+        dsnvAgent.SetDestination(pTransform.position);
+>>>>>>> Stashed changes
     }
 
     void ChaseStart()
@@ -136,21 +175,28 @@ public class DalsuMove : MonoBehaviour
     
     void Chase()
     {
+<<<<<<< Updated upstream
         Vector3 dir = pTransform.position - dsTransform.position;
         dsnvAgent.speed = 1.4f;
         //cc.Move(dir.normalized * dsnvAgent.speed * Time.deltaTime);
         dsnvAgent.SetDestination(pTransform.position);
         dsanim.SetTrigger("Chase");
+=======
+        currentSpeed = chaseSpeed;
+        dsnvAgent.speed = currentSpeed;
+        dsnvAgent.SetDestination(pTransform.position);
+        dsanim.SetTrigger("goChase");
+        
+>>>>>>> Stashed changes
     }
 
-    IEnumerator Attack()
+    void Attack()
     {
-        // 플레이어를 향해 바라보도록 설정
-        cc.Move(Vector3.zero);
-        //dsTransform.LookAt(pTransform.position);
+        
 
         if (dist <= attackDist)
         {
+<<<<<<< Updated upstream
             dsanim.SetTrigger("Attack");
             // DsDMG();
             yield return new WaitForSeconds(2.1f); // 공격 애니메이션 시간만큼 대기
@@ -164,8 +210,27 @@ public class DalsuMove : MonoBehaviour
                     dsanim.SetTrigger("At2");
                     // DsDMG();
                     yield return new WaitForSeconds(2.1f); // 공격 애니메이션 시간만큼 대기
+=======
+            dsnvAgent.isStopped = true;
+            canAt = false;
+            dsanim.SetTrigger("goAt");
+            canAt = true;
+            if (dist <= attackDist && canAt == true)
+            {
+                dsnvAgent.isStopped = true;
+                canAt = false;
+                dsanim.SetTrigger("goAt2");
+                canAt = true;
+                if (dist <= attackDist && canAt == true)
+                {
+                    dsnvAgent.isStopped = true;
+                    canAt = false;
+                    dsanim.SetTrigger("goAt3");
+                    canAt = true;
+>>>>>>> Stashed changes
                 }
             }
+            dsnvAgent.isStopped = false;
         }
         else if (dist <= chaseDist)
         {
@@ -183,17 +248,34 @@ public class DalsuMove : MonoBehaviour
         dsAs.Add(newSource);
     }
 
-    void DSFootStep()
+    IEnumerator DSFootStep()
     {
-        // dsAs[0].Play();
         AudioSource.PlayClipAtPoint(dsStep, dsnvAgent.transform.position);
         AudioSource.PlayClipAtPoint(dsKey, dsnvAgent.transform.position);
+        while(curState == CurrentState.chase)
+        {
+            DSWS();
+            yield return new WaitForSeconds(3);
+        }
+    }
+
+    void DSWS()
+    {
+        AudioSource.PlayClipAtPoint(dsWs, dsnvAgent.transform.position);
     }
 
     void DSAT()
     {
         AudioSource.PlayClipAtPoint(dsAt, dsnvAgent.transform.position);
     }
+    void DSATYES()
+    {
+        AudioSource.PlayClipAtPoint(dsAtss, pTransform.position);
+        playerHealth.TakeDamage((int)dsdmg);
+    }
+
+    
+
 
     //void LookAtP()
     //{
@@ -204,8 +286,13 @@ public class DalsuMove : MonoBehaviour
     //    dsnvAgent.transform.rotation = Quaternion.Slerp(dsnvAgent.transform.rotation, targetAngle, 120);
     //}
 
+<<<<<<< Updated upstream
     void DsDMG()
     {
         // 플레이어에게 dsdmg 만큼 대미지를 입히는 함수를 실행
     }
+=======
+
+ 
+>>>>>>> Stashed changes
 }
