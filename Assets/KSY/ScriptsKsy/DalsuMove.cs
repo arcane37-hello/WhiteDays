@@ -26,7 +26,6 @@ public class DalsuMove : MonoBehaviour
     private Transform dsTransform;
     private Transform pTransform;
     private NavMeshAgent dsnvAgent;
-    //private 플레이어스크립트이름 playerSc;
     private float dist;
 
     //추적 사정 거리
@@ -58,6 +57,14 @@ public class DalsuMove : MonoBehaviour
 
     void Update()
     {
+<<<<<<< Updated upstream
+=======
+        pTransform = hm.transform;
+        if (dsnvAgent.velocity.sqrMagnitude > Mathf.Epsilon)
+        {
+            dsTransform.rotation = Quaternion.LookRotation(dsnvAgent.velocity.normalized);
+        }
+>>>>>>> Stashed changes
         StartCoroutine(CheckState());
         StartCoroutine(CheckStateForAction());
     }
@@ -143,13 +150,30 @@ public class DalsuMove : MonoBehaviour
         dsanim.SetTrigger("Chase");
     }
 
+<<<<<<< Updated upstream
     IEnumerator Attack()
+=======
+    void Chase()
+    {
+        currentSpeed = chaseSpeed;
+        dsnvAgent.speed = currentSpeed;
+        dsnvAgent.SetDestination(pTransform.position);
+        dsanim.SetTrigger("goChase");
+        
+    }
+
+    void Attack()
+>>>>>>> Stashed changes
     {
         // 플레이어를 향해 바라보도록 설정
         cc.Move(Vector3.zero);
         //dsTransform.LookAt(pTransform.position);
 
+<<<<<<< Updated upstream
         if (dist <= attackDist)
+=======
+        if (dist <= attackDist && canAt == true)
+>>>>>>> Stashed changes
         {
             dsanim.SetTrigger("Attack");
             // DsDMG();
@@ -188,12 +212,26 @@ public class DalsuMove : MonoBehaviour
         // dsAs[0].Play();
         AudioSource.PlayClipAtPoint(dsStep, dsnvAgent.transform.position);
         AudioSource.PlayClipAtPoint(dsKey, dsnvAgent.transform.position);
+<<<<<<< Updated upstream
+=======
+        while(curState == CurrentState.chase)
+        {
+            DSWS();
+            yield return new WaitForSeconds(3);
+        }
+    }
+
+    void DSWS()
+    {
+        AudioSource.PlayClipAtPoint(dsWs, dsnvAgent.transform.position);
+>>>>>>> Stashed changes
     }
 
     void DSAT()
     {
         AudioSource.PlayClipAtPoint(dsAt, dsnvAgent.transform.position);
     }
+<<<<<<< Updated upstream
 
     //void LookAtP()
     //{
@@ -208,4 +246,12 @@ public class DalsuMove : MonoBehaviour
     {
         // 플레이어에게 dsdmg 만큼 대미지를 입히는 함수를 실행
     }
+=======
+    void DSATYES()
+    {
+        AudioSource.PlayClipAtPoint(dsAtss, pTransform.position);
+        playerHealth.TakeDamage((int)dsdmg);
+    }
+
+>>>>>>> Stashed changes
 }
