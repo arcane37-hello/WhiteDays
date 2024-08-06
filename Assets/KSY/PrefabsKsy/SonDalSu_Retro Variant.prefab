@@ -752,6 +752,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 4752743608687537, guid: 803969f1f06561644b2b11940734c231, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4765295783029098, guid: 803969f1f06561644b2b11940734c231, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 22.001457
@@ -1040,6 +1044,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -36.543045
       objectReference: {fileID: 0}
+    - target: {fileID: 95580680838386812, guid: 803969f1f06561644b2b11940734c231,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f93a06583025a6d4ea4bc143f6122935, type: 2}
     - target: {fileID: 3831975829358408751, guid: 803969f1f06561644b2b11940734c231,
         type: 3}
       propertyPath: dsanim
@@ -1047,10 +1056,31 @@ PrefabInstance:
       objectReference: {fileID: 7251481465210731531}
     - target: {fileID: 3831975829358408751, guid: 803969f1f06561644b2b11940734c231,
         type: 3}
+      propertyPath: chaseDist
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831975829358408751, guid: 803969f1f06561644b2b11940734c231,
+        type: 3}
       propertyPath: dsnvAgent
       value: 
       objectReference: {fileID: 8623281112709246854}
-    m_RemovedComponents: []
+    - target: {fileID: 3831975829358408751, guid: 803969f1f06561644b2b11940734c231,
+        type: 3}
+      propertyPath: attackDist
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831975829358408751, guid: 803969f1f06561644b2b11940734c231,
+        type: 3}
+      propertyPath: chaseSpeed
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831975829358408751, guid: 803969f1f06561644b2b11940734c231,
+        type: 3}
+      propertyPath: patrolSpeed
+      value: 0.9
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8444953673745731681, guid: 803969f1f06561644b2b11940734c231, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
