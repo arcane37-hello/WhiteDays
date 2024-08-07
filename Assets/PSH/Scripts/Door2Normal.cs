@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Door2 : MonoBehaviour
+public class Door2Normal : MonoBehaviour
 {
     public float rotationAngle = 90f; // 회전할 각도 (도 단위)
     public float rotationDuration = 1f; // 회전할 시간 (초)
@@ -13,15 +13,11 @@ public class Door2 : MonoBehaviour
     private bool rotatingToTarget = false;
     private float rotationStartTime;
 
-    private PlayerInventory playerInventory; // 플레이어의 인벤토리 상태를 참조할 변수
-
     void Start()
     {
         originalRotation = transform.rotation;
+        // 목표 회전: 현재 회전 상태에 y축 기준으로 rotationAngle 만큼 회전
         targetRotation = originalRotation * Quaternion.Euler(0, rotationAngle, 0);
-
-        // 플레이어의 PlayerInventory 컴포넌트를 찾아서 할당합니다.
-        playerInventory = FindObjectOfType<PlayerInventory>();
     }
 
     void Update()
@@ -37,27 +33,19 @@ public class Door2 : MonoBehaviour
                 // 클릭한 오브젝트가 이 스크립트가 붙어 있는 오브젝트인지 확인
                 if (hit.transform == transform)
                 {
-                    // 플레이어가 열쇠를 가지고 있는지 확인
-                    if (playerInventory != null && playerInventory.hasKey)
+                    if (!isRotating)
                     {
-                        if (!isRotating)
+                        if (rotatingToTarget)
                         {
-                            if (rotatingToTarget)
-                            {
-                                // 원래 회전 상태로 돌아가도록
-                                StopAllCoroutines();
-                                StartCoroutine(RotateToOriginal());
-                            }
-                            else
-                            {
-                                // 목표 회전으로 회전하도록
-                                StartCoroutine(RotateToTarget());
-                            }
+                            // 원래 회전 상태로 돌아가도록
+                            StopAllCoroutines();
+                            StartCoroutine(RotateToOriginal());
                         }
-                    }
-                    else
-                    {
-                        Debug.Log("You need a key to open this door.");
+                        else
+                        {
+                            // 목표 회전으로 회전하도록
+                            StartCoroutine(RotateToTarget());
+                        }
                     }
                 }
             }

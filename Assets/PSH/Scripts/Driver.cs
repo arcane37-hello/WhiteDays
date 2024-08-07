@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class Driver : MonoBehaviour
 {
-    public string DriverName; // 드라이버의 이름
+    public string driverName; // 드라이버의 이름
 
-    // 열쇠 획득 시 호출되는 메소드
     public void Collect()
     {
-        Debug.Log(DriverName + " Paper collected!");
+        // 플레이어의 인벤토리 상태를 업데이트합니다.
+        PlayerInventory playerInventory = FindObjectOfType<PlayerInventory>();
+        if (playerInventory != null)
+        {
+            playerInventory.SetDriver(true);
+        }
+        Debug.Log(driverName + " driver collected!");
         Destroy(gameObject); // 드라이버를 수집하면 오브젝트를 삭제합니다.
     }
 }
