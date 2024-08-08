@@ -13,7 +13,7 @@ public class FollowCamera : MonoBehaviour
 
     void Start()
     {
-        //player = GameObject.Find("LeeHeeMin").transform;
+        player = GameObject.Find("LeeHeeMin").transform;
     }
 
     void Update()
