@@ -41,6 +41,7 @@ public class DalsuMove : MonoBehaviour
     private float attackDist = 1.2f;
 
     bool canAt = true;
+    public bool isChase = false;
 
 
     void Start()
@@ -62,7 +63,6 @@ public class DalsuMove : MonoBehaviour
         dsnvAgent.stoppingDistance = attackDist;
 
 
-        bool canAt = true;
 
     }
 
@@ -126,9 +126,14 @@ public class DalsuMove : MonoBehaviour
                 Attack();
                 break;
             case CurrentState.patrol:
+                if(isChase == true)
+                {
+                    isChase = false;
+                }
                 Patrol();
                 break;
             case CurrentState.chaseStart:
+                isChase = true;
                 ChaseStart();
                 break;
             case CurrentState.chase:
