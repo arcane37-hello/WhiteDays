@@ -7,6 +7,7 @@ public class PlayerInventory : MonoBehaviour
     public bool hasKey = false;
     public bool hasPaper = false;
     public bool hasDriver = false;
+    public bool hasNipper = false;
 
     public void SetKey(bool value)
     {
@@ -24,5 +25,11 @@ public class PlayerInventory : MonoBehaviour
     {
         hasDriver = value;
         Debug.Log("Player has driver: " + hasDriver);
+    }
+
+    public void SetNipper(bool value)
+    {
+        hasNipper = value;
+        Debug.Log("Player has nipper: " + hasNipper);
     }
 }
