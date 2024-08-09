@@ -23,7 +23,6 @@ public class PlayerMove : MonoBehaviour
     Vector3 gravityPower;
 
 
-
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;

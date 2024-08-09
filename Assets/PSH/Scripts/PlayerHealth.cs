@@ -6,7 +6,6 @@ public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 3; // 기본 체력
     public int currentHealth;
-    public bool hasMap = false;
 
     void Start()
     {
@@ -33,10 +32,5 @@ public class PlayerHealth : MonoBehaviour
     public int GetCurrentHealth()
     {
         return currentHealth;
-    }
-
-    public void GetMap()
-    {
-        hasMap = true;
     }
 }
