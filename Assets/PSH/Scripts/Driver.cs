@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Key : MonoBehaviour
+public class Driver : MonoBehaviour
 {
-    public string keyName; // 열쇠의 이름
+    public string driverName; // 드라이버의 이름
 
     public void Collect()
     {
@@ -12,9 +12,9 @@ public class Key : MonoBehaviour
         PlayerInventory playerInventory = FindObjectOfType<PlayerInventory>();
         if (playerInventory != null)
         {
-            playerInventory.SetKey(true);
+            playerInventory.SetDriver(true);
         }
-        Debug.Log(keyName + " key collected!");
-        Destroy(gameObject); // 열쇠를 수집하면 오브젝트를 삭제합니다.
+        Debug.Log(driverName + " driver collected!");
+        Destroy(gameObject); // 드라이버를 수집하면 오브젝트를 삭제합니다.
     }
 }

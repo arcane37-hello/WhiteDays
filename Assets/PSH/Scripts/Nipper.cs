@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Key : MonoBehaviour
+public class Nipper : MonoBehaviour
 {
-    public string keyName; // 열쇠의 이름
+    public string nipperName; // 열쇠의 이름
 
     public void Collect()
     {
@@ -12,9 +12,9 @@ public class Key : MonoBehaviour
         PlayerInventory playerInventory = FindObjectOfType<PlayerInventory>();
         if (playerInventory != null)
         {
-            playerInventory.SetKey(true);
+            playerInventory.SetNipper(true);
         }
-        Debug.Log(keyName + " key collected!");
-        Destroy(gameObject); // 열쇠를 수집하면 오브젝트를 삭제합니다.
+        Debug.Log(nipperName + " nipper collected!");
+        Destroy(gameObject); // 니퍼를 수집하면 오브젝트를 삭제합니다.
     }
 }
