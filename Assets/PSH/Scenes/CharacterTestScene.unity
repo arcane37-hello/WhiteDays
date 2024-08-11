@@ -1891,6 +1891,7 @@ GameObject:
   - component: {fileID: 1840811019}
   - component: {fileID: 1840811020}
   - component: {fileID: 1840811021}
+  - component: {fileID: 1840811022}
   m_Layer: 0
   m_Name: LeeHeeMin
   m_TagString: Player
@@ -2050,6 +2051,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionRange: 6
   playerCamera: {fileID: 961739752}
+--- !u!114 &1840811022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840811013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d359355a7d4ec8c4ab3217448544cce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpHeight: 3
+  gravity: -9.81
+  fallMultiplier: 2.5
+  lowJumpMultiplier: 2
 --- !u!1 &1904744053
 GameObject:
   m_ObjectHideFlags: 0
