@@ -8,7 +8,7 @@ public class Sit : MonoBehaviour
     private Vector3 initialScale = new Vector3(0.4f, 0.6f, 0.4f);
 
     // 변경할 스케일 값
-    private Vector3 scaledDown = new Vector3(0.2f, 0.3f, 0.2f);
+    private Vector3 scaledDown = new Vector3(0.15f, 0.225f, 0.15f);
 
     // 현재 스케일 상태
     private Vector3 targetScale;

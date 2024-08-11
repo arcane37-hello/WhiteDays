@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
+    public GameObject objectToMove;  // 이동할 오브젝트
+    public Transform newPosition;    // 이동할 위치
+
     private void Update()
     {
         // 마우스 왼쪽 버튼 클릭이 감지되었는지 확인
@@ -17,9 +20,15 @@ public class Test : MonoBehaviour
             if (Physics.Raycast(ray, out hit))
             {
                 // 클릭된 오브젝트가 현재 스크립트가 붙어 있는 오브젝트인지 확인
-                if (hit.transform == transform)
+                if (hit.transform.gameObject == gameObject)
                 {
-                    // 오브젝트를 삭제
+                    // objectToMove를 newPosition으로 이동
+                    if (objectToMove != null && newPosition != null)
+                    {
+                        objectToMove.transform.position = newPosition.position;
+                    }
+
+                    // 현재 오브젝트를 파괴
                     Destroy(gameObject);
                 }
             }
