@@ -6,6 +6,16 @@ using UnityEngine.UI;
 
 public class Paper : MonoBehaviour
 {
-    public string paperId;
+    public int paperId;
+    public string paperName;
+    public Sprite iconP;
+    public GameObject paperModel;
+
+
+    private void Start()
+    {
+    }
+
+
 
 }
