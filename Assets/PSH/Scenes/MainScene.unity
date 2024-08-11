@@ -1191,7 +1191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
   sprintSpeed: 5
-  walkSpeed: 3.5
+  walkSpeed: 1
   rotSpeed: 200
   yVelocity: 2
   stamina: 100
@@ -1472,6 +1472,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9676846e9fea3ac4b960b51e1ad12d2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectToMove: {fileID: 536867990}
+  newPosition: {fileID: 857456046}
 --- !u!1 &748957723
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,6 +1557,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748957723}
   m_Mesh: {fileID: 4300000, guid: d9a9da58643e32a46828b66aa0ca49a9, type: 2}
+--- !u!1 &857456045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 857456046}
+  m_Layer: 0
+  m_Name: VentSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &857456046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857456045}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.034, y: 2.285, z: 7.765}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &969078431
 GameObject:
   m_ObjectHideFlags: 0
@@ -4795,3 +4828,4 @@ SceneRoots:
   - {fileID: 2134716177}
   - {fileID: 667233712}
   - {fileID: 1993422614}
+  - {fileID: 857456046}
