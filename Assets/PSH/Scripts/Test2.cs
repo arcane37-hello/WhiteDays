@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test : MonoBehaviour
+public class Test2 : MonoBehaviour
 {
-    public GameObject objectToMove;  // 이동할 오브젝트
-    public Transform newPosition;    // 이동할 위치
     public PlayerInventory playerInventory; // PlayerInventory 인스턴스
 
     private void Update()
@@ -26,12 +24,6 @@ public class Test : MonoBehaviour
                     // 클릭된 오브젝트가 현재 스크립트가 붙어 있는 오브젝트인지 확인
                     if (hit.transform.gameObject == gameObject)
                     {
-                        // objectToMove를 newPosition으로 이동
-                        if (objectToMove != null && newPosition != null)
-                        {
-                            objectToMove.transform.position = newPosition.position;
-                        }
-
                         // 현재 오브젝트를 파괴
                         Destroy(gameObject);
                     }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Paper : MonoBehaviour
+public class Paper1 : MonoBehaviour
 {
     public string paperName; // 종이의 이름
 

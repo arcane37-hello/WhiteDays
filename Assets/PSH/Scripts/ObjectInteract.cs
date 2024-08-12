@@ -49,7 +49,7 @@ public class ObjectInteract : MonoBehaviour
         // 카메라의 정면으로 Raycast를 쏘아서 종이를 감지합니다.
         if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, interactionRange))
         {
-            Paper paper = hit.collider.GetComponent<Paper>();
+            Paper1 paper = hit.collider.GetComponent<Paper1>();
 
             if (paper != null)
             {

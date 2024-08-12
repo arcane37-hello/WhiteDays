@@ -28,7 +28,6 @@ public class MMSc : MonoBehaviour
     public AudioClip mnClose;
     public AudioClip nope;
 
-    private bool isPaused = false;
     private bool hasMapped;
 
     public Canvas Ui1;
@@ -80,6 +79,8 @@ public class MMSc : MonoBehaviour
     public RectTransform temPos;
     private const float camDis = -800f;
 
+    private bool canMove = true;
+
     public void Start()
     {
 
@@ -88,7 +89,7 @@ public class MMSc : MonoBehaviour
         Ui3.enabled = false;
         Ui4.enabled = false;
 
-        
+
     }
 
     //private void CreateItemCam()
@@ -117,66 +118,40 @@ public class MMSc : MonoBehaviour
     //    icam.orthographic = false; // Perspective 모드로 설정
     //    icam.fieldOfView = 60; // 필드 오브 뷰를 설정
     //}
-    public void TimeCount()
-    {
-        if (isPaused == true)
-        {
-            Time.timeScale = 0f;
-        }
-        else if(isPaused == false)
-        {
-            Time.timeScale = 1f;
-        }
-    }
 
-    public void EscCheck()
-    {
-        if (escC.enabled == false)
-        {
-            isPaused = false;
-        }
-        else if (escC.enabled == true)
-        {
-            isPaused = true;
-        }
 
-    }
+
 
     public void Update()
     {
-        TimeCount();
-        EscCheck();
+
 
         hasMapped = player.GetComponent<PlayerHealth>().hasMap;
         if (Input.GetKeyDown(KeyCode.F1))
         {
-            isPaused = true;
+
             ToggleInventory("SMS");
         }
         else if (Input.GetKeyDown(KeyCode.F2))
         {
-            isPaused = true;
+
             ToggleInventory("Item");
         }
         else if (Input.GetKeyDown(KeyCode.F3))
         {
-            isPaused = true;
+
             ToggleInventory("Paper");
         }
         else if (Input.GetKeyDown(KeyCode.F4) && hasMapped == true)
         {
-            isPaused = true;
+
             ToggleInventory("Map");
         }
         else if (Input.GetKeyDown(KeyCode.Backspace))
         {
             CloseCurrentInventory();
         }
-        else
-        {
-            isPaused = false;
-        }
-        
+
 
         if (Ui2.enabled == true)
         {
@@ -189,7 +164,7 @@ public class MMSc : MonoBehaviour
         }
 
 
-        
+
     }
     void ToggleInventory(string inventoryType)
     {
@@ -209,10 +184,10 @@ public class MMSc : MonoBehaviour
                 ToggleInventoryUI(Ui4);
                 break;
         }
-        
-        
+
+
     }
-    
+
     void ToggleInventoryUI(Canvas inventoryUI)
     {
         if (currentInventory == inventoryUI)
@@ -226,7 +201,7 @@ public class MMSc : MonoBehaviour
                 currentInventory.enabled = false;
             }
             currentInventory = inventoryUI;
-            inventoryUI.enabled = true ;
+            inventoryUI.enabled = true;
 
         }
     }
@@ -236,21 +211,20 @@ public class MMSc : MonoBehaviour
         if (currentInventory != null)
         {
             currentInventory.enabled = false;
-            isPaused = false;
         }
     }
 
     public void AddItemToInventory(Item item)
     {
-        if(item != null)
+        if (item != null)
         {
             itemInventory.Add(item);
             itemOrder.Add(item);
-            if(!itemIcons.ContainsKey(item))
+            if (!itemIcons.ContainsKey(item))
             {
                 UpdateItemInventoryUI();
             }
-            
+
         }
     }
 
@@ -260,11 +234,11 @@ public class MMSc : MonoBehaviour
         {
             paperInventory.Add(paper);
             paperOrder.Add(paper);
-            if(!pN.ContainsKey(paper))
+            if (!pN.ContainsKey(paper))
             {
                 UpdatePaperInventoryUI();
             }
-            
+
         }
     }
     private void UpdateItemInventoryUI()
@@ -319,19 +293,19 @@ public class MMSc : MonoBehaviour
         foreach (Paper paper in paperOrder)
         {
             // 종이가 이미 UI 요소를 가지고 있는지 확인합니다.
-        if (!pN.ContainsKey(paper))
-        {
-            // 새로운 종이 텍스트 생성
-            TextMeshProUGUI paperText = new GameObject("PaperText").AddComponent<TextMeshProUGUI>();
-            paperText.transform.SetParent(paperIconParent, false); // paperIconParent의 자식으로 설정
+            if (!pN.ContainsKey(paper))
+            {
+                // 새로운 종이 텍스트 생성
+                TextMeshProUGUI paperText = new GameObject("PaperText").AddComponent<TextMeshProUGUI>();
+                paperText.transform.SetParent(paperIconParent, false); // paperIconParent의 자식으로 설정
 
-            // 종이의 텍스트를 설정합니다.
-            paperText.text = paper.paperName;
+                // 종이의 텍스트를 설정합니다.
+                paperText.text = paper.paperName;
 
-            // 텍스트의 크기와 위치를 조절할 필요가 있을 수 있습니다.
-            RectTransform rectTransform = paperText.GetComponent<RectTransform>();
-            rectTransform.sizeDelta = new Vector2(200, 50); // 예시로 크기 설정
-            rectTransform.anchoredPosition = new Vector2(0, 0); // 예시로 위치 설정
+                // 텍스트의 크기와 위치를 조절할 필요가 있을 수 있습니다.
+                RectTransform rectTransform = paperText.GetComponent<RectTransform>();
+                rectTransform.sizeDelta = new Vector2(200, 50); // 예시로 크기 설정
+                rectTransform.anchoredPosition = new Vector2(0, 0); // 예시로 위치 설정
 
                 // 클릭 이벤트 추가
                 Button iconButton = paperText.gameObject.AddComponent<Button>();
@@ -339,12 +313,12 @@ public class MMSc : MonoBehaviour
 
                 // 종이와 해당 텍스트의 연결을 저장합니다.
                 pN[paper] = paperText;
-        }
-        else
-        {
-            // 이미 존재하는 경우, 텍스트만 업데이트합니다.
-            pN[paper].text = paper.paperName;
-        }
+            }
+            else
+            {
+                // 이미 존재하는 경우, 텍스트만 업데이트합니다.
+                pN[paper].text = paper.paperName;
+            }
         }
 
         // 기본적으로 가장 위에 있는 종이를 선택합니다.
@@ -383,11 +357,11 @@ public class MMSc : MonoBehaviour
 
     public void Scroll(float scrollAmount)
     {
-        if(Ui2 == true)
+        if (Ui2 == true)
         {
             itemScrollRect.verticalNormalizedPosition += scrollAmount;
         }
-        if(Ui3 == true)
+        if (Ui3 == true)
         {
             paperScrollRect.verticalNormalizedPosition += scrollAmount;
         }
@@ -404,11 +378,11 @@ public class MMSc : MonoBehaviour
             {
                 currentItemIndex = itemOrder.Count - 1;
             }
-            if(itemOrder.Count > 0)
+            if (itemOrder.Count > 0)
             {
                 SelectItem(currentItemIndex);
             }
-            
+
         }
     }
     public void RemovePaper(Paper paper)
@@ -450,7 +424,7 @@ public class MMSc : MonoBehaviour
         {
             Destroy(currentItem);
         }
-        if(itemT != null)
+        if (itemT != null)
         {
             itemT.Release();
             itemT = null;
@@ -497,7 +471,7 @@ public class MMSc : MonoBehaviour
             Destroy(currentPaper);
         }
 
-        if(paperT != null)
+        if (paperT != null)
         {
             paperT.Release();
             paperT = null;
@@ -545,7 +519,7 @@ public class MMSc : MonoBehaviour
         {
             Item item = itemOrder[currentItemIndex];
             item.Use(); // 아이템의 Use 메서드 호출
-            if(item.hasFun)
+            if (item.hasFun)
             {
                 RemoveItem(item);
             }
@@ -634,8 +608,8 @@ public class MMSc : MonoBehaviour
         // 아이콘의 위치를 선택 배경의 중앙으로 설정
         selectedItemIcon.rectTransform.anchoredPosition = Vector2.zero;
 
-        
-        
+
+
         // 현재 선택된 아이템 인덱스 업데이트
         currentItemIndex = index;
     }

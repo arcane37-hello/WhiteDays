@@ -10,7 +10,7 @@ public class DalsuMove : MonoBehaviour
     public enum CurrentState { idle, patrol, chase, attack, chaseStart };
     CurrentState curState;
 
-    public float dsdmg = 1;
+    public int dsdmg = 1;
 
     Animator dsanim;
 
@@ -231,8 +231,8 @@ public class DalsuMove : MonoBehaviour
     }
     void DSATYES()
     {
-        AudioSource.PlayClipAtPoint(dsAtss, pTransform.position);
-        playerHealth.TakeDamage((int)dsdmg);
+        AudioSource.PlayClipAtPoint(dsAtss, dsnvAgent.transform.position);
+        playerHealth.TakeDamage(dsdmg);
     }
 
 

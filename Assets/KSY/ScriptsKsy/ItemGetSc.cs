@@ -40,7 +40,7 @@ public class ItemGetSc : MonoBehaviour
 
         if(Physics.Raycast(ray, out hit, pickRange))
         {
-            if(hit.collider.GetComponent<Item>() != null || hit.collider.GetComponent<Paper>() !=null)
+            if(hit.collider.GetComponent<Item>() != null || hit.collider.GetComponent<Paper1>() !=null)
             {
                 defaultAim.enabled = false;
                 selectAim.enabled =true;
