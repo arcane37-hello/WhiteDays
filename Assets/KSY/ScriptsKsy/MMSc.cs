@@ -6,7 +6,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEditor.Progress;
+// using static UnityEditor.Progress;
 
 public class MMSc : MonoBehaviour
 {
@@ -595,12 +595,12 @@ public class MMSc : MonoBehaviour
         Image selectedItemIcon = itemIcons[item];
 
         // 선택 배경을 content의 자식으로 생성
-        itemSelectBG.transform.SetParent(itemIconParent.transform, false);
-        RectTransform selectBGRectTransform = itemSelectBG.GetComponent<RectTransform>();
+        //itemSelectBG.transform.SetParent(itemIconParent.transform, false);
+       // RectTransform selectBGRectTransform = itemSelectBG.GetComponent<RectTransform>();
         // 선택 배경 활성화
-        itemSelectBG.enabled = true;
+        //itemSelectBG.enabled = true;
         // 선택 배경을 아이콘의 자식으로 만들기 전에 위치 설정
-        selectBGRectTransform.anchoredPosition = Vector2.zero;
+        //selectBGRectTransform.anchoredPosition = Vector2.zero;
 
         // 선택 배경을 아이콘의 위에 위치시키기 위해 아이콘을 선택 배경의 자식으로 설정
         selectedItemIcon.transform.SetParent(itemSelectBG.transform, false);
