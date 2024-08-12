@@ -5,15 +5,15 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     public float moveSpeed = 7.0f;
-    public float sprintSpeed = 14.0f;  // 질주 시 속도
-    public float walkSpeed = 3.5f;  // 걷기 속도
+    public float sprintSpeed = 14.0f;
+    public float walkSpeed = 3.5f;
     public float rotSpeed = 200.0f;
     public float yVelocity = 2.0f;
-    public float stamina = 100.0f;  // 스태미나 변수를 public으로 선언
+    public float stamina = 100.0f;
 
     private bool isCoolingDown = false;
     private float originalMoveSpeed;
-    private bool isSprinting = false;  // 질주 상태 여부를 나타내는 변수
+    private bool isSprinting = false;
 
     float rotX;
     float rotY;
@@ -22,26 +22,28 @@ public class PlayerMove : MonoBehaviour
     CharacterController cc;
     Vector3 gravityPower;
 
+    Animator animator; // 애니메이터 컴포넌트
 
 
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
 
-
         rotX = transform.eulerAngles.x;
         rotY = transform.eulerAngles.y;
-    
+
         cc = GetComponent<CharacterController>();
         gravityPower = Physics.gravity;
         yPos = transform.position.y;
+
+        animator = GetComponent<Animator>(); // 애니메이터 컴포넌트 가져오기
 
         originalMoveSpeed = moveSpeed;
     }
 
     void Update()
     {
-        if(stamina > 0)
+        if (stamina > 0)
         {
             Move();
         }
@@ -52,7 +54,7 @@ public class PlayerMove : MonoBehaviour
                 StartCoroutine(CooldownCoroutine());
             }
         }
-        
+
         Rotate();
     }
 
@@ -71,29 +73,34 @@ public class PlayerMove : MonoBehaviour
             isSprinting = false;
         }
 
-        // 질주 상태에 따라 속도 조정
+        // 질주 상태에 따라 속도 조정 및 애니메이션 트리거 설정
         if (isSprinting)
         {
             moveSpeed = sprintSpeed;
-            stamina -= 5.0f * Time.deltaTime;  // 질주 중 스태미나 소모
+            stamina -= 5.0f * Time.deltaTime;
+            animator.SetTrigger("Run"); // RunTrigger 활성화
         }
         else if (Input.GetKey(KeyCode.LeftControl))
         {
             moveSpeed = walkSpeed;
-            stamina += 3.0f * Time.deltaTime;  // 걷기 중 스태미나 회복
+            stamina += 3.0f * Time.deltaTime;
+            animator.SetTrigger("Walk"); // WalkTrigger 활성화
         }
         else
         {
-            moveSpeed = originalMoveSpeed;  // 기본 이동 속도로 복원
-            stamina += 3.0f * Time.deltaTime;  // 스태미나 회복
+            moveSpeed = originalMoveSpeed;
+            stamina += 3.0f * Time.deltaTime;
+            animator.SetTrigger("Stand"); // StandTrigger 활성화
         }
 
-        stamina = Mathf.Clamp(stamina, 0.0f, 100.0f);  // 스태미나를 0에서 100 사이로 제한
+        // 스태미나를 0에서 100 사이로 제한
+        stamina = Mathf.Clamp(stamina, 0.0f, 100.0f);
 
         Vector3 dir = new Vector3(h, 0, v);
         dir = transform.TransformDirection(dir);
         dir.Normalize();
 
+        // 중력 적용 및 위치 업데이트
         yPos += gravityPower.y * yVelocity * Time.deltaTime;
         if (cc.isGrounded)
         {
@@ -101,6 +108,7 @@ public class PlayerMove : MonoBehaviour
         }
         dir.y = yPos;
 
+        // 캐릭터 이동
         cc.Move(dir * moveSpeed * Time.deltaTime);
     }
 
@@ -131,18 +139,14 @@ public class PlayerMove : MonoBehaviour
         isCoolingDown = true;
         isSprinting = false;
 
-        // 3초 동안 대기합니다.
+        // 7초 동안 대기
         yield return new WaitForSeconds(7f);
 
-        // 3초 후, 스태미나를 재충전하거나 다른 작업을 수행합니다.
+        // 7초 후, 스태미나를 재충전
         isCoolingDown = false;
         stamina = 100.0f;
-        
     }
 }
-
-
-
 
 
 
