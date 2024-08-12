@@ -9,38 +9,106 @@ public class ItemGetSc : MonoBehaviour
 
     public MMSc mmsc;
 
+    public Camera pCam;
+    public Image defaultAim;
+    public Image selectAim;
+
+    public GameObject diary;
+    public GameObject present;
+
     void Start()
     {
-        
+        selectAim.enabled = false;
+        defaultAim.enabled = true;
+
+        AddInitialItems();
     }
 
     void Update()
     {
-        if(Input.GetMouseButton(0))
+        UpdateAim();
+        if (Input.GetMouseButtonDown(0))
         {
             TryPickupItem();
         }
     }
 
+    void UpdateAim()
+    {
+        Ray ray = new Ray(pCam.transform.position, pCam.transform.forward);
+        RaycastHit hit;
+
+        if(Physics.Raycast(ray, out hit, pickRange))
+        {
+            if(hit.collider.GetComponent<Item>() != null || hit.collider.GetComponent<Paper>() !=null)
+            {
+                defaultAim.enabled = false;
+                selectAim.enabled =true;
+            }
+            else
+            {
+                defaultAim.enabled = true;
+                selectAim.enabled = false;
+            }
+        }
+        else
+        {
+            defaultAim.enabled = true;
+            selectAim.enabled = false;
+        }
+    }
+
     void TryPickupItem()
     {
-        Collider[] hitColliders = Physics.OverlapSphere(transform.position, pickRange);
-        foreach(var hitCollider in hitColliders)
+        Ray ray = new Ray(pCam.transform.position, pCam.transform.forward);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit, pickRange))
         {
-
-            Item item = hitCollider.GetComponent<Item>();
+            Item item = hit.collider.GetComponent<Item>();
             if (item != null)
             {
-
                 mmsc.AddItemToInventory(item);
-                break;
-
+                Destroy(item.gameObject);
+                Debug.Log("아이템 습득:" + item.itemId);
+                return;
             }
-            Paper paper = hitCollider.GetComponent<Paper>();
+
+            Paper paper = hit.collider.GetComponent<Paper>();
             if (paper != null)
             {
                 mmsc.AddPaperToInventory(paper);
-                break;
+                Destroy(paper.gameObject);
+                Debug.Log("쪽지 습득:" + paper.paperId);
+                return;
+            }
+            Debug.Log("쪽지도 아이템도 아님");
+        }
+        else
+        {
+            Debug.Log("범위 내에 아무 오브젝트도 없음");
+        }
+    }
+
+    void AddInitialItems()
+    {
+        if(diary !=null)
+        {
+            GameObject diaryItem = Instantiate(diary);
+            Item item = diaryItem.GetComponent<Item>();
+            if (item != null)
+            {
+                mmsc.AddItemToInventory(item);
+                Debug.Log("다이어리가 인벤토리에 추가되었습니다.");
+            }
+        }
+        if (present != null)
+        {
+            GameObject presentItem = Instantiate(present);
+            Item item = presentItem.GetComponent<Item>();
+            if(item != null)
+            {
+                mmsc.AddItemToInventory(item);
+                Debug.Log("선물이 인벤토리에 추가되었습니다.");
             }
         }
     }
