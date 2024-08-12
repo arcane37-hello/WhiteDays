@@ -10,7 +10,7 @@ public class LobbyManager : MonoBehaviour
 
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.None;
     }
 
     void Update()
@@ -20,6 +20,6 @@ public class LobbyManager : MonoBehaviour
 
     public void GameStart()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(4);
     }
 }

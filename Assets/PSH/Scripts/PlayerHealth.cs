@@ -23,6 +23,16 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    public void Heal(int heal)
+    {
+        currentHealth += heal;
+        print("체력회복");
+        if(currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+    }
+
     void Die()
     {
         Debug.Log("Player has died");
