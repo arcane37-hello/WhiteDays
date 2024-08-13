@@ -52,4 +52,14 @@ public class Ladder : MonoBehaviour
         mousePosition.z = mainCamera.nearClipPlane; // 카메라의 near clip plane을 사용하여 Z 축 값 설정
         return mainCamera.ScreenToWorldPoint(mousePosition);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        // 충돌 시 사다리의 속도를 감소시키거나 처리
+        Rigidbody rb = GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.velocity = Vector3.zero; // 충돌 시 속도를 0으로 설정
+        }
+    }
 }
