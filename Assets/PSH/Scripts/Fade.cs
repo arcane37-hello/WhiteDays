@@ -5,32 +5,66 @@ using UnityEngine.Rendering;
 
 public class Fade : MonoBehaviour
 {
-    Renderer MyRenderer;
+    public float fadeDuration = 2.0f; // 오브젝트가 완전히 나타나기까지 걸리는 시간
+    private Material material;
+    private Color initialColor;
+    private bool isFadingIn = false;
+    private float fadeTime = 0f;
 
-    IEnumerator FadeIn()
+    void Start()
     {
-        float f = 0;
-        while (f <= 1)
+        Renderer renderer = GetComponent<Renderer>();
+        if (renderer != null)
         {
-            f += 0.1f;
-            Color ColorAlhpa = MyRenderer.material.color;
-            ColorAlhpa.a = f;
-            MyRenderer.material.color = ColorAlhpa;
-            yield return new WaitForSeconds(0.02f);
+            material = renderer.material;
+            initialColor = material.color;
+            // 초기에는 완전히 투명하게 설정
+            SetMaterialAlpha(0f);
+        }
+        else
+        {
+            Debug.LogError("Renderer component not found on this GameObject.");
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        MyRenderer = gameObject.GetComponent<Renderer>();
-        MyRenderer.material.color = new Color(1, 0, 0, 0);
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A) && MyRenderer.material.color.a <= 1)
-            StartCoroutine(FadeIn());
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            isFadingIn = true;
+            fadeTime = 0f; // Fade 시작 시간 초기화
+        }
+
+        if (isFadingIn)
+        {
+            fadeTime += Time.deltaTime;
+            float normalizedTime = fadeTime / fadeDuration;
+            float alpha = Mathf.Clamp01(normalizedTime);
+            SetMaterialAlpha(alpha);
+
+            // Fade가 끝났다면 종료
+            if (alpha >= 1f)
+            {
+                isFadingIn = false;
+            }
+        }
+    }
+
+    private void SetMaterialAlpha(float alpha)
+    {
+        Color color = material.color;
+        color.a = alpha;
+        material.color = color;
+
+        // Rendering Mode가 Transparent인지 확인
+        if (material.shader.name == "Universal Render Pipeline/Lit")
+        {
+            material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+            material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+            material.SetInt("_ZWrite", 0);
+            material.DisableKeyword("_ALPHATEST_ON");
+            material.EnableKeyword("_ALPHABLEND_ON");
+            material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+        }
     }
 }
