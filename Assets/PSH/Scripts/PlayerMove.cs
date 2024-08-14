@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Cameras;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class PlayerMove : MonoBehaviour
     public float rotSpeed = 200.0f;
     public float yVelocity = 2.0f;
     public float stamina = 100.0f;
+    public bool canMove;
+    public bool canRot;
+        
 
     private bool isCoolingDown = false;
     private float originalMoveSpeed;
@@ -39,11 +43,13 @@ public class PlayerMove : MonoBehaviour
         animator = GetComponent<Animator>(); // 애니메이터 컴포넌트 가져오기
 
         originalMoveSpeed = moveSpeed;
+        canMove = true;
+        canRot = true;
     }
 
     void Update()
     {
-        if (stamina > 0)
+        if (stamina > 0 && canMove == true)
         {
             Move();
         }
@@ -55,7 +61,10 @@ public class PlayerMove : MonoBehaviour
             }
         }
 
-        Rotate();
+        if (canRot == true)
+        {
+            Rotate();
+        }
     }
 
     void Move()
