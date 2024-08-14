@@ -29,12 +29,6 @@ public class Fade : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            isFadingIn = true;
-            fadeTime = 0f; // Fade 시작 시간 초기화
-        }
-
         if (isFadingIn)
         {
             fadeTime += Time.deltaTime;
@@ -48,6 +42,12 @@ public class Fade : MonoBehaviour
                 isFadingIn = false;
             }
         }
+    }
+
+    public void StartFading()
+    {
+        isFadingIn = true;
+        fadeTime = 0f; // Fade 시작 시간 초기화
     }
 
     private void SetMaterialAlpha(float alpha)
