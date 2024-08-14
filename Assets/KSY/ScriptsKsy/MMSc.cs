@@ -79,7 +79,6 @@ public class MMSc : MonoBehaviour
     public RectTransform temPos;
     private const float camDis = -800f;
 
-    private bool canMove = true;
 
     public void Start()
     {
@@ -89,35 +88,9 @@ public class MMSc : MonoBehaviour
         Ui3.enabled = false;
         Ui4.enabled = false;
 
+        Cursor.lockState = CursorLockMode.Locked;
 
     }
-
-    //private void CreateItemCam()
-    //{
-    //    if(icam != null)
-    //    {
-    //        Destroy(gameObject);
-    //        CreateItemCam();
-    //    }
-    //    GameObject camObj = Instantiate(icamPrefab, itemBg);
-    //    icam = camObj.GetComponent<Camera>();
-    //    // 카메라 설정
-    //    icam.orthographic = false; // Perspective 모드로 설정
-    //    icam.fieldOfView = 60; // 시야각 설정
-    //}
-    //private void CreatePaperCam()
-    //{
-    //    if(icam != null)
-    //    {
-    //        Destroy(gameObject);
-    //        CreatePaperCam();
-    //    }
-    //    GameObject camObj = Instantiate(icamPrefab, paperBg);
-    //    icam = camObj.GetComponent<Camera>();
-    //    // 카메라 설정
-    //    icam.orthographic = false; // Perspective 모드로 설정
-    //    icam.fieldOfView = 60; // 필드 오브 뷰를 설정
-    //}
 
 
 
@@ -129,17 +102,26 @@ public class MMSc : MonoBehaviour
         hasMapped = player.GetComponent<PlayerHealth>().hasMap;
         if (Input.GetKeyDown(KeyCode.F1))
         {
-
+            if(escC.enabled == true)
+            {
+                escC.enabled = false;
+            }
             ToggleInventory("SMS");
         }
         else if (Input.GetKeyDown(KeyCode.F2))
         {
-
+            if (escC.enabled == true)
+            {
+                escC.enabled = false;
+            }
             ToggleInventory("Item");
         }
         else if (Input.GetKeyDown(KeyCode.F3))
         {
-
+            if (escC.enabled == true)
+            {
+                escC.enabled = false;
+            }
             ToggleInventory("Paper");
         }
         else if (Input.GetKeyDown(KeyCode.F4) && hasMapped == false)
@@ -148,7 +130,10 @@ public class MMSc : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.F4) && hasMapped == true)
         {
-
+            if (escC.enabled == true)
+            {
+                escC.enabled = false;
+            }
             ToggleInventory("Map");
         }
         else if (Input.GetKeyDown(KeyCode.Backspace))
@@ -196,11 +181,11 @@ public class MMSc : MonoBehaviour
 
     void ToggleInventoryUI(Canvas inventoryUI)
     {
-        if (currentInventory == inventoryUI)
+        if (inventoryUI.enabled == true)
         {
             CloseCurrentInventory();
         }
-        else
+        else if (inventoryUI.enabled == false)
         {
             if (currentInventory != null)
             {

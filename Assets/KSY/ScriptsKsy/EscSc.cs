@@ -12,11 +12,18 @@ public class EscSc : MonoBehaviour
     public GameObject player;
     public GameObject dalsu;
     public GameObject mm;
+    public GameObject escF;
     private bool isChasing;
 
     public Canvas escCanvas;
 
     public TextMeshProUGUI[] menuOptions;
+    public Image[] menuOpImage;
+    public Camera mcam;
+
+    public AudioClip selectSound;
+    public AudioClip startSound;
+    public AudioClip quitSound;
     private int selectedIndex = 0;
 
     private Canvas cuIn;
@@ -28,8 +35,7 @@ public class EscSc : MonoBehaviour
 
     void Start()
     {
-        escCanvas.gameObject.SetActive(false);
-
+        escCanvas.enabled = false;
         dC = menuOptions[0].color;
         dP = new Vector2[menuOptions.Length];
         for(int i = 0; i < menuOptions.Length; i++)
@@ -41,22 +47,17 @@ public class EscSc : MonoBehaviour
 
     void Update()
     {
+        cuIn = mm.GetComponent<MMSc>().currentInventory;
         if (dalsu != null)
         {
             isChasing = dalsu.GetComponent<DalsuMove>().isChase;
         }
-        cuIn = mm.GetComponent<MMSc>().currentInventory;
         if (Input.GetKeyDown(KeyCode.Escape) && !isChasing)
         {
-            if (escCanvas.gameObject.activeSelf)
+            if (escCanvas.enabled == true)
             {
-                escCanvas.gameObject.SetActive(false);
-
-                if(cuIn != null && cuIn.enabled == false)
-                {
-                    cuIn.enabled = true;
-                    escCanvas.gameObject.SetActive(false);
-                }
+                escCanvas.enabled = false;
+                mm.GetComponent<MMSc>().CloseMenu();
             }
             else
             {
@@ -64,15 +65,15 @@ public class EscSc : MonoBehaviour
                 {
                     cuIn.enabled=false;
                 }
-
-                escCanvas.gameObject.SetActive(true);
-                Cursor.visible = false;
+                mm.GetComponent<MMSc>().OpenMenu();
+                escCanvas.enabled = true;
+                selectedIndex = 0;
                 UpdateMenu();
                 EventSystem.current.SetSelectedGameObject(menuOptions[selectedIndex].gameObject);
             }
         }
 
-        if(escCanvas.gameObject.activeSelf)
+        if(escCanvas.enabled == true)
         {
             HandleInput();
         }
@@ -84,12 +85,14 @@ public class EscSc : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
-            selectedIndex = (selectedIndex > 0) ? selectedIndex - 1 : menuOptions.Length - 1;
+            selectedIndex = (selectedIndex > 0) ? selectedIndex : menuOptions.Length - 1;
+            selectedIndex = (selectedIndex > 0) ? selectedIndex - 1 : menuOpImage.Length - 1;
             UpdateMenu();
         }
         else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            selectedIndex = (selectedIndex < menuOptions.Length - 1) ? selectedIndex + 1 : 0;
+            selectedIndex = (selectedIndex < menuOptions.Length - 1) ? selectedIndex : 0;
+            selectedIndex = (selectedIndex < menuOpImage.Length - 1) ? selectedIndex + 1 : 0;
             UpdateMenu();
         }
 
@@ -109,31 +112,34 @@ public class EscSc : MonoBehaviour
                 // 선택된 상태의 시각적 효과
                 menuOptions[i].rectTransform.anchoredPosition = dP[i] + new Vector2(20, 0);
                 menuOptions[i].color = sC;
+                menuOpImage[i].enabled = true;
             }
             else
             {
                 menuOptions[i].rectTransform.anchoredPosition = dP[i];
                 menuOptions[i].color = dC;
+                menuOpImage[i].enabled = false;
             }
         }
     }
-    private void SelectOption()
+    public void SelectOption()
     {
         switch (selectedIndex)
         {
             case 0:
                 // 게임 이어하기
+                AudioSource.PlayClipAtPoint(startSound, mcam.transform.position);
                 escCanvas.gameObject.SetActive(false);
-                Cursor.visible = false;
                 break;
             case 1:
                 // 로비로 돌아가기
-                SceneManager.LoadScene(3); // 0번 씬으로 돌아가기
-                // 지만 임의로 치트인 엔딩 보기로 바꿔뒀습니다
+                AudioSource.PlayClipAtPoint(quitSound, mcam.transform.position);
+                escF.GetComponent<EscFadeOut>().FadeOutOther();
                 break;
             case 2:
                 // 종료하기
-                Application.Quit();
+                AudioSource.PlayClipAtPoint(quitSound, mcam.transform.position);
+                escF.GetComponent<EscFadeOut>().FadeOutQuit();
                 break;
             
         }

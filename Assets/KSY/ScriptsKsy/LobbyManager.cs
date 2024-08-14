@@ -10,10 +10,16 @@ public class LobbyManager : MonoBehaviour
 {
     public TextMeshProUGUI[] lobbyOptions;
     public Image[] lobbyOpImage;
+    public Camera mCam;
+    public GameObject lfo;
 
     private int selectedIndex = 0;
     private Color dC;
     private Color sC = Color.white;
+
+    public AudioClip selectSound;
+    public AudioClip startSound;
+    public AudioClip quitSound;
 
     void Start()
     {
@@ -40,12 +46,14 @@ public class LobbyManager : MonoBehaviour
         {
             selectedIndex = (selectedIndex < lobbyOptions.Length - 1) ? selectedIndex + 1 : 0;
             selectedIndex = (selectedIndex < lobbyOpImage.Length - 1) ? selectedIndex + 1 : 0;
+            AudioSource.PlayClipAtPoint(selectSound, mCam.transform.position);
             UpdateMenu();
         }
         else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             selectedIndex = (selectedIndex > 0) ? selectedIndex - 1 : lobbyOptions.Length - 1;
             selectedIndex = (selectedIndex > 0) ? selectedIndex - 1 : lobbyOpImage.Length - 1;
+            AudioSource.PlayClipAtPoint(selectSound, mCam.transform.position);
             UpdateMenu();
 
         }
@@ -79,16 +87,23 @@ public class LobbyManager : MonoBehaviour
         switch (selectedIndex)
         {
             case 0:
+                AudioSource.PlayClipAtPoint(startSound, mCam.transform.position);
+                lfo.GetComponent<LobbyFadeOut>().FadeOut();
+                
                 // 게임 시작
                 break;
             case 1:
+                AudioSource.PlayClipAtPoint(startSound, mCam.transform.position);
+                lfo.GetComponent<LobbyFadeOut>().FadeOutOther();
                 // 추가 컨텐츠?
                 break;
             case 2:
+                AudioSource.PlayClipAtPoint(quitSound, mCam.transform.position);
+                lfo.GetComponent<LobbyFadeOut>().FadeOutQuit();
                 // 종료하기
-                Application.Quit();
                 break;
 
         }
     }
+
 }
