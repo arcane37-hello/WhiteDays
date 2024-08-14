@@ -52,7 +52,7 @@ public class EscSc : MonoBehaviour
             {
                 escCanvas.gameObject.SetActive(false);
 
-                if(cuIn != null && !cuIn.enabled == false)
+                if(cuIn != null && cuIn.enabled == false)
                 {
                     cuIn.enabled = true;
                     escCanvas.gameObject.SetActive(false);
@@ -60,7 +60,7 @@ public class EscSc : MonoBehaviour
             }
             else
             {
-                if (cuIn != null && !cuIn.enabled == false)
+                if (cuIn != null && cuIn.enabled == true)
                 {
                     cuIn.enabled=false;
                 }

@@ -37,8 +37,8 @@ public class MMSc : MonoBehaviour
 
     public Image itemSelectBG;
     public Image paperSelectBG;
-    private GameObject currentItemSelectBG; // 현재 활성화된 itemSelectBG
-    private GameObject currentPaperSelectBG;
+    public GameObject itemNoneSelectPrefab;
+    public GameObject paperNoneSelectPrefab;
 
     public Transform itemIconParent;
     public Transform paperIconParent;
@@ -64,12 +64,12 @@ public class MMSc : MonoBehaviour
     private List<Item> itemOrder = new List<Item>();
     private Dictionary<Item, Image> itemIcons = new Dictionary<Item, Image>();
     private Dictionary<Item, GameObject> itemModels = new Dictionary<Item, GameObject>();
-    private int currentItemIndex = -1;
+    private int currentItemIndex = 0;
 
     private List<Paper> paperOrder = new List<Paper>();
     private Dictionary<Paper, TextMeshProUGUI> pN = new Dictionary<Paper, TextMeshProUGUI>();
     private Dictionary<Paper, GameObject> paperModels = new Dictionary<Paper, GameObject>();
-    private int currentPaperIndex = -1;
+    private int currentPaperIndex = 0;
 
     private bool isRot = false;
 
@@ -142,6 +142,10 @@ public class MMSc : MonoBehaviour
 
             ToggleInventory("Paper");
         }
+        else if (Input.GetKeyDown(KeyCode.F4) && hasMapped == false)
+        {
+            NullMap();
+        }
         else if (Input.GetKeyDown(KeyCode.F4) && hasMapped == true)
         {
 
@@ -176,9 +180,11 @@ public class MMSc : MonoBehaviour
                 break;
             case "Item":
                 ToggleInventoryUI(Ui2);
+                SelectItem(1);
                 break;
             case "Paper":
                 ToggleInventoryUI(Ui3);
+                SelectPaper(1);
                 break;
             case "Map":
                 ToggleInventoryUI(Ui4);
@@ -204,6 +210,7 @@ public class MMSc : MonoBehaviour
             inventoryUI.enabled = true;
 
         }
+        OpenMenu();
     }
 
     void CloseCurrentInventory()
@@ -212,6 +219,7 @@ public class MMSc : MonoBehaviour
         {
             currentInventory.enabled = false;
         }
+        CloseMenu();
     }
 
     public void AddItemToInventory(Item item)
@@ -241,118 +249,38 @@ public class MMSc : MonoBehaviour
 
         }
     }
-    private void UpdateItemInventoryUI()
+    public void UpdateItemInventoryUI()
     {
-        // 현재 아이템 UI 요소를 교체할 때 기존 UI 요소를 먼저 제거합니다.
-        CleanUpItemIcons();
         foreach (Item item in itemOrder)
         {
             if (!itemIcons.ContainsKey(item))
             {
-                // 새로운 아이템 아이콘 생성
-                Image iItemIcon = new GameObject("ItemIcon").AddComponent<Image>();
-                iItemIcon.transform.SetParent(itemIconParent, false); // itemIconParent의 자식으로 설정
-
-                // 아이템의 스프라이트를 설정합니다.
+                GameObject newItemSlot = Instantiate(itemNoneSelectPrefab, itemIconParent);
+                newItemSlot.SetActive(true);
+                Image iItemIcon = newItemSlot.AddComponent<Image>();
                 iItemIcon.sprite = item.iconImage;
-
-                // 아이콘의 크기와 위치를 조절할 필요가 있을 수 있습니다.
-                RectTransform rectTransform = iItemIcon.GetComponent<RectTransform>();
-                rectTransform.sizeDelta = new Vector2(100, 100); // 예시로 크기 설정
-                rectTransform.anchoredPosition = new Vector2(0, 0); // 예시로 위치 설정
-
-                // 클릭 이벤트 추가
-                Button iconButton = iItemIcon.gameObject.AddComponent<Button>();
-                iconButton.onClick.AddListener(() => OnItemIconClicked(item));
-
-                // 아이템과 해당 아이콘의 연결을 저장합니다.
                 itemIcons[item] = iItemIcon;
             }
         }
-
-        // 기본적으로 가장 위에 있는 아이템을 선택합니다.
-        if (itemOrder.Count > 0)
-        {
-            SelectItem(0); // 가장 위에 있는 아이템을 선택
-        }
-    }
-    private void OnItemIconClicked(Item item)
-    {
-        int index = itemOrder.IndexOf(item);
-        if (index >= 0)
-        {
-            SelectItem(index);
-        }
     }
 
-    private void UpdatePaperInventoryUI()
+    public void UpdatePaperInventoryUI()
     {
-        // 현재 종이 UI 요소를 교체할 때 기존 UI 요소를 먼저 제거합니다.
-        CleanUpPaperIcons();
-        // 새 종이 UI 요소를 생성합니다.
         foreach (Paper paper in paperOrder)
         {
-            // 종이가 이미 UI 요소를 가지고 있는지 확인합니다.
             if (!pN.ContainsKey(paper))
             {
-                // 새로운 종이 텍스트 생성
-                TextMeshProUGUI paperText = new GameObject("PaperText").AddComponent<TextMeshProUGUI>();
-                paperText.transform.SetParent(paperIconParent, false); // paperIconParent의 자식으로 설정
-
-                // 종이의 텍스트를 설정합니다.
-                paperText.text = paper.paperName;
-
-                // 텍스트의 크기와 위치를 조절할 필요가 있을 수 있습니다.
-                RectTransform rectTransform = paperText.GetComponent<RectTransform>();
-                rectTransform.sizeDelta = new Vector2(200, 50); // 예시로 크기 설정
-                rectTransform.anchoredPosition = new Vector2(0, 0); // 예시로 위치 설정
-
-                // 클릭 이벤트 추가
-                Button iconButton = paperText.gameObject.AddComponent<Button>();
-                iconButton.onClick.AddListener(() => OnPaperIconClicked(paper));
-
-                // 종이와 해당 텍스트의 연결을 저장합니다.
-                pN[paper] = paperText;
+                GameObject newPaperSlot = Instantiate(paperNoneSelectPrefab, paperIconParent);
+                newPaperSlot.SetActive(true);
+                TextMeshProUGUI pPaper = newPaperSlot.AddComponent<TextMeshProUGUI>();
+                pPaper.text = paper.paperName;
+                pN[paper] = pPaper;
             }
-            else
-            {
-                // 이미 존재하는 경우, 텍스트만 업데이트합니다.
-                pN[paper].text = paper.paperName;
-            }
-        }
-
-        // 기본적으로 가장 위에 있는 종이를 선택합니다.
-        if (paperOrder.Count > 0)
-        {
-            SelectPaper(0); // 가장 위에 있는 종이를 선택
-        }
-    }
-    private void OnPaperIconClicked(Paper paper)
-    {
-        int index = paperOrder.IndexOf(paper);
-        if (index >= 0)
-        {
-            SelectPaper(index);
+            
         }
     }
 
-    private void CleanUpItemIcons()
-    {
-        foreach (var icon in itemIcons.Values)
-        {
-            Destroy(icon);
-        }
-        itemIcons.Clear();
-    }
 
-    private void CleanUpPaperIcons()
-    {
-        foreach (var icon in pN.Values)
-        {
-            Destroy(icon.gameObject);
-        }
-        pN.Clear();
-    }
 
 
     public void Scroll(float scrollAmount)
@@ -532,127 +460,90 @@ public class MMSc : MonoBehaviour
 
     public void SelectPrevItem()
     {
-        if (itemOrder.Count == 1 || currentItemIndex <= 0)
+        if (currentItemIndex >= 1)
         {
-            return;
+            currentItemIndex--;
+            SelectItem(currentItemIndex);
         }
-
-        currentItemIndex--;
-        SelectItem(currentItemIndex);
+        return;
+    }
+    public void SPPItem()
+    {
+        if (itemSelectBG.rectTransform.anchoredPosition.y < 210)
+        {
+            itemSelectBG.rectTransform.anchoredPosition = new Vector3(-460, itemSelectBG.rectTransform.anchoredPosition.y + 190, 0);
+        }
     }
 
     public void SelectPrevPaper()
     {
-        if (paperOrder.Count == 1 || currentPaperIndex <= 0)
+        if (currentItemIndex >= 1)
         {
-            return;
+            currentPaperIndex--;
+            SelectPaper(currentPaperIndex);
         }
+        return;
+    }
 
-        currentPaperIndex--;
-        SelectPaper(currentPaperIndex);
+    public void SPPaper()
+    {
+        if (paperSelectBG.rectTransform.anchoredPosition.y < 302)
+        {
+            paperSelectBG.rectTransform.anchoredPosition = new Vector3(550, paperSelectBG.rectTransform.anchoredPosition.y + 90, 0);
+        }
     }
 
     public void SelectNextItem()
     {
-        if (currentItemIndex >= itemOrder.Count)
+        if (currentItemIndex < itemInventory.Count - 1)
         {
-            return;
+            currentItemIndex++;
+            SelectItem(currentItemIndex);
         }
+        return;
+    }
 
-        currentItemIndex++;
-        SelectItem(currentItemIndex);
+    public void SNItem()
+    {
+        if (itemSelectBG.rectTransform.anchoredPosition.y > -360)
+        {
+            itemSelectBG.rectTransform.anchoredPosition = new Vector3(-460, itemSelectBG.rectTransform.anchoredPosition.y - 190, 0);
+        }
+        return;
     }
 
     public void SelectNextPaper()
     {
-        if (currentPaperIndex >= paperOrder.Count)
+        if (currentPaperIndex < paperInventory.Count - 1)
         {
-            return;
+            currentPaperIndex++;
+            SelectPaper(currentPaperIndex);
         }
+        return;
+    }
 
-        currentPaperIndex++;
-        SelectPaper(currentPaperIndex);
+    public void SNPaper()
+    {
+        if (paperSelectBG.rectTransform.anchoredPosition.y > -418)
+        {
+            paperSelectBG.rectTransform.anchoredPosition = new Vector3(550, paperSelectBG.rectTransform.anchoredPosition.y - 90, 0);
+        }
+        return;
     }
 
     void SelectItem(int index)
     {
-        // 이전 선택 상태에서 선택 배경이 있으면 제거합니다.
-        if (currentItemSelectBG != null)
-        {
-            Destroy(currentItemSelectBG);
-            if (itemIcons.TryGetValue(itemOrder[currentItemIndex], out var icon))
-            {
-                // 아이콘을 원래 부모로 복원하고, 위치를 중앙으로 설정
-                icon.transform.SetParent(itemIconParent, false);
-                icon.rectTransform.anchoredPosition = Vector2.zero;
-            }
-        }
-
         Item item = itemOrder[index];
+        currentItemIndex = index;
         ShowItemDetail(item);
 
-        // 현재 선택된 아이템의 아이콘 가져오기
-        Image selectedItemIcon = itemIcons[item];
-
-        // 선택 배경을 content의 자식으로 생성
-        //itemSelectBG.transform.SetParent(itemIconParent.transform, false);
-       // RectTransform selectBGRectTransform = itemSelectBG.GetComponent<RectTransform>();
-        // 선택 배경 활성화
-        //itemSelectBG.enabled = true;
-        // 선택 배경을 아이콘의 자식으로 만들기 전에 위치 설정
-        //selectBGRectTransform.anchoredPosition = Vector2.zero;
-
-        // 선택 배경을 아이콘의 위에 위치시키기 위해 아이콘을 선택 배경의 자식으로 설정
-        selectedItemIcon.transform.SetParent(itemSelectBG.transform, false);
-
-        // 아이콘의 위치를 선택 배경의 중앙으로 설정
-        selectedItemIcon.rectTransform.anchoredPosition = Vector2.zero;
-
-
-
-        // 현재 선택된 아이템 인덱스 업데이트
-        currentItemIndex = index;
     }
 
     void SelectPaper(int index)
     {
-        // 이전 선택 상태에서 선택 배경이 있으면 제거합니다.
-        if (currentPaperSelectBG != null)
-        {
-            Destroy(currentPaperSelectBG);
-            if (pN.TryGetValue(paperOrder[currentPaperIndex], out var text))
-            {
-                // 텍스트를 원래 부모로 복원하고, 위치를 중앙으로 설정
-                text.transform.SetParent(paperIconParent, false);
-                text.rectTransform.anchoredPosition = Vector2.zero;
-            }
-        }
-
         Paper paper = paperOrder[index];
-        ShowPaperDetail(paper);
-
-        // 현재 선택된 종이의 텍스트 가져오기
-        TextMeshProUGUI selectedPaperN = pN[paper];
-
-        // 선택 배경을 content의 자식으로 생성
-        currentPaperSelectBG = Instantiate(paperSelectBG.gameObject, paperIconParent);
-        RectTransform selectBGRectTransform = currentPaperSelectBG.GetComponent<RectTransform>();
-        // 선택 배경을 텍스트의 자식으로 만들기 전에 위치 설정
-        selectBGRectTransform.anchoredPosition = Vector2.zero;
-
-        // 선택 배경 활성화
-        currentPaperSelectBG.SetActive(true);
-
-        // 선택 배경을 텍스트의 위에 위치시키기 위해 텍스트를 선택 배경의 자식으로 설정
-        selectedPaperN.transform.SetParent(currentPaperSelectBG.transform, false);
-
-        // 텍스트의 위치를 선택 배경의 중앙으로 설정
-        selectedPaperN.rectTransform.anchoredPosition = Vector2.zero;
-
-
-
-        // 현재 선택된 종이 인덱스 업데이트
         currentPaperIndex = index;
+        ShowPaperDetail(paper);
     }
 
     public void Ui2On()
@@ -672,10 +563,12 @@ public class MMSc : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q))
         {
             SelectPrevItem();
+            SPPItem();
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
             SelectNextItem();
+            SNItem();
         }
     }
 
@@ -684,12 +577,29 @@ public class MMSc : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Q))
         {
             SelectPrevPaper();
+            SPPaper();
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
             SelectNextPaper();
+            SNPaper();
         }
 
+    }
+
+    public void OpenMenu()
+    {
+        AudioSource.PlayClipAtPoint(mnOpen, player.transform.position);
+    }
+
+    public void CloseMenu()
+    {
+        AudioSource.PlayClipAtPoint(mnClose, player.transform.position);
+    }
+
+    public void NullMap()
+    {
+        AudioSource.PlayClipAtPoint(nope, player.transform.position);
     }
 
 }

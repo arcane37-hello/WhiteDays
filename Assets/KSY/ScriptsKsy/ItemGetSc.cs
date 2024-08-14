@@ -93,7 +93,7 @@ public class ItemGetSc : MonoBehaviour
     {
         if(diary !=null)
         {
-            GameObject diaryItem = Instantiate(diary);
+            GameObject diaryItem = diary;
             Item item = diaryItem.GetComponent<Item>();
             if (item != null)
             {
@@ -103,7 +103,7 @@ public class ItemGetSc : MonoBehaviour
         }
         if (present != null)
         {
-            GameObject presentItem = Instantiate(present);
+            GameObject presentItem = present;
             Item item = presentItem.GetComponent<Item>();
             if(item != null)
             {
