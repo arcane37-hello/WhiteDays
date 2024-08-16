@@ -7,7 +7,6 @@ using UnityEngine.AI;
 
 public class DalsuMove : MonoBehaviour
 {
-
     public enum CurrentState { idle, patrol, chase, attack, chaseStart, goHome };
     CurrentState curState;
 
@@ -23,8 +22,6 @@ public class DalsuMove : MonoBehaviour
     public AudioClip dsAt;
     public AudioClip dsAtss;
 
-    public LayerMask playerLayer;
-
     public string playerTag = "Player";
 
     public float currentSpeed;
@@ -37,14 +34,13 @@ public class DalsuMove : MonoBehaviour
     private Transform dsTransform;
     private Transform pTransform;
     private NavMeshAgent dsnvAgent;
-    //private 플레이어스크립트이름 playerSc;
     private float dist;
     private PlayerHealth playerHealth;
 
     //추적 사정 거리
     public float chaseDist = 25.0f;
     //공격 사정 거리
-    private float attackDist = 1.2f;
+    private float attackDist = 1.5f;
     private float atSSDist = 1.5f;
 
     bool canAt = true;
@@ -72,14 +68,14 @@ public class DalsuMove : MonoBehaviour
     void Update()
     {
         pTransform = hm.transform;
-        if(playerHealth.ishiding == false)
+        if (playerHealth.ishiding == false)
         {
             if (dsnvAgent.velocity.sqrMagnitude > Mathf.Epsilon)
             {
                 dsTransform.rotation = Quaternion.LookRotation(dsnvAgent.velocity.normalized);
             }
-            StartCoroutine(CheckState());
-            StartCoroutine(CheckStateForAction());
+            CheckState();
+            CheckStateForAction();
         }
         else
         {
@@ -87,10 +83,10 @@ public class DalsuMove : MonoBehaviour
         }
     }
 
-    IEnumerator CheckState()
+    void CheckState()
     {
         dist = Vector3.Distance(dsTransform.position, pTransform.position);
-        yield return new WaitForSeconds(0.25f);
+
         if (dist <= attackDist)
         {
             curState = CurrentState.attack;
@@ -99,34 +95,28 @@ public class DalsuMove : MonoBehaviour
         {
             RaycastHit hit;
             Vector3 raydir = (pTransform.position - dsTransform.position).normalized;
-            if (Physics.Raycast(dsTransform.position, raydir, out hit, chaseDist, playerLayer))
-                if (hit.collider.CompareTag("Player") && playerHealth.ishiding == false)
+            if (Physics.Raycast(dsTransform.position, raydir, out hit, chaseDist))
+            {
+                if (hit.collider.CompareTag("Player"))
                 {
                     if (curState == CurrentState.chase)
                     {
                         curState = CurrentState.chase;
                     }
-                    else if(curState == CurrentState.chaseStart)
+                    else if (curState == CurrentState.chaseStart)
                     {
                         curState = CurrentState.chase;
-                    }    
+                    }
                     else
                     {
                         curState = CurrentState.chaseStart;
                     }
                 }
-                else if (hit.collider.CompareTag("Player") && playerHealth.ishiding == true)
-                {
-                    curState = CurrentState.goHome;
-                }
-        }
-        else
-        {
-            curState = CurrentState.patrol;
+            }
         }
     }
 
-    IEnumerator CheckStateForAction()
+    void CheckStateForAction()
     {
         switch (curState)
         {
@@ -134,7 +124,7 @@ public class DalsuMove : MonoBehaviour
                 Attack();
                 break;
             case CurrentState.patrol:
-                if(isChase == true)
+                if (isChase == true)
                 {
                     isChase = false;
                 }
@@ -145,29 +135,29 @@ public class DalsuMove : MonoBehaviour
                 ChaseStart();
                 break;
             case CurrentState.chase:
+                isChase = true;
                 Chase();
                 break;
             case CurrentState.goHome:
+                if (isChase == true)
+                {
+                    isChase = false;
+                }
                 GoHome();
                 break;
 
 
         }
-        yield return null;
     }
 
     void GoHome()
     {
-        dsnvAgent.isStopped = true;
         AudioSource.PlayClipAtPoint(dsHmm, dsnvAgent.transform.position);
-        dsanim.SetTrigger("goId2");
-        dsanim.SetTrigger("goIdle1");
-        dsnvAgent.isStopped = false;
         dsanim.SetTrigger("goPatrol");
         currentSpeed = patrolSpeed;
         dsnvAgent.speed = currentSpeed;
         dsnvAgent.SetDestination(home.transform.position);
-        Destroy(gameObject, 10f);
+        Destroy(gameObject, 5f);
     }
 
 
@@ -184,11 +174,12 @@ public class DalsuMove : MonoBehaviour
         AudioSource.PlayClipAtPoint(dsHuh, dsnvAgent.transform.position);
         AudioSource.PlayClipAtPoint(dsWs, dsnvAgent.transform.position);
         dsanim.SetTrigger("goChase");
+        curState = CurrentState.chase;
     }
 
     void Chase()
     {
-        dsanim.SetTrigger("goCh2");
+        dsanim.SetTrigger("Chasing");
         currentSpeed = chaseSpeed;
         dsnvAgent.speed = currentSpeed;
         dsnvAgent.SetDestination(pTransform.position);
@@ -196,7 +187,7 @@ public class DalsuMove : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Door"))
+        if (other.gameObject.CompareTag("Door"))
         {
             // StartCoroutine(OpenDalsu());
         }
@@ -213,46 +204,10 @@ public class DalsuMove : MonoBehaviour
 
     void Attack()
     {
-
-
-        if (dist <= attackDist && canAt == true)
-        {
-            currentSpeed = 0;
-            dsnvAgent.speed = currentSpeed;
-            dsnvAgent.isStopped = true;
-            canAt = false;
-            dsanim.SetTrigger("goAt22");
-            canAt = true;
-            if (dist <= attackDist && canAt == true)
-            {
-                currentSpeed = 0;
-                dsnvAgent.speed = currentSpeed;
-                dsnvAgent.isStopped = true;
-                canAt = false;
-                dsanim.SetTrigger("goAt2");
-                canAt = true;
-                if (dist <= attackDist && canAt == true)
-                {
-                    currentSpeed = 0;
-                    dsnvAgent.speed = currentSpeed;
-                    dsnvAgent.isStopped = true;
-                    canAt = false;
-                    dsanim.SetTrigger("goAt3");
-                    canAt = true;
-                }
-            }
-            currentSpeed = chaseSpeed;
-            dsnvAgent.speed = currentSpeed;
-            dsnvAgent.isStopped = false;
-        }
-        else if (dist <= chaseDist)
-        {
-            currentSpeed = chaseSpeed;
-            dsnvAgent.speed = currentSpeed;
-            dsnvAgent.isStopped = false;
-            curState = CurrentState.chase;
-            dsanim.SetTrigger("goChase");
-        }
+        currentSpeed = 0;
+        dsnvAgent.isStopped = true;
+        dsnvAgent.ResetPath();
+        dsanim.SetTrigger("goAt");
 
 
     }
@@ -261,7 +216,7 @@ public class DalsuMove : MonoBehaviour
     {
         AudioSource.PlayClipAtPoint(dsStep, dsnvAgent.transform.position);
         AudioSource.PlayClipAtPoint(dsKey, dsnvAgent.transform.position);
-        
+
     }
 
     IEnumerator DSWS()
@@ -285,7 +240,7 @@ public class DalsuMove : MonoBehaviour
             AudioSource.PlayClipAtPoint(dsAtss, dsnvAgent.transform.position);
             playerHealth.TakeDamage(dsdmg);
         }
-        
+
     }
 
 

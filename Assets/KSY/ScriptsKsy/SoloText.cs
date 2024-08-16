@@ -91,4 +91,12 @@ public class SoloText : MonoBehaviour
         yield return new WaitForSeconds(2);
         honCan.enabled = false;
     }
+    public IEnumerator Hon9()
+    {
+        honCan.enabled = true;
+        honText.text = "이 자리가 아니다.";
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position);
+        yield return new WaitForSeconds(2);
+        honCan.enabled = false;
+    }
 }
