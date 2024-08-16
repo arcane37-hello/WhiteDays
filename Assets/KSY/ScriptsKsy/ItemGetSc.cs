@@ -15,6 +15,9 @@ public class ItemGetSc : MonoBehaviour
 
     public GameObject diary;
     public GameObject present;
+    public GameObject firstPaper;
+
+    private SoloText sT;
 
     void Start()
     {
@@ -68,6 +71,7 @@ public class ItemGetSc : MonoBehaviour
             if (item != null)
             {
                 mmsc.AddItemToInventory(item);
+                sT.Hon4();
                 Destroy(item.gameObject);
                 Debug.Log("아이템 습득:" + item.itemId);
                 return;
@@ -77,6 +81,7 @@ public class ItemGetSc : MonoBehaviour
             if (paper != null)
             {
                 mmsc.AddPaperToInventory(paper);
+                sT.Hon5();
                 Destroy(paper.gameObject);
                 Debug.Log("쪽지 습득:" + paper.paperId);
                 return;
@@ -109,6 +114,16 @@ public class ItemGetSc : MonoBehaviour
             {
                 mmsc.AddItemToInventory(item);
                 Debug.Log("선물이 인벤토리에 추가되었습니다.");
+            }
+        }
+        if (firstPaper != null)
+        {
+            GameObject fP = firstPaper;
+            Paper paper = fP.GetComponent<Paper>();
+            if (paper != null)
+            {
+                mmsc.AddPaperToInventory(paper);
+                Debug.Log("기본 쪽지가 인벤토리에 추가되었습니다.");
             }
         }
     }

@@ -8,10 +8,7 @@ public class Paper : MonoBehaviour
 {
     public int paperId;
     public string paperName;
-    public Sprite iconP;
-    public GameObject paperModel;
-    public Image paperImage;
-
+    public Sprite paperModel;
 
     private void Start()
     {

@@ -51,10 +51,9 @@ public class MMSc : MonoBehaviour
     public TextMeshProUGUI currentPaperTitle;
 
     private GameObject currentItem;
-    private GameObject currentPaper;
+    public Image currentPaper;
 
     public Transform itemBg;
-    public Transform paperBg;
 
     public Image itemIcon;
     public TextMeshProUGUI paperName;
@@ -197,6 +196,9 @@ public class MMSc : MonoBehaviour
             SelectPaper(0);
 
         }
+
+        paperSelectBG.rectTransform.anchoredPosition = new Vector3(550, 302, 0);
+        itemSelectBG.rectTransform.anchoredPosition = new Vector3(-460, 210, 0);
         OpenMenu();
     }
 
@@ -266,10 +268,6 @@ public class MMSc : MonoBehaviour
             
         }
     }
-
-
-
-
     public void RemoveItem(Item item)
     {
         if (itemIcons.ContainsKey(item))
@@ -288,7 +286,6 @@ public class MMSc : MonoBehaviour
 
         }
     }
-
 
     void ShowItemDetail(Item item)
     {
@@ -320,10 +317,10 @@ public class MMSc : MonoBehaviour
         Debug.Log("Showing Item: " + item.itemName);
         if (item.itemModel != null)
         {
-            // ¾ÆÀÌÅÛ ¿ÀºêÁ§Æ® »ý¼º ¹× À§Ä¡ ÃÊ±âÈ­
+            // ì•„ì´í…œ ì˜¤ë¸Œì íŠ¸ ìƒì„± ë° ìœ„ì¹˜ ì´ˆê¸°í™”
             currentItem = Instantiate(item.itemModel, itemBg);
             currentItem.transform.localPosition = Vector3.zero;
-            currentItem.transform.localScale = Vector3.one; // ½ºÄÉÀÏ Á¶Á¤
+            currentItem.transform.localScale = Vector3.one; // ìŠ¤ì¼€ì¼ ì¡°ì •
             currentItem.transform.localRotation = Quaternion.identity;
 
             //icam.transform.localPosition = new Vector3(0, camDis, 0);
@@ -333,7 +330,7 @@ public class MMSc : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("¾ÆÀÌÅÛ¿¡ ÇÒ´çµÈ 3D ¿ÀºêÁ§Æ®°¡¾øÀ½: " + item.itemName);
+            Debug.LogWarning("ì•„ì´í…œì— í• ë‹¹ëœ 3D ì˜¤ë¸Œì íŠ¸ê°€ì—†ìŒ: " + item.itemName);
         }
     }
 
@@ -342,35 +339,20 @@ public class MMSc : MonoBehaviour
     {
         currentPaperTitle.enabled = true;
         currentPaperTitle.text = paper.paperName;
-        Debug.Log("°ñ¶óÁø Á¾ÀÌ: " + paper.paperName);
+        Debug.Log("ê³¨ë¼ì§„ ì¢…ì´: " + paper.paperName);
         Show3DPaper(paper);
     }
 
     void Show3DPaper(Paper paper)
     {
-        if (currentPaper != null)
-        {
-            Destroy(currentPaper);
-        }
-
-        if (paperT != null)
-        {
-            paperT.Release();
-            paperT = null;
-        }
-
-        Debug.Log("Áö±Ý º¸¿©Áö´Â Á¾ÀÌ: " + paper.paperName);
+        Debug.Log("ì§€ê¸ˆ ë³´ì—¬ì§€ëŠ” ì¢…ì´: " + paper.paperName);
         if (paper.paperModel != null)
         {
-            // Á¾ÀÌ ¿ÀºêÁ§Æ® »ý¼º ¹× À§Ä¡ ÃÊ±âÈ­
-            currentPaper = Instantiate(paper.paperModel, paperBg);
-            currentPaper.transform.localPosition = Vector3.zero;
-            currentPaper.transform.localScale = Vector3.one; // ½ºÄÉÀÏ Á¶Á¤
-            currentItem.transform.localRotation = Quaternion.identity;
+            currentPaper.sprite = paper.paperModel;
         }
         else
         {
-            Debug.LogWarning("ÇÒ´çµÈ 3D ¸ðµ¨ÀÌ ¾ø½À´Ï´Ù: " + paper.paperName);
+            Debug.LogWarning("í• ë‹¹ëœ ì´ë¯¸ì§€ê°€ ì—†ìŠµë‹ˆë‹¤: " + paper.paperName);
         }
     }
 
@@ -390,7 +372,7 @@ public class MMSc : MonoBehaviour
         if (currentItemIndex >= 0 && currentItemIndex < itemOrder.Count)
         {
             Item item = itemOrder[currentItemIndex];
-            item.Use(); // ¾ÆÀÌÅÛÀÇ Use ¸Þ¼­µå È£Ãâ
+            item.Use(); // ì•„ì´í…œì˜ Use ë©”ì„œë“œ í˜¸ì¶œ
             if (item.hasFun)
             {
                 RemoveItem(item);
@@ -398,7 +380,7 @@ public class MMSc : MonoBehaviour
         }
         else
         {
-            Debug.LogError("ÇöÀç ¾ÆÀÌÅÛ ÀÎµ¦½º°¡ À¯È¿ÇÏÁö ¾ÊÀº°Å°°Àº..??µ¥¿ä??");
+            Debug.LogError("í˜„ìž¬ ì•„ì´í…œ ì¸ë±ìŠ¤ê°€ ìœ íš¨í•˜ì§€ ì•Šì€ê±°ê°™ì€..??ë°ìš”??");
         }
     }
 
