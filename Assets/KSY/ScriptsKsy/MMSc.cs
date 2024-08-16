@@ -83,7 +83,6 @@ public class MMSc : MonoBehaviour
     public ScrollRect itemScrollRect;
     public ScrollRect paperScrollRect;
 
-    public RectTransform temPos;
     private const float camDis = -800f;
 
 

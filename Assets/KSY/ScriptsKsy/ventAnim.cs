@@ -7,14 +7,20 @@ using UnityEngine.Video;
 public class ventAnim : MonoBehaviour
 {
     public Canvas vpCanvas;
+    public GameObject vpOb;
     public VideoPlayer vp;
     public GameObject hm;
     public PlayerMove pm;
 
+
+    private void Awake()
+    {
+        vpOb.SetActive(false);
+        vpCanvas.enabled = false;
+    }
     void Start()
     {
         vp.loopPointReached += OnVideoEnd;
-        vpCanvas.enabled = false;
     }
 
     void Update()
@@ -26,15 +32,19 @@ public class ventAnim : MonoBehaviour
     {
         if(other == hm)
         {
+            vpOb.SetActive(true);
+            vpCanvas.enabled = true;
             vp.Play();
             //pm.canMove = false;
             //pm.canRot = false;
-            Destroy(gameObject);
+            Destroy(gameObject.GetComponent<BoxCollider>());
         }
     }
 
     private void OnVideoEnd(VideoPlayer vv)
     {
+        vp.Stop();
+        vpOb.SetActive(false);
         vpCanvas.enabled = false;
         //pm.canMove = true;
         //pm.canRot = true;
