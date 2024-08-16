@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1836128979336243466}
   - component: {fileID: 751290154238091649}
   - component: {fileID: 7947496937415913953}
-  - component: {fileID: 167457546348348450}
-  m_Layer: 18
+  - component: {fileID: -8975858467289614513}
+  m_Layer: 6
   m_Name: Candybox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1900789947691668445}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.70710677}
   m_LocalPosition: {x: 0, y: 0, z: -0.0324}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -84,7 +84,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &167457546348348450
+--- !u!114 &-8975858467289614513
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -99,6 +99,9 @@ MonoBehaviour:
   itemId: 3
   itemName: "\uD654\uC774\uD2B8\uB370\uC774 \uC120\uBB3C"
   iconImage: {fileID: 21300070, guid: 17d64ec265f9c24469603d8dc148bf1f, type: 3}
-  itemModel: {fileID: 1900789947691668445}
+  itemModel: {fileID: 4582418743798676037, guid: e1f4fbee3434feb43a45571191790cd1,
+    type: 3}
   description: "\uC804\uD574\uC918\uC57C \uD560 \uC120\uBB3C."
   hasFun: 0
+  itemCamera: {fileID: 4045905818067040359, guid: 5d530c23aa82b2f44ad4a38ba239e87b,
+    type: 3}

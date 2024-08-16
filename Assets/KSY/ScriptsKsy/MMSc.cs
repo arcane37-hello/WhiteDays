@@ -17,7 +17,7 @@ public class MMSc : MonoBehaviour
     public Canvas escC;
     public SMSSc smss;
     public GameObject icamPrefab;
-    private Camera icam;
+    public Camera icam;
     public RawImage itemDisplay;
     public RawImage paperDisplay;
     private RenderTexture itemT;
@@ -83,7 +83,9 @@ public class MMSc : MonoBehaviour
     public ScrollRect itemScrollRect;
     public ScrollRect paperScrollRect;
 
-    private const float camDis = -800f;
+    public float camDis = 0.3f;
+
+    public GameObject itemViewParent;
 
 
     public void Start()
@@ -310,39 +312,10 @@ public class MMSc : MonoBehaviour
 
     void Show3DItem(Item item)
     {
-        if (currentItem != null)
-        {
-            Destroy(currentItem);
-        }
-        if (itemT != null)
-        {
-            itemT.Release();
-            itemT = null;
-        }
-
-        //itemT = new RenderTexture(512, 512, 16);
-        //itemT.Create();
-        //itemDisplay.texture = itemT;
-
-        //CreateItemCam();
+        icam.depth = 30;
         Debug.Log("Showing Item: " + item.itemName);
-        if (item.itemModel != null)
-        {
-            // 아이템 오브젝트 생성 및 위치 초기화
-            currentItem = Instantiate(item.itemModel, itemBg);
-            currentItem.transform.localPosition = Vector3.zero;
-            currentItem.transform.localScale = Vector3.one; // 스케일 조정
-            currentItem.transform.localRotation = Quaternion.identity;
-
-            //icam.transform.localPosition = new Vector3(0, camDis, 0);
-            //icam.transform.LookAt(currentItem.transform.position);
-
-            //icam.targetTexture = itemT;
-        }
-        else
-        {
-            Debug.LogWarning("아이템에 할당된 3D 오브젝트가없음: " + item.itemName);
-        }
+        icam = item.itemCamera;
+        icam.depth = 50;
     }
 
 
@@ -476,14 +449,20 @@ public class MMSc : MonoBehaviour
     {
         Item item = itemOrder[index];
         currentItemIndex = index;
-        ShowItemDetail(item);
+        if(Ui2.enabled == true)
+        {
+            ShowItemDetail(item);
+        }
     }
 
     void SelectPaper(int index)
     {
         Paper paper = paperOrder[index];
         currentPaperIndex = index;
-        ShowPaperDetail(paper);
+        if(Ui3.enabled == true)
+        {
+            ShowPaperDetail(paper);
+        }
     }
 
     public void Ui2On()

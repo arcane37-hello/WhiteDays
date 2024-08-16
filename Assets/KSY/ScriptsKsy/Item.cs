@@ -12,6 +12,7 @@ public class Item : MonoBehaviour
     public GameObject itemModel;
     public string description;
     public bool hasFun;
+    public Camera itemCamera;
 
 
     private void Start()
