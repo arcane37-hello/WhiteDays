@@ -8,7 +8,7 @@ public class ventAnim : MonoBehaviour
 {
     public Canvas vpCanvas;
     public VideoPlayer vp;
-    public GameObject hm;
+    public Collider ventAnimCollider;
     public PlayerMove pm;
 
 
@@ -28,13 +28,13 @@ public class ventAnim : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other == hm)
+        if(other == ventAnimCollider)
         {
             vpCanvas.enabled = true;
+            Destroy(ventAnimCollider);
             vp.Play();
-            //pm.canMove = false;
-            //pm.canRot = false;
-            Destroy(gameObject.GetComponent<BoxCollider>());
+            pm.canMove = false;
+            pm.canRot = false;
         }
     }
 
@@ -42,7 +42,7 @@ public class ventAnim : MonoBehaviour
     {
         vp.Stop();
         vpCanvas.enabled = false;
-        //pm.canMove = true;
-        //pm.canRot = true;
+        pm.canMove = true;
+        pm.canRot = true;
     }
 }
