@@ -7,7 +7,6 @@ using UnityEngine.Video;
 public class ventAnim : MonoBehaviour
 {
     public Canvas vpCanvas;
-    public GameObject vpOb;
     public VideoPlayer vp;
     public GameObject hm;
     public PlayerMove pm;
@@ -15,7 +14,6 @@ public class ventAnim : MonoBehaviour
 
     private void Awake()
     {
-        vpOb.SetActive(false);
         vpCanvas.enabled = false;
     }
     void Start()
@@ -32,7 +30,6 @@ public class ventAnim : MonoBehaviour
     {
         if(other == hm)
         {
-            vpOb.SetActive(true);
             vpCanvas.enabled = true;
             vp.Play();
             //pm.canMove = false;
@@ -44,7 +41,6 @@ public class ventAnim : MonoBehaviour
     private void OnVideoEnd(VideoPlayer vv)
     {
         vp.Stop();
-        vpOb.SetActive(false);
         vpCanvas.enabled = false;
         //pm.canMove = true;
         //pm.canRot = true;
