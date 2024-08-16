@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     public int currentHealth;
     public bool hasMap = false;
     public bool ishiding = false;
+    public bool isComplete = false;
 
     public Canvas gameCanvas; // 캔버스 UI를 public 변수로 선언
 
