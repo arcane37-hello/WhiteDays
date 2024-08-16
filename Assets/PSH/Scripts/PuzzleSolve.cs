@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PuzzleSolve : MonoBehaviour
 {
+    public GameObject effect;
     // 회전값을 체크할 오브젝트들
     public Transform[] targetObjects;
 
@@ -34,6 +35,7 @@ public class PuzzleSolve : MonoBehaviour
         if (allXRotationZero && !isRotating)
         {
             StartRotation();
+            Destroy(effect);
         }
 
         // 회전 애니메이션이 진행 중이라면 회전값 업데이트
