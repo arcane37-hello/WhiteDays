@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LockDoor : MonoBehaviour
 {
+    public GameObject Key;
+
     private bool isLocked = true; // 문이 잠겨있는 상태
 
     // 문을 잠금 해제하는 메서드
@@ -20,6 +22,7 @@ public class LockDoor : MonoBehaviour
         if(isLocked == false)
         {
             Destroy(gameObject);
+            Key.SetActive(true);
         }
     }
 }
