@@ -43,7 +43,7 @@ public class ItemGetSc : MonoBehaviour
 
         if(Physics.Raycast(ray, out hit, pickRange))
         {
-            if(hit.collider.GetComponent<Item>() != null || hit.collider.GetComponent<Paper1>() !=null)
+            if(hit.collider.GetComponent<Item>() != null || hit.collider.GetComponent<Paper>() !=null || hit.collider.GetComponent<Complete>() != null)
             {
                 defaultAim.enabled = false;
                 selectAim.enabled =true;
@@ -71,8 +71,9 @@ public class ItemGetSc : MonoBehaviour
             if (item != null)
             {
                 mmsc.AddItemToInventory(item);
-                sT.Hon4();
                 Destroy(item.gameObject);
+                mmsc.GetItem();
+                sT.Hon4();
                 Debug.Log("아이템 습득:" + item.itemId);
                 return;
             }
@@ -81,12 +82,29 @@ public class ItemGetSc : MonoBehaviour
             if (paper != null)
             {
                 mmsc.AddPaperToInventory(paper);
-                sT.Hon5();
                 Destroy(paper.gameObject);
+                mmsc.GetPaper();
+                sT.Hon5();
                 Debug.Log("쪽지 습득:" + paper.paperId);
                 return;
             }
             Debug.Log("쪽지도 아이템도 아님");
+
+            Complete cm = hit.collider.GetComponent<Complete>();
+            if(cm.isLast == false || cm != null)
+            {
+                sT.Hon9();
+                return;
+            }
+            if(cm.isLast == true || cm != null)
+            {
+                Item item1 = mmsc.itemOrder[0];
+                mmsc.RemoveItem(item1);
+                Item item2 = mmsc.itemOrder[0];
+                mmsc.RemoveItem(item2);
+                sT.Hon8();
+                return;
+            }
         }
         else
         {

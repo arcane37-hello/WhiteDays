@@ -10,6 +10,10 @@ using UnityEngine.UI;
 
 public class MMSc : MonoBehaviour
 {
+    public TMP_FontAsset font;
+    public Color textColor = Color.white;
+    public int fontSize = 30;
+
     public Canvas escC;
     public SMSSc smss;
     public GameObject icamPrefab;
@@ -27,6 +31,10 @@ public class MMSc : MonoBehaviour
     public AudioClip mnOpen;
     public AudioClip mnClose;
     public AudioClip nope;
+    public AudioClip chooseItem;
+    public AudioClip choosePaper;
+    public AudioClip getItem;
+    public AudioClip getPaper;
 
     private bool hasMapped;
 
@@ -60,7 +68,7 @@ public class MMSc : MonoBehaviour
 
     public Canvas currentInventory;
 
-    private List<Item> itemOrder = new List<Item>();
+    public List<Item> itemOrder = new List<Item>();
     private Dictionary<Item, Image> itemIcons = new Dictionary<Item, Image>();
     private Dictionary<Item, GameObject> itemModels = new Dictionary<Item, GameObject>();
     private int currentItemIndex = 0;
@@ -164,11 +172,9 @@ public class MMSc : MonoBehaviour
                 break;
             case "Item":
                 ToggleInventoryUI(Ui2);
-                SelectItem(1);
                 break;
             case "Paper":
                 ToggleInventoryUI(Ui3);
-                SelectPaper(1);
                 break;
             case "Map":
                 ToggleInventoryUI(Ui4);
@@ -192,11 +198,11 @@ public class MMSc : MonoBehaviour
             }
             currentInventory = inventoryUI;
             inventoryUI.enabled = true;
-            SelectItem(0);
-            SelectPaper(0);
 
         }
 
+        SelectItem(0);
+        SelectPaper(0);
         paperSelectBG.rectTransform.anchoredPosition = new Vector3(550, 302, 0);
         itemSelectBG.rectTransform.anchoredPosition = new Vector3(-460, 210, 0);
         OpenMenu();
@@ -262,6 +268,12 @@ public class MMSc : MonoBehaviour
                 GameObject newPaperSlot = Instantiate(paperNoneSelectPrefab, paperIconParent);
                 newPaperSlot.SetActive(true);
                 TextMeshProUGUI pPaper = newPaperSlot.AddComponent<TextMeshProUGUI>();
+                pPaper.rectTransform.sizeDelta = new Vector2(400, 80);
+                pPaper.color = textColor;
+                pPaper.font = font;
+                pPaper.enableAutoSizing = false;
+                pPaper.fontSize = fontSize;
+                pPaper.alignment = TextAlignmentOptions.Center;
                 pPaper.text = paper.paperName;
                 pN[paper] = pPaper;
             }
@@ -390,6 +402,7 @@ public class MMSc : MonoBehaviour
         {
             currentItemIndex--;
             SelectItem(currentItemIndex);
+            ChooseItem();
         }
         return;
     }
@@ -407,6 +420,7 @@ public class MMSc : MonoBehaviour
         {
             currentPaperIndex--;
             SelectPaper(currentPaperIndex);
+            ChoosePaper();
         }
         return;
     }
@@ -425,6 +439,7 @@ public class MMSc : MonoBehaviour
         {
             currentItemIndex++;
             SelectItem(currentItemIndex);
+            ChooseItem();
         }
         return;
     }
@@ -444,6 +459,7 @@ public class MMSc : MonoBehaviour
         {
             currentPaperIndex++;
             SelectPaper(currentPaperIndex);
+            ChoosePaper();
         }
         return;
     }
@@ -462,7 +478,6 @@ public class MMSc : MonoBehaviour
         Item item = itemOrder[index];
         currentItemIndex = index;
         ShowItemDetail(item);
-
     }
 
     void SelectPaper(int index)
@@ -526,6 +541,26 @@ public class MMSc : MonoBehaviour
     public void NullMap()
     {
         AudioSource.PlayClipAtPoint(nope, player.transform.position);
+    }
+
+    public void ChooseItem()
+    {
+        AudioSource.PlayClipAtPoint(chooseItem, player.transform.position);
+    }
+
+    public void ChoosePaper()
+    {
+        AudioSource.PlayClipAtPoint(choosePaper, player.transform.position);
+    }
+
+    public void GetItem()
+    {
+        AudioSource.PlayClipAtPoint(getItem, player.transform.position);
+    }
+
+    public void GetPaper()
+    {
+        AudioSource.PlayClipAtPoint(getPaper, player.transform.position);
     }
 
 }
