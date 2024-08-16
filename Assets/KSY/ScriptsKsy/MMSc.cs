@@ -193,6 +193,8 @@ public class MMSc : MonoBehaviour
             }
             currentInventory = inventoryUI;
             inventoryUI.enabled = true;
+            SelectItem(0);
+            SelectPaper(0);
 
         }
         OpenMenu();
@@ -268,18 +270,6 @@ public class MMSc : MonoBehaviour
 
 
 
-    public void Scroll(float scrollAmount)
-    {
-        if (Ui2 == true)
-        {
-            itemScrollRect.verticalNormalizedPosition += scrollAmount;
-        }
-        if (Ui3 == true)
-        {
-            paperScrollRect.verticalNormalizedPosition += scrollAmount;
-        }
-    }
-
     public void RemoveItem(Item item)
     {
         if (itemIcons.ContainsKey(item))
@@ -298,28 +288,7 @@ public class MMSc : MonoBehaviour
 
         }
     }
-    public void RemovePaper(Paper paper)
-    {
-        if (pN.ContainsKey(paper))
-        {
-            // 텍스트 UI를 제거하고
-            Destroy(pN[paper].gameObject);
-            pN.Remove(paper);
-            paperOrder.Remove(paper);
 
-            // 현재 종이 인덱스 업데이트
-            if (currentPaperIndex >= paperOrder.Count)
-            {
-                currentPaperIndex = paperOrder.Count - 1;
-            }
-
-            // 선택된 종이 업데이트
-            if (paperOrder.Count > 0)
-            {
-                SelectPaper(currentPaperIndex);
-            }
-        }
-    }
 
     void ShowItemDetail(Item item)
     {
@@ -390,11 +359,6 @@ public class MMSc : MonoBehaviour
             paperT = null;
         }
 
-        //paperT = new RenderTexture(512, 512, 0);
-        //paperT.Create();
-        //paperDisplay.texture = paperT;
-
-        //CreatePaperCam();
         Debug.Log("지금 보여지는 종이: " + paper.paperName);
         if (paper.paperModel != null)
         {
@@ -403,11 +367,6 @@ public class MMSc : MonoBehaviour
             currentPaper.transform.localPosition = Vector3.zero;
             currentPaper.transform.localScale = Vector3.one; // 스케일 조정
             currentItem.transform.localRotation = Quaternion.identity;
-
-            //icam.transform.localPosition = new Vector3(0, camDis, 0);
-            //icam.transform.LookAt(currentPaper.transform.position);
-
-            //icam.targetTexture = paperT;
         }
         else
         {

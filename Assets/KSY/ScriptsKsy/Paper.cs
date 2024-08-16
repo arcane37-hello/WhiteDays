@@ -10,6 +10,7 @@ public class Paper : MonoBehaviour
     public string paperName;
     public Sprite iconP;
     public GameObject paperModel;
+    public Image paperImage;
 
 
     private void Start()
