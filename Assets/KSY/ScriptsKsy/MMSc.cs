@@ -51,10 +51,9 @@ public class MMSc : MonoBehaviour
     public TextMeshProUGUI currentPaperTitle;
 
     private GameObject currentItem;
-    private GameObject currentPaper;
+    public Image currentPaper;
 
     public Transform itemBg;
-    public Transform paperBg;
 
     public Image itemIcon;
     public TextMeshProUGUI paperName;
@@ -195,6 +194,9 @@ public class MMSc : MonoBehaviour
             inventoryUI.enabled = true;
 
         }
+
+        paperSelectBG.rectTransform.anchoredPosition = new Vector3(550, 302, 0);
+        itemSelectBG.rectTransform.anchoredPosition = new Vector3(-460, 210, 0);
         OpenMenu();
     }
 
@@ -265,21 +267,6 @@ public class MMSc : MonoBehaviour
         }
     }
 
-
-
-
-    public void Scroll(float scrollAmount)
-    {
-        if (Ui2 == true)
-        {
-            itemScrollRect.verticalNormalizedPosition += scrollAmount;
-        }
-        if (Ui3 == true)
-        {
-            paperScrollRect.verticalNormalizedPosition += scrollAmount;
-        }
-    }
-
     public void RemoveItem(Item item)
     {
         if (itemIcons.ContainsKey(item))
@@ -296,28 +283,6 @@ public class MMSc : MonoBehaviour
                 SelectItem(currentItemIndex);
             }
 
-        }
-    }
-    public void RemovePaper(Paper paper)
-    {
-        if (pN.ContainsKey(paper))
-        {
-            // 텍스트 UI를 제거하고
-            Destroy(pN[paper].gameObject);
-            pN.Remove(paper);
-            paperOrder.Remove(paper);
-
-            // 현재 종이 인덱스 업데이트
-            if (currentPaperIndex >= paperOrder.Count)
-            {
-                currentPaperIndex = paperOrder.Count - 1;
-            }
-
-            // 선택된 종이 업데이트
-            if (paperOrder.Count > 0)
-            {
-                SelectPaper(currentPaperIndex);
-            }
         }
     }
 
@@ -379,39 +344,14 @@ public class MMSc : MonoBehaviour
 
     void Show3DPaper(Paper paper)
     {
-        if (currentPaper != null)
-        {
-            Destroy(currentPaper);
-        }
-
-        if (paperT != null)
-        {
-            paperT.Release();
-            paperT = null;
-        }
-
-        //paperT = new RenderTexture(512, 512, 0);
-        //paperT.Create();
-        //paperDisplay.texture = paperT;
-
-        //CreatePaperCam();
         Debug.Log("지금 보여지는 종이: " + paper.paperName);
         if (paper.paperModel != null)
         {
-            // 종이 오브젝트 생성 및 위치 초기화
-            currentPaper = Instantiate(paper.paperModel, paperBg);
-            currentPaper.transform.localPosition = Vector3.zero;
-            currentPaper.transform.localScale = Vector3.one; // 스케일 조정
-            currentItem.transform.localRotation = Quaternion.identity;
-
-            //icam.transform.localPosition = new Vector3(0, camDis, 0);
-            //icam.transform.LookAt(currentPaper.transform.position);
-
-            //icam.targetTexture = paperT;
+            currentPaper.sprite = paper.paperModel;
         }
         else
         {
-            Debug.LogWarning("할당된 3D 모델이 없습니다: " + paper.paperName);
+            Debug.LogWarning("할당된 이미지가 없습니다: " + paper.paperName);
         }
     }
 
