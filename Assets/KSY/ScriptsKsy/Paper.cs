@@ -10,7 +10,6 @@ public class Paper : MonoBehaviour
     public string paperName;
     public Sprite paperModel;
 
-
     private void Start()
     {
     }

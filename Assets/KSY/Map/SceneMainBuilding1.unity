@@ -1216,8 +1216,8 @@ MonoBehaviour:
   smss: {fileID: 116708552}
   icamPrefab: {fileID: 9122826016439516744, guid: 7ccb0fafb3b56e449a6a3debb907c19c,
     type: 3}
-  itemDisplay: {fileID: 0}
-  paperDisplay: {fileID: 0}
+  itemDisplay: {fileID: 619123979}
+  paperDisplay: {fileID: 1973471146}
   player: {fileID: 1656928016}
   mnOpen: {fileID: 8300000, guid: 49d6b1cd584d71548881844379aa793c, type: 3}
   mnClose: {fileID: 8300000, guid: 1a792cbdee5665241a0bac57fad290bf, type: 3}
@@ -4247,7 +4247,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &750918396
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8829,6 +8829,8 @@ MonoBehaviour:
   rotSpeed: 200
   yVelocity: 2
   stamina: 100
+  canMove: 0
+  canRot: 0
 --- !u!136 &1656928027
 CapsuleCollider:
   m_ObjectHideFlags: 0

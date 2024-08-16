@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Cameras;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -10,10 +11,18 @@ public class PlayerMove : MonoBehaviour
     public float rotSpeed = 200.0f;
     public float yVelocity = 2.0f;
     public float stamina = 100.0f;
+    public bool canMove;
+    public bool canRot;
+
+    public AudioClip walk;
+    public AudioClip run;
+    public AudioClip crawl;
+
 
     private bool isCoolingDown = false;
     private float originalMoveSpeed;
     private bool isSprinting = false;
+    private float standing = 0f;
 
     float rotX;
     float rotY;
@@ -39,11 +48,13 @@ public class PlayerMove : MonoBehaviour
         animator = GetComponent<Animator>(); // 애니메이터 컴포넌트 가져오기
 
         originalMoveSpeed = moveSpeed;
+        canMove = true;
+        canRot = true;
     }
 
     void Update()
     {
-        if (stamina > 0)
+        if (stamina > 0 && canMove == true)
         {
             Move();
         }
@@ -55,13 +66,29 @@ public class PlayerMove : MonoBehaviour
             }
         }
 
-        Rotate();
+        if (canRot == true)
+        {
+            Rotate();
+        }
     }
 
     void Move()
     {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
+
+        float threshold = 0.1f; // 아주 작은 값, 이 값 이하일 때 입력이 없다고 판단
+
+        // 입력이 없거나 거의 없을 때
+        if (Mathf.Abs(h) < threshold && Mathf.Abs(v) < threshold)
+        {
+            animator.Play("Stand");
+
+        }
+        else
+        {
+            MoveState();
+        }
 
         // 질주 입력 확인
         if (Input.GetKeyDown(KeyCode.LeftShift) && stamina > 0)
@@ -73,25 +100,7 @@ public class PlayerMove : MonoBehaviour
             isSprinting = false;
         }
 
-        // 질주 상태에 따라 속도 조정 및 애니메이션 트리거 설정
-        if (isSprinting)
-        {
-            moveSpeed = sprintSpeed;
-            stamina -= 5.0f * Time.deltaTime;
-            animator.SetTrigger("Run"); // RunTrigger 활성화
-        }
-        else if (Input.GetKey(KeyCode.LeftControl))
-        {
-            moveSpeed = walkSpeed;
-            stamina += 3.0f * Time.deltaTime;
-            animator.SetTrigger("Walk"); // WalkTrigger 활성화
-        }
-        else
-        {
-            moveSpeed = originalMoveSpeed;
-            stamina += 3.0f * Time.deltaTime;
-            animator.SetTrigger("Stand"); // StandTrigger 활성화
-        }
+        
 
         // 스태미나를 0에서 100 사이로 제한
         stamina = Mathf.Clamp(stamina, 0.0f, 100.0f);
@@ -145,6 +154,35 @@ public class PlayerMove : MonoBehaviour
         // 7초 후, 스태미나를 재충전
         isCoolingDown = false;
         stamina = 100.0f;
+    }
+
+    private void MoveState()
+    {
+        // 질주 상태에 따라 속도 조정 및 애니메이션 트리거 설정
+        if (isSprinting)
+        {
+            moveSpeed = sprintSpeed;
+            stamina -= 5.0f * Time.deltaTime;
+            // animator.SetTrigger("Run"); // RunTrigger 활성화
+            animator.Play("Run");
+            // AudioSource.PlayClipAtPoint(run, transform.position);
+        }
+        else if (Input.GetKey(KeyCode.LeftControl))
+        {
+            moveSpeed = walkSpeed;
+            stamina += 3.0f * Time.deltaTime;
+            // animator.SetTrigger("Walk"); // WalkTrigger 활성화
+            animator.Play("Crawl");
+            // AudioSource.PlayClipAtPoint(crawl, transform.position);
+        }
+        else
+        {
+            moveSpeed = originalMoveSpeed;
+            stamina += 3.0f * Time.deltaTime;
+            // animator.SetTrigger("Stand"); // StandTrigger 활성화
+            animator.Play("Walk");
+            // AudioSource.PlayClipAtPoint(walk, transform.position);
+        }
     }
 }
 
