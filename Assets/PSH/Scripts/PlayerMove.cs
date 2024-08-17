@@ -18,7 +18,6 @@ public class PlayerMove : MonoBehaviour
     public AudioClip run;
     public AudioClip crawl;
 
-
     private bool isCoolingDown = false;
     private float originalMoveSpeed;
     private bool isSprinting = false;
@@ -32,7 +31,7 @@ public class PlayerMove : MonoBehaviour
     Vector3 gravityPower;
 
     Animator animator; // 애니메이터 컴포넌트
-
+    AudioSource audioSource; // AudioSource 컴포넌트
 
     void Start()
     {
@@ -50,11 +49,16 @@ public class PlayerMove : MonoBehaviour
         originalMoveSpeed = moveSpeed;
         canMove = true;
         canRot = true;
+
+        // AudioSource 컴포넌트 추가
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.spatialBlend = 1.0f; // 3D 사운드 설정
+        audioSource.volume = 1.0f; // 기본 음량 설정
     }
 
     void Update()
     {
-        if (stamina > 0 && canMove == true)
+        if (stamina > 0 && canMove)
         {
             Move();
         }
@@ -66,7 +70,7 @@ public class PlayerMove : MonoBehaviour
             }
         }
 
-        if (canRot == true)
+        if (canRot)
         {
             Rotate();
         }
@@ -83,7 +87,6 @@ public class PlayerMove : MonoBehaviour
         if (Mathf.Abs(h) < threshold && Mathf.Abs(v) < threshold)
         {
             animator.Play("Stand");
-
         }
         else
         {
@@ -99,8 +102,6 @@ public class PlayerMove : MonoBehaviour
         {
             isSprinting = false;
         }
-
-        
 
         // 스태미나를 0에서 100 사이로 제한
         stamina = Mathf.Clamp(stamina, 0.0f, 100.0f);
@@ -163,25 +164,38 @@ public class PlayerMove : MonoBehaviour
         {
             moveSpeed = sprintSpeed;
             stamina -= 5.0f * Time.deltaTime;
-            // animator.SetTrigger("Run"); // RunTrigger 활성화
             animator.Play("Run");
-            // AudioSource.PlayClipAtPoint(run, transform.position);
+            PlaySound(run); // 질주 소리 재생
         }
         else if (Input.GetKey(KeyCode.LeftControl))
         {
             moveSpeed = walkSpeed;
             stamina += 3.0f * Time.deltaTime;
-            // animator.SetTrigger("Walk"); // WalkTrigger 활성화
             animator.Play("Crawl");
-            // AudioSource.PlayClipAtPoint(crawl, transform.position);
+            PlaySound(crawl); // 기어가기 소리 재생
         }
         else
         {
             moveSpeed = originalMoveSpeed;
             stamina += 3.0f * Time.deltaTime;
-            // animator.SetTrigger("Stand"); // StandTrigger 활성화
             animator.Play("Walk");
-            // AudioSource.PlayClipAtPoint(walk, transform.position);
+            PlaySound(walk); // 걷기 소리 재생
+        }
+    }
+
+    private void PlaySound(AudioClip clip)
+    {
+        if (clip != null)
+        {
+            // 현재 재생 중인 소리가 없을 때만 소리 재생
+            if (!audioSource.isPlaying)
+            {
+                audioSource.PlayOneShot(clip);
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Audio clip not assigned!");
         }
     }
 }

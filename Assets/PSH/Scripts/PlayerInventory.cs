@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerInventory : MonoBehaviour
 {
     public bool hasKey = false;
+    public bool hasKey2 = false;
     public bool hasPaper = false;
     public bool hasDriver = false;
     public bool hasNipper = false;
@@ -13,6 +14,12 @@ public class PlayerInventory : MonoBehaviour
     {
         hasKey = value;
         Debug.Log("Player has key: " + hasKey);
+    }
+
+    public void SetKey2(bool value)
+    {
+        hasKey2 = value;
+        Debug.Log("Player has key: " + hasKey2);
     }
 
     public void SetPaper(bool value)

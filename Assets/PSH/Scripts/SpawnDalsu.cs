@@ -25,6 +25,7 @@ public class SpawnDalsu : MonoBehaviour
             {
                 objectToActivate.SetActive(true);
                 Debug.Log("Activated the object: " + objectToActivate.name);
+                Destroy(gameObject);
             }
             else
             {

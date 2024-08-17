@@ -7,6 +7,7 @@ public class ObjectInteract : MonoBehaviour
 {
     public float interactionRange = 3.0f; // 열쇠와의 상호작용 거리
     public Camera playerCamera; // 플레이어의 카메라
+    public GameObject specialObject;
 
     void Start()
     {
@@ -21,6 +22,7 @@ public class ObjectInteract : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             TryCollectKey();
+            TryCollectKey2();
             TryCollectPaper();
             TryCollectDriver();
             TryCollectNipper();
@@ -42,6 +44,23 @@ public class ObjectInteract : MonoBehaviour
             }
         }
     }
+
+    void TryCollectKey2()
+    {
+        RaycastHit hit;
+
+        // 카메라의 정면으로 Raycast를 쏘아서 열쇠를 감지합니다.
+        if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, interactionRange))
+        {
+            Key2 key2 = hit.collider.GetComponent<Key2>();
+
+            if (key2 != null)
+            {
+                key2.Collect(); // 열쇠를 수집합니다.
+            }
+        }
+    }
+
     void TryCollectPaper()
     {
         RaycastHit hit;
@@ -68,7 +87,10 @@ public class ObjectInteract : MonoBehaviour
 
             if (driver != null)
             {
-                driver.Collect(); // 드라이버를 수집합니다.
+                if(specialObject == null)
+                {
+                    driver.Collect(); // 드라이버를 수집합니다.
+                }
             }
         }
     }
