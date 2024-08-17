@@ -19,6 +19,9 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
+        game1.enabled = false;
+        game2.enabled = false;
+
         currentHealth = maxHealth;
 
         // 초기 캔버스 상태 설정
@@ -75,7 +78,8 @@ public class PlayerHealth : MonoBehaviour
 
     //이미지 활성화 여부를 업데이트하는 메서드
     private void UpdateCanvasVisibility()
-    {
+    {      
+
         if ( currentHealth < 3)
         {
             game1.enabled = true;
