@@ -10463,7 +10463,10 @@ MonoBehaviour:
   hasMap: 0
   ishiding: 0
   isComplete: 0
-  gameCanvas: {fileID: 1001567369}
+  sT: {fileID: 0}
+  gameOver: {fileID: 0}
+  game1: {fileID: 1902870491}
+  game2: {fileID: 1902870491}
 --- !u!114 &536867999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10549,6 +10552,9 @@ MonoBehaviour:
   present: {fileID: 1900789947691668445, guid: 5c523180a1240964485578172de388bb, type: 3}
   firstPaper: {fileID: 4462788319315763972, guid: c8d6b1aa7220fcc42b24a57f60c26c4e,
     type: 3}
+  ph: {fileID: 0}
+  sT: {fileID: 0}
+  cm: {fileID: 0}
 --- !u!1 &537983928 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7235182707559363021, guid: 2eac76f604c44084fbdc05fd61cfd5ba,
@@ -18117,6 +18123,7 @@ MonoBehaviour:
   dalsu: {fileID: 457957712}
   mm: {fileID: 1032202034}
   escF: {fileID: 526479279}
+  pm: {fileID: 0}
   escCanvas: {fileID: 116186880}
   menuOptions:
   - {fileID: 1167917216}
@@ -18666,14 +18673,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smsC: {fileID: 1572123653}
+  mm: {fileID: 0}
   sms: {fileID: 1888764616522018, guid: 0f06f8c17f407d044b9e0051241e5445, type: 3}
-  camOs: {x: 0, y: 0, z: -200}
-  renderTextureSize: {x: 800, y: 800}
-  camDisF: 1.5
   rawImage: {fileID: 980021565}
-  smsLayer:
-    serializedVersion: 2
-    m_Bits: 16
+  smsCamera: {fileID: 0}
 --- !u!114 &1032202036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18693,6 +18696,7 @@ MonoBehaviour:
   smss: {fileID: 1032202035}
   icamPrefab: {fileID: 9122826016439516744, guid: 7ccb0fafb3b56e449a6a3debb907c19c,
     type: 3}
+  icam: {fileID: 0}
   itemDisplay: {fileID: 1178040587}
   paperDisplay: {fileID: 0}
   player: {fileID: 536867990}
@@ -18724,6 +18728,9 @@ MonoBehaviour:
   itemOrder: []
   itemScrollRect: {fileID: 1309566812}
   paperScrollRect: {fileID: 2075670774}
+  camDis: 0.3
+  itemViewParent: {fileID: 0}
+  pm: {fileID: 0}
 --- !u!4 &1032202037
 Transform:
   m_ObjectHideFlags: 0
@@ -26755,6 +26762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationAngle: 90
   rotationDuration: 1
+  sT: {fileID: 0}
 --- !u!65 &1488117582
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33451,6 +33459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationAngle: 90
   rotationDuration: 1
+  sT: {fileID: 0}
 --- !u!65 &1889720028
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65581,7 +65590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vpCanvas: {fileID: 252446162}
   vp: {fileID: 492906583}
-  hm: {fileID: 536867990}
+  ventAnimCollider: {fileID: 0}
   pm: {fileID: 536867994}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
