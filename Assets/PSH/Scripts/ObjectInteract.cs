@@ -21,6 +21,7 @@ public class ObjectInteract : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F))
         {
             TryCollectKey();
+            TryCollectKey2();
             TryCollectPaper();
             TryCollectDriver();
             TryCollectNipper();
@@ -42,6 +43,23 @@ public class ObjectInteract : MonoBehaviour
             }
         }
     }
+
+    void TryCollectKey2()
+    {
+        RaycastHit hit;
+
+        // 카메라의 정면으로 Raycast를 쏘아서 열쇠를 감지합니다.
+        if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, interactionRange))
+        {
+            Key2 key2 = hit.collider.GetComponent<Key2>();
+
+            if (key2 != null)
+            {
+                key2.Collect(); // 열쇠를 수집합니다.
+            }
+        }
+    }
+
     void TryCollectPaper()
     {
         RaycastHit hit;
