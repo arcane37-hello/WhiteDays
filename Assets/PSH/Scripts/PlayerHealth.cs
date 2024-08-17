@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -10,8 +11,11 @@ public class PlayerHealth : MonoBehaviour
     public bool hasMap = false;
     public bool ishiding = false;
     public bool isComplete = false;
+    public SoloText sT;
+    public AudioClip gameOver;
 
-    public Canvas gameCanvas; // 캔버스 UI를 public 변수로 선언
+    public Image game1;
+    public Image game2;
 
     void Start()
     {
@@ -49,8 +53,13 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Player has died");
-        gameObject.SetActive(false);
+        Time.timeScale = 0;
         GameManager.gm.showGameOverUI();
+        AudioSource.PlayClipAtPoint(gameOver, gameObject.transform.position);
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 
     public int GetCurrentHealth()
@@ -61,15 +70,19 @@ public class PlayerHealth : MonoBehaviour
     public void GetMap()
     {
         hasMap = true;
+        sT.Hon3();
     }
 
-    // 캔버스 활성화 여부를 업데이트하는 메서드
+    //이미지 활성화 여부를 업데이트하는 메서드
     private void UpdateCanvasVisibility()
     {
-        if (gameCanvas != null)
+        if ( currentHealth < 3)
         {
-            // currentHealth가 3 미만일 때 캔버스 활성화
-            gameCanvas.gameObject.SetActive(currentHealth < 3);
+            game1.enabled = true;
+        }
+        if ( currentHealth < 2)
+        {
+            game2.enabled = true;
         }
     }
 }

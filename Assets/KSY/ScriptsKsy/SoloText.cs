@@ -21,82 +21,83 @@ public class SoloText : MonoBehaviour
         
     }
 
-    public IEnumerator Hon1()
+    public void Hon1()
     {
-        honCan.enabled = true;
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position);
-        honText.text = "소영이는 2학년 8반이다.";
-        yield return new WaitForSeconds(2);
+        Canvas honCan2 = Instantiate(honCan);
+        honCan2.enabled = true;
         honCan.enabled = false;
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, 0.7f);
+        honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "소영이는 2학년 8반이다.";
+        Destroy(honCan2.gameObject, 2);
     }
-    public IEnumerator Hon2()
+    public void Hon2()
     {
-        honCan.enabled = true;
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position);
-        honText.text = "내 반이다.";
-        yield return new WaitForSeconds(2);
-        honText.text = "책꽂이에는 교지가 배부되어 있다.";
-        yield return new WaitForSeconds(3);
-        honText.text = "교지에 수록된 지도가 도움이 될 것 같다.";
-        yield return new WaitForSeconds(3.5f);
+        Canvas honCan2 = Instantiate(honCan);
+        honCan2.enabled = true;
         honCan.enabled = false;
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, 0.7f);
+        honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "책꽂이에는 교지가 배부되어 있다.";
+        Destroy(honCan2.gameObject, 3);
     }
-    public IEnumerator Hon3()
+    public void Hon3()
     {
-        honCan.enabled = true;
-        honText.text = "지도를 획득했다.";
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position);
-        yield return new WaitForSeconds(2);
+        Canvas honCan2 = Instantiate(honCan);
+        honCan2.enabled = true;
         honCan.enabled = false;
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, 0.7f);
+        honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "지도를 획득했다.";
+        Destroy(honCan2.gameObject, 2);
     }
-    public IEnumerator Hon4()
+    public void Hon4()
     {
-        honCan.enabled = true;
-        honText.text = "아이템을 획득했다.";
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position);
-        yield return new WaitForSeconds(2);
+        Canvas honCan2 = Instantiate(honCan);
+        honCan2.enabled = true;
         honCan.enabled = false;
+        honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "아이템을 획득했다.";
+        Destroy(honCan2.gameObject, 2);
     }
-    public IEnumerator Hon5()
+    public void Hon5()
     {
-        honCan.enabled = true;
-        honText.text = "쪽지를 획득했다.";
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position);
-        yield return new WaitForSeconds(2);
+        Canvas honCan2 = Instantiate(honCan);
+        honCan2.enabled = true;
         honCan.enabled = false;
+        honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "쪽지를 획득했다.";
+        Destroy(honCan2.gameObject, 2);
     }
-    public IEnumerator Hon6()
+    public void Hon6()
     {
-        honCan.enabled = true;
-        honText.text = "문이 잠겨있다.";
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position);
-        yield return new WaitForSeconds(2);
+        Canvas honCan2 = Instantiate(honCan);
+        honCan2.enabled = true;
         honCan.enabled = false;
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, 0.7f);
+        honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text =  "문이 잠겨있다.";
+        Destroy(honCan2.gameObject, 2);
     }
-    public IEnumerator Hon7()
+    public void Hon7()
     {
-        honCan.enabled = true;
-        honText.text = "지금은 나갈 수 없다.";
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position);
-        yield return new WaitForSeconds(2);
+        Canvas honCan2 = Instantiate(honCan);
+        honCan2.enabled = true;
         honCan.enabled = false;
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, 0.7f);
+        honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "지금은 나갈 수 없다.";
+        Destroy(honCan2.gameObject, 2);
     }
-    public IEnumerator Hon8()
+    public void Hon8()
     {
-        honCan.enabled = true;
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position);
-        honText.text = "선물을 전해주었다.";
-        yield return new WaitForSeconds(2);
-        honText.text = "학교에서 나가자.";
-        yield return new WaitForSeconds(2);
+        Canvas honCan2 = Instantiate(honCan);
+        honCan2.enabled = true;
         honCan.enabled = false;
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, 0.7f);
+        honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "선물을 전해주었다.";
+        Destroy(honCan2.gameObject, 2);
     }
-    public IEnumerator Hon9()
+    public void Hon9()
     {
-        honCan.enabled = true;
-        honText.text = "이 자리가 아니다.";
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position);
-        yield return new WaitForSeconds(2);
+        Canvas honCan2 = Instantiate(honCan);
+        honCan2.enabled = true;
         honCan.enabled = false;
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, 0.7f);
+        honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "이 자리가 아니다.";
+        Destroy(honCan2.gameObject, 2);
     }
 }

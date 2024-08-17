@@ -17,7 +17,10 @@ public class ItemGetSc : MonoBehaviour
     public GameObject present;
     public GameObject firstPaper;
 
-    private SoloText sT;
+    public PlayerHealth ph;
+
+    public SoloText sT;
+    public Complete cm;
 
     void Start()
     {
@@ -91,18 +94,19 @@ public class ItemGetSc : MonoBehaviour
             Debug.Log("쪽지도 아이템도 아님");
 
             Complete cm = hit.collider.GetComponent<Complete>();
-            if(cm.isLast == false || cm != null)
+            if (cm.isLast == false &&  cm != null)
             {
                 sT.Hon9();
                 return;
             }
-            if(cm.isLast == true || cm != null)
+            else if(cm.isLast == true && cm != null)
             {
                 Item item1 = mmsc.itemOrder[0];
                 mmsc.RemoveItem(item1);
                 Item item2 = mmsc.itemOrder[0];
                 mmsc.RemoveItem(item2);
                 sT.Hon8();
+                ph.isComplete = true;
                 return;
             }
         }

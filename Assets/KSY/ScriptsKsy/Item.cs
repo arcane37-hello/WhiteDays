@@ -4,6 +4,8 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+// 0 두유, 1 담배, 2 다이어리, 3 선물, 4 1층 열쇠, 5 2층 열쇠, 6 공구 벨트, 7 니퍼
 public class Item : MonoBehaviour
 {
     public int itemId;
@@ -17,6 +19,7 @@ public class Item : MonoBehaviour
 
     private void Start()
     {
+        
     }
 
     public void Use()

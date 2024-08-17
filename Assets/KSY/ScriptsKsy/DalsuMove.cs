@@ -185,22 +185,6 @@ public class DalsuMove : MonoBehaviour
         dsnvAgent.SetDestination(pTransform.position);
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Door"))
-        {
-            // StartCoroutine(OpenDalsu());
-        }
-    }
-
-    IEnumerator OpenDalsu()
-    {
-        // 멈춘다.
-        yield return new WaitForSeconds(1);
-        // 문을 연다.
-        // 다시 이동한다.
-
-    }
 
     void Attack()
     {
@@ -214,8 +198,8 @@ public class DalsuMove : MonoBehaviour
 
     void DSFootStep()
     {
-        AudioSource.PlayClipAtPoint(dsStep, dsnvAgent.transform.position);
-        AudioSource.PlayClipAtPoint(dsKey, dsnvAgent.transform.position);
+        AudioSource.PlayClipAtPoint(dsStep, dsnvAgent.transform.position, 0.6f);
+        AudioSource.PlayClipAtPoint(dsKey, dsnvAgent.transform.position, 1.3f);
 
     }
 
@@ -239,6 +223,11 @@ public class DalsuMove : MonoBehaviour
         {
             AudioSource.PlayClipAtPoint(dsAtss, dsnvAgent.transform.position);
             playerHealth.TakeDamage(dsdmg);
+        }
+        else
+        {
+            dsanim.SetTrigger("goAt2");
+            curState = CurrentState.chase;
         }
 
     }

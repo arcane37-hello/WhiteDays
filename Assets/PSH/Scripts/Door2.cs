@@ -15,6 +15,8 @@ public class Door2 : MonoBehaviour
 
     private PlayerInventory playerInventory; // 플레이어의 인벤토리 상태를 참조할 변수
 
+    public SoloText sT;
+
     void Start()
     {
         originalRotation = transform.rotation;
@@ -57,6 +59,7 @@ public class Door2 : MonoBehaviour
                     }
                     else
                     {
+                        sT.Hon6();
                         Debug.Log("You need a key to open this door.");
                     }
                 }

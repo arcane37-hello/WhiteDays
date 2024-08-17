@@ -20,8 +20,6 @@ public class MMSc : MonoBehaviour
     public Camera icam;
     public RawImage itemDisplay;
     public RawImage paperDisplay;
-    private RenderTexture itemT;
-    private RenderTexture paperT;
 
     private List<Item> itemInventory = new List<Item>();
     private List<Paper> paperInventory = new List<Paper>();
@@ -51,14 +49,10 @@ public class MMSc : MonoBehaviour
     public Transform itemIconParent;
     public Transform paperIconParent;
 
-    private GameObject itemPrefab;
-    private GameObject paperPrefab;
-
     public TextMeshProUGUI currentItemTitle;
     public TextMeshProUGUI currentItemInfo;
     public TextMeshProUGUI currentPaperTitle;
 
-    private GameObject currentItem;
     public Image currentPaper;
 
     public Transform itemBg;
@@ -86,6 +80,8 @@ public class MMSc : MonoBehaviour
     public float camDis = 0.3f;
 
     public GameObject itemViewParent;
+
+    public PlayerMove pm;
 
 
     public void Start()
@@ -149,6 +145,15 @@ public class MMSc : MonoBehaviour
             CloseCurrentInventory();
         }
 
+        if(Input.GetMouseButton(0))
+        {
+            isRot = true;
+        }
+        else
+        {
+            isRot = false;
+        }
+
 
         if (Ui2.enabled == true)
         {
@@ -206,6 +211,8 @@ public class MMSc : MonoBehaviour
         SelectPaper(0);
         paperSelectBG.rectTransform.anchoredPosition = new Vector3(550, 302, 0);
         itemSelectBG.rectTransform.anchoredPosition = new Vector3(-460, 210, 0);
+        pm.canMove = false;
+        pm.canRot = false;
         OpenMenu();
     }
 
@@ -215,6 +222,8 @@ public class MMSc : MonoBehaviour
         {
             currentInventory.enabled = false;
         }
+        pm.canRot = true;
+        pm.canMove = true;
         CloseMenu();
     }
 
@@ -340,17 +349,6 @@ public class MMSc : MonoBehaviour
         }
     }
 
-
-    private void OnMouseDown()
-    {
-        isRot = true;
-    }
-
-    private void OnMouseUp()
-    {
-        isRot = false;
-    }
-
     void UseItem()
     {
         if (currentItemIndex >= 0 && currentItemIndex < itemOrder.Count)
@@ -467,13 +465,16 @@ public class MMSc : MonoBehaviour
 
     public void Ui2On()
     {
+        Item cL = itemOrder[currentItemIndex];
+        GameObject currentT = cL.itemModel;
+        currentT.transform.Rotate(0, 0, 0);
         if (isRot == true)
         {
-            float rotSpeed = 100f * Time.unscaledDeltaTime;
+            float rotSpeed = 500f * Time.deltaTime;
             float rotX = Input.GetAxis("Mouse X") * rotSpeed;
             float rotY = Input.GetAxis("Mouse Y") * rotSpeed;
-            currentItem.transform.Rotate(Vector3.up * rotX);
-            currentItem.transform.Rotate(Vector3.left * rotY);
+            currentT.transform.Rotate(Vector3.left * -rotY);
+            currentT.transform.Rotate(Vector3.forward * -rotX);
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
