@@ -14,6 +14,7 @@ public class EscSc : MonoBehaviour
     public GameObject mm;
     public GameObject escF;
     private bool isChasing;
+    public PlayerMove pm;
 
     public Canvas escCanvas;
 
@@ -57,6 +58,8 @@ public class EscSc : MonoBehaviour
             if (escCanvas.enabled == true)
             {
                 escCanvas.enabled = false;
+                pm.canMove = true;
+                pm.canRot = true;
                 mm.GetComponent<MMSc>().CloseMenu();
             }
             else
@@ -65,6 +68,8 @@ public class EscSc : MonoBehaviour
                 {
                     cuIn.enabled=false;
                 }
+                pm.canMove = false;
+                pm.canRot = false;
                 mm.GetComponent<MMSc>().OpenMenu();
                 escCanvas.enabled = true;
                 selectedIndex = 0;
