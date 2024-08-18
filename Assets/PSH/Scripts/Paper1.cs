@@ -15,6 +15,6 @@ public class Paper1 : MonoBehaviour
             playerInventory.SetPaper(true);
         }
         Debug.Log(paperName + " paper collected!");
-        Destroy(gameObject); // 종이를 수집하면 오브젝트를 삭제합니다.
+        // Destroy(gameObject); // 종이를 수집하면 오브젝트를 삭제합니다.
     }
 }

@@ -8,6 +8,7 @@ public class GameClear : MonoBehaviour
 {
     public Image fadeImage; // 검은색 이미지 (캔버스에 포함된 이미지)
     public float fadeDuration = 1f; // 페이드 인에 걸리는 시간
+    public PlayerHealth ph;
 
     private void Start()
     {
@@ -22,22 +23,26 @@ public class GameClear : MonoBehaviour
 
     private void Update()
     {
-        // 왼쪽 마우스 버튼 클릭 감지
-        if (Input.GetMouseButtonDown(0))
+        if(ph.isComplete == true)
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-
-            if (Physics.Raycast(ray, out hit))
+            if (Input.GetMouseButtonDown(0))
             {
-                // 클릭한 오브젝트가 이 스크립트가 붙어 있는 오브젝트인지 확인
-                if (hit.transform == transform)
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
+
+                if (Physics.Raycast(ray, out hit))
                 {
-                    // 캔버스 이미지 페이드 인 시작
-                    StartCoroutine(FadeInAndLoadScene());
+                    // 클릭한 오브젝트가 이 스크립트가 붙어 있는 오브젝트인지 확인
+                    if (hit.transform == transform)
+                    {
+                        // 캔버스 이미지 페이드 인 시작
+                        StartCoroutine(FadeInAndLoadScene());
+                    }
                 }
             }
         }
+        // 왼쪽 마우스 버튼 클릭 감지
+        
     }
 
     private IEnumerator FadeInAndLoadScene()
