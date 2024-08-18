@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
-            float playTime = Time.time - startTime;
+            float playTime = startTime;
             int hour = (int)(playTime / 3600);
             int minute = (int)((playTime % 3600) / 60);
             int second = (int)(playTime % 60);

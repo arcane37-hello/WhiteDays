@@ -179,7 +179,7 @@ public class DalsuMove : MonoBehaviour
 
     void Chase()
     {
-        dsanim.SetTrigger("Chasing");
+        dsanim.SetTrigger("goCh2");
         currentSpeed = chaseSpeed;
         dsnvAgent.speed = currentSpeed;
         dsnvAgent.SetDestination(pTransform.position);
