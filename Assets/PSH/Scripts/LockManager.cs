@@ -42,6 +42,7 @@ public class LockManager : MonoBehaviour
         // 버튼에 적힌 숫자 가져오기
         string number = button.GetComponentInChildren<Text>().text;
         inputPassword += number;
+        Debug.Log("버튼이 눌림");
 
         // 비밀번호 길이 확인
         if (inputPassword.Length == password.Length)
