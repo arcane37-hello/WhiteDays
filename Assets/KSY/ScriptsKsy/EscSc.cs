@@ -11,6 +11,7 @@ public class EscSc : MonoBehaviour
 {
     public GameObject player;
     public GameObject dalsu;
+    public GameObject dalsu2;
     public GameObject mm;
     public GameObject escF;
     private bool isChasing;
@@ -52,6 +53,10 @@ public class EscSc : MonoBehaviour
         if (dalsu != null)
         {
             isChasing = dalsu.GetComponent<DalsuMove>().isChase;
+        }
+        else if(dalsu == null)
+        {
+            isChasing = dalsu2.GetComponent<DalsuMove>().isChase;
         }
         if (Input.GetKeyDown(KeyCode.Escape) && !isChasing)
         {
