@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
-using static UnityEditor.Progress;
+// using static UnityEditor.Progress;
 
 public class SMSSc : MonoBehaviour
 {
