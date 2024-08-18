@@ -10,6 +10,7 @@ public class SoloText : MonoBehaviour
     public TextMeshProUGUI honText;
     public GameObject hm;
     public AudioClip hon;
+    public float honVolume = 5;
 
     void Start()
     {
@@ -26,7 +27,7 @@ public class SoloText : MonoBehaviour
         Canvas honCan2 = Instantiate(honCan);
         honCan2.enabled = true;
         honCan.enabled = false;
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position, 0.7f);
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, honVolume);
         honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "소영이는 2학년 8반이다.";
         Destroy(honCan2.gameObject, 2);
     }
@@ -35,7 +36,7 @@ public class SoloText : MonoBehaviour
         Canvas honCan2 = Instantiate(honCan);
         honCan2.enabled = true;
         honCan.enabled = false;
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position, 0.7f);
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, honVolume);
         honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "책꽂이에는 교지가 배부되어 있다.";
         Destroy(honCan2.gameObject, 3);
     }
@@ -44,7 +45,7 @@ public class SoloText : MonoBehaviour
         Canvas honCan2 = Instantiate(honCan);
         honCan2.enabled = true;
         honCan.enabled = false;
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position, 0.7f);
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, honVolume);
         honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "지도를 획득했다.";
         Destroy(honCan2.gameObject, 2);
     }
@@ -69,7 +70,7 @@ public class SoloText : MonoBehaviour
         Canvas honCan2 = Instantiate(honCan);
         honCan2.enabled = true;
         honCan.enabled = false;
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position, 0.7f);
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, honVolume);
         honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text =  "문이 잠겨있다.";
         Destroy(honCan2.gameObject, 2);
     }
@@ -78,7 +79,7 @@ public class SoloText : MonoBehaviour
         Canvas honCan2 = Instantiate(honCan);
         honCan2.enabled = true;
         honCan.enabled = false;
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position, 0.7f);
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, honVolume);
         honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "지금은 나갈 수 없다.";
         Destroy(honCan2.gameObject, 2);
     }
@@ -87,7 +88,7 @@ public class SoloText : MonoBehaviour
         Canvas honCan2 = Instantiate(honCan);
         honCan2.enabled = true;
         honCan.enabled = false;
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position, 0.7f);
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, honVolume);
         honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "선물을 전해주었다.";
         Destroy(honCan2.gameObject, 2);
     }
@@ -96,8 +97,17 @@ public class SoloText : MonoBehaviour
         Canvas honCan2 = Instantiate(honCan);
         honCan2.enabled = true;
         honCan.enabled = false;
-        AudioSource.PlayClipAtPoint(hon, hm.transform.position, 0.7f);
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, honVolume);
         honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "이 자리가 아니다.";
+        Destroy(honCan2.gameObject, 2);
+    }
+    public void Hon10()
+    {
+        Canvas honCan2 = Instantiate(honCan);
+        honCan2.enabled = true;
+        honCan.enabled = false;
+        AudioSource.PlayClipAtPoint(hon, hm.transform.position, honVolume);
+        honCan2.GetComponentInChildren<Image>().GetComponentInChildren<TextMeshProUGUI>().text = "공구 상자다.";
         Destroy(honCan2.gameObject, 2);
     }
 }

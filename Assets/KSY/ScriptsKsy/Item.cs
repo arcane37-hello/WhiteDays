@@ -47,7 +47,7 @@ public class Item : MonoBehaviour
     private void SoyMilk()
     {
         PlayerHealth ph = FindObjectOfType<PlayerHealth>();
-        if(ph != null)
+        if(ph != null && ph.currentHealth != 3)
         {
             ph.Heal(1);
         }

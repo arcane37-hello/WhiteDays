@@ -16,6 +16,10 @@ public class LockManager : MonoBehaviour
     public string password = "1234"; // 설정된 비밀번호
     public string inputPassword = ""; // 입력된 비밀번호
 
+    public AudioClip chak;
+    public AudioClip yes;
+    public Camera mcam;
+
     void Awake()
     {
         if(lm == null)
@@ -42,6 +46,7 @@ public class LockManager : MonoBehaviour
         // 버튼에 적힌 숫자 가져오기
         string number = button.GetComponentInChildren<Text>().text;
         inputPassword += number;
+        AudioSource.PlayClipAtPoint(chak, mcam.transform.position);
         Debug.Log("버튼이 눌림");
 
         // 비밀번호 길이 확인
@@ -56,6 +61,7 @@ public class LockManager : MonoBehaviour
         if (inputPassword == password)
         {
             // 비밀번호 맞춤
+            AudioSource.PlayClipAtPoint(yes, mcam.transform.position);
             Destroy(lockObject); // 자물쇠 오브젝트 파괴
             if (lockDoorScript != null)
             {

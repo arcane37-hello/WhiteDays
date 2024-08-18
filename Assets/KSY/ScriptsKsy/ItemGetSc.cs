@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -71,8 +72,40 @@ public class ItemGetSc : MonoBehaviour
         if (Physics.Raycast(ray, out hit, pickRange))
         {
             Item item = hit.collider.GetComponent<Item>();
-            if (item != null)
+            if (item != null && item.itemId != 6 && item.itemId != 7)
             {
+                mmsc.AddItemToInventory(item);
+                Destroy(item.gameObject);
+                mmsc.GetItem();
+                sT.Hon4();
+                Debug.Log("아이템 습득:" + item.itemId);
+                return;
+            }
+            else if(item != null && item.itemId == 6)
+            {
+                if(ph.canDriver == true )
+                {
+                    mmsc.AddItemToInventory(item);
+                    Destroy(item.gameObject);
+                    mmsc.GetItem();
+                    sT.Hon4();
+                    Debug.Log("아이템 습득:" + item.itemId);
+                    return;
+                }
+                else if(ph.canDriver == false )
+                {
+                    sT.Hon10();
+                    return;
+                }
+            }
+            else if (item != null && item.itemId == 7)
+            {
+                // 플레이어의 인벤토리 상태를 업데이트합니다.
+                PlayerInventory playerInventory = FindObjectOfType<PlayerInventory>();
+                if (playerInventory != null)
+                {
+                    playerInventory.SetNipper(true);
+                }
                 mmsc.AddItemToInventory(item);
                 Destroy(item.gameObject);
                 mmsc.GetItem();
@@ -89,17 +122,21 @@ public class ItemGetSc : MonoBehaviour
                 mmsc.GetPaper();
                 sT.Hon5();
                 Debug.Log("쪽지 습득:" + paper.paperId);
+                if (paper.isDriver == true)
+                {
+                    ph.canDriver = true;
+                }
                 return;
             }
             Debug.Log("쪽지도 아이템도 아님");
 
             Complete cm = hit.collider.GetComponent<Complete>();
-            if (cm.isLast == false &&  cm != null)
+            if (cm != null && cm.isLast == false)
             {
                 sT.Hon9();
                 return;
             }
-            else if(cm.isLast == true && cm != null)
+            else if(cm != null && cm.isLast == true)
             {
                 Item item1 = mmsc.itemOrder[0];
                 mmsc.RemoveItem(item1);

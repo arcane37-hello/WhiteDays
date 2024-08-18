@@ -9,6 +9,7 @@ public class Paper : MonoBehaviour
     public int paperId;
     public string paperName;
     public Sprite paperModel;
+    public bool isDriver;
 
     private void Start()
     {

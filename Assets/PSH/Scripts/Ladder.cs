@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class Ladder : MonoBehaviour
 {
-    private bool isDragging = false; // 사다리를 드래그 중인지 여부
+    public bool isDragging = false; // 사다리를 드래그 중인지 여부
     private Vector3 offset; // 사다리와 마우스 사이의 거리
     private Camera mainCamera; // 메인 카메라 참조
+    public bool can = false;
+    public GameObject hm;
+    public float shortDis = 1;
+    public float dis;
+    public GameObject pos;
 
     private void Start()
     {
@@ -18,14 +23,35 @@ public class Ladder : MonoBehaviour
         }
     }
 
+    public void Update()
+    {
+        dis = Vector3.Distance(hm.transform.position, gameObject.transform.position);
+    }
+
     private void OnMouseDown()
     {
         if (mainCamera == null) return;
-
-        // 사다리에 마우스 클릭 시 드래그 시작
-        isDragging = true;
-        // 사다리의 현재 위치와 마우스 위치 사이의 오프셋을 계산
-        offset = transform.position - GetMouseWorldPosition();
+        
+        if(can == false && dis < shortDis)
+        {
+            // 사다리에 마우스 클릭 시 드래그 시작
+            isDragging = true;
+            // 사다리의 현재 위치와 마우스 위치 사이의 오프셋을 계산
+            offset = transform.position - GetMouseWorldPosition();
+        }
+        else if(can == true && dis < shortDis)
+        {
+            GameObject pos2 = Instantiate(pos);
+            pos2.SetActive(true);
+            Vector3 position = pos2.GetComponent<Transform>().position;
+            hm.GetComponent<Collider>().enabled = false;
+            hm.GetComponent<CharacterController>().enabled = false;
+            hm.transform.position = position;
+            Destroy(pos2 );
+            hm.GetComponent<CharacterController>().enabled = true;
+            hm.GetComponent<Collider>().enabled = true;
+            return;
+        }
     }
 
     private void OnMouseDrag()
@@ -55,11 +81,14 @@ public class Ladder : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        // 충돌 시 사다리의 속도를 감소시키거나 처리
-        Rigidbody rb = GetComponent<Rigidbody>();
-        if (rb != null)
-        {
-            rb.velocity = Vector3.zero; // 충돌 시 속도를 0으로 설정
-        }
+            // 충돌 시 사다리의 속도를 감소시키거나 처리
+            Rigidbody rb = GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.velocity = Vector3.zero; // 충돌 시 속도를 0으로 설정
+            }
+
     }
+
+
 }

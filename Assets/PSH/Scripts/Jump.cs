@@ -9,26 +9,28 @@ public class Jump : MonoBehaviour
 
     private float yVelocity = 0.0f; // y축 방향 속도
     private CharacterController cc;
+    public bool canJump;
 
     void Start()
     {
+        canJump = true;
         cc = GetComponent<CharacterController>();
     }
 
     void Update()
     {
-        // 점프 입력 확인
-        if (Input.GetButtonDown("Jump"))
-        {
-            // 점프 속도 계산
-            yVelocity = Mathf.Sqrt(jumpHeight * -2f * gravity);
-        }
+        //// 점프 입력 확인
+        //if (Input.GetButtonDown("Jump") && canJump == true)
+        //{
+        //    // 점프 속도 계산
+        //    yVelocity = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        //}
 
-        // 공중에서 중력 적용
-        yVelocity += gravity * Time.deltaTime;
+        //// 공중에서 중력 적용
+        //yVelocity += gravity * Time.deltaTime;
 
-        // 캐릭터의 속도 설정
-        Vector3 move = new Vector3(0, yVelocity, 0);
-        cc.Move(move * Time.deltaTime);
+        //// 캐릭터의 속도 설정
+        //Vector3 move = new Vector3(0, yVelocity, 0);
+        //cc.Move(move * Time.deltaTime);
     }
 }

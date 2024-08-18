@@ -226,7 +226,7 @@ public class DalsuMove : MonoBehaviour
         }
         else
         {
-            dsanim.SetTrigger("goAt2");
+            dsanim.SetTrigger("goAt22");
             curState = CurrentState.chase;
         }
 

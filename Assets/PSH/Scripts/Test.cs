@@ -7,6 +7,9 @@ public class Test : MonoBehaviour
     public GameObject objectToMove;  // 이동할 오브젝트
     public Transform newPosition;    // 이동할 위치
     public PlayerInventory playerInventory; // PlayerInventory 인스턴스
+    public Sit sit;
+    public AudioClip nipper;
+    public PlayerHealth ph;
 
     private void Update()
     {
@@ -29,6 +32,8 @@ public class Test : MonoBehaviour
                         // objectToMove를 newPosition으로 이동
                         if (objectToMove != null && newPosition != null)
                         {
+                            ph.inVent = true;
+                            sit.ScaledDown();
                             objectToMove.transform.position = newPosition.position;
                         }
 

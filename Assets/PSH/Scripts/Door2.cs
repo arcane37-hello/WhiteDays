@@ -16,6 +16,7 @@ public class Door2 : MonoBehaviour
     private PlayerInventory playerInventory; // 플레이어의 인벤토리 상태를 참조할 변수
 
     public SoloText sT;
+    public AudioClip open;
 
     void Start()
     {
@@ -52,6 +53,7 @@ public class Door2 : MonoBehaviour
                             }
                             else
                             {
+                                AudioSource.PlayClipAtPoint(open, transform.position);
                                 // 목표 회전으로 회전하도록
                                 StartCoroutine(RotateToTarget());
                             }

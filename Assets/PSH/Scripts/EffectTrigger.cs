@@ -5,11 +5,15 @@ using UnityEngine;
 public class EffectTrigger : MonoBehaviour
 {
     public GameObject targetObject; // 페이드 인을 적용할 대상 오브젝트
+    public Sit sit;
+    public PlayerHealth ph;
 
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
+            ph.inVent = false;
+            sit.ScaledUp();
             // targetObject가 Fade 스크립트를 가지고 있는지 확인
             Fade fadeScript = targetObject.GetComponent<Fade>();
             if (fadeScript != null)

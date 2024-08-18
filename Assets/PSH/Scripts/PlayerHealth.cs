@@ -11,6 +11,8 @@ public class PlayerHealth : MonoBehaviour
     public bool hasMap = false;
     public bool ishiding = false;
     public bool isComplete = false;
+    public bool canDriver = false;
+    public bool inVent = false;
     public SoloText sT;
     public AudioClip gameOver;
 

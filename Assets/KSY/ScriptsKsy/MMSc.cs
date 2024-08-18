@@ -82,7 +82,7 @@ public class MMSc : MonoBehaviour
     public GameObject itemViewParent;
 
     public PlayerMove pm;
-
+    public Jump jump;
 
     public void Start()
     {
@@ -205,15 +205,16 @@ public class MMSc : MonoBehaviour
             currentInventory = inventoryUI;
             inventoryUI.enabled = true;
 
+            SelectItem(0);
+            SelectPaper(0);
+            paperSelectBG.rectTransform.anchoredPosition = new Vector3(550, 302, 0);
+            itemSelectBG.rectTransform.anchoredPosition = new Vector3(-460, 210, 0);
+            jump.canJump = false;
+            pm.canMove = false;
+            pm.canRot = false;
+            OpenMenu();
         }
 
-        SelectItem(0);
-        SelectPaper(0);
-        paperSelectBG.rectTransform.anchoredPosition = new Vector3(550, 302, 0);
-        itemSelectBG.rectTransform.anchoredPosition = new Vector3(-460, 210, 0);
-        pm.canMove = false;
-        pm.canRot = false;
-        OpenMenu();
     }
 
     void CloseCurrentInventory()
@@ -221,10 +222,11 @@ public class MMSc : MonoBehaviour
         if (currentInventory != null)
         {
             currentInventory.enabled = false;
+            jump.canJump = true;
+            pm.canRot = true;
+            pm.canMove = true;
+            CloseMenu();
         }
-        pm.canRot = true;
-        pm.canMove = true;
-        CloseMenu();
     }
 
     public void AddItemToInventory(Item item)
@@ -386,7 +388,7 @@ public class MMSc : MonoBehaviour
 
     public void SelectPrevPaper()
     {
-        if (currentItemIndex >= 1)
+        if (currentPaperIndex >= 1)
         {
             currentPaperIndex--;
             SelectPaper(currentPaperIndex);

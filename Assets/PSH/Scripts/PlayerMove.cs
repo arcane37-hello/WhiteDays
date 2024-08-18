@@ -23,6 +23,7 @@ public class PlayerMove : MonoBehaviour
     private bool isSprinting = false;
     private float standing = 0f;
 
+
     float rotX;
     float rotY;
     float yPos;
@@ -165,38 +166,24 @@ public class PlayerMove : MonoBehaviour
             moveSpeed = sprintSpeed;
             stamina -= 5.0f * Time.deltaTime;
             animator.Play("Run");
-            PlaySound(run); // 질주 소리 재생
         }
         else if (Input.GetKey(KeyCode.LeftControl))
         {
             moveSpeed = walkSpeed;
             stamina += 3.0f * Time.deltaTime;
             animator.Play("Crawl");
-            PlaySound(crawl); // 기어가기 소리 재생
         }
         else
         {
             moveSpeed = originalMoveSpeed;
             stamina += 3.0f * Time.deltaTime;
             animator.Play("Walk");
-            PlaySound(walk); // 걷기 소리 재생
         }
     }
 
-    private void PlaySound(AudioClip clip)
+    public void PlaySound()
     {
-        if (clip != null)
-        {
-            // 현재 재생 중인 소리가 없을 때만 소리 재생
-            if (!audioSource.isPlaying)
-            {
-                audioSource.PlayOneShot(clip);
-            }
-        }
-        else
-        {
-            Debug.LogWarning("Audio clip not assigned!");
-        }
+        AudioSource.PlayClipAtPoint(walk, gameObject.transform.position, 0.5f);
     }
 }
 

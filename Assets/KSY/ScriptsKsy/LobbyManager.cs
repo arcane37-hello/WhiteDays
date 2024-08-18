@@ -20,6 +20,7 @@ public class LobbyManager : MonoBehaviour
     public AudioClip selectSound;
     public AudioClip startSound;
     public AudioClip quitSound;
+    public AudioClip noSound;
 
     void Start()
     {
@@ -93,8 +94,7 @@ public class LobbyManager : MonoBehaviour
                 // ∞‘¿” Ω√¿€
                 break;
             case 1:
-                AudioSource.PlayClipAtPoint(startSound, mCam.transform.position);
-                lfo.GetComponent<LobbyFadeOut>().FadeOutOther();
+                AudioSource.PlayClipAtPoint(noSound, mCam.transform.position);
                 // √ﬂ∞° ƒ¡≈Ÿ√˜?
                 break;
             case 2:

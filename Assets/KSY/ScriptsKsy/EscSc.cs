@@ -33,6 +33,8 @@ public class EscSc : MonoBehaviour
     private Color dC;
     private Color sC = Color.yellow;
     private Vector2[] dP;
+
+    public Jump jump;
     
 
     void Start()
@@ -63,9 +65,10 @@ public class EscSc : MonoBehaviour
             if (escCanvas.enabled == true)
             {
                 escCanvas.enabled = false;
+                mm.GetComponent<MMSc>().CloseMenu();
+                jump.canJump = true;
                 pm.canMove = true;
                 pm.canRot = true;
-                mm.GetComponent<MMSc>().CloseMenu();
             }
             else
             {
@@ -73,6 +76,7 @@ public class EscSc : MonoBehaviour
                 {
                     cuIn.enabled=false;
                 }
+                jump.canJump = false;
                 pm.canMove = false;
                 pm.canRot = false;
                 mm.GetComponent<MMSc>().OpenMenu();
@@ -140,6 +144,9 @@ public class EscSc : MonoBehaviour
                 // 게임 이어하기
                 AudioSource.PlayClipAtPoint(startSound, mcam.transform.position);
                 escCanvas.gameObject.SetActive(false);
+                jump.canJump = true;
+                pm.canMove = true;
+                pm.canRot = true;
                 break;
             case 1:
                 // 로비로 돌아가기

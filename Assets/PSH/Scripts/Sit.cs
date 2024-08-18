@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Sit : MonoBehaviour
 {
+    public PlayerHealth ph;
     // 초기 스케일 값
     private Vector3 initialScale = new Vector3(0.4f, 0.6f, 0.4f);
 
@@ -20,21 +21,38 @@ public class Sit : MonoBehaviour
         targetScale = initialScale;
     }
 
-    private void Update()
+    public void Update()
     {
+        
         // 왼쪽 컨트롤 키가 눌렸는지 체크
         if (Input.GetKey(KeyCode.LeftControl))
         {
-            // 왼쪽 컨트롤 키가 눌리면 스케일을 변경
-            targetScale = scaledDown;
+            if (ph.GetComponent<PlayerHealth>().inVent == false)
+            ScaledDown();
+            transform.localScale = Vector3.Lerp(transform.localScale, targetScale, Time.deltaTime * 5f);
         }
         else
         {
-            // 키가 눌리지 않으면 원래 스케일로 돌아감
-            targetScale = initialScale;
+            if (ph.GetComponent<PlayerHealth>().inVent == false)
+            ScaledUp();
+            transform.localScale = Vector3.Lerp(transform.localScale, targetScale, Time.deltaTime * 5f);
         }
+        if(ph.inVent == true)
+        {
+            ScaledDown();
+            transform.localScale = targetScale;
+        }    
 
         // 스케일을 변경
-        transform.localScale = Vector3.Lerp(transform.localScale, targetScale, Time.deltaTime * 5f);
+        
+    }
+
+    public void ScaledDown()
+    {
+        targetScale = scaledDown;
+    }
+    public void ScaledUp()
+    {
+        targetScale = initialScale;
     }
 }
