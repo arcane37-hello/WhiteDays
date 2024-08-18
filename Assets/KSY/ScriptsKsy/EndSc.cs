@@ -18,6 +18,8 @@ public class EndSc : MonoBehaviour
     void Start()
     {
         finalTime = GameManager.GetPlayTime();
+
+        StartCoroutine(DisplayRandomTime());
     }
 
     void Update()
