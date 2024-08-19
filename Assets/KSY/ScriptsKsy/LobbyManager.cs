@@ -22,6 +22,7 @@ public class LobbyManager : MonoBehaviour
     public AudioClip quitSound;
     public AudioClip noSound;
 
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -47,19 +48,19 @@ public class LobbyManager : MonoBehaviour
         {
             selectedIndex = (selectedIndex < lobbyOptions.Length - 1) ? selectedIndex + 1 : 0;
             selectedIndex = (selectedIndex < lobbyOpImage.Length - 1) ? selectedIndex + 1 : 0;
-            AudioSource.PlayClipAtPoint(selectSound, mCam.transform.position);
+            AudioSource.PlayClipAtPoint(selectSound, mCam.transform.position, 0.6f);
             UpdateMenu();
         }
         else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             selectedIndex = (selectedIndex > 0) ? selectedIndex - 1 : lobbyOptions.Length - 1;
             selectedIndex = (selectedIndex > 0) ? selectedIndex - 1 : lobbyOpImage.Length - 1;
-            AudioSource.PlayClipAtPoint(selectSound, mCam.transform.position);
+            AudioSource.PlayClipAtPoint(selectSound, mCam.transform.position, 0.6f);
             UpdateMenu();
 
         }
 
-        // ½ºÆäÀÌ½º¹Ù·Î ¼±ÅÃ
+        // ï¿½ï¿½ï¿½ï¿½ï¿½Ì½ï¿½ï¿½Ù·ï¿½ ï¿½ï¿½ï¿½ï¿½
         if (Input.GetKeyDown(KeyCode.Space))
         {
             SelectOption();
@@ -88,19 +89,19 @@ public class LobbyManager : MonoBehaviour
         switch (selectedIndex)
         {
             case 0:
-                AudioSource.PlayClipAtPoint(startSound, mCam.transform.position);
+                AudioSource.PlayClipAtPoint(startSound, mCam.transform.position, 5f);
                 lfo.GetComponent<LobbyFadeOut>().FadeOut();
                 
-                // °ÔÀÓ ½ÃÀÛ
+                // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
                 break;
             case 1:
-                AudioSource.PlayClipAtPoint(noSound, mCam.transform.position);
-                // Ãß°¡ ÄÁÅÙÃ÷?
+                AudioSource.PlayClipAtPoint(noSound, mCam.transform.position, 5f);
+                // ï¿½ß°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½?
                 break;
             case 2:
-                AudioSource.PlayClipAtPoint(quitSound, mCam.transform.position);
+                AudioSource.PlayClipAtPoint(quitSound, mCam.transform.position, 3f);
                 lfo.GetComponent<LobbyFadeOut>().FadeOutQuit();
-                // Á¾·áÇÏ±â
+                // ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½
                 break;
 
         }

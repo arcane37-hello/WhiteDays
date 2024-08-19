@@ -37,9 +37,9 @@ public class DalsuMove : MonoBehaviour
     private float dist;
     private PlayerHealth playerHealth;
 
-    //ÃßÀû »çÁ¤ °Å¸®
+    //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½
     public float chaseDist = 25.0f;
-    //°ø°Ý »çÁ¤ °Å¸®
+    //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Å¸ï¿½
     private float attackDist = 1.5f;
     private float atSSDist = 1.5f;
 
@@ -223,6 +223,7 @@ public class DalsuMove : MonoBehaviour
         {
             AudioSource.PlayClipAtPoint(dsAtss, dsnvAgent.transform.position);
             playerHealth.TakeDamage(dsdmg);
+            dsanim.SetTrigger("goAt2");
         }
         else
         {

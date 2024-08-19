@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -8,6 +9,7 @@ public class GameManager : MonoBehaviour
     public static GameManager gm;
 
     public GameObject gameOverUI;
+    public Canvas gameOVUI;
 
     private float startTime;
     private string timeString;
@@ -15,11 +17,11 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        // ¾À¿¡ ´Ü ÇÑ °³¸¸ Á¸ÀçÇÏµµ·Ï Ã³¸®
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½ Ã³ï¿½ï¿½
         if (gm == null)
         {
             gm = this;
-            DontDestroyOnLoad(gameObject); // ¾À ÀüÈ¯ ½Ã¿¡µµ GameManager°¡ ÆÄ±«µÇÁö ¾Êµµ·Ï ¼³Á¤
+            DontDestroyOnLoad(gameObject); // ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½Ã¿ï¿½ï¿½ï¿½ GameManagerï¿½ï¿½ ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Êµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         }
         else
         {
@@ -28,6 +30,8 @@ public class GameManager : MonoBehaviour
     }
     void Start()
     {
+        gameOVUI.enabled = false;
+        // gameOverUI.SetActive = false;
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         if(currentSceneIndex == 1)
         {
@@ -43,39 +47,49 @@ public class GameManager : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == 1)
         {
-            float playTime = startTime;
+            float playTime = Time.time - startTime;
             int hour = (int)(playTime / 3600);
             int minute = (int)((playTime % 3600) / 60);
             int second = (int)(playTime % 60);
             int millisecond = (int)((playTime * 1000) % 1000);
             timeString = string.Format("{0:00}:{1:00}:{2:00}:{3:000}", hour, minute, second, millisecond);
+
         }
+        
+
+        
     }
+
+    
 
     public void showGameOverUI()
     {
-        // °ÔÀÓ ¿À¹ö UI ¿ÀºêÁ§Æ®¸¦ È°¼ºÈ­ÇÑ´Ù.
-        gameOverUI.SetActive(true);
-
-        // °æ°ú ½Ã°£À» ÀúÀå (¾À ÀüÈ¯ ÈÄ¿¡µµ »ç¿ë °¡´É)
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ UI ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ È°ï¿½ï¿½È­ï¿½Ñ´ï¿½.
+        // gameOverUI.SetActive(true);
+        gameOVUI.enabled = true;
+          
+        // ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½Ä¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
         PlayerPrefs.SetString("PlayTime", timeString);
+        
 
-        // ¾÷µ¥ÀÌÆ® ½Ã°£À» 0¹è¼ÓÀ¸·Î º¯°æÇÑ´Ù. (½Ã°£À» ¸ØÃá´Ù)
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½Ã°ï¿½ï¿½ï¿½ 0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½. (ï¿½Ã°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½)
         Time.timeScale = 0;
+        SceneManager.LoadScene(0);
+        
     }
 
     public void GameClear()
     {
-        // °æ°ú ½Ã°£À» ÀúÀå (¾À ÀüÈ¯ ÈÄ¿¡µµ »ç¿ë °¡´É)
+        // ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½Ä¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)
         PlayerPrefs.SetString("PlayTime", timeString);
 
-        // ÇöÀç´Â Å©·¹µ÷ ¾ÀÀÌ ¾Æ´Ï¶ó ¹Ù·Î ¿£µù ¾ÀÀ¸·Î °Ç³Ê ¶Ý´Ï´Ù. 
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Ï¶ï¿½ ï¿½Ù·ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç³ï¿½ ï¿½Ý´Ï´ï¿½. 
         SceneManager.LoadScene(3);
     }
 
     public static string GetPlayTime()
     {
-        // ÀúÀåµÈ °æ°ú ½Ã°£À» ºÒ·¯¿Â´Ù.
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ ï¿½Ò·ï¿½ï¿½Â´ï¿½.
         return gm.timeString;
     }
 }
